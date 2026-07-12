@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Assessment — {{ course.title }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a> / Assessment</p>
+  <h1>{{ course.title }}: assessment</h1>
+  <p class="lede">Score at least {{ course.passing_score }}% to pass and earn your badge.</p>
+
+  <form method="post">
+    {% csrf_token %}
+    {% for question in questions %}
+      <div class="quiz-question">
+        <p class="q-number">Question {{ forloop.counter }} of {{ questions|length }}</p>
+        <p><strong>{{ question.text }}</strong></p>
+        {% for choice in question.choices.all %}
+          <label class="quiz-choice">
+            <input type="radio" name="question_{{ question.id }}" value="{{ choice.id }}" required>
+            {{ choice.text }}
+          </label>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-gold">Submit assessment</button>
+  </form>
+{% endblock %}

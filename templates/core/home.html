@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="hero">
+    <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
+    <h1>Practice-ready training for the social work field.</h1>
+    <p class="lede">
+      Enroll course-by-course or take on a whole school at once. Pass each
+      assessment to earn a badge, complete a school to earn a certificate —
+      yours to view and download at any time.
+    </p>
+    <div style="margin-top:24px; display:flex; gap:12px;">
+      <a href="{% url 'school_list' %}" class="btn btn-primary">Browse the 10 schools</a>
+      <a href="{% url 'course_list' %}" class="btn btn-outline">Search courses</a>
+    </div>
+    <div class="stat-row">
+      <div>
+        <span class="stat-num">{{ stats.school_count }}</span>
+        <span class="stat-label">Schools</span>
+      </div>
+      <div>
+        <span class="stat-num">{{ stats.course_count }}</span>
+        <span class="stat-label">Courses</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <h2>The schools</h2>
+    <div class="school-grid">
+      {% for school in schools %}
+        <a class="school-card" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;">
+          <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
+          <h3>{{ school.name }}</h3>
+          {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
+          <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>
+        </a>
+      {% empty %}
+        <div class="empty-state">Schools are being added — check back soon.</div>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

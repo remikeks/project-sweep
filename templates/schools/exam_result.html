@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Exam result — {{ school.name }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a> / Certification exam result</p>
+
+  {% if result.passed %}
+    <h1>🎓 You passed!</h1>
+    <p class="lede">You scored {{ result.score }}% ({{ result.correct_count }}/{{ result.question_count }} correct) — above the {{ school.passing_score }}% pass mark.</p>
+    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+      <strong>Your certificate for {{ school.name }} is ready.</strong>
+      <p>Head to your <a href="{% url 'my_credentials' %}">badges &amp; certificates</a> page to view and download it, or grab it here:</p>
+    </div>
+  {% else %}
+    <h1>Not quite — {{ result.score }}%</h1>
+    <p class="lede">You got {{ result.correct_count }} of {{ result.question_count }} correct. You need {{ school.passing_score }}% to pass. Review the courses in {{ school.name }} and try again whenever you're ready.</p>
+  {% endif %}
+
+  <div style="margin-top:20px; display:flex; gap:12px;">
+    <a href="{% url 'school_detail' school.slug %}" class="btn btn-outline">Back to {{ school.name }}</a>
+    {% if not result.passed %}
+      <a href="{% url 'school_exam' school.slug %}" class="btn btn-primary">Retake the exam</a>
+    {% else %}
+      <a href="{% url 'my_credentials' %}" class="btn btn-gold">View my credentials</a>
+    {% endif %}
+  </div>
+{% endblock %}

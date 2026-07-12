@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ course.title }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'school_detail' course.school.slug %}">{{ course.school.name }}</a> / {{ course.title }}</p>
+  <h1>{{ course.title }}</h1>
+  <div style="display:flex; gap:8px; align-items:center; margin-bottom:16px;">
+    <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
+    <span class="meta">⏱ {{ course.estimated_minutes }} min estimated</span>
+    <span class="meta">· pass mark {{ course.passing_score }}%</span>
+  </div>
+
+  {% if course.summary %}<p class="lede">{{ course.summary }}</p>{% endif %}
+
+  {% if user.is_authenticated %}
+    {% if badge %}
+      <div class="card" style="border-left:4px solid var(--gold); margin-bottom:20px;">
+        <strong>✅ Badge earned</strong> — best score {{ progress.best_score }}%.
+        <div style="margin-top:8px; display:flex; gap:8px;">
+          <a href="{{ badge.png_file.url }}" class="btn btn-outline" download>Download PNG</a>
+          <a href="{{ badge.pdf_file.url }}" class="btn btn-gold" download>Download PDF</a>
+        </div>
+      </div>
+    {% elif not is_enrolled %}
+      <form method="post" action="{% url 'enroll_in_course' course.slug %}" style="margin-bottom:20px;">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">Enroll in this course</button>
+      </form>
+    {% else %}
+      <div class="card" style="margin-bottom:20px;">
+        <p>
+          You're enrolled.
+          {% if progress %}Status: <span class="badge-pill status-{{ progress.status }}">{{ progress.get_status_display }}</span>{% endif %}
+          {% if latest_attempt %} · Last attempt: {{ latest_attempt.score }}%{% endif %}
+        </p>
+        {% if question_count %}
+          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">
+            {% if progress.attempts_count %}Retake assessment{% else %}Take assessment{% endif %}
+          </a>
+        {% else %}
+          <p class="meta">This course's assessment hasn't been configured yet.</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% else %}
+    <p><a href="{% url 'login' %}">Log in</a> or <a href="{% url 'signup' %}">sign up</a> to enroll in this course.</p>
+  {% endif %}
+
+  <h2>Course content</h2>
+  <div class="card">
+    {{ course.content|linebreaks }}
+  </div>
+
+  {% if course.video_url %}
+    <p style="margin-top:16px;"><a href="{{ course.video_url }}">Watch the supplementary video ↗</a></p>
+  {% endif %}
+{% endblock %}

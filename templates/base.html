@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}SWEEP — Social Work E-Learning and Empowerment Platform{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <nav class="sw-nav">
+    <div class="container">
+      <a href="{% url 'home' %}" class="brand" style="text-decoration:none;">
+        SWEEP
+        <small>Social Work E-Learning &amp; Empowerment</small>
+      </a>
+      <div class="sw-nav-links">
+        <a href="{% url 'school_list' %}">Schools</a>
+        <a href="{% url 'course_list' %}">Courses</a>
+        {% if user.is_authenticated %}
+          <a href="{% url 'dashboard' %}">My Learning</a>
+          <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
+          <form action="{% url 'logout' %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
+          </form>
+        {% else %}
+          <a href="{% url 'login' %}">Log in</a>
+          <a href="{% url 'signup' %}" class="button">Sign up</a>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+
+  <main class="container page-section">
+    {% if messages %}
+      <ul class="messages">
+        {% for message in messages %}
+          <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="sw-footer">
+    <div class="container">
+      SWEEP — Social Work E-Learning and Empowerment Platform. Ten schools, one mission: equipping social workers to serve their communities.
+    </div>
+  </footer>
+</body>
+</html>

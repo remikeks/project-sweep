@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}My learning — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow">My learning</p>
+  <h1>Your dashboard</h1>
+
+  <h2 style="margin-top:32px;">Schools</h2>
+  {% if school_rows %}
+    <div class="school-grid">
+      {% for row in school_rows %}
+        <div class="school-card">
+          <h3><a href="{% url 'school_detail' row.school.slug %}">{{ row.school.name }}</a></h3>
+          <p class="meta">{{ row.completed }} / {{ row.total }} courses complete</p>
+          <div class="progress-track">
+            <div class="progress-fill" style="width: {{ row.percent }}%;"></div>
+          </div>
+          <p class="meta">{{ row.percent }}% complete</p>
+          {% if row.fully_completed %}
+            <span class="badge-pill status-completed">Ready for certification</span>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state">
+      You haven't enrolled in a school yet. <a href="{% url 'school_list' %}">Browse the 10 schools</a>.
+    </div>
+  {% endif %}
+
+  <h2 style="margin-top:32px;">Courses</h2>
+  {% if course_rows %}
+    <div class="course-grid">
+      {% for row in course_rows %}
+        <div class="course-card">
+          <span class="badge-pill {{ row.course.difficulty }}">{{ row.course.get_difficulty_display }}</span>
+          <h3><a href="{% url 'course_detail' row.course.slug %}">{{ row.course.title }}</a></h3>
+          <p class="meta">{{ row.course.school.name }}</p>
+          {% if row.progress %}
+            <span class="badge-pill status-{{ row.progress.status }}">{{ row.progress.get_status_display }}</span>
+            {% if row.progress.best_score %}<span class="meta">best score {{ row.progress.best_score }}%</span>{% endif %}
+          {% endif %}
+          <a href="{% url 'course_detail' row.course.slug %}" class="btn btn-outline btn-block">Continue</a>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state">
+      You haven't enrolled in a course yet. <a href="{% url 'course_list' %}">Search courses</a>.
+    </div>
+  {% endif %}
+
+  <p style="margin-top:24px;"><a href="{% url 'my_credentials' %}" class="btn btn-gold">View my badges &amp; certificates</a></p>
+{% endblock %}

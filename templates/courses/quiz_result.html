@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Result — {{ result.course.title }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'course_detail' result.course.slug %}">{{ result.course.title }}</a> / Assessment result</p>
+
+  {% if result.passed %}
+    <h1>✅ Passed — {{ result.score }}%</h1>
+    <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. {% if result.badge_awarded %}Your badge has been generated.{% endif %}</p>
+    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+      <strong>🏅 Badge earned for {{ result.course.title }}</strong>
+      <p>View and download it from your <a href="{% url 'my_credentials' %}">badges &amp; certificates</a> page.</p>
+    </div>
+
+    {% if result.school_fully_completed %}
+      <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+        <strong>🎓 That was the last course in {{ result.course.school.name }}!</strong>
+        <p>You're now eligible for the school's certification exam.</p>
+        <a href="{% url 'school_exam' result.course.school.slug %}" class="btn btn-gold">Take the certification exam</a>
+      </div>
+    {% else %}
+      <p style="margin-top:12px; color:var(--clay);">{{ result.school_completed_count }} / {{ result.school_total_count }} courses complete in {{ result.course.school.name }}.</p>
+    {% endif %}
+  {% else %}
+    <h1>Not quite — {{ result.score }}%</h1>
+    <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. You need {{ result.course.passing_score }}% to pass. Review the material and try again.</p>
+  {% endif %}
+
+  <div style="margin-top:20px; display:flex; gap:12px;">
+    <a href="{% url 'course_detail' result.course.slug %}" class="btn btn-outline">Back to course</a>
+    {% if not result.passed %}
+      <a href="{% url 'course_quiz' result.course.slug %}" class="btn btn-primary">Retake assessment</a>
+    {% endif %}
+  </div>
+{% endblock %}

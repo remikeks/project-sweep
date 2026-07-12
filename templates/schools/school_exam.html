@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ school.name }} certification exam — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a> / Certification exam</p>
+  <h1>{{ school.name }} certification exam</h1>
+  <p class="lede">Score at least {{ school.passing_score }}% to earn your certificate. You can retake this exam as many times as you need.</p>
+
+  <form method="post">
+    {% csrf_token %}
+    {% for question in questions %}
+      <div class="quiz-question">
+        <p class="q-number">Question {{ forloop.counter }} of {{ questions|length }}</p>
+        <p><strong>{{ question.text }}</strong></p>
+        {% for choice in question.choices.all %}
+          <label class="quiz-choice">
+            <input type="radio" name="exam_question_{{ question.id }}" value="{{ choice.id }}" required>
+            {{ choice.text }}
+          </label>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-gold">Submit exam</button>
+  </form>
+{% endblock %}

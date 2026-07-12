@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Courses — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow">Browse</p>
+  <h1>Search courses</h1>
+  <p class="lede">Enroll in individual courses across any of the 10 schools, or filter by difficulty and school.</p>
+
+  <form method="get" class="filter-bar">
+    <input class="sw-input" type="text" name="q" placeholder="Search courses…" value="{{ query }}">
+    <select class="sw-input" name="difficulty">
+      <option value="">Any difficulty</option>
+      {% for value, label in difficulty_choices %}
+        <option value="{{ value }}" {% if difficulty == value %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+    <select class="sw-input" name="school">
+      <option value="">Any school</option>
+      {% for school in schools %}
+        <option value="{{ school.slug }}" {% if school_slug == school.slug %}selected{% endif %}>{{ school.name }}</option>
+      {% endfor %}
+    </select>
+    <button class="btn btn-outline" type="submit">Search</button>
+  </form>
+
+  <div class="course-grid">
+    {% for course in courses %}
+      <div class="course-card">
+        <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
+        <h3><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a></h3>
+        <p class="meta">{{ course.school.name }}</p>
+        <p>{{ course.summary }}</p>
+        <p class="meta">⏱ {{ course.estimated_minutes }} min · {{ course.question_count }} question{{ course.question_count|pluralize }}</p>
+        {% if course.id in completed_course_ids %}
+          <span class="badge-pill status-completed">Completed</span>
+        {% elif course.id in enrolled_course_ids %}
+          <span class="badge-pill status-in_progress">Enrolled</span>
+        {% endif %}
+        <a href="{% url 'course_detail' course.slug %}" class="btn btn-outline btn-block">View course</a>
+      </div>
+    {% empty %}
+      <div class="empty-state">No courses match your search.</div>
+    {% endfor %}
+  </div>
+{% endblock %}

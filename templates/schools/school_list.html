@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Schools — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow">Browse</p>
+  <h1>The 10 schools of SWEEP</h1>
+  <p class="lede">Enroll in a school to unlock every course it offers, track progress across all of them, and sit its certification exam once you finish the set.</p>
+
+  <form method="get" class="filter-bar">
+    <input class="sw-input" type="text" name="q" placeholder="Search schools…" value="{{ query }}">
+    <button class="btn btn-outline" type="submit">Search</button>
+  </form>
+
+  <div class="school-grid">
+    {% for school in schools %}
+      <div class="school-card">
+        <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
+        <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
+        {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
+        <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>
+        {% if school.id in enrolled_school_ids %}
+          <span class="badge-pill status-completed">Enrolled</span>
+        {% endif %}
+        <div><a href="{% url 'school_detail' school.slug %}" class="btn btn-outline btn-block">View school</a></div>
+      </div>
+    {% empty %}
+      <div class="empty-state">No schools match "{{ query }}".</div>
+    {% endfor %}
+  </div>
+{% endblock %}
