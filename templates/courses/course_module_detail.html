@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ module.title }} — {{ course.title }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'school_detail' course.school.slug %}">{{ course.school.name }}</a> / <a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a> / {{ module.title }}</p>
+  <h1>{{ module.title }}</h1>
+  <div style="display:flex; gap:8px; align-items:center; margin-bottom:16px; flex-wrap:wrap;">
+    <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
+    <span class="meta">⏱ {{ module.duration }}</span>
+    <span class="meta">· {{ module.get_module_type_display }}</span>
+    <span class="meta">· {{ module.get_learning_mode_display }}</span>
+  </div>
+
+  {% if module.overview %}
+    <div class="card" style="margin-bottom:20px;">
+      <h2>Module overview</h2>
+      <div>{{ module_overview_html }}</div>
+    </div>
+  {% endif %}
+
+  <div class="card" style="margin-bottom:20px;">
+    <h2>Module content</h2>
+    <div>{{ module_content_html }}</div>
+  </div>
+
+  {% if module.module_summary %}
+    <div class="card" style="margin-bottom:20px;">
+      <h2>Module summary</h2>
+      <div>{{ module_summary_html }}</div>
+    </div>
+  {% endif %}
+
+  {% if module.knowledge_check %}
+    <div class="card" style="margin-bottom:20px;">
+      <h2>Knowledge check</h2>
+      <div>{{ knowledge_check_html }}</div>
+    </div>
+  {% endif %}
+
+  {% if module.practical_activity %}
+    <div class="card" style="margin-bottom:20px;">
+      <h2>Practical activity</h2>
+      <div>{{ practical_activity_html }}</div>
+    </div>
+  {% endif %}
+
+  <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:24px;">
+    {% if prev_module %}
+      <a href="{% url 'course_module_detail' course.slug prev_module.order %}" class="btn btn-outline">← Previous module</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+
+    {% if next_module %}
+      <a href="{% url 'course_module_detail' course.slug next_module.order %}" class="btn btn-primary">Next module →</a>
+    {% elif is_course_completed and next_course %}
+      <a href="{% url 'course_detail' next_course.slug %}" class="btn btn-primary">Next course →</a>
+    {% else %}
+      {% if prev_module %}
+        <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">Take assessment →</a>
+      {% else %}
+        {% if next_module %}
+          <a href="{% url 'course_module_detail' course.slug next_module.order %}" class="btn btn-primary">Next module →</a>
+        {% else %}
+          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">Take assessment →</a>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  </div>
+{% endblock %}

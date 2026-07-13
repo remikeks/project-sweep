@@ -1,11 +1,17 @@
 from django.contrib import admin
 
-from .models import Choice, Course, Question
+from .models import Choice, Course, CourseModule, Question
 
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 4
+
+
+class ModuleInline(admin.StackedInline):
+    model = CourseModule
+    extra = 1
+    show_change_link = True
 
 
 class QuestionInline(admin.StackedInline):
@@ -26,6 +32,13 @@ class QuestionAdmin(admin.ModelAdmin):
     text_preview.short_description = "Question"
 
 
+@admin.register(CourseModule)
+class CourseModuleAdmin(admin.ModelAdmin):
+    list_display = ("title", "course", "order", "duration", "module_type", "learning_mode")
+    list_filter = ("course__school", "course", "module_type", "learning_mode")
+    search_fields = ("title", "overview", "content", "module_summary", "knowledge_check", "practical_activity")
+
+
 @admin.register(Course)
 class CourseAdmin(admin.ModelAdmin):
     list_display = (
@@ -39,6 +52,6 @@ class CourseAdmin(admin.ModelAdmin):
     )
     list_editable = ("order", "is_active")
     list_filter = ("school", "difficulty", "is_active")
-    search_fields = ("title", "summary", "content")
+    search_fields = ("title", "summary", "learning_objectives", "content")
     prepopulated_fields = {"slug": ("title",)}
-    inlines = [QuestionInline]
+    inlines = [ModuleInline, QuestionInline]

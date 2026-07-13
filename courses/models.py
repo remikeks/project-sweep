@@ -22,6 +22,19 @@ class Course(models.Model):
     title = models.CharField(max_length=200)
     slug = models.SlugField(max_length=220, unique=True, blank=True)
     summary = models.CharField(max_length=300, blank=True)
+    description = models.TextField(
+        blank=True,
+        help_text="A longer descriptive overview of the course shown before enrollment.",
+    )
+    course_code = models.CharField(
+        max_length=50,
+        blank=True,
+        help_text="Optional alphanumeric course code displayed on the course page.",
+    )
+    learning_objectives = models.TextField(
+        blank=True,
+        help_text="What learners will understand or be able to do after completing this course.",
+    )
     content = models.TextField(
         help_text="The main learning material for the course. Supports plain "
         "text/markdown-style paragraphs."
@@ -74,6 +87,55 @@ class Course(models.Model):
     def is_last_in_school(self):
         last = self.school.active_courses.order_by("-order", "-id").first()
         return last is not None and last.pk == self.pk
+
+
+class CourseModule(models.Model):
+    """A structured learning module belonging to a course."""
+
+    class ModuleType(models.TextChoices):
+        VIDEO = "video", "Video"
+        ARTICLE = "article", "Article"
+        MIXED = "mixed", "Mixed"
+
+    class LearningMode(models.TextChoices):
+        SELF_PACED = "self_paced", "Self-paced"
+        LIVE = "live", "Live"
+        BLENDED = "blended", "Blended"
+
+    course = models.ForeignKey(Course, related_name="modules", on_delete=models.CASCADE)
+    title = models.CharField(max_length=200)
+    slug = models.SlugField(max_length=220, blank=True)
+    order = models.PositiveSmallIntegerField(default=0)
+    duration = models.CharField(max_length=50, blank=True, help_text="Example: 15 min")
+    module_type = models.CharField(max_length=20, choices=ModuleType.choices, default=ModuleType.ARTICLE)
+    learning_mode = models.CharField(
+        max_length=20, choices=LearningMode.choices, default=LearningMode.SELF_PACED
+    )
+    overview = models.TextField(blank=True, help_text="A short summary of the module.")
+    content = models.TextField(blank=True, help_text="The full content for this module.")
+    module_summary = models.TextField(blank=True, help_text="A recap shown at the end of the module.")
+    knowledge_check = models.TextField(blank=True, help_text="Questions or prompts for reflection.")
+    practical_activity = models.TextField(blank=True, help_text="A practical exercise for the learner.")
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["order", "id"]
+        unique_together = ("course", "order")
+
+    def __str__(self):
+        return f"{self.course.title} / {self.title}"
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            base_slug = slugify(self.title)
+            slug = base_slug
+            i = 1
+            while CourseModule.objects.filter(course=self.course, slug=slug).exclude(pk=self.pk).exists():
+                i += 1
+                slug = f"{base_slug}-{i}"
+            self.slug = slug
+        super().save(*args, **kwargs)
 
 
 class Question(models.Model):

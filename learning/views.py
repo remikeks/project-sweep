@@ -35,6 +35,10 @@ def enroll_in_course_view(request, slug):
         messages.success(request, f"You're enrolled in {course.title}.")
     else:
         messages.info(request, f"You're already enrolled in {course.title}.")
+
+    first_module = course.modules.order_by("order", "id").first()
+    if first_module:
+        return redirect("course_module_detail", slug=course.slug, module_order=first_module.order)
     return redirect("course_detail", slug=course.slug)
 
 
