@@ -12,8 +12,9 @@
 
   <div class="school-grid">
     {% for school in schools %}
-      <div class="school-card">
+      <div class="school-card accent-{{ school.accent }}">
         <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
+        <span class="emblem-badge">{{ school.emblem }}</span>
         <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
         {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
         <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>

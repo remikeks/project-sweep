@@ -1,35 +1,142 @@
 {% extends "base.html" %}
 {% block content %}
   <section class="hero">
-    <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
-    <h1>Practice-ready training for the social work field.</h1>
-    <p class="lede">
-      Enroll course-by-course or take on a whole school at once. Pass each
-      assessment to earn a badge, complete a school to earn a certificate —
-      yours to view and download at any time.
-    </p>
-    <div style="margin-top:24px; display:flex; gap:12px;">
-      <a href="{% url 'school_list' %}" class="btn btn-primary">Browse the 10 schools</a>
-      <a href="{% url 'course_list' %}" class="btn btn-outline">Search courses</a>
-    </div>
-    <div class="stat-row">
-      <div>
-        <span class="stat-num">{{ stats.school_count }}</span>
-        <span class="stat-label">Schools</span>
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="880" cy="40" r="220" fill="#4C9A2A" opacity="0.18" />
+      <circle cx="60" cy="560" r="180" fill="#C79A3C" opacity="0.12" />
+      <circle cx="520" cy="520" r="140" fill="#EEF0EA" opacity="0.05" />
+    </svg>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
+        <h1>Practice-ready training for the social work field.</h1>
+        <p class="lede">
+          Enroll course-by-course or take on a whole school at once. Pass each
+          assessment to earn a badge, complete a school to earn a certificate —
+          yours to view and download at any time.
+        </p>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="{% url 'school_list' %}" class="btn btn-gold">Browse the 10 schools</a>
+          <a href="{% url 'course_list' %}" class="btn btn-outline">Search courses</a>
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ stats.school_count }}</span>
+            <span class="stat-label">Schools</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ stats.course_count }}</span>
+            <span class="stat-label">Courses</span>
+          </div>
+        </div>
       </div>
-      <div>
-        <span class="stat-num">{{ stats.course_count }}</span>
-        <span class="stat-label">Courses</span>
+
+      <div class="hero-illustration">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a support circle">
+          <g stroke="#EEF0EA" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="2 7" fill="none">
+            <path d="M210,210 L210,60" />
+            <path d="M210,210 L339.9,135" />
+            <path d="M210,210 L339.9,285" />
+            <path d="M210,210 L210,360" />
+            <path d="M210,210 L80.1,285" />
+            <path d="M210,210 L80.1,135" />
+          </g>
+
+          <g>
+            <g transform="translate(210,60)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#C79A3C" />
+              <circle cy="-26" r="15" fill="#C79A3C" />
+            </g>
+            <g transform="translate(339.9,135)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#8CAE6B" />
+              <circle cy="-26" r="15" fill="#8CAE6B" />
+            </g>
+            <g transform="translate(339.9,285)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#EEF0EA" />
+              <circle cy="-26" r="15" fill="#EEF0EA" />
+            </g>
+            <g transform="translate(210,360)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#C79A3C" />
+              <circle cy="-26" r="15" fill="#C79A3C" />
+            </g>
+            <g transform="translate(80.1,285)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#8CAE6B" />
+              <circle cy="-26" r="15" fill="#8CAE6B" />
+            </g>
+            <g transform="translate(80.1,135)">
+              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#EEF0EA" />
+              <circle cy="-26" r="15" fill="#EEF0EA" />
+            </g>
+          </g>
+
+          <circle cx="210" cy="210" r="56" fill="url(#heroSeal)" />
+          <defs>
+            <radialGradient id="heroSeal" cx="35%" cy="30%" r="75%">
+              <stop offset="0%" stop-color="#E4C374" />
+              <stop offset="100%" stop-color="#C79A3C" />
+            </radialGradient>
+          </defs>
+          <path d="M210,182 C232,182 248,198 248,220 C248,238 234,250 216,250 C216,250 214,224 190,214 C198,196 202,182 210,182 Z"
+                fill="#123B35" />
+
+          <g fill="#EEF0EA" opacity="0.25">
+            <ellipse cx="40" cy="60" rx="10" ry="5" transform="rotate(30 40 60)" />
+            <ellipse cx="380" cy="380" rx="10" ry="5" transform="rotate(-20 380 380)" />
+            <ellipse cx="380" cy="60" rx="8" ry="4" transform="rotate(50 380 60)" />
+          </g>
+        </svg>
       </div>
     </div>
   </section>
+
+  {% if featured_courses %}
+  <section class="featured-section">
+    <p class="eyebrow">Featured</p>
+    <h2>Featured courses</h2>
+    <div class="carousel" data-carousel>
+      <div class="carousel-viewport">
+        <div class="carousel-track" data-carousel-track>
+          {% for course in featured_courses %}
+            <div class="carousel-slide">
+              <a class="featured-card" href="{% url 'course_detail' course.slug %}" style="text-decoration:none;">
+                <div class="featured-body">
+                  <p class="eyebrow">{{ course.school.name }}</p>
+                  <h3>{{ course.title }}</h3>
+                  <p>{{ course.summary }}</p>
+                  <p class="meta">
+                    {{ course.get_difficulty_display }} · Est. {{ course.estimated_minutes }} min ·
+                    {{ course.question_count }} question{{ course.question_count|pluralize }}
+                  </p>
+                </div>
+                <div class="featured-visual">
+                  <span class="featured-emblem">{{ course.school.emblem }}</span>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% if featured_courses|length > 1 %}
+        <button type="button" class="carousel-arrow prev" data-carousel-prev aria-label="Previous course">&#8249;</button>
+        <button type="button" class="carousel-arrow next" data-carousel-next aria-label="Next course">&#8250;</button>
+        <div class="carousel-dots" data-carousel-dots>
+          {% for course in featured_courses %}
+            <button type="button" class="carousel-dot" data-index="{{ forloop.counter0 }}" aria-label="Go to slide {{ forloop.counter }}"></button>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
 
   <section class="page-section">
     <h2>The schools</h2>
     <div class="school-grid">
       {% for school in schools %}
-        <a class="school-card" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;">
+        <a class="school-card accent-{{ school.accent }}" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;">
           <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
+          <span class="emblem-badge">{{ school.emblem }}</span>
           <h3>{{ school.name }}</h3>
           {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
           <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>

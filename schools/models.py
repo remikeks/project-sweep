@@ -2,6 +2,13 @@ from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
 
+# A rotating set of emblem glyphs + accent tones used on school cards.
+# Cycled by `order`, so this scales automatically to any number of schools
+# (not just the current 10) without needing an uploaded icon per school.
+SCHOOL_EMBLEMS = ["\U0001F91D", "\U0001F9E0", "\U0001F33F", "\U0001F333", "\U0001F3DB",
+                   "\U0001F3E5", "\U0001F392", "\u2696\uFE0F", "\U0001F32A\uFE0F", "\U0001F4DC"]
+SCHOOL_ACCENTS = ["leaf", "moss", "fern", "sage", "pine"]
+
 
 class School(models.Model):
     """
@@ -59,6 +66,16 @@ class School(models.Model):
     @property
     def exam_question_count(self):
         return self.exam_questions.count()
+
+    @property
+    def emblem(self):
+        """A glyph for this school's card, cycling through a fixed set."""
+        return SCHOOL_EMBLEMS[self.order % len(SCHOOL_EMBLEMS)]
+
+    @property
+    def accent(self):
+        """A CSS accent-tone name for this school's card, cycling through a fixed set."""
+        return SCHOOL_ACCENTS[self.order % len(SCHOOL_ACCENTS)]
 
 
 class SchoolExamQuestion(models.Model):
