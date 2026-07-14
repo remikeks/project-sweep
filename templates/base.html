@@ -17,7 +17,10 @@
         SWEEP
         <small>Social Work E-Learning &amp; Empowerment</small>
       </a>
-      <div class="sw-nav-links">
+      <button class="sw-nav-toggle" type="button" aria-expanded="false" aria-controls="sw-nav-links" aria-label="Open navigation menu">
+        &#9776;
+      </button>
+      <div class="sw-nav-links" id="sw-nav-links">
         <a href="{% url 'school_list' %}">Schools</a>
         <a href="{% url 'course_list' %}">Courses</a>
         {% if user.is_authenticated %}
@@ -54,5 +57,18 @@
   </footer>
 
   <script src="{% static 'js/carousel.js' %}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggle = document.querySelector('.sw-nav-toggle');
+      var navLinks = document.getElementById('sw-nav-links');
+      if (!toggle || !navLinks) return;
+
+      toggle.addEventListener('click', function () {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        navLinks.classList.toggle('open');
+      });
+    });
+  </script>
 </body>
 </html>

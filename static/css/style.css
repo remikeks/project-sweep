@@ -119,6 +119,22 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
+.sw-nav-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.22);
+  color: var(--paper);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.sw-nav-toggle:hover {
+  background: rgba(255,255,255,0.08);
+}
+
 /* ---------------------------------------------------------------------- */
 /* Buttons & forms                                                         */
 /* ---------------------------------------------------------------------- */
@@ -492,7 +508,12 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 .hero {
   position: relative;
   overflow: hidden;
-  margin: 28px 0 0;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 28px;
   padding: 56px 40px;
   border-radius: 22px;
   background:
@@ -556,6 +577,60 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   .hero-grid { grid-template-columns: 1fr; }
   .hero-illustration { max-width: 280px; order: -1; }
   .hero h1 { font-size: 2.2rem; }
+}
+
+@media (max-width: 720px) {
+  .sw-nav .container {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .sw-nav-toggle {
+    display: inline-flex;
+  }
+
+  .sw-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 14px;
+  }
+
+  .sw-nav-links.open {
+    display: flex;
+  }
+
+  .sw-nav-links a,
+  .sw-nav-links form {
+    width: 100%;
+  }
+
+  .sw-nav-links a {
+    padding: 10px 0;
+    border-radius: 0;
+  }
+
+  .sw-nav-links a.button {
+    margin-top: 8px;
+    width: auto;
+  }
+
+  .featured-card { grid-template-columns: 1fr; }
+  .featured-card .featured-visual { min-height: 140px; order: -1; }
+
+  .school-grid { gap: 32px; }
+
+  .hero-blobs {
+    inset: auto 0 0 0;
+    top: auto;
+    bottom: 0;
+    opacity: 0.95;
+  }
 }
 
 .stat-row { display: flex; gap: 32px; margin-top: 28px; }
