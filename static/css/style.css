@@ -59,6 +59,14 @@ a:hover { text-decoration: underline; }
   color: var(--clay);
 }
 
+.subheading{
+  font-family: var(--font-mono);
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  color: var(--clay)
+
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -78,7 +86,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 80px;
 }
 
 .sw-nav .brand {
@@ -300,6 +308,69 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 @media (max-width: 720px) {
   .featured-card { grid-template-columns: 1fr; }
   .featured-card .featured-visual { min-height: 140px; }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer                                                                  */
+/* ---------------------------------------------------------------------- */
+
+.sw-footer {
+  margin-top: 56px;
+  background: linear-gradient(180deg, #123B35 0%, #0E2C27 100%);
+  color: var(--paper);
+  padding: 40px 0 24px;
+}
+
+.sw-footer h3,
+.sw-footer h4 {
+  color: var(--paper);
+  margin-bottom: 0.6rem;
+}
+
+.sw-footer p {
+  margin: 0;
+  color: #C6D7CC;
+  max-width: 460px;
+}
+
+.sw-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr 0.8fr;
+  gap: 24px;
+}
+
+.sw-footer a {
+  display: block;
+  color: #F0F2EC;
+  margin-bottom: 6px;
+}
+
+.sw-footer a:hover {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.sw-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: #B9CDBF;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 720px) {
+  .sw-footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sw-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* ---------------------------------------------------------------------- */

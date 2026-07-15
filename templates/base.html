@@ -52,7 +52,32 @@
 
   <footer class="sw-footer">
     <div class="container">
-      SWEEP — Social Work E-Learning and Empowerment Platform. Ten schools, one mission: equipping social workers to serve their communities.
+      <div class="sw-footer-grid">
+        <div>
+          <h3>SWEEP</h3>
+          <p>Social Work E-Learning and Empowerment Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="{% url 'home' %}">Home</a>
+          <a href="{% url 'school_list' %}">Schools</a>
+          <a href="{% url 'course_list' %}">Courses</a>
+        </div>
+        <div>
+          <h4>For learners</h4>
+          {% if user.is_authenticated %}
+            <a href="{% url 'dashboard' %}">My learning</a>
+            <a href="{% url 'my_credentials' %}">Badges &amp; certificates</a>
+          {% else %}
+            <a href="{% url 'login' %}">Log in</a>
+            <a href="{% url 'signup' %}">Create account</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="sw-footer-bottom">
+        <span>© {% now "Y" %} SWEEP</span>
+        <span>Ten schools, one mission.</span>
+      </div>
     </div>
   </footer>
 
