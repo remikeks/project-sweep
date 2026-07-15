@@ -87,7 +87,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 64px;
 }
 
 .sw-nav .brand {
@@ -130,7 +130,7 @@ a:hover { text-decoration: underline; }
 
 .sw-nav-toggle {
   display: none;
-  background: transparent;
+  background: var(--gold);
   border: 1px solid rgba(255,255,255,0.22);
   color: var(--paper);
   width: 44px;
@@ -688,8 +688,11 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   }
 
   .sw-nav-links a.button {
-    margin-top: 8px;
-    width: auto;
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px 16px;
+    align-self: flex-start;
+    display: inline-block;
   }
 
   .featured-card { grid-template-columns: 1fr; }
