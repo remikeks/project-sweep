@@ -78,7 +78,8 @@ a:hover { text-decoration: underline; }
 /* ---------------------------------------------------------------------- */
 
 .sw-nav {
-  background: var(--primary-dark);
+  background: var(--paper-raised);
+  /*background: linear-gradient(180deg, #123B35 0%, #0E2C27 100%);*/
   color: var(--paper);
 }
 
@@ -92,8 +93,8 @@ a:hover { text-decoration: underline; }
 .sw-nav .brand {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--paper);
+  font-size: 2rem;
+  color: var(--primary);
   letter-spacing: 0.02em;
 }
 
@@ -109,15 +110,15 @@ a:hover { text-decoration: underline; }
 .sw-nav-links { display: flex; gap: 4px; align-items: center; }
 
 .sw-nav-links a {
-  color: var(--paper);
+  color: var(--primary-dark);
   padding: 10px 14px;
   border-radius: var(--radius) var(--radius) 0 0;
-  font-size: 0.92rem;
+  font-size: 1rem;
 }
 
 .sw-nav-links a:hover {
   background: rgba(238, 240, 234, 0.08);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .sw-nav-links a.button {
@@ -584,9 +585,9 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-top: 28px;
-  padding: 56px 40px;
-  border-radius: 22px;
+  margin-top: 0;
+  padding: 32px 40px 40px;
+  border-radius: 0;
   background:
     radial-gradient(680px 420px at 85% -10%, rgba(76, 154, 42, 0.55), transparent 60%),
     radial-gradient(520px 420px at 8% 110%, rgba(199, 154, 60, 0.28), transparent 55%),
@@ -749,4 +750,4 @@ footer.sw-footer {
   color: var(--clay);
 }
 
-.page-section { padding: 32px 0; }
+.page-section { padding: 0 0 32px; }
