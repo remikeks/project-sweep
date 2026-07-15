@@ -26,10 +26,15 @@
         {% if user.is_authenticated %}
           <a href="{% url 'dashboard' %}">My Learning</a>
           <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
+          
           <form action="{% url 'logout' %}" method="post" style="display:inline;">
             {% csrf_token %}
             <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
           </form>
+          <div class="nav-user-pill" aria-label="Signed in user">
+            <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
+            <span class="nav-user-text">happy learning, {{ user.username }}</span>
+          </div>
         {% else %}
           <a href="{% url 'login' %}">Log in</a>
           <a href="{% url 'signup' %}" class="button">Sign up</a>
@@ -86,12 +91,33 @@
     document.addEventListener('DOMContentLoaded', function () {
       var toggle = document.querySelector('.sw-nav-toggle');
       var navLinks = document.getElementById('sw-nav-links');
-      if (!toggle || !navLinks) return;
+      if (toggle && navLinks) {
+        toggle.addEventListener('click', function () {
+          var expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', String(!expanded));
+          navLinks.classList.toggle('open');
+        });
+      }
 
-      toggle.addEventListener('click', function () {
-        var expanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', String(!expanded));
-        navLinks.classList.toggle('open');
+      document.querySelectorAll('.typewriter').forEach(function (element, index) {
+        var fullText = element.getAttribute('data-text') || element.textContent.trim();
+        if (!fullText) return;
+
+        element.textContent = '';
+        element.classList.remove('is-typed');
+
+        var currentIndex = 0;
+        var typeNextCharacter = function () {
+          if (currentIndex <= fullText.length) {
+            element.textContent = fullText.slice(0, currentIndex);
+            currentIndex += 1;
+            window.setTimeout(typeNextCharacter, 45);
+          } else {
+            element.classList.add('is-typed');
+          }
+        };
+
+        window.setTimeout(typeNextCharacter, 120 + index * 180);
       });
     });
   </script>

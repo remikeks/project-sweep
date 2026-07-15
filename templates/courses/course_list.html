@@ -1,9 +1,46 @@
 {% extends "base.html" %}
 {% block title %}Courses — SWEEP{% endblock %}
 {% block content %}
-<br><br>
-  <h1 class="subheading">Search courses</h1>
-  <p class="lede">Enroll in individual courses across any of the 10 schools, or filter by difficulty and school.</p>
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="850" cy="80" r="220" fill="#4C9A2A" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#C79A3C" opacity="0.14" />
+      <circle cx="590" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Flexible learning · practical topics</p>
+        <h1 class="typewriter" data-text="Find the next course to strengthen your practice.">Find the next course to strengthen your practice.</h1>
+        <p class="lede">Search by school, difficulty, or topic to discover practical learning that fits your schedule and professional goals.</p>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="{% url 'school_list' %}" class="btn btn-gold">Browse schools</a>
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ courses|length }}</span>
+            <span class="stat-label">Courses shown</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ schools|length }}</span>
+            <span class="stat-label">Schools available</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a course catalog">
+          <rect x="92" y="86" width="236" height="248" rx="28" fill="#EEF0EA" opacity="0.9" />
+          <rect x="120" y="118" width="180" height="24" rx="12" fill="#1F5C52" opacity="0.9" />
+          <rect x="120" y="160" width="142" height="16" rx="8" fill="#C79A3C" opacity="0.95" />
+          <rect x="120" y="188" width="156" height="16" rx="8" fill="#8CAE6B" opacity="0.9" />
+          <rect x="120" y="222" width="124" height="16" rx="8" fill="#1F5C52" opacity="0.75" />
+          <circle cx="294" cy="264" r="42" fill="#C79A3C" />
+          <path d="M276 264l14 14 26-28" stroke="#EEF0EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        </svg>
+      </div>
+    </div>
+  </section>
 
   <form method="get" class="filter-bar">
     <input class="sw-input" type="text" name="q" placeholder="Search courses…" value="{{ query }}">

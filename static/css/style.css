@@ -137,6 +137,39 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
+.nav-user-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  margin-left: 6px;
+  border: 1px solid rgba(31, 92, 82, 0.16);
+  border-radius: 999px;
+  background: rgba(31, 92, 82, 0.06);
+  color: var(--primary-dark);
+}
+
+.nav-user-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--gold));
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.nav-user-text {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
 .sw-nav-toggle {
   display: none;
   background: var(--gold);
@@ -655,6 +688,61 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   margin: 0 auto;
 }
 
+.hero-list {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin: 0 0 24px -50vw;
+  padding: 28px 30px 30px;
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
+.hero-list .hero-grid {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.hero-list .hero-copy h1 {
+  font-size: 2.2rem;
+}
+
+.hero-list .hero-illustration {
+  max-width: 280px;
+}
+
+.hero-list .stat-row {
+  margin-top: 20px;
+}
+
+.typewriter {
+  position: relative;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.typewriter::after {
+  content: "";
+  position: absolute;
+  right: -0.2em;
+  bottom: 0.1em;
+  width: 0.55ch;
+  height: 1.05em;
+  border-right: 2px solid rgba(255, 255, 255, 0.95);
+  animation: caret-blink 1s step-end infinite;
+}
+
+.typewriter.is-typed::after {
+  display: none;
+}
+
+@keyframes caret-blink {
+  50% { border-color: transparent; }
+}
+
 @media (max-width: 860px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-illustration { max-width: 280px; order: -1; }
@@ -707,6 +795,12 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 
   .featured-card { grid-template-columns: 1fr; }
   .featured-card .featured-visual { min-height: 140px; order: -1; }
+
+  .featured-section .subheading,
+  .page-section > .subheading {
+    margin: 24px 8px 8px;
+    padding-left: 4px;
+  }
 
   .school-grid { gap: 32px; }
 

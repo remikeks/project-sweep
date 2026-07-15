@@ -93,7 +93,7 @@
   {% if featured_courses %}
   <section class="featured-section">
     <br><br>
-    <h2 class="subheading">Featured Courses</h2>
+    <h2 class="subheading typewriter" data-text="Featured Courses">Featured Courses</h2>
     <div class="carousel" data-carousel>
       <div class="carousel-viewport">
         <div class="carousel-track" data-carousel-track>
@@ -131,7 +131,7 @@
   {% endif %}
 
   <section class="page-section">
-    <h2 class="subheading">Our Schools</h2>
+    <h2 class="subheading typewriter" data-text="Our Schools">Our Schools</h2>
     <div class="school-grid">
       {% for school in schools %}
         <a class="school-card accent-{{ school.accent }}" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;">

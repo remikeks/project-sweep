@@ -1,9 +1,45 @@
 {% extends "base.html" %}
 {% block title %}Schools — SWEEP{% endblock %}
 {% block content %}
-<br><br>
-  <h1 class="subheading">The 10 schools of SWEEP</h1>
-  <p class="lede">Enroll in a school to unlock every course it offers, track progress across all of them, and sit its certification exam once you finish the set.</p>
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="820" cy="90" r="220" fill="#4C9A2A" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#C79A3C" opacity="0.12" />
+      <circle cx="610" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">10 schools · one learning path</p>
+        <h1 class="typewriter" data-text="Browse the school-based learning pathways.">Browse the school-based learning pathways.</h1>
+        <p class="lede">Enroll in a school to unlock every course it offers, track progress across all of them, and sit the certification exam once you finish the set.</p>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="{% url 'course_list' %}" class="btn btn-gold">Explore courses</a>
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ schools|length }}</span>
+            <span class="stat-label">Schools</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ schools|length }}</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a school pathway">
+          <circle cx="210" cy="210" r="118" fill="#EEF0EA" opacity="0.95" />
+          <path d="M140 252h140" stroke="#1F5C52" stroke-width="16" stroke-linecap="round" />
+          <path d="M164 252v-74h92v74" fill="#C79A3C" />
+          <path d="M180 178h60" stroke="#1F5C52" stroke-width="12" stroke-linecap="round" />
+          <circle cx="210" cy="210" r="34" fill="#1F5C52" />
+          <circle cx="210" cy="210" r="18" fill="#EEF0EA" />
+        </svg>
+      </div>
+    </div>
+  </section>
 
   <form method="get" class="filter-bar">
     <input class="sw-input" type="text" name="q" placeholder="Search schools…" value="{{ query }}">
