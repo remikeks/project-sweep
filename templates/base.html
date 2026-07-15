@@ -54,17 +54,17 @@
     <div class="container">
       <div class="sw-footer-grid">
         <div>
-          <h3>SWEEP</h3>
+          <h3 class="footer-heading">SWEEP</h3>
           <p>Social Work E-Learning and Empowerment Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
         </div>
         <div>
-          <h3>Explore</h3>
+          <h3 class="footer-heading">Explore</h3>
           <a href="{% url 'home' %}">Home</a>
           <a href="{% url 'school_list' %}">Schools</a>
           <a href="{% url 'course_list' %}">Courses</a>
         </div>
         <div>
-          <h3>For learners</h3>
+          <h3 class="footer-heading">For learners</h3>
           {% if user.is_authenticated %}
             <a href="{% url 'dashboard' %}">My learning</a>
             <a href="{% url 'my_credentials' %}">Badges &amp; certificates</a>

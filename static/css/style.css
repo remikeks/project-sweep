@@ -98,6 +98,15 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.02em;
 }
 
+.footer-heading h3{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary);
+  letter-spacing: 0.02em;
+
+}
+
 .sw-nav .brand small {
   display: block;
   font-family: var(--font-mono);
@@ -133,6 +142,7 @@ a:hover { text-decoration: underline; }
   background: var(--gold);
   border: 1px solid rgba(255,255,255,0.22);
   color: var(--paper);
+  padding: 0;
   width: 44px;
   height: 44px;
   border-radius: 12px;
@@ -690,7 +700,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   .sw-nav-links a.button {
     margin-top: 10px;
     width: fit-content;
-    padding: 10px 16px;
+    padding: 16px 16px;
     align-self: flex-start;
     display: inline-block;
   }
