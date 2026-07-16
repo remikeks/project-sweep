@@ -24,16 +24,23 @@
         <a href="{% url 'school_list' %}">Schools</a>
         <a href="{% url 'course_list' %}">Courses</a>
         {% if user.is_authenticated %}
-          <a href="{% url 'dashboard' %}">My Learning</a>
-          <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
-          
-          <form action="{% url 'logout' %}" method="post" style="display:inline;">
+          <a class="nav-link-auth" href="{% url 'dashboard' %}">My Learning</a>
+          <a class="nav-link-auth" href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
+          <form class="nav-link-auth" action="{% url 'logout' %}" method="post" style="display:inline;">
             {% csrf_token %}
             <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
           </form>
           <div class="nav-user-pill" aria-label="Signed in user">
             <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
             <span class="nav-user-text">happy learning, {{ user.username }}</span>
+            <!--<div class="nav-user-menu">
+              <a href="{% url 'dashboard' %}">My Learning</a>
+              <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
+              <form action="{% url 'logout' %}" method="post">
+                {% csrf_token %}
+                <button type="submit">Log out</button>
+              </form>
+            </div>-->
           </div>
         {% else %}
           <a href="{% url 'login' %}">Log in</a>
