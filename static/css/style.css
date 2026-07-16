@@ -822,6 +822,13 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
     height: auto;
   }
 
+  @media(max-width: 720px) {
+    .school-grid, .course-grid {
+      grid-template-columns: 1fr;
+      margin-bottom: 36px;
+    }
+  }
+
   .sw-nav-toggle {
     display: inline-flex;
   }
