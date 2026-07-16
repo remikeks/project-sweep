@@ -64,7 +64,6 @@
       <div class="course-card">
         <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
         <h3><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a></h3>
-        <p class="meta">{{ course.school.name }}</p>
         <p>{{ course.summary }}</p>
         <p class="meta">⏱ {{ course.estimated_minutes }} min · {{ course.question_count }} question{{ course.question_count|pluralize }}</p>
         {% if course.id in completed_course_ids %}
