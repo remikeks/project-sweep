@@ -19,6 +19,8 @@ from django.utils import timezone
 
 from .models import CourseMaterial, TutorInteraction
 
+from google.genai import types
+
 logger = logging.getLogger(__name__)
 
 # gemini-2.0-flash was shut down by Google on 2026-06-01 — keep this in sync
@@ -84,44 +86,47 @@ def _get_api_key():
 
 def _get_client():
     api_key = _get_api_key()
+
     try:
-        import google.generativeai as genai
+        from google import genai
     except ImportError as exc:
         raise TutorNotConfigured(
-            "The 'google-generativeai' package isn't installed. Add it to requirements.txt."
+            "The 'google-genai' package isn't installed."
         ) from exc
-    genai.configure(api_key=api_key)
-    return genai.GenerativeModel(model_name=MODEL)
+
+    return genai.Client(api_key=api_key)
+
+
 
 
 def _call_gemini(user_message, max_tokens=MAX_ANSWER_TOKENS):
     client = _get_client()
+
     try:
-        response = client.generate_content(
-            [
-                {"role": "user", "parts": [{"text": f"{SYSTEM_PROMPT}\n\n{user_message}"}]},
-            ],
-            generation_config={"max_output_tokens": max_tokens},
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=user_message,
+            config=types.GenerateContentConfig(
+                system_instruction=SYSTEM_PROMPT,
+                max_output_tokens=max_tokens,
+                temperature=0.3,
+            ),
         )
-    except Exception as exc:  # noqa: BLE001 - any SDK/network failure becomes a TutorError
+
+        print("MODEL:", MODEL)
+        print("FINISH REASON:", response.candidates[0].finish_reason)
+        print(response)
+
+    except Exception as exc:
         logger.exception("Gemini API call failed (model=%s)", MODEL)
         raise TutorError(str(exc)) from exc
 
-    if hasattr(response, "text") and response.text:
-        answer = response.text.strip()
-    else:
-        text_parts = []
-        for candidate in getattr(response, "candidates", []) or []:
-            content = getattr(candidate, "content", None)
-            for block in getattr(content, "parts", []) or []:
-                if hasattr(block, "text"):
-                    text_parts.append(block.text)
-        answer = "\n".join(text_parts).strip()
+    answer = (response.text or "").strip()
 
     if not answer:
         raise TutorError("The model returned an empty response.")
-    return answer
 
+    return answer
 
 # --------------------------------------------------------------------------
 # Context building
