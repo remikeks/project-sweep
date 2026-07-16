@@ -8,6 +8,7 @@
     <span class="meta">⏱ {{ module.duration }}</span>
     <span class="meta">· {{ module.get_module_type_display }}</span>
     <span class="meta">· {{ module.get_learning_mode_display }}</span>
+    {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_module_order=module.order tutor_trigger_label="Ask AI Tutor" tutor_quick_label="Summarise this lesson" tutor_placeholder="Ask about this lesson…" %}
   </div>
 
   {% if module.overview %}
@@ -18,6 +19,7 @@
   {% endif %}
 
   <div class="card" style="margin-bottom:20px;">
+    <h2>Module content</h2>
     <div>{{ module_content_html }}</div>
   </div>
 

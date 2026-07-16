@@ -10,6 +10,19 @@ import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Load a local .env file (if present) into the process environment. This is
+# what makes GEMINI_API_KEY / SECRET_KEY / etc. actually take effect when
+# they're set in a .env file for local development — Django itself never
+# reads .env files on its own. Safe to leave in for production too: on
+# Render (or anywhere without a .env file) this is just a no-op, since real
+# env vars are already in os.environ before Python even starts.
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv(BASE_DIR / ".env")
+except ImportError:
+    pass
+
 # --------------------------------------------------------------------------
 # SECURITY
 # --------------------------------------------------------------------------
@@ -41,6 +54,7 @@ INSTALLED_APPS = [
     "learning",
     "credentials",
     "core",
+    "ai_tutor",
 ]
 
 MIDDLEWARE = [
@@ -139,3 +153,26 @@ LOGOUT_REDIRECT_URL = "home"
 # Minimum percentage score required to pass a course assessment or a
 # school certification exam, unless overridden on the individual model.
 DEFAULT_PASSING_SCORE = 70
+
+# --------------------------------------------------------------------------
+# AI TUTOR
+# --------------------------------------------------------------------------
+# Uses the Gemini API (Google). Set GEMINI_API_KEY or GOOGLE_API_KEY in the
+# environment to enable it; without it, the AI Tutor endpoints return a
+# friendly "not configured" message instead of erroring.
+# Uses the Gemini API (Google). Set GEMINI_API_KEY or GOOGLE_API_KEY in the
+# environment to enable it; without it, the AI Tutor endpoints return a
+# friendly "not configured" message instead of erroring.
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+# NOTE: gemini-2.0-flash was shut down by Google on 2026-06-01 — requests to
+# it now fail outright. gemini-2.5-flash is the current stable, GA default;
+# override via AI_TUTOR_MODEL if you want a different tier (e.g.
+# gemini-2.5-flash-lite for lower cost, or gemini-3-flash for more capable
+# answers). Check https://ai.google.dev/gemini-api/docs/models for the
+# current lineup before changing this, since Google retires models on a
+# rolling basis.
+AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-3.5-flash")
+# Simple per-user cap so a public-facing "Ask AI" button can't run up an
+# unbounded API bill. Raise/lower via env var without a code change.
+AI_TUTOR_DAILY_LIMIT = int(os.environ.get("AI_TUTOR_DAILY_LIMIT", "30"))

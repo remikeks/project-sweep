@@ -3,14 +3,15 @@
 {% block content %}
   <p class="eyebrow"><a href="{% url 'school_detail' course.school.slug %}">{{ course.school.name }}</a> / {{ course.title }}</p>
   <h1>{{ course.title }}</h1>
-  <div style="display:flex; gap:8px; align-items:center; margin-bottom:16px;">
+  <div style="display:flex; gap:8px; align-items:center; margin-bottom:16px; flex-wrap:wrap;">
     <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
     <span class="meta">⏱ {{ course.estimated_minutes }} min estimated</span>
     <span class="meta">· pass mark {{ course.passing_score }}%</span>
+    {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_trigger_label="Ask AI Tutor" tutor_quick_label="What's this course about?" tutor_placeholder="Ask about this course…" %}
   </div>
 
   {% if course.summary %}<p class="lede">{{ course.summary }}</p>{% endif %}
-  {% if course.course_code %}<p class="meta"><b>Course code:</b> {{ course.course_code }}</p>{% endif %}
+  {% if course.course_code %}<p class="meta">Course code: {{ course.course_code }}</p>{% endif %}
 
   {% if user.is_authenticated %}
     {% if badge %}
@@ -20,6 +21,21 @@
           <a href="{{ badge.png_file.url }}" class="btn btn-outline" download>Download PNG</a>
           <a href="{{ badge.pdf_file.url }}" class="btn btn-gold" download>Download PDF</a>
         </div>
+      </div>
+    {% elif is_enrolled %}
+      <div class="card" style="margin-bottom:20px;">
+        <p>
+          You're enrolled.
+          {% if progress %}Status: <span class="badge-pill status-{{ progress.status }}">{{ progress.get_status_display }}</span>{% endif %}
+          {% if latest_attempt %} · Last attempt: {{ latest_attempt.score }}%{% endif %}
+        </p>
+        {% if question_count %}
+          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">
+            {% if progress.attempts_count %}Retake assessment{% else %}Take assessment{% endif %}
+          </a>
+        {% else %}
+          <p class="meta">This course's assessment hasn't been configured yet.</p>
+        {% endif %}
       </div>
     {% endif %}
   {% else %}
@@ -42,15 +58,12 @@
 
   {% if user.is_authenticated and course.modules.exists %}
     <div style="margin-top:20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-      {% if first_module %}
-        {% if is_enrolled %}
-          <a href="{% url 'course_module_detail' course.slug first_module.order %}" class="btn btn-primary">Start course</a>
-        {% else %}
-          <form method="post" action="{% url 'enroll_in_course' course.slug %}">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-primary">Start course</button>
-          </form>
-        {% endif %}
+      <a href="{% if first_module %}{% url 'course_module_detail' course.slug first_module.order %}{% else %}{% url 'course_detail' course.slug %}{% endif %}" class="btn btn-primary">Go to course</a>
+      {% if not is_enrolled %}
+        <form method="post" action="{% url 'enroll_in_course' course.slug %}">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-outline">Enroll and Start Course</button>
+        </form>
       {% endif %}
     </div>
   {% endif %}

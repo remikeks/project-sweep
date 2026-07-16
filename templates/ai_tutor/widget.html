@@ -1,0 +1,48 @@
+{% comment %}
+Reusable AI Tutor widget. Include with `with`, e.g.:
+
+  {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_trigger_label="Ask AI Tutor" tutor_quick_label="What's this course about?" tutor_placeholder="Ask about this course…" %}
+
+For a module-scoped tutor, also pass tutor_module_order=module.order.
+Pass tutor_compact=True for a small single-click variant (used on course
+cards) that fires the quick action immediately instead of showing the
+free-text form.
+{% endcomment %}
+<div class="tutor-widget{% if tutor_compact %} tutor-widget-compact{% endif %}"
+     data-tutor-widget
+     data-course-slug="{{ tutor_course_slug }}"
+     {% if tutor_module_order is not None %}data-module-order="{{ tutor_module_order }}"{% endif %}
+     {% if tutor_compact %}data-tutor-compact="true"{% endif %}
+     data-authenticated="{{ request.user.is_authenticated|yesno:'true,false' }}"
+     data-login-url="{% url 'login' %}?next={{ request.path|urlencode }}">
+  <button type="button" class="btn btn-outline tutor-trigger" data-tutor-trigger>
+    <span class="tutor-spark" aria-hidden="true">&#10022;</span>
+    {{ tutor_trigger_label|default:"Ask AI Tutor" }}
+  </button>
+
+  <div class="tutor-panel" data-tutor-panel hidden>
+    <div class="tutor-panel-head">
+      <strong>SWEEP AI Tutor</strong>
+      <button type="button" class="tutor-close" data-tutor-close aria-label="Close">&times;</button>
+    </div>
+
+    {% if not tutor_compact and tutor_quick_label %}
+      <button type="button" class="btn btn-gold btn-block tutor-quick-btn" data-tutor-quick>
+        {{ tutor_quick_label }}
+      </button>
+    {% endif %}
+
+    {% if not tutor_compact %}
+      <form class="tutor-input-row" data-tutor-form>
+        <input type="text" class="sw-input" placeholder="{{ tutor_placeholder|default:'Ask a question…' }}" data-tutor-input>
+        <button type="submit" class="btn btn-primary" data-tutor-submit>Ask</button>
+      </form>
+    {% endif %}
+
+    <div class="tutor-body" data-tutor-body>
+      <p class="tutor-hint" data-tutor-hint>
+        {% if tutor_compact %}Getting an answer…{% else %}Ask about {% if tutor_module_order is not None %}this lesson{% else %}this course{% endif %}, or use the quick action above.{% endif %}
+      </p>
+    </div>
+  </div>
+</div>

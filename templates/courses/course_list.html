@@ -73,6 +73,7 @@
           <span class="badge-pill status-in_progress">Enrolled</span>
         {% endif %}
         <a href="{% url 'course_detail' course.slug %}" class="btn btn-outline btn-block">View course</a>
+        {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_trigger_label="Ask AI: what's this course about?" tutor_compact=True %}
       </div>
     {% empty %}
       <div class="empty-state">No courses match your search.</div>
