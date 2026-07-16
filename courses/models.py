@@ -36,6 +36,7 @@ class Course(models.Model):
         help_text="What learners will understand or be able to do after completing this course.",
     )
     content = models.TextField(
+        blank=True,
         help_text="The main learning material for the course. Supports plain "
         "text/markdown-style paragraphs."
     )
