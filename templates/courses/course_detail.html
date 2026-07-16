@@ -21,21 +21,6 @@
           <a href="{{ badge.pdf_file.url }}" class="btn btn-gold" download>Download PDF</a>
         </div>
       </div>
-    {% elif is_enrolled %}
-      <div class="card" style="margin-bottom:20px;">
-        <p>
-          You're enrolled.
-          {% if progress %}Status: <span class="badge-pill status-{{ progress.status }}">{{ progress.get_status_display }}</span>{% endif %}
-          {% if latest_attempt %} · Last attempt: {{ latest_attempt.score }}%{% endif %}
-        </p>
-        {% if question_count %}
-          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">
-            {% if progress.attempts_count %}Retake assessment{% else %}Take assessment{% endif %}
-          </a>
-        {% else %}
-          <p class="meta">This course's assessment hasn't been configured yet.</p>
-        {% endif %}
-      </div>
     {% endif %}
   {% else %}
     <p><a href="{% url 'login' %}">Log in</a> or <a href="{% url 'signup' %}">sign up</a> to enroll in this course.</p>
@@ -57,12 +42,15 @@
 
   {% if user.is_authenticated and course.modules.exists %}
     <div style="margin-top:20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-      <a href="{% if first_module %}{% url 'course_module_detail' course.slug first_module.order %}{% else %}{% url 'course_detail' course.slug %}{% endif %}" class="btn btn-primary">Go to course</a>
-      {% if not is_enrolled %}
-        <form method="post" action="{% url 'enroll_in_course' course.slug %}">
-          {% csrf_token %}
-          <button type="submit" class="btn btn-outline">Enroll and Start Course</button>
-        </form>
+      {% if first_module %}
+        {% if is_enrolled %}
+          <a href="{% url 'course_module_detail' course.slug first_module.order %}" class="btn btn-primary">Start course</a>
+        {% else %}
+          <form method="post" action="{% url 'enroll_in_course' course.slug %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">Start course</button>
+          </form>
+        {% endif %}
       {% endif %}
     </div>
   {% endif %}

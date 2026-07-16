@@ -64,7 +64,7 @@ class CourseDetailAccessTest(TestCase):
         self.assertEqual(response.status_code, 302)
         self.assertRedirects(response, reverse("course_module_detail", kwargs={"slug": self.course.slug, "module_order": 1}))
 
-    def test_authenticated_user_can_view_course_detail_with_first_module_link(self):
+    def test_authenticated_user_sees_single_start_course_button(self):
         user = get_user_model().objects.create_user(username="student3", password="secret123")
         CourseModule.objects.create(
             course=self.course,
@@ -84,4 +84,6 @@ class CourseDetailAccessTest(TestCase):
         response = self.client.get(reverse("course_detail", kwargs={"slug": self.course.slug}))
 
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, "Go to course")
+        self.assertContains(response, "Start course")
+        self.assertNotContains(response, "Go to course")
+        self.assertNotContains(response, "Enroll and Start Course")
