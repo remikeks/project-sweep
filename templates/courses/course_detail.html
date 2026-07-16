@@ -10,7 +10,7 @@
   </div>
 
   {% if course.summary %}<p class="lede">{{ course.summary }}</p>{% endif %}
-  {% if course.course_code %}<p class="meta">Course code: {{ course.course_code }}</p>{% endif %}
+  {% if course.course_code %}<p class="meta"><b>Course code:</b> {{ course.course_code }}</p>{% endif %}
 
   {% if user.is_authenticated %}
     {% if badge %}
