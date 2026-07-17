@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}Project SWEEP{% endblock %}</title>
+  <title>{% block title %}SWEEP — Social Work E-Learning and Empowerment Platform{% endblock %}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -20,16 +20,18 @@
 <body>
   <nav class="sw-nav">
     <div class="container">
-      <a href="{% url 'home' %}" class="brand" style="text-decoration:none;">
-        <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
-        <span class="brand-text">
-          SWEEP
-          <!-- <small>Social Work E-Learning &amp; Empowerment</small>
-        </span> -->
-      </a>
-      <button class="sw-nav-toggle" type="button" aria-expanded="false" aria-controls="sw-nav-links" aria-label="Open navigation menu">
-        &#9776;
-      </button>
+      <div class="sw-nav-bar">
+        <a href="{% url 'home' %}" class="brand" style="text-decoration:none;">
+          <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
+          <span class="brand-text">
+            SWEEP
+            <small>Social Work E-Learning &amp; Empowerment</small>
+          </span>
+        </a>
+        <button class="sw-nav-toggle" type="button" aria-expanded="false" aria-controls="sw-nav-links" aria-label="Open navigation menu">
+          &#9776;
+        </button>
+      </div>
       <div class="sw-nav-links" id="sw-nav-links">
         <a href="{% url 'school_list' %}">Schools</a>
         <a href="{% url 'course_list' %}">Courses</a>
@@ -40,17 +42,19 @@
             {% csrf_token %}
             <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
           </form>
-          <div class="nav-user-pill" aria-label="Signed in user">
-            <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
-            <span class="nav-user-text">happy learning, {{ user.username }}</span>
-            <!--<div class="nav-user-menu">
+          <div class="nav-user-pill" data-user-menu>
+            <button type="button" class="nav-user-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
+              <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
+              <span class="nav-user-text">happy learning, {{ user.username }}</span>
+            </button>
+            <div class="nav-user-menu" data-user-menu-panel>
               <a href="{% url 'dashboard' %}">My Learning</a>
               <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
               <form action="{% url 'logout' %}" method="post">
                 {% csrf_token %}
                 <button type="submit">Log out</button>
               </form>
-            </div>-->
+            </div>
           </div>
         {% else %}
           <a href="{% url 'login' %}">Log in</a>
@@ -76,9 +80,8 @@
     <div class="container">
       <div class="sw-footer-grid">
         <div>
-          <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
           <h3 class="footer-heading">SWEEP</h3>
-          <p>Social Work Education, Empowerment, and Enterprise Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
+          <p>Social Work E-Learning and Empowerment Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
         </div>
         <div>
           <h3 class="footer-heading">Explore</h3>
@@ -137,6 +140,36 @@
         };
 
         window.setTimeout(typeNextCharacter, 120 + index * 180);
+      });
+
+      var userMenus = document.querySelectorAll('[data-user-menu]');
+      function closeUserMenus() {
+        userMenus.forEach(function (wrap) {
+          wrap.classList.remove('open');
+          var trigger = wrap.querySelector('[data-user-menu-trigger]');
+          if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        });
+      }
+      userMenus.forEach(function (wrap) {
+        var trigger = wrap.querySelector('[data-user-menu-trigger]');
+        if (!trigger) return;
+        trigger.addEventListener('click', function (evt) {
+          evt.stopPropagation();
+          var willOpen = !wrap.classList.contains('open');
+          closeUserMenus();
+          if (willOpen) {
+            wrap.classList.add('open');
+            trigger.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+      document.addEventListener('click', function (evt) {
+        userMenus.forEach(function (wrap) {
+          if (!wrap.contains(evt.target)) wrap.classList.remove('open');
+        });
+      });
+      document.addEventListener('keydown', function (evt) {
+        if (evt.key === 'Escape') closeUserMenus();
       });
     });
   </script>

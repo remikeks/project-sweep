@@ -90,6 +90,10 @@ a:hover { text-decoration: underline; }
   height: 64px;
 }
 
+.sw-nav-bar {
+  display: contents;
+}
+
 .sw-nav .brand {
   display: flex;
   align-items: center;
@@ -157,33 +161,33 @@ a:hover { text-decoration: underline; }
 .nav-user-pill {
   position: relative;
   display: inline-flex;
+  margin-left: 6px;
+}
+
+.nav-user-trigger {
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 8px 10px;
-  margin-left: 6px;
   border: 1px solid rgba(31, 92, 82, 0.16);
   border-radius: 999px;
   background: rgba(31, 92, 82, 0.06);
   color: var(--primary-dark);
+  font: inherit;
   cursor: pointer;
 }
 
-.nav-user-pill:hover .nav-user-menu,
-.nav-user-pill:focus-within .nav-user-menu {
-  display: flex;
+.nav-user-trigger:hover {
+  background: rgba(31, 92, 82, 0.1);
+}
+
+.nav-user-pill.open .nav-user-trigger {
+  background: rgba(31, 92, 82, 0.12);
 }
 
 @media (min-width: 721px) {
-  .nav-user-pill:hover .nav-user-menu,
-  .nav-user-pill:focus-within .nav-user-menu {
+  .nav-user-pill.open .nav-user-menu {
     display: flex;
-  }
-}
-
-@media (max-width: 720px) {
-  .nav-user-pill:hover .nav-user-menu,
-  .nav-user-pill:focus-within .nav-user-menu {
-    display: none;
   }
 }
 
@@ -250,6 +254,12 @@ a:hover { text-decoration: underline; }
 
 .nav-link-auth {
   display: inline-block;
+}
+
+@media (min-width: 721px) {
+  .nav-link-auth {
+    display: none;
+  }
 }
 
 .sw-nav-toggle {
@@ -833,14 +843,45 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 
 @media (max-width: 720px) {
   .sw-nav .container {
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
     height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sw-nav-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .brand {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .brand-mark {
+    flex-shrink: 0;
+  }
+
+  .brand-text {
+    min-width: 0;
+  }
+
+  .sw-nav .brand small {
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   .sw-nav-toggle {
     display: inline-flex;
+    flex-shrink: 0;
   }
 
   .sw-nav-links {
@@ -873,9 +914,10 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 
   .nav-user-pill {
     margin-left: 0;
-    align-self: flex-start;
-    justify-content: flex-start;
     width: fit-content;
+  }
+
+  .nav-user-trigger {
     border-radius: 12px;
   }
 
