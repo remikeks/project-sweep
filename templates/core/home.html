@@ -11,10 +11,8 @@
       <div class="hero-copy">
         <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
         <h1>Practice-ready training for the social work field.</h1>
-        <p class="lede">
-          Enroll course-by-course or take on a whole school at once. Pass each
-          assessment to earn a badge, complete a school to earn a certificate —
-          yours to view and download at any time.
+        <p class="lede typewriter">
+          Enroll course-by-course or take on a whole school at once. Pass each assessment to earn a badge, complete a school to earn a certificate — yours to view and download at any time.
         </p>
         <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
           <a href="{% url 'school_list' %}" class="btn btn-gold">Browse the 10 schools</a>
@@ -90,9 +88,33 @@
     </div>
   </section>
 
+  <section class="mv-section">
+    <p class="eyebrow" style="text-align:center;">Why SWEEP exists</p>
+    <h2 class="subheading typewriter" data-text="Mission &amp; Vision" style="text-align:center;">Mission &amp; Vision</h2>
+
+    <div class="mv-grid">
+      <div class="mv-panel mv-mission">
+        <span class="mv-mark" aria-hidden="true">&#129309;</span>
+        <p class="mv-label">Our Mission</p>
+        <p class="mv-text">
+          Bridging classroom, practice, supervision, community engagement and policy through digital learning, certification, mentoring and field intelligence.
+        </p>
+      </div>
+
+      <div class="mv-connector" aria-hidden="true">&#10022;</div>
+
+      <div class="mv-panel mv-vision">
+        <span class="mv-mark" aria-hidden="true">&#127793;</span>
+        <p class="mv-label">Our Vision</p>
+        <p class="mv-text">
+          Africa's leading digital learning and professional development platform for social workers — accessible, competency-based, technology-enabled, for life.
+        </p>
+      </div>
+    </div>
+  </section>
+
   {% if featured_courses %}
   <section class="featured-section">
-    <br><br>
     <h2 class="subheading typewriter" data-text="Featured Courses">Featured Courses</h2>
     <div class="carousel" data-carousel>
       <div class="carousel-viewport">

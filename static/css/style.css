@@ -53,7 +53,7 @@ a:hover { text-decoration: underline; }
 
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 1rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--clay);
@@ -822,13 +822,6 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
     height: auto;
   }
 
-  @media(max-width: 720px) {
-    .school-grid, .course-grid {
-      grid-template-columns: 1fr;
-      margin-bottom: 36px;
-    }
-  }
-
   .sw-nav-toggle {
     display: inline-flex;
   }
@@ -1060,4 +1053,101 @@ footer.sw-footer {
 
 @media (max-width: 480px) {
   .tutor-panel { position: fixed; left: 12px; right: 12px; top: auto; bottom: 12px; width: auto; }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Mission & Vision                                                        */
+/* ---------------------------------------------------------------------- */
+
+.mv-section {
+  margin: 48px 0;
+  padding: 48px 32px;
+  border-radius: 22px;
+  background: linear-gradient(120deg, #FBF6E9 0%, #EEF0EA 55%, #EAF1E7 100%);
+  border: 1px solid var(--line);
+}
+
+.mv-section .subheading { text-align: center; margin-bottom: 8px; }
+
+.mv-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 32px;
+  align-items: stretch;
+}
+
+.mv-panel {
+  position: relative;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 36px 30px 30px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.mv-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+}
+
+.mv-mission::before { background: linear-gradient(90deg, #4C9A2A, #1F5C52); }
+.mv-vision::before { background: linear-gradient(90deg, #1F7A4D, #0B3B2E); }
+
+.mv-mark {
+  position: absolute;
+  top: -14px;
+  right: 2px;
+  font-size: 5.5rem;
+  line-height: 1;
+  opacity: 0.10;
+  pointer-events: none;
+}
+
+.mv-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clay);
+  margin: 0 0 12px;
+}
+
+.mv-text {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--gold);
+}
+
+.mv-connector {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  box-shadow: 0 0 0 6px var(--paper-raised), 0 6px 14px rgba(18, 59, 53, 0.22);
+  z-index: 2;
+}
+
+@media (max-width: 720px) {
+  .mv-section { padding: 36px 20px; margin: 32px 0; }
+  .mv-grid { grid-template-columns: 1fr; gap: 40px; }
+  .mv-connector { display: none; }
+  .mv-mark { font-size: 4.2rem; }
 }
