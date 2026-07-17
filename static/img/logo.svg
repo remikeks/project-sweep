@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="sweepLogoTitle">
+  <title id="sweepLogoTitle">SWEEP</title>
+  <defs>
+    <radialGradient id="sweepMarkGold" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#E4C374"/>
+      <stop offset="100%" stop-color="#C79A3C"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gold seal, matching the hero illustration's centre emblem -->
+  <circle cx="32" cy="32" r="30" fill="url(#sweepMarkGold)" stroke="#123B35" stroke-width="1.5"/>
+
+  <!-- Leaf / heart hybrid: growth and care, the two ideas at the centre of SWEEP -->
+  <path d="M32,16 C42,16 50,24 50,34 C50,42 44,48 36,48 C36,48 35,38 22,32 C26,22 28,16 32,16 Z" fill="#123B35"/>
+
+  <!-- Vein detail -->
+  <path d="M32,18 C34,25 34,33 30,43" fill="none" stroke="#E4C374" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+</svg>

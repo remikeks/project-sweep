@@ -4,18 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}SWEEP — Social Work E-Learning and Empowerment Platform{% endblock %}</title>
+  <title>{% block title %}Project SWEEP{% endblock %}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="icon" type="image/svg+xml" href="{% static 'img/logo.svg' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+  <link rel="shortcut icon" href="{% static 'favicon/favicon.ico' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+  <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
+  <meta name="theme-color" content="#123B35">
   {% block extra_head %}{% endblock %}
 </head>
 <body>
   <nav class="sw-nav">
     <div class="container">
       <a href="{% url 'home' %}" class="brand" style="text-decoration:none;">
-        SWEEP
-        <small>Social Work E-Learning &amp; Empowerment</small>
+        <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
+        <span class="brand-text">
+          SWEEP
+          <small>Social Work E-Learning &amp; Empowerment</small>
+        </span>
       </a>
       <button class="sw-nav-toggle" type="button" aria-expanded="false" aria-controls="sw-nav-links" aria-label="Open navigation menu">
         &#9776;
@@ -66,8 +76,9 @@
     <div class="container">
       <div class="sw-footer-grid">
         <div>
+          <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
           <h3 class="footer-heading">SWEEP</h3>
-          <p>Social Work E-Learning and Empowerment Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
+          <p>Social Work Education, Empowerment, and Enterprise Platform. A practical learning space for continuing education, credential tracking, and community-informed practice.</p>
         </div>
         <div>
           <h3 class="footer-heading">Explore</h3>

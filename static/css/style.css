@@ -53,7 +53,7 @@ a:hover { text-decoration: underline; }
 
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 1rem;
+  font-size: 0.72rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--clay);
@@ -91,11 +91,28 @@ a:hover { text-decoration: underline; }
 }
 
 .sw-nav .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 2rem;
   color: var(--primary);
   letter-spacing: 0.02em;
+}
+
+.brand-mark {
+  display: block;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 4px rgba(18, 59, 53, 0.25));
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
 }
 
 .footer-heading h3{
