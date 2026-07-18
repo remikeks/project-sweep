@@ -63,8 +63,7 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-mono);
   font-size: 1.9rem;
   text-transform: uppercase;
-  color: var(--clay)
-
+  color: var(--clay);
 }
 
 .container {
@@ -1216,21 +1215,35 @@ footer.sw-footer {
 /* ---------------------------------------------------------------------- */
 
 .mv-section.mv-objectives {
-  background: linear-gradient(120deg, #EAF1E7 0%, #EEF0EA 55%, #FBF6E9 100%);
+  background: linear-gradient(135deg, #0B3B2E 0%, #145C46 55%, #1F7A4D 100%);
+  color: var(--paper);
+}
+
+.mv-section.mv-objectives .eyebrow {
+  color: var(--gold);
+}
+
+.mv-section.mv-objectives .subheading {
+  color: var(--gold);
+  text-align: center;
+}
+
+.value-prop-intro {
+  color: var(--primary-dark);
+  font-size: 1.02rem;
+  line-height: 1.6;
+
+}
+
+.mv-section.mv-objectives .value-prop-intro {
+  color: #DCEFDF;
 }
 
 .mv-section.mv-values {
   background: linear-gradient(120deg, #FBF6E9 0%, #EEF0EA 55%, #EAF1E7 100%);
 }
 
-.value-prop-intro {
-  max-width: 680px;
-  margin: 12px auto 0;
-  text-align: center;
-  color: var(--primary-dark);
-  font-size: 1.02rem;
-  line-height: 1.6;
-}
+
 
 .objectives-list {
   display: flex;
