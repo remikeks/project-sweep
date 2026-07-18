@@ -1,8 +1,54 @@
 {% extends "base.html" %}
 {% block title %}Services — SWEEP{% endblock %}
 {% block content %}
-  <h1>Services</h1>
-  <p class="lede">
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="840" cy="85" r="220" fill="#4C9A2A" opacity="0.16" />
+      <circle cx="170" cy="520" r="190" fill="#C79A3C" opacity="0.13" />
+      <circle cx="600" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Education · enterprise · consultancy</p>
+        <h1 class="typewriter" data-text="A full-service academy for social work education and professional growth.">A full-service academy for social work education and professional growth.</h1>
+        <p class="lede">
+          From continuing education and career services to enterprise
+          support, consultancy, research, and humanitarian training,
+          SWEEP brings the comprehensive range of services social workers
+          and organisations need under one roof.
+        </p>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="{% url 'course_list' %}" class="btn btn-gold">Explore courses</a>
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ service_groups|length }}</span>
+            <span class="stat-label">Service families</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ total_services }}</span>
+            <span class="stat-label">Individual services</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of professional services">
+          <rect x="102" y="178" width="216" height="138" rx="20" fill="#EEF0EA" opacity="0.9" />
+          <rect x="168" y="140" width="84" height="46" rx="16" fill="none" stroke="#1F5C52" stroke-width="14" />
+          <rect x="102" y="178" width="216" height="34" rx="14" fill="#1F5C52" opacity="0.9" />
+          <rect x="188" y="186" width="44" height="20" rx="6" fill="#C79A3C" />
+          <rect x="130" y="238" width="120" height="14" rx="7" fill="#8CAE6B" opacity="0.9" />
+          <rect x="130" y="266" width="90" height="14" rx="7" fill="#1F5C52" opacity="0.7" />
+          <circle cx="300" cy="270" r="42" fill="#C79A3C" />
+          <path d="M282 270l14 14 26-28" stroke="#EEF0EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <p class="lede" style="margin-top:32px;">
     A look at what SWEEP provides today, from course delivery to
     credentialing to the support around them. This list will grow as the
     platform does.
