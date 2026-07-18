@@ -108,8 +108,56 @@
     </div>
   </footer>
 
+  <div class="feedback-widget" data-feedback-widget data-authenticated="{{ request.user.is_authenticated|yesno:'true,false' }}">
+    <button type="button" class="feedback-fab" data-feedback-trigger aria-haspopup="dialog" aria-controls="feedback-modal" aria-label="Send feedback">
+      <span class="feedback-fab-bubble" data-feedback-bubble>Tell us what you think</span>
+      <span class="feedback-fab-icon" aria-hidden="true">&#128172;</span>
+    </button>
+
+    <div class="feedback-modal-overlay" data-feedback-overlay hidden>
+      <div class="feedback-modal" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title" id="feedback-modal">
+        <div class="feedback-modal-head">
+          <h3 id="feedback-modal-title">Send feedback</h3>
+          <button type="button" class="tutor-close" data-feedback-close aria-label="Close">&times;</button>
+        </div>
+
+        <form data-feedback-form novalidate>
+          {% csrf_token %}
+          <p>
+            <label for="feedback-type">What type of feedback is this?</label>
+            <select id="feedback-type" name="feedback_type" class="sw-input" required>
+              <option value="suggestion">Suggestion / idea</option>
+              <option value="bug">Something's not working</option>
+              <option value="content">Course or content issue</option>
+              <option value="compliment">Compliment</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p>
+            <label for="feedback-message">Tell us more</label>
+            <textarea id="feedback-message" name="message" class="sw-input" rows="4" required placeholder="What's on your mind?"></textarea>
+          </p>
+          <p>
+            <label for="feedback-email">Email address <span style="font-weight:400; text-transform:none; letter-spacing:0;">(optional)</span></label>
+            <input type="email" id="feedback-email" name="email" class="sw-input" placeholder="you@example.com">
+          </p>
+
+          <div class="feedback-status" data-feedback-status></div>
+
+          <button type="submit" class="btn btn-gold btn-block" data-feedback-submit>Send feedback</button>
+        </form>
+
+        <div class="feedback-thanks" data-feedback-thanks hidden>
+          <p><strong>Thank you!</strong> Your feedback has been sent to the team.</p>
+          <button type="button" class="btn btn-outline btn-block" data-feedback-done>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="{% static 'js/carousel.js' %}"></script>
   <script src="{% static 'js/ai_tutor.js' %}"></script>
+  <script src="{% static 'js/feedback.js' %}"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var toggle = document.querySelector('.sw-nav-toggle');

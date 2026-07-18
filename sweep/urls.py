@@ -11,6 +11,7 @@ urlpatterns = [
     path("learning/", include("learning.urls")),
     path("credentials/", include("credentials.urls")),
     path("ai-tutor/", include("ai_tutor.urls")),
+    path("feedback/", include("feedback.urls")),
     path("", include("core.urls")),
 ]
 

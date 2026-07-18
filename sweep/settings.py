@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     "credentials",
     "core",
     "ai_tutor",
+    "feedback",
 ]
 
 MIDDLEWARE = [
@@ -172,7 +173,35 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 # answers). Check https://ai.google.dev/gemini-api/docs/models for the
 # current lineup before changing this, since Google retires models on a
 # rolling basis.
-AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-3.5-flash")
+AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-2.5-flash")
 # Simple per-user cap so a public-facing "Ask AI" button can't run up an
 # unbounded API bill. Raise/lower via env var without a code change.
 AI_TUTOR_DAILY_LIMIT = int(os.environ.get("AI_TUTOR_DAILY_LIMIT", "30"))
+
+# --------------------------------------------------------------------------
+# EMAIL
+# --------------------------------------------------------------------------
+# Real outbound email (used today by the feedback widget; anything else
+# that needs to send mail later — password reset, notifications — will
+# use this same config). Set EMAIL_HOST in the environment to send real
+# email via SMTP; without it, email is printed to the console instead of
+# sent, so nothing crashes in local dev if you haven't configured an SMTP
+# provider yet.
+EMAIL_HOST = os.environ.get("EMAIL_HOST", "")
+if EMAIL_HOST:
+    EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+else:
+    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "587"))
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
+EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS", "True") == "True"
+DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", "SWEEP <no-reply@sweepacademy.org>")
+
+# --------------------------------------------------------------------------
+# FEEDBACK
+# --------------------------------------------------------------------------
+# Where the site-wide feedback widget sends its notification email.
+# Override via env var if this ever needs to change without a redeploy.
+FEEDBACK_TO_EMAIL = os.environ.get("FEEDBACK_TO_EMAIL", "info@sweepacademy.org")
