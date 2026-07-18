@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Services — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow">What we offer</p>
+  <h1>Services</h1>
+  <p class="lede">
+    A look at what SWEEP provides today, from course delivery to
+    credentialing to the support around them. This list will grow as the
+    platform does.
+  </p>
+
+  <div class="services-grid">
+    {% for group in service_groups %}
+      <div class="service-group">
+        <h3>{{ group.title }}</h3>
+        <ul>
+          {% for item in group.items %}
+            <li><span class="service-dot" aria-hidden="true"></span>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

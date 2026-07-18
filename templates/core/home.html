@@ -11,8 +11,10 @@
       <div class="hero-copy">
         <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
         <h1>Practice-ready training for the social work field.</h1>
-        <p class="lede typewriter">
-          Enroll course-by-course or take on a whole school at once. Pass each assessment to earn a badge, complete a school to earn a certificate — yours to view and download at any time.
+        <p class="lede">
+          Enroll course-by-course or take on a whole school at once. Pass each
+          assessment to earn a badge, complete a school to earn a certificate —
+          yours to view and download at any time.
         </p>
         <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
           <a href="{% url 'school_list' %}" class="btn btn-gold">Browse the 10 schools</a>
@@ -97,7 +99,9 @@
         <span class="mv-mark" aria-hidden="true">&#129309;</span>
         <p class="mv-label">Our Mission</p>
         <p class="mv-text">
-          To empower social work professionals through quality education, professional development, entrepreneurship, research, and innovation, enabling them to excel in practice, leadership, and social impact.
+          To make practice-ready social work training accessible to anyone
+          called to the field — self-paced, evidence-informed, and free of
+          the paywalls that keep vital skills locked away.
         </p>
       </div>
 
@@ -107,14 +111,111 @@
         <span class="mv-mark" aria-hidden="true">&#127793;</span>
         <p class="mv-label">Our Vision</p>
         <p class="mv-text">
-          A society where every social work professional is empowered with the knowledge, skills, innovation, and opportunities to advance social justice, improve lives, strengthen communities, and drive sustainable development.
+          A future where every social worker — wherever they trained and
+          however they entered the field — carries the same foundation of
+          skill, ethics, and confidence to show up for the people who need
+          them most.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mv-section mv-objectives">
+    <p class="eyebrow" style="text-align:center;">Where we're headed</p>
+    <h2 class="subheading typewriter" data-text="Strategic Objectives" style="text-align:center;">Strategic Objectives</h2>
+    <p class="value-prop-intro">
+      Placeholder goals for now — these will be refined as the program matures.
+    </p>
+
+    <div class="objectives-list">
+      <div class="objective-row">
+        <span class="objective-num">01</span>
+        <div>
+          <h3>Full curriculum coverage</h3>
+          <p>Expand and refine course offerings across all 10 schools until every core social work specialty has a complete, practice-ready pathway.</p>
+        </div>
+      </div>
+      <div class="objective-row">
+        <span class="objective-num">02</span>
+        <div>
+          <h3>Recognized certification</h3>
+          <p>Pursue alignment with professional bodies and continuing-education requirements so SWEEP certificates carry real currency in the field.</p>
+        </div>
+      </div>
+      <div class="objective-row">
+        <span class="objective-num">03</span>
+        <div>
+          <h3>Equitable access</h3>
+          <p>Keep cost and scheduling from ever being the reason a capable learner can't complete their training.</p>
+        </div>
+      </div>
+      <div class="objective-row">
+        <span class="objective-num">04</span>
+        <div>
+          <h3>Learner success</h3>
+          <p>Sustain high completion and pass rates through continuous review of course content, assessments, and learner feedback.</p>
+        </div>
+      </div>
+      <div class="objective-row">
+        <span class="objective-num">05</span>
+        <div>
+          <h3>Community partnerships</h3>
+          <p>Build relationships with agencies, universities, and practicing social workers to keep content grounded in real practice.</p>
+        </div>
+      </div>
+      <div class="objective-row">
+        <span class="objective-num">06</span>
+        <div>
+          <h3>Platform reliability</h3>
+          <p>Invest in the infrastructure, security, and support behind SWEEP so it stays dependable for learners at every stage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mv-section mv-values">
+    <p class="eyebrow" style="text-align:center;">What sets us apart</p>
+    <h2 class="subheading typewriter" data-text="Our Value Proposition" style="text-align:center;">Our Value Proposition</h2>
+    <p class="value-prop-intro">
+      SWEEP exists to close the gap between social work theory and the
+      realities of practice — giving learners one place to build real
+      skills, earn credentials that mean something, and grow their
+      capacity to serve, without the cost or scheduling barriers that
+      keep vital training out of reach.
+    </p>
+
+    <div class="value-grid">
+      <div class="value-card">
+        <span class="value-icon" aria-hidden="true">&#129330;</span>
+        <h3>Empathy</h3>
+        <p>Every feature starts with the learner's and client's lived experience in mind.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon" aria-hidden="true">&#129517;</span>
+        <h3>Integrity</h3>
+        <p>Ethical practice isn't a module — it's the foundation of everything we teach.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon" aria-hidden="true">&#128275;</span>
+        <h3>Access</h3>
+        <p>Quality training shouldn't depend on your budget or your zip code.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon" aria-hidden="true">&#127919;</span>
+        <h3>Excellence</h3>
+        <p>Evidence-informed content, built to real practice standards.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon" aria-hidden="true">&#127760;</span>
+        <h3>Community</h3>
+        <p>Social work is relational — so is how we build and grow this platform.</p>
       </div>
     </div>
   </section>
 
   {% if featured_courses %}
   <section class="featured-section">
+    <br><br>
     <h2 class="subheading typewriter" data-text="Featured Courses">Featured Courses</h2>
     <div class="carousel" data-carousel>
       <div class="carousel-viewport">
