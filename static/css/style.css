@@ -1225,7 +1225,7 @@ footer.sw-footer {
 }
 
 .mv-section.mv-objectives .subheading {
-  color: var(--paper);
+  color: var(--gold);
 }
 
 .mv-section.mv-objectives .value-prop-intro {
@@ -1237,9 +1237,6 @@ footer.sw-footer {
 }
 
 .value-prop-intro {
-  max-width: 680px;
-  margin: 12px auto 0;
-  text-align: center;
   color: var(--primary-dark);
   font-size: 1.02rem;
   line-height: 1.6;
