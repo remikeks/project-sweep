@@ -1438,14 +1438,18 @@ footer.sw-footer {
 }
 
 .feedback-modal-overlay {
+  display: none;
   position: fixed;
   inset: 0;
   background: rgba(11, 59, 46, 0.55);
-  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 300;
   padding: 20px;
+}
+
+.feedback-modal-overlay.is-open {
+  display: flex;
 }
 
 .feedback-modal {

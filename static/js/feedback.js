@@ -48,7 +48,7 @@
     }
 
     function openModal() {
-      overlay.hidden = false;
+      overlay.classList.add("is-open");
       window.setTimeout(function () {
         var firstField = form.querySelector("select, textarea, input");
         if (firstField) firstField.focus();
@@ -56,7 +56,7 @@
     }
 
     function closeModal() {
-      overlay.hidden = true;
+      overlay.classList.remove("is-open");
     }
 
     trigger.addEventListener("click", openModal);
@@ -73,7 +73,7 @@
     });
 
     document.addEventListener("keydown", function (evt) {
-      if (evt.key === "Escape" && !overlay.hidden) closeModal();
+      if (evt.key === "Escape" && overlay.classList.contains("is-open")) closeModal();
     });
 
     form.addEventListener("submit", function (evt) {
