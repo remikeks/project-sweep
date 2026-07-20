@@ -143,7 +143,7 @@ a:hover { text-decoration: underline; }
 
 .sw-nav-links a {
   color: var(--primary-dark);
-  padding: 10px 14px;
+  padding: 10px 10px;
   border-radius: var(--radius) var(--radius) 0 0;
   font-size: 1rem;
 }

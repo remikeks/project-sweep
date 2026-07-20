@@ -39,10 +39,10 @@
         {% if user.is_authenticated %}
           <a class="nav-link-auth" href="{% url 'dashboard' %}">My Learning</a>
           <a class="nav-link-auth" href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
-          <!--<form class="nav-link-auth" action="{% url 'logout' %}" method="post" style="display:inline;">
+          <form class="nav-link-auth" action="{% url 'logout' %}" method="post" style="display:inline;">
             {% csrf_token %}
             <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
-          </form> -->
+          </form>
           <div class="nav-user-pill" data-user-menu>
             <button type="button" class="nav-user-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
               <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
