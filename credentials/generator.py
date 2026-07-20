@@ -4,13 +4,13 @@ and PDF (for printing), using Pillow only, so the platform has no
 dependency on a browser or headless renderer being available.
 
 Visual language (kept consistent across the whole platform):
-  paper        #EEF0EA  soft sage-linen background
-  ink          #1B2420  near-black text
-  primary      #1F5C52  deep teal (SWEEP brand)
-  primary_dark #123B35
-  gold         #C79A3C  achievement gold (badges/seals)
-  clay         #A85C3E  warm secondary accent
-  line         #D8DCD2  hairline rule
+  paper        #EEF0F5  soft cool-linen background
+  ink          #16202E  near-black text
+  primary      #0B2C7A  navy blue (SWEEP brand)
+  primary_dark #071D52
+  gold         #F5A400  achievement gold (badges/seals)
+  clay         #F2650A  warm orange accent
+  line         #D9DEE8  hairline rule
 """
 
 import io
@@ -19,13 +19,13 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-PAPER = (238, 240, 234)
-INK = (27, 36, 32)
-PRIMARY = (31, 92, 82)
-PRIMARY_DARK = (18, 59, 53)
-GOLD = (199, 154, 60)
-CLAY = (168, 92, 62)
-LINE = (216, 220, 210)
+PAPER = (238, 240, 245)
+INK = (22, 32, 46)
+PRIMARY = (11, 44, 122)
+PRIMARY_DARK = (7, 29, 82)
+GOLD = (245, 164, 0)
+CLAY = (242, 101, 10)
+LINE = (217, 222, 232)
 WHITE = (255, 255, 255)
 
 _FONT_CANDIDATES_BOLD = [
