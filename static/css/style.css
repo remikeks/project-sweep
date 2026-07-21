@@ -1219,7 +1219,8 @@ footer.sw-footer {
 /* ---------------------------------------------------------------------- */
 
 .mv-section.mv-objectives {
-  background: linear-gradient(135deg, #051A47 0%, #0B2C7A 55%, #1E9BE0 100%);
+  background: linear-gradient(135deg, #1E9BE0 0%, #0B2C7A 80%, #051A47 100%);
+  /*background: var(--blue);*/
   color: var(--paper);
 }
 
@@ -1228,7 +1229,7 @@ footer.sw-footer {
 }
 
 .mv-section.mv-objectives .subheading {
-  color: var(--gold);
+  color: var(--paper);
 }
 
 .mv-section.mv-objectives .value-prop-intro {

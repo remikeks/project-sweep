@@ -149,7 +149,7 @@ The `ai_tutor` app is a deliberately simple, course-aware Q&A/summary tutor:
 - `TutorInteraction` logs every question and answer, and doubles as the basis for a per-user daily quota so a public-facing "Ask AI" button can't run up an unbounded API bill.
 - Everything goes through one endpoint, `tutor_ask`, which accepts a course, an optional module, a mode (`chat` or `summary`), and a question.
 
-There's no tool use, autonomy, or memory beyond the interaction log yet —
+There's no tool use, autonomy, or memory beyond the interaction log yet;
 that's intentional for this iteration, with room to grow later without a
 data-model rewrite.
 
@@ -159,9 +159,9 @@ A floating feedback button, available site-wide, lets any user report a bug,
 suggest an idea, flag a content issue, or leave a compliment. Every
 submission is saved to the database first; if `FEEDBACK_TO_EMAIL` is
 configured, a notification email is also attempted, but a misconfigured mail
-server or transient SMTP error never loses the feedback itself — check
+server or transient SMTP error never loses the feedback itself (check
 `email_sent` / `email_error` on the `Feedback` record in the admin if
-notifications seem to have stopped arriving.
+notifications seem to have stopped arriving.)
 
 ## Branding
 
