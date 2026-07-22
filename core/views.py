@@ -240,6 +240,9 @@ SERVICE_GROUPS = [
 ]
 
 
+HOME_SCHOOL_LIMIT = 10
+
+
 def home(request):
     schools = School.objects.filter(is_active=True)
     stats = {
@@ -254,7 +257,11 @@ def home(request):
         .select_related("school")
         .order_by("?")[:FEATURED_COURSE_LIMIT]
     )
-    context = {"schools": schools, "stats": stats, "featured_courses": featured_courses}
+    context = {
+        "schools": schools[:HOME_SCHOOL_LIMIT],
+        "stats": stats,
+        "featured_courses": featured_courses,
+    }
     return render(request, "core/home.html", context)
 
 

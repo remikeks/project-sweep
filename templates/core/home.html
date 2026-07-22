@@ -10,7 +10,7 @@
 
     <div class="hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">10 schools · self-paced · badges &amp; certificates</p>
+        <p class="eyebrow">25 schools · self-paced · badges &amp; certificates</p>
         <h1>Practice-ready training for the social work field.</h1>
         <p class="lede">
           Enroll course-by-course or take on a whole school at once. Pass each
@@ -33,53 +33,20 @@
         </div>
       </div>
 
-      <div class="hero-illustration">
-        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a support circle">
-          <g stroke="#EEF0EA" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="2 7" fill="none">
-            <path d="M210,210 L210,60" />
-            <path d="M210,210 L339.9,135" />
-            <path d="M210,210 L339.9,285" />
-            <path d="M210,210 L210,360" />
-            <path d="M210,210 L80.1,285" />
-            <path d="M210,210 L80.1,135" />
-          </g>
-
-          <g>
-            <g transform="translate(210,60)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#F5A400" />
-              <circle cy="-26" r="15" fill="#F5A400" />
-            </g>
-            <g transform="translate(339.9,135)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#1E9BE0" />
-              <circle cy="-26" r="15" fill="#1E9BE0" />
-            </g>
-            <g transform="translate(339.9,285)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#EEF0EA" />
-              <circle cy="-26" r="15" fill="#EEF0EA" />
-            </g>
-            <g transform="translate(210,360)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#F5A400" />
-              <circle cy="-26" r="15" fill="#F5A400" />
-            </g>
-            <g transform="translate(80.1,285)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#1E9BE0" />
-              <circle cy="-26" r="15" fill="#1E9BE0" />
-            </g>
-            <g transform="translate(80.1,135)">
-              <rect x="-16" y="-2" width="32" height="34" rx="14" fill="#EEF0EA" />
-              <circle cy="-26" r="15" fill="#EEF0EA" />
-            </g>
-          </g>
-
-          
-          <image href="{% static 'img/logo.svg' %}" x="164" y="164" width="80" height="80" />
-
-          <g fill="#EEF0EA" opacity="0.25">
-            <ellipse cx="40" cy="60" rx="10" ry="5" transform="rotate(30 40 60)" />
-            <ellipse cx="380" cy="380" rx="10" ry="5" transform="rotate(-20 380 380)" />
-            <ellipse cx="380" cy="60" rx="8" ry="4" transform="rotate(50 380 60)" />
-          </g>
+      <div class="hero-illustration hero-map">
+        <div class="hero-map-glow" aria-hidden="true"></div>
+        <svg class="hero-map-dots" viewBox="0 0 420 260" aria-hidden="true">
+          <circle cx="40" cy="40" r="4" fill="#F5A400" opacity="0.7" />
+          <circle cx="380" cy="30" r="3" fill="#1E9BE0" opacity="0.7" />
+          <circle cx="30" cy="220" r="3" fill="#1E9BE0" opacity="0.6" />
+          <circle cx="390" cy="225" r="4" fill="#F5A400" opacity="0.6" />
+          <circle cx="210" cy="15" r="3" fill="#EEF0EA" opacity="0.5" />
         </svg>
+        <img
+          src="{% static 'img/world-map.png' %}"
+          alt="World map illustration representing SWEEP's reach across regions"
+          class="hero-map-img"
+        >
       </div>
     </div>
   </section>
@@ -93,9 +60,9 @@
         <span class="mv-mark" aria-hidden="true">&#129309;</span>
         <p class="mv-label">Our Mission</p>
         <p class="mv-text">
-          To make practice-ready social work training accessible to anyone
-          called to the field — self-paced, evidence-informed, and free of
-          the paywalls that keep vital skills locked away.
+          To bridge the gap between social work educationand practice through digital innovation
+          and entrepreneurship, creating sustainable employmentpathways and cultivating impact-driven
+          leaders across Africa.
         </p>
       </div>
 
@@ -105,10 +72,7 @@
         <span class="mv-mark" aria-hidden="true">&#127793;</span>
         <p class="mv-label">Our Vision</p>
         <p class="mv-text">
-          A future where every social worker — wherever they trained and
-          however they entered the field — carries the same foundation of
-          skill, ethics, and confidence to show up for the people who need
-          them most.
+          A world where every social worker is empowered, employable, an equipped to transform lives and communities.
         </p>
       </div>
     </div>
@@ -125,39 +89,47 @@
       <div class="objective-row">
         <span class="objective-num">01</span>
         <div>
-          <h3>Deliver Quality Education</h3>
-          <p>Provide accessible, high-quality, competency-based education and professional certification programmes for social work students and practitioners.</p>
+          <h3>EStablish Category Leadership</h3>
+          <p>Position SWEEP Academy as the definitive authority and primary hub for digital social work education
+            and professional development in Africa.
+          </p>
         </div>
       </div>
       <div class="objective-row">
         <span class="objective-num">02</span>
         <div>
-          <h3>Advance Professional Development</h3>
-          <p>Promote lifelong learning through continuing professional development (CPD), specialist training, mentoring, and professional networking.</p>
+          <h3>Scale Pan-African Footprint</h3>
+          <p>Expand influence beyond Nigeria, establishing strategic educational and institutional
+            partnerships in at least three major African economic regions.
+          </p>
         </div>
       </div>
       <div class="objective-row">
         <span class="objective-num">03</span>
         <div>
-          <h3>Enhance Employability</h3>
-          <p>Equip graduates and practitioners with practical, digital, leadership, and workplace skills that improve career readiness and employment opportunities.</p>
+          <h3>Drive Workforce Transformation</h3>
+          <p>Close the skill-to-impact gap by ensuring a measurable, high-percentage increasein the employability of graduates.</p>
         </div>
       </div>
       <div class="objective-row">
         <span class="objective-num">04</span>
         <div>
-          <h3>Strengthen Research and Knowledge Exchange</h3>
-          <p>Support research, publications, evidence-based practice, policy development, and knowledge sharing that advance the social work profession.</p>
+          <h3>Foster Innovation</h3>
+          <p>Create a sustainable ecosystem for social work entrepreneurship by integrating incubation support
+            that enables professionals to scale community-based solutions.
+          </p>
         </div>
       </div>
       <div class="objective-row">
         <span class="objective-num">05</span>
         <div>
-          <h3>Leverage Digital Technology</h3>
-          <p>Harness digital learning platforms, artificial intelligence, and emerging technologies to improve education, professional practice, and service delivery.</p>
+          <h3>Advocate for Professional Standardisation</h3>
+          <p>Influence regional and continental policy to improve the regulation, recognition, and continuous professional
+            development standards for the social workforce.
+          </p>
         </div>
       </div>
-      <div class="objective-row">
+      <!--<div class="objective-row">
         <span class="objective-num">06</span>
         <div>
           <h3>Build Strategic Partnerships</h3>
@@ -181,10 +153,10 @@
       <div class="objective-row">
         <span class="objective-num">09</span>
         <div>
-          <h3>CReate Sustainable Impact</h3>
+          <h3>Create Sustainable Impact</h3>
           <p>Establish a financially sustainable academy that delivers measurable social, economic, and professional value to individuals, institutions, and communities.</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -192,9 +164,9 @@
     <!--<p class="eyebrow" style="text-align:center;">What sets us apart</p> -->
     <h2 class="subheading typewriter" data-text="Our Value Proposition" style="text-align:center;">Our Value Proposition</h2>
     <p class="value-prop-intro">
-      SWEEP is Africa's first integrated Social Work Education, Enterprise and Professional Development Academy that equips professionals with industry-relevant knowledge, practical skills, globally recognised certifications, career opportunities, entrepreneurship support, and lifelong learning—all in one digital platform.
-      As an institution, we offer a unique value proposition that combines quality education, professional development, and 
-      career advancement opportunities for our members. Our platform is designed to empower social workers to excel in their careers, make a positive impact in their communities, and contribute to the growth and development of the social work profession in Africa.
+      SWEEP does not only educate; it builds Africa's social impact workforce. Through AI-enabled learning, \
+      professional certification, career pathways, and incubator support, SWEEP transforms graduates into employable professionals, 
+      successful social entrepreneurs, and community change leaders.
     </p>
 
     <div class="value-grid">
@@ -280,5 +252,10 @@
         <div class="empty-state">Schools are being added — check back soon.</div>
       {% endfor %}
     </div>
+    {% if stats.school_count > schools|length %}
+      <div class="section-cta">
+        <a href="{% url 'school_list' %}" class="btn btn-outline">All schools ({{ stats.school_count }})</a>
+      </div>
+    {% endif %}
   </section>
 {% endblock %}
