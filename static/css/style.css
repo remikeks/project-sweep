@@ -454,7 +454,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 
 .sw-footer {
   margin-top: 56px;
-  background: linear-gradient(180deg, #356114 0%, #102608 100%);
+  background: linear-gradient(180deg, #0B2C7A 0%, #051A47 100%);
   color: var(--paper);
   padding: 40px 0 24px;
 }
@@ -473,7 +473,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 
 .sw-footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr 0.8fr;
+  grid-template-columns: 1.4fr 0.8fr 0.8fr 0.9fr;
   gap: 24px;
 }
 
@@ -486,6 +486,38 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 .sw-footer a:hover {
   color: var(--gold);
   text-decoration: none;
+}
+
+.sw-footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.sw-footer-social .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #F0F2EC;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.sw-footer-social .social-icon:hover {
+  background: var(--gold);
+  color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .sw-footer-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .sw-footer-bottom {
