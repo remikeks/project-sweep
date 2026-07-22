@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
   <section class="hero">
     <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +34,7 @@
       </div>
 
       <div class="hero-illustration">
-        
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a support circle">
           <g stroke="#EEF0EA" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="2 7" fill="none">
             <path d="M210,210 L210,60" />
             <path d="M210,210 L339.9,135" />
@@ -70,15 +71,8 @@
             </g>
           </g>
 
-          <circle cx="210" cy="210" r="56" fill="url(#heroSeal)" />
-          <defs>
-            <radialGradient id="heroSeal" cx="35%" cy="30%" r="75%">
-              <stop offset="0%" stop-color="#E4C374" />
-              <stop offset="100%" stop-color="#F5A400" />
-            </radialGradient>
-          </defs>
-          <path d="M210,182 C232,182 248,198 248,220 C248,238 234,250 216,250 C216,250 214,224 190,214 C198,196 202,182 210,182 Z"
-                fill="#4C8B1D" />
+          
+          <image href="{% static 'img/logo.svg' %}" x="164" y="164" width="80" height="80" />
 
           <g fill="#EEF0EA" opacity="0.25">
             <ellipse cx="40" cy="60" rx="10" ry="5" transform="rotate(30 40 60)" />
@@ -111,7 +105,10 @@
         <span class="mv-mark" aria-hidden="true">&#127793;</span>
         <p class="mv-label">Our Vision</p>
         <p class="mv-text">
-          A world where every social worker is empowered, employable, and equipped to transform lives and communities.
+          A future where every social worker — wherever they trained and
+          however they entered the field — carries the same foundation of
+          skill, ethics, and confidence to show up for the people who need
+          them most.
         </p>
       </div>
     </div>
@@ -195,9 +192,11 @@
     <!--<p class="eyebrow" style="text-align:center;">What sets us apart</p> -->
     <h2 class="subheading typewriter" data-text="Our Value Proposition" style="text-align:center;">Our Value Proposition</h2>
     <p class="value-prop-intro">
-      SWEEP does not only educate; it builds Africa's social impact workforce. Through AI-enabled learning, 
-      professional certification, career pathways and incubator support, SWWEP transforms graduate into employable professionals, successful social 
-      entrepreneurs, and community change leaders.
+      SWEEP is Africa's first integrated Social Work Education, Enterprise and Professional Development Academy that equips professionals with industry-relevant knowledge, practical skills, globally recognised certifications, career opportunities, entrepreneurship support, and lifelong learning—all in one digital platform.
+      As an institution, we offer a unique value proposition that combines quality education, professional development, and 
+      career advancement opportunities for our members. Our platform is designed to empower social workers to excel in their careers, make a positive impact in their communities, and contribute to the growth and development of the social work profession in Africa.
+    </p>
+
     <div class="value-grid">
       <div class="value-card">
         <span class="value-icon" aria-hidden="true">&#128218;</span>
