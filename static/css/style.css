@@ -817,7 +817,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: 520px;
+  max-width: 620px;
   margin: 0 auto;
 }
 
