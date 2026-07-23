@@ -10,7 +10,7 @@
 
     <div class="hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">25 schools · self-paced · badges &amp; certificates</p>
+        <p class="eyebrow">{{ stats.school_count }} schools · self-paced · badges &amp; certificates</p>
         <h1>Practice-ready training for the social work field.</h1>
         <p class="lede">
           Enroll course-by-course or take on a whole school at once. Pass each
@@ -89,7 +89,7 @@
       <div class="objective-row">
         <span class="objective-num">01</span>
         <div>
-          <h3>EStablish Category Leadership</h3>
+          <h3>Establish Category Leadership</h3>
           <p>Position SWEEP Academy as the definitive authority and primary hub for digital social work education
             and professional development in Africa.
           </p>
@@ -254,7 +254,7 @@
     </div>
     {% if stats.school_count > schools|length %}
       <div class="section-cta">
-        <a href="{% url 'school_list' %}" class="btn btn-outline">All schools ({{ stats.school_count }})</a>
+        <a href="{% url 'school_list' %}" class="btn btn-outline all">All schools ({{ stats.school_count }})</a>
       </div>
     {% endif %}
   </section>

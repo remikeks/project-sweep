@@ -568,6 +568,10 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   margin: 8px 0 12px;
 }
 
+.btn.btn-outline.all {
+  width: 25%;
+}
+
 .school-card {
   position: relative;
   background: var(--paper-raised);
