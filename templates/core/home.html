@@ -16,7 +16,7 @@
             <div class="hero-grid">
               <div class="hero-copy">
                 <p class="eyebrow">{{ stats.school_count }} schools · self-paced · badges &amp; certificates</p>
-                <h1>Practice-ready training for the social work field.</h1>
+                <h1 class="typewriter">Practice-ready training for the social work field.</h1>
                 <p class="lede">
                   Enroll course-by-course or take on a whole school at once. Pass each
                   assessment to earn a badge, complete a school to earn a certificate —
@@ -60,13 +60,11 @@
             <div class="hero-grid">
               <div class="hero-copy">
                 <p class="eyebrow">AI-guided learning · earn as you go</p>
-                <h1>Your own AI tutor, built into every course.</h1>
+                <h1 class="typewriter">Flexible Learning, Real Credentials.</h1>
                 <p class="lede">
                   Ask questions and get instant summaries as you work through
                   each lesson. Earn a badge for every course you pass and a
-                  certificate for every school you complete — all tracked
-                  automatically in your dashboard.
-                </p>
+                  certificate for every school you complete.
                 <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
                   <a href="{% url 'course_list' %}" class="btn btn-gold">Try a course</a>
                   {% if user.is_authenticated %}
@@ -138,7 +136,7 @@
 
   <section class="mv-section mv-objectives">
     <!--<p class="eyebrow" style="text-align:center;">Where we're headed</p> -->
-    <h2 class="subheading typewriter" data-text="Strategic Objectives" style="text-align:center;">Strategic Objectives</h2>
+    <h2 class="subheading typewriter" data-text="Strategic Objectives">Strategic Objectives</h2>
     <p class="value-prop-intro">
       These are the objectives that SWEEP aims to meet:
     </p>
@@ -218,7 +216,7 @@
     </div>
   </section>
 
-  <section class="mv-section mv-values">
+  <section class="mv-section mv-values" style="background-image: url('{% static 'img/value-prop-bg.jpg' %}');">
     <!--<p class="eyebrow" style="text-align:center;">What sets us apart</p> -->
     <h2 class="subheading typewriter" data-text="Our Value Proposition" style="text-align:center;">Our Value Proposition</h2>
     <p class="value-prop-intro">
