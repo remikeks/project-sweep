@@ -647,7 +647,8 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 }
 
 .btn.btn-outline.all {
-  width: 25%;
+  margin-top: 40px;
+  width: 40%;
 }
 
 .school-card {
