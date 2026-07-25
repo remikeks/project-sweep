@@ -87,23 +87,13 @@
                 </div>
               </div>
 
-              <div class="hero-illustration hero-credential">
+              <div class="hero-illustration hero-photo-wrap">
                 <div class="hero-map-glow" aria-hidden="true"></div>
-                <svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a badge and certificate">
-                  <rect x="40" y="26" width="260" height="184" rx="16" fill="#EEF0EA" opacity="0.96" />
-                  <rect x="64" y="54" width="160" height="18" rx="9" fill="#0B2C7A" opacity="0.9" />
-                  <rect x="64" y="86" width="200" height="12" rx="6" fill="#1E9BE0" opacity="0.85" />
-                  <rect x="64" y="108" width="180" height="12" rx="6" fill="#0B2C7A" opacity="0.55" />
-                  <rect x="64" y="130" width="150" height="12" rx="6" fill="#0B2C7A" opacity="0.35" />
-                  <path d="M64 168h140" stroke="#F5A400" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round" />
-
-                  <g transform="translate(300,190)">
-                    <circle r="66" fill="#F5A400" />
-                    <circle r="66" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="4" stroke-dasharray="4 8" />
-                    <path d="M-24,4 L-6,22 L28,-16" fill="none" stroke="#071D52" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
-                  </g>
-                  <path d="M268 244l18 52-24-10-24 10 18-52" fill="#0B2C7A" />
-                </svg>
+                <img
+                  src="{% static 'img/home-hero2.jpg' %}"
+                  alt="Students collaborating on laptops during a SWEEP digital learning session"
+                  class="hero-photo"
+                >
               </div>
             </div>
           </div>
@@ -119,7 +109,7 @@
     </div>
   </section>
 
-  <section class="mv-section">
+  <section class="mv-section mv-intro" style="background-image: url('{% static 'img/mv-banner.jpg' %}');">
     <p class="eyebrow" style="text-align:center;">Why SWEEP exists</p>
     <h2 class="subheading typewriter" data-text="Mission &amp; Vision" style="text-align:center;">Mission &amp; Vision</h2>
 

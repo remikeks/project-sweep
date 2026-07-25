@@ -42,7 +42,7 @@ html { scroll-behavior: smooth; }
 [data-reveal] {
   opacity: 0;
   transform: translateY(18px);
-  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1), transform 1s cubic-bezier(0.22, 1, 0.36, 1);
   will-change: opacity, transform;
 }
 
@@ -52,7 +52,7 @@ html { scroll-behavior: smooth; }
 }
 
 .hover-lift {
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .hover-lift:hover {
@@ -661,7 +661,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   flex-direction: column;
   gap: 8px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .school-card::before {
@@ -754,7 +754,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   flex-direction: column;
   gap: 8px;
   overflow: hidden;
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .course-card::before {
@@ -819,7 +819,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   padding: 20px;
   margin-bottom: 16px;
   background: var(--paper-raised);
-  transition: box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1), transform 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .quiz-question .q-number {
@@ -899,7 +899,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   box-shadow: var(--shadow);
   overflow: hidden;
   text-align: center;
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .credential-card:hover {
@@ -1114,7 +1114,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: 260px;
+  max-width: 340px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -1146,7 +1146,7 @@ form label { display: block; font-size: 0.85rem; margin-bottom: 4px; color: var(
 }
 
 .hero-list .hero-illustration {
-  max-width: 280px;
+  max-width: 400px;
 }
 
 .hero-list .stat-row {
@@ -1515,6 +1515,32 @@ footer.sw-footer {
 
 .mv-section .subheading { text-align: center; margin-bottom: 8px; }
 
+.mv-section.mv-intro {
+  position: relative;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.mv-section.mv-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(120deg, rgba(5, 26, 71, 0.88) 0%, rgba(11, 44, 122, 0.8) 55%, rgba(7, 29, 82, 0.85) 100%);
+}
+
+.mv-section.mv-intro > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mv-section.mv-intro .eyebrow { color: var(--gold); }
+.mv-section.mv-intro .subheading { color: var(--paper); }
+
 .mv-grid {
   position: relative;
   display: grid;
@@ -1532,7 +1558,7 @@ footer.sw-footer {
   padding: 36px 30px 30px;
   overflow: hidden;
   box-shadow: var(--shadow);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .mv-panel:hover {
@@ -1654,7 +1680,7 @@ footer.sw-footer {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 18px 20px;
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .objective-row:hover {
@@ -1703,7 +1729,7 @@ footer.sw-footer {
   border-radius: 12px;
   padding: 22px 16px;
   text-align: center;
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease, opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .value-card:hover {
