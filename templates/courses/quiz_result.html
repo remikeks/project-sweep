@@ -4,15 +4,21 @@
   <p class="eyebrow"><a href="{% url 'course_detail' result.course.slug %}">{{ result.course.title }}</a> / Assessment result</p>
 
   {% if result.passed %}
-    <h1>✅ Passed — {{ result.score }}%</h1>
-    <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. {% if result.badge_awarded %}Your badge has been generated.{% endif %}</p>
-    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+    <div class="result-banner is-pass" data-reveal>
+      <span class="result-banner-icon" aria-hidden="true">✅</span>
+      <div>
+        <h1>Passed — {{ result.score }}%</h1>
+        <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. {% if result.badge_awarded %}Your badge has been generated.{% endif %}</p>
+      </div>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;" data-reveal>
       <strong>🏅 Badge earned for {{ result.course.title }}</strong>
       <p>View and download it from your <a href="{% url 'my_credentials' %}">badges &amp; certificates</a> page.</p>
     </div>
 
     {% if result.school_fully_completed %}
-      <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+      <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;" data-reveal data-reveal-delay="80">
         <strong>🎓 That was the last course in {{ result.course.school.name }}!</strong>
         <p>You're now eligible for the school's certification exam.</p>
         <a href="{% url 'school_exam' result.course.school.slug %}" class="btn btn-gold">Take the certification exam</a>
@@ -24,8 +30,13 @@
       {% endif %}
     {% endif %}
   {% else %}
-    <h1>Not quite — {{ result.score }}%</h1>
-    <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. You need {{ result.course.passing_score }}% to pass. Review the material and try again.</p>
+    <div class="result-banner is-fail" data-reveal>
+      <span class="result-banner-icon" aria-hidden="true">📝</span>
+      <div>
+        <h1>Not quite — {{ result.score }}%</h1>
+        <p class="lede">{{ result.correct_count }} of {{ result.question_count }} correct. You need {{ result.course.passing_score }}% to pass. Review the material and try again.</p>
+      </div>
+    </div>
   {% endif %}
 
   <div style="margin-top:20px; display:flex; gap:12px;">

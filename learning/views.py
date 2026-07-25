@@ -75,6 +75,10 @@ def dashboard(request):
     context = {
         "course_rows": course_rows,
         "school_rows": school_rows,
+        "completed_courses_count": sum(
+            1 for row in course_rows if row["progress"] and row["progress"].status == "completed"
+        ),
+        "completed_schools_count": sum(1 for row in school_rows if row["fully_completed"]),
     }
     return render(request, "core/dashboard.html", context)
 

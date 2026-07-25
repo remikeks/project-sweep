@@ -8,45 +8,113 @@
       <circle cx="520" cy="520" r="140" fill="#EEF0EA" opacity="0.05" />
     </svg>
 
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">{{ stats.school_count }} schools · self-paced · badges &amp; certificates</p>
-        <h1>Practice-ready training for the social work field.</h1>
-        <p class="lede">
-          Enroll course-by-course or take on a whole school at once. Pass each
-          assessment to earn a badge, complete a school to earn a certificate —
-          yours to view and download at any time.
-        </p>
-        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="{% url 'school_list' %}" class="btn btn-gold">Browse the 10 schools</a>
-          <a href="{% url 'course_list' %}" class="btn btn-outline">Search courses</a>
-        </div>
-        <div class="stat-row">
-          <div>
-            <span class="stat-num">{{ stats.school_count }}</span>
-            <span class="stat-label">Schools</span>
+    <div class="hero-carousel" data-carousel>
+      <div class="carousel-viewport">
+        <div class="carousel-track" data-carousel-track>
+
+          <div class="carousel-slide">
+            <div class="hero-grid">
+              <div class="hero-copy">
+                <p class="eyebrow">{{ stats.school_count }} schools · self-paced · badges &amp; certificates</p>
+                <h1>Practice-ready training for the social work field.</h1>
+                <p class="lede">
+                  Enroll course-by-course or take on a whole school at once. Pass each
+                  assessment to earn a badge, complete a school to earn a certificate —
+                  yours to view and download at any time.
+                </p>
+                <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+                  <a href="{% url 'school_list' %}" class="btn btn-gold">Browse the {{ stats.school_count }} schools</a>
+                  <a href="{% url 'course_list' %}" class="btn btn-outline">Search courses</a>
+                </div>
+                <div class="stat-row">
+                  <div>
+                    <span class="stat-num">{{ stats.school_count }}</span>
+                    <span class="stat-label">Schools</span>
+                  </div>
+                  <div>
+                    <span class="stat-num">{{ stats.course_count }}</span>
+                    <span class="stat-label">Courses</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-illustration hero-map">
+                <div class="hero-map-glow" aria-hidden="true"></div>
+                <svg class="hero-map-dots" viewBox="0 0 420 260" aria-hidden="true">
+                  <circle cx="40" cy="40" r="4" fill="#F5A400" opacity="0.7" />
+                  <circle cx="380" cy="30" r="3" fill="#1E9BE0" opacity="0.7" />
+                  <circle cx="30" cy="220" r="3" fill="#1E9BE0" opacity="0.6" />
+                  <circle cx="390" cy="225" r="4" fill="#F5A400" opacity="0.6" />
+                  <circle cx="210" cy="15" r="3" fill="#EEF0EA" opacity="0.5" />
+                </svg>
+                <img
+                  src="{% static 'img/world-map.png' %}"
+                  alt="World map illustration representing SWEEP's reach across regions"
+                  class="hero-map-img"
+                >
+              </div>
+            </div>
           </div>
-          <div>
-            <span class="stat-num">{{ stats.course_count }}</span>
-            <span class="stat-label">Courses</span>
+
+          <div class="carousel-slide">
+            <div class="hero-grid">
+              <div class="hero-copy">
+                <p class="eyebrow">AI-guided learning · earn as you go</p>
+                <h1>Your own AI tutor, built into every course.</h1>
+                <p class="lede">
+                  Ask questions and get instant summaries as you work through
+                  each lesson. Earn a badge for every course you pass and a
+                  certificate for every school you complete — all tracked
+                  automatically in your dashboard.
+                </p>
+                <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+                  <a href="{% url 'course_list' %}" class="btn btn-gold">Try a course</a>
+                  {% if user.is_authenticated %}
+                    <a href="{% url 'my_credentials' %}" class="btn btn-outline">View my credentials</a>
+                  {% else %}
+                    <a href="{% url 'signup' %}" class="btn btn-outline">Create free account</a>
+                  {% endif %}
+                </div>
+                <div class="stat-row">
+                  <div>
+                    <span class="stat-num">24/7</span>
+                    <span class="stat-label">AI tutor access</span>
+                  </div>
+                  <div>
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">Self-paced</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-illustration hero-credential">
+                <div class="hero-map-glow" aria-hidden="true"></div>
+                <svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a badge and certificate">
+                  <rect x="40" y="26" width="260" height="184" rx="16" fill="#EEF0EA" opacity="0.96" />
+                  <rect x="64" y="54" width="160" height="18" rx="9" fill="#0B2C7A" opacity="0.9" />
+                  <rect x="64" y="86" width="200" height="12" rx="6" fill="#1E9BE0" opacity="0.85" />
+                  <rect x="64" y="108" width="180" height="12" rx="6" fill="#0B2C7A" opacity="0.55" />
+                  <rect x="64" y="130" width="150" height="12" rx="6" fill="#0B2C7A" opacity="0.35" />
+                  <path d="M64 168h140" stroke="#F5A400" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round" />
+
+                  <g transform="translate(300,190)">
+                    <circle r="66" fill="#F5A400" />
+                    <circle r="66" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="4" stroke-dasharray="4 8" />
+                    <path d="M-24,4 L-6,22 L28,-16" fill="none" stroke="#071D52" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <path d="M268 244l18 52-24-10-24 10 18-52" fill="#0B2C7A" />
+                </svg>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
-
-      <div class="hero-illustration hero-map">
-        <div class="hero-map-glow" aria-hidden="true"></div>
-        <svg class="hero-map-dots" viewBox="0 0 420 260" aria-hidden="true">
-          <circle cx="40" cy="40" r="4" fill="#F5A400" opacity="0.7" />
-          <circle cx="380" cy="30" r="3" fill="#1E9BE0" opacity="0.7" />
-          <circle cx="30" cy="220" r="3" fill="#1E9BE0" opacity="0.6" />
-          <circle cx="390" cy="225" r="4" fill="#F5A400" opacity="0.6" />
-          <circle cx="210" cy="15" r="3" fill="#EEF0EA" opacity="0.5" />
-        </svg>
-        <img
-          src="{% static 'img/world-map.png' %}"
-          alt="World map illustration representing SWEEP's reach across regions"
-          class="hero-map-img"
-        >
+      <button type="button" class="carousel-arrow prev" data-carousel-prev aria-label="Previous">&#8249;</button>
+      <button type="button" class="carousel-arrow next" data-carousel-next aria-label="Next">&#8250;</button>
+      <div class="carousel-dots" data-carousel-dots>
+        <button type="button" class="carousel-dot" data-index="0" aria-label="Go to slide 1"></button>
+        <button type="button" class="carousel-dot" data-index="1" aria-label="Go to slide 2"></button>
       </div>
     </div>
   </section>
@@ -56,7 +124,7 @@
     <h2 class="subheading typewriter" data-text="Mission &amp; Vision" style="text-align:center;">Mission &amp; Vision</h2>
 
     <div class="mv-grid">
-      <div class="mv-panel mv-mission">
+      <div class="mv-panel mv-mission" data-reveal>
         <span class="mv-mark" aria-hidden="true">&#129309;</span>
         <p class="mv-label">Our Mission</p>
         <p class="mv-text">
@@ -68,7 +136,7 @@
 
       <div class="mv-connector" aria-hidden="true">&#10022;</div>
 
-      <div class="mv-panel mv-vision">
+      <div class="mv-panel mv-vision" data-reveal data-reveal-delay="120">
         <span class="mv-mark" aria-hidden="true">&#127793;</span>
         <p class="mv-label">Our Vision</p>
         <p class="mv-text">
@@ -86,7 +154,7 @@
     </p>
 
     <div class="objectives-list">
-      <div class="objective-row">
+      <div class="objective-row" data-reveal data-reveal-delay="0">
         <span class="objective-num">01</span>
         <div>
           <h3>Establish Category Leadership</h3>
@@ -95,7 +163,7 @@
           </p>
         </div>
       </div>
-      <div class="objective-row">
+      <div class="objective-row" data-reveal data-reveal-delay="80">
         <span class="objective-num">02</span>
         <div>
           <h3>Scale Pan-African Footprint</h3>
@@ -104,14 +172,14 @@
           </p>
         </div>
       </div>
-      <div class="objective-row">
+      <div class="objective-row" data-reveal data-reveal-delay="160">
         <span class="objective-num">03</span>
         <div>
           <h3>Drive Workforce Transformation</h3>
           <p>Close the skill-to-impact gap by ensuring a measurable, high-percentage increasein the employability of graduates.</p>
         </div>
       </div>
-      <div class="objective-row">
+      <div class="objective-row" data-reveal data-reveal-delay="240">
         <span class="objective-num">04</span>
         <div>
           <h3>Foster Innovation</h3>
@@ -120,7 +188,7 @@
           </p>
         </div>
       </div>
-      <div class="objective-row">
+      <div class="objective-row" data-reveal data-reveal-delay="320">
         <span class="objective-num">05</span>
         <div>
           <h3>Advocate for Professional Standardisation</h3>
@@ -170,27 +238,27 @@
     </p>
 
     <div class="value-grid">
-      <div class="value-card">
+      <div class="value-card" data-reveal data-reveal-delay="0">
         <span class="value-icon" aria-hidden="true">&#128218;</span>
         <h3>Learn</h3>
         <p>Access high-quality, flexible, industry-relevant education.</p>
       </div>
-      <div class="value-card">
+      <div class="value-card" data-reveal data-reveal-delay="70">
         <span class="value-icon" aria-hidden="true">&#128220;</span>
         <h3>Certify</h3>
         <p>Earn professional and continuing education credentials.</p>
       </div>
-      <div class="value-card">
+      <div class="value-card" data-reveal data-reveal-delay="140">
         <span class="value-icon" aria-hidden="true">&#128200;</span>
         <h3>Advance</h3>
         <p>Improve employability, leadership, and career progression.</p>
       </div>
-      <div class="value-card">
+      <div class="value-card" data-reveal data-reveal-delay="210">
         <span class="value-icon" aria-hidden="true">&#128161;</span>
         <h3>Innovate</h3>
         <p>Develop entrepreneurial and consultancy capabilities.</p>
       </div>
-      <div class="value-card">
+      <div class="value-card" data-reveal data-reveal-delay="280">
         <span class="value-icon" aria-hidden="true">&#127757;</span>
         <h3>Impact</h3>
         <p>Apply knowledge to strengthen communities and achieve sustainable development.</p>
@@ -201,7 +269,7 @@
   {% if featured_courses %}
   <section class="featured-section">
     <h2 class="subheading typewriter" data-text="Featured Courses">Featured Courses</h2>
-    <div class="carousel" data-carousel>
+    <div class="carousel" data-carousel data-reveal>
       <div class="carousel-viewport">
         <div class="carousel-track" data-carousel-track>
           {% for course in featured_courses %}
@@ -241,7 +309,7 @@
     <h2 class="subheading typewriter" data-text="Our Schools">Our Schools</h2>
     <div class="school-grid">
       {% for school in schools %}
-        <a class="school-card accent-{{ school.accent }}" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;">
+        <a class="school-card accent-{{ school.accent }}" href="{% url 'school_detail' school.slug %}" style="text-decoration:none; color:inherit;" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
           <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
           <span class="emblem-badge">{{ school.emblem }}</span>
           <h3>{{ school.name }}</h3>

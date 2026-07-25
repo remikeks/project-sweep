@@ -1,19 +1,39 @@
 {% extends "base.html" %}
 {% block title %}My learning — SWEEP{% endblock %}
 {% block content %}
-  
-<br><br>
-  <h1 class="subheading">Your dashboard</h1>
+  <section class="page-header">
+    <p class="eyebrow">Welcome back</p>
+    <h1>{{ user.username }}'s dashboard</h1>
+    <p class="lede">Pick up where you left off, or browse for something new.</p>
+    <div class="stat-row">
+      <div>
+        <span class="stat-num">{{ school_rows|length }}</span>
+        <span class="stat-label">School{{ school_rows|length|pluralize }} enrolled</span>
+      </div>
+      <div>
+        <span class="stat-num">{{ course_rows|length }}</span>
+        <span class="stat-label">Course{{ course_rows|length|pluralize }} enrolled</span>
+      </div>
+      <div>
+        <span class="stat-num">{{ completed_courses_count }}</span>
+        <span class="stat-label">Course{{ completed_courses_count|pluralize }} completed</span>
+      </div>
+      <div>
+        <span class="stat-num">{{ completed_schools_count }}</span>
+        <span class="stat-label">School{{ completed_schools_count|pluralize }} completed</span>
+      </div>
+    </div>
+  </section>
 
   <h2 class="section-heading">Schools</h2>
   {% if school_rows %}
     <div class="school-grid">
       {% for row in school_rows %}
-        <div class="school-card">
+        <div class="school-card" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
           <h3><a href="{% url 'school_detail' row.school.slug %}">{{ row.school.name }}</a></h3>
           <p class="meta">{{ row.completed }} / {{ row.total }} courses complete</p>
           <div class="progress-track">
-            <div class="progress-fill" style="width: {{ row.percent }}%;"></div>
+            <div class="progress-fill" style="--fill: {{ row.percent }}%;"></div>
           </div>
           <p class="meta">{{ row.percent }}% complete</p>
           {% if row.fully_completed %}
@@ -24,7 +44,7 @@
     </div>
   {% else %}
     <div class="empty-state">
-      You haven't enrolled in a school yet. <a href="{% url 'school_list' %}">Browse the 10 schools</a>.
+      You haven't enrolled in a school yet. <a href="{% url 'school_list' %}">Browse the schools</a>.
     </div>
   {% endif %}
 
@@ -32,7 +52,7 @@
   {% if course_rows %}
     <div class="course-grid">
       {% for row in course_rows %}
-        <div class="course-card">
+        <div class="course-card" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
           <span class="badge-pill {{ row.course.difficulty }}">{{ row.course.get_difficulty_display }}</span>
           <h3><a href="{% url 'course_detail' row.course.slug %}">{{ row.course.title }}</a></h3>
           <p class="meta">{{ row.course.school.name }}</p>

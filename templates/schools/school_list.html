@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block title %}Schools — SWEEP{% endblock %}
 {% block content %}
   <section class="hero hero-list">
@@ -28,15 +29,13 @@
         </div>
       </div>
 
-      <div class="hero-illustration">
-        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a school pathway">
-          <circle cx="210" cy="210" r="118" fill="#EEF0EA" opacity="0.95" />
-          <path d="M140 252h140" stroke="#0B2C7A" stroke-width="16" stroke-linecap="round" />
-          <path d="M164 252v-74h92v74" fill="#F5A400" />
-          <path d="M180 178h60" stroke="#0B2C7A" stroke-width="12" stroke-linecap="round" />
-          <circle cx="210" cy="210" r="34" fill="#0B2C7A" />
-          <circle cx="210" cy="210" r="18" fill="#EEF0EA" />
-        </svg>
+      <div class="hero-illustration hero-photo-wrap">
+        <div class="hero-map-glow" aria-hidden="true"></div>
+        <img
+          src="{% static 'img/school-list-hero.jpg' %}"
+          alt="Educators collaborating during a SWEEP teacher training workshop"
+          class="hero-photo"
+        >
       </div>
     </div>
   </section>
@@ -48,7 +47,7 @@
 
   <div class="school-grid">
     {% for school in schools %}
-      <div class="school-card accent-{{ school.accent }}">
+      <div class="school-card accent-{{ school.accent }}" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
         <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
         <span class="emblem-badge">{{ school.emblem }}</span>
         <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>

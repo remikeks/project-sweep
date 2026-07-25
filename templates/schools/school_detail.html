@@ -1,14 +1,41 @@
 {% extends "base.html" %}
 {% block title %}{{ school.name }} — SWEEP{% endblock %}
 {% block content %}
-  <p class="eyebrow"><a href="{% url 'school_list' %}">Schools</a> / {{ school.name }}</p>
-  <h1>{{ school.name }}</h1>
-  {% if school.tagline %}<p class="lede">{{ school.tagline }}</p>{% endif %}
-  {% if school.description %}<p>{{ school.description }}</p>{% endif %}
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="850" cy="80" r="220" fill="#4C8B1D" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#F5A400" opacity="0.14" />
+      <circle cx="590" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
 
-  <p class="meta" style="font-family:var(--font-mono); color:var(--primary-dark);">
-    {{ courses|length }} course{{ courses|length|pluralize }} · {{ school.total_estimated_minutes }} min total · pass mark {{ school.passing_score }}%
-  </p>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><a href="{% url 'school_list' %}">Schools</a> / {{ school.name }}</p>
+        <h1>{{ school.name }}</h1>
+        {% if school.tagline %}<p class="lede">{{ school.tagline }}</p>{% endif %}
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ courses|length }}</span>
+            <span class="stat-label">Course{{ courses|length|pluralize }}</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ school.total_estimated_minutes }}</span>
+            <span class="stat-label">Minutes total</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ school.passing_score }}%</span>
+            <span class="stat-label">Pass mark</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration">
+        <span class="hero-emblem accent-{{ school.accent }}" aria-hidden="true">{{ school.emblem }}</span>
+      </div>
+    </div>
+  </section>
+
+  {% if school.description %}<p class="section-intro">{{ school.description }}</p>{% endif %}
 
   {% if user.is_authenticated %}
     {% if is_enrolled %}
@@ -58,10 +85,10 @@
     <p><a href="{% url 'login' %}">Log in</a> or <a href="{% url 'signup' %}">sign up</a> to enroll in this school.</p>
   {% endif %}
 
-  <h2 style="margin-top:36px;">Courses in this school</h2>
+  <h2 class="section-heading">Courses in this school</h2>
   <div class="course-grid">
     {% for row in course_rows %}
-      <div class="course-card">
+      <div class="course-card" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
         <span class="badge-pill {{ row.course.difficulty }}">{{ row.course.get_difficulty_display }}</span>
         <h3><a href="{% url 'course_detail' row.course.slug %}">{{ row.course.title }}</a></h3>
         <p>{{ row.course.summary }}</p>

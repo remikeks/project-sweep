@@ -1,17 +1,45 @@
 {% extends "base.html" %}
 {% block title %}{{ course.title }} — SWEEP{% endblock %}
 {% block content %}
-  <p class="eyebrow"><a href="{% url 'school_detail' course.school.slug %}">{{ course.school.name }}</a> / {{ course.title }}</p>
-  <h1>{{ course.title }}</h1>
-  <div style="display:flex; gap:8px; align-items:center; margin-bottom:16px; flex-wrap:wrap;">
-    <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
-    <span class="meta">⏱ {{ course.estimated_minutes }} min estimated</span>
-    <span class="meta">· pass mark {{ course.passing_score }}%</span>
-    {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_trigger_label="Ask AI Tutor" tutor_quick_label="What's this course about?" tutor_placeholder="Ask about this course…" %}
-  </div>
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="850" cy="80" r="220" fill="#4C8B1D" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#F5A400" opacity="0.14" />
+      <circle cx="590" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
 
-  {% if course.summary %}<p class="lede">{{ course.summary }}</p>{% endif %}
-  {% if course.course_code %}<p class="meta">Course code: {{ course.course_code }}</p>{% endif %}
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><a href="{% url 'school_detail' course.school.slug %}">{{ course.school.name }}</a> / {{ course.title }}</p>
+        <h1>{{ course.title }}</h1>
+        {% if course.summary %}<p class="lede">{{ course.summary }}</p>{% endif %}
+        <div style="display:flex; gap:8px; align-items:center; margin:14px 0; flex-wrap:wrap;">
+          <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
+          {% include "ai_tutor/widget.html" with tutor_course_slug=course.slug tutor_trigger_label="Ask AI Tutor" tutor_quick_label="What's this course about?" tutor_placeholder="Ask about this course…" %}
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ course.estimated_minutes }}</span>
+            <span class="stat-label">Minutes estimated</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ course.passing_score }}%</span>
+            <span class="stat-label">Pass mark</span>
+          </div>
+          {% if course.course_code %}
+            <div>
+              <span class="stat-num" style="font-size:1.2rem;">{{ course.course_code }}</span>
+              <span class="stat-label">Course code</span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="hero-illustration">
+        <span class="hero-emblem accent-{{ course.school.accent }}" aria-hidden="true">{{ course.school.emblem }}</span>
+      </div>
+    </div>
+  </section>
 
   {% if user.is_authenticated %}
     {% if badge %}
@@ -43,15 +71,15 @@
   {% endif %}
 
   {% if course.description %}
-    <h2 style="margin-top:24px;">Course Overview</h2>
-    <div class="card">
+    <h2 class="section-heading">Course Overview</h2>
+    <div class="card" data-reveal>
       {{ course.description|linebreaks }}
     </div>
   {% endif %}
 
   {% if course.learning_objectives %}
-    <h2 style="margin-top:24px;">Learning objectives</h2>
-    <div class="card">
+    <h2 class="section-heading">Learning objectives</h2>
+    <div class="card" data-reveal>
       {{ course.learning_objectives|linebreaks }}
     </div>
   {% endif %}

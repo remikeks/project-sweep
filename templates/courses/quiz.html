@@ -8,7 +8,7 @@
   <form method="post">
     {% csrf_token %}
     {% for question in questions %}
-      <div class="quiz-question">
+      <div class="quiz-question" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 50 %}">
         <p class="q-number">Question {{ forloop.counter }} of {{ questions|length }}</p>
         <p><strong>{{ question.text }}</strong></p>
         {% for choice in question.choices.all %}

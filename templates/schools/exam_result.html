@@ -4,15 +4,26 @@
   <p class="eyebrow"><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a> / Certification exam result</p>
 
   {% if result.passed %}
-    <h1>🎓 You passed!</h1>
-    <p class="lede">You scored {{ result.score }}% ({{ result.correct_count }}/{{ result.question_count }} correct) — above the {{ school.passing_score }}% pass mark.</p>
-    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;">
+    <div class="result-banner is-pass" data-reveal>
+      <span class="result-banner-icon" aria-hidden="true">🎓</span>
+      <div>
+        <h1>You passed!</h1>
+        <p class="lede">You scored {{ result.score }}% ({{ result.correct_count }}/{{ result.question_count }} correct) — above the {{ school.passing_score }}% pass mark.</p>
+      </div>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--gold); margin-top:16px;" data-reveal>
       <strong>Your certificate for {{ school.name }} is ready.</strong>
-      <p>Head to your <a href="{% url 'my_credentials' %}">badges &amp; certificates</a> page to view and download it, or grab it here:</p>
+      <p>Head to your <a href="{% url 'my_credentials' %}">badges &amp; certificates</a> page to view and download it.</p>
     </div>
   {% else %}
-    <h1>Not quite — {{ result.score }}%</h1>
-    <p class="lede">You got {{ result.correct_count }} of {{ result.question_count }} correct. You need {{ school.passing_score }}% to pass. Review the courses in {{ school.name }} and try again whenever you're ready.</p>
+    <div class="result-banner is-fail" data-reveal>
+      <span class="result-banner-icon" aria-hidden="true">📝</span>
+      <div>
+        <h1>Not quite — {{ result.score }}%</h1>
+        <p class="lede">You got {{ result.correct_count }} of {{ result.question_count }} correct. You need {{ school.passing_score }}% to pass. Review the courses in {{ school.name }} and try again whenever you're ready.</p>
+      </div>
+    </div>
   {% endif %}
 
   <div style="margin-top:20px; display:flex; gap:12px;">
