@@ -46,8 +46,8 @@
       <div class="card" style="border-left:4px solid var(--gold); margin-bottom:20px;">
         <strong>✅ Badge earned</strong> — best score {{ progress.best_score }}%.
         <div style="margin-top:8px; display:flex; gap:8px;">
-          <a href="{{ badge.png_file.url }}" class="btn btn-outline" download>Download PNG</a>
-          <a href="{{ badge.pdf_file.url }}" class="btn btn-gold" download>Download PDF</a>
+          <a href="{% url 'badge_png' badge.uid %}" class="btn btn-outline" download>Download PNG</a>
+          <a href="{% url 'badge_pdf' badge.uid %}" class="btn btn-gold" download>Download PDF</a>
         </div>
       </div>
     {% elif is_enrolled %}

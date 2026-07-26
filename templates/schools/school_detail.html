@@ -62,8 +62,8 @@
       <div class="card" style="margin-top:16px; border-left:4px solid var(--gold);">
         <strong>🎓 Certificate earned!</strong>
         <p>You completed {{ school.name }} and passed its certification exam.</p>
-        <a href="{{ certificate.png_file.url }}" class="btn btn-outline" download>Download PNG</a>
-        <a href="{{ certificate.pdf_file.url }}" class="btn btn-gold" download>Download PDF</a>
+        <a href="{% url 'certificate_png' certificate.uid %}" class="btn btn-outline" download>Download PNG</a>
+        <a href="{% url 'certificate_pdf' certificate.uid %}" class="btn btn-gold" download>Download PDF</a>
       </div>
     {% elif all_courses_completed and has_exam_questions %}
       <div class="card" style="margin-top:16px; border-left:4px solid var(--gold);">

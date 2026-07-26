@@ -16,8 +16,14 @@ Visual language (kept consistent across the whole platform):
 import io
 import textwrap
 from datetime import datetime
+from functools import lru_cache
+from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
+
+# Bundled badge artwork (ships with the app, unlike user-uploaded media, so
+# it is always present on disk regardless of the deployment target).
+BADGE_TEMPLATE_PATH = Path(__file__).resolve().parent / "assets" / "badge_template.png"
 
 PAPER = (238, 240, 245)
 INK = (22, 32, 46)
@@ -69,6 +75,39 @@ def _wrapped_centered_text(draw, cx, y, text, font, fill, max_chars, line_height
     return y + len(lines) * line_height
 
 
+@lru_cache(maxsize=1)
+def _load_badge_template() -> Image.Image:
+    """Load the bundled badge artwork once per process; callers get a copy."""
+    return Image.open(BADGE_TEMPLATE_PATH).convert("RGB")
+
+
+def _best_fit_lines(draw, text, max_width, max_height, bold=True, start_size=92, min_size=30, max_lines=2):
+    """
+    Pick the largest font size (down to min_size) at which `text` wraps into
+    at most `max_lines` lines that all fit within max_width, with the whole
+    block fitting within max_height. Returns (font, lines, line_height).
+    """
+    for size in range(start_size, min_size - 1, -4):
+        font = _load_font(size, bold=bold)
+        avg_char_w = draw.textlength("MCOMPLETEDW", font=font) / 11
+        chars_per_line = max(4, int(max_width / avg_char_w))
+        lines = textwrap.wrap(text, width=chars_per_line) or [text]
+
+        while any(draw.textlength(line, font=font) > max_width for line in lines) and chars_per_line > 4:
+            chars_per_line -= 1
+            lines = textwrap.wrap(text, width=chars_per_line) or [text]
+
+        line_height = int(size * 1.25)
+        block_height = line_height * len(lines)
+        fits_width = all(draw.textlength(line, font=font) <= max_width for line in lines)
+        if len(lines) <= max_lines and block_height <= max_height and fits_width:
+            return font, lines, line_height
+
+    font = _load_font(min_size, bold=bold)
+    lines = textwrap.wrap(text, width=max(4, int(max_width / (draw.textlength("M", font=font) or 1)))) or [text]
+    return font, lines[:max_lines], int(min_size * 1.25)
+
+
 def _user_display_name(user):
     full_name = user.get_full_name() if hasattr(user, "get_full_name") else ""
     return full_name.strip() or user.get_username()
@@ -91,59 +130,37 @@ def _image_to_pdf_bytes(image: Image.Image) -> bytes:
 # --------------------------------------------------------------------------
 
 def render_badge_image(user, course) -> Image.Image:
-    size = 1000
-    img = Image.new("RGB", (size, size), PAPER)
+    """
+    Badge artwork = the bundled SWEEP Academy badge template with the
+    generic "COURSE COMPLETED" line replaced by the specific course that
+    was just completed, e.g. "SAFEGUARDING BASICS COMPLETED". Everything
+    else in the template (seal, ribbon, laurels, wordmark) is untouched.
+    """
+    img = _load_badge_template().copy()
+    w, h = img.size
     draw = ImageDraw.Draw(img)
+    cx = w // 2
 
-    cx, cy = size // 2, 430
+    # Patch box: covers the two-line "COURSE" / "COMPLETED" placeholder
+    # text. Measured directly against the template (pixel-sampled, not
+    # guessed) to stay clear of the laurels, which intrude much further
+    # toward center than they visually appear — a naive percentage-based
+    # box here will clip the wreath artwork.
+    box_left, box_right = int(w * 0.24), int(w * 0.76)
+    box_top, box_bottom = int(h * 0.403), int(h * 0.561)
+    template_bg = img.getpixel((cx, box_top + 4))  # sample the cream backdrop from inside the box
+    draw.rectangle((box_left, box_top, box_right, box_bottom), fill=template_bg)
 
-    # Outer rings
-    draw.ellipse((cx - 340, cy - 340, cx + 340, cy + 340), fill=PRIMARY)
-    draw.ellipse((cx - 315, cy - 315, cx + 315, cy + 315), fill=GOLD)
-    draw.ellipse((cx - 292, cy - 292, cx + 292, cy + 292), fill=PRIMARY_DARK)
-    draw.ellipse((cx - 265, cy - 265, cx + 265, cy + 265), fill=PAPER)
+    headline = f"{course.title} Completed".upper()
+    max_width = box_right - box_left
+    max_height = box_bottom - box_top
+    font, lines, line_height = _best_fit_lines(draw, headline, max_width, max_height)
 
-    # Simple open-book emblem
-    book_w, book_h = 190, 110
-    bx, by = cx - book_w // 2, cy - 70
-    draw.polygon(
-        [(bx, by + 10), (cx, by - 15), (bx + book_w, by + 10),
-         (bx + book_w, by + book_h), (cx, by + book_h - 25), (bx, by + book_h)],
-        fill=PRIMARY,
-    )
-    draw.line((cx, by - 15, cx, by + book_h - 25), fill=PAPER, width=4)
-
-    # "BADGE OF COMPLETION" arc-ish label
-    label_font = _load_font(28, bold=True)
-    _centered_text(draw, cx, cy + 60, "BADGE OF COMPLETION", label_font, PRIMARY_DARK)
-
-    diff_font = _load_font(24, bold=True)
-    _centered_text(draw, cx, cy + 105, course.get_difficulty_display().upper(), diff_font, CLAY)
-
-    # Course title, wrapped
-    title_font = _load_font(40, bold=True)
-    title_y = cy + 380
-    title_y = _wrapped_centered_text(
-        draw, cx, title_y, course.title, title_font, INK, max_chars=26, line_height=50
-    )
-
-    # School name
-    school_font = _load_font(26)
-    _centered_text(draw, cx, title_y + 14, course.school.name, school_font, PRIMARY)
-
-    # Divider
-    draw.line((size * 0.18, title_y + 70, size * 0.82, title_y + 70), fill=LINE, width=2)
-
-    # Recipient + date
-    name_font = _load_font(32, bold=True)
-    meta_font = _load_font(22)
-    _centered_text(draw, cx, title_y + 95, _user_display_name(user), name_font, INK)
-    date_str = datetime.now().strftime("Awarded %B %d, %Y")
-    _centered_text(draw, cx, title_y + 140, date_str, meta_font, PRIMARY_DARK)
-
-    # Footer brand mark
-    brand_font = _load_font(24, bold=True)
-    _centered_text(draw, cx, size - 60, "SWEEP", brand_font, GOLD)
+    block_height = line_height * len(lines)
+    y = box_top + (max_height - block_height) // 2
+    for line in lines:
+        _centered_text(draw, cx, y, line, font, PRIMARY_DARK)
+        y += line_height
 
     return img
 
@@ -231,3 +248,26 @@ def generate_certificate_files(user, school, score=None):
     """Return (png_bytes, pdf_bytes) for a school certificate."""
     image = render_certificate_image(user, school, score=score)
     return _image_to_png_bytes(image), _image_to_pdf_bytes(image)
+
+
+# --------------------------------------------------------------------------
+# Single-format helpers used by the on-demand serving views (credentials/views.py).
+# Rendering is deterministic from (user, course/school) and cheap (<100ms),
+# so these are generated fresh on every request rather than depending on a
+# file that was previously saved to disk. See credentials/views.py for why.
+# --------------------------------------------------------------------------
+
+def render_badge_png_bytes(user, course) -> bytes:
+    return _image_to_png_bytes(render_badge_image(user, course))
+
+
+def render_badge_pdf_bytes(user, course) -> bytes:
+    return _image_to_pdf_bytes(render_badge_image(user, course))
+
+
+def render_certificate_png_bytes(user, school, score=None) -> bytes:
+    return _image_to_png_bytes(render_certificate_image(user, school, score=score))
+
+
+def render_certificate_pdf_bytes(user, school, score=None) -> bytes:
+    return _image_to_pdf_bytes(render_certificate_image(user, school, score=score))
