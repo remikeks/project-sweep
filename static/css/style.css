@@ -1852,6 +1852,48 @@ footer.sw-footer {
 }
 
 /* ---------------------------------------------------------------------- */
+/* SweepCare AI widget (site-wide floating link, stacked above feedback)   */
+/* ---------------------------------------------------------------------- */
+
+.sweepcare-widget {
+  position: fixed;
+  right: 24px;
+  bottom: 94px;
+  z-index: 200;
+  text-decoration: none;
+}
+
+.sweepcare-fab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  padding: 14px 18px 14px 16px;
+  box-shadow: 0 10px 26px rgba(7, 29, 82, 0.28);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.sweepcare-widget:hover .sweepcare-fab {
+  background: var(--primary-dark);
+}
+
+.sweepcare-fab-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .sweepcare-widget { right: 14px; bottom: 70px; }
+  .sweepcare-fab { padding: 12px 14px; font-size: 0.8rem; gap: 8px; }
+}
+
+/* ---------------------------------------------------------------------- */
 /* Feedback widget (site-wide floating button + modal)                     */
 /* ---------------------------------------------------------------------- */
 
