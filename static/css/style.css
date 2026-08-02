@@ -1908,6 +1908,127 @@ footer.sw-footer {
 }
 
 /* ---------------------------------------------------------------------- */
+/* About / Team pages                                                     */
+/* ---------------------------------------------------------------------- */
+
+.cta-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 30px 34px;
+  box-shadow: var(--shadow);
+}
+
+.cta-band h2 { margin-bottom: 4px; font-size: 1.4rem; }
+.cta-band p { margin: 0; color: var(--clay); }
+
+/* Team grid: auto-fit + aspect-ratio means photo tiles resize fluidly with
+   the viewport and the column count adapts on its own — no fixed pixel
+   heights and no extra breakpoints needed for the photos themselves. */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+  margin: 36px 0 20px;
+}
+
+.team-card {
+  position: relative;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, opacity 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(7, 29, 82, 0.14);
+}
+
+.team-card.accent-leaf { --accent-1: #4C8B1D; --accent-2: #0B2C7A; }
+.team-card.accent-moss { --accent-1: #1E9BE0; --accent-2: #071D52; }
+.team-card.accent-fern { --accent-1: #F2650A; --accent-2: #4C8B1D; }
+.team-card.accent-sage { --accent-1: #F5A400; --accent-2: #0B2C7A; }
+.team-card.accent-pine { --accent-1: #4C8B1D; --accent-2: #071D52; }
+
+.team-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-photo.photo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: var(--paper);
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+}
+
+.team-body { padding: 18px 18px 22px; }
+.team-body h3 { font-size: 1.05rem; margin-bottom: 2px; }
+
+.team-role {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--clay);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 12px;
+}
+
+.team-bio {
+  font-size: 0.88rem;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.team-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--primary-dark);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.team-links a:hover { background: var(--primary); color: var(--paper); }
+
+@media (max-width: 520px) {
+  .cta-band { flex-direction: column; align-items: flex-start; }
+}
+
+/* ---------------------------------------------------------------------- */
 /* SweepCare AI widget (site-wide floating link, stacked above feedback)   */
 /* ---------------------------------------------------------------------- */
 

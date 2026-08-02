@@ -3,6 +3,8 @@ from django.shortcuts import render
 from courses.models import Course
 from schools.models import School
 
+from .models import TeamMember
+
 # Cap on how many courses the landing-page carousel pulls in, even once the
 # catalog grows well past its current single course.
 FEATURED_COURSE_LIMIT = 8
@@ -273,3 +275,18 @@ def services(request):
         "total_services": total_services,
     }
     return render(request, "core/services.html", context)
+
+
+def about(request):
+    """Public 'About' page — no login required."""
+    stats = {
+        "school_count": School.objects.filter(is_active=True).count(),
+        "course_count": Course.objects.filter(is_active=True).count(),
+    }
+    return render(request, "core/about.html", {"stats": stats})
+
+
+def team(request):
+    """Public 'Our Team' page — no login required."""
+    members = TeamMember.objects.filter(is_active=True)
+    return render(request, "core/team.html", {"members": members})

@@ -33,9 +33,11 @@
         </button>
       </div>
       <div class="sw-nav-links" id="sw-nav-links">
+        <a href="{% url 'about' %}">About Us</a>
         <a href="{% url 'school_list' %}">Schools</a>
         <a href="{% url 'course_list' %}">Courses</a>
         <a href="{% url 'services' %}">Services</a>
+        <a href="{% url 'team' %}">Our Team</a>
         {% if user.is_authenticated %}
           <a class="nav-link-auth" href="{% url 'dashboard' %}">My Learning</a>
           <a class="nav-link-auth" href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
@@ -46,7 +48,7 @@
           <div class="nav-user-pill" data-user-menu>
             <button type="button" class="nav-user-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
               <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
-              <span class="nav-user-text">happy learning, {{ user.username }}</span>
+              <!--<span class="nav-user-text">happy learning, {{ user.username }}</span>-->
             </button>
             <div class="nav-user-menu" data-user-menu-panel>
               <a href="{% url 'dashboard' %}">My Learning</a>
@@ -89,6 +91,8 @@
           <a href="{% url 'home' %}">Home</a>
           <a href="{% url 'school_list' %}">Schools</a>
           <a href="{% url 'course_list' %}">Courses</a>
+          <a href="{% url 'about' %}">About</a>
+          <a href="{% url 'team' %}">Our Team</a>
         </div>
         <div>
           <h3 class="footer-heading">For learners</h3>

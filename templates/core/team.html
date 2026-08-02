@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Our Team — SWEEP{% endblock %}
+{% block content %}
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="840" cy="85" r="220" fill="#4C8B1D" opacity="0.16" />
+      <circle cx="170" cy="520" r="190" fill="#1E9BE0" opacity="0.13" />
+      <circle cx="600" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+
+    <div class="hero-grid" style="grid-template-columns:1fr;">
+      <div class="hero-copy" style="max-width:720px;">
+        <p class="eyebrow">The people behind SWEEP</p>
+        <h1 class="typewriter" data-text="Our Team">Our Team</h1>
+        <p class="lede">
+          SWEEP Academy is run by a small, dedicated group of educators,
+          practitioners, and technologists committed to strengthening
+          social work across Africa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {% if members %}
+    <div class="team-grid">
+      {% for member in members %}
+        <div class="team-card accent-{{ member.accent }}" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
+          {% if member.photo_available %}
+            <div class="team-photo">
+              <img src="{{ member.photo.url }}" alt="{{ member.name }}">
+            </div>
+          {% else %}
+            <div class="team-photo photo-fallback">
+              <span aria-hidden="true">{{ member.initials }}</span>
+            </div>
+          {% endif %}
+          <div class="team-body">
+            <h3>{{ member.name }}</h3>
+            {% if member.role %}<p class="team-role">{{ member.role }}</p>{% endif %}
+            {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}
+            {% if member.email or member.linkedin_url %}
+              <div class="team-links">
+                {% if member.email %}
+                  <a href="mailto:{{ member.email }}" aria-label="Email {{ member.name }}">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 6.1a.75.75 0 0 0 .96 0L19.8 6H4.2Z"/></svg>
+                  </a>
+                {% endif %}
+                {% if member.linkedin_url %}
+                  <a href="{{ member.linkedin_url }}" target="_blank" rel="noopener" aria-label="{{ member.name }} on LinkedIn">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.24 8.25h4.5V23H.24V8.25ZM8.24 8.25h4.31v2.01h.06c.6-1.13 2.06-2.32 4.24-2.32 4.53 0 5.37 2.98 5.37 6.85V23h-4.5v-6.85c0-1.63-.03-3.73-2.27-3.73-2.27 0-2.62 1.78-2.62 3.61V23h-4.5V8.25Z"/></svg>
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state" style="margin-top:36px;">Team profiles are coming soon.</div>
+  {% endif %}
+
+  <section class="cta-band" style="margin-top:56px;" data-reveal>
+    <div>
+      <h2>Curious what SWEEP is building?</h2>
+      <p>Read more about our mission, vision, and values.</p>
+    </div>
+    <a href="{% url 'about' %}" class="btn btn-gold">About SWEEP</a>
+  </section>
+{% endblock %}

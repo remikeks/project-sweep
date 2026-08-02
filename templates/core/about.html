@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}About Us — SWEEP{% endblock %}
+{% block content %}
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="840" cy="85" r="220" fill="#1E9BE0" opacity="0.16" />
+      <circle cx="170" cy="520" r="190" fill="#F5A400" opacity="0.13" />
+      <circle cx="600" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Welcome to the SWEEP Ecosystem</p>
+        <h1 class="typewriter" data-text="Building Africa's social work workforce, one learner at a time.">Building Africa's social work workforce, one learner at a time.</h1>
+        <p class="lede">
+          Learn. Lead. Transform. Prevent. Connect. Thrive.
+        </p>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="{% url 'team' %}" class="btn btn-gold">Meet the team</a>
+          <a href="{% url 'school_list' %}" class="btn btn-outline">Browse schools</a>
+        </div>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">{{ stats.school_count }}</span>
+            <span class="stat-label">Schools</span>
+          </div>
+          <div>
+            <span class="stat-num">{{ stats.course_count }}</span>
+            <span class="stat-label">Courses</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-illustration hero-photo-wrap">
+        <div class="hero-map-glow" aria-hidden="true"></div>
+        <img
+          src="{% static 'img/services-hero.jpg' %}"
+          alt="Social workers collaborating during a SWEEP Academy training session"
+          class="hero-photo"
+        >
+      </div>
+    </div>
+  </section>
+
+  <h2 class="subheading typewriter" data-text="About SWEEP">About SWEEP</h2>
+  <p class="mv-text">
+          The SWEEP Ecosystem brings together Sweep Academy and SweepCare AI to create a single digital platform that develops people, strengthens organizations, and promotes healthier communities.
+          Whether you're a student, professional, organization, government agency, or community leader, our AI-powered solutions help you build skills, improve wellbeing, and connect with the support you need to thrive.
+  </p>
+  <div class="mv-grid">
+    <div class="mv-panel mv-vision" data-reveal data-reveal-delay="120">
+      <span class="mv-mark" aria-hidden="true">&#127793;</span>
+      <p class="mv-label">SWEEP Academy</p>
+      <p class="mv-text">
+        Sweep Academy is an AI-powered learning and workforce development platform designed to equip individuals and organizations with the knowledge, skills, and professional certifications needed for the future of work and social impact.
+Through practical courses, expert-led training, digital resources, and professional communities, we help learners build careers, strengthen leadership, and create meaningful change.
+Build Skills. Earn Certifications. Advance Your Career.
+      </p>
+    </div>
+
+    <div class="mv-connector" aria-hidden="true">&#10022;</div>
+
+    <div class="mv-panel mv-mission" data-reveal>
+      <span class="mv-mark" aria-hidden="true">&#129309;</span>
+      <p class="mv-label">SweepCare AI</p>
+      <p class="mv-text">
+        SweepCare AI is an AI-powered preventive mental health and wellbeing platform that helps people understand their wellbeing early and connects them to trusted support before challenges become crises.
+        We do not diagnose or replace healthcare professionals. Instead, we provide confidential wellbeing assessments, personalized insights, trusted referral pathways, and wellbeing resources that empower individuals while helping organizations create healthier, more productive environments.
+        Understand Early. Connect to Support. Thrive.
+      </p>
+    </div>
+  </div>
+ <br>
+ <p class="eyebrow">One Ecosystem. Unlimited Impact.</p>
+  <p class="mv-text">
+          
+Together, Sweep Academy and SweepCare AI are building the digital infrastructure for learning, workforce development, and preventive wellbeing—empowering individuals, organizations, and communities to achieve lasting impact through innovation, knowledge, and human-centered AI.
+Empowering People. Transforming Practice. Improving Wellbeing.
+  </p>
+ 
+<br>
+
+  <section style="margin-top:16px;">
+    <h2 class="subheading typewriter" data-text="Vision &amp; Mission">Vision &amp; Mission</h2>
+    <div class="mv-grid">
+      <div class="mv-panel mv-vision" data-reveal data-reveal-delay="0">
+        <span class="mv-mark" aria-hidden="true">&#127793;</span>
+        <p class="mv-label">Our Vision</p>
+        <p class="mv-text">
+          A world where every social worker is empowered, employable, and
+          equipped to transform lives, enhance mental health, and
+          strengthen communities.
+        </p>
+      </div>
+      <div class="mv-panel mv-mission" data-reveal data-reveal-delay="80">
+        <span class="mv-mark" aria-hidden="true">&#129309;</span>
+        <p class="mv-label">Our Mission</p>
+        <p class="mv-text">
+          To bridge social work education and practice through digital
+          innovation, entrepreneurship, and sustainable careers across
+          Africa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top:56px;">
+    <h2 class="subheading typewriter" data-text="What We Stand For">What We Stand For</h2>
+    <div class="value-grid">
+      <div class="value-card" data-reveal data-reveal-delay="0">
+        <span class="value-icon" aria-hidden="true">&#128218;</span>
+        <h3>Learn</h3>
+        <p>Access high-quality, flexible, industry-relevant education.</p>
+      </div>
+      <div class="value-card" data-reveal data-reveal-delay="70">
+        <span class="value-icon" aria-hidden="true">&#128220;</span>
+        <h3>Certify</h3>
+        <p>Earn professional and continuing education credentials.</p>
+      </div>
+      <div class="value-card" data-reveal data-reveal-delay="140">
+        <span class="value-icon" aria-hidden="true">&#128200;</span>
+        <h3>Advance</h3>
+        <p>Improve employability, leadership, and career progression.</p>
+      </div>
+      <div class="value-card" data-reveal data-reveal-delay="210">
+        <span class="value-icon" aria-hidden="true">&#128161;</span>
+        <h3>Innovate</h3>
+        <p>Develop entrepreneurial and consultancy capabilities.</p>
+      </div>
+      <div class="value-card" data-reveal data-reveal-delay="280">
+        <span class="value-icon" aria-hidden="true">&#127757;</span>
+        <h3>Impact</h3>
+        <p>Apply knowledge to strengthen communities and achieve sustainable development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" style="margin-top:56px;" data-reveal>
+    <div>
+      <h2>Want to know the people behind SWEEP?</h2>
+      <p>Get to know the team building and running the Academy.</p>
+    </div>
+    <a href="{% url 'team' %}" class="btn btn-gold">Meet the team</a>
+  </section>
+{% endblock %}
