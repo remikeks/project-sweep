@@ -30,7 +30,15 @@
       </div>
 
       <div class="hero-illustration">
-        <span class="hero-emblem accent-{{ school.accent }}" aria-hidden="true">{{ school.emblem }}</span>
+        {% if school.poster_available %}
+          <div class="hero-poster">
+            <img src="{{ school.poster.url }}" alt="{{ school.name }} poster">
+          </div>
+        {% else %}
+          <div class="hero-poster poster-fallback accent-{{ school.accent }}" aria-hidden="true">
+            {{ school.emblem }}
+          </div>
+        {% endif %}
       </div>
     </div>
   </section>

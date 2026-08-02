@@ -49,14 +49,24 @@
     {% for school in schools %}
       <div class="school-card accent-{{ school.accent }}" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
         <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
-        <span class="emblem-badge">{{ school.emblem }}</span>
-        <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
-        {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
-        <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>
-        {% if school.id in enrolled_school_ids %}
-          <span class="badge-pill status-completed">Enrolled</span>
+        {% if school.poster_available %}
+          <div class="card-poster">
+            <img src="{{ school.poster.url }}" alt="{{ school.name }} poster">
+          </div>
+        {% else %}
+          <div class="card-poster poster-fallback">
+            <span aria-hidden="true">{{ school.emblem }}</span>
+          </div>
         {% endif %}
-        <div><a href="{% url 'school_detail' school.slug %}" class="btn btn-outline btn-block">View school</a></div>
+        <div class="card-body">
+          <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
+          {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
+          <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>
+          {% if school.id in enrolled_school_ids %}
+            <span class="badge-pill status-completed">Enrolled</span>
+          {% endif %}
+          <div><a href="{% url 'school_detail' school.slug %}" class="btn btn-outline btn-block">View school</a></div>
+        </div>
       </div>
     {% empty %}
       <div class="empty-state">No schools match "{{ query }}".</div>

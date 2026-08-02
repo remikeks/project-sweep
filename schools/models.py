@@ -23,7 +23,14 @@ class School(models.Model):
     slug = models.SlugField(max_length=170, unique=True, blank=True)
     tagline = models.CharField(max_length=255, blank=True)
     description = models.TextField(blank=True)
-    icon = models.ImageField(upload_to="school_icons/", blank=True, null=True)
+    poster = models.ImageField(
+        upload_to="school_posters/",
+        blank=True,
+        null=True,
+        help_text="Displayed at the top of the school's card and in the hero "
+        "section of the school's page. A portrait image (roughly 3:4, e.g. "
+        "900\u00d71200px) works best — it gets cropped to fit both spots.",
+    )
 
     # Certification exam configuration
     passing_score = models.PositiveSmallIntegerField(
@@ -76,6 +83,18 @@ class School(models.Model):
     def accent(self):
         """A CSS accent-tone name for this school's card, cycling through a fixed set."""
         return SCHOOL_ACCENTS[self.order % len(SCHOOL_ACCENTS)]
+
+    @property
+    def poster_available(self):
+        """
+        Whether a poster is both set AND actually present in storage.
+        Checking existence (not just the field being non-empty) means a
+        poster lost to a host's ephemeral filesystem — e.g. after a
+        redeploy on Render, see sweep/urls.py — falls back to the emblem
+        placeholder instead of a broken image, without needing anyone to
+        clear the field first.
+        """
+        return bool(self.poster) and self.poster.storage.exists(self.poster.name)
 
 
 class SchoolExamQuestion(models.Model):
