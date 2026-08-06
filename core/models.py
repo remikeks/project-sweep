@@ -51,3 +51,37 @@ class TeamMember(models.Model):
         existence rather than just whether the field is non-empty.
         """
         return bool(self.photo) and self.photo.storage.exists(self.photo.name)
+
+
+class Resource(models.Model):
+    """A downloadable file shown on the public 'Resources' page (guides, toolkits, etc.)."""
+
+    title = models.CharField(max_length=200)
+    caption = models.CharField(
+        max_length=300,
+        blank=True,
+        help_text="Short line shown under the title on the Resources page, e.g. a call to action.",
+    )
+    description = models.TextField(blank=True)
+    file = models.FileField(upload_to="resources/")
+    cover_image = models.ImageField(upload_to="resource_covers/", blank=True, null=True)
+    order = models.PositiveIntegerField(default=0)
+    is_active = models.BooleanField(
+        default=True,
+        help_text="Uncheck to hide this resource from the public Resources page without deleting it.",
+    )
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["order", "-uploaded_at"]
+
+    def __str__(self):
+        return self.title
+
+    @property
+    def file_available(self):
+        return bool(self.file) and self.file.storage.exists(self.file.name)
+
+    @property
+    def cover_available(self):
+        return bool(self.cover_image) and self.cover_image.storage.exists(self.cover_image.name)

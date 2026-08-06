@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 
-from .models import TeamMember
+from .models import Resource, TeamMember
 
 
 @admin.register(TeamMember)
@@ -34,3 +34,13 @@ class TeamMemberAdmin(admin.ModelAdmin):
         return "No photo uploaded yet — the team page will show their initials instead."
 
     photo_preview.short_description = "Preview"
+
+
+@admin.register(Resource)
+class ResourceAdmin(admin.ModelAdmin):
+    list_display = ("title", "caption", "is_active", "order", "uploaded_at")
+    list_display_links = ("title",)
+    list_editable = ("order", "is_active")
+    search_fields = ("title", "caption", "description")
+    list_filter = ("is_active",)
+    fields = ("title", "caption", "description", "file", "cover_image", "order", "is_active")

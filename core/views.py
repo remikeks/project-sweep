@@ -3,7 +3,7 @@ from django.shortcuts import render
 from courses.models import Course
 from schools.models import School
 
-from .models import TeamMember
+from .models import Resource, TeamMember
 
 # Cap on how many courses the landing-page carousel pulls in, even once the
 # catalog grows well past its current single course.
@@ -290,3 +290,9 @@ def team(request):
     """Public 'Our Team' page — no login required."""
     members = TeamMember.objects.filter(is_active=True)
     return render(request, "core/team.html", {"members": members})
+
+
+def resources(request):
+    """Public 'Resources' page — free downloadable guides and toolkits, no login required."""
+    resource_list = Resource.objects.filter(is_active=True)
+    return render(request, "core/resources.html", {"resources": resource_list})
