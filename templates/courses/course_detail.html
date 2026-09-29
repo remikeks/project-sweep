@@ -84,14 +84,17 @@
     </div>
   {% endif %}
 
-  {% if user.is_authenticated and course.modules.exists %}
+  {% if user.is_authenticated %}
     <div style="margin-top:20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-      <a href="{% if first_module %}{% url 'course_module_detail' course.slug first_module.order %}{% else %}{% url 'course_detail' course.slug %}{% endif %}" class="btn btn-primary">Go to course</a>
-      {% if not is_enrolled %}
+      {% if is_enrolled and first_module %}
+        <a href="{% url 'course_module_detail' course.slug first_module.order %}" class="btn btn-primary">Continue course</a>
+      {% elif not is_enrolled %}
         <form method="post" action="{% url 'enroll_in_course' course.slug %}">
           {% csrf_token %}
-          <button type="submit" class="btn btn-outline">Enroll and Start Course</button>
+          <button type="submit" class="btn btn-primary">Enroll and start course</button>
         </form>
+      {% else %}
+        <p class="meta">Learning materials are being prepared for this course.</p>
       {% endif %}
     </div>
   {% endif %}

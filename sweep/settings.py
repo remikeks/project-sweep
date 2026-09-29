@@ -205,3 +205,15 @@ DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", "SWEEP <no-reply@sweep
 # Where the site-wide feedback widget sends its notification email.
 # Override via env var if this ever needs to change without a redeploy.
 FEEDBACK_TO_EMAIL = os.environ.get("FEEDBACK_TO_EMAIL", "info@sweepacademy.org")
+
+# --------------------------------------------------------------------------
+# SUPABASE CONTENT PORTAL
+# --------------------------------------------------------------------------
+# These are intentionally public identifiers only. Do not expose a Supabase
+# service-role key to a browser; the future portal authenticates through its
+# own Supabase session and calls SWEEP with a separately verified service/JWT
+# integration in production.
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_STORAGE_BUCKET = os.environ.get("SUPABASE_STORAGE_BUCKET", "sweep-course-assets")
+SUPABASE_JWT_ISSUER = os.environ.get("SUPABASE_JWT_ISSUER", "")
+SUPABASE_JWT_AUDIENCE = os.environ.get("SUPABASE_JWT_AUDIENCE", "authenticated")

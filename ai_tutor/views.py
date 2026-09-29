@@ -41,6 +41,12 @@ def tutor_ask(request):
 
     course = get_object_or_404(Course, slug=course_slug, is_active=True)
 
+    if not course.enrollments.filter(user=request.user).exists():
+        return JsonResponse(
+            {"ok": False, "error": "Enroll in this course before using its AI Tutor."},
+            status=403,
+        )
+
     module = None
     if module_order not in (None, ""):
         module = get_object_or_404(CourseModule, course=course, order=module_order)

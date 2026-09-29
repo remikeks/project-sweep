@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from django.db import transaction
 
-from courses.models import Choice, Course, Question
+from courses.models import Choice, Course, CourseModule, Question
 from schools.models import School, SchoolExamChoice, SchoolExamQuestion
 
 SCHOOLS = [
@@ -1287,6 +1287,21 @@ class Command(BaseCommand):
                         "is_active": True,
                     },
                 )
+                # The original catalogue predates CourseModule. Preserve any
+                # editor-created modules, but supply a usable first lesson
+                # for every legacy/seeded course that has none.
+                if not course.modules.exists():
+                    CourseModule.objects.create(
+                        course=course,
+                        title="Course learning material",
+                        order=1,
+                        duration=f"{course.estimated_minutes} min",
+                        module_type=CourseModule.ModuleType.ARTICLE,
+                        learning_mode=CourseModule.LearningMode.SELF_PACED,
+                        overview=course.summary,
+                        content=course.content,
+                        module_summary="Review the key concepts before taking the assessment.",
+                    )
                 course.questions.all().delete()
                 for q_order, q_data in enumerate(course_data["questions"], start=1):
                     question = Question.objects.create(

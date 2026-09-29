@@ -113,10 +113,6 @@ def _call_gemini(user_message, max_tokens=MAX_ANSWER_TOKENS):
             ),
         )
 
-        print("MODEL:", MODEL)
-        print("FINISH REASON:", response.candidates[0].finish_reason)
-        print(response)
-
     except Exception as exc:
         logger.exception("Gemini API call failed (model=%s)", MODEL)
         raise TutorError(str(exc)) from exc
@@ -140,6 +136,8 @@ def _course_context(course):
         parts.append(f"Course description:\n{course.description}")
     if course.learning_objectives:
         parts.append(f"Learning objectives:\n{course.learning_objectives}")
+    if course.content:
+        parts.append(f"Course learning material:\n{course.content}")
 
     for module in course.modules.order_by("order", "id"):
         chunk = [f"### Module {module.order}: {module.title}"]

@@ -4,11 +4,34 @@ from django.db.models import Q
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.safestring import mark_safe
 
+import bleach
 import markdown
 
 from schools.models import School
 
 from .models import Course, CourseModule
+from .content_api import content_catalog, create_asset, import_assets, transition_asset_view
+
+
+ALLOWED_MARKDOWN_TAGS = {
+    "a", "blockquote", "br", "code", "em", "h1", "h2", "h3", "h4",
+    "hr", "li", "ol", "p", "pre", "strong", "table", "tbody", "td",
+    "th", "thead", "tr", "ul",
+}
+ALLOWED_MARKDOWN_ATTRIBUTES = {"a": ["href", "title"]}
+
+
+def render_course_markdown(value):
+    """Render staff-authored Markdown without allowing executable HTML."""
+    rendered = markdown.markdown(value or "", extensions=["fenced_code", "tables"])
+    cleaned = bleach.clean(
+        rendered,
+        tags=ALLOWED_MARKDOWN_TAGS,
+        attributes=ALLOWED_MARKDOWN_ATTRIBUTES,
+        protocols=["http", "https", "mailto"],
+        strip=True,
+    )
+    return mark_safe(cleaned)
 
 
 def course_list(request):
@@ -121,6 +144,16 @@ def course_module_detail(request, slug, module_order):
             status=CourseProgress.Status.COMPLETED,
         ).exists()
 
+    if is_course_completed:
+        next_course = (
+            course.school.courses.filter(is_active=True)
+            .filter(Q(order__gt=course.order) | Q(order=course.order, id__gt=course.id))
+            .order_by("order", "id")
+            .first()
+        )
+
+    assets = module.assets.filter(status="published")
+
     if current_index > 0:
         prev_module = ordered_modules[current_index - 1]
     if current_index != -1 and current_index < len(ordered_modules) - 1:
@@ -135,11 +168,12 @@ def course_module_detail(request, slug, module_order):
         "next_course": next_course,
         "question_count": course.question_count,
         "is_course_completed": is_course_completed,
-        "module_overview_html": mark_safe(markdown.markdown(module.overview or "", extensions=["fenced_code", "tables"])),
-        "module_content_html": mark_safe(markdown.markdown(module.content or "", extensions=["fenced_code", "tables"])),
-        "module_summary_html": mark_safe(markdown.markdown(module.module_summary or "", extensions=["fenced_code", "tables"])),
-        "knowledge_check_html": mark_safe(markdown.markdown(module.knowledge_check or "", extensions=["fenced_code", "tables"])),
-        "practical_activity_html": mark_safe(markdown.markdown(module.practical_activity or "", extensions=["fenced_code", "tables"])),
+        "assets": assets,
+        "module_overview_html": render_course_markdown(module.overview),
+        "module_content_html": render_course_markdown(module.content),
+        "module_summary_html": render_course_markdown(module.module_summary),
+        "knowledge_check_html": render_course_markdown(module.knowledge_check),
+        "practical_activity_html": render_course_markdown(module.practical_activity),
     }
     return render(request, "courses/course_module_detail.html", context)
 
@@ -165,7 +199,7 @@ def course_quiz(request, slug):
         result = grade_course_quiz(user=request.user, course=course, post_data=request.POST)
         next_course = (
             course.school.courses.filter(is_active=True)
-            .exclude(pk=course.pk)
+            .filter(Q(order__gt=course.order) | Q(order=course.order, id__gt=course.id))
             .order_by("order", "id")
             .first()
         )

@@ -44,6 +44,24 @@
     </div>
   {% endif %}
 
+  {% if assets %}
+    <section class="card" style="margin-bottom:20px;">
+      <h2>Course resources</h2>
+      <ul>
+        {% for asset in assets %}
+          <li>
+            {% if asset.file %}
+              <a href="{{ asset.file.url }}"{% if not asset.is_downloadable %} target="_blank" rel="noopener"{% endif %}>{{ asset.title }}</a>
+            {% else %}
+              <a href="{{ asset.external_url }}" target="_blank" rel="noopener">{{ asset.title }}</a>
+            {% endif %}
+            <span class="meta"> — {{ asset.get_asset_type_display }} · v{{ asset.version }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:24px;">
     {% if prev_module %}
       <a href="{% url 'course_module_detail' course.slug prev_module.order %}" class="btn btn-outline">← Previous module</a>

@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Choice, Course, CourseModule, Question
+from .models import Choice, Course, CourseAsset, CourseModule, Question
 
 
 class ChoiceInline(admin.TabularInline):
@@ -12,6 +12,11 @@ class ModuleInline(admin.StackedInline):
     model = CourseModule
     extra = 1
     show_change_link = True
+
+
+class CourseAssetInline(admin.TabularInline):
+    model = CourseAsset
+    extra = 0
 
 
 class QuestionInline(admin.StackedInline):
@@ -39,6 +44,14 @@ class CourseModuleAdmin(admin.ModelAdmin):
     search_fields = ("title", "overview", "content", "module_summary", "knowledge_check", "practical_activity")
 
 
+@admin.register(CourseAsset)
+class CourseAssetAdmin(admin.ModelAdmin):
+    list_display = ("title", "course", "module", "asset_type", "version", "status", "updated_at")
+    list_filter = ("status", "asset_type", "course__school")
+    search_fields = ("title", "course__title", "module__title")
+    list_editable = ("status",)
+
+
 @admin.register(Course)
 class CourseAdmin(admin.ModelAdmin):
     list_display = (
@@ -54,4 +67,4 @@ class CourseAdmin(admin.ModelAdmin):
     list_filter = ("school", "difficulty", "is_active")
     search_fields = ("title", "summary", "learning_objectives", "content")
     prepopulated_fields = {"slug": ("title",)}
-    inlines = [ModuleInline, QuestionInline]
+    inlines = [ModuleInline, CourseAssetInline, QuestionInline]

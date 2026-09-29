@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
@@ -137,6 +138,80 @@ class CourseModule(models.Model):
                 slug = f"{base_slug}-{i}"
             self.slug = slug
         super().save(*args, **kwargs)
+
+
+class CourseAsset(models.Model):
+    """A versioned learner resource attached to a course or one of its modules.
+
+    Files use Django's configured storage backend. This keeps the domain model
+    independent of a storage provider, so Supabase Storage can be introduced
+    without changing learner URLs or publishing rules.
+    """
+
+    class AssetType(models.TextChoices):
+        LEARNER_GUIDE = "learner_guide", "Learner guide"
+        SLIDES = "slides", "Slide deck"
+        VIDEO = "video", "Video"
+        TRANSCRIPT = "transcript", "Transcript"
+        WORKSHEET = "worksheet", "Worksheet"
+        REFERENCE = "reference", "Reference"
+
+    class PublicationStatus(models.TextChoices):
+        DRAFT = "draft", "Draft"
+        IN_REVIEW = "in_review", "In review"
+        APPROVED = "approved", "Approved"
+        PUBLISHED = "published", "Published"
+        RETIRED = "retired", "Retired"
+
+    course = models.ForeignKey(Course, related_name="assets", on_delete=models.CASCADE)
+    module = models.ForeignKey(
+        CourseModule, related_name="assets", on_delete=models.CASCADE, null=True, blank=True,
+        help_text="Leave blank when the resource applies to the whole course.",
+    )
+    title = models.CharField(max_length=200)
+    asset_type = models.CharField(max_length=20, choices=AssetType.choices)
+    file = models.FileField(upload_to="course_assets/%Y/%m/", blank=True)
+    external_url = models.URLField(blank=True)
+    version = models.CharField(max_length=40, default="1.0")
+    language = models.CharField(max_length=20, default="en")
+    status = models.CharField(max_length=20, choices=PublicationStatus.choices, default=PublicationStatus.DRAFT)
+    order = models.PositiveSmallIntegerField(default=0)
+    is_downloadable = models.BooleanField(default=True)
+    created_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, related_name="created_course_assets", on_delete=models.SET_NULL,
+        null=True, blank=True,
+    )
+    reviewed_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, related_name="reviewed_course_assets", on_delete=models.SET_NULL,
+        null=True, blank=True,
+    )
+    reviewed_at = models.DateTimeField(null=True, blank=True)
+    published_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, related_name="published_course_assets", on_delete=models.SET_NULL,
+        null=True, blank=True,
+    )
+    published_at = models.DateTimeField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["order", "id"]
+        permissions = [
+            ("review_courseasset", "Can approve course assets for publication"),
+            ("publish_courseasset", "Can publish and retire course assets"),
+            ("bulk_import_courseasset", "Can bulk import course asset metadata"),
+        ]
+
+    def __str__(self):
+        return f"{self.course.title} / {self.title} (v{self.version})"
+
+    def clean(self):
+        from django.core.exceptions import ValidationError
+
+        if bool(self.file) == bool(self.external_url):
+            raise ValidationError("Provide exactly one of a file or an external URL.")
+        if self.module_id and self.module.course_id != self.course_id:
+            raise ValidationError("The selected module must belong to this asset's course.")
 
 
 class Question(models.Model):
