@@ -1,3 +1,5 @@
+import uuid
+
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
@@ -10,8 +12,8 @@ class Course(models.Model):
     """
     A single course within a school. Each course has a difficulty level,
     an estimated time to complete, learning content, and a multiple-choice
-    assessment. Passing the assessment marks the course complete and
-    awards a badge.
+    assessment. A verified ParaLearn CBT result is the only event that marks
+    the course complete and awards a new badge.
     """
 
     class Difficulty(models.TextChoices):
@@ -52,6 +54,14 @@ class Course(models.Model):
 
     passing_score = models.PositiveSmallIntegerField(
         default=70, help_text="Minimum percentage score required to pass the assessment."
+    )
+    paralearn_assessment_id = models.CharField(
+        max_length=200,
+        blank=True,
+        help_text=(
+            "The ParaLearn CBT assessment identifier. A course cannot launch an "
+            "authoritative assessment until this is configured."
+        ),
     )
 
     order = models.PositiveSmallIntegerField(
@@ -172,6 +182,14 @@ class CourseAsset(models.Model):
     asset_type = models.CharField(max_length=20, choices=AssetType.choices)
     file = models.FileField(upload_to="course_assets/%Y/%m/", blank=True)
     external_url = models.URLField(blank=True)
+    storage_path = models.CharField(
+        max_length=500,
+        blank=True,
+        help_text="Supabase Storage object path, when this resource is stored in Supabase.",
+    )
+    original_filename = models.CharField(max_length=255, blank=True)
+    content_type = models.CharField(max_length=127, blank=True)
+    size_bytes = models.PositiveBigIntegerField(null=True, blank=True)
     version = models.CharField(max_length=40, default="1.0")
     language = models.CharField(max_length=20, default="en")
     status = models.CharField(max_length=20, choices=PublicationStatus.choices, default=PublicationStatus.DRAFT)
@@ -191,6 +209,15 @@ class CourseAsset(models.Model):
         null=True, blank=True,
     )
     published_at = models.DateTimeField(null=True, blank=True)
+    retired_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, related_name="retired_course_assets", on_delete=models.SET_NULL,
+        null=True, blank=True,
+    )
+    retired_at = models.DateTimeField(null=True, blank=True)
+    replaces = models.ForeignKey(
+        "self", related_name="replacement_assets", on_delete=models.SET_NULL, null=True, blank=True,
+        help_text="The earlier asset superseded by this separately reviewed replacement.",
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -212,6 +239,45 @@ class CourseAsset(models.Model):
             raise ValidationError("Provide exactly one of a file or an external URL.")
         if self.module_id and self.module.course_id != self.course_id:
             raise ValidationError("The selected module must belong to this asset's course.")
+        if self.storage_path and not self.external_url:
+            raise ValidationError("A storage-backed asset must include its canonical external URL.")
+        if self.size_bytes is not None and self.size_bytes < 1:
+            raise ValidationError("Asset size must be greater than zero.")
+        if self.replaces_id:
+            if self.replaces_id == self.pk:
+                raise ValidationError("An asset cannot replace itself.")
+            if self.replaces.course_id != self.course_id or self.replaces.module_id != self.module_id:
+                raise ValidationError("A replacement must stay attached to the same course and module.")
+
+
+class ContentUploadIntent(models.Model):
+    """One-use record backing a short-lived signed browser upload URL.
+
+    The signed URL itself is deliberately not stored. Its object path is bound
+    to the requesting author and can only be registered once before expiry.
+    """
+
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    course = models.ForeignKey(Course, related_name="upload_intents", on_delete=models.CASCADE)
+    module = models.ForeignKey(CourseModule, related_name="upload_intents", on_delete=models.CASCADE, null=True, blank=True)
+    requested_by = models.ForeignKey(settings.AUTH_USER_MODEL, related_name="content_upload_intents", on_delete=models.CASCADE)
+    replacement_for = models.ForeignKey(
+        CourseAsset, related_name="replacement_upload_intents", on_delete=models.CASCADE, null=True, blank=True,
+    )
+    storage_path = models.CharField(max_length=500, unique=True)
+    original_filename = models.CharField(max_length=255)
+    asset_type = models.CharField(max_length=20, choices=CourseAsset.AssetType.choices)
+    content_type = models.CharField(max_length=127)
+    size_bytes = models.PositiveBigIntegerField()
+    expires_at = models.DateTimeField()
+    consumed_at = models.DateTimeField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
+    def __str__(self):
+        return f"Upload intent for {self.storage_path}"
 
 
 class Question(models.Model):

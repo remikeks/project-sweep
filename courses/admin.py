@@ -49,7 +49,15 @@ class CourseAssetAdmin(admin.ModelAdmin):
     list_display = ("title", "course", "module", "asset_type", "version", "status", "updated_at")
     list_filter = ("status", "asset_type", "course__school")
     search_fields = ("title", "course__title", "module__title")
-    list_editable = ("status",)
+    readonly_fields = (
+        "status", "created_by", "reviewed_by", "reviewed_at", "published_by", "published_at",
+        "retired_by", "retired_at", "replaces", "storage_path", "original_filename", "content_type", "size_bytes",
+    )
+
+    def has_module_permission(self, request):
+        # The portal is the workflow authority. Keep non-superusers from using
+        # Django admin to bypass its one-way status transitions.
+        return request.user.is_superuser
 
 
 @admin.register(Course)
@@ -57,6 +65,7 @@ class CourseAdmin(admin.ModelAdmin):
     list_display = (
         "title",
         "school",
+        "paralearn_assessment_id",
         "difficulty",
         "estimated_minutes",
         "question_count",
@@ -65,6 +74,6 @@ class CourseAdmin(admin.ModelAdmin):
     )
     list_editable = ("order", "is_active")
     list_filter = ("school", "difficulty", "is_active")
-    search_fields = ("title", "summary", "learning_objectives", "content")
+    search_fields = ("title", "summary", "learning_objectives", "content", "paralearn_assessment_id")
     prepopulated_fields = {"slug": ("title",)}
     inlines = [ModuleInline, CourseAssetInline, QuestionInline]

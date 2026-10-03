@@ -18,43 +18,43 @@
     </div>
   {% endif %}
 
+  {% if module_unlocked %}
   <div class="card" style="margin-bottom:20px;">
     <!--<h2>Module content</h2>-->
     <div>{{ module_content_html }}</div>
   </div>
+  {% else %}
+    <div class="card"><strong>This module is locked.</strong><p>Complete the previous module to continue.</p></div>
+  {% endif %}
 
-  {% if module.module_summary %}
+  {% if module_unlocked and module.module_summary %}
     <div class="card" style="margin-bottom:20px;">
       <h2>Module summary</h2>
       <div>{{ module_summary_html }}</div>
     </div>
   {% endif %}
 
-  {% if module.knowledge_check %}
+  {% if module_unlocked and module.knowledge_check %}
     <div class="card" style="margin-bottom:20px;">
       <h2>Knowledge check</h2>
       <div>{{ knowledge_check_html }}</div>
     </div>
   {% endif %}
 
-  {% if module.practical_activity %}
+  {% if module_unlocked and module.practical_activity %}
     <div class="card" style="margin-bottom:20px;">
       <h2>Practical activity</h2>
       <div>{{ practical_activity_html }}</div>
     </div>
   {% endif %}
 
-  {% if assets %}
+  {% if module_unlocked and assets %}
     <section class="card" style="margin-bottom:20px;">
       <h2>Course resources</h2>
       <ul>
         {% for asset in assets %}
           <li>
-            {% if asset.file %}
-              <a href="{{ asset.file.url }}"{% if not asset.is_downloadable %} target="_blank" rel="noopener"{% endif %}>{{ asset.title }}</a>
-            {% else %}
-              <a href="{{ asset.external_url }}" target="_blank" rel="noopener">{{ asset.title }}</a>
-            {% endif %}
+            <a href="{% url 'course_asset_download' asset.id %}"{% if not asset.is_downloadable %} target="_blank" rel="noopener"{% endif %}>{{ asset.title }}</a>
             <span class="meta"> — {{ asset.get_asset_type_display }} · v{{ asset.version }}</span>
           </li>
         {% endfor %}
@@ -69,19 +69,23 @@
       <span></span>
     {% endif %}
 
-    {% if next_module %}
+    {% if module_unlocked and not module_completed %}
+      <form method="post" action="{% url 'complete_course_module' course.slug module.order %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">Mark complete →</button>
+      </form>
+    {% elif next_module %}
       <a href="{% url 'course_module_detail' course.slug next_module.order %}" class="btn btn-primary">Next module →</a>
     {% elif is_course_completed and next_course %}
       <a href="{% url 'course_detail' next_course.slug %}" class="btn btn-primary">Next course →</a>
     {% else %}
-      {% if prev_module %}
-        <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">Take assessment →</a>
+      {% if modules_complete and paralearn_assessment_ready %}
+        <form method="post" action="{% url 'paralearn_launch' course.slug %}">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-gold">Take ParaLearn assessment →</button>
+        </form>
       {% else %}
-        {% if next_module %}
-          <a href="{% url 'course_module_detail' course.slug next_module.order %}" class="btn btn-primary">Next module →</a>
-        {% else %}
-          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">Take assessment →</a>
-        {% endif %}
+        <a href="{% url 'course_detail' course.slug %}" class="btn btn-outline">Assessment status</a>
       {% endif %}
     {% endif %}
   </div>

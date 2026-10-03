@@ -15,7 +15,6 @@ Visual language (kept consistent across the whole platform):
 
 import io
 import textwrap
-from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
 
@@ -169,7 +168,7 @@ def render_badge_image(user, course) -> Image.Image:
 # Certificate (per-school certification)
 # --------------------------------------------------------------------------
 
-def render_certificate_image(user, school, score=None) -> Image.Image:
+def render_certificate_image(user, school, score=None, awarded_at=None, issued_to_name=None, credential_id=None) -> Image.Image:
     w, h = 1650, 1275  # landscape, ~US letter at 150dpi
     img = Image.new("RGB", (w, h), PAPER)
     draw = ImageDraw.Draw(img)
@@ -193,8 +192,9 @@ def render_certificate_image(user, school, score=None) -> Image.Image:
     _centered_text(draw, cx, margin + 270, "This certifies that", body_font, INK)
 
     name_font = _load_font(58, bold=True)
-    _centered_text(draw, cx, margin + 320, _user_display_name(user), name_font, PRIMARY_DARK)
-    name_bbox = draw.textbbox((0, 0), _user_display_name(user), font=name_font)
+    holder_name = issued_to_name or _user_display_name(user)
+    _centered_text(draw, cx, margin + 320, holder_name, name_font, PRIMARY_DARK)
+    name_bbox = draw.textbbox((0, 0), holder_name, font=name_font)
     name_w = name_bbox[2] - name_bbox[0]
     draw.line((cx - name_w / 2 - 10, margin + 400, cx + name_w / 2 + 10, margin + 400), fill=GOLD, width=3)
 
@@ -219,7 +219,7 @@ def render_certificate_image(user, school, score=None) -> Image.Image:
 
     # Footer: date + score + signature line
     footer_font = _load_font(24)
-    date_str = datetime.now().strftime("%B %d, %Y")
+    date_str = awarded_at.strftime("%B %d, %Y") if awarded_at else "Date unavailable"
     score_str = f"Exam score: {score}%" if score is not None else ""
 
     draw.line((margin + 100, h - margin - 140, margin + 500, h - margin - 140), fill=LINE, width=2)
@@ -230,6 +230,8 @@ def render_certificate_image(user, school, score=None) -> Image.Image:
     draw.text((w - margin - 500, h - margin - 130), "Program Director, SWEEP", font=footer_font, fill=PRIMARY_DARK)
     if score_str:
         draw.text((w - margin - 500, h - margin - 95), score_str, font=footer_font, fill=INK)
+    if credential_id:
+        draw.text((cx - 240, h - margin - 48), f"Verify: {credential_id}", font=_load_font(18), fill=PRIMARY_DARK)
 
     return img
 
@@ -265,9 +267,9 @@ def render_badge_pdf_bytes(user, course) -> bytes:
     return _image_to_pdf_bytes(render_badge_image(user, course))
 
 
-def render_certificate_png_bytes(user, school, score=None) -> bytes:
-    return _image_to_png_bytes(render_certificate_image(user, school, score=score))
+def render_certificate_png_bytes(user, school, score=None, **kwargs) -> bytes:
+    return _image_to_png_bytes(render_certificate_image(user, school, score=score, **kwargs))
 
 
-def render_certificate_pdf_bytes(user, school, score=None) -> bytes:
-    return _image_to_pdf_bytes(render_certificate_image(user, school, score=score))
+def render_certificate_pdf_bytes(user, school, score=None, **kwargs) -> bytes:
+    return _image_to_pdf_bytes(render_certificate_image(user, school, score=score, **kwargs))

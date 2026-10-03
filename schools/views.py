@@ -51,9 +51,11 @@ def school_detail(request, slug):
         from credentials.models import Certificate
         from learning.models import SchoolExamAttempt
 
-        progresses = CourseProgress.objects.filter(
-            user=request.user, course__school=school
-        )
+        enrollment = school.enrollments.filter(user=request.user).first()
+        required_course_ids = list(enrollment.curriculum_requirements.values_list("course_id", flat=True)) if enrollment else []
+        if enrollment:
+            courses = school.courses.filter(id__in=required_course_ids).order_by("order", "id")
+        progresses = CourseProgress.objects.filter(user=request.user, course__in=courses)
         course_progress_map = {p.course_id: p for p in progresses}
         completed_course_count = sum(
             1 for p in course_progress_map.values() if p.status == CourseProgress.Status.COMPLETED

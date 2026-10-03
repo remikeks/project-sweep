@@ -4,6 +4,7 @@ Django settings for the SWEEP project
 """
 
 import os
+import json
 from pathlib import Path
 
 import dj_database_url
@@ -95,7 +96,15 @@ ASGI_APPLICATION = "sweep.asgi.application"
 # --------------------------------------------------------------------------
 DATABASE_URL = os.environ.get("DATABASE_URL")
 if DATABASE_URL:
-    DATABASES = {"default": dj_database_url.config(default=DATABASE_URL, conn_max_age=600)}
+    DATABASES = {
+        "default": dj_database_url.config(
+            default=DATABASE_URL,
+            # Transaction poolers (commonly port 6543) must not receive a
+            # connection Django keeps open between requests. Override this
+            # only when using a session/direct connection intentionally.
+            conn_max_age=int(os.environ.get("DATABASE_CONN_MAX_AGE", "600")),
+        )
+    }
 else:
     DATABASES = {
         "default": {
@@ -217,3 +226,78 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_STORAGE_BUCKET = os.environ.get("SUPABASE_STORAGE_BUCKET", "sweep-course-assets")
 SUPABASE_JWT_ISSUER = os.environ.get("SUPABASE_JWT_ISSUER", "")
 SUPABASE_JWT_AUDIENCE = os.environ.get("SUPABASE_JWT_AUDIENCE", "authenticated")
+
+# The secret key is deliberately server-only. It is used solely to create
+# narrowly-scoped, short-lived Storage URLs; templates and JSON responses
+# never contain it. Do not use a secret/service key in browser code.
+SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+SUPABASE_STORAGE_SIGNED_URL_TTL = int(os.environ.get("SUPABASE_STORAGE_SIGNED_URL_TTL", "600"))
+
+# JWT verification is intentionally disabled until every project-specific
+# value below is set. In particular, do not "decode" an unverified bearer
+# token or silently accept an unknown signing algorithm.
+SUPABASE_JWKS_URL = os.environ.get("SUPABASE_JWKS_URL", "")
+SUPABASE_JWT_ALGORITHMS = tuple(
+    value.strip()
+    for value in os.environ.get("SUPABASE_JWT_ALGORITHMS", "").split(",")
+    if value.strip()
+)
+SUPABASE_JWT_PERMISSION_CLAIM = os.environ.get("SUPABASE_JWT_PERMISSION_CLAIM", "")
+SUPABASE_JWT_ROLE_CLAIM = os.environ.get("SUPABASE_JWT_ROLE_CLAIM", "")
+try:
+    SUPABASE_JWT_ROLE_MAP = json.loads(os.environ.get("SUPABASE_JWT_ROLE_MAP", "{}"))
+except json.JSONDecodeError:
+    # Authentication code treats an invalid map as unavailable and fails
+    # closed. Keeping startup alive makes a configuration error diagnosable.
+    SUPABASE_JWT_ROLE_MAP = {}
+SUPABASE_JWKS_CACHE_SECONDS = min(
+    max(int(os.environ.get("SUPABASE_JWKS_CACHE_SECONDS", "300")), 1), 600
+)
+
+# Keep the portal's upload and import envelope bounded even when the actual
+# bytes are sent directly from a browser to Supabase Storage.
+CONTENT_PORTAL_MAX_UPLOAD_BYTES = int(
+    os.environ.get("CONTENT_PORTAL_MAX_UPLOAD_BYTES", str(100 * 1024 * 1024))
+)
+CONTENT_PORTAL_MAX_IMPORT_BYTES = int(
+    os.environ.get("CONTENT_PORTAL_MAX_IMPORT_BYTES", str(2 * 1024 * 1024))
+)
+CONTENT_PORTAL_MAX_IMPORT_ROWS = int(os.environ.get("CONTENT_PORTAL_MAX_IMPORT_ROWS", "250"))
+
+# --------------------------------------------------------------------------
+# PARALEARN CBT ASSESSMENTS
+# --------------------------------------------------------------------------
+# ParaLearn's documented CBT contract provisions candidates at /candidates,
+# returns a hosted Candidate Gate URL, and sends final HMAC-signed webhooks.
+# The real workspace API key and webhook secret remain deployment-only values:
+# blank defaults keep all outbound calls and webhook processing disabled.
+PARALEARN_API_BASE_URL = os.environ.get("PARALEARN_API_BASE_URL", "")
+PARALEARN_API_KEY = os.environ.get("PARALEARN_API_KEY", "")
+PARALEARN_API_KEY_HEADER = os.environ.get("PARALEARN_API_KEY_HEADER", "Authorization")
+PARALEARN_API_KEY_PREFIX = os.environ.get("PARALEARN_API_KEY_PREFIX", "Bearer ")
+PARALEARN_CANDIDATE_PROVISION_PATH = os.environ.get("PARALEARN_CANDIDATE_PROVISION_PATH", "/candidates")
+PARALEARN_RESULT_PATH_TEMPLATE = os.environ.get(
+    "PARALEARN_RESULT_PATH_TEMPLATE", "/attempts/{attempt_reference}/slip"
+)
+PARALEARN_HTTP_TIMEOUT_SECONDS = min(
+    max(int(os.environ.get("PARALEARN_HTTP_TIMEOUT_SECONDS", "10")), 1),
+    30,
+)
+PARALEARN_ALLOWED_LAUNCH_HOSTS = tuple(
+    host.strip().lower()
+    for host in os.environ.get("PARALEARN_ALLOWED_LAUNCH_HOSTS", "").split(",")
+    if host.strip()
+)
+PARALEARN_WEBHOOK_SIGNING_SECRET = os.environ.get("PARALEARN_WEBHOOK_SIGNING_SECRET", "")
+PARALEARN_WEBHOOK_SIGNATURE_HEADER = os.environ.get("PARALEARN_WEBHOOK_SIGNATURE_HEADER", "x-cbt-signature")
+PARALEARN_WEBHOOK_SIGNATURE_PREFIX = os.environ.get("PARALEARN_WEBHOOK_SIGNATURE_PREFIX", "sha256=")
+PARALEARN_WEBHOOK_SIGNATURE_ALGORITHM = os.environ.get(
+    "PARALEARN_WEBHOOK_SIGNATURE_ALGORITHM", "hmac-sha256"
+).lower()
+PARALEARN_WEBHOOK_EVENT_HEADER = os.environ.get("PARALEARN_WEBHOOK_EVENT_HEADER", "x-cbt-event")
+PARALEARN_WEBHOOK_EVENT_ID_HEADER = os.environ.get("PARALEARN_WEBHOOK_EVENT_ID_HEADER", "x-cbt-event-id")
+PARALEARN_WEBHOOK_TIMESTAMP_HEADER = os.environ.get("PARALEARN_WEBHOOK_TIMESTAMP_HEADER", "x-cbt-timestamp")
+
+SECURE_CONTENT_TYPE_NOSNIFF = True
+X_FRAME_OPTIONS = "DENY"
+SECURE_REFERRER_POLICY = "same-origin"

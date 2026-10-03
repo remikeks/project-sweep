@@ -32,6 +32,11 @@ def create_external_asset(*, user, course, module, payload):
         order=payload.get("order") or 0,
         is_downloadable=payload.get("is_downloadable", True),
         created_by=user,
+        storage_path=payload.get("storage_path", ""),
+        original_filename=payload.get("original_filename", ""),
+        content_type=payload.get("content_type", ""),
+        size_bytes=payload.get("size_bytes"),
+        replaces=payload.get("replaces"),
     )
     asset.full_clean()
     asset.save()
@@ -40,6 +45,7 @@ def create_external_asset(*, user, course, module, payload):
 
 @transaction.atomic
 def transition_asset(*, user, asset, action):
+    asset = CourseAsset.objects.select_for_update().select_related("replaces").get(pk=asset.pk)
     try:
         expected_status, next_status = TRANSITIONS[action]
     except KeyError as exc:
@@ -57,5 +63,17 @@ def transition_asset(*, user, asset, action):
     elif action == "publish":
         asset.published_by = user
         asset.published_at = now
+        if asset.replaces_id and asset.replaces.status == CourseAsset.PublicationStatus.PUBLISHED:
+            # A replacement is a new, independently approved asset. Retiring
+            # the previous version only at publication keeps learner content
+            # available if the replacement is rejected or abandoned.
+            replaced = CourseAsset.objects.select_for_update().get(pk=asset.replaces_id)
+            replaced.status = CourseAsset.PublicationStatus.RETIRED
+            replaced.retired_by = user
+            replaced.retired_at = now
+            replaced.save(update_fields=["status", "retired_by", "retired_at", "updated_at"])
+    elif action == "retire":
+        asset.retired_by = user
+        asset.retired_at = now
     asset.save()
     return asset

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Assessment unavailable — {{ course.title }} — SWEEP{% endblock %}
+{% block content %}
+  <p class="eyebrow"><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a> / Assessment</p>
+  <div class="card" style="border-left:4px solid var(--gold);">
+    <h1>ParaLearn assessment unavailable</h1>
+    <p class="lede">{{ assessment_message }}</p>
+    <p>Course completion and badges can only be awarded after ParaLearn verifies a final result.</p>
+    <a href="{% url 'course_detail' course.slug %}" class="btn btn-outline">Back to course</a>
+  </div>
+{% endblock %}

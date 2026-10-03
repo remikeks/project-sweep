@@ -36,7 +36,7 @@ badges, certificates, and a site-wide feedback widget.
 - Browse schools, each offering multiple courses
 - Search and enroll in a single course, or enroll in an entire school at once
 - Per-user course progress (not started / in progress / completed), best score, and attempt history
-- Multiple-choice course quizzes that mark a course complete on a pass
+- ParaLearn CBT-authoritative course assessment attempts, with signed result verification and idempotent badge awarding
 - A certification exam per school, unlocked once every course in that school is complete
 - Difficulty level and estimated time shown per course
 - Auto-generated badges (per course) and certificates (per school), downloadable as PNG or PDF
@@ -50,10 +50,10 @@ badges, certificates, and a site-wide feedback widget.
 | Schools, each with courses | `schools.School`, `courses.Course` (seeded by `seed_data`) |
 | Search/enroll in a single course | `courses` app search + `learning.enroll_in_course` |
 | Enroll in a whole school (= all its courses) | `learning.enroll_in_school`, triggered from the school detail page |
-| Badge on course completion | `credentials.Badge` + `credentials/generator.py`, awarded in `learning/services.py::grade_course_quiz` |
+| Badge on course completion | `credentials.Badge` + `credentials/generator.py`, awarded only after a verified `CourseAssessmentAttempt` result |
 | Certificate on school completion | `credentials.Certificate`, awarded in `learning/services.py::grade_school_exam` |
 | Per-user course progress | `learning.CourseProgress` (not_started / in_progress / completed, best score, attempts) |
-| Multiple-choice course assessment marks course complete | `courses.Question`/`Choice` + `courses/views.py::course_quiz` |
+| Course assessment marks course complete | `learning.CourseAssessmentAttempt` + ParaLearn signed result webhook; legacy `Question`/`Choice` records are retained but non-authoritative |
 | Certification exam unlocked after the school's last course | `schools.SchoolExamQuestion`/`SchoolExamChoice` + `learning/views.py::school_exam`, gated by `learning/services.py::school_completion_status` |
 | Difficulty level & estimated time per course | `Course.difficulty`, `Course.estimated_minutes` |
 | View/download badges & certificates | `credentials/views.py::my_credentials` → `templates/credentials/credentials_list.html` (PNG + PDF download links) |
@@ -122,15 +122,48 @@ Then visit:
 | `DATABASE_URL` | Postgres connection string | unset → falls back to SQLite |
 | `GOOGLE_API_KEY` / `ANTHROPIC_API_KEY` | AI Tutor model provider credentials | required only if the AI Tutor feature is enabled |
 | `FEEDBACK_TO_EMAIL` | Optional notification address for new feedback | unset → feedback is still saved, just not emailed |
+| `SUPABASE_URL`, `SUPABASE_STORAGE_BUCKET`, `SUPABASE_SERVICE_ROLE_KEY` | Server-only signed URLs for the content portal | unset → direct portal uploads disabled |
+| `SUPABASE_JWT_ISSUER`, `SUPABASE_JWT_AUDIENCE`, `SUPABASE_JWKS_URL`, `SUPABASE_JWT_ALGORITHMS` | Verified Supabase JWT access to content APIs | unset → Supabase JWT access disabled (Django sessions still work) |
+| `PARALEARN_*` | ParaLearn `/api/cbt` candidate provisioning, result-reconciliation, and webhook-secret settings | credentials unset → ParaLearn disabled |
 
 ## Content management
 
 Everything content-related (schools, courses, course text, difficulty,
-estimated time, quiz questions/choices, and school exam questions/choices)
+estimated time, legacy quiz questions/choices, and school exam questions/choices)
 is editable in the Django admin — no code changes needed to add another
 course or school. `seed_data` is there to give you a realistic starting
 dataset; rerun it any time (it's idempotent) or pass `--flush` to wipe
 schools/courses first.
+
+Course resources have a dedicated workspace at `/courses/content/`. It uses
+the Content Author, Content Reviewer, and Content Publisher groups to enforce
+the draft → review → approval → publication workflow. Once migrations are
+applied, create or refresh those groups with:
+
+```bash
+python manage.py bootstrap_content_roles
+```
+
+The workspace signs browser uploads on the server and sends file bytes
+directly to Supabase Storage; it never exposes a service-role key. It also
+supports secure previews, replacement drafts, atomic JSON imports, and
+enrollment-checked learner downloads. Full API and deployment requirements,
+including explicit JWT claim mapping and bucket CORS requirements, are in
+[SUPABASE_CONTENT_PORTAL.md](SUPABASE_CONTENT_PORTAL.md). Do not enable the
+Supabase values until the actual project URL, server secret, signing policy,
+custom claim schema, and permitted portal origin have been agreed.
+
+## ParaLearn CBT assessments
+
+Course completion and new badge awards are now authority-gated by a verified
+ParaLearn result. The old built-in quiz records remain intact for historical
+reporting but no longer change completion state. The integration is deliberately
+disabled until SWEEP has its own ParaLearn workspace credentials and webhook
+secret. It provisions candidates at `https://pln.ng/api/cbt/candidates`, accepts
+only HMAC-verified `exam.attempt.completed` webhooks, and redirects learners to
+the provider's allow-listed hosted launch URL. See
+[PARALEARN_CBT_INTEGRATION.md](PARALEARN_CBT_INTEGRATION.md) for the mapping,
+configuration gate, and pre-enable checklist.
 
 ## Badge & certificate artwork
 

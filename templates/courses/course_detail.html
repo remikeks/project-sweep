@@ -23,8 +23,8 @@
             <span class="stat-label">Minutes estimated</span>
           </div>
           <div>
-            <span class="stat-num">{{ course.passing_score }}%</span>
-            <span class="stat-label">Pass mark</span>
+            <span class="stat-num" style="font-size:1.2rem;">ParaLearn CBT</span>
+            <span class="stat-label">Verified assessment</span>
           </div>
           {% if course.course_code %}
             <div>
@@ -42,9 +42,17 @@
   </section>
 
   {% if user.is_authenticated %}
-    {% if badge %}
+    {% if badge and verified_completion %}
       <div class="card" style="border-left:4px solid var(--gold); margin-bottom:20px;">
-        <strong>✅ Badge earned</strong> — best score {{ progress.best_score }}%.
+        <strong>✅ Verified completion badge earned</strong>{% if progress.best_score %} — best reported score {{ progress.best_score }}%.{% endif %}
+        <div style="margin-top:8px; display:flex; gap:8px;">
+          <a href="{% url 'badge_png' badge.uid %}" class="btn btn-outline" download>Download PNG</a>
+          <a href="{% url 'badge_pdf' badge.uid %}" class="btn btn-gold" download>Download PDF</a>
+        </div>
+      </div>
+    {% elif badge %}
+      <div class="card" style="border-left:4px solid var(--gold); margin-bottom:20px;">
+        <strong>🏅 Existing badge preserved</strong> — future completions and badge awards are verified through ParaLearn CBT.
         <div style="margin-top:8px; display:flex; gap:8px;">
           <a href="{% url 'badge_png' badge.uid %}" class="btn btn-outline" download>Download PNG</a>
           <a href="{% url 'badge_pdf' badge.uid %}" class="btn btn-gold" download>Download PDF</a>
@@ -55,14 +63,30 @@
         <p>
           You're enrolled.
           {% if progress %}Status: <span class="badge-pill status-{{ progress.status }}">{{ progress.get_status_display }}</span>{% endif %}
-          {% if latest_attempt %} · Last attempt: {{ latest_attempt.score }}%{% endif %}
+          {% if latest_attempt %} · Latest ParaLearn attempt: {{ latest_attempt.get_status_display }}{% if latest_attempt.score != None %} ({{ latest_attempt.score }}%){% endif %}{% endif %}
         </p>
-        {% if question_count %}
-          <a href="{% url 'course_quiz' course.slug %}" class="btn btn-gold">
-            {% if progress.attempts_count %}Retake assessment{% else %}Take assessment{% endif %}
-          </a>
+        {% if not modules_complete %}
+          <p class="meta">Complete each module in order to unlock the ParaLearn assessment.</p>
+        {% elif paralearn_assessment_ready %}
+          <form method="post" action="{% url 'paralearn_launch' course.slug %}" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-gold">{% if latest_attempt %}Start a new ParaLearn attempt{% else %}Take ParaLearn assessment{% endif %}</button>
+          </form>
+          {% if latest_attempt and latest_attempt.status == 'launch_failed' %}
+            <form method="post" action="{% url 'paralearn_retry_launch' latest_attempt.id %}" style="display:inline; margin-left:8px;">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-outline">Retry previous launch</button>
+            </form>
+          {% elif latest_attempt and latest_attempt.status != 'passed' and latest_attempt.status != 'failed' and latest_attempt.status != 'disqualified' %}
+            <form method="post" action="{% url 'paralearn_reconcile_result' latest_attempt.id %}" style="display:inline; margin-left:8px;">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-outline">Check result</button>
+            </form>
+          {% endif %}
+        {% elif paralearn_assessment_configured %}
+          <p class="meta">The ParaLearn assessment service is not available yet. Completion cannot be verified until it is configured.</p>
         {% else %}
-          <p class="meta">This course's assessment hasn't been configured yet.</p>
+          <p class="meta">This course's ParaLearn assessment has not been configured yet.</p>
         {% endif %}
       </div>
     {% endif %}
