@@ -11,6 +11,15 @@ import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
+def _int_env(name, default):
+    """Read an optional integer setting; blank deployment values use the default."""
+    value = os.environ.get(name, "").strip()
+    try:
+        return int(value) if value else default
+    except ValueError:
+        return default
+
 # Load a local .env file (if present) into the process environment. This is
 # what makes GEMINI_API_KEY / SECRET_KEY / etc. actually take effect when
 # they're set in a .env file for local development — Django itself never
@@ -103,7 +112,7 @@ if DATABASE_URL:
             # connection Django keeps open between requests. Keep persistent
             # connections disabled by default; set a positive value only for
             # a verified direct or session-pooler connection.
-            conn_max_age=int(os.environ.get("DATABASE_CONN_MAX_AGE", "0")),
+            conn_max_age=_int_env("DATABASE_CONN_MAX_AGE", 0),
         )
     }
 else:
@@ -147,7 +156,7 @@ if not DEBUG:
     CSRF_COOKIE_SECURE = True
     # HTTPS is required in production. Do not include subdomains or preload
     # until every custom domain has separately been confirmed HTTPS-only.
-    SECURE_HSTS_SECONDS = int(os.environ.get("SECURE_HSTS_SECONDS", "31536000"))
+    SECURE_HSTS_SECONDS = _int_env("SECURE_HSTS_SECONDS", 31536000)
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
@@ -189,7 +198,7 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-2.5-flash")
 # Simple per-user cap so a public-facing "Ask AI" button can't run up an
 # unbounded API bill. Raise/lower via env var without a code change.
-AI_TUTOR_DAILY_LIMIT = int(os.environ.get("AI_TUTOR_DAILY_LIMIT", "30"))
+AI_TUTOR_DAILY_LIMIT = _int_env("AI_TUTOR_DAILY_LIMIT", 30)
 
 # --------------------------------------------------------------------------
 # EMAIL
@@ -206,7 +215,7 @@ if EMAIL_HOST:
 else:
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "587"))
+EMAIL_PORT = _int_env("EMAIL_PORT", 587)
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
 EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS", "True") == "True"
@@ -235,7 +244,7 @@ SUPABASE_JWT_AUDIENCE = os.environ.get("SUPABASE_JWT_AUDIENCE", "authenticated")
 # narrowly-scoped, short-lived Storage URLs; templates and JSON responses
 # never contain it. Do not use a secret/service key in browser code.
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
-SUPABASE_STORAGE_SIGNED_URL_TTL = int(os.environ.get("SUPABASE_STORAGE_SIGNED_URL_TTL", "600"))
+SUPABASE_STORAGE_SIGNED_URL_TTL = _int_env("SUPABASE_STORAGE_SIGNED_URL_TTL", 600)
 
 # JWT verification is intentionally disabled until every project-specific
 # value below is set. In particular, do not "decode" an unverified bearer
@@ -255,18 +264,14 @@ except json.JSONDecodeError:
     # closed. Keeping startup alive makes a configuration error diagnosable.
     SUPABASE_JWT_ROLE_MAP = {}
 SUPABASE_JWKS_CACHE_SECONDS = min(
-    max(int(os.environ.get("SUPABASE_JWKS_CACHE_SECONDS", "300")), 1), 600
+    max(_int_env("SUPABASE_JWKS_CACHE_SECONDS", 300), 1), 600
 )
 
 # Keep the portal's upload and import envelope bounded even when the actual
 # bytes are sent directly from a browser to Supabase Storage.
-CONTENT_PORTAL_MAX_UPLOAD_BYTES = int(
-    os.environ.get("CONTENT_PORTAL_MAX_UPLOAD_BYTES", str(100 * 1024 * 1024))
-)
-CONTENT_PORTAL_MAX_IMPORT_BYTES = int(
-    os.environ.get("CONTENT_PORTAL_MAX_IMPORT_BYTES", str(2 * 1024 * 1024))
-)
-CONTENT_PORTAL_MAX_IMPORT_ROWS = int(os.environ.get("CONTENT_PORTAL_MAX_IMPORT_ROWS", "250"))
+CONTENT_PORTAL_MAX_UPLOAD_BYTES = _int_env("CONTENT_PORTAL_MAX_UPLOAD_BYTES", 100 * 1024 * 1024)
+CONTENT_PORTAL_MAX_IMPORT_BYTES = _int_env("CONTENT_PORTAL_MAX_IMPORT_BYTES", 2 * 1024 * 1024)
+CONTENT_PORTAL_MAX_IMPORT_ROWS = _int_env("CONTENT_PORTAL_MAX_IMPORT_ROWS", 250)
 
 # --------------------------------------------------------------------------
 # PARALEARN CBT ASSESSMENTS
@@ -284,7 +289,7 @@ PARALEARN_RESULT_PATH_TEMPLATE = os.environ.get(
     "PARALEARN_RESULT_PATH_TEMPLATE", "/attempts/{attempt_reference}/slip"
 )
 PARALEARN_HTTP_TIMEOUT_SECONDS = min(
-    max(int(os.environ.get("PARALEARN_HTTP_TIMEOUT_SECONDS", "10")), 1),
+    max(_int_env("PARALEARN_HTTP_TIMEOUT_SECONDS", 10), 1),
     30,
 )
 PARALEARN_ALLOWED_LAUNCH_HOSTS = tuple(
