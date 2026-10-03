@@ -4,4 +4,6 @@ db.sqlite3
 /media/
 /staticfiles/
 .env
+.env.local
 venv/
+.vercel/

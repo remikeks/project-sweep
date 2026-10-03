@@ -26,11 +26,11 @@ if settings.DEBUG:
 #
 # NOTE: django.conf.urls.static.static() silently returns an empty list
 # whenever DEBUG=False (that's the actual reason badge/certificate images
-# 404'd on Render even before the rest of today's fix) — it is NOT just a
+# 404'd on a prior platform deployment even before the rest of today's fix) — it is NOT just a
 # "use this in dev" convention, it's a hard no-op in production. So this
 # uses the underlying view directly instead. It still only serves files
 # that exist on THIS instance's local disk right now — /media/ is
-# gitignored and Render's disk is ephemeral, so anything else stored under
+# gitignored and Vercel's function filesystem is ephemeral, so anything else stored under
 # MEDIA_ROOT (e.g. admin-uploaded school icons) should move to persistent/
 # cloud storage or be committed as a static asset instead.
 urlpatterns += [

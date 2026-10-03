@@ -26,7 +26,7 @@ badges, certificates, and a site-wide feedback widget.
 - [AI Tutor](#ai-tutor)
 - [Feedback widget](#feedback-widget)
 - [Branding](#branding)
-- [Deployment (Render)](#deployment-render)
+- [Deployment (Vercel)](#deployment-vercel)
 - [Notes & next steps for production](#notes--next-steps-for-production)
 
 ---
@@ -117,7 +117,7 @@ Then visit:
 |---|---|---|
 | `SECRET_KEY` | Django secret key | insecure dev key baked into settings — **replace before deploying** |
 | `DEBUG` | Debug mode | `True` |
-| `ALLOWED_HOSTS` | Comma-separated allowed hosts | `localhost,127.0.0.1,.onrender.com` |
+| `ALLOWED_HOSTS` | Comma-separated allowed hosts | `localhost,127.0.0.1,.vercel.app` |
 | `CSRF_TRUSTED_ORIGINS` | Comma-separated trusted origins | empty |
 | `DATABASE_URL` | Postgres connection string | unset → falls back to SQLite |
 | `GOOGLE_API_KEY` / `ANTHROPIC_API_KEY` | AI Tutor model provider credentials | required only if the AI Tutor feature is enabled |
@@ -217,85 +217,47 @@ current `logo.svg` wraps a raster export of the mark (there's no vector
 source yet) — fine at the sizes used across the site, but a true vector
 redraw is recommended before using the mark at large/print sizes.
 
-## Deployment (Render)
+## Deployment (Vercel)
 
-### 1) Prepare the app
+Vercel detects this Django project from `manage.py`, uses the configured ASGI
+application, collects static files during its build, and serves them from its
+CDN. `vercel.json` extends the function timeout to 60 seconds for third-party
+assessment and AI-tutor requests.
 
-```bash
-pip install -r requirements.txt
-```
+### Production environment
 
-### 2) Deployment files
-
-`render.yaml` (project root):
-
-```yaml
-services:
-  - type: web
-    name: sweep-demo
-    env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn sweep.wsgi:application"
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
-      - key: SECRET_KEY
-        generateValue: true
-      - key: DEBUG
-        value: False
-      - key: ALLOWED_HOSTS
-        value: sweep-demo.onrender.com
-      - key: CSRF_TRUSTED_ORIGINS
-        value: https://sweep-demo.onrender.com
-```
-
-`Procfile` (project root):
+Set these values in Vercel's **Production** environment. Keep credentials in
+Vercel's sensitive-variable store; do not add them to source control.
 
 ```text
-web: gunicorn sweep.wsgi:application
+SECRET_KEY=<long random server-only value>
+DEBUG=False
+ALLOWED_HOSTS=<your-project>.vercel.app,<your-custom-domain>
+CSRF_TRUSTED_ORIGINS=https://<your-project>.vercel.app,https://<your-custom-domain>
+DATABASE_URL=<Supabase transaction-pooler connection string>
+DATABASE_CONN_MAX_AGE=0
+SUPABASE_SERVICE_ROLE_KEY=<server-only value>
+PARALEARN_API_KEY=<server-only value>
+PARALEARN_WEBHOOK_SIGNING_SECRET=<server-only value>
 ```
 
-### 3) Settings already in place
+Also configure the non-secret Supabase and ParaLearn settings listed in
+[SUPABASE_CONTENT_PORTAL.md](SUPABASE_CONTENT_PORTAL.md) and
+[PARALEARN_CBT_INTEGRATION.md](PARALEARN_CBT_INTEGRATION.md). The database
+migrations are applied deliberately from a trusted environment; do not add
+`migrate` to Vercel's build command because preview deployments share the
+production Supabase database.
 
-[sweep/settings.py](sweep/settings.py) already:
+### Deploy and verify
 
-- reads `SECRET_KEY` from the environment
-- defaults `DEBUG` to `True` locally, settable to `False` in Render
-- includes `.onrender.com` in `ALLOWED_HOSTS` by default
-- reads `CSRF_TRUSTED_ORIGINS` from the environment
-- enables `whitenoise.middleware.WhiteNoiseMiddleware` and collects static files via WhiteNoise
-- switches to PostgreSQL automatically when `DATABASE_URL` is present
-
-### 4) Migrate and seed before first deploy
-
-```bash
-python manage.py migrate
-python manage.py collectstatic
-python manage.py seed_data
-```
-
-### 5) Deploy
-
-1. Push the project to GitHub.
-2. In Render, create a new Web Service and connect the repo/branch.
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `gunicorn sweep.wsgi:application`
-5. Add environment variables:
-
-   ```text
-   SECRET_KEY=replace-with-a-long-random-secret
-   DEBUG=False
-   ALLOWED_HOSTS=sweep-demo.onrender.com
-   CSRF_TRUSTED_ORIGINS=https://sweep-demo.onrender.com
-   ```
-
-6. Create a PostgreSQL database in Render and attach it as `DATABASE_URL`.
-7. Once deployed, run `python manage.py seed_data` from the Render shell (or a one-off job) if you want the demo pre-populated.
-
-On the free plan: static files are served by WhiteNoise, the database is a
-free Postgres instance (limited sleep behavior may apply), which is
-sufficient for a simple demo.
+1. Create or import the repository as a Vercel project, then add the
+   production environment variables above.
+2. Deploy a preview and verify sign-in, content upload, and a signed ParaLearn
+   webhook against its preview URL.
+3. Promote the verified deployment to production, set the exact Vercel URL in
+   `ALLOWED_HOSTS` and `CSRF_TRUSTED_ORIGINS`, and register
+   `https://<production-host>/courses/paralearn/webhook/` in ParaLearn.
+4. Attach a custom domain only after its HTTPS certificate is active.
 
 ## Notes & next steps for production
 

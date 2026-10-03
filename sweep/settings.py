@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # what makes GEMINI_API_KEY / SECRET_KEY / etc. actually take effect when
 # they're set in a .env file for local development — Django itself never
 # reads .env files on its own. Safe to leave in for production too: on
-# Render (or anywhere without a .env file) this is just a no-op, since real
+# Vercel (or anywhere without a .env file) this is just a no-op, since real
 # env vars are already in os.environ before Python even starts.
 try:
     from dotenv import load_dotenv
@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-change-this-key-befor
 
 DEBUG = os.environ.get("DEBUG", "True") == "True"
 
-ALLOWED_HOSTS = [host.strip() for host in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,.onrender.com").split(",") if host.strip()]
+ALLOWED_HOSTS = [host.strip() for host in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,.vercel.app").split(",") if host.strip()]
 CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get("CSRF_TRUSTED_ORIGINS", "").split(",") if origin.strip()]
 
 # --------------------------------------------------------------------------
@@ -100,9 +100,10 @@ if DATABASE_URL:
         "default": dj_database_url.config(
             default=DATABASE_URL,
             # Transaction poolers (commonly port 6543) must not receive a
-            # connection Django keeps open between requests. Override this
-            # only when using a session/direct connection intentionally.
-            conn_max_age=int(os.environ.get("DATABASE_CONN_MAX_AGE", "600")),
+            # connection Django keeps open between requests. Keep persistent
+            # connections disabled by default; set a positive value only for
+            # a verified direct or session-pooler connection.
+            conn_max_age=int(os.environ.get("DATABASE_CONN_MAX_AGE", "0")),
         )
     }
 else:
@@ -144,6 +145,9 @@ if not DEBUG:
     SECURE_SSL_REDIRECT = True
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
+    # HTTPS is required in production. Do not include subdomains or preload
+    # until every custom domain has separately been confirmed HTTPS-only.
+    SECURE_HSTS_SECONDS = int(os.environ.get("SECURE_HSTS_SECONDS", "31536000"))
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
