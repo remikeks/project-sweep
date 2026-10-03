@@ -221,8 +221,7 @@ redraw is recommended before using the mark at large/print sizes.
 
 Vercel detects this Django project from `manage.py`, uses the configured ASGI
 application, collects static files during its build, and serves them from its
-CDN. `vercel.json` extends the function timeout to 60 seconds for third-party
-assessment and AI-tutor requests.
+CDN.
 
 ### Production environment
 
