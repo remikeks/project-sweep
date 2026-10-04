@@ -4,7 +4,7 @@
   "crons": [
     {
       "path": "/courses/paralearn/cron-reconcile/",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     }
   ]
 }
