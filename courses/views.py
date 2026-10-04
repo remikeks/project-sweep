@@ -7,12 +7,14 @@ from django.utils.safestring import mark_safe
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 
+import io
 import json
 
 import bleach
 import markdown
 
 from django.conf import settings
+from django.core.management import call_command
 from schools.models import School
 
 from .models import Course, CourseAsset, CourseModule
@@ -39,6 +41,7 @@ from learning.services import complete_module, course_modules_complete, module_c
 from learning.paralearn import (
     ParaLearnError,
     launch_is_configured,
+    result_reconciliation_is_configured,
     verify_webhook_signature,
     webhook_is_configured,
 )
@@ -480,5 +483,39 @@ def paralearn_result_webhook(request):
             "duplicate": not result_applied,
             "result_applied": result_applied,
             "badge_awarded": badge_awarded,
+        }
+    )
+
+
+@csrf_exempt
+def paralearn_cron_reconcile(request):
+    """Vercel Cron endpoint to run reconcile_paralearn_results on schedule."""
+    if not settings.CRON_SECRET:
+        return JsonResponse({"detail": "CRON_SECRET is not configured on this environment."}, status=503)
+    auth = request.headers.get("Authorization", "")
+    if auth != f"Bearer {settings.CRON_SECRET}":
+        return JsonResponse({"detail": "Unauthorized cron request."}, status=401)
+
+    if not result_reconciliation_is_configured():
+        return JsonResponse(
+            {
+                "status": "skipped",
+                "detail": "ParaLearn reconciliation credentials are not configured.",
+            },
+            status=200,
+        )
+
+    out = io.StringIO()
+    err = io.StringIO()
+    try:
+        call_command("reconcile_paralearn_results", stdout=out, stderr=err)
+    except Exception as exc:
+        return JsonResponse({"status": "error", "message": str(exc)}, status=500)
+
+    return JsonResponse(
+        {
+            "status": "success",
+            "output": out.getvalue().strip(),
+            "errors": err.getvalue().strip(),
         }
     )

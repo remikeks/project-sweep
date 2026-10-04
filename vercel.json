@@ -1,4 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "django"
+  "framework": "django",
+  "crons": [
+    {
+      "path": "/courses/paralearn/cron-reconcile/",
+      "schedule": "0 * * * *"
+    }
+  ]
 }

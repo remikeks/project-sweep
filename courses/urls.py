@@ -14,6 +14,7 @@ urlpatterns = [
     path("content-api/assets/<int:asset_id>/<slug:action>/", views.transition_asset_view, name="transition_course_asset"),
     path("assets/<int:asset_id>/download/", views.course_asset_download, name="course_asset_download"),
     path("paralearn/webhook/", views.paralearn_result_webhook, name="paralearn_result_webhook"),
+    path("paralearn/cron-reconcile/", views.paralearn_cron_reconcile, name="paralearn_cron_reconcile"),
     path("<slug:slug>/assessment/launch/", views.paralearn_launch, name="paralearn_launch"),
     path("assessment-attempts/<uuid:attempt_id>/retry/", views.paralearn_retry_launch, name="paralearn_retry_launch"),
     path("assessment-attempts/<uuid:attempt_id>/reconcile/", views.paralearn_reconcile_result, name="paralearn_reconcile_result"),
