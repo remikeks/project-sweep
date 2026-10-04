@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-020 — Behavioral & Emotional Support in Schools
+  - generic: SWP-020
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Behaviour as Communication"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the primary lens through which student behavior should be interpreted to avoid punitive assumptions?
+  - generic: A.
+  - text: Behavior as a choice requiring discipline
+  - generic: B.
+  - text: Behavior as communication
+  - generic: C.
+  - text: Behavior as a clinical symptom
+  - generic: D.
+  - text: Behavior as a violation of school policy
+  - generic: "Rationale: The course explicitly frames behavior as a form of communication, encouraging practitioners to look beyond the surface action to understand underlying needs related to development, trauma, or neurodiversity."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3 Learning Sequence"
+  - generic: simple
+  - paragraph: When documenting information regarding a student's behavioral needs, which three criteria must the information meet according to the learner guide?
+  - generic: A.
+  - text: Subjective, detailed, and permanent
+  - generic: B.
+  - text: Relevant, accurate, and necessary
+  - generic: C.
+  - text: Comprehensive, clinical, and shared
+  - generic: D.
+  - text: Brief, observational, and punitive
+  - generic: "Rationale: The guide states that practitioners should document only information that is 'relevant, accurate, and necessary for the purpose of the work.'"
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 2: Tiered Supports"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, What to pay attention to"
+  - generic: simple
+  - paragraph: "Which of the following is a core focus area specifically assigned to Module 2: Tiered Supports?"
+  - generic: A.
+  - text: Neurodiversity and culture
+  - generic: B.
+  - text: Student voice and caregiver partnership
+  - generic: C.
+  - text: Crisis response and referrals
+  - generic: D.
+  - text: Avoiding punitive assumptions
+  - generic: "Rationale: Module 2 focuses on classroom strategies, individual plans, crisis response, and referrals."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 3: Collaboration and Review"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, What to pay attention to"
+  - generic: simple
+  - paragraph: In the context of Module 3, what is the primary purpose of 'Outcome Monitoring'?
+  - generic: A.
+  - text: To assign grades to student behavior
+  - generic: B.
+  - text: To review the effectiveness of interventions and support
+  - generic: C.
+  - text: To determine if a student should be suspended
+  - generic: D.
+  - text: To document teacher performance
+  - generic: "Rationale: Outcome monitoring is listed under Module 3 as a key component of the collaboration and review process to track the effectiveness of supports."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3 Learning Sequence"
+  - generic: simple
+  - paragraph: What should a practitioner do immediately when a student's concern exceeds their specific role, competence, or authority?
+  - generic: A.
+  - text: Attempt to resolve the issue independently first
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Wait for the next scheduled supervision meeting
+  - generic: D.
+  - text: Ask a fellow student for their perspective
+  - generic: "Rationale: The guide instructs practitioners to 'pause and use the correct escalation route' when a concern exceeds their role or competence."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Behaviour as Communication"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: intermediate
+  - paragraph: A student who has experienced significant trauma is frequently 'zoning out' during lessons. Applying the principles of Module 1, how should the practitioner proceed?
+  - generic: A.
+  - text: Assume the student is being defiant and apply a classroom sanction
+  - generic: B.
+  - text: Separate the observation from assumptions and consider trauma-informed support
+  - generic: C.
+  - text: Immediately refer the student to a clinical psychologist for diagnosis
+  - generic: D.
+  - text: Ignore the behavior as it is not disruptive to other students
+  - generic: "Rationale: Practitioners are encouraged to separate observations (zoning out) from assumptions and identify strengths/concerns while considering trauma-informed implications."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Tiered Supports"
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice / Module 2 Sequence"
+  - generic: intermediate
+  - paragraph: During a Tier 2 intervention planning session, a teacher suggests a strategy that contradicts the school's local safeguarding policy. What is the practitioner's responsibility?
+  - generic: A.
+  - text: Follow the teacher's suggestion to maintain professional collaboration
+  - generic: B.
+  - text: Prioritize the local procedure and safeguarding policy over the suggestion
+  - generic: C.
+  - text: Implement the strategy but do not document it
+  - generic: D.
+  - text: Wait for student voice to decide which policy to follow
+  - generic: "Rationale: The guide emphasizes that practitioners must apply the law and organizational policy, and notice where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 3: Collaboration and Review"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning Sequence"
+  - generic: intermediate
+  - paragraph: When engaging in 'Caregiver Partnership' as outlined in Module 3, which approach best aligns with the course's learning sequence?
+  - generic: A.
+  - text: Directing caregivers on exactly what to do at home
+  - generic: B.
+  - text: Seeking informed participation and using a collaborative approach
+  - generic: C.
+  - text: Limiting information sharing to protect school liability
+  - generic: D.
+  - text: Only contacting caregivers when a crisis response is required
+  - generic: "Rationale: The sequence advises using a respectful, collaborative approach, explaining your role, and seeking informed participation."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 1: Behaviour as Communication"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is reviewing a student's file and notices several 'punitive assumptions' recorded by a previous staff member. What is the most appropriate action based on Module 1?
+  - generic: A.
+  - text: Accept the previous records as factual history
+  - generic: B.
+  - text: Delete the previous records immediately to protect the student
+  - generic: C.
+  - text: Identify the assumptions and verify the information with an approved source
+  - generic: D.
+  - text: Report the previous staff member for unprofessional conduct
+  - generic: "Rationale: The sequence requires practitioners to separate observations from assumptions and be clear about information that must be checked with an approved source."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 2: Tiered Supports"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: In the 'Tiered Supports' model, what is the primary function of a 'clear handover' during a referral?
+  - generic: A.
+  - text: To end the practitioner's legal liability for the student
+  - generic: B.
+  - text: To ensure the student does not have to repeat their story
+  - generic: C.
+  - text: To protect the continuity of support for the student
+  - generic: D.
+  - text: To fulfill the documentation requirements for funding
+  - generic: "Rationale: The guide states that a prompt referral and clear handover can 'protect continuity of support.'"
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Module 3: Collaboration and Review"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 3 Integration"
+  - generic: intermediate
+  - paragraph: A practitioner is facilitating a 'Teacher Consultation' (Module 3). The teacher is frustrated by a student's neurodivergent traits. How should the practitioner apply the course sequence?
+  - generic: A.
+  - text: Advise the teacher to lower their academic expectations
+  - generic: B.
+  - text: Collaboratively examine the practical implications of the student's neurodiversity
+  - generic: C.
+  - text: Suggest the student be moved to a different classroom immediately
+  - generic: D.
+  - text: Focus only on the teacher's emotional wellbeing during the consultation
+  - generic: "Rationale: The practitioner should help the teacher examine the practical implications of neurodiversity while maintaining a respectful, collaborative approach."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 3: Collaboration and Review"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning Sequence"
+  - generic: intermediate
+  - paragraph: Which action best demonstrates the 'Student Voice' component of Module 3 in a practice setting?
+  - generic: A.
+  - text: Allowing the student to choose their own disciplinary consequences
+  - generic: B.
+  - text: Involving the student in the review of their support plan and goals
+  - generic: C.
+  - text: Asking the student to document their own behavioral incidents
+  - generic: D.
+  - text: Providing the student with a copy of the school's policy handbook
+  - generic: "Rationale: Student voice involves seeking informed participation and ensuring the student's perspective is part of the collaborative approach."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice / Learning Sequence"
+  - generic: hard
+  - paragraph: A practitioner is faced with a complex case where a student's cultural background and a recent traumatic event are influencing their behavior. How should professional judgment be balanced with local procedure?
+  - generic: A.
+  - text: Professional judgment should always override local procedure in cultural matters
+  - generic: B.
+  - text: Local procedure should be ignored if it is not trauma-informed
+  - generic: C.
+  - text: Use professional judgment to notice needs, but let local procedure guide the next steps
+  - generic: D.
+  - text: Only follow local procedure if the student's family gives explicit consent
+  - generic: "Rationale: The guide emphasizes that while professional judgment is needed to interpret behavior (trauma/culture), local procedures and legal requirements must guide the actual steps taken, especially in safeguarding."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: Module 1 & 2 Integration
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 2 Learning Sequence"
+  - generic: hard
+  - paragraph: When applying the 'Behaviour as Communication' framework to a student with neurodivergent traits, what is the most critical step before finalizing an individual support plan?
+  - generic: A.
+  - text: Standardizing the plan to match other students with similar diagnoses
+  - generic: B.
+  - text: Identifying strengths and verifying information with the student or family
+  - generic: C.
+  - text: Ensuring the plan focuses primarily on reducing disruptive classroom behaviors
+  - generic: D.
+  - text: Submitting the plan for legal review before discussing it with the teacher
+  - generic: "Rationale: The sequence emphasizes identifying strengths as well as concerns and being clear about information that must be checked with the person or family before proceeding."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: Synthesis of Modules 2 & 3
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 & 3 Learning Sequence"
+  - generic: hard
+  - paragraph: In a situation where outcome monitoring (Module 3) shows that a Tier 2 classroom strategy (Module 2) is failing, what is the practitioner's first priority according to the course structure?
+  - generic: A.
+  - text: Immediately escalate to a Tier 3 crisis response
+  - generic: B.
+  - text: Document the failure and close the student's file
+  - generic: C.
+  - text: Pause to check if the concern exceeds their role and consult local policy
+  - generic: D.
+  - text: Blame the teacher's implementation of the strategy in the documentation
+  - generic: "Rationale: The practitioner must first determine if the concern exceeds their role/competence (requiring escalation) or if a collaborative review with the teacher/caregiver is needed to adjust the plan."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

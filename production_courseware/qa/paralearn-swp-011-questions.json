@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-011",
+  "title": "Dementia Care & Caregiver Support",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\11-dementia-care-and-caregiver-support-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Concepts",
+        "1 Marks",
+        "Ref: Learning objectives",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To provide a clinical diagnosis of various dementia types"
+        },
+        {
+          "correct": true,
+          "text": "B.To apply person-centred approaches to dementia support and caregiver wellbeing"
+        },
+        {
+          "correct": false,
+          "text": "C.To replace local safeguarding and legal procedures with academic theory"
+        },
+        {
+          "correct": false,
+          "text": "D.To master the administrative layout of gerontology documentation"
+        }
+      ],
+      "question": "According to the Learner Guide, what is the primary overarching goal of the Dementia Care & Caregiver Support course?",
+      "rationale": "Rationale: The learning objectives explicitly state that the course aims to enable learners to apply person-centred approaches to both dementia support and caregiver wellbeing."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Concepts",
+        "1 Marks",
+        "Ref: Module 1: What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Crisis planning"
+        },
+        {
+          "correct": false,
+          "text": "B.Respite care"
+        },
+        {
+          "correct": true,
+          "text": "C.Preserving identity"
+        },
+        {
+          "correct": false,
+          "text": "D.Family partnership"
+        }
+      ],
+      "question": "Which of the following is a core focus area specifically identified within Module 1: Understanding Dementia?",
+      "rationale": "Rationale: Module 1 focuses on common presentations, communication, stigma, and preserving identity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Concepts",
+        "1 Marks",
+        "Ref: Module 1/2/3 Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Attempt to resolve the issue independently to gain experience"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Wait for the next scheduled supervision meeting to mention it"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the concern but take no further action"
+        }
+      ],
+      "question": "When a practitioner encounters a concern that exceeds their current role, competence, or authority, what is the required action according to the learning sequence?",
+      "rationale": "Rationale: The guide states that when a concern exceeds role or competence, the practitioner must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Concepts",
+        "1 Marks",
+        "Ref: Module 1/2/3 Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "B.Brief, subjective, and frequent"
+        },
+        {
+          "correct": false,
+          "text": "C.Comprehensive, clinical, and confidential"
+        },
+        {
+          "correct": false,
+          "text": "D.Formal, chronological, and exhaustive"
+        }
+      ],
+      "question": "What are the three criteria specified for documenting information during the dementia support process?",
+      "rationale": "Rationale: The learning sequence across all modules specifies that documentation must be relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Concepts",
+        "1 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Environment, routines, and consent"
+        },
+        {
+          "correct": false,
+          "text": "B.Stigma, communication, and identity"
+        },
+        {
+          "correct": true,
+          "text": "C.Burden, respite, and crisis planning"
+        },
+        {
+          "correct": false,
+          "text": "D.Diagnosis, medication, and clinical trials"
+        }
+      ],
+      "question": "Module 3: Caregiver Support focuses on which of the following sets of topics?",
+      "rationale": "Rationale: Module 3 focuses on burden, respite, education, crisis planning, and referral."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 2 Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Assume the person is unhappy with the food quality"
+        },
+        {
+          "correct": true,
+          "text": "B.Separate observations from assumptions"
+        },
+        {
+          "correct": false,
+          "text": "C.Immediately change the person's routine to avoid the dining hall"
+        },
+        {
+          "correct": false,
+          "text": "D.Refer the person to a specialist for medication review"
+        }
+      ],
+      "question": "A support worker notices a person with dementia is becoming increasingly agitated during meal times. According to the Module 2 learning sequence, what should the worker do first when examining the practical implications of this behavior?",
+      "rationale": "Rationale: The learning sequence requires practitioners to separate observations from assumptions when examining distress behaviors."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Education"
+        },
+        {
+          "correct": true,
+          "text": "B.Respite"
+        },
+        {
+          "correct": false,
+          "text": "C.Stigma reduction"
+        },
+        {
+          "correct": false,
+          "text": "D.Identity preservation"
+        }
+      ],
+      "question": "A caregiver expresses that they are feeling 'burnt out' and can no longer manage daily tasks. Which component of Module 3 should the practitioner prioritize to address the immediate need for a break?",
+      "rationale": "Rationale: Respite is the specific focus area in Module 3 designed to provide caregivers with a break from their caregiving responsibilities."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 1: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Crisis planning"
+        },
+        {
+          "correct": true,
+          "text": "B.Communication and Stigma"
+        },
+        {
+          "correct": false,
+          "text": "C.Environment and Routines"
+        },
+        {
+          "correct": false,
+          "text": "D.Referral pathways"
+        }
+      ],
+      "question": "While working in a residential setting, you notice a colleague using patronizing language with a resident who has dementia. Which focus area of Module 1 does this behavior most directly violate?",
+      "rationale": "Rationale: Patronizing language is a communication issue that often stems from or contributes to stigma and fails to preserve the person's identity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 2 Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To reduce the amount of documentation required"
+        },
+        {
+          "correct": true,
+          "text": "B.To ensure the support is person-centred and balanced"
+        },
+        {
+          "correct": false,
+          "text": "C.To prove that the person does not actually have dementia"
+        },
+        {
+          "correct": false,
+          "text": "D.To avoid the need for professional supervision"
+        }
+      ],
+      "question": "In the context of Module 2, why is it important to identify 'strengths as well as concerns' when evaluating a person's daily support needs?",
+      "rationale": "Rationale: Identifying strengths is a key part of a person-centred approach, ensuring the care plan is balanced and not just focused on deficits."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To provide general education about dementia symptoms"
+        },
+        {
+          "correct": false,
+          "text": "B.To establish a routine for daily meals"
+        },
+        {
+          "correct": true,
+          "text": "C.To prepare for and manage urgent or emergency situations"
+        },
+        {
+          "correct": false,
+          "text": "D.To document the person's life history for identity preservation"
+        }
+      ],
+      "question": "A practitioner is helping a family develop a 'crisis plan' as mentioned in Module 3. What is the primary purpose of this activity?",
+      "rationale": "Rationale: Crisis planning is intended to prepare for emergencies or sudden changes in the caregiving situation to ensure safety and continuity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Module 1/2/3 Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Seek informed participation where appropriate"
+        },
+        {
+          "correct": false,
+          "text": "B.Consult with a legal expert"
+        },
+        {
+          "correct": false,
+          "text": "C.Wait for the person's family to provide consent"
+        },
+        {
+          "correct": false,
+          "text": "D.Complete a referral form"
+        }
+      ],
+      "question": "When applying the 'Learning Sequence' to a practice situation, what must be done before documenting information?",
+      "rationale": "Rationale: The sequence states: 'Explain your role, seek informed participation where appropriate, and document only information that is relevant...'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section B: Application",
+        "2 Marks",
+        "Ref: Practice notice",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The guide is a legal document that overrides local policy"
+        },
+        {
+          "correct": false,
+          "text": "B.The guide replaces the need for clinical supervision"
+        },
+        {
+          "correct": true,
+          "text": "C.The guide supports learning but does not replace urgent safeguarding or legal procedures"
+        },
+        {
+          "correct": false,
+          "text": "D.The guide is only applicable in hospital settings"
+        }
+      ],
+      "question": "Which of the following best describes the 'Practice Notice' regarding the use of the Learner Guide?",
+      "rationale": "Rationale: The practice notice states the material supports learning but does not replace urgent safeguarding, clinical, or legal procedures."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section C: Critical Evaluation",
+        "2 Marks",
+        "Ref: Module 3 Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Provide the caregiver with more educational brochures"
+        },
+        {
+          "correct": true,
+          "text": "B.Use the correct escalation route and ensure a clear handover"
+        },
+        {
+          "correct": false,
+          "text": "C.Suggest the caregiver takes a short walk to reduce stress"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the observation and wait for the next review cycle"
+        }
+      ],
+      "question": "A practitioner identifies that a caregiver's burden has reached a level where the safety of the person with dementia is at risk. According to the integrated learning sequence, what is the most critical final step to ensure safety?",
+      "rationale": "Rationale: The guide emphasizes that when concerns exceed role or authority, a prompt referral and clear handover are necessary to protect continuity of support and safety."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section C: Critical Evaluation",
+        "2 Marks",
+        "Ref: Module 2 Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgement always overrides local procedure in person-centred care"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedure is only necessary when professional judgement fails"
+        },
+        {
+          "correct": true,
+          "text": "C.Practitioners must identify which situations require individual judgement versus those dictated by organizational policy"
+        },
+        {
+          "correct": false,
+          "text": "D.There is no distinction; they are considered the same in the learning sequence"
+        }
+      ],
+      "question": "In the context of 'Daily support and responsive care' (Module 2), how does the guide distinguish between professional judgement and local procedure?",
+      "rationale": "Rationale: The sequence explicitly asks learners to 'Notice where professional judgement is needed and where a local procedure must guide the next step,' implying they are distinct but complementary."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section C: Critical Evaluation",
+        "2 Marks",
+        "Ref: Practice reflection (Modules 1, 2, 3)",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To memorize the specific details of past cases"
+        },
+        {
+          "correct": true,
+          "text": "B.To determine what information is needed to work safely and when to check local policy"
+        },
+        {
+          "correct": false,
+          "text": "C.To practice writing clinical reports for external auditors"
+        },
+        {
+          "correct": false,
+          "text": "D.To critique the effectiveness of the School of Gerontology's curriculum"
+        }
+      ],
+      "question": "A learner is asked to reflect on a de-identified practice situation. According to the 'Practice reflection' sections, what is the primary purpose of this exercise?",
+      "rationale": "Rationale: The reflection prompts ask what information helps work safely and what requires a local policy check, focusing on the intersection of safety, knowledge, and compliance."
+    }
+  ]
+}

@@ -45,7 +45,10 @@ def create_external_asset(*, user, course, module, payload):
 
 @transaction.atomic
 def transition_asset(*, user, asset, action):
-    asset = CourseAsset.objects.select_for_update().select_related("replaces").get(pk=asset.pk)
+    # ``replaces`` is nullable, so its join is a LEFT OUTER JOIN. PostgreSQL
+    # cannot lock that joined side; lock only the asset row while retaining the
+    # related replacement for the publication transition below.
+    asset = CourseAsset.objects.select_for_update(of=("self",)).select_related("replaces").get(pk=asset.pk)
     try:
         expected_status, next_status = TRANSITIONS[action]
     except KeyError as exc:

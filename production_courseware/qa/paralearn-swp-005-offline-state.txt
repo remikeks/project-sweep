@@ -1,0 +1,162 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-005 — Cognitive Behavioral Therapy Foundations
+  - generic: SWP-005
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Synced with CBT microservice
+- generic: 15 questions
+- generic: 21.5 marks
+- generic: 60 mins
+- generic: Published · students can join
+- button: Unpublish
+- complementary:
+  - generic: Questions (15)
+  - generic: "Total: 21.5 Marks"
+  - button:
+    - generic: Add
+  - button: All (15)
+  - button: MCQ (15)
+  - button: Short (0)
+  - button: Long (0)
+  - generic: "1"
+  - paragraph: According to Module 1, what interconnected components constitute the primary focus of the CBT model?
+  - generic: MCQ
+  - generic: 1m
+  - button:
+  - generic: "2"
+  - paragraph: Which set of interventions constitutes the five core tools detailed in Module 2?
+  - generic: MCQ
+  - generic: 1m
+  - button:
+  - generic: "3"
+  - paragraph: Which focal areas are outlined in Module 3 for ethical application in CBT-informed practice?
+  - generic: MCQ
+  - generic: 1m
+  - button:
+  - generic: "4"
+  - paragraph: According to the course Practice Notice, how should this foundational learning guide be positioned in relation to urgent clinical and legal procedures?
+  - generic: MCQ
+  - generic: 1m
+  - button:
+  - generic: "5"
+  - paragraph: Across all learning sequences in the guide, what standard is explicitly established for client documentation?
+  - generic: MCQ
+  - generic: 1m
+  - button:
+  - generic: "6"
+  - paragraph: "A client entering a crowded room reports: 'My heart started racing, my chest felt tight, and I was convinced I was going to faint.' In the CBT model, how are 'heart racing' and 'chest tightness' classified?"
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "7"
+  - paragraph: A practitioner working with a withdrawn client co-creates a schedule of daily structured activities to re-engage them in manageable tasks. Which core tool is being implemented?
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "8"
+  - paragraph: "During an intake session, a practitioner notes: 'The client sat with slumped shoulders and spoke in a quiet voice, which means they are completely unmotivated to engage in therapy.' What core guideline from the Module 1 learning sequence did the practitioner breach?"
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "9"
+  - paragraph: A practitioner is supporting a client using basic CBT-informed tools. During a review, the client reveals severe, complex trauma symptoms that exceed the practitioner's training and accredited role. What is the practitioner's immediate required action according to the text?
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "10"
+  - paragraph: A practitioner modifies the delivery of a thought record worksheet to align with a client's cultural background, communication preferences, and community norms while maintaining the core purpose of the tool. Which ethical domain from Module 3 does this reflect?
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "11"
+  - paragraph: At the start of a session, a practitioner and client jointly review target topics, prioritise discussion items, and allocate time for homework review. Which core tool is being demonstrated?
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "12"
+  - paragraph: "A client receives an unexpected email from their manager requesting a meeting ('Situation'). The client thinks: 'I am definitely getting fired' ('Thought'), feels anxious ('Emotion'), experiences a knot in their stomach ('Bodily response'), and avoids opening their inbox for the rest of the day ('Behaviour'). What primary concept from Module 1 does this sequence illustrate?"
+  - generic: MCQ
+  - generic: 1.5m
+  - button:
+  - generic: "13"
+  - paragraph: A practitioner recognizes that a client's deteriorating mental state exceeds their current scope of practice. According to the text, why are 'a prompt referral and a clear handover' essential in this situation?
+  - generic: MCQ
+  - generic: 2m
+  - button:
+  - generic: "14"
+  - paragraph: A client struggling with depression finds standard written thought records distressing and culturally misaligned. The practitioner decides to adapt the approach by verbally exploring alternative perspectives during sessions and setting small, agreed-upon experiential tasks between meetings. In terms of the course assessment preparation areas, which synthesis of principles has the practitioner demonstrated?
+  - generic: MCQ
+  - generic: 2m
+  - button:
+  - generic: "15"
+  - paragraph: When preparing a case reflection and documentation under the course framework, which practitioner action best aligns with both ethical information-checking and scope limitation standards?
+  - generic: MCQ
+  - generic: 2m
+  - button:
+- main:
+  - generic: "Editing Question #1"
+  - button: MCQ
+  - button: Short Essay
+  - button: Long Essay
+  - button: True/False
+  - generic: "Marks:"
+  - spinbutton: "1"
+  - generic: "Exam Section:"
+  - textbox:
+    - /placeholder: "e.g. Section A: Objectives or Section B: Theory & Essays"
+  - generic: Question Statement / Problem Statement
+  - generic: Supports text and KaTeX math formulas
+  - textbox:
+    - /placeholder: Enter question statement or case study prompt...
+    - text: According to Module 1, what interconnected components constitute the primary focus of the CBT model?
+  - generic: Answer Choices (Click the badge to mark the correct choice)
+  - button:
+    - generic: Add Option
+  - button:
+  - textbox:
+    - /placeholder: Option A text...
+    - text: Situations, thoughts, emotions, bodily responses, and behaviour
+  - button:
+  - button: B
+  - textbox:
+    - /placeholder: Option B text...
+    - text: Unconscious drives, past traumas, defenses, and personality structures
+  - button:
+  - button: C
+  - textbox:
+    - /placeholder: Option C text...
+    - text: Genetic predispositions, societal norms, biochemical imbalances, and coping styles
+  - button:
+  - button: D
+  - textbox:
+    - /placeholder: Option D text...
+    - text: Diagnostic categories, clinical prognoses, risk matrices, and medication adherence
+  - button:
+  - generic: Explanation & Solution Notes (Revealed after assessment review)
+  - textbox:
+    - /placeholder: e.g. Highlighting core principles, formulas, and common student misconceptions...
+    - text: Module 1 explicitly specifies that the model focuses on the links among situations, thoughts, emotions, bodily responses, and behaviour.
+- region "Notifications alt+T"
+- alert
+- menu [active]:
+  - menuitem "Question Palette (15)":
+    - generic: Question Palette (15)
+  - menuitem "Marking Rubrics":
+    - generic: Marking Rubrics
+  - menuitem "Copy Student Link":
+    - generic: Copy Student Link
+  - menuitem "Open Live Monitor":
+    - generic: Open Live Monitor
+  - separator
+  - menuitem "Bulk Import (.xlsx)":
+    - generic: Bulk Import (.xlsx)
+  - menuitem "Delivery Settings":
+    - generic: Delivery Settings

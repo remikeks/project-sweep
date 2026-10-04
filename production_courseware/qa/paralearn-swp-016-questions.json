@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-016",
+  "title": "Hospital Discharge Planning",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\16-hospital-discharge-planning-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Principles",
+        "1 Marks",
+        "Ref: Learning objectives",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To minimize the length of stay for all acute patients"
+        },
+        {
+          "correct": true,
+          "text": "B.To coordinate safe, person-centred transitions to home or community care"
+        },
+        {
+          "correct": false,
+          "text": "C.To reduce the financial liability of the hospital system"
+        },
+        {
+          "correct": false,
+          "text": "D.To ensure all medical procedures are completed before the patient leaves"
+        }
+      ],
+      "question": "According to the SWP-016 Learner Guide, what is the primary overarching goal of hospital discharge planning?",
+      "rationale": "Rationale: The primary objective stated in the guide is to coordinate safe, person-centred transitions from hospital to home or community care."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Discharge-risk assessment",
+        "1 Marks",
+        "Ref: Module 1, What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Legal representation"
+        },
+        {
+          "correct": true,
+          "text": "B.Housing factors"
+        },
+        {
+          "correct": false,
+          "text": "C.Dietary preferences"
+        },
+        {
+          "correct": false,
+          "text": "D.Employment history"
+        }
+      ],
+      "question": "In Module 1, which of the following is identified as a specific factor to pay attention to during discharge-risk assessment?",
+      "rationale": "Rationale: Module 1 specifically lists 'Housing factors' as one of the six key areas of focus for risk assessment."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Principles",
+        "1 Marks",
+        "Ref: Module 1/2/3, Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Include all patient statements verbatim to ensure transparency"
+        },
+        {
+          "correct": true,
+          "text": "B.Document only information that is relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Focus exclusively on medical data and clinical observations"
+        },
+        {
+          "correct": false,
+          "text": "D.Ensure all financial records are attached to the discharge summary"
+        }
+      ],
+      "question": "When documenting information during the discharge process, what standard must be met according to the learning sequence?",
+      "rationale": "Rationale: The guide specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Transition coordination",
+        "1 Marks",
+        "Ref: Module 2, What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Psychosocial factors"
+        },
+        {
+          "correct": false,
+          "text": "B.Warning signs"
+        },
+        {
+          "correct": true,
+          "text": "C.Interdisciplinary roles"
+        },
+        {
+          "correct": false,
+          "text": "D.Caregiver availability"
+        }
+      ],
+      "question": "Which focus area is unique to Module 2: Transition Coordination?",
+      "rationale": "Rationale: Module 2 focuses on 'Interdisciplinary roles' as a key component of transition coordination."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Principles",
+        "1 Marks",
+        "Ref: Module 1/2/3, Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Consult a colleague informally and proceed with the plan"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Document the concern and wait for the next shift to address it"
+        },
+        {
+          "correct": false,
+          "text": "D.Attempt to resolve the issue to gain professional experience"
+        }
+      ],
+      "question": "What is the recommended action when a practitioner encounters a concern that exceeds their current role, competence, or authority?",
+      "rationale": "Rationale: The guide instructs practitioners to pause and use the correct escalation route when a concern exceeds their role or competence."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Discharge-risk assessment",
+        "2 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Record 'patient lack of motivation' as a primary psychosocial risk factor"
+        },
+        {
+          "correct": true,
+          "text": "B.Separate the observation from the assumption and check the info with the person"
+        },
+        {
+          "correct": false,
+          "text": "C.Escalate the case immediately to a psychiatrist for evaluation"
+        },
+        {
+          "correct": false,
+          "text": "D.Assume the patient is depressed and adjust the housing plan accordingly"
+        }
+      ],
+      "question": "A social worker is assessing a patient for discharge and notes that the patient 'seems unmotivated.' According to the Module 1 learning sequence, how should this be handled?",
+      "rationale": "Rationale: The learning sequence emphasizes separating observations from assumptions. 'Unmotivated' is an assumption; the practitioner should identify the specific observation and check it with the person."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Transition coordination",
+        "2 Marks",
+        "Ref: Module 2, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Instruct the patient to follow the hospital prescription only"
+        },
+        {
+          "correct": true,
+          "text": "B.Verify the information with an approved source or clinical colleague"
+        },
+        {
+          "correct": false,
+          "text": "C.Advise the family to use their professional judgment at home"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the discrepancy and finalize the discharge"
+        }
+      ],
+      "question": "During transition coordination, a practitioner notices a discrepancy between the patient's home medication list and the hospital's discharge prescription. What is the most appropriate next step?",
+      "rationale": "Rationale: The guide states that information must be checked with an approved source, and medication continuity is a key focus of Module 2."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Discharge-risk assessment",
+        "2 Marks",
+        "Ref: Module 1, What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Financial factors"
+        },
+        {
+          "correct": false,
+          "text": "B.Medical factors"
+        },
+        {
+          "correct": true,
+          "text": "C.Housing factors"
+        },
+        {
+          "correct": false,
+          "text": "D.Caregiver factors"
+        }
+      ],
+      "question": "A patient is being discharged to a rural area with limited transport. Which factor from Module 1 is most directly impacted by this scenario?",
+      "rationale": "Rationale: Housing factors in discharge planning often include the environment and accessibility of the location the patient is returning to."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Follow-up and readmission prevention",
+        "2 Marks",
+        "Ref: Module 3, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To ensure the hospital is no longer legally liable for the patient"
+        },
+        {
+          "correct": true,
+          "text": "B.To protect the continuity of support for the patient"
+        },
+        {
+          "correct": false,
+          "text": "C.To reduce the amount of documentation required in the medical record"
+        },
+        {
+          "correct": false,
+          "text": "D.To satisfy the administrative requirements of the receiving facility"
+        }
+      ],
+      "question": "In the context of Module 3, why is a 'clear handover' emphasized as a critical action?",
+      "rationale": "Rationale: The guide states that a clear handover can protect the continuity of support, which is essential for readmission prevention."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Transition coordination",
+        "2 Marks",
+        "Ref: Module 2, What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Interdisciplinary roles"
+        },
+        {
+          "correct": true,
+          "text": "B.Patient/family participation"
+        },
+        {
+          "correct": false,
+          "text": "C.Appointment continuity"
+        },
+        {
+          "correct": false,
+          "text": "D.Medication reconciliation"
+        }
+      ],
+      "question": "A practitioner is coordinating a transition and realizes the patient's family has not been involved in the planning process. Which principle from Module 2 is being overlooked?",
+      "rationale": "Rationale: Module 2 specifically highlights 'Patient/family participation' as a key area of attention for transition coordination."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Follow-up and readmission prevention",
+        "2 Marks",
+        "Ref: Module 3, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Immediately readmit the patient to the hospital"
+        },
+        {
+          "correct": true,
+          "text": "B.Examine the practical implications and check the info with the person or family"
+        },
+        {
+          "correct": false,
+          "text": "C.Ignore the signs if the patient's medical vitals were stable at discharge"
+        },
+        {
+          "correct": false,
+          "text": "D.File a report with the local police regarding safety concerns"
+        }
+      ],
+      "question": "When applying the 'Follow-up and readmission prevention' sequence, what should a practitioner do after identifying potential 'warning signs' in a patient's post-discharge environment?",
+      "rationale": "Rationale: The sequence requires examining practical implications, identifying strengths/concerns, and checking information with the person or family."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Core Principles",
+        "2 Marks",
+        "Ref: Module 1/2/3, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Approve the referral to avoid delaying the patient's discharge"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Ask the patient to arrange their own private care"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait until the next interdisciplinary meeting to bring it up"
+        }
+      ],
+      "question": "A practitioner is working with a patient who has complex needs. The practitioner is unsure if they have the authority to approve a specific home-care referral. What is the correct action based on the guide?",
+      "rationale": "Rationale: The guide explicitly states that when a concern exceeds authority, the practitioner must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Integrated Practice",
+        "2 Marks",
+        "Ref: Module 1 & 2, Learning Sequences",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Focusing solely on the housing issue by referring the patient to a homeless shelter"
+        },
+        {
+          "correct": true,
+          "text": "B.Collaborating with the patient and interdisciplinary team to address the combined functional and housing risks"
+        },
+        {
+          "correct": false,
+          "text": "C.Delaying discharge indefinitely until the patient can walk up stairs independently"
+        },
+        {
+          "correct": false,
+          "text": "D.Documenting the risks and allowing the patient to return home to maintain autonomy"
+        }
+      ],
+      "question": "A patient is being discharged after a stroke. They have significant mobility issues (Functional), live alone in a second-floor apartment (Housing), and have no local relatives (Caregiver). Which action best demonstrates the synthesis of Module 1 and Module 2 principles?",
+      "rationale": "Rationale: This requires identifying risks (Module 1) and coordinating a collaborative, interdisciplinary response (Module 2) while ensuring informed participation."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Integrated Practice",
+        "2 Marks",
+        "Ref: Module 1, 2, & 3 Learning Sequences",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The practitioner should only document the stress if it directly impacts medical compliance"
+        },
+        {
+          "correct": true,
+          "text": "B.The practitioner should identify this as a concern, seek collaborative solutions, and ensure a clear handover for support"
+        },
+        {
+          "correct": false,
+          "text": "C.The practitioner should assume the caregiver cannot cope and move the patient to a nursing home"
+        },
+        {
+          "correct": false,
+          "text": "D.The practitioner should advise the caregiver to seek personal therapy after the discharge is complete"
+        }
+      ],
+      "question": "During a discharge-risk assessment, a practitioner identifies that a patient's primary caregiver is experiencing high levels of stress. How does the 'Learning Sequence' across the modules dictate the practitioner's response?",
+      "rationale": "Rationale: The practitioner must identify the concern (Module 1), seek informed participation/interdisciplinary support (Module 2), and ensure a clear handover/referral (Module 3) to protect continuity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Transition coordination",
+        "2 Marks",
+        "Ref: Module 2, Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Failure to document the patient's financial status"
+        },
+        {
+          "correct": true,
+          "text": "B.Failure to examine the practical implications of medication and verify info with an approved source"
+        },
+        {
+          "correct": false,
+          "text": "C.Failure to provide the patient with a copy of the hospital's organizational policy"
+        },
+        {
+          "correct": false,
+          "text": "D.Failure to ensure the patient had legal representation during the discharge meeting"
+        }
+      ],
+      "question": "A patient is readmitted within 48 hours of discharge due to a fall. Upon review, it is found that the discharge plan did not account for the patient's new medication side effects. Which failure in the 'Transition Coordination' sequence most likely occurred?",
+      "rationale": "Rationale: Module 2 requires examining the practical implications of medication and interdisciplinary roles. A failure to check information with an approved source or examine implications leads to such outcomes."
+    }
+  ]
+}

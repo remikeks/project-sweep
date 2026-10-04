@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-023",
+  "title": "Diversion Programs & Restorative Justice",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\23-diversion-programs-and-restorative-justice-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Alternatives to Incarceration",
+        "1 Marks",
+        "Ref: Module 1, 'What to pay attention to'",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Eligibility"
+        },
+        {
+          "correct": false,
+          "text": "B.Facilitator neutrality"
+        },
+        {
+          "correct": false,
+          "text": "C.Net widening"
+        },
+        {
+          "correct": false,
+          "text": "D.Victim safety"
+        }
+      ],
+      "question": "According to Module 1, which of the following is a primary focus when considering alternatives to incarceration?",
+      "rationale": "Rationale: Module 1 explicitly lists 'Eligibility' as one of the five key areas to pay attention to when studying alternatives to incarceration."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Restorative Justice Principles",
+        "1 Marks",
+        "Ref: Module 2, 'What to pay attention to'",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Mandatory attendance for all parties"
+        },
+        {
+          "correct": true,
+          "text": "B.Voluntary participation"
+        },
+        {
+          "correct": false,
+          "text": "C.Legal representation for the facilitator"
+        },
+        {
+          "correct": false,
+          "text": "D.Financial restitution prior to the meeting"
+        }
+      ],
+      "question": "In the context of restorative justice principles (Module 2), what is the primary requirement for participation in the process?",
+      "rationale": "Rationale: Voluntary participation is a core principle of restorative justice as outlined in the Module 2 focus areas."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Case Coordination",
+        "1 Marks",
+        "Ref: Module 3, 'What to pay attention to'",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Increasing the number of staff in a coordination team"
+        },
+        {
+          "correct": false,
+          "text": "B.Expanding the geographical reach of a program"
+        },
+        {
+          "correct": true,
+          "text": "C.Inadvertently increasing the number of people controlled by the justice system"
+        },
+        {
+          "correct": false,
+          "text": "D.Broadening the types of crimes eligible for restorative justice"
+        }
+      ],
+      "question": "What does the term 'net widening' refer to within the context of case coordination in Module 3?",
+      "rationale": "Rationale: Net widening is a critical concept in case coordination that involves ensuring programs don't inadvertently bring more people into the criminal justice system who otherwise wouldn't be there."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3, 'Learning sequence'",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Continue the process but document the concern"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Seek advice from the victim's family"
+        },
+        {
+          "correct": false,
+          "text": "D.Modify the service plan independently"
+        }
+      ],
+      "question": "According to the learning sequence across all modules, what is the required action when a concern exceeds a practitioner's role, competence, or authority?",
+      "rationale": "Rationale: The guide states that when a concern exceeds one's role or competence, the practitioner must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Restorative Justice Principles",
+        "1 Marks",
+        "Ref: Module 2, 'What to pay attention to'",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Accountability"
+        },
+        {
+          "correct": false,
+          "text": "B.Repair"
+        },
+        {
+          "correct": true,
+          "text": "C.Facilitator neutrality"
+        },
+        {
+          "correct": false,
+          "text": "D.Informed participation"
+        }
+      ],
+      "question": "Which principle in Module 2 ensures that the person leading a restorative justice session does not take sides?",
+      "rationale": "Rationale: Facilitator neutrality is the specific principle mentioned in Module 2 that addresses the unbiased role of the person managing the restorative process."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Alternatives to Incarceration",
+        "2 Marks",
+        "Ref: Module 1, 'What to pay attention to'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Evidence"
+        },
+        {
+          "correct": true,
+          "text": "B.Equity"
+        },
+        {
+          "correct": false,
+          "text": "C.Eligibility"
+        },
+        {
+          "correct": false,
+          "text": "D.Aims"
+        }
+      ],
+      "question": "A practitioner is reviewing a case for a diversion program and notices that the client's demographic group is underrepresented in successful completions. Which focus area from Module 1 is most relevant to addressing this?",
+      "rationale": "Rationale: Equity involves examining whether programs are fair and accessible to all groups, making it the most relevant focus area for addressing demographic disparities."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Restorative Justice Principles",
+        "2 Marks",
+        "Ref: Module 2, 'Learning sequence' and 'What to pay attention to'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Encourage the victim to continue for the sake of accountability"
+        },
+        {
+          "correct": true,
+          "text": "B.Prioritize victim safety and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Ask the offender to apologize immediately to reduce fear"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the fear but complete the session to ensure repair"
+        }
+      ],
+      "question": "During a restorative justice session, a facilitator observes that the victim appears increasingly distressed and fearful of the offender's presence. Based on Module 2, what is the priority action?",
+      "rationale": "Rationale: Victim safety is a core focus. If a concern exceeds the facilitator's role or safety is compromised, they must pause and follow escalation/safeguarding procedures."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Case Coordination",
+        "2 Marks",
+        "Ref: Module 3, 'Learning sequence'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.To ensure the plan is based on factual evidence rather than bias"
+        },
+        {
+          "correct": false,
+          "text": "B.To speed up the referral process to external agencies"
+        },
+        {
+          "correct": false,
+          "text": "C.To allow the practitioner to use more professional judgement"
+        },
+        {
+          "correct": false,
+          "text": "D.To meet the minimum word count for documentation standards"
+        }
+      ],
+      "question": "When developing a service plan in Module 3, why is it necessary to 'separate observations from assumptions'?",
+      "rationale": "Rationale: The learning sequence emphasizes separating observations from assumptions to ensure that the information documented is relevant, accurate, and necessary for the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Alternatives to Incarceration",
+        "2 Marks",
+        "Ref: Module 1, 'Learning sequence'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Refer the client immediately to avoid delays"
+        },
+        {
+          "correct": true,
+          "text": "B.Check the information with an approved source or local procedure"
+        },
+        {
+          "correct": false,
+          "text": "C.Assume the service is appropriate if the client agrees"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait for the next supervision session before taking any action"
+        }
+      ],
+      "question": "A practitioner is unsure if a specific community-based support service is appropriate for a client's needs. According to the Module 1 learning sequence, what should be their first step?",
+      "rationale": "Rationale: The sequence advises noticing where professional judgement is needed and where a local procedure must guide the next step."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Restorative Justice Principles",
+        "2 Marks",
+        "Ref: Module 2, 'What to pay attention to' and 'Learning sequence'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The offender accepting a prison sentence without appeal"
+        },
+        {
+          "correct": true,
+          "text": "B.The offender acknowledging harm and participating in repair"
+        },
+        {
+          "correct": false,
+          "text": "C.The facilitator deciding the appropriate punishment for the offender"
+        },
+        {
+          "correct": false,
+          "text": "D.The victim forgiving the offender regardless of the outcome"
+        }
+      ],
+      "question": "In Module 2, 'accountability' in a restorative justice context is best demonstrated by which of the following actions?",
+      "rationale": "Rationale: Accountability in restorative justice involves the offender taking responsibility for their actions and participating in the 'repair' of the harm caused."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Case Coordination",
+        "2 Marks",
+        "Ref: Module 3, 'What to pay attention to' and 'Learning sequence'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Eligibility screening"
+        },
+        {
+          "correct": true,
+          "text": "B.Monitoring"
+        },
+        {
+          "correct": false,
+          "text": "C.Net widening"
+        },
+        {
+          "correct": false,
+          "text": "D.Facilitator neutrality"
+        }
+      ],
+      "question": "Which element of case coordination (Module 3) ensures that a client does not 'fall through the cracks' after a referral is made?",
+      "rationale": "Rationale: Monitoring and a clear handover (as mentioned in the escalation/referral section) are essential for maintaining continuity of support."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Module 1, 2, & 3, 'Learning sequence'",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgement"
+        },
+        {
+          "correct": false,
+          "text": "B.Informed participation"
+        },
+        {
+          "correct": true,
+          "text": "C.Necessity and relevance in documentation"
+        },
+        {
+          "correct": false,
+          "text": "D.Collaborative approach"
+        }
+      ],
+      "question": "A practitioner is documenting a case and includes details about a client's family history that are not related to the current diversion goal. Which practice standard from the learning sequence is being violated?",
+      "rationale": "Rationale: The guide states practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Case Coordination",
+        "2 Marks",
+        "Ref: Module 3, 'What to pay attention to'",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Lack of evidence-based support"
+        },
+        {
+          "correct": true,
+          "text": "B.Net widening"
+        },
+        {
+          "correct": false,
+          "text": "C.Failure of facilitator neutrality"
+        },
+        {
+          "correct": false,
+          "text": "D.Inequitable eligibility"
+        }
+      ],
+      "question": "A jurisdiction introduces a new 'low-level' diversion program. After one year, data shows that the total number of people under state supervision has increased, even though the prison population remained stable. This scenario is a classic example of which risk identified in Module 3?",
+      "rationale": "Rationale: This is 'net widening.' It occurs when diversion programs are used for individuals who would have otherwise been released or received a lighter touch, thereby increasing the total number of people in the system."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Restorative Justice Principles",
+        "2 Marks",
+        "Ref: Module 2, 'What to pay attention to'",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Accountability and Repair"
+        },
+        {
+          "correct": true,
+          "text": "B.Voluntary participation and Facilitator neutrality"
+        },
+        {
+          "correct": false,
+          "text": "C.Eligibility and Evidence"
+        },
+        {
+          "correct": false,
+          "text": "D.Service plans and Monitoring"
+        }
+      ],
+      "question": "You are coordinating a case where the offender is willing to participate in restorative justice, but the victim is hesitant. The offender's lawyer pressures you to 'convince' the victim so the offender can avoid a record. Which combination of principles must guide your response?",
+      "rationale": "Rationale: You must uphold 'Voluntary participation' (the victim cannot be coerced) and 'Facilitator neutrality' (you cannot take the side of the offender's legal interests)."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Practice notice & Module 1 Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgement always overrides local policy in clinical settings"
+        },
+        {
+          "correct": true,
+          "text": "B.Local procedure and organizational policy must guide the next step"
+        },
+        {
+          "correct": false,
+          "text": "C.The practitioner should follow the learner guide's general principles over local policy"
+        },
+        {
+          "correct": false,
+          "text": "D.The practitioner should wait for a change in legislation before acting"
+        }
+      ],
+      "question": "In a complex case coordination scenario, a practitioner identifies a conflict between a local policy requirement and their own professional judgement regarding a client's eligibility. According to the 'Practice notice' and 'Learning sequence', what is the correct hierarchy of action?",
+      "rationale": "Rationale: The practice notice states the material does not replace legal or organizational policy. The learning sequence says to notice where professional judgement is needed but that local procedure must guide the next step."
+    }
+  ]
+}

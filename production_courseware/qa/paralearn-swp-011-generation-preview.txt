@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-011 — Dementia Care & Caregiver Support
+  - generic: SWP-011
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Core Concepts"
+  - generic: 1 Marks
+  - generic: "Ref: Learning objectives"
+  - generic: simple
+  - paragraph: According to the Learner Guide, what is the primary overarching goal of the Dementia Care & Caregiver Support course?
+  - generic: A.
+  - text: To provide a clinical diagnosis of various dementia types
+  - generic: B.
+  - text: To apply person-centred approaches to dementia support and caregiver wellbeing
+  - generic: C.
+  - text: To replace local safeguarding and legal procedures with academic theory
+  - generic: D.
+  - text: To master the administrative layout of gerontology documentation
+  - generic: "Rationale: The learning objectives explicitly state that the course aims to enable learners to apply person-centred approaches to both dementia support and caregiver wellbeing."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Core Concepts"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: What to pay attention to"
+  - generic: simple
+  - paragraph: "Which of the following is a core focus area specifically identified within Module 1: Understanding Dementia?"
+  - generic: A.
+  - text: Crisis planning
+  - generic: B.
+  - text: Respite care
+  - generic: C.
+  - text: Preserving identity
+  - generic: D.
+  - text: Family partnership
+  - generic: "Rationale: Module 1 focuses on common presentations, communication, stigma, and preserving identity."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Core Concepts"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: simple
+  - paragraph: When a practitioner encounters a concern that exceeds their current role, competence, or authority, what is the required action according to the learning sequence?
+  - generic: A.
+  - text: Attempt to resolve the issue independently to gain experience
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Wait for the next scheduled supervision meeting to mention it
+  - generic: D.
+  - text: Document the concern but take no further action
+  - generic: "Rationale: The guide states that when a concern exceeds role or competence, the practitioner must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Core Concepts"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: simple
+  - paragraph: What are the three criteria specified for documenting information during the dementia support process?
+  - generic: A.
+  - text: Relevant, accurate, and necessary
+  - generic: B.
+  - text: Brief, subjective, and frequent
+  - generic: C.
+  - text: Comprehensive, clinical, and confidential
+  - generic: D.
+  - text: Formal, chronological, and exhaustive
+  - generic: "Rationale: The learning sequence across all modules specifies that documentation must be relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Core Concepts"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: simple
+  - paragraph: "Module 3: Caregiver Support focuses on which of the following sets of topics?"
+  - generic: A.
+  - text: Environment, routines, and consent
+  - generic: B.
+  - text: Stigma, communication, and identity
+  - generic: C.
+  - text: Burden, respite, and crisis planning
+  - generic: D.
+  - text: Diagnosis, medication, and clinical trials
+  - generic: "Rationale: Module 3 focuses on burden, respite, education, crisis planning, and referral."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 Learning Sequence"
+  - generic: intermediate
+  - paragraph: A support worker notices a person with dementia is becoming increasingly agitated during meal times. According to the Module 2 learning sequence, what should the worker do first when examining the practical implications of this behavior?
+  - generic: A.
+  - text: Assume the person is unhappy with the food quality
+  - generic: B.
+  - text: Separate observations from assumptions
+  - generic: C.
+  - text: Immediately change the person's routine to avoid the dining hall
+  - generic: D.
+  - text: Refer the person to a specialist for medication review
+  - generic: "Rationale: The learning sequence requires practitioners to separate observations from assumptions when examining distress behaviors."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: intermediate
+  - paragraph: A caregiver expresses that they are feeling 'burnt out' and can no longer manage daily tasks. Which component of Module 3 should the practitioner prioritize to address the immediate need for a break?
+  - generic: A.
+  - text: Education
+  - generic: B.
+  - text: Respite
+  - generic: C.
+  - text: Stigma reduction
+  - generic: D.
+  - text: Identity preservation
+  - generic: "Rationale: Respite is the specific focus area in Module 3 designed to provide caregivers with a break from their caregiving responsibilities."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1: What to pay attention to"
+  - generic: intermediate
+  - paragraph: While working in a residential setting, you notice a colleague using patronizing language with a resident who has dementia. Which focus area of Module 1 does this behavior most directly violate?
+  - generic: A.
+  - text: Crisis planning
+  - generic: B.
+  - text: Communication and Stigma
+  - generic: C.
+  - text: Environment and Routines
+  - generic: D.
+  - text: Referral pathways
+  - generic: "Rationale: Patronizing language is a communication issue that often stems from or contributes to stigma and fails to preserve the person's identity."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 Learning Sequence"
+  - generic: intermediate
+  - paragraph: In the context of Module 2, why is it important to identify 'strengths as well as concerns' when evaluating a person's daily support needs?
+  - generic: A.
+  - text: To reduce the amount of documentation required
+  - generic: B.
+  - text: To ensure the support is person-centred and balanced
+  - generic: C.
+  - text: To prove that the person does not actually have dementia
+  - generic: D.
+  - text: To avoid the need for professional supervision
+  - generic: "Rationale: Identifying strengths is a key part of a person-centred approach, ensuring the care plan is balanced and not just focused on deficits."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: intermediate
+  - paragraph: A practitioner is helping a family develop a 'crisis plan' as mentioned in Module 3. What is the primary purpose of this activity?
+  - generic: A.
+  - text: To provide general education about dementia symptoms
+  - generic: B.
+  - text: To establish a routine for daily meals
+  - generic: C.
+  - text: To prepare for and manage urgent or emergency situations
+  - generic: D.
+  - text: To document the person's life history for identity preservation
+  - generic: "Rationale: Crisis planning is intended to prepare for emergencies or sudden changes in the caregiving situation to ensure safety and continuity."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: intermediate
+  - paragraph: When applying the 'Learning Sequence' to a practice situation, what must be done before documenting information?
+  - generic: A.
+  - text: Seek informed participation where appropriate
+  - generic: B.
+  - text: Consult with a legal expert
+  - generic: C.
+  - text: Wait for the person's family to provide consent
+  - generic: D.
+  - text: Complete a referral form
+  - generic: "Rationale: The sequence states: 'Explain your role, seek informed participation where appropriate, and document only information that is relevant...'"
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section B: Application"
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice"
+  - generic: intermediate
+  - paragraph: Which of the following best describes the 'Practice Notice' regarding the use of the Learner Guide?
+  - generic: A.
+  - text: The guide is a legal document that overrides local policy
+  - generic: B.
+  - text: The guide replaces the need for clinical supervision
+  - generic: C.
+  - text: The guide supports learning but does not replace urgent safeguarding or legal procedures
+  - generic: D.
+  - text: The guide is only applicable in hospital settings
+  - generic: "Rationale: The practice notice states the material supports learning but does not replace urgent safeguarding, clinical, or legal procedures."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section C: Critical Evaluation"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3 Learning Sequence"
+  - generic: hard
+  - paragraph: A practitioner identifies that a caregiver's burden has reached a level where the safety of the person with dementia is at risk. According to the integrated learning sequence, what is the most critical final step to ensure safety?
+  - generic: A.
+  - text: Provide the caregiver with more educational brochures
+  - generic: B.
+  - text: Use the correct escalation route and ensure a clear handover
+  - generic: C.
+  - text: Suggest the caregiver takes a short walk to reduce stress
+  - generic: D.
+  - text: Document the observation and wait for the next review cycle
+  - generic: "Rationale: The guide emphasizes that when concerns exceed role or authority, a prompt referral and clear handover are necessary to protect continuity of support and safety."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section C: Critical Evaluation"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 Learning Sequence"
+  - generic: hard
+  - paragraph: In the context of 'Daily support and responsive care' (Module 2), how does the guide distinguish between professional judgement and local procedure?
+  - generic: A.
+  - text: Professional judgement always overrides local procedure in person-centred care
+  - generic: B.
+  - text: Local procedure is only necessary when professional judgement fails
+  - generic: C.
+  - text: Practitioners must identify which situations require individual judgement versus those dictated by organizational policy
+  - generic: D.
+  - text: There is no distinction; they are considered the same in the learning sequence
+  - generic: "Rationale: The sequence explicitly asks learners to 'Notice where professional judgement is needed and where a local procedure must guide the next step,' implying they are distinct but complementary."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section C: Critical Evaluation"
+  - generic: 2 Marks
+  - generic: "Ref: Practice reflection (Modules 1, 2, 3)"
+  - generic: hard
+  - paragraph: A learner is asked to reflect on a de-identified practice situation. According to the 'Practice reflection' sections, what is the primary purpose of this exercise?
+  - generic: A.
+  - text: To memorize the specific details of past cases
+  - generic: B.
+  - text: To determine what information is needed to work safely and when to check local policy
+  - generic: C.
+  - text: To practice writing clinical reports for external auditors
+  - generic: D.
+  - text: To critique the effectiveness of the School of Gerontology's curriculum
+  - generic: "Rationale: The reflection prompts ask what information helps work safely and what requires a local policy check, focusing on the intersection of safety, knowledge, and compliance."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

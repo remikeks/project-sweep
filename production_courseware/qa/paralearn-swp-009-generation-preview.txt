@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-009 — Recovery-Oriented Systems of Care
+  - generic: SWP-009
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Recovery Orientation"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the primary focus when examining the practical implications of recovery orientation?
+  - generic: A.
+  - text: Separating observations from assumptions and identifying strengths
+  - generic: B.
+  - text: Prioritizing clinical diagnosis over person-defined goals
+  - generic: C.
+  - text: Focusing exclusively on deficits and risks to ensure safety
+  - generic: D.
+  - text: Replacing local procedures with professional intuition
+  - generic: "Rationale: The learning sequence specifically instructs practitioners to separate observations from assumptions and identify strengths as well as concerns."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 2: Coordinated Support"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, What to pay attention to"
+  - generic: simple
+  - paragraph: Which of the following is a core component of 'Coordinated Support' as defined in Module 2?
+  - generic: A.
+  - text: Relapse-prevention planning
+  - generic: B.
+  - text: Lived-experience leadership
+  - generic: C.
+  - text: Legal and community supports
+  - generic: D.
+  - text: Anti-stigma practice
+  - generic: "Rationale: Module 2 lists housing, employment, family, health, legal, and community supports as the key areas of focus."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 3: Sustaining Recovery"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, Focus"
+  - generic: simple
+  - paragraph: In the context of 'Sustaining Recovery' (Module 3), what is the specific role of outcome monitoring?
+  - generic: A.
+  - text: Establishing initial recovery capital
+  - generic: B.
+  - text: Tracking progress and maintaining continuity of care
+  - generic: C.
+  - text: Defining the person's initial recovery goals
+  - generic: D.
+  - text: Providing immediate crisis intervention
+  - generic: "Rationale: Module 3 focuses on long-term sustainability, which includes relapse-prevention, continuity of care, and outcome monitoring."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3, Learning Sequence"
+  - generic: simple
+  - paragraph: What action must a practitioner take when a concern exceeds their role, supervision, competence, or authority?
+  - generic: A.
+  - text: Attempt to resolve the issue independently to ensure continuity
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Wait for the next scheduled supervision session to discuss it
+  - generic: D.
+  - text: Document the concern but take no further action
+  - generic: "Rationale: The guide explicitly states that when a concern exceeds one's role or competence, they must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3, Learning Sequence"
+  - generic: simple
+  - paragraph: According to the course documentation standards, what criteria must information meet to be recorded?
+  - generic: A.
+  - text: Comprehensive, subjective, and detailed
+  - generic: B.
+  - text: Relevant, accurate, and necessary
+  - generic: C.
+  - text: Brief, informal, and observational
+  - generic: D.
+  - text: Inclusive of all family and peer opinions
+  - generic: "Rationale: The guide mandates documenting only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Recovery Orientation"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, What to pay attention to"
+  - generic: intermediate
+  - paragraph: A practitioner is working with a client who insists on a recovery goal that the practitioner believes is premature. Based on Module 1, how should the practitioner proceed?
+  - generic: A.
+  - text: Override the client's goal with a more clinically appropriate one
+  - generic: B.
+  - text: Collaboratively support the person-defined goal while identifying necessary supports
+  - generic: C.
+  - text: Refer the client to a different service that agrees with their goal
+  - generic: D.
+  - text: Inform the client that their goal is not permitted under ROSC guidelines
+  - generic: "Rationale: Module 1 emphasizes 'person-defined goals' and a 'respectful, collaborative approach,' requiring the practitioner to honor the client's definition of recovery while using professional judgment within that framework."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Coordinated Support"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: When coordinating support for a client's housing and employment needs (Module 2), why is it critical to 'separate observations from assumptions'?
+  - generic: A.
+  - text: To ensure the practitioner's personal opinions are documented
+  - generic: B.
+  - text: To identify strengths and concerns accurately before checking with the person
+  - generic: C.
+  - text: To speed up the referral process to legal and health services
+  - generic: D.
+  - text: To minimize the need for informed participation from the family
+  - generic: "Rationale: Separating observations from assumptions ensures that the practitioner identifies actual strengths and concerns rather than relying on biases, which is essential for accurate referral and support."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 3: Sustaining Recovery"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Focus"
+  - generic: intermediate
+  - paragraph: A client is transitioning from intensive treatment to community-based support. Which element of Module 3 is most relevant to ensuring they do not 'fall through the cracks'?
+  - generic: A.
+  - text: Recovery capital assessment
+  - generic: B.
+  - text: Continuity of care
+  - generic: C.
+  - text: Anti-stigma practice
+  - generic: D.
+  - text: Initial goal setting
+  - generic: "Rationale: Continuity of care is specifically listed in Module 3 as a focus area to sustain recovery and manage transitions effectively."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 2: Coordinated Support"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: In a situation where a client's family is involved in the recovery process, what does Module 2 suggest regarding the verification of information?
+  - generic: A.
+  - text: Family information should be accepted as fact to build rapport
+  - generic: B.
+  - text: Information must be checked with the person, family, or an approved source
+  - generic: C.
+  - text: Practitioners should only rely on information provided by legal authorities
+  - generic: D.
+  - text: Family input should be documented only if it matches professional assumptions
+  - generic: "Rationale: The learning sequence states that practitioners must be clear about information that must be checked with a person, family, colleague, or approved source."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 3: Sustaining Recovery"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, What to pay attention to"
+  - generic: intermediate
+  - paragraph: How does 'lived-experience leadership' contribute to the 'Sustaining Recovery' module?
+  - generic: A.
+  - text: It replaces the need for professional supervision
+  - generic: B.
+  - text: It provides a framework for outcome monitoring and system leadership
+  - generic: C.
+  - text: It is used primarily for initial intake and assessment
+  - generic: D.
+  - text: It is a legal requirement for all housing and employment referrals
+  - generic: "Rationale: Lived-experience leadership is a key focus of Module 3, emphasizing that those with personal experience in recovery should lead and influence the systems that sustain long-term recovery."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3, Learning Sequence"
+  - generic: intermediate
+  - paragraph: During a handover to a new service provider, what is the primary purpose of a 'clear handover' according to the course material?
+  - generic: A.
+  - text: To fulfill administrative documentation quotas
+  - generic: B.
+  - text: To protect continuity of support
+  - generic: C.
+  - text: To transfer legal liability to the new provider
+  - generic: D.
+  - text: To ensure the practitioner no longer needs to monitor the case
+  - generic: "Rationale: The material states that a prompt referral and a clear handover can protect continuity of support."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 1: Recovery Orientation"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, Focus"
+  - generic: intermediate
+  - paragraph: Which of the following best describes the application of 'Recovery Capital' in a practice setting?
+  - generic: A.
+  - text: The financial cost of recovery services
+  - generic: B.
+  - text: The strengths and resources available to support a person's recovery
+  - generic: C.
+  - text: The number of years a person has been in recovery
+  - generic: D.
+  - text: The legal requirements for maintaining a recovery program
+  - generic: "Rationale: Recovery capital refers to the internal and external resources a person can draw upon to support their recovery, which is a core focus of Module 1."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: Practice Notice
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice (Page 1)"
+  - generic: hard
+  - paragraph: A practitioner is faced with a complex case involving a client's legal issues and health concerns. According to the 'Practice Notice,' what takes precedence over the learning material?
+  - generic: A.
+  - text: The practitioner's personal professional judgment
+  - generic: B.
+  - text: Urgent safeguarding, clinical, or legal procedures
+  - generic: C.
+  - text: The specific learning objectives of Module 2
+  - generic: D.
+  - text: The client's person-defined goals
+  - generic: "Rationale: The Practice Notice explicitly states that the material does not replace urgent safeguarding, clinical, or legal procedures, which must be followed according to law and policy."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3, Learning Sequence"
+  - generic: hard
+  - paragraph: In the ROSC framework, how does the 'Learning Sequence' across all three modules differentiate the role of 'Professional Judgement'?
+  - generic: A.
+  - text: Professional judgment should always override local procedures in recovery-oriented care
+  - generic: B.
+  - text: Professional judgment is only used when local procedures are unavailable
+  - generic: C.
+  - text: Practitioners must balance professional judgment with the guidance of local procedures
+  - generic: D.
+  - text: Professional judgment is secondary to peer support worker recommendations
+  - generic: "Rationale: The sequence across all modules requires practitioners to notice where professional judgment is needed while simultaneously identifying where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 3: Sustaining Recovery"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning Sequence"
+  - generic: hard
+  - paragraph: When applying the 'Sustaining Recovery' sequence to a case study, which step is required before taking action within one's role?
+  - generic: A.
+  - text: Defining the purpose of sustaining recovery in relation to the course outcome
+  - generic: B.
+  - text: Immediately escalating the case to a supervisor for review
+  - generic: C.
+  - text: Completing the outcome monitoring report for the previous quarter
+  - generic: D.
+  - text: Consulting with lived-experience leaders to validate the plan
+  - generic: "Rationale: The sequence requires practitioners to first define the purpose, then examine practical implications (separating observations from assumptions), and then use a respectful, collaborative approach before taking action or escalating."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

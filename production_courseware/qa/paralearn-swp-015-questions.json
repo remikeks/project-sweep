@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-015",
+  "title": "Program Development & Evaluation",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\15-program-development-and-evaluation-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Programme Design",
+        "1 Marks",
+        "Ref: Module 1: Programme Design",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Budget assumptions and risk management"
+        },
+        {
+          "correct": true,
+          "text": "B.Needs-to-goals chain and theory of change"
+        },
+        {
+          "correct": false,
+          "text": "C.Data collection and learning loops"
+        },
+        {
+          "correct": false,
+          "text": "D.Reporting and baseline indicators"
+        }
+      ],
+      "question": "According to Module 1, which of the following is a primary focus of the 'Programme Design' phase?",
+      "rationale": "Rationale: Module 1 specifically lists the needs-to-goals chain, theory of change, target groups, and feasibility as its core focus areas."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Monitoring and Evaluation",
+        "1 Marks",
+        "Ref: Module 3: Monitoring and Evaluation",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To define the final reporting format"
+        },
+        {
+          "correct": true,
+          "text": "B.To establish the starting point before an intervention"
+        },
+        {
+          "correct": false,
+          "text": "C.To identify the target group's demographic"
+        },
+        {
+          "correct": false,
+          "text": "D.To create a list of potential project partners"
+        }
+      ],
+      "question": "In the context of Monitoring and Evaluation (Module 3), what is the primary purpose of establishing a 'baseline'?",
+      "rationale": "Rationale: A baseline provides the starting point or status quo against which future progress and changes can be measured."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Implementation Planning",
+        "1 Marks",
+        "Ref: Module 2: Implementation Planning",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Theory of change"
+        },
+        {
+          "correct": false,
+          "text": "B.Learning loops"
+        },
+        {
+          "correct": true,
+          "text": "C.Budget assumptions"
+        },
+        {
+          "correct": false,
+          "text": "D.Needs-to-goals chain"
+        }
+      ],
+      "question": "Which component is explicitly categorized under 'Implementation Planning' in the learner guide?",
+      "rationale": "Rationale: Module 2 focuses on activities, budget assumptions, partnerships, risk management, and inclusion."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Notice",
+        "1 Marks",
+        "Ref: Module 1/2/3 Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document the concern and continue the programme"
+        },
+        {
+          "correct": false,
+          "text": "B.Consult with the target group for a solution"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "D.Modify the programme design to address the concern"
+        }
+      ],
+      "question": "When a practitioner identifies a concern that exceeds their role, competence, or authority, what is the required action according to the learning sequence?",
+      "rationale": "Rationale: The guide states that when a concern exceeds one's role, they must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Course Structure",
+        "1 Marks",
+        "Ref: Learning objectives",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To provide legal advice for community safeguarding"
+        },
+        {
+          "correct": true,
+          "text": "B.To design a feasible community programme and measure its efficacy"
+        },
+        {
+          "correct": false,
+          "text": "C.To manage the financial auditing of non-profit organizations"
+        },
+        {
+          "correct": false,
+          "text": "D.To replace clinical procedures with community-based models"
+        }
+      ],
+      "question": "What is the overarching goal of the SWP-015 Program Development & Evaluation course?",
+      "rationale": "Rationale: The learning objectives state the goal is to design a feasible community programme and measure whether it works."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Programme Design",
+        "1.5 Marks",
+        "Ref: Module 1: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Defining the purpose"
+        },
+        {
+          "correct": true,
+          "text": "B.Examining practical implications"
+        },
+        {
+          "correct": false,
+          "text": "C.Using a collaborative approach"
+        },
+        {
+          "correct": false,
+          "text": "D.Escalation and referral"
+        }
+      ],
+      "question": "A practitioner is developing a programme and needs to distinguish between 'observations' and 'assumptions'. In which stage of the learning sequence does this critical analysis occur?",
+      "rationale": "Rationale: The second step of the learning sequence for all modules involves examining practical implications and separating observations from assumptions."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Implementation Planning",
+        "1.5 Marks",
+        "Ref: Module 2: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Inclusion"
+        },
+        {
+          "correct": false,
+          "text": "B.Partnerships"
+        },
+        {
+          "correct": true,
+          "text": "C.Risk management"
+        },
+        {
+          "correct": false,
+          "text": "D.Budget assumptions"
+        }
+      ],
+      "question": "You are planning a community initiative and are currently identifying potential obstacles and planning mitigations. Which specific area of Implementation Planning are you addressing?",
+      "rationale": "Rationale: Identifying obstacles and planning mitigations is the core function of 'Risk management' within implementation planning."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Assessment Preparation",
+        "1.5 Marks",
+        "Ref: Assessment preparation",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Outputs are long-term goals; outcomes are short-term tasks"
+        },
+        {
+          "correct": true,
+          "text": "B.Outputs are the activities/products; outcomes are the resulting changes"
+        },
+        {
+          "correct": false,
+          "text": "C.Outputs are qualitative; outcomes are always quantitative"
+        },
+        {
+          "correct": false,
+          "text": "D.Outputs refer to the budget; outcomes refer to the target group"
+        }
+      ],
+      "question": "In the context of 'Assessment Preparation', how does an 'outcome' differ from an 'output'?",
+      "rationale": "Rationale: Outputs are the direct products or activities of a programme, whereas outcomes are the changes or benefits resulting from those activities."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Monitoring and Evaluation",
+        "1.5 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Baseline assessment"
+        },
+        {
+          "correct": false,
+          "text": "B.Data collection"
+        },
+        {
+          "correct": true,
+          "text": "C.Learning loops"
+        },
+        {
+          "correct": false,
+          "text": "D.Reporting"
+        }
+      ],
+      "question": "A team is reviewing evaluation data to determine how to adjust their current activities for better results. This process is best described as:",
+      "rationale": "Rationale: Learning loops involve using data and feedback to iteratively improve and adjust programme delivery."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Notice",
+        "1.5 Marks",
+        "Ref: Practice notice",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Personal social media networks"
+        },
+        {
+          "correct": true,
+          "text": "B.Organizational policy and governing law"
+        },
+        {
+          "correct": false,
+          "text": "C.Unofficial community anecdotes"
+        },
+        {
+          "correct": false,
+          "text": "D.General internet search results"
+        }
+      ],
+      "question": "During the design phase, a practitioner must check information with an 'approved source'. Which of the following best aligns with the 'Practice Notice' regarding these sources?",
+      "rationale": "Rationale: The practice notice emphasizes applying the law, organizational policy, and approved referral pathways governing the specific setting."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1/2/3 Learning Sequence",
+        "1.5 Marks",
+        "Ref: Module 1/2/3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Comprehensive, exhaustive, and identifying"
+        },
+        {
+          "correct": true,
+          "text": "B.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Subjective, detailed, and confidential"
+        },
+        {
+          "correct": false,
+          "text": "D.Brief, informal, and speculative"
+        }
+      ],
+      "question": "When documenting information during a collaborative approach, what criteria must the information meet according to the learning sequence?",
+      "rationale": "Rationale: The guide specifies documenting only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Programme Design",
+        "1.5 Marks",
+        "Ref: Module 1: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The sequence of hiring staff for a project"
+        },
+        {
+          "correct": true,
+          "text": "B.The logical link between identified needs and desired outcomes"
+        },
+        {
+          "correct": false,
+          "text": "C.The process of securing funding from donors"
+        },
+        {
+          "correct": false,
+          "text": "D.The timeline for project completion"
+        }
+      ],
+      "question": "Which of the following best describes the 'Needs-to-goals chain' in Programme Design?",
+      "rationale": "Rationale: The needs-to-goals chain is the logical link between identified community needs and the specific goals the programme intends to achieve."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Programme Design",
+        "2 Marks",
+        "Ref: Module 1: Programme Design",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Does the programme have a catchy name for the target group?"
+        },
+        {
+          "correct": true,
+          "text": "B.Is the proposed mechanism of change realistic and achievable within local constraints?"
+        },
+        {
+          "correct": false,
+          "text": "C.How many people will attend the first activity session?"
+        },
+        {
+          "correct": false,
+          "text": "D.Who will be responsible for the final evaluation report?"
+        }
+      ],
+      "question": "A practitioner is evaluating a programme's 'Feasibility'. Which of the following questions best represents a synthesis of 'Theory of Change' and 'Feasibility'?",
+      "rationale": "Rationale: Feasibility asks if the programme *can* be done, while Theory of Change explains *how* it works. Synthesizing them involves checking if the proposed mechanism of change is realistic given available resources."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Notice",
+        "2 Marks",
+        "Ref: Practice notice / Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Prioritize the inclusion strategy to ensure equity"
+        },
+        {
+          "correct": false,
+          "text": "B.Ignore the local procedure if it seems outdated"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and consult local policy or supervision to resolve the conflict"
+        },
+        {
+          "correct": false,
+          "text": "D.Proceed with the design and address the conflict during evaluation"
+        }
+      ],
+      "question": "In a scenario where a programme's 'Inclusion' strategy (Module 2) conflicts with a 'Local Procedure' (Practice Notice), what is the most appropriate professional action?",
+      "rationale": "Rationale: The guide states that local procedures must guide the next step and that practitioners must apply organizational policy and law. If a conflict arises, professional judgement must be used to consult or escalate to ensure policy compliance."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Monitoring and Evaluation",
+        "2 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Reporting defines the indicators, while indicators define the baseline"
+        },
+        {
+          "correct": true,
+          "text": "B.Indicators are the tools used to collect data for the final report"
+        },
+        {
+          "correct": false,
+          "text": "C.Reporting is done only if the indicators show positive results"
+        },
+        {
+          "correct": false,
+          "text": "D.Indicators are qualitative, while reporting is strictly quantitative"
+        }
+      ],
+      "question": "Which of the following best synthesizes the relationship between 'Indicators' and 'Reporting' in Module 3?",
+      "rationale": "Rationale: Indicators provide the specific data points that are measured; reporting is the process of communicating those measurements to stakeholders to show if the programme worked."
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "course_code": "SWP-013",
+  "title": "Community Needs Assessment",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\13-community-needs-assessment-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Assessment Design",
+        "1 Marks",
+        "Ref: Module 1, Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Define the purpose of assessment design"
+        },
+        {
+          "correct": false,
+          "text": "B.Select a mixed-method data collection tool"
+        },
+        {
+          "correct": false,
+          "text": "C.Identify all potential community stakeholders"
+        },
+        {
+          "correct": false,
+          "text": "D.Draft a preliminary budget for the assessment"
+        }
+      ],
+      "question": "According to the Module 1 learning sequence, what is the first step a practitioner should take when starting the assessment design process?",
+      "rationale": "Rationale: The learning sequence for Module 1 explicitly states to 'Start by defining the purpose of assessment design in relation to the course outcome.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Collecting and interpreting evidence",
+        "1 Marks",
+        "Ref: Assessment preparation, Review the distinction",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Identifying community deficits and gaps"
+        },
+        {
+          "correct": true,
+          "text": "B.Identifying community strengths and resources"
+        },
+        {
+          "correct": false,
+          "text": "C.Calculating the financial cost of services"
+        },
+        {
+          "correct": false,
+          "text": "D.Mapping the geographical boundaries of a district"
+        }
+      ],
+      "question": "In the context of 'Collecting and interpreting evidence' (Module 2), what is the primary focus of asset mapping?",
+      "rationale": "Rationale: Asset mapping is used to identify the strengths and resources within a community, as opposed to focusing solely on deficits or needs."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "1 Marks",
+        "Ref: Module 1/2/3, Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document the concern and continue the assessment"
+        },
+        {
+          "correct": false,
+          "text": "B.Ask a colleague to handle the issue informally"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait until the final report to mention the concern"
+        }
+      ],
+      "question": "When a practitioner encounters a concern that exceeds their role, competence, or authority during an assessment, what is the required action?",
+      "rationale": "Rationale: The guide across all modules specifies that when a concern exceeds one's role or competence, they must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Prioritisation and communication",
+        "1 Marks",
+        "Ref: Module 3, What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Mixed-method choices"
+        },
+        {
+          "correct": true,
+          "text": "B.Validating findings"
+        },
+        {
+          "correct": false,
+          "text": "C.Asset mapping"
+        },
+        {
+          "correct": false,
+          "text": "D.Stakeholder identification"
+        }
+      ],
+      "question": "Which of the following is a key focus area specifically mentioned for Module 3: Prioritisation and communication?",
+      "rationale": "Rationale: Module 3 focuses on ranking needs, validating findings, reporting back, and action recommendations."
+    },
+    {
+      "metadata": [
+        "TRUE_FALSE",
+        "General Practice",
+        "1 Marks",
+        "Ref: Module 1, Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.True"
+        },
+        {
+          "correct": true,
+          "text": "B.False"
+        }
+      ],
+      "question": "True or False: The learner guide states that professional judgment should be used to replace local procedures when conducting an assessment.",
+      "rationale": "Rationale: The guide states practitioners should notice where professional judgment is needed AND where a local procedure must guide the next step; it does not suggest replacing procedures with judgment."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Collecting and interpreting evidence",
+        "2 Marks",
+        "Ref: Module 2, Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Correct the participants immediately using the official records"
+        },
+        {
+          "correct": true,
+          "text": "B.Identify the information as something that must be checked with an approved source"
+        },
+        {
+          "correct": false,
+          "text": "C.Exclude the participants' claims from the final report to ensure data quality"
+        },
+        {
+          "correct": false,
+          "text": "D.Assume the participants are correct because it is a participatory assessment"
+        }
+      ],
+      "question": "A practitioner is conducting a focus group and notices that several participants are making claims about a local service that contradict official records. According to the 'Collecting and interpreting evidence' module, how should the practitioner handle this?",
+      "rationale": "Rationale: The guide emphasizes the need to separate observations from assumptions and be clear about information that must be checked with an approved source."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Assessment Design",
+        "2 Marks",
+        "Ref: Learning objectives / Module 1 Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Only include stakeholders who have legal authority over the community"
+        },
+        {
+          "correct": true,
+          "text": "B.Use a respectful, collaborative approach to seek informed participation"
+        },
+        {
+          "correct": false,
+          "text": "C.Select stakeholders based solely on the practitioner's professional judgment"
+        },
+        {
+          "correct": false,
+          "text": "D.Limit stakeholders to those who can provide quantitative data"
+        }
+      ],
+      "question": "During the design phase, a practitioner is deciding which stakeholders to include. To ensure the assessment is 'participatory' as defined by the course objectives, which approach is most appropriate?",
+      "rationale": "Rationale: A participatory assessment requires a respectful, collaborative approach and seeking informed participation where appropriate."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Module 1/2/3, Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document all information shared by participants to ensure transparency"
+        },
+        {
+          "correct": false,
+          "text": "B.Document only information that supports the practitioner's initial hypothesis"
+        },
+        {
+          "correct": true,
+          "text": "C.Document only information that is relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "D.Document identifying information of all participants for verification purposes"
+        }
+      ],
+      "question": "When documenting findings for a community report, which standard must be met according to the 'Learning sequence' instructions in the guide?",
+      "rationale": "Rationale: The guide specifies that practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Prioritisation and communication",
+        "2 Marks",
+        "Ref: Module 3, Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To fulfill a legal requirement for public disclosure"
+        },
+        {
+          "correct": false,
+          "text": "B.To ensure the community is aware of the practitioner's authority"
+        },
+        {
+          "correct": true,
+          "text": "C.To validate findings and maintain a respectful, collaborative approach"
+        },
+        {
+          "correct": false,
+          "text": "D.To secure additional funding for the next phase of the project"
+        }
+      ],
+      "question": "In Module 3, 'Reporting back' is listed as a key activity. What is the primary ethical reason for this step based on the 'Practice notice' and 'Learning sequence'?",
+      "rationale": "Rationale: Reporting back is part of a respectful, collaborative approach that validates findings and ensures the assessment remains participatory."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Collecting and interpreting evidence",
+        "2 Marks",
+        "Ref: Assessment preparation, Review the distinction",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.The distinction between assets and deficits"
+        },
+        {
+          "correct": false,
+          "text": "B.The distinction between surveys and interviews"
+        },
+        {
+          "correct": false,
+          "text": "C.The distinction between local policy and national law"
+        },
+        {
+          "correct": false,
+          "text": "D.The distinction between ranking and validating"
+        }
+      ],
+      "question": "A practitioner is analyzing survey results and finds a high number of 'concerns' but very few 'strengths.' Which concept from the 'Assessment preparation' section should they apply to ensure a balanced assessment?",
+      "rationale": "Rationale: The guide asks learners to review the distinction between 'assets versus deficits' to ensure both are identified in a participatory assessment."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Practice notice / Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Complete the interview to gather all necessary evidence first"
+        },
+        {
+          "correct": true,
+          "text": "B.Follow urgent safeguarding procedures and the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Anonymize the data immediately to protect the participant's identity"
+        },
+        {
+          "correct": false,
+          "text": "D.Consult with the community stakeholders before taking any action"
+        }
+      ],
+      "question": "While conducting an interview, a participant discloses a situation that suggests an immediate safeguarding risk. According to the 'Practice notice' and 'Learning sequence', what is the priority?",
+      "rationale": "Rationale: The Practice notice states that the material does not replace urgent safeguarding procedures, and the sequence mandates using the correct escalation route when a concern exceeds one's role."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Module 1/2/3, Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgment is only used when local procedures are absent"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedures always override professional judgment in participatory design"
+        },
+        {
+          "correct": true,
+          "text": "C.They are complementary; judgment identifies needs while procedure guides steps"
+        },
+        {
+          "correct": false,
+          "text": "D.Professional judgment is used for data collection, while procedure is for reporting"
+        }
+      ],
+      "question": "Which of the following best describes the relationship between 'professional judgment' and 'local procedure' as described in the course structure?",
+      "rationale": "Rationale: The guide instructs learners to 'Notice where professional judgement is needed and where a local procedure must guide the next step,' implying they are complementary."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Prioritisation and communication",
+        "2 Marks",
+        "Ref: Module 3, Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Prioritize the data-driven needs as they are more objective and accurate"
+        },
+        {
+          "correct": false,
+          "text": "B.Prioritize the community's desires to ensure the assessment is participatory"
+        },
+        {
+          "correct": true,
+          "text": "C.Validate the findings with the community to separate observations from assumptions"
+        },
+        {
+          "correct": false,
+          "text": "D.Average the rankings of both the data and the community to find a middle ground"
+        }
+      ],
+      "question": "A practitioner has completed data collection and is now 'ranking needs.' They find that the community's priorities (e.g., a new park) differ significantly from the data-driven needs (e.g., high unemployment). How should they apply the 'Module 3' sequence to resolve this?",
+      "rationale": "Rationale: The sequence requires separating observations from assumptions and validating findings with the community to ensure the prioritisation is collaborative and accurate."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice",
+        "2 Marks",
+        "Ref: Practice notice / References and local adaptation",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Create a new referral pathway based on the current assessment findings"
+        },
+        {
+          "correct": true,
+          "text": "B.Consult the referral directories and policies for the specific delivery jurisdiction"
+        },
+        {
+          "correct": false,
+          "text": "C.Use the referral pathways from a previous project to ensure continuity"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait for the final action recommendations before making any referrals"
+        }
+      ],
+      "question": "In a complex assessment involving multiple agencies, a practitioner is unsure about the 'approved referral pathways.' According to the 'Practice notice', what is the most appropriate action?",
+      "rationale": "Rationale: The Practice notice and References section emphasize applying the law, organizational policy, and referral directories for the delivery jurisdiction."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1 & 2 Integration",
+        "2 Marks",
+        "Ref: Module 1 & 2, Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.That all survey data is converted into qualitative focus group themes"
+        },
+        {
+          "correct": false,
+          "text": "B.That identifying information is kept in the examples for verification"
+        },
+        {
+          "correct": true,
+          "text": "C.That strengths and concerns are identified while checking info with approved sources"
+        },
+        {
+          "correct": false,
+          "text": "D.That the practitioner's role is not explained to avoid biasing the participants"
+        }
+      ],
+      "question": "A practitioner is designing a mixed-method assessment. They decide to use surveys for broad data and focus groups for depth. To maintain 'data quality' (Module 2) and 'ethics' (Module 1), what must they ensure during the 'interpreting evidence' phase?",
+      "rationale": "Rationale: The learning sequence for both modules emphasizes identifying strengths as well as concerns and checking information with approved sources to ensure accuracy and relevance."
+    }
+  ]
+}

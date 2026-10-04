@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-019",
+  "title": "Student Support & Attendance",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\19-student-support-and-attendance-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1: Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.To identify attendance barriers and coordinate non-punitive interventions"
+        },
+        {
+          "correct": false,
+          "text": "B.To ensure legal compliance and facilitate student prosecution"
+        },
+        {
+          "correct": false,
+          "text": "C.To rank students based on their academic performance and attendance"
+        },
+        {
+          "correct": false,
+          "text": "D.To automate the process of sending truancy notices to parents"
+        }
+      ],
+      "question": "According to the Module 1 learning sequence, what is the primary purpose of understanding absenteeism?",
+      "rationale": "Rationale: The learning sequence for Module 1 explicitly states that practitioners should start by defining the purpose of understanding absenteeism in relation to the course outcome, which is identifying barriers and coordinating non-punitive interventions."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Course structure table",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.5 to 10 minutes"
+        },
+        {
+          "correct": true,
+          "text": "B.10 to 15 minutes"
+        },
+        {
+          "correct": false,
+          "text": "C.20 to 30 minutes"
+        },
+        {
+          "correct": false,
+          "text": "D.45 to 60 minutes"
+        }
+      ],
+      "question": "What is the suggested study time for each of the three modules in the Student Support & Attendance course?",
+      "rationale": "Rationale: The course structure table lists the suggested study time for Module 1, Module 2, and Module 3 as 10 to 15 minutes each."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 3: What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Culturally responsive communication"
+        },
+        {
+          "correct": false,
+          "text": "B.Early warning data"
+        },
+        {
+          "correct": true,
+          "text": "C.Escalation pathways"
+        },
+        {
+          "correct": false,
+          "text": "D.Home-school partnership"
+        }
+      ],
+      "question": "Which of the following is a core focus area specifically assigned to Module 3: Intervention and monitoring?",
+      "rationale": "Rationale: Module 3 focuses on individual plans, referrals, attendance review, and escalation pathways."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1/2/3: Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.All subjective observations and personal opinions"
+        },
+        {
+          "correct": true,
+          "text": "B.Only information that is relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Every detail shared by the family regardless of relevance"
+        },
+        {
+          "correct": false,
+          "text": "D.Information that supports the school's legal defense only"
+        }
+      ],
+      "question": "According to the documentation standards mentioned in the learning sequence, what information should be recorded?",
+      "rationale": "Rationale: The guide states that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 2: What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Attendance patterns"
+        },
+        {
+          "correct": false,
+          "text": "B.Safeguarding data"
+        },
+        {
+          "correct": true,
+          "text": "C.Home-school partnership"
+        },
+        {
+          "correct": false,
+          "text": "D.Escalation routes"
+        }
+      ],
+      "question": "In the context of Module 2, what is a key element of 'Student and family engagement'?",
+      "rationale": "Rationale: Module 2 focuses on assessment, strengths, home-school partnership, and culturally responsive communication."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Observations and assumptions"
+        },
+        {
+          "correct": false,
+          "text": "B.Legal requirements and school policy"
+        },
+        {
+          "correct": false,
+          "text": "C.Strengths and weaknesses"
+        },
+        {
+          "correct": false,
+          "text": "D.Referrals and escalations"
+        }
+      ],
+      "question": "A practitioner is reviewing attendance data and notices a student has missed several Mondays. Before taking action, the practitioner must distinguish between which two factors according to the learning sequence?",
+      "rationale": "Rationale: The learning sequence instructs practitioners to 'separate observations from assumptions' when examining the practical implications of attendance patterns."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Individual plans"
+        },
+        {
+          "correct": true,
+          "text": "B.Culturally responsive communication"
+        },
+        {
+          "correct": false,
+          "text": "C.Early warning data"
+        },
+        {
+          "correct": false,
+          "text": "D.Attendance review"
+        }
+      ],
+      "question": "During a home visit, a practitioner realizes the family's primary language is not English and there are cultural nuances affecting their view of school. Which focus area from Module 2 should the practitioner apply?",
+      "rationale": "Rationale: Culturally responsive communication is a specific focus area of Module 2 designed to address these types of engagement barriers."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1/2/3: Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Continue the intervention but seek advice later"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Refer the family to an external agency without a handover"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait for the next scheduled supervision meeting to take action"
+        }
+      ],
+      "question": "If a practitioner identifies a student support concern that exceeds their current authority or competence, what is the required action according to the course material?",
+      "rationale": "Rationale: The material states: 'When a concern exceeds your role, supervision, competence, or authority, pause and use the correct escalation route.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1/2/3: Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Ignore local procedures if professional judgement is stronger"
+        },
+        {
+          "correct": true,
+          "text": "B.Notice where a local procedure must guide the next step"
+        },
+        {
+          "correct": false,
+          "text": "C.Create a new procedure if the local one is outdated"
+        },
+        {
+          "correct": false,
+          "text": "D.Prioritize national law over all local school policies"
+        }
+      ],
+      "question": "When working through the learning sequence for any module, what is the first step a practitioner should take regarding local procedures?",
+      "rationale": "Rationale: The sequence begins by advising practitioners to 'Notice where professional judgement is needed and where a local procedure must guide the next step.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 3: Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.It reduces the practitioner's workload immediately"
+        },
+        {
+          "correct": true,
+          "text": "B.It protects the continuity of support for the student"
+        },
+        {
+          "correct": false,
+          "text": "C.It ensures the student is punished for non-attendance"
+        },
+        {
+          "correct": false,
+          "text": "D.It fulfills the legal requirement for data deletion"
+        }
+      ],
+      "question": "In the context of Module 3, what is the intended benefit of a 'clear handover' during the referral process?",
+      "rationale": "Rationale: The text states that 'A prompt referral and a clear handover can protect continuity of support.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Financial commitment to school programs"
+        },
+        {
+          "correct": true,
+          "text": "B.Informed participation where appropriate"
+        },
+        {
+          "correct": false,
+          "text": "C.A signed waiver of all privacy rights"
+        },
+        {
+          "correct": false,
+          "text": "D.Agreement with all school assumptions"
+        }
+      ],
+      "question": "A practitioner is using a 'respectful, collaborative approach' to engage a family. According to the learning sequence, what must they seek from the participants?",
+      "rationale": "Rationale: The sequence specifies that practitioners should 'seek informed participation where appropriate' while explaining their role."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Focus",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Module 1"
+        },
+        {
+          "correct": false,
+          "text": "B.Module 2"
+        },
+        {
+          "correct": false,
+          "text": "C.Module 3"
+        },
+        {
+          "correct": false,
+          "text": "D.The Course Activity Worksheet"
+        }
+      ],
+      "question": "Which module focuses on identifying 'early warning data' to prevent long-term absenteeism?",
+      "rationale": "Rationale: Module 1 (Understanding absenteeism) specifically lists 'early warning data' as one of its focus areas."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Practice notice / Module 1 Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Complete the 15-minute study module before acting"
+        },
+        {
+          "correct": true,
+          "text": "B.Apply urgent safeguarding procedures and escalation routes"
+        },
+        {
+          "correct": false,
+          "text": "C.Wait to discuss the observation in the next home-school partnership meeting"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the observation and wait for the student to return to school"
+        }
+      ],
+      "question": "A practitioner identifies a pattern of absenteeism that suggests a potential safeguarding risk. According to the 'Practice notice' and 'Learning sequence', what is the most critical priority?",
+      "rationale": "Rationale: The Practice notice states that the material does not replace urgent safeguarding procedures. The learning sequence adds that when a concern exceeds authority, one must use the correct escalation route. Safeguarding is a priority that requires following local procedures immediately."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: References and local adaptation",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The SWEEP Academy Course Content Outlines only"
+        },
+        {
+          "correct": true,
+          "text": "B.Employer or placement policy and supervision arrangements"
+        },
+        {
+          "correct": false,
+          "text": "C.General social media forums for school social workers"
+        },
+        {
+          "correct": false,
+          "text": "D.The learner's personal notes from previous unrelated courses"
+        }
+      ],
+      "question": "When applying the course sequence to a case study, the practitioner is asked to identify 'what you would verify locally'. Based on the 'References and local adaptation' section, which of the following is a primary source for this verification?",
+      "rationale": "Rationale: The guide lists the learner's employer or placement policy, supervision arrangements, and documentation standards as the local context for adaptation and verification."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Course structure / Learning objectives",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.From data analysis to engagement to intervention planning"
+        },
+        {
+          "correct": false,
+          "text": "B.From legal prosecution to family assessment to school exit"
+        },
+        {
+          "correct": false,
+          "text": "C.From academic grading to home visits to financial auditing"
+        },
+        {
+          "correct": false,
+          "text": "D.From teacher performance to student behavior to parent punishment"
+        }
+      ],
+      "question": "In the synthesis of all three modules, which approach best describes the transition from Module 1 to Module 3?",
+      "rationale": "Rationale: The course moves from identifying barriers (Module 1) to engaging the family (Module 2) and finally to coordinating supportive, non-punitive interventions and monitoring (Module 3)."
+    }
+  ]
+}

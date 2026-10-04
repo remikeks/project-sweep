@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-007",
+  "title": "Screening & Brief Intervention (SBIRT)",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\07-screening-and-brief-intervention-sbirt-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Substance-use continuum",
+        "1 Marks",
+        "Ref: Learning objectives",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To diagnose clinical substance use disorders"
+        },
+        {
+          "correct": true,
+          "text": "B.To identify and respond to risky substance use"
+        },
+        {
+          "correct": false,
+          "text": "C.To provide long-term psychotherapy for addiction"
+        },
+        {
+          "correct": false,
+          "text": "D.To enforce legal compliance for substance users"
+        }
+      ],
+      "question": "According to the SBIRT Learner Guide, what is the primary objective of using screening and brief-intervention principles?",
+      "rationale": "Rationale: The primary goal stated in the learning objectives is to identify and respond to risky substance use using SBIRT principles."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Course structure",
+        "1 Marks",
+        "Ref: Module 2 Focus",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Module 1: Substance-use continuum"
+        },
+        {
+          "correct": true,
+          "text": "B.Module 2: Screening and feedback"
+        },
+        {
+          "correct": false,
+          "text": "C.Module 3: Brief intervention and referral"
+        },
+        {
+          "correct": false,
+          "text": "D.Module 4: Clinical Supervision"
+        }
+      ],
+      "question": "Which module in the SBIRT sequence specifically focuses on the principles of validated tools and the interpretation of results?",
+      "rationale": "Rationale: Module 2 is dedicated to screening and feedback, which includes validated-tool principles, consent, and interpretation."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Principles",
+        "1 Marks",
+        "Ref: Module 1/2/3 Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Continue the intervention but document the limitations"
+        },
+        {
+          "correct": false,
+          "text": "B.Ask a colleague to take over the session immediately"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "D.Refer the client to a private specialist without consultation"
+        }
+      ],
+      "question": "When a practitioner encounters a concern that exceeds their role, competence, or authority, what is the required action according to the learning sequence?",
+      "rationale": "Rationale: The guide explicitly states that when a concern exceeds one's role or competence, the practitioner must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Brief intervention and referral",
+        "1 Marks",
+        "Ref: Module 3 Focus",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Stigma-free language"
+        },
+        {
+          "correct": false,
+          "text": "B.Validated-tool principles"
+        },
+        {
+          "correct": true,
+          "text": "C.Harm reduction"
+        },
+        {
+          "correct": false,
+          "text": "D.Risk factor identification"
+        }
+      ],
+      "question": "In the context of Module 3, which of the following is a core focus area alongside motivational conversation and referral matching?",
+      "rationale": "Rationale: Module 3 focuses on motivational conversation, harm reduction, referral matching, and documentation."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Principles",
+        "1 Marks",
+        "Ref: Module 1/2/3 Learning sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document all personal observations regardless of relevance"
+        },
+        {
+          "correct": true,
+          "text": "B.Document only information that is relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Ensure all family history is recorded for every screening"
+        },
+        {
+          "correct": false,
+          "text": "D.Keep documentation informal to maintain client trust"
+        }
+      ],
+      "question": "What is a fundamental requirement for documentation within the SBIRT framework as described in the guide?",
+      "rationale": "Rationale: The guide specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Substance-use continuum",
+        "1.5 Marks",
+        "Ref: Module 1 Focus",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Risk factors"
+        },
+        {
+          "correct": true,
+          "text": "B.Protective factors"
+        },
+        {
+          "correct": false,
+          "text": "C.Clinical symptoms"
+        },
+        {
+          "correct": false,
+          "text": "D.Screening outcomes"
+        }
+      ],
+      "question": "A practitioner is working with a client who has strong family support and a stable living environment. Within the 'Substance-use continuum' (Module 1), how should these factors be categorized?",
+      "rationale": "Rationale: Factors like family support and stable housing that mitigate risk are classified as protective factors."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Screening and feedback",
+        "1.5 Marks",
+        "Ref: Module 2 Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Assume the client is being dishonest and record it as a risk factor"
+        },
+        {
+          "correct": true,
+          "text": "B.Separate observations from assumptions and check the information with the person"
+        },
+        {
+          "correct": false,
+          "text": "C.Skip the questions to avoid damaging the collaborative relationship"
+        },
+        {
+          "correct": false,
+          "text": "D.Immediately escalate the case to a supervisor due to lack of cooperation"
+        }
+      ],
+      "question": "During a screening session, a practitioner notices the client appears hesitant to answer questions about alcohol frequency. According to the 'Screening and feedback' sequence, what is the most appropriate professional action?",
+      "rationale": "Rationale: The sequence advises practitioners to separate observations from assumptions and be clear about information that must be checked with the person."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Screening and feedback",
+        "1.5 Marks",
+        "Ref: Module 2 Learning sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Providing a direct warning about the dangers of substance use"
+        },
+        {
+          "correct": true,
+          "text": "B.Using a respectful, collaborative approach and explaining your role"
+        },
+        {
+          "correct": false,
+          "text": "C.Focusing solely on the scores of the validated tool without discussion"
+        },
+        {
+          "correct": false,
+          "text": "D.Directing the client to a referral pathway before discussing results"
+        }
+      ],
+      "question": "When applying 'Brief feedback' (Module 2), which approach best aligns with the learner guide's instructions?",
+      "rationale": "Rationale: The guide emphasizes using a respectful, collaborative approach and explaining your role to the person."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Brief intervention and referral",
+        "1.5 Marks",
+        "Ref: Practice notice / Module 3",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The practitioner's personal preference for treatment centers"
+        },
+        {
+          "correct": false,
+          "text": "B.The most expensive available private care options"
+        },
+        {
+          "correct": true,
+          "text": "C.Approved referral pathways and organisational policy"
+        },
+        {
+          "correct": false,
+          "text": "D.Any local community group regardless of their specialty"
+        }
+      ],
+      "question": "In Module 3, 'Referral matching' requires the practitioner to align the client's needs with which of the following?",
+      "rationale": "Rationale: Referral matching must be governed by organisational policy and approved referral pathways as per the practice notice and Module 3 focus."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Substance-use continuum",
+        "1.5 Marks",
+        "Ref: Module 1 Focus",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Labeling a client as an 'addict' in the official documentation"
+        },
+        {
+          "correct": true,
+          "text": "B.Describing a client's behavior as 'risky substance use' rather than 'abuse'"
+        },
+        {
+          "correct": false,
+          "text": "C.Using clinical jargon to distance the practitioner from the client"
+        },
+        {
+          "correct": false,
+          "text": "D.Avoiding any mention of substance use to prevent offending the client"
+        }
+      ],
+      "question": "Which of the following best illustrates the application of 'stigma-free language' as intended in Module 1?",
+      "rationale": "Rationale: Stigma-free language involves using person-first and non-judgmental terminology to describe substance use and the individual."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Brief intervention and referral",
+        "1.5 Marks",
+        "Ref: Module 3 Focus",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To convince the client to enter long-term residential rehab"
+        },
+        {
+          "correct": true,
+          "text": "B.To identify and respond to risky use through collaborative dialogue"
+        },
+        {
+          "correct": false,
+          "text": "C.To complete the documentation required for legal evidence"
+        },
+        {
+          "correct": false,
+          "text": "D.To interpret the scores of the validated screening tool"
+        }
+      ],
+      "question": "A practitioner is conducting a 'motivational conversation' (Module 3). What is the primary purpose of this interaction according to the SBIRT framework?",
+      "rationale": "Rationale: Motivational conversations are part of the brief intervention intended to respond to risky use and encourage positive change."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Brief intervention and referral",
+        "1.5 Marks",
+        "Ref: Module 3 Focus",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Validated-tool principles"
+        },
+        {
+          "correct": true,
+          "text": "B.Harm reduction"
+        },
+        {
+          "correct": false,
+          "text": "C.Stigma-free language"
+        },
+        {
+          "correct": false,
+          "text": "D.Referral matching"
+        }
+      ],
+      "question": "A practitioner identifies a client's substance use is escalating, but the client is not ready for total abstinence. The practitioner suggests strategies to reduce the frequency of use. This is an application of:",
+      "rationale": "Rationale: Harm reduction focuses on reducing the negative consequences of substance use, even if the user is not ready to stop entirely."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Principles",
+        "2 Marks",
+        "Ref: Module 1/2/3 Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.A copy of the client's entire medical history"
+        },
+        {
+          "correct": true,
+          "text": "B.A clear handover and prompt referral"
+        },
+        {
+          "correct": false,
+          "text": "C.A personal recommendation for a specific therapist"
+        },
+        {
+          "correct": false,
+          "text": "D.A verbal summary without written documentation to save time"
+        }
+      ],
+      "question": "A practitioner is transferring a client to a specialized service. To ensure 'continuity of support' as described in the guide, what must accompany the referral?",
+      "rationale": "Rationale: The guide states that a prompt referral and a clear handover can protect continuity of support."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Principles",
+        "2 Marks",
+        "Ref: Module 1/2/3 Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgement always overrides local procedure in clinical settings"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedure should be ignored if it conflicts with the practitioner's intuition"
+        },
+        {
+          "correct": true,
+          "text": "C.Practitioners must identify where judgement is needed and where procedure must guide the step"
+        },
+        {
+          "correct": false,
+          "text": "D.Validated tools eliminate the need for professional judgement entirely"
+        }
+      ],
+      "question": "When integrating 'professional judgement' with 'local procedure' during the screening process, which statement best reflects the learner guide's instruction?",
+      "rationale": "Rationale: The guide instructs practitioners to notice where professional judgement is needed and where a local procedure must guide the next step."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Brief intervention and referral",
+        "2 Marks",
+        "Ref: Module 3 Focus / Learning sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Re-administering the validated tool to ensure accuracy"
+        },
+        {
+          "correct": true,
+          "text": "B.Documenting relevant, accurate information and ensuring a clear handover if referred"
+        },
+        {
+          "correct": false,
+          "text": "C.Asking the client to sign a contract for total abstinence"
+        },
+        {
+          "correct": false,
+          "text": "D.Conducting a deep-dive into the client's childhood trauma"
+        }
+      ],
+      "question": "In a complex case where a client presents with multiple risk factors and a high screening score, what is the final step in the 'Brief intervention and referral' sequence before concluding the session?",
+      "rationale": "Rationale: The sequence for Module 3 concludes with documentation and, if necessary, escalation/referral with a clear handover."
+    }
+  ]
+}

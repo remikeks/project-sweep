@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-021 — School-Wide Systems & Policy
+  - generic: SWP-021
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: School systems and climate"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the primary focus when examining school systems and climate?
+  - generic: A.
+  - text: Stakeholders, equity impact, and communication
+  - generic: B.
+  - text: Discipline, inclusion, wellbeing, and safeguarding
+  - generic: C.
+  - text: Restorative practices and multi-tiered systems
+  - generic: D.
+  - text: Evaluation and sustaining change
+  - generic: "Rationale: Module 1 specifically lists discipline, inclusion, wellbeing, safeguarding, and data-informed problem identification as its core focus areas."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3: Learning Sequence"
+  - generic: simple
+  - paragraph: When a practitioner encounters a concern that exceeds their role, competence, or authority, what is the mandated action according to the course guidelines?
+  - generic: A.
+  - text: Document the concern and wait for the next scheduled meeting
+  - generic: B.
+  - text: Attempt to resolve the issue independently to gain experience
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Consult with a peer who has similar experience levels
+  - generic: "Rationale: The guide states that when a concern exceeds one's role or authority, they must pause and use the correct escalation route to ensure continuity of support."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: Whole-school change"
+  - generic: simple
+  - paragraph: Which module is specifically designed to address restorative practices and multi-tiered systems?
+  - generic: A.
+  - text: "Module 1: School systems and climate"
+  - generic: B.
+  - text: "Module 2: Policy analysis and improvement"
+  - generic: C.
+  - text: "Module 3: Whole-school change"
+  - generic: D.
+  - text: The Course Activity Worksheet
+  - generic: "Rationale: Module 3 focuses on restorative practices, multi-tiered systems, evaluation, and sustaining change."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3: Learning Sequence"
+  - generic: simple
+  - paragraph: What are the three core requirements for documenting information in a school social work setting as per the learning sequence?
+  - generic: A.
+  - text: Relevant, accurate, and necessary
+  - generic: B.
+  - text: Comprehensive, subjective, and detailed
+  - generic: C.
+  - text: Confidential, lengthy, and observational
+  - generic: D.
+  - text: Brief, informal, and accessible
+  - generic: "Rationale: The text specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: Policy analysis and improvement"
+  - generic: simple
+  - paragraph: "Which of the following is a key focus area of Module 2: Policy analysis and improvement?"
+  - generic: A.
+  - text: Data-informed problem identification
+  - generic: B.
+  - text: Equity impact
+  - generic: C.
+  - text: Restorative practices
+  - generic: D.
+  - text: Safeguarding procedures
+  - generic: "Rationale: Module 2 focuses on stakeholders, equity impact, implementation planning, and communication."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Learning Sequence"
+  - generic: intermediate
+  - paragraph: A social worker is reviewing school attendance data and notices a trend of high absenteeism among a specific demographic. According to Module 1, what is the first step in a data-informed problem identification process?
+  - generic: A.
+  - text: Immediately implement a new attendance policy for those students
+  - generic: B.
+  - text: Separate observations from assumptions and identify strengths
+  - generic: C.
+  - text: Assume the absenteeism is due to lack of parental engagement
+  - generic: D.
+  - text: Refer all absent students to the local safeguarding authority
+  - generic: "Rationale: The learning sequence emphasizes separating observations from assumptions and identifying strengths as well as concerns before proceeding."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Learning Sequence"
+  - generic: intermediate
+  - paragraph: When planning the implementation of a new school-wide policy, which action aligns with the 'respectful, collaborative approach' described in Module 2?
+  - generic: A.
+  - text: Drafting the policy in isolation to ensure professional standards are met
+  - generic: B.
+  - text: Explaining your role and seeking informed participation
+  - generic: C.
+  - text: Mandating participation from all staff members without prior notice
+  - generic: D.
+  - text: Focusing solely on the legal implications of the policy
+  - generic: "Rationale: The sequence advises practitioners to explain their role and seek informed participation where appropriate to maintain a collaborative approach."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: Learning Sequence"
+  - generic: intermediate
+  - paragraph: In the context of Module 3, why is a 'clear handover' emphasized when a concern exceeds a practitioner's competence?
+  - generic: A.
+  - text: To reduce the practitioner's legal liability
+  - generic: B.
+  - text: To ensure the practitioner no longer has to deal with the case
+  - generic: C.
+  - text: To protect continuity of support
+  - generic: D.
+  - text: To satisfy administrative documentation requirements
+  - generic: "Rationale: The text explicitly states that a prompt referral and a clear handover can protect continuity of support."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: Learning Sequence"
+  - generic: intermediate
+  - paragraph: A school is transitioning to a restorative practice model. According to the 'Sustaining Change' focus in Module 3, what is a critical step for the practitioner?
+  - generic: A.
+  - text: Evaluating the impact and planning for long-term sustainability
+  - generic: B.
+  - text: Replacing all existing discipline policies immediately
+  - generic: C.
+  - text: Focusing only on the initial training phase
+  - generic: D.
+  - text: Ignoring local procedures that conflict with restorative ideals
+  - generic: "Rationale: The learning sequence for Module 3 highlights evaluation and sustaining change as practical implications that must be examined."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Learning Sequence"
+  - generic: intermediate
+  - paragraph: When conducting a policy analysis (Module 2), how should a practitioner handle information that is not yet verified?
+  - generic: A.
+  - text: Include it in the report as a 'likely fact'
+  - generic: B.
+  - text: Be clear about information that must be checked with an approved source
+  - generic: C.
+  - text: Discard the information entirely to avoid bias
+  - generic: D.
+  - text: Use professional judgment to decide if verification is necessary
+  - generic: "Rationale: The sequence states practitioners must be clear about information that must be checked with a person, family, colleague, or approved source."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Learning Sequence"
+  - generic: intermediate
+  - paragraph: In Module 1, what is the relationship between professional judgment and local procedures?
+  - generic: A.
+  - text: Professional judgment always overrides local procedures
+  - generic: B.
+  - text: Local procedures are only suggestions for new practitioners
+  - generic: C.
+  - text: Practitioners must identify where judgment is needed versus where procedures guide steps
+  - generic: D.
+  - text: Professional judgment is only used when local procedures are absent
+  - generic: "Rationale: The guide instructs learners to notice where professional judgement is needed and where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: What to pay attention to"
+  - generic: intermediate
+  - paragraph: Which of the following best describes the 'Equity Impact' focus in Module 2?
+  - generic: A.
+  - text: Ensuring all students receive the exact same disciplinary consequences
+  - generic: B.
+  - text: Analyzing how policies affect different groups to ensure fairness and inclusion
+  - generic: C.
+  - text: Focusing exclusively on the financial cost of policy implementation
+  - generic: D.
+  - text: Prioritizing the needs of the majority of stakeholders
+  - generic: "Rationale: Equity impact is a core focus of Module 2, aimed at ensuring policies are analyzed for their fairness and outcomes across different groups."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 3: Learning Sequences"
+  - generic: hard
+  - paragraph: A practitioner is tasked with evaluating a multi-tiered system of support (MTSS). Based on the synthesis of Modules 1 and 3, which approach is most rigorous?
+  - generic: A.
+  - text: Relying on anecdotal evidence from staff to determine if the system is working
+  - generic: B.
+  - text: Using data-informed identification to separate observations from assumptions while evaluating sustainability
+  - generic: C.
+  - text: Focusing only on Tier 1 interventions as they affect the largest number of students
+  - generic: D.
+  - text: Implementing changes to the system before the current evaluation cycle is complete
+  - generic: "Rationale: Rigorous evaluation requires combining data-informed problem identification (Module 1) with the evaluation and sustaining change principles (Module 3) while separating observations from assumptions."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice / Module 3"
+  - generic: hard
+  - paragraph: During a whole-school change initiative, a practitioner identifies a conflict between a new restorative practice and an existing safeguarding policy. What is the most appropriate course of action based on the 'Practice Notice'?
+  - generic: A.
+  - text: Modify the safeguarding policy to better align with restorative principles
+  - generic: B.
+  - text: Prioritize the restorative practice to ensure the school climate improves
+  - generic: C.
+  - text: Apply the law and safeguarding procedures that govern the setting
+  - generic: D.
+  - text: Wait for the next policy review cycle to address the discrepancy
+  - generic: "Rationale: The Practice Notice states that the material does not replace urgent safeguarding, clinical, or legal procedures. Safeguarding and law govern the setting."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2: Practice Reflection"
+  - generic: hard
+  - paragraph: In the context of 'Policy Analysis and Improvement', how does the requirement to 'remove identifying information' from examples impact the 'Practice Reflection' process?
+  - generic: A.
+  - text: It prevents the practitioner from using real-world data in their analysis
+  - generic: B.
+  - text: It allows for safe reflection on policy while maintaining confidentiality and professional standards
+  - generic: C.
+  - text: It is only necessary when the policy analysis is being shared with external stakeholders
+  - generic: D.
+  - text: It is a suggestion rather than a requirement for de-identified practice situations
+  - generic: "Rationale: The guide requires removing identifying information to ensure safety and confidentiality while reflecting on how to work through policy analysis safely."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

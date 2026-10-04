@@ -181,7 +181,9 @@ class CourseAsset(models.Model):
     title = models.CharField(max_length=200)
     asset_type = models.CharField(max_length=20, choices=AssetType.choices)
     file = models.FileField(upload_to="course_assets/%Y/%m/", blank=True)
-    external_url = models.URLField(blank=True)
+    # Private Storage URLs include the project, bucket and generated object
+    # path; they can legitimately exceed Django's URLField default of 200.
+    external_url = models.URLField(blank=True, max_length=500)
     storage_path = models.CharField(
         max_length=500,
         blank=True,

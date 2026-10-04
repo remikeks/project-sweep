@@ -1,0 +1,305 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-013 — Community Needs Assessment
+  - generic: SWP-013
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Assessment Design"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, Learning sequence"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the first step a practitioner should take when starting the assessment design process?
+  - generic: A.
+  - text: Define the purpose of assessment design
+  - generic: B.
+  - text: Select a mixed-method data collection tool
+  - generic: C.
+  - text: Identify all potential community stakeholders
+  - generic: D.
+  - text: Draft a preliminary budget for the assessment
+  - generic: "Rationale: The learning sequence for Module 1 explicitly states to 'Start by defining the purpose of assessment design in relation to the course outcome.'"
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 2: Collecting and interpreting evidence"
+  - generic: 1 Marks
+  - generic: "Ref: Assessment preparation, Review the distinction"
+  - generic: simple
+  - paragraph: In the context of 'Collecting and interpreting evidence' (Module 2), what is the primary focus of asset mapping?
+  - generic: A.
+  - text: Identifying community deficits and gaps
+  - generic: B.
+  - text: Identifying community strengths and resources
+  - generic: C.
+  - text: Calculating the financial cost of services
+  - generic: D.
+  - text: Mapping the geographical boundaries of a district
+  - generic: "Rationale: Asset mapping is used to identify the strengths and resources within a community, as opposed to focusing solely on deficits or needs."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3, Learning sequence"
+  - generic: simple
+  - paragraph: When a practitioner encounters a concern that exceeds their role, competence, or authority during an assessment, what is the required action?
+  - generic: A.
+  - text: Document the concern and continue the assessment
+  - generic: B.
+  - text: Ask a colleague to handle the issue informally
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Wait until the final report to mention the concern
+  - generic: "Rationale: The guide across all modules specifies that when a concern exceeds one's role or competence, they must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 3: Prioritisation and communication"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, What to pay attention to"
+  - generic: simple
+  - paragraph: "Which of the following is a key focus area specifically mentioned for Module 3: Prioritisation and communication?"
+  - generic: A.
+  - text: Mixed-method choices
+  - generic: B.
+  - text: Validating findings
+  - generic: C.
+  - text: Asset mapping
+  - generic: D.
+  - text: Stakeholder identification
+  - generic: "Rationale: Module 3 focuses on ranking needs, validating findings, reporting back, and action recommendations."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: TRUE_FALSE
+  - generic: General Practice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, Learning sequence"
+  - generic: simple
+  - paragraph: "True or False: The learner guide states that professional judgment should be used to replace local procedures when conducting an assessment."
+  - generic: A.
+  - text: "True"
+  - generic: B.
+  - text: "False"
+  - generic: "Rationale: The guide states practitioners should notice where professional judgment is needed AND where a local procedure must guide the next step; it does not suggest replacing procedures with judgment."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 2: Collecting and interpreting evidence"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is conducting a focus group and notices that several participants are making claims about a local service that contradict official records. According to the 'Collecting and interpreting evidence' module, how should the practitioner handle this?
+  - generic: A.
+  - text: Correct the participants immediately using the official records
+  - generic: B.
+  - text: Identify the information as something that must be checked with an approved source
+  - generic: C.
+  - text: Exclude the participants' claims from the final report to ensure data quality
+  - generic: D.
+  - text: Assume the participants are correct because it is a participatory assessment
+  - generic: "Rationale: The guide emphasizes the need to separate observations from assumptions and be clear about information that must be checked with an approved source."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 1: Assessment Design"
+  - generic: 2 Marks
+  - generic: "Ref: Learning objectives / Module 1 Learning sequence"
+  - generic: intermediate
+  - paragraph: During the design phase, a practitioner is deciding which stakeholders to include. To ensure the assessment is 'participatory' as defined by the course objectives, which approach is most appropriate?
+  - generic: A.
+  - text: Only include stakeholders who have legal authority over the community
+  - generic: B.
+  - text: Use a respectful, collaborative approach to seek informed participation
+  - generic: C.
+  - text: Select stakeholders based solely on the practitioner's professional judgment
+  - generic: D.
+  - text: Limit stakeholders to those who can provide quantitative data
+  - generic: "Rationale: A participatory assessment requires a respectful, collaborative approach and seeking informed participation where appropriate."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3, Learning sequence"
+  - generic: intermediate
+  - paragraph: When documenting findings for a community report, which standard must be met according to the 'Learning sequence' instructions in the guide?
+  - generic: A.
+  - text: Document all information shared by participants to ensure transparency
+  - generic: B.
+  - text: Document only information that supports the practitioner's initial hypothesis
+  - generic: C.
+  - text: Document only information that is relevant, accurate, and necessary
+  - generic: D.
+  - text: Document identifying information of all participants for verification purposes
+  - generic: "Rationale: The guide specifies that practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 3: Prioritisation and communication"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning sequence"
+  - generic: intermediate
+  - paragraph: In Module 3, 'Reporting back' is listed as a key activity. What is the primary ethical reason for this step based on the 'Practice notice' and 'Learning sequence'?
+  - generic: A.
+  - text: To fulfill a legal requirement for public disclosure
+  - generic: B.
+  - text: To ensure the community is aware of the practitioner's authority
+  - generic: C.
+  - text: To validate findings and maintain a respectful, collaborative approach
+  - generic: D.
+  - text: To secure additional funding for the next phase of the project
+  - generic: "Rationale: Reporting back is part of a respectful, collaborative approach that validates findings and ensures the assessment remains participatory."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 2: Collecting and interpreting evidence"
+  - generic: 2 Marks
+  - generic: "Ref: Assessment preparation, Review the distinction"
+  - generic: intermediate
+  - paragraph: A practitioner is analyzing survey results and finds a high number of 'concerns' but very few 'strengths.' Which concept from the 'Assessment preparation' section should they apply to ensure a balanced assessment?
+  - generic: A.
+  - text: The distinction between assets and deficits
+  - generic: B.
+  - text: The distinction between surveys and interviews
+  - generic: C.
+  - text: The distinction between local policy and national law
+  - generic: D.
+  - text: The distinction between ranking and validating
+  - generic: "Rationale: The guide asks learners to review the distinction between 'assets versus deficits' to ensure both are identified in a participatory assessment."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice / Learning sequence"
+  - generic: intermediate
+  - paragraph: While conducting an interview, a participant discloses a situation that suggests an immediate safeguarding risk. According to the 'Practice notice' and 'Learning sequence', what is the priority?
+  - generic: A.
+  - text: Complete the interview to gather all necessary evidence first
+  - generic: B.
+  - text: Follow urgent safeguarding procedures and the correct escalation route
+  - generic: C.
+  - text: Anonymize the data immediately to protect the participant's identity
+  - generic: D.
+  - text: Consult with the community stakeholders before taking any action
+  - generic: "Rationale: The Practice notice states that the material does not replace urgent safeguarding procedures, and the sequence mandates using the correct escalation route when a concern exceeds one's role."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3, Learning sequence"
+  - generic: intermediate
+  - paragraph: Which of the following best describes the relationship between 'professional judgment' and 'local procedure' as described in the course structure?
+  - generic: A.
+  - text: Professional judgment is only used when local procedures are absent
+  - generic: B.
+  - text: Local procedures always override professional judgment in participatory design
+  - generic: C.
+  - text: They are complementary; judgment identifies needs while procedure guides steps
+  - generic: D.
+  - text: Professional judgment is used for data collection, while procedure is for reporting
+  - generic: "Rationale: The guide instructs learners to 'Notice where professional judgement is needed and where a local procedure must guide the next step,' implying they are complementary."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 3: Prioritisation and communication"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning sequence"
+  - generic: hard
+  - paragraph: A practitioner has completed data collection and is now 'ranking needs.' They find that the community's priorities (e.g., a new park) differ significantly from the data-driven needs (e.g., high unemployment). How should they apply the 'Module 3' sequence to resolve this?
+  - generic: A.
+  - text: Prioritize the data-driven needs as they are more objective and accurate
+  - generic: B.
+  - text: Prioritize the community's desires to ensure the assessment is participatory
+  - generic: C.
+  - text: Validate the findings with the community to separate observations from assumptions
+  - generic: D.
+  - text: Average the rankings of both the data and the community to find a middle ground
+  - generic: "Rationale: The sequence requires separating observations from assumptions and validating findings with the community to ensure the prioritisation is collaborative and accurate."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice / References and local adaptation"
+  - generic: hard
+  - paragraph: In a complex assessment involving multiple agencies, a practitioner is unsure about the 'approved referral pathways.' According to the 'Practice notice', what is the most appropriate action?
+  - generic: A.
+  - text: Create a new referral pathway based on the current assessment findings
+  - generic: B.
+  - text: Consult the referral directories and policies for the specific delivery jurisdiction
+  - generic: C.
+  - text: Use the referral pathways from a previous project to ensure continuity
+  - generic: D.
+  - text: Wait for the final action recommendations before making any referrals
+  - generic: "Rationale: The Practice notice and References section emphasize applying the law, organizational policy, and referral directories for the delivery jurisdiction."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: Module 1 & 2 Integration
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 2, Learning sequence"
+  - generic: hard
+  - paragraph: A practitioner is designing a mixed-method assessment. They decide to use surveys for broad data and focus groups for depth. To maintain 'data quality' (Module 2) and 'ethics' (Module 1), what must they ensure during the 'interpreting evidence' phase?
+  - generic: A.
+  - text: That all survey data is converted into qualitative focus group themes
+  - generic: B.
+  - text: That identifying information is kept in the examples for verification
+  - generic: C.
+  - text: That strengths and concerns are identified while checking info with approved sources
+  - generic: D.
+  - text: That the practitioner's role is not explained to avoid biasing the participants
+  - generic: "Rationale: The learning sequence for both modules emphasizes identifying strengths as well as concerns and checking information with approved sources to ensure accuracy and relevance."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-020",
+  "title": "Behavioral & Emotional Support in Schools",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\20-behavioral-and-emotional-support-in-schools-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Behaviour as Communication",
+        "1 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Behavior as a choice requiring discipline"
+        },
+        {
+          "correct": true,
+          "text": "B.Behavior as communication"
+        },
+        {
+          "correct": false,
+          "text": "C.Behavior as a clinical symptom"
+        },
+        {
+          "correct": false,
+          "text": "D.Behavior as a violation of school policy"
+        }
+      ],
+      "question": "According to the Module 1 learning sequence, what is the primary lens through which student behavior should be interpreted to avoid punitive assumptions?",
+      "rationale": "Rationale: The course explicitly frames behavior as a form of communication, encouraging practitioners to look beyond the surface action to understand underlying needs related to development, trauma, or neurodiversity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3 Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Subjective, detailed, and permanent"
+        },
+        {
+          "correct": true,
+          "text": "B.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Comprehensive, clinical, and shared"
+        },
+        {
+          "correct": false,
+          "text": "D.Brief, observational, and punitive"
+        }
+      ],
+      "question": "When documenting information regarding a student's behavioral needs, which three criteria must the information meet according to the learner guide?",
+      "rationale": "Rationale: The guide states that practitioners should document only information that is 'relevant, accurate, and necessary for the purpose of the work.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Tiered Supports",
+        "1 Marks",
+        "Ref: Module 2, What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Neurodiversity and culture"
+        },
+        {
+          "correct": false,
+          "text": "B.Student voice and caregiver partnership"
+        },
+        {
+          "correct": true,
+          "text": "C.Crisis response and referrals"
+        },
+        {
+          "correct": false,
+          "text": "D.Avoiding punitive assumptions"
+        }
+      ],
+      "question": "Which of the following is a core focus area specifically assigned to Module 2: Tiered Supports?",
+      "rationale": "Rationale: Module 2 focuses on classroom strategies, individual plans, crisis response, and referrals."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Collaboration and Review",
+        "1 Marks",
+        "Ref: Module 3, What to pay attention to",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To assign grades to student behavior"
+        },
+        {
+          "correct": true,
+          "text": "B.To review the effectiveness of interventions and support"
+        },
+        {
+          "correct": false,
+          "text": "C.To determine if a student should be suspended"
+        },
+        {
+          "correct": false,
+          "text": "D.To document teacher performance"
+        }
+      ],
+      "question": "In the context of Module 3, what is the primary purpose of 'Outcome Monitoring'?",
+      "rationale": "Rationale: Outcome monitoring is listed under Module 3 as a key component of the collaboration and review process to track the effectiveness of supports."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3 Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Attempt to resolve the issue independently first"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Wait for the next scheduled supervision meeting"
+        },
+        {
+          "correct": false,
+          "text": "D.Ask a fellow student for their perspective"
+        }
+      ],
+      "question": "What should a practitioner do immediately when a student's concern exceeds their specific role, competence, or authority?",
+      "rationale": "Rationale: The guide instructs practitioners to 'pause and use the correct escalation route' when a concern exceeds their role or competence."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Behaviour as Communication",
+        "2 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Assume the student is being defiant and apply a classroom sanction"
+        },
+        {
+          "correct": true,
+          "text": "B.Separate the observation from assumptions and consider trauma-informed support"
+        },
+        {
+          "correct": false,
+          "text": "C.Immediately refer the student to a clinical psychologist for diagnosis"
+        },
+        {
+          "correct": false,
+          "text": "D.Ignore the behavior as it is not disruptive to other students"
+        }
+      ],
+      "question": "A student who has experienced significant trauma is frequently 'zoning out' during lessons. Applying the principles of Module 1, how should the practitioner proceed?",
+      "rationale": "Rationale: Practitioners are encouraged to separate observations (zoning out) from assumptions and identify strengths/concerns while considering trauma-informed implications."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Tiered Supports",
+        "2 Marks",
+        "Ref: Practice Notice / Module 2 Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Follow the teacher's suggestion to maintain professional collaboration"
+        },
+        {
+          "correct": true,
+          "text": "B.Prioritize the local procedure and safeguarding policy over the suggestion"
+        },
+        {
+          "correct": false,
+          "text": "C.Implement the strategy but do not document it"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait for student voice to decide which policy to follow"
+        }
+      ],
+      "question": "During a Tier 2 intervention planning session, a teacher suggests a strategy that contradicts the school's local safeguarding policy. What is the practitioner's responsibility?",
+      "rationale": "Rationale: The guide emphasizes that practitioners must apply the law and organizational policy, and notice where a local procedure must guide the next step."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Collaboration and Review",
+        "2 Marks",
+        "Ref: Module 3, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Directing caregivers on exactly what to do at home"
+        },
+        {
+          "correct": true,
+          "text": "B.Seeking informed participation and using a collaborative approach"
+        },
+        {
+          "correct": false,
+          "text": "C.Limiting information sharing to protect school liability"
+        },
+        {
+          "correct": false,
+          "text": "D.Only contacting caregivers when a crisis response is required"
+        }
+      ],
+      "question": "When engaging in 'Caregiver Partnership' as outlined in Module 3, which approach best aligns with the course's learning sequence?",
+      "rationale": "Rationale: The sequence advises using a respectful, collaborative approach, explaining your role, and seeking informed participation."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Behaviour as Communication",
+        "2 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Accept the previous records as factual history"
+        },
+        {
+          "correct": false,
+          "text": "B.Delete the previous records immediately to protect the student"
+        },
+        {
+          "correct": true,
+          "text": "C.Identify the assumptions and verify the information with an approved source"
+        },
+        {
+          "correct": false,
+          "text": "D.Report the previous staff member for unprofessional conduct"
+        }
+      ],
+      "question": "A practitioner is reviewing a student's file and notices several 'punitive assumptions' recorded by a previous staff member. What is the most appropriate action based on Module 1?",
+      "rationale": "Rationale: The sequence requires practitioners to separate observations from assumptions and be clear about information that must be checked with an approved source."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Tiered Supports",
+        "2 Marks",
+        "Ref: Module 2, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To end the practitioner's legal liability for the student"
+        },
+        {
+          "correct": false,
+          "text": "B.To ensure the student does not have to repeat their story"
+        },
+        {
+          "correct": true,
+          "text": "C.To protect the continuity of support for the student"
+        },
+        {
+          "correct": false,
+          "text": "D.To fulfill the documentation requirements for funding"
+        }
+      ],
+      "question": "In the 'Tiered Supports' model, what is the primary function of a 'clear handover' during a referral?",
+      "rationale": "Rationale: The guide states that a prompt referral and clear handover can 'protect continuity of support.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Collaboration and Review",
+        "2 Marks",
+        "Ref: Module 1 & 3 Integration",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Advise the teacher to lower their academic expectations"
+        },
+        {
+          "correct": true,
+          "text": "B.Collaboratively examine the practical implications of the student's neurodiversity"
+        },
+        {
+          "correct": false,
+          "text": "C.Suggest the student be moved to a different classroom immediately"
+        },
+        {
+          "correct": false,
+          "text": "D.Focus only on the teacher's emotional wellbeing during the consultation"
+        }
+      ],
+      "question": "A practitioner is facilitating a 'Teacher Consultation' (Module 3). The teacher is frustrated by a student's neurodivergent traits. How should the practitioner apply the course sequence?",
+      "rationale": "Rationale: The practitioner should help the teacher examine the practical implications of neurodiversity while maintaining a respectful, collaborative approach."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Collaboration and Review",
+        "2 Marks",
+        "Ref: Module 3, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Allowing the student to choose their own disciplinary consequences"
+        },
+        {
+          "correct": true,
+          "text": "B.Involving the student in the review of their support plan and goals"
+        },
+        {
+          "correct": false,
+          "text": "C.Asking the student to document their own behavioral incidents"
+        },
+        {
+          "correct": false,
+          "text": "D.Providing the student with a copy of the school's policy handbook"
+        }
+      ],
+      "question": "Which action best demonstrates the 'Student Voice' component of Module 3 in a practice setting?",
+      "rationale": "Rationale: Student voice involves seeking informed participation and ensuring the student's perspective is part of the collaborative approach."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "2 Marks",
+        "Ref: Practice Notice / Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgment should always override local procedure in cultural matters"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedure should be ignored if it is not trauma-informed"
+        },
+        {
+          "correct": true,
+          "text": "C.Use professional judgment to notice needs, but let local procedure guide the next steps"
+        },
+        {
+          "correct": false,
+          "text": "D.Only follow local procedure if the student's family gives explicit consent"
+        }
+      ],
+      "question": "A practitioner is faced with a complex case where a student's cultural background and a recent traumatic event are influencing their behavior. How should professional judgment be balanced with local procedure?",
+      "rationale": "Rationale: The guide emphasizes that while professional judgment is needed to interpret behavior (trauma/culture), local procedures and legal requirements must guide the actual steps taken, especially in safeguarding."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1 & 2 Integration",
+        "2 Marks",
+        "Ref: Module 1 & 2 Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Standardizing the plan to match other students with similar diagnoses"
+        },
+        {
+          "correct": true,
+          "text": "B.Identifying strengths and verifying information with the student or family"
+        },
+        {
+          "correct": false,
+          "text": "C.Ensuring the plan focuses primarily on reducing disruptive classroom behaviors"
+        },
+        {
+          "correct": false,
+          "text": "D.Submitting the plan for legal review before discussing it with the teacher"
+        }
+      ],
+      "question": "When applying the 'Behaviour as Communication' framework to a student with neurodivergent traits, what is the most critical step before finalizing an individual support plan?",
+      "rationale": "Rationale: The sequence emphasizes identifying strengths as well as concerns and being clear about information that must be checked with the person or family before proceeding."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Synthesis of Modules 2 & 3",
+        "2 Marks",
+        "Ref: Module 2 & 3 Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Immediately escalate to a Tier 3 crisis response"
+        },
+        {
+          "correct": false,
+          "text": "B.Document the failure and close the student's file"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause to check if the concern exceeds their role and consult local policy"
+        },
+        {
+          "correct": false,
+          "text": "D.Blame the teacher's implementation of the strategy in the documentation"
+        }
+      ],
+      "question": "In a situation where outcome monitoring (Module 3) shows that a Tier 2 classroom strategy (Module 2) is failing, what is the practitioner's first priority according to the course structure?",
+      "rationale": "Rationale: The practitioner must first determine if the concern exceeds their role/competence (requiring escalation) or if a collaborative review with the teacher/caregiver is needed to adjust the plan."
+    }
+  ]
+}

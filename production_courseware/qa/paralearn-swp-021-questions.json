@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-021",
+  "title": "School-Wide Systems & Policy",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\21-school-wide-systems-and-policy-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1: School systems and climate",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Stakeholders, equity impact, and communication"
+        },
+        {
+          "correct": true,
+          "text": "B.Discipline, inclusion, wellbeing, and safeguarding"
+        },
+        {
+          "correct": false,
+          "text": "C.Restorative practices and multi-tiered systems"
+        },
+        {
+          "correct": false,
+          "text": "D.Evaluation and sustaining change"
+        }
+      ],
+      "question": "According to the Module 1 learning sequence, what is the primary focus when examining school systems and climate?",
+      "rationale": "Rationale: Module 1 specifically lists discipline, inclusion, wellbeing, safeguarding, and data-informed problem identification as its core focus areas."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, and 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document the concern and wait for the next scheduled meeting"
+        },
+        {
+          "correct": false,
+          "text": "B.Attempt to resolve the issue independently to gain experience"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "D.Consult with a peer who has similar experience levels"
+        }
+      ],
+      "question": "When a practitioner encounters a concern that exceeds their role, competence, or authority, what is the mandated action according to the course guidelines?",
+      "rationale": "Rationale: The guide states that when a concern exceeds one's role or authority, they must pause and use the correct escalation route to ensure continuity of support."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 3: Whole-school change",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Module 1: School systems and climate"
+        },
+        {
+          "correct": false,
+          "text": "B.Module 2: Policy analysis and improvement"
+        },
+        {
+          "correct": true,
+          "text": "C.Module 3: Whole-school change"
+        },
+        {
+          "correct": false,
+          "text": "D.The Course Activity Worksheet"
+        }
+      ],
+      "question": "Which module is specifically designed to address restorative practices and multi-tiered systems?",
+      "rationale": "Rationale: Module 3 focuses on restorative practices, multi-tiered systems, evaluation, and sustaining change."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, and 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "B.Comprehensive, subjective, and detailed"
+        },
+        {
+          "correct": false,
+          "text": "C.Confidential, lengthy, and observational"
+        },
+        {
+          "correct": false,
+          "text": "D.Brief, informal, and accessible"
+        }
+      ],
+      "question": "What are the three core requirements for documenting information in a school social work setting as per the learning sequence?",
+      "rationale": "Rationale: The text specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 2: Policy analysis and improvement",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Data-informed problem identification"
+        },
+        {
+          "correct": true,
+          "text": "B.Equity impact"
+        },
+        {
+          "correct": false,
+          "text": "C.Restorative practices"
+        },
+        {
+          "correct": false,
+          "text": "D.Safeguarding procedures"
+        }
+      ],
+      "question": "Which of the following is a key focus area of Module 2: Policy analysis and improvement?",
+      "rationale": "Rationale: Module 2 focuses on stakeholders, equity impact, implementation planning, and communication."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Immediately implement a new attendance policy for those students"
+        },
+        {
+          "correct": true,
+          "text": "B.Separate observations from assumptions and identify strengths"
+        },
+        {
+          "correct": false,
+          "text": "C.Assume the absenteeism is due to lack of parental engagement"
+        },
+        {
+          "correct": false,
+          "text": "D.Refer all absent students to the local safeguarding authority"
+        }
+      ],
+      "question": "A social worker is reviewing school attendance data and notices a trend of high absenteeism among a specific demographic. According to Module 1, what is the first step in a data-informed problem identification process?",
+      "rationale": "Rationale: The learning sequence emphasizes separating observations from assumptions and identifying strengths as well as concerns before proceeding."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Drafting the policy in isolation to ensure professional standards are met"
+        },
+        {
+          "correct": true,
+          "text": "B.Explaining your role and seeking informed participation"
+        },
+        {
+          "correct": false,
+          "text": "C.Mandating participation from all staff members without prior notice"
+        },
+        {
+          "correct": false,
+          "text": "D.Focusing solely on the legal implications of the policy"
+        }
+      ],
+      "question": "When planning the implementation of a new school-wide policy, which action aligns with the 'respectful, collaborative approach' described in Module 2?",
+      "rationale": "Rationale: The sequence advises practitioners to explain their role and seek informed participation where appropriate to maintain a collaborative approach."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To reduce the practitioner's legal liability"
+        },
+        {
+          "correct": false,
+          "text": "B.To ensure the practitioner no longer has to deal with the case"
+        },
+        {
+          "correct": true,
+          "text": "C.To protect continuity of support"
+        },
+        {
+          "correct": false,
+          "text": "D.To satisfy administrative documentation requirements"
+        }
+      ],
+      "question": "In the context of Module 3, why is a 'clear handover' emphasized when a concern exceeds a practitioner's competence?",
+      "rationale": "Rationale: The text explicitly states that a prompt referral and a clear handover can protect continuity of support."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Evaluating the impact and planning for long-term sustainability"
+        },
+        {
+          "correct": false,
+          "text": "B.Replacing all existing discipline policies immediately"
+        },
+        {
+          "correct": false,
+          "text": "C.Focusing only on the initial training phase"
+        },
+        {
+          "correct": false,
+          "text": "D.Ignoring local procedures that conflict with restorative ideals"
+        }
+      ],
+      "question": "A school is transitioning to a restorative practice model. According to the 'Sustaining Change' focus in Module 3, what is a critical step for the practitioner?",
+      "rationale": "Rationale: The learning sequence for Module 3 highlights evaluation and sustaining change as practical implications that must be examined."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Include it in the report as a 'likely fact'"
+        },
+        {
+          "correct": true,
+          "text": "B.Be clear about information that must be checked with an approved source"
+        },
+        {
+          "correct": false,
+          "text": "C.Discard the information entirely to avoid bias"
+        },
+        {
+          "correct": false,
+          "text": "D.Use professional judgment to decide if verification is necessary"
+        }
+      ],
+      "question": "When conducting a policy analysis (Module 2), how should a practitioner handle information that is not yet verified?",
+      "rationale": "Rationale: The sequence states practitioners must be clear about information that must be checked with a person, family, colleague, or approved source."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgment always overrides local procedures"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedures are only suggestions for new practitioners"
+        },
+        {
+          "correct": true,
+          "text": "C.Practitioners must identify where judgment is needed versus where procedures guide steps"
+        },
+        {
+          "correct": false,
+          "text": "D.Professional judgment is only used when local procedures are absent"
+        }
+      ],
+      "question": "In Module 1, what is the relationship between professional judgment and local procedures?",
+      "rationale": "Rationale: The guide instructs learners to notice where professional judgement is needed and where a local procedure must guide the next step."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: What to pay attention to",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Ensuring all students receive the exact same disciplinary consequences"
+        },
+        {
+          "correct": true,
+          "text": "B.Analyzing how policies affect different groups to ensure fairness and inclusion"
+        },
+        {
+          "correct": false,
+          "text": "C.Focusing exclusively on the financial cost of policy implementation"
+        },
+        {
+          "correct": false,
+          "text": "D.Prioritizing the needs of the majority of stakeholders"
+        }
+      ],
+      "question": "Which of the following best describes the 'Equity Impact' focus in Module 2?",
+      "rationale": "Rationale: Equity impact is a core focus of Module 2, aimed at ensuring policies are analyzed for their fairness and outcomes across different groups."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 1 & 3: Learning Sequences",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Relying on anecdotal evidence from staff to determine if the system is working"
+        },
+        {
+          "correct": true,
+          "text": "B.Using data-informed identification to separate observations from assumptions while evaluating sustainability"
+        },
+        {
+          "correct": false,
+          "text": "C.Focusing only on Tier 1 interventions as they affect the largest number of students"
+        },
+        {
+          "correct": false,
+          "text": "D.Implementing changes to the system before the current evaluation cycle is complete"
+        }
+      ],
+      "question": "A practitioner is tasked with evaluating a multi-tiered system of support (MTSS). Based on the synthesis of Modules 1 and 3, which approach is most rigorous?",
+      "rationale": "Rationale: Rigorous evaluation requires combining data-informed problem identification (Module 1) with the evaluation and sustaining change principles (Module 3) while separating observations from assumptions."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Practice Notice / Module 3",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Modify the safeguarding policy to better align with restorative principles"
+        },
+        {
+          "correct": false,
+          "text": "B.Prioritize the restorative practice to ensure the school climate improves"
+        },
+        {
+          "correct": true,
+          "text": "C.Apply the law and safeguarding procedures that govern the setting"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait for the next policy review cycle to address the discrepancy"
+        }
+      ],
+      "question": "During a whole-school change initiative, a practitioner identifies a conflict between a new restorative practice and an existing safeguarding policy. What is the most appropriate course of action based on the 'Practice Notice'?",
+      "rationale": "Rationale: The Practice Notice states that the material does not replace urgent safeguarding, clinical, or legal procedures. Safeguarding and law govern the setting."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2: Practice Reflection",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.It prevents the practitioner from using real-world data in their analysis"
+        },
+        {
+          "correct": true,
+          "text": "B.It allows for safe reflection on policy while maintaining confidentiality and professional standards"
+        },
+        {
+          "correct": false,
+          "text": "C.It is only necessary when the policy analysis is being shared with external stakeholders"
+        },
+        {
+          "correct": false,
+          "text": "D.It is a suggestion rather than a requirement for de-identified practice situations"
+        }
+      ],
+      "question": "In the context of 'Policy Analysis and Improvement', how does the requirement to 'remove identifying information' from examples impact the 'Practice Reflection' process?",
+      "rationale": "Rationale: The guide requires removing identifying information to ensure safety and confidentiality while reflecting on how to work through policy analysis safely."
+    }
+  ]
+}

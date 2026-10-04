@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-007 — Screening & Brief Intervention (SBIRT)
+  - generic: SWP-007
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Substance-use continuum"
+  - generic: 1 Marks
+  - generic: "Ref: Learning objectives"
+  - generic: simple
+  - paragraph: According to the SBIRT Learner Guide, what is the primary objective of using screening and brief-intervention principles?
+  - generic: A.
+  - text: To diagnose clinical substance use disorders
+  - generic: B.
+  - text: To identify and respond to risky substance use
+  - generic: C.
+  - text: To provide long-term psychotherapy for addiction
+  - generic: D.
+  - text: To enforce legal compliance for substance users
+  - generic: "Rationale: The primary goal stated in the learning objectives is to identify and respond to risky substance use using SBIRT principles."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: Course structure
+  - generic: 1 Marks
+  - generic: "Ref: Module 2 Focus"
+  - generic: simple
+  - paragraph: Which module in the SBIRT sequence specifically focuses on the principles of validated tools and the interpretation of results?
+  - generic: A.
+  - text: "Module 1: Substance-use continuum"
+  - generic: B.
+  - text: "Module 2: Screening and feedback"
+  - generic: C.
+  - text: "Module 3: Brief intervention and referral"
+  - generic: D.
+  - text: "Module 4: Clinical Supervision"
+  - generic: "Rationale: Module 2 is dedicated to screening and feedback, which includes validated-tool principles, consent, and interpretation."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning sequence"
+  - generic: simple
+  - paragraph: When a practitioner encounters a concern that exceeds their role, competence, or authority, what is the required action according to the learning sequence?
+  - generic: A.
+  - text: Continue the intervention but document the limitations
+  - generic: B.
+  - text: Ask a colleague to take over the session immediately
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Refer the client to a private specialist without consultation
+  - generic: "Rationale: The guide explicitly states that when a concern exceeds one's role or competence, the practitioner must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 3: Brief intervention and referral"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3 Focus"
+  - generic: simple
+  - paragraph: In the context of Module 3, which of the following is a core focus area alongside motivational conversation and referral matching?
+  - generic: A.
+  - text: Stigma-free language
+  - generic: B.
+  - text: Validated-tool principles
+  - generic: C.
+  - text: Harm reduction
+  - generic: D.
+  - text: Risk factor identification
+  - generic: "Rationale: Module 3 focuses on motivational conversation, harm reduction, referral matching, and documentation."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning sequence"
+  - generic: simple
+  - paragraph: What is a fundamental requirement for documentation within the SBIRT framework as described in the guide?
+  - generic: A.
+  - text: Document all personal observations regardless of relevance
+  - generic: B.
+  - text: Document only information that is relevant, accurate, and necessary
+  - generic: C.
+  - text: Ensure all family history is recorded for every screening
+  - generic: D.
+  - text: Keep documentation informal to maintain client trust
+  - generic: "Rationale: The guide specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Substance-use continuum"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1 Focus"
+  - generic: intermediate
+  - paragraph: A practitioner is working with a client who has strong family support and a stable living environment. Within the 'Substance-use continuum' (Module 1), how should these factors be categorized?
+  - generic: A.
+  - text: Risk factors
+  - generic: B.
+  - text: Protective factors
+  - generic: C.
+  - text: Clinical symptoms
+  - generic: D.
+  - text: Screening outcomes
+  - generic: "Rationale: Factors like family support and stable housing that mitigate risk are classified as protective factors."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Screening and feedback"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2 Learning sequence"
+  - generic: intermediate
+  - paragraph: During a screening session, a practitioner notices the client appears hesitant to answer questions about alcohol frequency. According to the 'Screening and feedback' sequence, what is the most appropriate professional action?
+  - generic: A.
+  - text: Assume the client is being dishonest and record it as a risk factor
+  - generic: B.
+  - text: Separate observations from assumptions and check the information with the person
+  - generic: C.
+  - text: Skip the questions to avoid damaging the collaborative relationship
+  - generic: D.
+  - text: Immediately escalate the case to a supervisor due to lack of cooperation
+  - generic: "Rationale: The sequence advises practitioners to separate observations from assumptions and be clear about information that must be checked with the person."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 2: Screening and feedback"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2 Learning sequence"
+  - generic: intermediate
+  - paragraph: When applying 'Brief feedback' (Module 2), which approach best aligns with the learner guide's instructions?
+  - generic: A.
+  - text: Providing a direct warning about the dangers of substance use
+  - generic: B.
+  - text: Using a respectful, collaborative approach and explaining your role
+  - generic: C.
+  - text: Focusing solely on the scores of the validated tool without discussion
+  - generic: D.
+  - text: Directing the client to a referral pathway before discussing results
+  - generic: "Rationale: The guide emphasizes using a respectful, collaborative approach and explaining your role to the person."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 3: Brief intervention and referral"
+  - generic: 1.5 Marks
+  - generic: "Ref: Practice notice / Module 3"
+  - generic: intermediate
+  - paragraph: In Module 3, 'Referral matching' requires the practitioner to align the client's needs with which of the following?
+  - generic: A.
+  - text: The practitioner's personal preference for treatment centers
+  - generic: B.
+  - text: The most expensive available private care options
+  - generic: C.
+  - text: Approved referral pathways and organisational policy
+  - generic: D.
+  - text: Any local community group regardless of their specialty
+  - generic: "Rationale: Referral matching must be governed by organisational policy and approved referral pathways as per the practice notice and Module 3 focus."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 1: Substance-use continuum"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1 Focus"
+  - generic: intermediate
+  - paragraph: Which of the following best illustrates the application of 'stigma-free language' as intended in Module 1?
+  - generic: A.
+  - text: Labeling a client as an 'addict' in the official documentation
+  - generic: B.
+  - text: Describing a client's behavior as 'risky substance use' rather than 'abuse'
+  - generic: C.
+  - text: Using clinical jargon to distance the practitioner from the client
+  - generic: D.
+  - text: Avoiding any mention of substance use to prevent offending the client
+  - generic: "Rationale: Stigma-free language involves using person-first and non-judgmental terminology to describe substance use and the individual."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Module 3: Brief intervention and referral"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3 Focus"
+  - generic: intermediate
+  - paragraph: A practitioner is conducting a 'motivational conversation' (Module 3). What is the primary purpose of this interaction according to the SBIRT framework?
+  - generic: A.
+  - text: To convince the client to enter long-term residential rehab
+  - generic: B.
+  - text: To identify and respond to risky use through collaborative dialogue
+  - generic: C.
+  - text: To complete the documentation required for legal evidence
+  - generic: D.
+  - text: To interpret the scores of the validated screening tool
+  - generic: "Rationale: Motivational conversations are part of the brief intervention intended to respond to risky use and encourage positive change."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 3: Brief intervention and referral"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3 Focus"
+  - generic: intermediate
+  - paragraph: "A practitioner identifies a client's substance use is escalating, but the client is not ready for total abstinence. The practitioner suggests strategies to reduce the frequency of use. This is an application of:"
+  - generic: A.
+  - text: Validated-tool principles
+  - generic: B.
+  - text: Harm reduction
+  - generic: C.
+  - text: Stigma-free language
+  - generic: D.
+  - text: Referral matching
+  - generic: "Rationale: Harm reduction focuses on reducing the negative consequences of substance use, even if the user is not ready to stop entirely."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning sequence"
+  - generic: hard
+  - paragraph: A practitioner is transferring a client to a specialized service. To ensure 'continuity of support' as described in the guide, what must accompany the referral?
+  - generic: A.
+  - text: A copy of the client's entire medical history
+  - generic: B.
+  - text: A clear handover and prompt referral
+  - generic: C.
+  - text: A personal recommendation for a specific therapist
+  - generic: D.
+  - text: A verbal summary without written documentation to save time
+  - generic: "Rationale: The guide states that a prompt referral and a clear handover can protect continuity of support."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning sequence"
+  - generic: hard
+  - paragraph: When integrating 'professional judgement' with 'local procedure' during the screening process, which statement best reflects the learner guide's instruction?
+  - generic: A.
+  - text: Professional judgement always overrides local procedure in clinical settings
+  - generic: B.
+  - text: Local procedure should be ignored if it conflicts with the practitioner's intuition
+  - generic: C.
+  - text: Practitioners must identify where judgement is needed and where procedure must guide the step
+  - generic: D.
+  - text: Validated tools eliminate the need for professional judgement entirely
+  - generic: "Rationale: The guide instructs practitioners to notice where professional judgement is needed and where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 3: Brief intervention and referral"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3 Focus / Learning sequence"
+  - generic: hard
+  - paragraph: In a complex case where a client presents with multiple risk factors and a high screening score, what is the final step in the 'Brief intervention and referral' sequence before concluding the session?
+  - generic: A.
+  - text: Re-administering the validated tool to ensure accuracy
+  - generic: B.
+  - text: Documenting relevant, accurate information and ensuring a clear handover if referred
+  - generic: C.
+  - text: Asking the client to sign a contract for total abstinence
+  - generic: D.
+  - text: Conducting a deep-dive into the client's childhood trauma
+  - generic: "Rationale: The sequence for Module 3 concludes with documentation and, if necessary, escalation/referral with a clear handover."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

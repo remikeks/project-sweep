@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-018",
+  "title": "Interdisciplinary Collaboration in Healthcare",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\18-interdisciplinary-collaboration-in-healthcare-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Team-based Care",
+        "1 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Define the purpose of team-based care in relation to the course outcome"
+        },
+        {
+          "correct": false,
+          "text": "B.Immediately escalate any concerns to a supervisor"
+        },
+        {
+          "correct": false,
+          "text": "C.Document all observations regardless of relevance"
+        },
+        {
+          "correct": false,
+          "text": "D.Identify the social determinants of health for the specific patient"
+        }
+      ],
+      "question": "According to the Module 1 learning sequence, what is the first step a practitioner should take when beginning team-based care?",
+      "rationale": "Rationale: The learning sequence for Module 1 explicitly states to 'Start by defining the purpose of team-based care in relation to the course outcome.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "Ref: Module 1, 2, and 3 Learning Sequences",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Comprehensive, subjective, and timely"
+        },
+        {
+          "correct": true,
+          "text": "B.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Brief, clinical, and confidential"
+        },
+        {
+          "correct": false,
+          "text": "D.Verifiable, exhaustive, and shared"
+        }
+      ],
+      "question": "Which of the following are the three criteria for documenting information in a collaborative healthcare setting as outlined in the learner guide?",
+      "rationale": "Rationale: Across all modules, the guide specifies that practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "Ref: Module 1, 2, and 3 Learning Sequences",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Continue working but document the concern for later review"
+        },
+        {
+          "correct": false,
+          "text": "B.Ask a colleague from a different discipline to take over informally"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "D.Modify the patient's care plan to fit within the current scope"
+        }
+      ],
+      "question": "What action must a practitioner take when a concern exceeds their specific role, competence, or authority?",
+      "rationale": "Rationale: The guide instructs practitioners to 'pause and use the correct escalation route' when a concern exceeds their role, supervision, competence, or authority."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Ethics and Quality Improvement",
+        "1 Marks",
+        "Ref: Module 3, Focus Section",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Case conferences, handovers, and advocacy"
+        },
+        {
+          "correct": false,
+          "text": "B.Roles, scope, and social determinants of health"
+        },
+        {
+          "correct": true,
+          "text": "C.Confidentiality, consent, equity, burnout prevention, and reflective practice"
+        },
+        {
+          "correct": false,
+          "text": "D.Referrals, shared goals, and constructive disagreement"
+        }
+      ],
+      "question": "Module 3 focuses on which specific set of topics within interdisciplinary collaboration?",
+      "rationale": "Rationale: Module 3 is explicitly defined as focusing on confidentiality, consent, equity, burnout prevention, and reflective practice."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "Ref: Module 1, 2, and 3 Learning Sequences",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.It reduces the administrative workload of the social worker"
+        },
+        {
+          "correct": true,
+          "text": "B.It protects continuity of support"
+        },
+        {
+          "correct": false,
+          "text": "C.It eliminates the need for further documentation"
+        },
+        {
+          "correct": false,
+          "text": "D.It ensures the social worker remains the primary point of contact"
+        }
+      ],
+      "question": "According to the guide, what is the primary benefit of a prompt referral and a clear handover?",
+      "rationale": "Rationale: The text states that 'A prompt referral and a clear handover can protect continuity of support.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Communication and Coordination",
+        "1.5 Marks",
+        "Ref: Module 2, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Accept the statement as a clinical observation to maintain team harmony"
+        },
+        {
+          "correct": false,
+          "text": "B.Document the statement exactly as said without further verification"
+        },
+        {
+          "correct": true,
+          "text": "C.Separate the observation from the assumption and identify what needs to be checked"
+        },
+        {
+          "correct": false,
+          "text": "D.Immediately report the team member for unethical behavior"
+        }
+      ],
+      "question": "A social worker is attending a case conference where a team member makes a statement about a patient's motivation based on a single interaction. Following the Module 2 learning sequence, how should the social worker respond?",
+      "rationale": "Rationale: The guide advises practitioners to 'Separate observations from assumptions' when examining the practical implications of case conferences."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Team-based Care",
+        "1.5 Marks",
+        "Ref: Module 1, Focus Section",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Burnout prevention"
+        },
+        {
+          "correct": true,
+          "text": "B.Social determinants of health"
+        },
+        {
+          "correct": false,
+          "text": "C.Reflective practice"
+        },
+        {
+          "correct": false,
+          "text": "D.Constructive disagreement"
+        }
+      ],
+      "question": "During a multidisciplinary meeting, a social worker realizes that the proposed discharge plan does not account for the patient's lack of stable housing. Which core concept from Module 1 is being applied when the social worker raises this concern?",
+      "rationale": "Rationale: Housing is a classic example of the 'social determinants of health,' which is a primary focus of Module 1."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 1: Team-based Care",
+        "1.5 Marks",
+        "Ref: Module 1, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Follow the local procedure regardless of professional scope"
+        },
+        {
+          "correct": true,
+          "text": "B.Use professional judgement to determine if the local procedure applies to your role"
+        },
+        {
+          "correct": false,
+          "text": "C.Ignore the local procedure and follow only professional standards"
+        },
+        {
+          "correct": false,
+          "text": "D.Perform the task but do not document it"
+        }
+      ],
+      "question": "When working in a team, a social worker is asked to perform a task that falls outside their professional scope but is required by a local procedure. According to the 'What to pay attention to' section, what is the priority?",
+      "rationale": "Rationale: The guide emphasizes noticing where 'professional judgement is needed and where a local procedure must guide the next step,' while also protecting the social-work perspective."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 2: Communication and Coordination",
+        "1.5 Marks",
+        "Ref: Module 2, Focus and Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Withdraw from the team to avoid conflict"
+        },
+        {
+          "correct": true,
+          "text": "B.Use a respectful, collaborative approach to engage in constructive disagreement"
+        },
+        {
+          "correct": false,
+          "text": "C.Submit to the team's decision to ensure a unified front"
+        },
+        {
+          "correct": false,
+          "text": "D.Advocate for the client privately without informing the team"
+        }
+      ],
+      "question": "In the context of Module 2, how should a social worker approach a situation where they disagree with a team's decision regarding a client's advocacy needs?",
+      "rationale": "Rationale: Module 2 focuses on 'constructive disagreement' and using a 'respectful, collaborative approach' while protecting the social-work perspective."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Ethics and Quality Improvement",
+        "1.5 Marks",
+        "Ref: Module 3, Focus Section",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Equity"
+        },
+        {
+          "correct": false,
+          "text": "B.Burnout prevention"
+        },
+        {
+          "correct": true,
+          "text": "C.Reflective practice"
+        },
+        {
+          "correct": false,
+          "text": "D.Informed participation"
+        }
+      ],
+      "question": "A social worker is reviewing their own reactions to a difficult case to improve future performance. Which element of Module 3 are they practicing?",
+      "rationale": "Rationale: Reflective practice involves examining one's own work and reactions to improve quality and ethical standards, as listed in Module 3."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1.5 Marks",
+        "Ref: Module 2, Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.The requirement for information to be accurate"
+        },
+        {
+          "correct": true,
+          "text": "B.The requirement for information to be necessary and relevant"
+        },
+        {
+          "correct": false,
+          "text": "C.The requirement for informed participation"
+        },
+        {
+          "correct": false,
+          "text": "D.The requirement for professional judgement"
+        }
+      ],
+      "question": "When documenting a case conference, a social worker includes details about a patient's estranged relative that are not relevant to the current medical intervention. This violates which principle of documentation mentioned in the guide?",
+      "rationale": "Rationale: The guide states to document only information that is 'relevant, accurate, and necessary.' Including irrelevant details violates the 'relevant' and 'necessary' criteria."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Ethics and Quality Improvement",
+        "1.5 Marks",
+        "Ref: Module 3, Focus Section",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Confidentiality"
+        },
+        {
+          "correct": false,
+          "text": "B.Equity"
+        },
+        {
+          "correct": true,
+          "text": "C.Burnout prevention"
+        },
+        {
+          "correct": false,
+          "text": "D.Consent"
+        }
+      ],
+      "question": "A social worker feels overwhelmed by the emotional weight of their caseload and seeks supervision to discuss their wellbeing. This action aligns with which focus area of Module 3?",
+      "rationale": "Rationale: Seeking support for the emotional impact of work is a key component of 'burnout prevention' listed in Module 3."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Module 3: Ethics and Quality Improvement",
+        "2 Marks",
+        "Ref: Module 3, Focus Section",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Confidentiality and Burnout prevention"
+        },
+        {
+          "correct": true,
+          "text": "B.Consent and Equity"
+        },
+        {
+          "correct": false,
+          "text": "C.Reflective practice and Scope"
+        },
+        {
+          "correct": false,
+          "text": "D.Shared goals and Documentation"
+        }
+      ],
+      "question": "A team is deciding on a treatment plan for a patient with limited English proficiency. The social worker insists on waiting for a certified interpreter before obtaining consent. This scenario best demonstrates the synthesis of which two Module 3 concepts?",
+      "rationale": "Rationale: Ensuring the patient understands the process to give valid consent while addressing the barrier to fair treatment (language) combines 'Consent' and 'Equity'."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Course Objectives",
+        "2 Marks",
+        "Ref: Learning Objectives",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Prioritize the hospital's organizational policy over the social-work perspective"
+        },
+        {
+          "correct": true,
+          "text": "B.Work effectively in the team while protecting the social-work perspective"
+        },
+        {
+          "correct": false,
+          "text": "C.Defer all decision-making to the clinical lead to avoid disagreement"
+        },
+        {
+          "correct": false,
+          "text": "D.Focus solely on the social-work perspective and ignore the team's shared goals"
+        }
+      ],
+      "question": "In a complex discharge planning meeting, a social worker must balance the hospital's goal of 'rapid bed turnover' with the patient's need for 'safe housing.' According to the course objectives, what is the social worker's primary responsibility in this interdisciplinary setting?",
+      "rationale": "Rationale: The primary objective is to 'Work effectively and ethically in healthcare teams while protecting the social-work perspective.' This requires balancing team goals with professional values."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "2 Marks",
+        "Ref: Practice Notice / Module 3 Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Follow the local policy as it always replaces professional standards in a clinical setting"
+        },
+        {
+          "correct": false,
+          "text": "B.Ignore the policy and follow professional standards to avoid legal repercussions"
+        },
+        {
+          "correct": true,
+          "text": "C.Pause, use the correct escalation route, and check the local policy against legal requirements"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the contradiction but proceed with the referral to ensure continuity of care"
+        }
+      ],
+      "question": "A social worker identifies that a local hospital policy for referrals contradicts the professional standards for patient confidentiality. Based on the 'Practice notice' and 'Learning sequence,' what is the most appropriate course of action?",
+      "rationale": "Rationale: The guide requires applying law and policy but also protecting the social-work perspective and using escalation routes when concerns exceed authority or competence. A contradiction between policy and ethics requires a pause and consultation/escalation."
+    }
+  ]
+}

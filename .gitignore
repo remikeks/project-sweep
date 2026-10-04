@@ -7,3 +7,6 @@ db.sqlite3
 .env.local
 venv/
 .vercel/
+.deck-build/
+**/.deck-build/
+*.log

@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-023 — Diversion Programs & Restorative Justice
+  - generic: SWP-023
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Alternatives to Incarceration"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: According to Module 1, which of the following is a primary focus when considering alternatives to incarceration?
+  - generic: A.
+  - text: Eligibility
+  - generic: B.
+  - text: Facilitator neutrality
+  - generic: C.
+  - text: Net widening
+  - generic: D.
+  - text: Victim safety
+  - generic: "Rationale: Module 1 explicitly lists 'Eligibility' as one of the five key areas to pay attention to when studying alternatives to incarceration."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 2: Restorative Justice Principles"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: In the context of restorative justice principles (Module 2), what is the primary requirement for participation in the process?
+  - generic: A.
+  - text: Mandatory attendance for all parties
+  - generic: B.
+  - text: Voluntary participation
+  - generic: C.
+  - text: Legal representation for the facilitator
+  - generic: D.
+  - text: Financial restitution prior to the meeting
+  - generic: "Rationale: Voluntary participation is a core principle of restorative justice as outlined in the Module 2 focus areas."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 3: Case Coordination"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: What does the term 'net widening' refer to within the context of case coordination in Module 3?
+  - generic: A.
+  - text: Increasing the number of staff in a coordination team
+  - generic: B.
+  - text: Expanding the geographical reach of a program
+  - generic: C.
+  - text: Inadvertently increasing the number of people controlled by the justice system
+  - generic: D.
+  - text: Broadening the types of crimes eligible for restorative justice
+  - generic: "Rationale: Net widening is a critical concept in case coordination that involves ensuring programs don't inadvertently bring more people into the criminal justice system who otherwise wouldn't be there."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3, 'Learning sequence'"
+  - generic: simple
+  - paragraph: According to the learning sequence across all modules, what is the required action when a concern exceeds a practitioner's role, competence, or authority?
+  - generic: A.
+  - text: Continue the process but document the concern
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Seek advice from the victim's family
+  - generic: D.
+  - text: Modify the service plan independently
+  - generic: "Rationale: The guide states that when a concern exceeds one's role or competence, the practitioner must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Module 2: Restorative Justice Principles"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: Which principle in Module 2 ensures that the person leading a restorative justice session does not take sides?
+  - generic: A.
+  - text: Accountability
+  - generic: B.
+  - text: Repair
+  - generic: C.
+  - text: Facilitator neutrality
+  - generic: D.
+  - text: Informed participation
+  - generic: "Rationale: Facilitator neutrality is the specific principle mentioned in Module 2 that addresses the unbiased role of the person managing the restorative process."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Alternatives to Incarceration"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: A practitioner is reviewing a case for a diversion program and notices that the client's demographic group is underrepresented in successful completions. Which focus area from Module 1 is most relevant to addressing this?
+  - generic: A.
+  - text: Evidence
+  - generic: B.
+  - text: Equity
+  - generic: C.
+  - text: Eligibility
+  - generic: D.
+  - text: Aims
+  - generic: "Rationale: Equity involves examining whether programs are fair and accessible to all groups, making it the most relevant focus area for addressing demographic disparities."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Restorative Justice Principles"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, 'Learning sequence' and 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: During a restorative justice session, a facilitator observes that the victim appears increasingly distressed and fearful of the offender's presence. Based on Module 2, what is the priority action?
+  - generic: A.
+  - text: Encourage the victim to continue for the sake of accountability
+  - generic: B.
+  - text: Prioritize victim safety and use the correct escalation route
+  - generic: C.
+  - text: Ask the offender to apologize immediately to reduce fear
+  - generic: D.
+  - text: Document the fear but complete the session to ensure repair
+  - generic: "Rationale: Victim safety is a core focus. If a concern exceeds the facilitator's role or safety is compromised, they must pause and follow escalation/safeguarding procedures."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 3: Case Coordination"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: When developing a service plan in Module 3, why is it necessary to 'separate observations from assumptions'?
+  - generic: A.
+  - text: To ensure the plan is based on factual evidence rather than bias
+  - generic: B.
+  - text: To speed up the referral process to external agencies
+  - generic: C.
+  - text: To allow the practitioner to use more professional judgement
+  - generic: D.
+  - text: To meet the minimum word count for documentation standards
+  - generic: "Rationale: The learning sequence emphasizes separating observations from assumptions to ensure that the information documented is relevant, accurate, and necessary for the work."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 1: Alternatives to Incarceration"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: A practitioner is unsure if a specific community-based support service is appropriate for a client's needs. According to the Module 1 learning sequence, what should be their first step?
+  - generic: A.
+  - text: Refer the client immediately to avoid delays
+  - generic: B.
+  - text: Check the information with an approved source or local procedure
+  - generic: C.
+  - text: Assume the service is appropriate if the client agrees
+  - generic: D.
+  - text: Wait for the next supervision session before taking any action
+  - generic: "Rationale: The sequence advises noticing where professional judgement is needed and where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 2: Restorative Justice Principles"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to' and 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: In Module 2, 'accountability' in a restorative justice context is best demonstrated by which of the following actions?
+  - generic: A.
+  - text: The offender accepting a prison sentence without appeal
+  - generic: B.
+  - text: The offender acknowledging harm and participating in repair
+  - generic: C.
+  - text: The facilitator deciding the appropriate punishment for the offender
+  - generic: D.
+  - text: The victim forgiving the offender regardless of the outcome
+  - generic: "Rationale: Accountability in restorative justice involves the offender taking responsibility for their actions and participating in the 'repair' of the harm caused."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Module 3: Case Coordination"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to' and 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: Which element of case coordination (Module 3) ensures that a client does not 'fall through the cracks' after a referral is made?
+  - generic: A.
+  - text: Eligibility screening
+  - generic: B.
+  - text: Monitoring
+  - generic: C.
+  - text: Net widening
+  - generic: D.
+  - text: Facilitator neutrality
+  - generic: "Rationale: Monitoring and a clear handover (as mentioned in the escalation/referral section) are essential for maintaining continuity of support."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 2, & 3, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: A practitioner is documenting a case and includes details about a client's family history that are not related to the current diversion goal. Which practice standard from the learning sequence is being violated?
+  - generic: A.
+  - text: Professional judgement
+  - generic: B.
+  - text: Informed participation
+  - generic: C.
+  - text: Necessity and relevance in documentation
+  - generic: D.
+  - text: Collaborative approach
+  - generic: "Rationale: The guide states practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 3: Case Coordination"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: hard
+  - paragraph: A jurisdiction introduces a new 'low-level' diversion program. After one year, data shows that the total number of people under state supervision has increased, even though the prison population remained stable. This scenario is a classic example of which risk identified in Module 3?
+  - generic: A.
+  - text: Lack of evidence-based support
+  - generic: B.
+  - text: Net widening
+  - generic: C.
+  - text: Failure of facilitator neutrality
+  - generic: D.
+  - text: Inequitable eligibility
+  - generic: "Rationale: This is 'net widening.' It occurs when diversion programs are used for individuals who would have otherwise been released or received a lighter touch, thereby increasing the total number of people in the system."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Module 2: Restorative Justice Principles"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: hard
+  - paragraph: You are coordinating a case where the offender is willing to participate in restorative justice, but the victim is hesitant. The offender's lawyer pressures you to 'convince' the victim so the offender can avoid a record. Which combination of principles must guide your response?
+  - generic: A.
+  - text: Accountability and Repair
+  - generic: B.
+  - text: Voluntary participation and Facilitator neutrality
+  - generic: C.
+  - text: Eligibility and Evidence
+  - generic: D.
+  - text: Service plans and Monitoring
+  - generic: "Rationale: You must uphold 'Voluntary participation' (the victim cannot be coerced) and 'Facilitator neutrality' (you cannot take the side of the offender's legal interests)."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice & Module 1 Learning sequence"
+  - generic: hard
+  - paragraph: In a complex case coordination scenario, a practitioner identifies a conflict between a local policy requirement and their own professional judgement regarding a client's eligibility. According to the 'Practice notice' and 'Learning sequence', what is the correct hierarchy of action?
+  - generic: A.
+  - text: Professional judgement always overrides local policy in clinical settings
+  - generic: B.
+  - text: Local procedure and organizational policy must guide the next step
+  - generic: C.
+  - text: The practitioner should follow the learner guide's general principles over local policy
+  - generic: D.
+  - text: The practitioner should wait for a change in legislation before acting
+  - generic: "Rationale: The practice notice states the material does not replace legal or organizational policy. The learning sequence says to notice where professional judgement is needed but that local procedure must guide the next step."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

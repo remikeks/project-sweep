@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-022 — Foundations of Forensic Social Work
+  - generic: SWP-022
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 1 Marks
+  - generic: "Ref: Practice notice"
+  - generic: simple
+  - paragraph: According to the Practice Notice in the Learner Guide, what is the relationship between the course material and urgent safeguarding procedures?
+  - generic: A.
+  - text: The material provides the primary legal framework for safeguarding.
+  - generic: B.
+  - text: The material supports learning but does not replace urgent safeguarding procedures.
+  - generic: C.
+  - text: The material acts as a substitute for clinical procedures in forensic settings.
+  - generic: D.
+  - text: The material overrides local organizational policy during emergencies.
+  - generic: "Rationale: The Practice Notice explicitly states that the material supports learning but does not replace urgent safeguarding, clinical, or legal procedures."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 1: Practice Contexts"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1 Focus"
+  - generic: simple
+  - paragraph: "Which of the following is a core focus area specifically identified within Module 1: Practice Contexts?"
+  - generic: A.
+  - text: Psychosocial reports
+  - generic: B.
+  - text: Victim services
+  - generic: C.
+  - text: Cultural humility
+  - generic: D.
+  - text: Dual roles
+  - generic: "Rationale: Module 1 focuses on courts, corrections, policing, victim services, child protection, and community programmes."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: General Instructions
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: simple
+  - paragraph: When recording examples for practice reflections across all modules, what action must the learner take regarding the data?
+  - generic: A.
+  - text: Include full names for legal accuracy.
+  - generic: B.
+  - text: Remove identifying information from examples.
+  - generic: C.
+  - text: Only use examples from public court records.
+  - generic: D.
+  - text: Ensure all examples are verified by a supervisor first.
+  - generic: "Rationale: The guide repeatedly instructs learners to remove identifying information from any examples they record."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Boundaries"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3 Focus"
+  - generic: simple
+  - paragraph: In the context of Module 3, which topic is categorized under 'Ethics and boundaries'?
+  - generic: A.
+  - text: Risk/needs principles
+  - generic: B.
+  - text: Trauma-informed care
+  - generic: C.
+  - text: Confidentiality limits
+  - generic: D.
+  - text: Advocacy
+  - generic: "Rationale: Module 3 focuses on dual roles, confidentiality limits, informed consent, documentation, and cultural humility."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: simple
+  - paragraph: What is the primary purpose of providing a 'clear handover' when a concern exceeds a social worker's authority?
+  - generic: A.
+  - text: To reduce the worker's legal liability.
+  - generic: B.
+  - text: To protect continuity of support.
+  - generic: C.
+  - text: To fulfill documentation requirements for auditing.
+  - generic: D.
+  - text: To ensure the client is discharged from the service.
+  - generic: "Rationale: The text states that a prompt referral and clear handover can protect continuity of support."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 2: Assessment and Intervention"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 Learning Sequence"
+  - generic: intermediate
+  - paragraph: A forensic social worker is preparing a psychosocial report for a court. According to the learning sequence, what standard should be applied to the information documented?
+  - generic: A.
+  - text: Document all available historical data to ensure completeness.
+  - generic: B.
+  - text: Document only information that is relevant, accurate, and necessary.
+  - generic: C.
+  - text: Document subjective assumptions to provide context for the court.
+  - generic: D.
+  - text: Document only information that supports the client's advocacy goals.
+  - generic: "Rationale: The guide specifies that workers should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 1: Practice Contexts"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 Learning Sequence"
+  - generic: intermediate
+  - paragraph: While working in a policing context, a social worker notices a potential safety concern that is not yet confirmed. What is the next step required by the 'Examine' phase of the learning sequence?
+  - generic: A.
+  - text: Immediately escalate the concern to the police sergeant.
+  - generic: B.
+  - text: Record the concern as a factual observation in the case file.
+  - generic: C.
+  - text: Check the information with a person, family, colleague, or approved source.
+  - generic: D.
+  - text: Wait for the concern to manifest as a specific incident before acting.
+  - generic: "Rationale: The sequence requires workers to be clear about information that must be checked with a person, family, colleague, or approved source."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Boundaries"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3 Learning Sequence"
+  - generic: intermediate
+  - paragraph: A social worker is assigned to a case involving a dual role conflict in a correctional facility. What should be the first point of reference to guide their professional judgment?
+  - generic: A.
+  - text: The client's personal preference.
+  - generic: B.
+  - text: A local procedure or policy.
+  - generic: C.
+  - text: The social worker's personal ethical code.
+  - generic: D.
+  - text: The historical precedent of the facility.
+  - generic: "Rationale: The learning sequence starts by noticing where professional judgment is needed and where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 2: Assessment and Intervention"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 Learning Sequence"
+  - generic: intermediate
+  - paragraph: In applying 'Risk/needs principles' during an assessment, how does the learner guide suggest a worker maintain objectivity?
+  - generic: A.
+  - text: By focusing solely on the client's strengths.
+  - generic: B.
+  - text: By separating observations from assumptions.
+  - generic: C.
+  - text: By avoiding the use of psychosocial reports.
+  - generic: D.
+  - text: By relying exclusively on standardized risk tools.
+  - generic: "Rationale: The guide instructs workers to separate observations from assumptions during the examination of practical implications."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: intermediate
+  - paragraph: When a social worker identifies that a client's needs exceed their current level of competence, what is the mandated action according to the course structure?
+  - generic: A.
+  - text: Continue the intervention while seeking additional training.
+  - generic: B.
+  - text: Pause and use the correct escalation route.
+  - generic: C.
+  - text: Delegate the task to a junior colleague.
+  - generic: D.
+  - text: Advise the client to seek private services independently.
+  - generic: "Rationale: The sequence states: 'When a concern exceeds your role, supervision, competence, or authority, pause and use the correct escalation route.'"
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: General Principles
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: intermediate
+  - paragraph: Which approach is explicitly recommended when seeking a client's participation in a forensic setting?
+  - generic: A.
+  - text: A directive approach to ensure legal compliance.
+  - generic: B.
+  - text: A respectful, collaborative approach.
+  - generic: C.
+  - text: An investigative approach to verify all client statements.
+  - generic: D.
+  - text: A neutral approach that avoids explaining the worker's role.
+  - generic: "Rationale: The guide recommends a respectful, collaborative approach where the worker explains their role and seeks informed participation."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Boundaries"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3 Learning Sequence"
+  - generic: intermediate
+  - paragraph: A social worker is practicing 'Cultural Humility' in a community programme. According to the learning sequence, what must they identify alongside concerns?
+  - generic: A.
+  - text: Legal precedents.
+  - generic: B.
+  - text: Strengths.
+  - generic: C.
+  - text: Budgetary constraints.
+  - generic: D.
+  - text: Previous convictions.
+  - generic: "Rationale: The sequence for examining practical implications (including cultural humility) requires identifying strengths as well as concerns."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: Synthesis
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 3 Learning Sequence"
+  - generic: hard
+  - paragraph: A social worker in a child protection setting is asked to provide a psychosocial report but realizes the request conflicts with local confidentiality limits. What is the most appropriate synthesis of the course's 'Learning Sequence' to resolve this?
+  - generic: A.
+  - text: Prioritize the psychosocial report to ensure the child's safety regardless of local policy.
+  - generic: B.
+  - text: Notice the procedural conflict, verify the limits with an approved source, and escalate if the concern exceeds authority.
+  - generic: C.
+  - text: Apply cultural humility to understand why the confidentiality limits exist before taking action.
+  - generic: D.
+  - text: Document the conflict in the report and proceed with full disclosure to the court.
+  - generic: "Rationale: The worker must first notice the conflict between professional judgment and local procedure (Step 1), then check the information with an approved source (Step 2), and if it exceeds authority, use the escalation route (Step 4)."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: Synthesis
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice & Module 2 Learning Sequence"
+  - generic: hard
+  - paragraph: In a complex case involving trauma-informed care and risk/needs principles, a worker is unsure if they should share specific client data with a policing partner. What is the correct hierarchical application of the 'Practice Notice' and 'Learning Sequence'?
+  - generic: A.
+  - text: Share the data immediately to support the policing partner's risk assessment.
+  - generic: B.
+  - text: Apply organizational policy and law, then document only what is relevant and necessary for the specific purpose.
+  - generic: C.
+  - text: Use professional judgment to override confidentiality if trauma-informed care is the priority.
+  - generic: D.
+  - text: Refuse to share data until the client provides written consent, regardless of legal requirements.
+  - generic: "Rationale: The Practice Notice requires applying law and organizational policy first. The Learning Sequence then dictates documenting only what is relevant/necessary and seeking informed participation where appropriate."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: Synthesis
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: hard
+  - paragraph: When evaluating the 'Examine' phase of the learning sequence across all three modules, which critical thinking skill is most emphasized to ensure safe practice?
+  - generic: A.
+  - text: The ability to memorize local referral pathways.
+  - generic: B.
+  - text: The ability to distinguish between factual observations and subjective assumptions.
+  - generic: C.
+  - text: The ability to provide advocacy without the need for supervision.
+  - generic: D.
+  - text: The ability to replace local procedures with professional judgment.
+  - generic: "Rationale: Across all modules, the 'Examine' phase emphasizes the ability to separate observations from assumptions and identify strengths alongside concerns to ensure information is checked and verified."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

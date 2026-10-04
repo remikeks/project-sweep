@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-017 — Chronic Illness & Adherence Support
+  - generic: SWP-017
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: Living with chronic illness"
+  - generic: simple
+  - paragraph: According to Module 1 of the Learner Guide, which of the following is a core focus when examining the experience of living with a chronic illness?
+  - generic: A.
+  - text: Medication titration protocols
+  - generic: B.
+  - text: Social determinants of health
+  - generic: C.
+  - text: Surgical intervention history
+  - generic: D.
+  - text: Genetic mapping and sequencing
+  - generic: "Rationale: Module 1 specifically lists illness burden, stigma, social determinants, self-management, and strengths as the primary areas of focus."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: Understanding adherence barriers"
+  - generic: simple
+  - paragraph: In the context of Module 2, which factor is explicitly identified as a potential barrier to treatment adherence?
+  - generic: A.
+  - text: Health literacy
+  - generic: B.
+  - text: Patient age
+  - generic: C.
+  - text: Hospital architecture
+  - generic: D.
+  - text: Weather conditions
+  - generic: "Rationale: Module 2 identifies literacy (health literacy) as one of the key barriers to adherence, alongside beliefs, cost, access, and others."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: Collaborative support plan"
+  - generic: simple
+  - paragraph: Which component is a fundamental part of the 'Collaborative support plan' described in Module 3?
+  - generic: A.
+  - text: Diagnostic imaging
+  - generic: B.
+  - text: Goal setting
+  - generic: C.
+  - text: Financial auditing
+  - generic: D.
+  - text: Pathology reporting
+  - generic: "Rationale: Module 3 focuses on goal setting, education, reminders, referrals, monitoring, and advocacy as the core elements of the plan."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3: Learning Sequence"
+  - generic: simple
+  - paragraph: When documenting information during a patient interaction, what standard must be met according to the learning sequence across all modules?
+  - generic: A.
+  - text: Include all subjective patient opinions verbatim
+  - generic: B.
+  - text: Document only information that is relevant, accurate, and necessary
+  - generic: C.
+  - text: Record every detail of the patient's family history
+  - generic: D.
+  - text: Prioritize speed of entry over factual accuracy
+  - generic: "Rationale: The guide states that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Living with chronic illness"
+  - generic: intermediate
+  - paragraph: A patient expresses that they feel 'ashamed' to take their medication in front of colleagues at work. Which concept from Module 1 does this scenario best illustrate?
+  - generic: A.
+  - text: Illness burden
+  - generic: B.
+  - text: Self-management
+  - generic: C.
+  - text: Stigma
+  - generic: D.
+  - text: Strengths
+  - generic: "Rationale: The feeling of shame or being judged due to a condition or its treatment is a hallmark of 'stigma,' which is a key focus of Module 1."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Understanding adherence barriers"
+  - generic: intermediate
+  - paragraph: A practitioner notices that a patient is struggling to afford their prescription refills. According to the course structure, which module provides the framework for identifying this specific barrier?
+  - generic: A.
+  - text: "Module 1: Living with chronic illness"
+  - generic: B.
+  - text: "Module 2: Understanding adherence barriers"
+  - generic: C.
+  - text: "Module 3: Collaborative support plan"
+  - generic: D.
+  - text: "Practice Notice: Legal Procedures"
+  - generic: "Rationale: Module 2 focuses on 'cost' as a specific adherence barrier."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Learning Sequence"
+  - generic: intermediate
+  - paragraph: During a session, a practitioner realizes that a patient's mental health needs are beyond their current level of competence and authority. What is the required action according to the learning sequence?
+  - generic: A.
+  - text: Attempt to provide support anyway to ensure continuity
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Ask the patient's family to manage the mental health concern
+  - generic: D.
+  - text: Wait until the next scheduled supervision to mention it
+  - generic: "Rationale: The guide instructs that when a concern exceeds role, competence, or authority, the practitioner must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: Collaborative support plan"
+  - generic: intermediate
+  - paragraph: In the 'Collaborative support plan' module, what is the primary purpose of 'advocacy'?
+  - generic: A.
+  - text: To provide legal representation in court
+  - generic: B.
+  - text: To support the person to overcome practical and psychosocial barriers
+  - generic: C.
+  - text: To dictate the patient's goals for them
+  - generic: D.
+  - text: To replace the need for clinical supervision
+  - generic: "Rationale: Advocacy in this context involves supporting the patient to overcome barriers and ensuring their needs are met within the healthcare system or community."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, 2, & 3: Learning Sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is reviewing a case and trying to distinguish between what they have seen and what they believe to be true. Which step of the learning sequence does this represent?
+  - generic: A.
+  - text: Defining the purpose
+  - generic: B.
+  - text: Separating observations from assumptions
+  - generic: C.
+  - text: Escalation and referral
+  - generic: D.
+  - text: Practice reflection
+  - generic: "Rationale: The learning sequence across all modules emphasizes the need to 'separate observations from assumptions.'"
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Living with chronic illness"
+  - generic: intermediate
+  - paragraph: Which of the following best describes a 'strengths-based' approach in Module 1?
+  - generic: A.
+  - text: Focusing exclusively on the patient's medical failures
+  - generic: B.
+  - text: Identifying existing resources and capabilities the patient possesses
+  - generic: C.
+  - text: Ignoring the illness burden to maintain a positive attitude
+  - generic: D.
+  - text: Allowing the patient to manage their illness without any professional support
+  - generic: "Rationale: A strengths-based approach involves identifying the person's existing capabilities and resources to manage their illness, rather than just focusing on deficits."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2: Understanding adherence barriers"
+  - generic: hard
+  - paragraph: A patient is not taking their medication because they believe the side effects are more harmful than the disease itself. This is an example of which two adherence factors interacting?
+  - generic: A.
+  - text: Cost and Access
+  - generic: B.
+  - text: Beliefs and Side effects
+  - generic: C.
+  - text: Literacy and Family factors
+  - generic: D.
+  - text: Mental health and Reminders
+  - generic: "Rationale: This scenario involves the patient's 'beliefs' about the medication and the physical 'side effects' they experience or fear."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: Collaborative support plan"
+  - generic: hard
+  - paragraph: When developing a 'Collaborative support plan' for a patient with low health literacy and high illness burden, which combination of actions is most appropriate according to Module 3?
+  - generic: A.
+  - text: Education and Reminders
+  - generic: B.
+  - text: Strict monitoring and Financial auditing
+  - generic: C.
+  - text: Immediate escalation and Legal advocacy
+  - generic: D.
+  - text: Self-management without professional education
+  - generic: "Rationale: For low literacy and high burden, 'Education' (to address literacy) and 'Reminders' (to assist with burden/management) are key collaborative actions."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2: Understanding adherence barriers"
+  - generic: hard
+  - paragraph: A practitioner is working with a family that discourages a patient from seeking treatment due to cultural beliefs. Which module and focus area should the practitioner apply to analyze this situation?
+  - generic: A.
+  - text: "Module 1: Illness burden"
+  - generic: B.
+  - text: "Module 2: Beliefs and Family factors"
+  - generic: C.
+  - text: "Module 3: Monitoring and Referrals"
+  - generic: D.
+  - text: "Module 1: Social determinants"
+  - generic: "Rationale: This situation involves 'Family factors' and 'Beliefs,' both of which are focus areas in Module 2: Understanding adherence barriers."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3: Learning Sequence"
+  - generic: simple
+  - paragraph: What is the primary reason the Learner Guide emphasizes 'separating observations from assumptions' before taking action?
+  - generic: A.
+  - text: To speed up the documentation process
+  - generic: B.
+  - text: To ensure actions are based on verified information and strengths
+  - generic: C.
+  - text: To avoid the need for professional supervision
+  - generic: D.
+  - text: To minimize the time spent talking to the patient
+  - generic: "Rationale: Separating observations from assumptions ensures that the practitioner is acting on verified information rather than personal biases or guesses."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: Learning Sequence"
+  - generic: hard
+  - paragraph: In a complex case where a patient faces multiple barriers (cost, access, and mental health), what is the first step in the 'Learning Sequence' for creating a support plan?
+  - generic: A.
+  - text: Immediately referring to a specialist
+  - generic: B.
+  - text: Defining the purpose of the support plan in relation to outcomes
+  - generic: C.
+  - text: Documenting the patient's failures in adherence
+  - generic: D.
+  - text: Setting goals without patient input to save time
+  - generic: "Rationale: The learning sequence for all modules, including Module 3, begins with 'defining the purpose' of the activity in relation to the course outcome."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

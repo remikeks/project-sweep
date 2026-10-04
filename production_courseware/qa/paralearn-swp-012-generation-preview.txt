@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-012 — Elder Abuse Prevention & Long-Term Care Advocacy
+  - generic: SWP-012
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Forms and Indicators of Abuse"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: According to Module 1, which of the following is a core category of harm that practitioners must be able to recognize?
+  - generic: A.
+  - text: Institutional harm
+  - generic: B.
+  - text: Legal malpractice
+  - generic: C.
+  - text: Staffing shortages
+  - generic: D.
+  - text: Marketing ethics
+  - generic: "Rationale: Module 1 specifically lists physical, emotional, sexual, financial, neglect, and institutional harm as the primary forms of abuse to recognize."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3 Learning Sequence"
+  - generic: simple
+  - paragraph: When documenting information regarding a suspected abuse case, what three criteria must the information meet?
+  - generic: A.
+  - text: Relevant, accurate, and necessary
+  - generic: B.
+  - text: Subjective, detailed, and lengthy
+  - generic: C.
+  - text: Confidential, brief, and speculative
+  - generic: D.
+  - text: Public, verified, and chronological
+  - generic: "Rationale: The learning sequence across all modules mandates that practitioners document only information that is relevant, accurate, and necessary."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 2: Safe Response"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: "Which focus area is specifically associated with Module 2: Safe Response?"
+  - generic: A.
+  - text: Private inquiry
+  - generic: B.
+  - text: Systems improvement
+  - generic: C.
+  - text: Quality monitoring
+  - generic: D.
+  - text: Financial auditing
+  - generic: "Rationale: Module 2 focuses on private inquiry, capacity/consent considerations, documentation, reporting, and emergency action."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3 Learning Sequence"
+  - generic: simple
+  - paragraph: What is the recommended action when a concern exceeds your professional role, supervision, or competence?
+  - generic: A.
+  - text: Pause and use the correct escalation route
+  - generic: B.
+  - text: Continue the investigation independently
+  - generic: C.
+  - text: Consult a family member for guidance
+  - generic: D.
+  - text: Wait for the next scheduled supervision meeting
+  - generic: "Rationale: The guide states that when a concern exceeds your role or competence, you must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Module 3: Advocacy in Long-Term Care"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: In the context of Module 3, which element is a key focus of advocacy in long-term care?
+  - generic: A.
+  - text: Systems improvement
+  - generic: B.
+  - text: Physical restraint techniques
+  - generic: C.
+  - text: Medication administration
+  - generic: D.
+  - text: Staff recruitment
+  - generic: "Rationale: Module 3 identifies rights, complaints, quality monitoring, family involvement, and systems improvement as its core focus areas."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Forms and Indicators of Abuse"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: intermediate
+  - paragraph: A practitioner notices a resident has unexplained bruising. According to the Module 1 learning sequence, what is the first step in analyzing this indicator?
+  - generic: A.
+  - text: Separate observations from assumptions
+  - generic: B.
+  - text: Immediately report physical abuse to the police
+  - generic: C.
+  - text: Assume the resident had a fall and document it
+  - generic: D.
+  - text: Ask the resident's family to explain the marks
+  - generic: "Rationale: The guide emphasizes the need to separate observations from assumptions and identify information that must be checked with an approved source."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Safe Response"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: During a 'Safe Response' (Module 2), why is a 'clear handover' considered essential when escalating a concern?
+  - generic: A.
+  - text: To protect continuity of support
+  - generic: B.
+  - text: To transfer legal liability to another party
+  - generic: C.
+  - text: To avoid further documentation requirements
+  - generic: D.
+  - text: To ensure the practitioner's role is terminated
+  - generic: "Rationale: The guide states that a prompt referral and clear handover can protect the continuity of support for the individual."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 3: Advocacy in Long-Term Care"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning Sequence"
+  - generic: intermediate
+  - paragraph: When applying advocacy principles from Module 3, how should a practitioner involve a resident's family?
+  - generic: A.
+  - text: Seek informed participation where appropriate
+  - generic: B.
+  - text: Allow the family to make all final decisions
+  - generic: C.
+  - text: Exclude the family to protect resident privacy
+  - generic: D.
+  - text: Only involve the family if a complaint is filed
+  - generic: "Rationale: Practitioners are instructed to use a respectful, collaborative approach and seek informed participation where appropriate."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 1: Forms and Indicators of Abuse"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is unsure if a resident's refusal of care is a sign of emotional abuse or a personal choice. What does the guide suggest is necessary in this situation?
+  - generic: A.
+  - text: Identify where professional judgement and local procedures are required
+  - generic: B.
+  - text: Always defer to the resident's choice without further inquiry
+  - generic: C.
+  - text: Classify the refusal as neglect by the facility
+  - generic: D.
+  - text: Wait for the resident to change their mind
+  - generic: "Rationale: The guide highlights that practitioners must identify where professional judgement is needed and where a local procedure must guide the next step."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 2: Safe Response"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: In the context of Module 2, what must be considered alongside 'private inquiry' to ensure a safe response?
+  - generic: A.
+  - text: Capacity and consent considerations
+  - generic: B.
+  - text: Public disclosure requirements
+  - generic: C.
+  - text: Financial history of the resident
+  - generic: D.
+  - text: Staff performance reviews
+  - generic: "Rationale: Module 2 explicitly links private inquiry with capacity and consent considerations to ensure the response is safe and legal."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Module 1: Forms and Indicators of Abuse"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: Which of the following best describes 'Institutional Harm' as categorized in Module 1?
+  - generic: A.
+  - text: Harm stemming from organizational practices or settings
+  - generic: B.
+  - text: Theft of a resident's personal belongings by a visitor
+  - generic: C.
+  - text: A resident's refusal to participate in group activities
+  - generic: D.
+  - text: Physical injury caused by a family member during a visit
+  - generic: "Rationale: Institutional harm refers to harm occurring within the context of the facility or system, distinct from individual-to-individual abuse."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: Introduction
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice"
+  - generic: intermediate
+  - paragraph: According to the 'Practice Notice', what is the relationship between this learner guide and actual safeguarding procedures?
+  - generic: A.
+  - text: It supports learning but does not replace urgent procedures
+  - generic: B.
+  - text: It is the primary legal authority for all safeguarding actions
+  - generic: C.
+  - text: It replaces local organizational policies
+  - generic: D.
+  - text: It is only applicable in the absence of local laws
+  - generic: "Rationale: The practice notice states that the material supports learning but does not replace urgent safeguarding, clinical, or legal procedures."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 2: Safe Response"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: hard
+  - paragraph: A resident reports that their funds are being used by a staff member without permission. You have limited authority to investigate financial records. Based on the 'Safe Response' sequence, what is the most appropriate action?
+  - generic: A.
+  - text: Pause and use the correct escalation route for a financial referral
+  - generic: B.
+  - text: Confront the staff member privately to seek a confession
+  - generic: C.
+  - text: Advise the resident to contact their bank directly
+  - generic: D.
+  - text: Document the suspicion and wait for the next audit cycle
+  - generic: "Rationale: When a concern exceeds authority or competence, the practitioner must pause and use the correct escalation route, ensuring a clear handover."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Module 3: Advocacy in Long-Term Care"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Learning Sequence"
+  - generic: hard
+  - paragraph: You are working on a 'Systems Improvement' project in a long-term care facility. Which approach aligns with the advocacy principles in Module 3?
+  - generic: A.
+  - text: Collaboratively identify strengths and concerns to inform policy
+  - generic: B.
+  - text: Implement new rules based solely on staff assumptions
+  - generic: C.
+  - text: Focus only on negative indicators to drive rapid change
+  - generic: D.
+  - text: Prioritize facility efficiency over resident rights
+  - generic: "Rationale: Advocacy requires a respectful, collaborative approach that separates observations from assumptions and identifies strengths as well as concerns."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 2: Safe Response"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2, Learning Sequence & Practice Notice"
+  - generic: hard
+  - paragraph: In a situation where a resident's safety is at immediate risk but they refuse to consent to a report, which factor must guide the practitioner's next step according to the course structure?
+  - generic: A.
+  - text: Local procedures for emergency action and legal safeguarding obligations
+  - generic: B.
+  - text: The practitioner's personal moral obligation to protect the resident
+  - generic: C.
+  - text: The resident's right to refuse all intervention regardless of risk
+  - generic: D.
+  - text: The family's preference for handling the matter internally
+  - generic: "Rationale: The guide emphasizes applying the law and local procedures, especially regarding emergency action and capacity/consent considerations."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

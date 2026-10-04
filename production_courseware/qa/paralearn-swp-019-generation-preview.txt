@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-019 — Student Support & Attendance
+  - generic: SWP-019
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: Learning sequence"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the primary purpose of understanding absenteeism?
+  - generic: A.
+  - text: To identify attendance barriers and coordinate non-punitive interventions
+  - generic: B.
+  - text: To ensure legal compliance and facilitate student prosecution
+  - generic: C.
+  - text: To rank students based on their academic performance and attendance
+  - generic: D.
+  - text: To automate the process of sending truancy notices to parents
+  - generic: "Rationale: The learning sequence for Module 1 explicitly states that practitioners should start by defining the purpose of understanding absenteeism in relation to the course outcome, which is identifying barriers and coordinating non-punitive interventions."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Course structure table"
+  - generic: simple
+  - paragraph: What is the suggested study time for each of the three modules in the Student Support & Attendance course?
+  - generic: A.
+  - text: 5 to 10 minutes
+  - generic: B.
+  - text: 10 to 15 minutes
+  - generic: C.
+  - text: 20 to 30 minutes
+  - generic: D.
+  - text: 45 to 60 minutes
+  - generic: "Rationale: The course structure table lists the suggested study time for Module 1, Module 2, and Module 3 as 10 to 15 minutes each."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: simple
+  - paragraph: "Which of the following is a core focus area specifically assigned to Module 3: Intervention and monitoring?"
+  - generic: A.
+  - text: Culturally responsive communication
+  - generic: B.
+  - text: Early warning data
+  - generic: C.
+  - text: Escalation pathways
+  - generic: D.
+  - text: Home-school partnership
+  - generic: "Rationale: Module 3 focuses on individual plans, referrals, attendance review, and escalation pathways."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: simple
+  - paragraph: According to the documentation standards mentioned in the learning sequence, what information should be recorded?
+  - generic: A.
+  - text: All subjective observations and personal opinions
+  - generic: B.
+  - text: Only information that is relevant, accurate, and necessary
+  - generic: C.
+  - text: Every detail shared by the family regardless of relevance
+  - generic: D.
+  - text: Information that supports the school's legal defense only
+  - generic: "Rationale: The guide states that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: What to pay attention to"
+  - generic: simple
+  - paragraph: In the context of Module 2, what is a key element of 'Student and family engagement'?
+  - generic: A.
+  - text: Attendance patterns
+  - generic: B.
+  - text: Safeguarding data
+  - generic: C.
+  - text: Home-school partnership
+  - generic: D.
+  - text: Escalation routes
+  - generic: "Rationale: Module 2 focuses on assessment, strengths, home-school partnership, and culturally responsive communication."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Learning sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is reviewing attendance data and notices a student has missed several Mondays. Before taking action, the practitioner must distinguish between which two factors according to the learning sequence?
+  - generic: A.
+  - text: Observations and assumptions
+  - generic: B.
+  - text: Legal requirements and school policy
+  - generic: C.
+  - text: Strengths and weaknesses
+  - generic: D.
+  - text: Referrals and escalations
+  - generic: "Rationale: The learning sequence instructs practitioners to 'separate observations from assumptions' when examining the practical implications of attendance patterns."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: What to pay attention to"
+  - generic: intermediate
+  - paragraph: During a home visit, a practitioner realizes the family's primary language is not English and there are cultural nuances affecting their view of school. Which focus area from Module 2 should the practitioner apply?
+  - generic: A.
+  - text: Individual plans
+  - generic: B.
+  - text: Culturally responsive communication
+  - generic: C.
+  - text: Early warning data
+  - generic: D.
+  - text: Attendance review
+  - generic: "Rationale: Culturally responsive communication is a specific focus area of Module 2 designed to address these types of engagement barriers."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: intermediate
+  - paragraph: If a practitioner identifies a student support concern that exceeds their current authority or competence, what is the required action according to the course material?
+  - generic: A.
+  - text: Continue the intervention but seek advice later
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Refer the family to an external agency without a handover
+  - generic: D.
+  - text: Wait for the next scheduled supervision meeting to take action
+  - generic: "Rationale: The material states: 'When a concern exceeds your role, supervision, competence, or authority, pause and use the correct escalation route.'"
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: intermediate
+  - paragraph: When working through the learning sequence for any module, what is the first step a practitioner should take regarding local procedures?
+  - generic: A.
+  - text: Ignore local procedures if professional judgement is stronger
+  - generic: B.
+  - text: Notice where a local procedure must guide the next step
+  - generic: C.
+  - text: Create a new procedure if the local one is outdated
+  - generic: D.
+  - text: Prioritize national law over all local school policies
+  - generic: "Rationale: The sequence begins by advising practitioners to 'Notice where professional judgement is needed and where a local procedure must guide the next step.'"
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: Learning sequence"
+  - generic: intermediate
+  - paragraph: In the context of Module 3, what is the intended benefit of a 'clear handover' during the referral process?
+  - generic: A.
+  - text: It reduces the practitioner's workload immediately
+  - generic: B.
+  - text: It protects the continuity of support for the student
+  - generic: C.
+  - text: It ensures the student is punished for non-attendance
+  - generic: D.
+  - text: It fulfills the legal requirement for data deletion
+  - generic: "Rationale: The text states that 'A prompt referral and a clear handover can protect continuity of support.'"
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Learning sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is using a 'respectful, collaborative approach' to engage a family. According to the learning sequence, what must they seek from the participants?
+  - generic: A.
+  - text: Financial commitment to school programs
+  - generic: B.
+  - text: Informed participation where appropriate
+  - generic: C.
+  - text: A signed waiver of all privacy rights
+  - generic: D.
+  - text: Agreement with all school assumptions
+  - generic: "Rationale: The sequence specifies that practitioners should 'seek informed participation where appropriate' while explaining their role."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Focus"
+  - generic: intermediate
+  - paragraph: Which module focuses on identifying 'early warning data' to prevent long-term absenteeism?
+  - generic: A.
+  - text: Module 1
+  - generic: B.
+  - text: Module 2
+  - generic: C.
+  - text: Module 3
+  - generic: D.
+  - text: The Course Activity Worksheet
+  - generic: "Rationale: Module 1 (Understanding absenteeism) specifically lists 'early warning data' as one of its focus areas."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice / Module 1 Learning sequence"
+  - generic: hard
+  - paragraph: A practitioner identifies a pattern of absenteeism that suggests a potential safeguarding risk. According to the 'Practice notice' and 'Learning sequence', what is the most critical priority?
+  - generic: A.
+  - text: Complete the 15-minute study module before acting
+  - generic: B.
+  - text: Apply urgent safeguarding procedures and escalation routes
+  - generic: C.
+  - text: Wait to discuss the observation in the next home-school partnership meeting
+  - generic: D.
+  - text: Document the observation and wait for the student to return to school
+  - generic: "Rationale: The Practice notice states that the material does not replace urgent safeguarding procedures. The learning sequence adds that when a concern exceeds authority, one must use the correct escalation route. Safeguarding is a priority that requires following local procedures immediately."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: References and local adaptation"
+  - generic: hard
+  - paragraph: When applying the course sequence to a case study, the practitioner is asked to identify 'what you would verify locally'. Based on the 'References and local adaptation' section, which of the following is a primary source for this verification?
+  - generic: A.
+  - text: The SWEEP Academy Course Content Outlines only
+  - generic: B.
+  - text: Employer or placement policy and supervision arrangements
+  - generic: C.
+  - text: General social media forums for school social workers
+  - generic: D.
+  - text: The learner's personal notes from previous unrelated courses
+  - generic: "Rationale: The guide lists the learner's employer or placement policy, supervision arrangements, and documentation standards as the local context for adaptation and verification."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Course structure / Learning objectives"
+  - generic: hard
+  - paragraph: In the synthesis of all three modules, which approach best describes the transition from Module 1 to Module 3?
+  - generic: A.
+  - text: From data analysis to engagement to intervention planning
+  - generic: B.
+  - text: From legal prosecution to family assessment to school exit
+  - generic: C.
+  - text: From academic grading to home visits to financial auditing
+  - generic: D.
+  - text: From teacher performance to student behavior to parent punishment
+  - generic: "Rationale: The course moves from identifying barriers (Module 1) to engaging the family (Module 2) and finally to coordinating supportive, non-punitive interventions and monitoring (Module 3)."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

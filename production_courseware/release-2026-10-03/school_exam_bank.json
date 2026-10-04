@@ -1,0 +1,4112 @@
+[
+  {
+    "school": "School of Child & Family Welfare",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Foundations of Child Protection course, which topic belongs in the module Child protection foundations?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Child rights, safeguarding principles, roles, and the distinction between concern, risk, and harm",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Child protection foundations",
+        "order": 1
+      },
+      {
+        "text": "According to the Foundations of Child Protection course, which topic belongs in the module Recognising and responding?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Indicators of abuse/neglect, trauma-informed communication, documentation, immediate safety, and boundaries",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Recognising and responding",
+        "order": 2
+      },
+      {
+        "text": "According to the Foundations of Child Protection course, which topic belongs in the module Reporting and case coordination?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Mandated reporting, referral pathways, confidentiality limits, multi-agency coordination, and reflective case scenario",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Reporting and case coordination",
+        "order": 3
+      },
+      {
+        "text": "According to the Family Preservation & Kinship Care course, which topic belongs in the module Family-centred assessment?",
+        "choices": [
+          {
+            "text": "Strengths, risks, culture, family networks, and child voice",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Family-centred assessment",
+        "order": 4
+      },
+      {
+        "text": "According to the Family Preservation & Kinship Care course, which topic belongs in the module Preservation and safety planning?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "In-home services, measurable safety plans, crisis support, and review points",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Preservation and safety planning",
+        "order": 5
+      },
+      {
+        "text": "According to the Family Preservation & Kinship Care course, which topic belongs in the module Kinship care practice?",
+        "choices": [
+          {
+            "text": "Identifying kin, caregiver assessment, support needs, contact planning, and permanency review",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Kinship care practice",
+        "order": 6
+      },
+      {
+        "text": "According to the Permanency Planning & Reunification course, which topic belongs in the module Permanency principles?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Stability, attachment, timelines, child participation, and concurrent planning",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Permanency principles",
+        "order": 7
+      },
+      {
+        "text": "According to the Permanency Planning & Reunification course, which topic belongs in the module Reunification practice?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Readiness indicators, parent support, supervised contact, risk reassessment, and transition planning",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Reunification practice",
+        "order": 8
+      },
+      {
+        "text": "According to the Permanency Planning & Reunification course, which topic belongs in the module Alternative permanency?",
+        "choices": [
+          {
+            "text": "Guardianship, adoption, long-term care, cultural continuity, and case review",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Alternative permanency",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Child & Family Welfare catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Foundations of Child Protection?",
+        "choices": [
+          {
+            "text": "Develop timely, child-centred permanency plans and assess reunification readiness.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Recognise protection concerns, respond safely, and follow the local reporting pathway.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Plan safe, strengths-based support that preserves family relationships whenever appropriate.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Foundations of Child Protection",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Family Preservation & Kinship Care?",
+        "choices": [
+          {
+            "text": "Develop timely, child-centred permanency plans and assess reunification readiness.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Recognise protection concerns, respond safely, and follow the local reporting pathway.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Plan safe, strengths-based support that preserves family relationships whenever appropriate.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Family Preservation & Kinship Care",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Permanency Planning & Reunification?",
+        "choices": [
+          {
+            "text": "Develop timely, child-centred permanency plans and assess reunification readiness.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Recognise protection concerns, respond safely, and follow the local reporting pathway.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Plan safe, strengths-based support that preserves family relationships whenever appropriate.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Permanency Planning & Reunification",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Mental Health & Clinical Practice",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Biopsychosocial Assessment course, which topic belongs in the module Assessment framework?",
+        "choices": [
+          {
+            "text": "Engagement, consent, presenting concerns, biological/psychological/social domains, and strengths",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Assessment framework",
+        "order": 1
+      },
+      {
+        "text": "According to the Biopsychosocial Assessment course, which topic belongs in the module Risk and formulation?",
+        "choices": [
+          {
+            "text": "Mental-state observation, suicide/self-harm and safeguarding screening, cultural humility, and formulation",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Risk and formulation",
+        "order": 2
+      },
+      {
+        "text": "According to the Biopsychosocial Assessment course, which topic belongs in the module From assessment to plan?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Goals, referrals, documentation, review, and simulated intake",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "From assessment to plan",
+        "order": 3
+      },
+      {
+        "text": "According to the Cognitive Behavioral Therapy Foundations course, which topic belongs in the module The CBT model?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Links among situations, thoughts, emotions, bodily responses, and behaviour",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "The CBT model",
+        "order": 4
+      },
+      {
+        "text": "According to the Cognitive Behavioral Therapy Foundations course, which topic belongs in the module Core tools?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Agenda setting, thought records, cognitive reappraisal, behavioural activation, and homework",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Core tools",
+        "order": 5
+      },
+      {
+        "text": "According to the Cognitive Behavioral Therapy Foundations course, which topic belongs in the module Ethical application?",
+        "choices": [
+          {
+            "text": "Collaboration, cultural adaptation, limits of competence, monitoring, and referral",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Ethical application",
+        "order": 6
+      },
+      {
+        "text": "According to the Crisis Stabilization & Safety Planning course, which topic belongs in the module Crisis recognition and triage?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Acute risk, protective factors, emergency thresholds, and local escalation routes",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Crisis recognition and triage",
+        "order": 7
+      },
+      {
+        "text": "According to the Crisis Stabilization & Safety Planning course, which topic belongs in the module De-escalation and engagement?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Communication, environment, grounding, and maintaining professional boundaries",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "De-escalation and engagement",
+        "order": 8
+      },
+      {
+        "text": "According to the Crisis Stabilization & Safety Planning course, which topic belongs in the module Safety planning and follow-up?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Warning signs, coping actions, contacts, means-safety discussion, documentation, and warm handover",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Safety planning and follow-up",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Mental Health & Clinical Practice catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Biopsychosocial Assessment?",
+        "choices": [
+          {
+            "text": "Respond to acute distress using de-escalation, risk assessment, and collaborative safety planning.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Conduct a collaborative, ethical whole-person assessment and formulate priority needs.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Explain core CBT concepts and use basic, supervised CBT-informed tools appropriately.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Biopsychosocial Assessment",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Cognitive Behavioral Therapy Foundations?",
+        "choices": [
+          {
+            "text": "Respond to acute distress using de-escalation, risk assessment, and collaborative safety planning.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Conduct a collaborative, ethical whole-person assessment and formulate priority needs.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Explain core CBT concepts and use basic, supervised CBT-informed tools appropriately.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Cognitive Behavioral Therapy Foundations",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Crisis Stabilization & Safety Planning?",
+        "choices": [
+          {
+            "text": "Respond to acute distress using de-escalation, risk assessment, and collaborative safety planning.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Conduct a collaborative, ethical whole-person assessment and formulate priority needs.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Explain core CBT concepts and use basic, supervised CBT-informed tools appropriately.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Crisis Stabilization & Safety Planning",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Substance Use & Addiction Recovery",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Screening & Brief Intervention (SBIRT) course, which topic belongs in the module Substance-use continuum?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Stigma-free language, risk factors, protective factors, and screening purpose",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Substance-use continuum",
+        "order": 1
+      },
+      {
+        "text": "According to the Screening & Brief Intervention (SBIRT) course, which topic belongs in the module Screening and feedback?",
+        "choices": [
+          {
+            "text": "Validated-tool principles, consent, interpretation, and brief feedback",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Screening and feedback",
+        "order": 2
+      },
+      {
+        "text": "According to the Screening & Brief Intervention (SBIRT) course, which topic belongs in the module Brief intervention and referral?",
+        "choices": [
+          {
+            "text": "Motivational conversation, harm reduction, referral matching, and documentation",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Brief intervention and referral",
+        "order": 3
+      },
+      {
+        "text": "According to the Motivational Interviewing course, which topic belongs in the module MI spirit?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Partnership, acceptance, compassion, evocation, autonomy, and avoiding the righting reflex",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "MI spirit",
+        "order": 4
+      },
+      {
+        "text": "According to the Motivational Interviewing course, which topic belongs in the module OARS skills?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Open questions, affirmations, reflections, summaries, and listening for change talk",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "OARS skills",
+        "order": 5
+      },
+      {
+        "text": "According to the Motivational Interviewing course, which topic belongs in the module Planning change?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Responding to ambivalence, eliciting commitment language, goal setting, and referral",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Planning change",
+        "order": 6
+      },
+      {
+        "text": "According to the Recovery-Oriented Systems of Care course, which topic belongs in the module Recovery orientation?",
+        "choices": [
+          {
+            "text": "Recovery capital, person-defined goals, peer support, and anti-stigma practice",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Recovery orientation",
+        "order": 7
+      },
+      {
+        "text": "According to the Recovery-Oriented Systems of Care course, which topic belongs in the module Coordinated support?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Housing, employment, family, health, legal, and community supports",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Coordinated support",
+        "order": 8
+      },
+      {
+        "text": "According to the Recovery-Oriented Systems of Care course, which topic belongs in the module Sustaining recovery?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Relapse-prevention planning, continuity of care, outcome monitoring, and lived-experience leadership",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Sustaining recovery",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Substance Use & Addiction Recovery catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Screening & Brief Intervention (SBIRT)?",
+        "choices": [
+          {
+            "text": "Use screening and brief-intervention principles to identify and respond to risky substance use.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Use the spirit and core communication skills of motivational interviewing in appropriate settings.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Coordinate strengths-based, long-term recovery supports across systems.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Screening & Brief Intervention (SBIRT)",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Motivational Interviewing?",
+        "choices": [
+          {
+            "text": "Use screening and brief-intervention principles to identify and respond to risky substance use.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use the spirit and core communication skills of motivational interviewing in appropriate settings.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Coordinate strengths-based, long-term recovery supports across systems.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Motivational Interviewing",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Recovery-Oriented Systems of Care?",
+        "choices": [
+          {
+            "text": "Use screening and brief-intervention principles to identify and respond to risky substance use.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use the spirit and core communication skills of motivational interviewing in appropriate settings.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Coordinate strengths-based, long-term recovery supports across systems.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Recovery-Oriented Systems of Care",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Gerontology & Aging Services",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Aging in Place & Independent Living course, which topic belongs in the module Person-centred ageing?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Autonomy, capacity, culture, rights, and social determinants",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Person-centred ageing",
+        "order": 1
+      },
+      {
+        "text": "According to the Aging in Place & Independent Living course, which topic belongs in the module Home and community assessment?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Falls, accessibility, medication/health supports, isolation, and caregiver capacity",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Home and community assessment",
+        "order": 2
+      },
+      {
+        "text": "According to the Aging in Place & Independent Living course, which topic belongs in the module Coordinated ageing-in-place plan?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Services, technology, family collaboration, review, and safeguarding",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Coordinated ageing-in-place plan",
+        "order": 3
+      },
+      {
+        "text": "According to the Dementia Care & Caregiver Support course, which topic belongs in the module Understanding dementia?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Common presentations, communication, stigma, and preserving identity",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Understanding dementia",
+        "order": 4
+      },
+      {
+        "text": "According to the Dementia Care & Caregiver Support course, which topic belongs in the module Daily support and responsive care?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Environment, routines, distress behaviours, consent, and family partnership",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Daily support and responsive care",
+        "order": 5
+      },
+      {
+        "text": "According to the Dementia Care & Caregiver Support course, which topic belongs in the module Caregiver support?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Burden, respite, education, crisis planning, and referral",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Caregiver support",
+        "order": 6
+      },
+      {
+        "text": "According to the Elder Abuse Prevention & Long-Term Care Advocacy course, which topic belongs in the module Forms and indicators of abuse?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Physical, emotional, sexual, financial, neglect, and institutional harm",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Forms and indicators of abuse",
+        "order": 7
+      },
+      {
+        "text": "According to the Elder Abuse Prevention & Long-Term Care Advocacy course, which topic belongs in the module Safe response?",
+        "choices": [
+          {
+            "text": "Private inquiry, capacity/consent considerations, documentation, reporting, and emergency action",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Safe response",
+        "order": 8
+      },
+      {
+        "text": "According to the Elder Abuse Prevention & Long-Term Care Advocacy course, which topic belongs in the module Advocacy in long-term care?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Rights, complaints, quality monitoring, family involvement, and systems improvement",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Advocacy in long-term care",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Gerontology & Aging Services catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Aging in Place & Independent Living?",
+        "choices": [
+          {
+            "text": "Recognise elder abuse and advocate for safety, rights, and quality care.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Apply person-centred approaches to dementia support and caregiver wellbeing.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Assess and support safe, dignified independent living for older adults.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Aging in Place & Independent Living",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Dementia Care & Caregiver Support?",
+        "choices": [
+          {
+            "text": "Recognise elder abuse and advocate for safety, rights, and quality care.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Apply person-centred approaches to dementia support and caregiver wellbeing.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Assess and support safe, dignified independent living for older adults.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Dementia Care & Caregiver Support",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Elder Abuse Prevention & Long-Term Care Advocacy?",
+        "choices": [
+          {
+            "text": "Recognise elder abuse and advocate for safety, rights, and quality care.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Apply person-centred approaches to dementia support and caregiver wellbeing.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Assess and support safe, dignified independent living for older adults.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Elder Abuse Prevention & Long-Term Care Advocacy",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Community & Macro Practice",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Community Needs Assessment course, which topic belongs in the module Assessment design?",
+        "choices": [
+          {
+            "text": "Purpose, stakeholders, ethics, inclusion, and mixed-method choices",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Assessment design",
+        "order": 1
+      },
+      {
+        "text": "According to the Community Needs Assessment course, which topic belongs in the module Collecting and interpreting evidence?",
+        "choices": [
+          {
+            "text": "Surveys, interviews, focus groups, asset mapping, and data quality",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Collecting and interpreting evidence",
+        "order": 2
+      },
+      {
+        "text": "According to the Community Needs Assessment course, which topic belongs in the module Prioritisation and communication?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Ranking needs, validating findings, reporting back, and action recommendations",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Prioritisation and communication",
+        "order": 3
+      },
+      {
+        "text": "According to the Community Organizing & Coalition Building course, which topic belongs in the module Organising foundations?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Power analysis, community leadership, issue selection, and trust building",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Organising foundations",
+        "order": 4
+      },
+      {
+        "text": "According to the Community Organizing & Coalition Building course, which topic belongs in the module Coalition formation?",
+        "choices": [
+          {
+            "text": "Partners, roles, governance, communication, conflict management, and inclusion",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Coalition formation",
+        "order": 5
+      },
+      {
+        "text": "According to the Community Organizing & Coalition Building course, which topic belongs in the module Campaign action?",
+        "choices": [
+          {
+            "text": "Strategy, tactics, mobilisation, evaluation, and sustainability",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Campaign action",
+        "order": 6
+      },
+      {
+        "text": "According to the Program Development & Evaluation course, which topic belongs in the module Programme design?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Needs-to-goals chain, theory of change, target groups, and feasibility",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Programme design",
+        "order": 7
+      },
+      {
+        "text": "According to the Program Development & Evaluation course, which topic belongs in the module Implementation planning?",
+        "choices": [
+          {
+            "text": "Activities, budget assumptions, partnerships, risk management, and inclusion",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Implementation planning",
+        "order": 8
+      },
+      {
+        "text": "According to the Program Development & Evaluation course, which topic belongs in the module Monitoring and evaluation?",
+        "choices": [
+          {
+            "text": "Indicators, baseline, data collection, learning loops, and reporting",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Monitoring and evaluation",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Community & Macro Practice catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Community Needs Assessment?",
+        "choices": [
+          {
+            "text": "Mobilise communities and partners around shared, achievable goals.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Plan and conduct a participatory assessment that identifies needs, assets, and priorities.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Design a feasible community programme and measure whether it works.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Community Needs Assessment",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Community Organizing & Coalition Building?",
+        "choices": [
+          {
+            "text": "Mobilise communities and partners around shared, achievable goals.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Plan and conduct a participatory assessment that identifies needs, assets, and priorities.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Design a feasible community programme and measure whether it works.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Community Organizing & Coalition Building",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Program Development & Evaluation?",
+        "choices": [
+          {
+            "text": "Mobilise communities and partners around shared, achievable goals.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Plan and conduct a participatory assessment that identifies needs, assets, and priorities.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Design a feasible community programme and measure whether it works.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Program Development & Evaluation",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Medical & Health Social Work",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Hospital Discharge Planning course, which topic belongs in the module Discharge-risk assessment?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Medical, psychosocial, functional, financial, caregiver, and housing factors",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Discharge-risk assessment",
+        "order": 1
+      },
+      {
+        "text": "According to the Hospital Discharge Planning course, which topic belongs in the module Transition coordination?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Patient/family participation, interdisciplinary roles, medication and appointment continuity",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Transition coordination",
+        "order": 2
+      },
+      {
+        "text": "According to the Hospital Discharge Planning course, which topic belongs in the module Follow-up and readmission prevention?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Warning signs, referrals, documentation, and handover",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Follow-up and readmission prevention",
+        "order": 3
+      },
+      {
+        "text": "According to the Chronic Illness & Adherence Support course, which topic belongs in the module Living with chronic illness?",
+        "choices": [
+          {
+            "text": "Illness burden, stigma, social determinants, self-management, and strengths",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Living with chronic illness",
+        "order": 4
+      },
+      {
+        "text": "According to the Chronic Illness & Adherence Support course, which topic belongs in the module Understanding adherence barriers?",
+        "choices": [
+          {
+            "text": "Beliefs, cost, access, literacy, side effects, mental health, and family factors",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Understanding adherence barriers",
+        "order": 5
+      },
+      {
+        "text": "According to the Chronic Illness & Adherence Support course, which topic belongs in the module Collaborative support plan?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Goal setting, education, reminders, referrals, monitoring, and advocacy",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Collaborative support plan",
+        "order": 6
+      },
+      {
+        "text": "According to the Interdisciplinary Collaboration in Healthcare course, which topic belongs in the module Team-based care?",
+        "choices": [
+          {
+            "text": "Roles, scope, referrals, shared goals, and social determinants of health",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Team-based care",
+        "order": 7
+      },
+      {
+        "text": "According to the Interdisciplinary Collaboration in Healthcare course, which topic belongs in the module Communication and coordination?",
+        "choices": [
+          {
+            "text": "Case conferences, handovers, documentation, advocacy, and constructive disagreement",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Communication and coordination",
+        "order": 8
+      },
+      {
+        "text": "According to the Interdisciplinary Collaboration in Healthcare course, which topic belongs in the module Ethics and quality improvement?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Confidentiality, consent, equity, burnout prevention, and reflective practice",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Ethics and quality improvement",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Medical & Health Social Work catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Hospital Discharge Planning?",
+        "choices": [
+          {
+            "text": "Work effectively and ethically in healthcare teams while protecting the social-work perspective.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Support people living with chronic conditions to overcome practical and psychosocial barriers to care.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Coordinate safe, person-centred transitions from hospital to home or community care.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Hospital Discharge Planning",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Chronic Illness & Adherence Support?",
+        "choices": [
+          {
+            "text": "Work effectively and ethically in healthcare teams while protecting the social-work perspective.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Support people living with chronic conditions to overcome practical and psychosocial barriers to care.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Coordinate safe, person-centred transitions from hospital to home or community care.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Chronic Illness & Adherence Support",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Interdisciplinary Collaboration in Healthcare?",
+        "choices": [
+          {
+            "text": "Work effectively and ethically in healthcare teams while protecting the social-work perspective.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Support people living with chronic conditions to overcome practical and psychosocial barriers to care.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Coordinate safe, person-centred transitions from hospital to home or community care.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Interdisciplinary Collaboration in Healthcare",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of School Social Work",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Student Support & Attendance course, which topic belongs in the module Understanding absenteeism?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Attendance patterns, barriers, equity, safeguarding, and early warning data",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Understanding absenteeism",
+        "order": 1
+      },
+      {
+        "text": "According to the Student Support & Attendance course, which topic belongs in the module Student and family engagement?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Assessment, strengths, home-school partnership, and culturally responsive communication",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Student and family engagement",
+        "order": 2
+      },
+      {
+        "text": "According to the Student Support & Attendance course, which topic belongs in the module Intervention and monitoring?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Individual plans, referrals, attendance review, and escalation pathways",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Intervention and monitoring",
+        "order": 3
+      },
+      {
+        "text": "According to the Behavioral & Emotional Support in Schools course, which topic belongs in the module Behaviour as communication?",
+        "choices": [
+          {
+            "text": "Development, trauma, neurodiversity, culture, and avoiding punitive assumptions",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Behaviour as communication",
+        "order": 4
+      },
+      {
+        "text": "According to the Behavioral & Emotional Support in Schools course, which topic belongs in the module Tiered supports?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Classroom strategies, individual plans, crisis response, and referrals",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Tiered supports",
+        "order": 5
+      },
+      {
+        "text": "According to the Behavioral & Emotional Support in Schools course, which topic belongs in the module Collaboration and review?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Student voice, caregiver partnership, teacher consultation, documentation, and outcome monitoring",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Collaboration and review",
+        "order": 6
+      },
+      {
+        "text": "According to the School-Wide Systems & Policy course, which topic belongs in the module School systems and climate?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Discipline, inclusion, wellbeing, safeguarding, and data-informed problem identification",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "School systems and climate",
+        "order": 7
+      },
+      {
+        "text": "According to the School-Wide Systems & Policy course, which topic belongs in the module Policy analysis and improvement?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Stakeholders, equity impact, implementation planning, and communication",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Policy analysis and improvement",
+        "order": 8
+      },
+      {
+        "text": "According to the School-Wide Systems & Policy course, which topic belongs in the module Whole-school change?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Restorative practices, multi-tiered systems, evaluation, and sustaining change",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Whole-school change",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of School Social Work catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Student Support & Attendance?",
+        "choices": [
+          {
+            "text": "Identify attendance barriers and coordinate supportive, non-punitive interventions.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Influence school climate, procedures, and policy using social-work and equity principles.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Apply trauma-informed, positive, and inclusive support for students\u2019 behavioural and emotional needs.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Student Support & Attendance",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Behavioral & Emotional Support in Schools?",
+        "choices": [
+          {
+            "text": "Identify attendance barriers and coordinate supportive, non-punitive interventions.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Influence school climate, procedures, and policy using social-work and equity principles.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Apply trauma-informed, positive, and inclusive support for students\u2019 behavioural and emotional needs.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Behavioral & Emotional Support in Schools",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with School-Wide Systems & Policy?",
+        "choices": [
+          {
+            "text": "Identify attendance barriers and coordinate supportive, non-punitive interventions.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Influence school climate, procedures, and policy using social-work and equity principles.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Apply trauma-informed, positive, and inclusive support for students\u2019 behavioural and emotional needs.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "School-Wide Systems & Policy",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Criminal Justice & Forensic Social Work",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Foundations of Forensic Social Work course, which topic belongs in the module Practice contexts?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Courts, corrections, policing, victim services, child protection, and community programmes",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Practice contexts",
+        "order": 1
+      },
+      {
+        "text": "According to the Foundations of Forensic Social Work course, which topic belongs in the module Assessment and intervention?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Psychosocial reports, risk/needs principles, advocacy, and trauma-informed care",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Assessment and intervention",
+        "order": 2
+      },
+      {
+        "text": "According to the Foundations of Forensic Social Work course, which topic belongs in the module Ethics and boundaries?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Dual roles, confidentiality limits, informed consent, documentation, and cultural humility",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Ethics and boundaries",
+        "order": 3
+      },
+      {
+        "text": "According to the Diversion Programs & Restorative Justice course, which topic belongs in the module Alternatives to incarceration?",
+        "choices": [
+          {
+            "text": "Eligibility, aims, equity, community-based support, and evidence",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Alternatives to incarceration",
+        "order": 4
+      },
+      {
+        "text": "According to the Diversion Programs & Restorative Justice course, which topic belongs in the module Restorative justice principles?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Voluntary participation, accountability, repair, victim safety, and facilitator neutrality",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Restorative justice principles",
+        "order": 5
+      },
+      {
+        "text": "According to the Diversion Programs & Restorative Justice course, which topic belongs in the module Case coordination?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Referral, service plans, monitoring, completion, and avoiding net widening",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Case coordination",
+        "order": 6
+      },
+      {
+        "text": "According to the Reentry Planning & Community Reintegration course, which topic belongs in the module Reentry needs?",
+        "choices": [
+          {
+            "text": "Housing, employment, health, identification, family, stigma, legal obligations, and risk",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Reentry needs",
+        "order": 7
+      },
+      {
+        "text": "According to the Reentry Planning & Community Reintegration course, which topic belongs in the module Planning before release?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Assessment, goal setting, records transfer, benefits, family preparation, and warm referrals",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Planning before release",
+        "order": 8
+      },
+      {
+        "text": "According to the Reentry Planning & Community Reintegration course, which topic belongs in the module Community follow-up?",
+        "choices": [
+          {
+            "text": "Continuity of care, peer support, crisis response, progress review, and advocacy",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Community follow-up",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Criminal Justice & Forensic Social Work catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Foundations of Forensic Social Work?",
+        "choices": [
+          {
+            "text": "Build coordinated plans that support safe reentry after detention or incarceration.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Explain social-work roles and ethical responsibilities in justice-related settings.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Describe suitable diversion and restorative approaches and their safeguards.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Foundations of Forensic Social Work",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Diversion Programs & Restorative Justice?",
+        "choices": [
+          {
+            "text": "Build coordinated plans that support safe reentry after detention or incarceration.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Explain social-work roles and ethical responsibilities in justice-related settings.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Describe suitable diversion and restorative approaches and their safeguards.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Diversion Programs & Restorative Justice",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Reentry Planning & Community Reintegration?",
+        "choices": [
+          {
+            "text": "Build coordinated plans that support safe reentry after detention or incarceration.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Explain social-work roles and ethical responsibilities in justice-related settings.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Describe suitable diversion and restorative approaches and their safeguards.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Reentry Planning & Community Reintegration",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Disaster Response & Crisis Intervention",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Disaster Preparedness & Response Planning course, which topic belongs in the module Disaster-risk context?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Hazards, vulnerability, capacity, inclusion, and ethical preparedness",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Disaster-risk context",
+        "order": 1
+      },
+      {
+        "text": "According to the Disaster Preparedness & Response Planning course, which topic belongs in the module Preparedness planning?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Roles, communications, evacuation/shelter supports, safeguarding, and continuity plans",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Preparedness planning",
+        "order": 2
+      },
+      {
+        "text": "According to the Disaster Preparedness & Response Planning course, which topic belongs in the module Response coordination?",
+        "choices": [
+          {
+            "text": "Rapid needs assessment, information management, referrals, staff safety, and review",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Response coordination",
+        "order": 3
+      },
+      {
+        "text": "According to the Psychological First Aid course, which topic belongs in the module What PFA is and is not?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Principles, safety, dignity, culture, consent, and avoiding forced disclosure",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "What PFA is and is not",
+        "order": 4
+      },
+      {
+        "text": "According to the Psychological First Aid course, which topic belongs in the module Look, listen, link?",
+        "choices": [
+          {
+            "text": "Immediate needs, calming support, active listening, information, and practical assistance",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Look, listen, link",
+        "order": 5
+      },
+      {
+        "text": "According to the Psychological First Aid course, which topic belongs in the module Referral and self-care?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "High-risk signs, protection issues, referral, documentation, and helper wellbeing",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Referral and self-care",
+        "order": 6
+      },
+      {
+        "text": "According to the Long-Term Disaster Recovery Support course, which topic belongs in the module Recovery over time?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Displacement, livelihoods, grief, service disruption, inequity, and community leadership",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Recovery over time",
+        "order": 7
+      },
+      {
+        "text": "According to the Long-Term Disaster Recovery Support course, which topic belongs in the module Case and community support?",
+        "choices": [
+          {
+            "text": "Housing, benefits, mental-health referrals, child protection, and participation",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Case and community support",
+        "order": 8
+      },
+      {
+        "text": "According to the Long-Term Disaster Recovery Support course, which topic belongs in the module Resilience and evaluation?",
+        "choices": [
+          {
+            "text": "Recovery indicators, feedback, preparedness learning, and sustainable partnerships",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Resilience and evaluation",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Disaster Response & Crisis Intervention catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Disaster Preparedness & Response Planning?",
+        "choices": [
+          {
+            "text": "Support equitable long-term recovery and community resilience after an emergency.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Support organisational and community readiness before and during a disaster.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Provide humane, practical first support after distressing events within professional limits.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Disaster Preparedness & Response Planning",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Psychological First Aid?",
+        "choices": [
+          {
+            "text": "Support equitable long-term recovery and community resilience after an emergency.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Support organisational and community readiness before and during a disaster.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Provide humane, practical first support after distressing events within professional limits.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Psychological First Aid",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Long-Term Disaster Recovery Support?",
+        "choices": [
+          {
+            "text": "Support equitable long-term recovery and community resilience after an emergency.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Support organisational and community readiness before and during a disaster.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Provide humane, practical first support after distressing events within professional limits.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Long-Term Disaster Recovery Support",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "school": "School of Social Policy & Advocacy",
+    "passing_score": 70,
+    "questions": [
+      {
+        "text": "According to the Policy Analysis Fundamentals course, which topic belongs in the module Policy basics?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Policy cycle, actors, evidence, values, and social-work roles",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Policy basics",
+        "order": 1
+      },
+      {
+        "text": "According to the Policy Analysis Fundamentals course, which topic belongs in the module Analytical framework?",
+        "choices": [
+          {
+            "text": "Problem definition, target population, benefits/burdens, feasibility, and equity",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Analytical framework",
+        "order": 2
+      },
+      {
+        "text": "According to the Policy Analysis Fundamentals course, which topic belongs in the module Communicating analysis?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Policy brief structure, recommendations, evidence use, and ethical advocacy",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Communicating analysis",
+        "order": 3
+      },
+      {
+        "text": "According to the Legislative Advocacy & Coalition Building course, which topic belongs in the module Legislative landscape?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "How bills move, decision makers, committees, timing, and jurisdiction",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Legislative landscape",
+        "order": 4
+      },
+      {
+        "text": "According to the Legislative Advocacy & Coalition Building course, which topic belongs in the module Advocacy strategy?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Power mapping, coalition roles, messages, meetings, public engagement, and ethics",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Advocacy strategy",
+        "order": 5
+      },
+      {
+        "text": "According to the Legislative Advocacy & Coalition Building course, which topic belongs in the module Campaign delivery?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Briefing decision makers, mobilising constituents, monitoring outcomes, and adaptation",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Campaign delivery",
+        "order": 6
+      },
+      {
+        "text": "According to the Using Data to Drive Policy Change course, which topic belongs in the module Data foundations?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Quantitative/qualitative data, data quality, consent, privacy, and disaggregation",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Data foundations",
+        "order": 7
+      },
+      {
+        "text": "According to the Using Data to Drive Policy Change course, which topic belongs in the module Finding the story?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Trend interpretation, inequity, visualisation, lived experience, and limits of inference",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Finding the story",
+        "order": 8
+      },
+      {
+        "text": "According to the Using Data to Drive Policy Change course, which topic belongs in the module Policy communication?",
+        "choices": [
+          {
+            "text": "A local procedure that must be verified before use",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A topic reserved for a different module in the course",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A claim that is not part of the approved course outline",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Evidence brief, charts, recommendations, stakeholder presentation, and evaluation",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "Policy communication",
+        "order": 9
+      },
+      {
+        "text": "Which statement best describes the shared learning approach in the School of Social Policy & Advocacy catalogue?",
+        "choices": [
+          {
+            "text": "Use the course material with the governing local law, organisational policy, supervision requirements, and approved referral pathways.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Treat the course material as a replacement for every local procedure.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Ignore the learner's scope of role when applying course content.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Use a single international rule without checking the delivery setting.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "safe local application",
+        "order": 10
+      },
+      {
+        "text": "What information should a learner leave out of a course worksheet or assessment response?",
+        "choices": [
+          {
+            "text": "A de-identified explanation of the learning activity.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "A question about information that needs verification.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "A reflection on when supervision may be needed.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "Identifying details about a client, family, patient, student, colleague, or community member.",
+            "is_correct": true,
+            "order": 4
+          }
+        ],
+        "objective": "confidentiality and de-identification",
+        "order": 11
+      },
+      {
+        "text": "Which course outcome is associated with Policy Analysis Fundamentals?",
+        "choices": [
+          {
+            "text": "Turn responsible practice and community data into persuasive policy evidence.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Plan ethical, evidence-informed advocacy to influence legislation and public decisions.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Analyse a policy\u2019s intent, implementation, stakeholders, and effects on communities.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Policy Analysis Fundamentals",
+        "order": 12
+      },
+      {
+        "text": "Which course outcome is associated with Legislative Advocacy & Coalition Building?",
+        "choices": [
+          {
+            "text": "Turn responsible practice and community data into persuasive policy evidence.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Plan ethical, evidence-informed advocacy to influence legislation and public decisions.",
+            "is_correct": true,
+            "order": 2
+          },
+          {
+            "text": "Analyse a policy\u2019s intent, implementation, stakeholders, and effects on communities.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Legislative Advocacy & Coalition Building",
+        "order": 13
+      },
+      {
+        "text": "Which course outcome is associated with Using Data to Drive Policy Change?",
+        "choices": [
+          {
+            "text": "Turn responsible practice and community data into persuasive policy evidence.",
+            "is_correct": true,
+            "order": 1
+          },
+          {
+            "text": "Plan ethical, evidence-informed advocacy to influence legislation and public decisions.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Analyse a policy\u2019s intent, implementation, stakeholders, and effects on communities.",
+            "is_correct": false,
+            "order": 3
+          },
+          {
+            "text": "A course outcome not included in the approved catalogue.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "Using Data to Drive Policy Change",
+        "order": 14
+      },
+      {
+        "text": "When a decision is outside a learner's authority, competence, or supervision arrangement, what does the course material direct the learner to do?",
+        "choices": [
+          {
+            "text": "Make a final decision without checking the applicable procedure.",
+            "is_correct": false,
+            "order": 1
+          },
+          {
+            "text": "Use a fictional example as a substitute for local guidance.",
+            "is_correct": false,
+            "order": 2
+          },
+          {
+            "text": "Pause and use the correct local consultation, escalation, referral, or handover route.",
+            "is_correct": true,
+            "order": 3
+          },
+          {
+            "text": "Omit the issue from documentation and reflection.",
+            "is_correct": false,
+            "order": 4
+          }
+        ],
+        "objective": "professional limits and escalation",
+        "order": 15
+      }
+    ]
+  }
+]

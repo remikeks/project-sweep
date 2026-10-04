@@ -1,0 +1,435 @@
+{
+  "course_code": "SWP-010",
+  "title": "Aging in Place & Independent Living",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\10-aging-in-place-and-independent-living-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1: Person-centred ageing",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Autonomy, capacity, culture, rights, and social determinants"
+        },
+        {
+          "correct": false,
+          "text": "B.Falls, accessibility, medication, isolation, and caregiver capacity"
+        },
+        {
+          "correct": false,
+          "text": "C.Services, technology, family collaboration, review, and safeguarding"
+        },
+        {
+          "correct": false,
+          "text": "D.Legislation, professional standards, referral directories, and employer policy"
+        }
+      ],
+      "question": "According to Module 1: Person-centred ageing, which of the following sets of factors must a practitioner focus on to support an older adult's independence?",
+      "rationale": "Rationale: Module 1 explicitly lists autonomy, capacity, culture, rights, and social determinants as the primary areas of focus for person-centred ageing."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Document the concern and wait for the next scheduled review"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Attempt to resolve the issue independently before seeking help"
+        },
+        {
+          "correct": false,
+          "text": "D.Ask the family to manage the concern to maintain autonomy"
+        }
+      ],
+      "question": "When a practitioner identifies a concern that exceeds their current role, supervision, or authority, what is the mandated action according to the learning sequence?",
+      "rationale": "Rationale: The guide states that when a concern exceeds one's role, they must pause and use the correct escalation route to protect continuity of support."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 2: Home and community assessment",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Social determinants"
+        },
+        {
+          "correct": true,
+          "text": "B.Caregiver capacity"
+        },
+        {
+          "correct": false,
+          "text": "C.Family collaboration"
+        },
+        {
+          "correct": false,
+          "text": "D.Safeguarding"
+        }
+      ],
+      "question": "Which specific focus area is categorized under Module 2: Home and community assessment?",
+      "rationale": "Rationale: Module 2 focuses on physical and social environmental factors including falls, accessibility, medication/health supports, isolation, and caregiver capacity."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Practice notice",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To provide a legal substitute for clinical procedures"
+        },
+        {
+          "correct": false,
+          "text": "B.To outline the specific laws of every jurisdiction"
+        },
+        {
+          "correct": true,
+          "text": "C.To clarify that the material supports learning but does not replace local policy or urgent procedures"
+        },
+        {
+          "correct": false,
+          "text": "D.To mandate that all practitioners follow the guide over their employer's policy"
+        }
+      ],
+      "question": "What is the primary purpose of the 'Practice notice' provided in the Learner Guide?",
+      "rationale": "Rationale: The practice notice clarifies that the material is for learning and does not replace the specific laws, policies, or urgent clinical procedures of a practitioner's setting."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "B.Subjective, detailed, and comprehensive"
+        },
+        {
+          "correct": false,
+          "text": "C.Brief, informal, and accessible"
+        },
+        {
+          "correct": false,
+          "text": "D.Confidential, exhaustive, and identifying"
+        }
+      ],
+      "question": "In the context of documentation, what three criteria must information meet to be recorded according to the course standards?",
+      "rationale": "Rationale: The guide specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Recording that the client is at high risk of falling due to the rugs"
+        },
+        {
+          "correct": false,
+          "text": "B.Removing the rugs immediately to ensure safety"
+        },
+        {
+          "correct": true,
+          "text": "C.Documenting the presence of loose rugs and discussing potential trip hazards with the client"
+        },
+        {
+          "correct": false,
+          "text": "D.Assuming the client is unaware of the danger and notifying the family"
+        }
+      ],
+      "question": "A practitioner observes that an older adult has several loose rugs in their hallway. Which action best demonstrates the 'Learning Sequence' requirement to separate observations from assumptions?",
+      "rationale": "Rationale: The sequence requires separating the physical observation (loose rugs) from the assumption (they will fall) and verifying the concern with the person or an approved source."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2: Home and community assessment",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Accessibility"
+        },
+        {
+          "correct": false,
+          "text": "B.Caregiver capacity"
+        },
+        {
+          "correct": true,
+          "text": "C.Isolation"
+        },
+        {
+          "correct": false,
+          "text": "D.Social determinants"
+        }
+      ],
+      "question": "During a home assessment, you notice the client seems withdrawn and rarely leaves the house. Which focus area from Module 2 are you primarily assessing?",
+      "rationale": "Rationale: Withdrawing from social contact and staying indoors are key indicators used to assess 'Isolation' within the home and community context."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Implement the latest monitoring technology to ensure maximum safety"
+        },
+        {
+          "correct": true,
+          "text": "B.Examine practical implications and identify both strengths and concerns regarding the technology"
+        },
+        {
+          "correct": false,
+          "text": "C.Avoid technology if the client is over a certain age to prevent confusion"
+        },
+        {
+          "correct": false,
+          "text": "D.Only use technology that has been recommended by the family, regardless of client preference"
+        }
+      ],
+      "question": "When developing a Coordinated ageing-in-place plan, how should a practitioner approach the use of technology for an older adult?",
+      "rationale": "Rationale: The sequence requires examining the practical implications of technology, identifying both strengths and concerns, and checking information with the person or family."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 1: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Explain your role and seek informed participation while respecting cultural context"
+        },
+        {
+          "correct": false,
+          "text": "B.Apply standard procedures regardless of culture to ensure equality"
+        },
+        {
+          "correct": false,
+          "text": "C.Allow the family to make all decisions to respect cultural hierarchy"
+        },
+        {
+          "correct": false,
+          "text": "D.Document cultural observations based on general research of that culture"
+        }
+      ],
+      "question": "A practitioner is working with a client from a different cultural background. According to Module 1, what is the most appropriate collaborative approach?",
+      "rationale": "Rationale: The guide emphasizes a respectful, collaborative approach where the practitioner explains their role and seeks informed participation."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Wait for the client to request a referral"
+        },
+        {
+          "correct": true,
+          "text": "B.Provide a prompt referral and a clear handover to the appropriate authority"
+        },
+        {
+          "correct": false,
+          "text": "C.Conduct a full investigation before involving other agencies"
+        },
+        {
+          "correct": false,
+          "text": "D.Document the concern but take no further action to maintain neutrality"
+        }
+      ],
+      "question": "In Module 3, 'Safeguarding' is listed as a focus area. What is the practitioner's responsibility when a safeguarding concern is identified that exceeds their competence?",
+      "rationale": "Rationale: The guide states that a prompt referral and a clear handover can protect continuity of support when a concern exceeds one's competence."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Professional judgement always overrides local procedure in person-centred care"
+        },
+        {
+          "correct": false,
+          "text": "B.Local procedure is only necessary when professional judgement fails"
+        },
+        {
+          "correct": true,
+          "text": "C.Practitioners must identify when to use judgement and when a local procedure must guide the next step"
+        },
+        {
+          "correct": false,
+          "text": "D.Professional judgement is not permitted in regulated ageing-in-place settings"
+        }
+      ],
+      "question": "Which of the following best describes the relationship between 'Professional Judgement' and 'Local Procedure' in the learning sequence?",
+      "rationale": "Rationale: The sequence instructs practitioners to notice where professional judgement is needed and where a local procedure must guide the next step, indicating they work in tandem."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2 & 3: Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Identify the caregiver's exhaustion as a concern and collaborate with the family to review support services in the plan"
+        },
+        {
+          "correct": false,
+          "text": "B.Immediately increase the client's service hours without consulting the family to alleviate the caregiver's burden"
+        },
+        {
+          "correct": false,
+          "text": "C.Advise the caregiver to take a break and document that the plan is currently failing"
+        },
+        {
+          "correct": false,
+          "text": "D.Focus only on the client's needs as the caregiver's capacity is outside the scope of a person-centred plan"
+        }
+      ],
+      "question": "You are assessing a client's 'Caregiver capacity' (Module 2) and find the primary caregiver is exhausted. Simultaneously, you are reviewing the 'Coordinated ageing-in-place plan' (Module 3). What is the most holistic next step?",
+      "rationale": "Rationale: This requires synthesizing the assessment of caregiver capacity with the planning module by identifying concerns, seeking informed participation from the family, and checking for necessary local referrals."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 1 & 3: Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Override the client's autonomy to ensure their physical safety"
+        },
+        {
+          "correct": true,
+          "text": "B.Respect the client's autonomy but document the specific risks and follow local escalation routes if the risk is critical"
+        },
+        {
+          "correct": false,
+          "text": "C.Ignore the risks to avoid infringing on the client's rights"
+        },
+        {
+          "correct": false,
+          "text": "D.Ask the family to legally take over the client's decision-making capacity"
+        }
+      ],
+      "question": "A client has the 'Capacity' to make decisions but chooses to live in a way that the practitioner deems risky regarding 'Falls' and 'Accessibility'. How does the practitioner balance 'Autonomy' with 'Safeguarding'?",
+      "rationale": "Rationale: The practitioner must respect autonomy while identifying concerns. If the risk exceeds their authority to manage, they must use escalation routes and document relevant, accurate information."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 1 & 3: Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Focusing exclusively on medical technology to bypass social challenges"
+        },
+        {
+          "correct": true,
+          "text": "B.Identifying social barriers to service access and collaborating on a plan that utilizes approved referral pathways"
+        },
+        {
+          "correct": false,
+          "text": "C.Documenting the client's financial status in detail to justify why services cannot be provided"
+        },
+        {
+          "correct": false,
+          "text": "D.Assuming that social determinants are the responsibility of social workers and excluding them from the ageing-in-place plan"
+        }
+      ],
+      "question": "When applying 'Social determinants' (Module 1) to a 'Coordinated ageing-in-place plan' (Module 3), which action demonstrates the highest level of practice integration?",
+      "rationale": "Rationale: Integration involves identifying how social factors (like housing or transport) impact the plan, identifying strengths/concerns, and ensuring all actions align with local referral pathways."
+    },
+    {
+      "metadata": [
+        "TRUE_FALSE",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3: Practice Reflection",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.True"
+        },
+        {
+          "correct": false,
+          "text": "B.False"
+        }
+      ],
+      "question": "Is the following statement true or false? According to the Learner Guide, practitioners should remove all identifying information from examples they record when working through the modules.",
+      "rationale": "Rationale: Each module explicitly instructs the learner to 'remove identifying information from any examples you record' to maintain privacy and confidentiality during the learning process."
+    }
+  ]
+}

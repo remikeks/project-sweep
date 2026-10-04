@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-014 — Community Organizing & Coalition Building
+  - generic: SWP-014
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: Organising foundations"
+  - generic: simple
+  - paragraph: "According to the SWP-014 course structure, which of the following is a primary focus of Module 1: Organising Foundations?"
+  - generic: A.
+  - text: Conflict management
+  - generic: B.
+  - text: Power analysis
+  - generic: C.
+  - text: Governance
+  - generic: D.
+  - text: Tactics
+  - generic: "Rationale: Module 1 specifically focuses on power analysis, community leadership, issue selection, and trust building as the foundations of organizing."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: Coalition formation"
+  - generic: simple
+  - paragraph: "In the context of Module 2: Coalition Formation, which element is essential for managing the internal structure and decision-making of the group?"
+  - generic: A.
+  - text: Governance
+  - generic: B.
+  - text: Power analysis
+  - generic: C.
+  - text: Mobilisation
+  - generic: D.
+  - text: Issue selection
+  - generic: "Rationale: Governance is listed as a key focus area in Module 2, referring to the systems and processes used to manage the coalition."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: Campaign action"
+  - generic: simple
+  - paragraph: "Which component of Module 3: Campaign Action is concerned with the long-term viability and lasting impact of the organized efforts?"
+  - generic: A.
+  - text: Strategy
+  - generic: B.
+  - text: Tactics
+  - generic: C.
+  - text: Sustainability
+  - generic: D.
+  - text: Evaluation
+  - generic: "Rationale: Sustainability is the specific focus area in Module 3 that addresses the long-term continuation and impact of the campaign."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Learning objectives"
+  - generic: simple
+  - paragraph: What is the overarching course outcome that a learner should be able to achieve upon completion of all three modules?
+  - generic: A.
+  - text: Drafting new legislative policies
+  - generic: B.
+  - text: Mobilising communities and partners around shared goals
+  - generic: C.
+  - text: Replacing clinical safeguarding procedures
+  - generic: D.
+  - text: Conducting independent legal audits
+  - generic: "Rationale: The primary learning objective stated is to mobilise communities and partners around shared, achievable goals."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: simple
+  - paragraph: According to the learning sequence for each module, what is the first step a practitioner should take?
+  - generic: A.
+  - text: Separate observations from assumptions
+  - generic: B.
+  - text: Define the purpose of the module in relation to the course outcome
+  - generic: C.
+  - text: Document relevant information
+  - generic: D.
+  - text: Identify the correct escalation route
+  - generic: "Rationale: The learning sequence for all modules begins by defining the purpose of that specific phase (foundations, formation, or action) in relation to the course outcome."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1: Organising foundations"
+  - generic: intermediate
+  - paragraph: A community organizer is mapping out which local stakeholders have the most influence over a city council's budget decisions. Which activity from Module 1 are they currently engaged in?
+  - generic: A.
+  - text: Issue selection
+  - generic: B.
+  - text: Power analysis
+  - generic: C.
+  - text: Governance
+  - generic: D.
+  - text: Tactics
+  - generic: "Rationale: Mapping influence and stakeholders is a core part of 'Power analysis,' which is a key focus of Module 1."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2: Coalition formation"
+  - generic: intermediate
+  - paragraph: During a coalition meeting, two partner organizations disagree on who should lead the public relations effort. To resolve this while following Module 2 guidelines, what should the facilitator focus on?
+  - generic: A.
+  - text: Conflict management and Roles
+  - generic: B.
+  - text: Power analysis and Issue selection
+  - generic: C.
+  - text: Sustainability and Evaluation
+  - generic: D.
+  - text: Mobilisation and Strategy
+  - generic: "Rationale: The scenario describes a disagreement over roles and internal friction, which falls under 'Conflict management' and 'Roles' in Module 2."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is organizing a town hall meeting to gather community input on a new health initiative. They ensure that they explain their role clearly and seek informed participation. Which principle from the learning sequence are they applying?
+  - generic: A.
+  - text: Separating observations from assumptions
+  - generic: B.
+  - text: Respectful, collaborative approach
+  - generic: C.
+  - text: Escalation and referral
+  - generic: D.
+  - text: Power analysis
+  - generic: "Rationale: The learning sequence emphasizes using a respectful, collaborative approach by explaining roles and seeking informed participation."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice / Learning sequence"
+  - generic: intermediate
+  - paragraph: While working on a campaign, a practitioner discovers a serious safeguarding concern that is beyond their professional competence and authority. Based on the 'Practice notice' and 'Learning sequence', what is the required action?
+  - generic: A.
+  - text: Document the concern and continue with the campaign strategy
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Apply professional judgement to resolve the issue independently
+  - generic: D.
+  - text: Wait until the evaluation phase of the campaign to report it
+  - generic: "Rationale: The guide states that when a concern exceeds role or authority, the practitioner must pause and use the correct escalation route/referral."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: Campaign action"
+  - generic: intermediate
+  - paragraph: "A coalition is deciding whether to use a social media blitz or a door-knocking campaign to reach their goal. According to Module 3, these specific activities are categorized as:"
+  - generic: A.
+  - text: Strategy
+  - generic: B.
+  - text: Governance
+  - generic: C.
+  - text: Tactics
+  - generic: D.
+  - text: Power analysis
+  - generic: "Rationale: Specific activities or tools used to achieve strategic goals are defined as 'Tactics' in Module 3."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2: Learning sequence"
+  - generic: intermediate
+  - paragraph: When documenting information during the 'Coalition formation' phase, what standard must the practitioner adhere to according to the learning sequence?
+  - generic: A.
+  - text: Document all observations and assumptions for future review
+  - generic: B.
+  - text: Document only relevant, accurate, and necessary information
+  - generic: C.
+  - text: Document identifying information of all community members
+  - generic: D.
+  - text: Document only the strengths of the partners involved
+  - generic: "Rationale: The sequence requires documenting only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: Campaign action"
+  - generic: intermediate
+  - paragraph: A practitioner is reviewing the results of a campaign to see if the shared goals were met and what could be improved. Which focus area of Module 3 does this represent?
+  - generic: A.
+  - text: Mobilisation
+  - generic: B.
+  - text: Sustainability
+  - generic: C.
+  - text: Evaluation
+  - generic: D.
+  - text: Strategy
+  - generic: "Rationale: Reviewing results and identifying improvements is the core of 'Evaluation' in Module 3."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 2 & 3"
+  - generic: hard
+  - paragraph: A coalition has developed a high-level plan to influence local environmental policy over the next year, but they are struggling to keep diverse partners engaged in the decision-making process. Which two areas from Module 2 and Module 3 are most relevant to addressing this?
+  - generic: A.
+  - text: Inclusion and Strategy
+  - generic: B.
+  - text: Power analysis and Tactics
+  - generic: C.
+  - text: Governance and Evaluation
+  - generic: D.
+  - text: Trust building and Mobilisation
+  - generic: "Rationale: Engagement in decision-making relates to 'Inclusion' (Module 2) and the high-level plan relates to 'Strategy' (Module 3)."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1/2/3: Learning sequence"
+  - generic: hard
+  - paragraph: In the learning sequence, practitioners are advised to 'separate observations from assumptions.' Why is this distinction critical when examining the practical implications of power analysis or coalition partners?
+  - generic: A.
+  - text: To ensure that all assumptions are documented as facts
+  - generic: B.
+  - text: To identify information that must be checked with an approved source
+  - generic: C.
+  - text: To bypass the need for local policy checks
+  - generic: D.
+  - text: To prioritize professional judgement over local procedures
+  - generic: "Rationale: The sequence emphasizes this to ensure that information is checked with approved sources and that professional judgement is guided by local procedures rather than unverified assumptions."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice"
+  - generic: hard
+  - paragraph: A practitioner is working through the 'Organising foundations' phase. They have identified a community leader and are now selecting an issue. According to the 'Practice notice', what must they apply alongside these organizing principles?
+  - generic: A.
+  - text: Only the strategies found in the learner guide
+  - generic: B.
+  - text: Law, organisational policy, and supervision requirements
+  - generic: C.
+  - text: Personal ethics regardless of local jurisdiction
+  - generic: D.
+  - text: The campaign tactics of previous successful organizers
+  - generic: "Rationale: The Practice notice explicitly states that learners must apply the law, organisational policy, supervision requirements, and approved referral pathways."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

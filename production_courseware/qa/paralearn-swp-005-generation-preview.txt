@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-005 — Cognitive Behavioral Therapy Foundations
+  - generic: SWP-005
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: The CBT model"
+  - generic: simple
+  - paragraph: According to Module 1, what interconnected components constitute the primary focus of the CBT model?
+  - generic: A.
+  - text: Situations, thoughts, emotions, bodily responses, and behaviour
+  - generic: B.
+  - text: Unconscious drives, past traumas, defenses, and personality structures
+  - generic: C.
+  - text: Genetic predispositions, societal norms, biochemical imbalances, and coping styles
+  - generic: D.
+  - text: Diagnostic categories, clinical prognoses, risk matrices, and medication adherence
+  - generic: "Rationale: Module 1 explicitly specifies that the model focuses on the links among situations, thoughts, emotions, bodily responses, and behaviour."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: Core tools"
+  - generic: simple
+  - paragraph: Which set of interventions constitutes the five core tools detailed in Module 2?
+  - generic: A.
+  - text: Agenda setting, thought records, cognitive reappraisal, behavioural activation, and homework
+  - generic: B.
+  - text: Free association, dream interpretation, transference analysis, mindfulness, and catharsis
+  - generic: C.
+  - text: Psychoeducation, family sculpting, biofeedback, hypnosis, and systematic desensitisation
+  - generic: D.
+  - text: Milieu therapy, motivational interviewing, somatic experiencing, EMDR, and contingency management
+  - generic: "Rationale: Module 2 identifies agenda setting, thought records, cognitive reappraisal, behavioural activation, and homework as its five core tools."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: Ethical application"
+  - generic: simple
+  - paragraph: Which focal areas are outlined in Module 3 for ethical application in CBT-informed practice?
+  - generic: A.
+  - text: Collaboration, cultural adaptation, limits of competence, monitoring, and referral
+  - generic: B.
+  - text: Confidentiality waivers, fee negotiation, diagnostic assessment, advocacy, and litigation
+  - generic: C.
+  - text: Dual relationships, mandatory disclosure, clinical audit, institutional compliance, and marketing
+  - generic: D.
+  - text: Involuntary admission, pharmacotherapy consultation, peer review, credentialing, and research consent
+  - generic: "Rationale: The focal areas outlined in Module 3 are collaboration, cultural adaptation, limits of competence, monitoring, and referral."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Practice notice"
+  - generic: simple
+  - paragraph: According to the course Practice Notice, how should this foundational learning guide be positioned in relation to urgent clinical and legal procedures?
+  - generic: A.
+  - text: It supports learning but does not replace urgent safeguarding, clinical, or legal procedures
+  - generic: B.
+  - text: It supersedes local clinical pathways during initial client intake and assessment
+  - generic: C.
+  - text: It serves as a legally binding operational framework for independent practice
+  - generic: D.
+  - text: It replaces standard safeguarding escalations when supervised by an accredited practitioner
+  - generic: "Rationale: The Practice Notice states that the material supports learning and does not replace urgent safeguarding, clinical, or legal procedures."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3: Learning sequence"
+  - generic: simple
+  - paragraph: Across all learning sequences in the guide, what standard is explicitly established for client documentation?
+  - generic: A.
+  - text: Document only information that is relevant, accurate, and necessary for the purpose of the work
+  - generic: B.
+  - text: Record verbatim transcripts of every client statement and personal disclosure
+  - generic: C.
+  - text: Include diagnostic assumptions and unverified collateral reports to ensure comprehensive coverage
+  - generic: D.
+  - text: Archive all subjective impressions alongside clinical observations regardless of immediate relevance
+  - generic: "Rationale: Each module instructs practitioners to 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: The CBT model"
+  - generic: intermediate
+  - paragraph: "A client entering a crowded room reports: 'My heart started racing, my chest felt tight, and I was convinced I was going to faint.' In the CBT model, how are 'heart racing' and 'chest tightness' classified?"
+  - generic: A.
+  - text: Bodily responses
+  - generic: B.
+  - text: Cognitive reappraisals
+  - generic: C.
+  - text: Automatic thoughts
+  - generic: D.
+  - text: Situational triggers
+  - generic: "Rationale: In the CBT model, physical sensations such as tachycardia and chest tightness represent bodily responses, distinct from cognitive interpretations ('convinced I was going to faint') or emotional labels."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Core tools"
+  - generic: intermediate
+  - paragraph: A practitioner working with a withdrawn client co-creates a schedule of daily structured activities to re-engage them in manageable tasks. Which core tool is being implemented?
+  - generic: A.
+  - text: Behavioural activation
+  - generic: B.
+  - text: Cognitive reappraisal
+  - generic: C.
+  - text: Agenda setting
+  - generic: D.
+  - text: Escalation routing
+  - generic: "Rationale: Scheduling activities to increase engagement, routine, and positive reinforcement directly represents behavioural activation."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Learning sequence"
+  - generic: intermediate
+  - paragraph: "During an intake session, a practitioner notes: 'The client sat with slumped shoulders and spoke in a quiet voice, which means they are completely unmotivated to engage in therapy.' What core guideline from the Module 1 learning sequence did the practitioner breach?"
+  - generic: A.
+  - text: Separating observations from assumptions
+  - generic: B.
+  - text: Identifying external referral directories
+  - generic: C.
+  - text: Co-creating structured homework tasks
+  - generic: D.
+  - text: Formulating a five-part bodily response plan
+  - generic: "Rationale: Module 1 explicitly directs practitioners to 'separate observations from assumptions.' Posture and voice volume are observations; declaring the client 'completely unmotivated' is an unverified assumption."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: Learning sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is supporting a client using basic CBT-informed tools. During a review, the client reveals severe, complex trauma symptoms that exceed the practitioner's training and accredited role. What is the practitioner's immediate required action according to the text?
+  - generic: A.
+  - text: Pause and use the correct escalation route
+  - generic: B.
+  - text: Introduce trauma-focused cognitive reappraisal worksheets immediately
+  - generic: C.
+  - text: Continue working independently while documenting the symptoms as homework
+  - generic: D.
+  - text: Terminate support immediately without initiating a handover
+  - generic: "Rationale: Module 3 instructs: 'When a concern exceeds your role, supervision, competence, or authority, pause and use the correct escalation route.'"
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: intermediate
+  - paragraph: A practitioner modifies the delivery of a thought record worksheet to align with a client's cultural background, communication preferences, and community norms while maintaining the core purpose of the tool. Which ethical domain from Module 3 does this reflect?
+  - generic: A.
+  - text: Cultural adaptation
+  - generic: B.
+  - text: Limits of competence
+  - generic: C.
+  - text: Bodily response de-escalation
+  - generic: D.
+  - text: Safeguarding audit procedure
+  - generic: "Rationale: Module 3 highlights 'cultural adaptation' alongside collaboration, ensuring CBT-informed interventions are tailored appropriately to the client's cultural context."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: Core tools"
+  - generic: intermediate
+  - paragraph: At the start of a session, a practitioner and client jointly review target topics, prioritise discussion items, and allocate time for homework review. Which core tool is being demonstrated?
+  - generic: A.
+  - text: Agenda setting
+  - generic: B.
+  - text: Cognitive reappraisal
+  - generic: C.
+  - text: Behavioural activation
+  - generic: D.
+  - text: Referral mapping
+  - generic: "Rationale: Jointly agreeing on session topics, pacing, and priorities is the defining function of agenda setting in CBT."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: The CBT model"
+  - generic: intermediate
+  - paragraph: "A client receives an unexpected email from their manager requesting a meeting ('Situation'). The client thinks: 'I am definitely getting fired' ('Thought'), feels anxious ('Emotion'), experiences a knot in their stomach ('Bodily response'), and avoids opening their inbox for the rest of the day ('Behaviour'). What primary concept from Module 1 does this sequence illustrate?"
+  - generic: A.
+  - text: The interconnected links among situations, thoughts, emotions, bodily responses, and behaviour
+  - generic: B.
+  - text: The independent functioning of cognitive schemas without physiological feedback
+  - generic: C.
+  - text: The sole reliance on behavioural activation to overcome administrative avoidance
+  - generic: D.
+  - text: The necessity of clinical escalation for non-urgent workplace stressors
+  - generic: "Rationale: This scenario directly illustrates the dynamic links among situations, thoughts, emotions, bodily responses, and behaviour as taught in the CBT model."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 2, and 3: Learning sequence"
+  - generic: hard
+  - paragraph: A practitioner recognizes that a client's deteriorating mental state exceeds their current scope of practice. According to the text, why are 'a prompt referral and a clear handover' essential in this situation?
+  - generic: A.
+  - text: To protect continuity of support
+  - generic: B.
+  - text: To absolve the practitioner of legal liability under local law
+  - generic: C.
+  - text: To satisfy mandatory billing requirements across delivery jurisdictions
+  - generic: D.
+  - text: To finalize the diagnostic formulation before discharge
+  - generic: "Rationale: The text states explicitly: 'A prompt referral and a clear handover can protect continuity of support.'"
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Assessment preparation & Module 3"
+  - generic: hard
+  - paragraph: A client struggling with depression finds standard written thought records distressing and culturally misaligned. The practitioner decides to adapt the approach by verbally exploring alternative perspectives during sessions and setting small, agreed-upon experiential tasks between meetings. In terms of the course assessment preparation areas, which synthesis of principles has the practitioner demonstrated?
+  - generic: A.
+  - text: Integrating collaborative practice and cultural adaptation into flexible tool selection
+  - generic: B.
+  - text: Exceeding scope limits by abandoning evidence-based CBT frameworks
+  - generic: C.
+  - text: Prioritising cognitive triangle analysis over ethical monitoring and referral
+  - generic: D.
+  - text: Substituting behavioural activation with informal, undocumented counselling
+  - generic: "Rationale: This action balances 'tool selection' (adapting thought records to verbal appraisal and experiential tasks), 'collaborative practice' (partnering on agreed tasks), and 'cultural adaptation' within ethical scope."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Section A: Multiple Choice"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 and Module 3: Learning sequence"
+  - generic: hard
+  - paragraph: When preparing a case reflection and documentation under the course framework, which practitioner action best aligns with both ethical information-checking and scope limitation standards?
+  - generic: A.
+  - text: Identifying strengths alongside concerns, verifying critical information with approved sources, and pausing to escalate when role limits are reached
+  - generic: B.
+  - text: Recording unverified family reports as clinical facts while continuing unguided interventions to avoid service disruption
+  - generic: C.
+  - text: Focusing solely on deficit-based observations and escalating all cases automatically regardless of competence boundaries
+  - generic: D.
+  - text: Documenting extensive background trivia to ensure thoroughness, withholding handover details until formal discharge
+  - generic: "Rationale: The learning sequence requires practitioners to 'separate observations from assumptions, identify strengths as well as concerns, and be clear about information that must be checked with a person, family, colleague, or approved source,' pausing to escalate when exceeding competence."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

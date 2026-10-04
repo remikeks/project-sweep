@@ -1,0 +1,182 @@
+- link "Skip to content":
+  - /url: "#cbt-content"
+- banner:
+  - link "ParaLearn CBT home":
+    - /url: /cbt
+    - img "ParaLearn"
+    - generic: CBT
+  - button "Toggle navigation":
+- complementary "Workspace navigation":
+  - link "ParaLearn CBT home":
+    - /url: /cbt
+    - img "ParaLearn"
+    - generic: CBT
+  - generic: Examiner workspace
+  - strong: internship's Exam Hall
+  - navigation "Primary":
+    - link "Examinations":
+      - /url: /cbt
+      - text: Examinations
+    - link "Candidates":
+      - /url: /cbt/candidates
+      - text: Candidates
+  - generic: Resources
+  - link "Candidate entrance":
+    - /url: /take
+    - text: Candidate entrance
+  - link "Developer API":
+    - /url: /cbt/api-docs
+    - text: Developer API
+  - generic: Candidate credits
+  - strong: "30"
+  - generic: I
+  - strong: internship
+  - generic: internship@parakletus.com
+  - button "Sign out":
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-024 — Reentry Planning & Community Reintegration
+  - generic: SWP-024
+  - button "Rubrics":
+    - generic: Rubrics
+  - button "ParaLearn AI":
+    - generic: ParaLearn AI
+  - button "Save"
+  - button "More actions":
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 15 questions
+- generic: 25 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (15)
+  - generic: "Total: 25 Marks"
+  - button "Add":
+    - generic: Add
+  - button "All (15)"
+  - button "MCQ (15)"
+  - button "Short (0)"
+  - button "Long (0)"
+  - generic: "1"
+  - paragraph: According to Module 1, which of the following is categorized as a core 'reentry need' that must be addressed to support safe reintegration?
+  - generic: MCQ
+  - generic: "Module 1: Reentry Needs"
+  - generic: 1m
+  - button "Delete Question":
+  - generic: "2"
+  - paragraph: In the context of Module 2, what is the primary purpose of a 'warm referral' during the planning phase before release?
+  - generic: MCQ
+  - generic: "Module 2: Planning before release"
+  - generic: 1m
+  - button "Delete Question":
+  - generic: "3"
+  - paragraph: Which component of Module 3 focuses on the ongoing evaluation of a person's reintegration journey and the adjustment of support plans?
+  - generic: MCQ
+  - generic: "Module 3: Community follow-up"
+  - generic: 1m
+  - button "Delete Question":
+  - generic: "4"
+  - paragraph: According to the 'Learning sequence' across all modules, what should a practitioner do first when a concern exceeds their professional competence or authority?
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 1m
+  - button "Delete Question":
+  - generic: "5"
+  - paragraph: Which of the following is a specific focus area of 'Planning before release' as outlined in Module 2?
+  - generic: MCQ
+  - generic: "Module 2: Planning before release"
+  - generic: 1m
+  - button "Delete Question":
+  - generic: "6"
+  - paragraph: A practitioner is reviewing a client's file and notes that the client 'seems unmotivated to find work.' According to the Module 1 learning sequence, how should this information be handled?
+  - generic: MCQ
+  - generic: "Module 1: Reentry Needs"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "7"
+  - paragraph: During the pre-release phase, a practitioner is helping a client set goals. The client refuses to involve their family in the planning process. Based on the 'collaborative approach' described in Module 2, what is the most appropriate action?
+  - generic: MCQ
+  - generic: "Module 2: Planning before release"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "8"
+  - paragraph: A client in the community follow-up phase experiences a sudden loss of housing. Which combination of Module 3 focus areas should the practitioner prioritize?
+  - generic: MCQ
+  - generic: "Module 3: Community follow-up"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "9"
+  - paragraph: When documenting information for a 'Records transfer' in Module 2, what standard must the practitioner adhere to according to the learning sequence?
+  - generic: MCQ
+  - generic: "Module 2: Planning before release"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "10"
+  - paragraph: A practitioner identifies that a client's lack of valid identification is hindering their ability to apply for benefits. Which modules' focus areas are being integrated here?
+  - generic: MCQ
+  - generic: Cross-Module Integration
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "11"
+  - paragraph: In Module 3, how does 'Peer support' differ from 'Continuity of care' in the context of community follow-up?
+  - generic: MCQ
+  - generic: "Module 3: Community follow-up"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "12"
+  - paragraph: A practitioner is working with a client who has high 'Risk' factors (Module 1) and complex 'Legal obligations' (Module 1). During 'Planning before release' (Module 2), the practitioner realizes the local housing policy prohibits the client's preferred placement. What is the most rigorous application of the 'Practice notice'?
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "13"
+  - paragraph: During a 'Progress review' (Module 3), a practitioner discovers that a 'Warm referral' (Module 2) made before release was never acted upon by the receiving agency, and the client is now in 'Stigma'-related distress (Module 1). What is the most appropriate multi-step response?
+  - generic: MCQ
+  - generic: Cross-Module Integration
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "14"
+  - paragraph: A practitioner is tasked with 'Family preparation' (Module 2) for a client with significant 'Health' needs (Module 1). The practitioner is unsure if they are allowed to share the client's medical records with the family. What should be the deciding factor according to the 'Learning sequence'?
+  - generic: MCQ
+  - generic: "Module 2: Planning before release"
+  - generic: 2m
+  - button "Delete Question":
+  - generic: "15"
+  - paragraph: Which of the following best describes the relationship between 'Professional judgement' and 'Local procedure' as outlined in the learning sequences of all three modules?
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 2m
+  - button "Delete Question":
+- main:
+  - generic: "Editing Question #1"
+  - button "MCQ"
+  - button "Short Essay"
+  - button "Long Essay"
+  - button "True/False"
+  - generic: "Marks:"
+  - spinbutton: "1"
+  - generic: "Exam Section:"
+  - 'textbox "e.g. Section A: Objectives or Section B: Theory & Essays"': "Module 1: Reentry Needs"
+  - generic: Question Statement / Problem Statement
+  - generic: Supports text and KaTeX math formulas
+  - textbox "Enter question statement or case study prompt...": According to Module 1, which of the following is categorized as a core 'reentry need' that must be addressed to support safe reintegration?
+  - generic: Answer Choices (Click the badge to mark the correct choice)
+  - button "Add Option":
+    - generic: Add Option
+  - button "A"
+  - textbox "Option A text...": Vocational hobby development
+  - button "Remove Option":
+  - button "Correct answer":
+  - textbox "Option B text...": Legal obligations
+  - button "Remove Option":
+  - button "C"
+  - textbox "Option C text...": Social media management
+  - button "Remove Option":
+  - button "D"
+  - textbox "Option D text...": Political affiliation
+  - button "Remove Option":
+  - generic: Explanation & Solution Notes (Revealed after assessment review)
+  - textbox "e.g. Highlighting core principles, formulas, and common student misconceptions...": Module 1 explicitly lists housing, employment, health, identification, family, stigma, legal obligations, and risk as the primary reentry needs.
+- region "Notifications alt+T"
+- alert

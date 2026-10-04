@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-015 — Program Development & Evaluation
+  - generic: SWP-015
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Programme Design"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1: Programme Design"
+  - generic: simple
+  - paragraph: According to Module 1, which of the following is a primary focus of the 'Programme Design' phase?
+  - generic: A.
+  - text: Budget assumptions and risk management
+  - generic: B.
+  - text: Needs-to-goals chain and theory of change
+  - generic: C.
+  - text: Data collection and learning loops
+  - generic: D.
+  - text: Reporting and baseline indicators
+  - generic: "Rationale: Module 1 specifically lists the needs-to-goals chain, theory of change, target groups, and feasibility as its core focus areas."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 3: Monitoring and Evaluation"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3: Monitoring and Evaluation"
+  - generic: simple
+  - paragraph: In the context of Monitoring and Evaluation (Module 3), what is the primary purpose of establishing a 'baseline'?
+  - generic: A.
+  - text: To define the final reporting format
+  - generic: B.
+  - text: To establish the starting point before an intervention
+  - generic: C.
+  - text: To identify the target group's demographic
+  - generic: D.
+  - text: To create a list of potential project partners
+  - generic: "Rationale: A baseline provides the starting point or status quo against which future progress and changes can be measured."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 2: Implementation Planning"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2: Implementation Planning"
+  - generic: simple
+  - paragraph: Which component is explicitly categorized under 'Implementation Planning' in the learner guide?
+  - generic: A.
+  - text: Theory of change
+  - generic: B.
+  - text: Learning loops
+  - generic: C.
+  - text: Budget assumptions
+  - generic: D.
+  - text: Needs-to-goals chain
+  - generic: "Rationale: Module 2 focuses on activities, budget assumptions, partnerships, risk management, and inclusion."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 1 Marks
+  - generic: "Ref: Module 1/2/3 Learning Sequence"
+  - generic: simple
+  - paragraph: When a practitioner identifies a concern that exceeds their role, competence, or authority, what is the required action according to the learning sequence?
+  - generic: A.
+  - text: Document the concern and continue the programme
+  - generic: B.
+  - text: Consult with the target group for a solution
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Modify the programme design to address the concern
+  - generic: "Rationale: The guide states that when a concern exceeds one's role, they must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: Course Structure
+  - generic: 1 Marks
+  - generic: "Ref: Learning objectives"
+  - generic: simple
+  - paragraph: What is the overarching goal of the SWP-015 Program Development & Evaluation course?
+  - generic: A.
+  - text: To provide legal advice for community safeguarding
+  - generic: B.
+  - text: To design a feasible community programme and measure its efficacy
+  - generic: C.
+  - text: To manage the financial auditing of non-profit organizations
+  - generic: D.
+  - text: To replace clinical procedures with community-based models
+  - generic: "Rationale: The learning objectives state the goal is to design a feasible community programme and measure whether it works."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Programme Design"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: Learning Sequence"
+  - generic: intermediate
+  - paragraph: A practitioner is developing a programme and needs to distinguish between 'observations' and 'assumptions'. In which stage of the learning sequence does this critical analysis occur?
+  - generic: A.
+  - text: Defining the purpose
+  - generic: B.
+  - text: Examining practical implications
+  - generic: C.
+  - text: Using a collaborative approach
+  - generic: D.
+  - text: Escalation and referral
+  - generic: "Rationale: The second step of the learning sequence for all modules involves examining practical implications and separating observations from assumptions."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: Implementation Planning"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2: What to pay attention to"
+  - generic: intermediate
+  - paragraph: You are planning a community initiative and are currently identifying potential obstacles and planning mitigations. Which specific area of Implementation Planning are you addressing?
+  - generic: A.
+  - text: Inclusion
+  - generic: B.
+  - text: Partnerships
+  - generic: C.
+  - text: Risk management
+  - generic: D.
+  - text: Budget assumptions
+  - generic: "Rationale: Identifying obstacles and planning mitigations is the core function of 'Risk management' within implementation planning."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: Assessment Preparation
+  - generic: 1.5 Marks
+  - generic: "Ref: Assessment preparation"
+  - generic: intermediate
+  - paragraph: In the context of 'Assessment Preparation', how does an 'outcome' differ from an 'output'?
+  - generic: A.
+  - text: Outputs are long-term goals; outcomes are short-term tasks
+  - generic: B.
+  - text: Outputs are the activities/products; outcomes are the resulting changes
+  - generic: C.
+  - text: Outputs are qualitative; outcomes are always quantitative
+  - generic: D.
+  - text: Outputs refer to the budget; outcomes refer to the target group
+  - generic: "Rationale: Outputs are the direct products or activities of a programme, whereas outcomes are the changes or benefits resulting from those activities."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 3: Monitoring and Evaluation"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: intermediate
+  - paragraph: "A team is reviewing evaluation data to determine how to adjust their current activities for better results. This process is best described as:"
+  - generic: A.
+  - text: Baseline assessment
+  - generic: B.
+  - text: Data collection
+  - generic: C.
+  - text: Learning loops
+  - generic: D.
+  - text: Reporting
+  - generic: "Rationale: Learning loops involve using data and feedback to iteratively improve and adjust programme delivery."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 1.5 Marks
+  - generic: "Ref: Practice notice"
+  - generic: intermediate
+  - paragraph: During the design phase, a practitioner must check information with an 'approved source'. Which of the following best aligns with the 'Practice Notice' regarding these sources?
+  - generic: A.
+  - text: Personal social media networks
+  - generic: B.
+  - text: Organizational policy and governing law
+  - generic: C.
+  - text: Unofficial community anecdotes
+  - generic: D.
+  - text: General internet search results
+  - generic: "Rationale: The practice notice emphasizes applying the law, organizational policy, and approved referral pathways governing the specific setting."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: Module 1/2/3 Learning Sequence
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1/2/3: Learning Sequence"
+  - generic: intermediate
+  - paragraph: When documenting information during a collaborative approach, what criteria must the information meet according to the learning sequence?
+  - generic: A.
+  - text: Comprehensive, exhaustive, and identifying
+  - generic: B.
+  - text: Relevant, accurate, and necessary
+  - generic: C.
+  - text: Subjective, detailed, and confidential
+  - generic: D.
+  - text: Brief, informal, and speculative
+  - generic: "Rationale: The guide specifies documenting only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 1: Programme Design"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1: What to pay attention to"
+  - generic: intermediate
+  - paragraph: Which of the following best describes the 'Needs-to-goals chain' in Programme Design?
+  - generic: A.
+  - text: The sequence of hiring staff for a project
+  - generic: B.
+  - text: The logical link between identified needs and desired outcomes
+  - generic: C.
+  - text: The process of securing funding from donors
+  - generic: D.
+  - text: The timeline for project completion
+  - generic: "Rationale: The needs-to-goals chain is the logical link between identified community needs and the specific goals the programme intends to achieve."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 1: Programme Design"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1: Programme Design"
+  - generic: hard
+  - paragraph: A practitioner is evaluating a programme's 'Feasibility'. Which of the following questions best represents a synthesis of 'Theory of Change' and 'Feasibility'?
+  - generic: A.
+  - text: Does the programme have a catchy name for the target group?
+  - generic: B.
+  - text: Is the proposed mechanism of change realistic and achievable within local constraints?
+  - generic: C.
+  - text: How many people will attend the first activity session?
+  - generic: D.
+  - text: Who will be responsible for the final evaluation report?
+  - generic: "Rationale: Feasibility asks if the programme *can* be done, while Theory of Change explains *how* it works. Synthesizing them involves checking if the proposed mechanism of change is realistic given available resources."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: General Practice Notice
+  - generic: 2 Marks
+  - generic: "Ref: Practice notice / Learning Sequence"
+  - generic: hard
+  - paragraph: In a scenario where a programme's 'Inclusion' strategy (Module 2) conflicts with a 'Local Procedure' (Practice Notice), what is the most appropriate professional action?
+  - generic: A.
+  - text: Prioritize the inclusion strategy to ensure equity
+  - generic: B.
+  - text: Ignore the local procedure if it seems outdated
+  - generic: C.
+  - text: Pause and consult local policy or supervision to resolve the conflict
+  - generic: D.
+  - text: Proceed with the design and address the conflict during evaluation
+  - generic: "Rationale: The guide states that local procedures must guide the next step and that practitioners must apply organizational policy and law. If a conflict arises, professional judgement must be used to consult or escalate to ensure policy compliance."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 3: Monitoring and Evaluation"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3: What to pay attention to"
+  - generic: hard
+  - paragraph: Which of the following best synthesizes the relationship between 'Indicators' and 'Reporting' in Module 3?
+  - generic: A.
+  - text: Reporting defines the indicators, while indicators define the baseline
+  - generic: B.
+  - text: Indicators are the tools used to collect data for the final report
+  - generic: C.
+  - text: Reporting is done only if the indicators show positive results
+  - generic: D.
+  - text: Indicators are qualitative, while reporting is strictly quantitative
+  - generic: "Rationale: Indicators provide the specific data points that are measured; reporting is the process of communicating those measurements to stakeholders to show if the programme worked."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

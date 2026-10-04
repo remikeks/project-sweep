@@ -1,0 +1,443 @@
+{
+  "course_code": "SWP-017",
+  "title": "Chronic Illness & Adherence Support",
+  "status": "AI draft — expert review required",
+  "source": "C:\\Users\\PARAKLETUS HUB\\.gemini\\SWEEP Project\\project-sweep\\production_courseware\\release-2026-10-03\\docx\\17-chronic-illness-and-adherence-support-learner-guide.docx",
+  "questions": [
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1: Living with chronic illness",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Medication titration protocols"
+        },
+        {
+          "correct": true,
+          "text": "B.Social determinants of health"
+        },
+        {
+          "correct": false,
+          "text": "C.Surgical intervention history"
+        },
+        {
+          "correct": false,
+          "text": "D.Genetic mapping and sequencing"
+        }
+      ],
+      "question": "According to Module 1 of the Learner Guide, which of the following is a core focus when examining the experience of living with a chronic illness?",
+      "rationale": "Rationale: Module 1 specifically lists illness burden, stigma, social determinants, self-management, and strengths as the primary areas of focus."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 2: Understanding adherence barriers",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Health literacy"
+        },
+        {
+          "correct": false,
+          "text": "B.Patient age"
+        },
+        {
+          "correct": false,
+          "text": "C.Hospital architecture"
+        },
+        {
+          "correct": false,
+          "text": "D.Weather conditions"
+        }
+      ],
+      "question": "In the context of Module 2, which factor is explicitly identified as a potential barrier to treatment adherence?",
+      "rationale": "Rationale: Module 2 identifies literacy (health literacy) as one of the key barriers to adherence, alongside beliefs, cost, access, and others."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 3: Collaborative support plan",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Diagnostic imaging"
+        },
+        {
+          "correct": true,
+          "text": "B.Goal setting"
+        },
+        {
+          "correct": false,
+          "text": "C.Financial auditing"
+        },
+        {
+          "correct": false,
+          "text": "D.Pathology reporting"
+        }
+      ],
+      "question": "Which component is a fundamental part of the 'Collaborative support plan' described in Module 3?",
+      "rationale": "Rationale: Module 3 focuses on goal setting, education, reminders, referrals, monitoring, and advocacy as the core elements of the plan."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Include all subjective patient opinions verbatim"
+        },
+        {
+          "correct": true,
+          "text": "B.Document only information that is relevant, accurate, and necessary"
+        },
+        {
+          "correct": false,
+          "text": "C.Record every detail of the patient's family history"
+        },
+        {
+          "correct": false,
+          "text": "D.Prioritize speed of entry over factual accuracy"
+        }
+      ],
+      "question": "When documenting information during a patient interaction, what standard must be met according to the learning sequence across all modules?",
+      "rationale": "Rationale: The guide states that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Living with chronic illness",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Illness burden"
+        },
+        {
+          "correct": false,
+          "text": "B.Self-management"
+        },
+        {
+          "correct": true,
+          "text": "C.Stigma"
+        },
+        {
+          "correct": false,
+          "text": "D.Strengths"
+        }
+      ],
+      "question": "A patient expresses that they feel 'ashamed' to take their medication in front of colleagues at work. Which concept from Module 1 does this scenario best illustrate?",
+      "rationale": "Rationale: The feeling of shame or being judged due to a condition or its treatment is a hallmark of 'stigma,' which is a key focus of Module 1."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: Understanding adherence barriers",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Module 1: Living with chronic illness"
+        },
+        {
+          "correct": true,
+          "text": "B.Module 2: Understanding adherence barriers"
+        },
+        {
+          "correct": false,
+          "text": "C.Module 3: Collaborative support plan"
+        },
+        {
+          "correct": false,
+          "text": "D.Practice Notice: Legal Procedures"
+        }
+      ],
+      "question": "A practitioner notices that a patient is struggling to afford their prescription refills. According to the course structure, which module provides the framework for identifying this specific barrier?",
+      "rationale": "Rationale: Module 2 focuses on 'cost' as a specific adherence barrier."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 2: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Attempt to provide support anyway to ensure continuity"
+        },
+        {
+          "correct": true,
+          "text": "B.Pause and use the correct escalation route"
+        },
+        {
+          "correct": false,
+          "text": "C.Ask the patient's family to manage the mental health concern"
+        },
+        {
+          "correct": false,
+          "text": "D.Wait until the next scheduled supervision to mention it"
+        }
+      ],
+      "question": "During a session, a practitioner realizes that a patient's mental health needs are beyond their current level of competence and authority. What is the required action according to the learning sequence?",
+      "rationale": "Rationale: The guide instructs that when a concern exceeds role, competence, or authority, the practitioner must pause and use the correct escalation route."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 3: Collaborative support plan",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To provide legal representation in court"
+        },
+        {
+          "correct": true,
+          "text": "B.To support the person to overcome practical and psychosocial barriers"
+        },
+        {
+          "correct": false,
+          "text": "C.To dictate the patient's goals for them"
+        },
+        {
+          "correct": false,
+          "text": "D.To replace the need for clinical supervision"
+        }
+      ],
+      "question": "In the 'Collaborative support plan' module, what is the primary purpose of 'advocacy'?",
+      "rationale": "Rationale: Advocacy in this context involves supporting the patient to overcome barriers and ensuring their needs are met within the healthcare system or community."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Defining the purpose"
+        },
+        {
+          "correct": true,
+          "text": "B.Separating observations from assumptions"
+        },
+        {
+          "correct": false,
+          "text": "C.Escalation and referral"
+        },
+        {
+          "correct": false,
+          "text": "D.Practice reflection"
+        }
+      ],
+      "question": "A practitioner is reviewing a case and trying to distinguish between what they have seen and what they believe to be true. Which step of the learning sequence does this represent?",
+      "rationale": "Rationale: The learning sequence across all modules emphasizes the need to 'separate observations from assumptions.'"
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1.5 Marks",
+        "Ref: Module 1: Living with chronic illness",
+        "intermediate"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Focusing exclusively on the patient's medical failures"
+        },
+        {
+          "correct": true,
+          "text": "B.Identifying existing resources and capabilities the patient possesses"
+        },
+        {
+          "correct": false,
+          "text": "C.Ignoring the illness burden to maintain a positive attitude"
+        },
+        {
+          "correct": false,
+          "text": "D.Allowing the patient to manage their illness without any professional support"
+        }
+      ],
+      "question": "Which of the following best describes a 'strengths-based' approach in Module 1?",
+      "rationale": "Rationale: A strengths-based approach involves identifying the person's existing capabilities and resources to manage their illness, rather than just focusing on deficits."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2: Understanding adherence barriers",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Cost and Access"
+        },
+        {
+          "correct": true,
+          "text": "B.Beliefs and Side effects"
+        },
+        {
+          "correct": false,
+          "text": "C.Literacy and Family factors"
+        },
+        {
+          "correct": false,
+          "text": "D.Mental health and Reminders"
+        }
+      ],
+      "question": "A patient is not taking their medication because they believe the side effects are more harmful than the disease itself. This is an example of which two adherence factors interacting?",
+      "rationale": "Rationale: This scenario involves the patient's 'beliefs' about the medication and the physical 'side effects' they experience or fear."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 3: Collaborative support plan",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": true,
+          "text": "A.Education and Reminders"
+        },
+        {
+          "correct": false,
+          "text": "B.Strict monitoring and Financial auditing"
+        },
+        {
+          "correct": false,
+          "text": "C.Immediate escalation and Legal advocacy"
+        },
+        {
+          "correct": false,
+          "text": "D.Self-management without professional education"
+        }
+      ],
+      "question": "When developing a 'Collaborative support plan' for a patient with low health literacy and high illness burden, which combination of actions is most appropriate according to Module 3?",
+      "rationale": "Rationale: For low literacy and high burden, 'Education' (to address literacy) and 'Reminders' (to assist with burden/management) are key collaborative actions."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 2: Understanding adherence barriers",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Module 1: Illness burden"
+        },
+        {
+          "correct": true,
+          "text": "B.Module 2: Beliefs and Family factors"
+        },
+        {
+          "correct": false,
+          "text": "C.Module 3: Monitoring and Referrals"
+        },
+        {
+          "correct": false,
+          "text": "D.Module 1: Social determinants"
+        }
+      ],
+      "question": "A practitioner is working with a family that discourages a patient from seeking treatment due to cultural beliefs. Which module and focus area should the practitioner apply to analyze this situation?",
+      "rationale": "Rationale: This situation involves 'Family factors' and 'Beliefs,' both of which are focus areas in Module 2: Understanding adherence barriers."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "1 Marks",
+        "Ref: Module 1, 2, & 3: Learning Sequence",
+        "simple"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.To speed up the documentation process"
+        },
+        {
+          "correct": true,
+          "text": "B.To ensure actions are based on verified information and strengths"
+        },
+        {
+          "correct": false,
+          "text": "C.To avoid the need for professional supervision"
+        },
+        {
+          "correct": false,
+          "text": "D.To minimize the time spent talking to the patient"
+        }
+      ],
+      "question": "What is the primary reason the Learner Guide emphasizes 'separating observations from assumptions' before taking action?",
+      "rationale": "Rationale: Separating observations from assumptions ensures that the practitioner is acting on verified information rather than personal biases or guesses."
+    },
+    {
+      "metadata": [
+        "MCQ",
+        "Section A: Multiple Choice",
+        "2 Marks",
+        "Ref: Module 3: Learning Sequence",
+        "hard"
+      ],
+      "options": [
+        {
+          "correct": false,
+          "text": "A.Immediately referring to a specialist"
+        },
+        {
+          "correct": true,
+          "text": "B.Defining the purpose of the support plan in relation to outcomes"
+        },
+        {
+          "correct": false,
+          "text": "C.Documenting the patient's failures in adherence"
+        },
+        {
+          "correct": false,
+          "text": "D.Setting goals without patient input to save time"
+        }
+      ],
+      "question": "In a complex case where a patient faces multiple barriers (cost, access, and mental health), what is the first step in the 'Learning Sequence' for creating a support plan?",
+      "rationale": "Rationale: The learning sequence for all modules, including Module 3, begins with 'defining the purpose' of the activity in relation to the course outcome."
+    }
+  ]
+}

@@ -1,0 +1,1075 @@
+[
+  {
+    "number": 1,
+    "school": "School of Child & Family Welfare",
+    "title": "Foundations of Child Protection",
+    "outcome": "Recognise protection concerns, respond safely, and follow the local reporting pathway.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Child protection foundations",
+        "focus": "child rights, safeguarding principles, roles, and the distinction between concern, risk, and harm"
+      },
+      {
+        "order": 2,
+        "title": "Recognising and responding",
+        "focus": "indicators of abuse/neglect, trauma-informed communication, documentation, immediate safety, and boundaries"
+      },
+      {
+        "order": 3,
+        "title": "Reporting and case coordination",
+        "focus": "mandated reporting, referral pathways, confidentiality limits, multi-agency coordination, and reflective case scenario"
+      }
+    ],
+    "assets": [
+      "safeguarding concern checklist",
+      "documentation template",
+      "reporting-pathway diagram",
+      "scenario: disclosure by a child."
+    ],
+    "cbt_focus": [
+      "recognition",
+      "first response",
+      "documentation",
+      "referral",
+      "ethics"
+    ],
+    "code": "SWP-001",
+    "slug": "foundations-of-child-protection"
+  },
+  {
+    "number": 2,
+    "school": "School of Child & Family Welfare",
+    "title": "Family Preservation & Kinship Care",
+    "outcome": "Plan safe, strengths-based support that preserves family relationships whenever appropriate.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Family-centred assessment",
+        "focus": "strengths, risks, culture, family networks, and child voice"
+      },
+      {
+        "order": 2,
+        "title": "Preservation and safety planning",
+        "focus": "in-home services, measurable safety plans, crisis support, and review points"
+      },
+      {
+        "order": 3,
+        "title": "Kinship care practice",
+        "focus": "identifying kin, caregiver assessment, support needs, contact planning, and permanency review"
+      }
+    ],
+    "assets": [
+      "family-network map",
+      "safety-plan worksheet",
+      "kinship assessment case."
+    ],
+    "cbt_focus": [
+      "assessment",
+      "safe preservation decisions",
+      "kinship support",
+      "review criteria"
+    ],
+    "code": "SWP-002",
+    "slug": "family-preservation-and-kinship-care"
+  },
+  {
+    "number": 3,
+    "school": "School of Child & Family Welfare",
+    "title": "Permanency Planning & Reunification",
+    "outcome": "Develop timely, child-centred permanency plans and assess reunification readiness.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Permanency principles",
+        "focus": "stability, attachment, timelines, child participation, and concurrent planning"
+      },
+      {
+        "order": 2,
+        "title": "Reunification practice",
+        "focus": "readiness indicators, parent support, supervised contact, risk reassessment, and transition planning"
+      },
+      {
+        "order": 3,
+        "title": "Alternative permanency",
+        "focus": "guardianship, adoption, long-term care, cultural continuity, and case review"
+      }
+    ],
+    "assets": [
+      "permanency timeline",
+      "reunification-readiness tool",
+      "concurrent-plan case."
+    ],
+    "cbt_focus": [
+      "child-centred decision making",
+      "concurrent planning",
+      "readiness evidence"
+    ],
+    "code": "SWP-003",
+    "slug": "permanency-planning-and-reunification"
+  },
+  {
+    "number": 4,
+    "school": "School of Mental Health & Clinical Practice",
+    "title": "Biopsychosocial Assessment",
+    "outcome": "Conduct a collaborative, ethical whole-person assessment and formulate priority needs.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Assessment framework",
+        "focus": "engagement, consent, presenting concerns, biological/psychological/social domains, and strengths"
+      },
+      {
+        "order": 2,
+        "title": "Risk and formulation",
+        "focus": "mental-state observation, suicide/self-harm and safeguarding screening, cultural humility, and formulation"
+      },
+      {
+        "order": 3,
+        "title": "From assessment to plan",
+        "focus": "goals, referrals, documentation, review, and simulated intake"
+      }
+    ],
+    "assets": [
+      "assessment template",
+      "risk-screening prompt sheet",
+      "anonymised intake case."
+    ],
+    "cbt_focus": [
+      "domains",
+      "risk escalation",
+      "formulation",
+      "documentation"
+    ],
+    "code": "SWP-004",
+    "slug": "biopsychosocial-assessment"
+  },
+  {
+    "number": 5,
+    "school": "School of Mental Health & Clinical Practice",
+    "title": "Cognitive Behavioral Therapy Foundations",
+    "outcome": "Explain core CBT concepts and use basic, supervised CBT-informed tools appropriately.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "The CBT model",
+        "focus": "links among situations, thoughts, emotions, bodily responses, and behaviour"
+      },
+      {
+        "order": 2,
+        "title": "Core tools",
+        "focus": "agenda setting, thought records, cognitive reappraisal, behavioural activation, and homework"
+      },
+      {
+        "order": 3,
+        "title": "Ethical application",
+        "focus": "collaboration, cultural adaptation, limits of competence, monitoring, and referral"
+      }
+    ],
+    "assets": [
+      "thought-record worksheet",
+      "behavioural-activation planner",
+      "practice vignette."
+    ],
+    "cbt_focus": [
+      "cognitive triangle",
+      "tool selection",
+      "collaborative practice",
+      "scope limits"
+    ],
+    "code": "SWP-005",
+    "slug": "cognitive-behavioral-therapy-foundations"
+  },
+  {
+    "number": 6,
+    "school": "School of Mental Health & Clinical Practice",
+    "title": "Crisis Stabilization & Safety Planning",
+    "outcome": "Respond to acute distress using de-escalation, risk assessment, and collaborative safety planning.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Crisis recognition and triage",
+        "focus": "acute risk, protective factors, emergency thresholds, and local escalation routes"
+      },
+      {
+        "order": 2,
+        "title": "De-escalation and engagement",
+        "focus": "communication, environment, grounding, and maintaining professional boundaries"
+      },
+      {
+        "order": 3,
+        "title": "Safety planning and follow-up",
+        "focus": "warning signs, coping actions, contacts, means-safety discussion, documentation, and warm handover"
+      }
+    ],
+    "assets": [
+      "safety-plan template",
+      "escalation decision tree",
+      "crisis role-play."
+    ],
+    "cbt_focus": [
+      "triage",
+      "de-escalation",
+      "safety-plan elements",
+      "referral thresholds"
+    ],
+    "code": "SWP-006",
+    "slug": "crisis-stabilization-and-safety-planning"
+  },
+  {
+    "number": 7,
+    "school": "School of Substance Use & Addiction Recovery",
+    "title": "Screening & Brief Intervention (SBIRT)",
+    "outcome": "Use screening and brief-intervention principles to identify and respond to risky substance use.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Substance-use continuum",
+        "focus": "stigma-free language, risk factors, protective factors, and screening purpose"
+      },
+      {
+        "order": 2,
+        "title": "Screening and feedback",
+        "focus": "validated-tool principles, consent, interpretation, and brief feedback"
+      },
+      {
+        "order": 3,
+        "title": "Brief intervention and referral",
+        "focus": "motivational conversation, harm reduction, referral matching, and documentation"
+      }
+    ],
+    "assets": [
+      "screening workflow",
+      "brief-intervention script",
+      "referral map."
+    ],
+    "cbt_focus": [
+      "SBIRT sequence",
+      "interpretation",
+      "harm reduction",
+      "referral"
+    ],
+    "code": "SWP-007",
+    "slug": "screening-and-brief-intervention-sbirt"
+  },
+  {
+    "number": 8,
+    "school": "School of Substance Use & Addiction Recovery",
+    "title": "Motivational Interviewing",
+    "outcome": "Use the spirit and core communication skills of motivational interviewing in appropriate settings.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "MI spirit",
+        "focus": "partnership, acceptance, compassion, evocation, autonomy, and avoiding the righting reflex"
+      },
+      {
+        "order": 2,
+        "title": "OARS skills",
+        "focus": "open questions, affirmations, reflections, summaries, and listening for change talk"
+      },
+      {
+        "order": 3,
+        "title": "Planning change",
+        "focus": "responding to ambivalence, eliciting commitment language, goal setting, and referral"
+      }
+    ],
+    "assets": [
+      "OARS cue card",
+      "conversation transcript annotation",
+      "role-play rubric."
+    ],
+    "cbt_focus": [
+      "MI spirit",
+      "OARS",
+      "change talk",
+      "responses to resistance"
+    ],
+    "code": "SWP-008",
+    "slug": "motivational-interviewing"
+  },
+  {
+    "number": 9,
+    "school": "School of Substance Use & Addiction Recovery",
+    "title": "Recovery-Oriented Systems of Care",
+    "outcome": "Coordinate strengths-based, long-term recovery supports across systems.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Recovery orientation",
+        "focus": "recovery capital, person-defined goals, peer support, and anti-stigma practice"
+      },
+      {
+        "order": 2,
+        "title": "Coordinated support",
+        "focus": "housing, employment, family, health, legal, and community supports"
+      },
+      {
+        "order": 3,
+        "title": "Sustaining recovery",
+        "focus": "relapse-prevention planning, continuity of care, outcome monitoring, and lived-experience leadership"
+      }
+    ],
+    "assets": [
+      "recovery-capital map",
+      "support-network plan",
+      "systems-coordination case."
+    ],
+    "cbt_focus": [
+      "recovery principles",
+      "peer roles",
+      "whole-system coordination"
+    ],
+    "code": "SWP-009",
+    "slug": "recovery-oriented-systems-of-care"
+  },
+  {
+    "number": 10,
+    "school": "School of Gerontology & Aging Services",
+    "title": "Aging in Place & Independent Living",
+    "outcome": "Assess and support safe, dignified independent living for older adults.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Person-centred ageing",
+        "focus": "autonomy, capacity, culture, rights, and social determinants"
+      },
+      {
+        "order": 2,
+        "title": "Home and community assessment",
+        "focus": "falls, accessibility, medication/health supports, isolation, and caregiver capacity"
+      },
+      {
+        "order": 3,
+        "title": "Coordinated ageing-in-place plan",
+        "focus": "services, technology, family collaboration, review, and safeguarding"
+      }
+    ],
+    "assets": [
+      "home-safety checklist",
+      "service-plan worksheet",
+      "home-visit scenario."
+    ],
+    "cbt_focus": [
+      "risk factors",
+      "autonomy",
+      "supports",
+      "review"
+    ],
+    "code": "SWP-010",
+    "slug": "aging-in-place-and-independent-living"
+  },
+  {
+    "number": 11,
+    "school": "School of Gerontology & Aging Services",
+    "title": "Dementia Care & Caregiver Support",
+    "outcome": "Apply person-centred approaches to dementia support and caregiver wellbeing.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Understanding dementia",
+        "focus": "common presentations, communication, stigma, and preserving identity"
+      },
+      {
+        "order": 2,
+        "title": "Daily support and responsive care",
+        "focus": "environment, routines, distress behaviours, consent, and family partnership"
+      },
+      {
+        "order": 3,
+        "title": "Caregiver support",
+        "focus": "burden, respite, education, crisis planning, and referral"
+      }
+    ],
+    "assets": [
+      "communication guide",
+      "caregiver-burden conversation prompts",
+      "care-plan case."
+    ],
+    "cbt_focus": [
+      "person-centred care",
+      "communication",
+      "caregiver supports"
+    ],
+    "code": "SWP-011",
+    "slug": "dementia-care-and-caregiver-support"
+  },
+  {
+    "number": 12,
+    "school": "School of Gerontology & Aging Services",
+    "title": "Elder Abuse Prevention & Long-Term Care Advocacy",
+    "outcome": "Recognise elder abuse and advocate for safety, rights, and quality care.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Forms and indicators of abuse",
+        "focus": "physical, emotional, sexual, financial, neglect, and institutional harm"
+      },
+      {
+        "order": 2,
+        "title": "Safe response",
+        "focus": "private inquiry, capacity/consent considerations, documentation, reporting, and emergency action"
+      },
+      {
+        "order": 3,
+        "title": "Advocacy in long-term care",
+        "focus": "rights, complaints, quality monitoring, family involvement, and systems improvement"
+      }
+    ],
+    "assets": [
+      "abuse-indicator guide",
+      "reporting flowchart",
+      "long-term-care advocacy case."
+    ],
+    "cbt_focus": [
+      "indicators",
+      "safe response",
+      "reporting",
+      "resident rights"
+    ],
+    "code": "SWP-012",
+    "slug": "elder-abuse-prevention-and-long-term-care-advocacy"
+  },
+  {
+    "number": 13,
+    "school": "School of Community & Macro Practice",
+    "title": "Community Needs Assessment",
+    "outcome": "Plan and conduct a participatory assessment that identifies needs, assets, and priorities.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Assessment design",
+        "focus": "purpose, stakeholders, ethics, inclusion, and mixed-method choices"
+      },
+      {
+        "order": 2,
+        "title": "Collecting and interpreting evidence",
+        "focus": "surveys, interviews, focus groups, asset mapping, and data quality"
+      },
+      {
+        "order": 3,
+        "title": "Prioritisation and communication",
+        "focus": "ranking needs, validating findings, reporting back, and action recommendations"
+      }
+    ],
+    "assets": [
+      "stakeholder map",
+      "survey/interview template",
+      "community-profile case."
+    ],
+    "cbt_focus": [
+      "participatory methods",
+      "ethics",
+      "assets versus deficits",
+      "prioritisation"
+    ],
+    "code": "SWP-013",
+    "slug": "community-needs-assessment"
+  },
+  {
+    "number": 14,
+    "school": "School of Community & Macro Practice",
+    "title": "Community Organizing & Coalition Building",
+    "outcome": "Mobilise communities and partners around shared, achievable goals.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Organising foundations",
+        "focus": "power analysis, community leadership, issue selection, and trust building"
+      },
+      {
+        "order": 2,
+        "title": "Coalition formation",
+        "focus": "partners, roles, governance, communication, conflict management, and inclusion"
+      },
+      {
+        "order": 3,
+        "title": "Campaign action",
+        "focus": "strategy, tactics, mobilisation, evaluation, and sustainability"
+      }
+    ],
+    "assets": [
+      "power map",
+      "coalition charter",
+      "campaign-planning worksheet."
+    ],
+    "cbt_focus": [
+      "organising principles",
+      "coalition roles",
+      "ethical mobilisation"
+    ],
+    "code": "SWP-014",
+    "slug": "community-organizing-and-coalition-building"
+  },
+  {
+    "number": 15,
+    "school": "School of Community & Macro Practice",
+    "title": "Program Development & Evaluation",
+    "outcome": "Design a feasible community programme and measure whether it works.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Programme design",
+        "focus": "needs-to-goals chain, theory of change, target groups, and feasibility"
+      },
+      {
+        "order": 2,
+        "title": "Implementation planning",
+        "focus": "activities, budget assumptions, partnerships, risk management, and inclusion"
+      },
+      {
+        "order": 3,
+        "title": "Monitoring and evaluation",
+        "focus": "indicators, baseline, data collection, learning loops, and reporting"
+      }
+    ],
+    "assets": [
+      "logic-model template",
+      "indicator bank",
+      "evaluation-plan case."
+    ],
+    "cbt_focus": [
+      "theory of change",
+      "outputs/outcomes",
+      "indicators",
+      "evaluation ethics"
+    ],
+    "code": "SWP-015",
+    "slug": "program-development-and-evaluation"
+  },
+  {
+    "number": 16,
+    "school": "School of Medical & Health Social Work",
+    "title": "Hospital Discharge Planning",
+    "outcome": "Coordinate safe, person-centred transitions from hospital to home or community care.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Discharge-risk assessment",
+        "focus": "medical, psychosocial, functional, financial, caregiver, and housing factors"
+      },
+      {
+        "order": 2,
+        "title": "Transition coordination",
+        "focus": "patient/family participation, interdisciplinary roles, medication and appointment continuity"
+      },
+      {
+        "order": 3,
+        "title": "Follow-up and readmission prevention",
+        "focus": "warning signs, referrals, documentation, and handover"
+      }
+    ],
+    "assets": [
+      "discharge checklist",
+      "transition-of-care plan",
+      "complex-discharge case."
+    ],
+    "cbt_focus": [
+      "risk factors",
+      "coordination",
+      "patient participation",
+      "follow-up"
+    ],
+    "code": "SWP-016",
+    "slug": "hospital-discharge-planning"
+  },
+  {
+    "number": 17,
+    "school": "School of Medical & Health Social Work",
+    "title": "Chronic Illness & Adherence Support",
+    "outcome": "Support people living with chronic conditions to overcome practical and psychosocial barriers to care.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Living with chronic illness",
+        "focus": "illness burden, stigma, social determinants, self-management, and strengths"
+      },
+      {
+        "order": 2,
+        "title": "Understanding adherence barriers",
+        "focus": "beliefs, cost, access, literacy, side effects, mental health, and family factors"
+      },
+      {
+        "order": 3,
+        "title": "Collaborative support plan",
+        "focus": "goal setting, education, reminders, referrals, monitoring, and advocacy"
+      }
+    ],
+    "assets": [
+      "barrier-assessment tool",
+      "self-management plan",
+      "adherence-support scenario."
+    ],
+    "cbt_focus": [
+      "barriers",
+      "collaborative goals",
+      "adherence supports"
+    ],
+    "code": "SWP-017",
+    "slug": "chronic-illness-and-adherence-support"
+  },
+  {
+    "number": 18,
+    "school": "School of Medical & Health Social Work",
+    "title": "Interdisciplinary Collaboration in Healthcare",
+    "outcome": "Work effectively and ethically in healthcare teams while protecting the social-work perspective.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Team-based care",
+        "focus": "roles, scope, referrals, shared goals, and social determinants of health"
+      },
+      {
+        "order": 2,
+        "title": "Communication and coordination",
+        "focus": "case conferences, handovers, documentation, advocacy, and constructive disagreement"
+      },
+      {
+        "order": 3,
+        "title": "Ethics and quality improvement",
+        "focus": "confidentiality, consent, equity, burnout prevention, and reflective practice"
+      }
+    ],
+    "assets": [
+      "role-mapping exercise",
+      "SBAR-style handover guide",
+      "team-conflict scenario."
+    ],
+    "cbt_focus": [
+      "roles",
+      "communication",
+      "confidentiality",
+      "advocacy"
+    ],
+    "code": "SWP-018",
+    "slug": "interdisciplinary-collaboration-in-healthcare"
+  },
+  {
+    "number": 19,
+    "school": "School of School Social Work",
+    "title": "Student Support & Attendance",
+    "outcome": "Identify attendance barriers and coordinate supportive, non-punitive interventions.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Understanding absenteeism",
+        "focus": "attendance patterns, barriers, equity, safeguarding, and early warning data"
+      },
+      {
+        "order": 2,
+        "title": "Student and family engagement",
+        "focus": "assessment, strengths, home-school partnership, and culturally responsive communication"
+      },
+      {
+        "order": 3,
+        "title": "Intervention and monitoring",
+        "focus": "individual plans, referrals, attendance review, and escalation pathways"
+      }
+    ],
+    "assets": [
+      "attendance-review form",
+      "student-support plan",
+      "family-engagement case."
+    ],
+    "cbt_focus": [
+      "barriers",
+      "early intervention",
+      "safeguarding",
+      "monitoring"
+    ],
+    "code": "SWP-019",
+    "slug": "student-support-and-attendance"
+  },
+  {
+    "number": 20,
+    "school": "School of School Social Work",
+    "title": "Behavioral & Emotional Support in Schools",
+    "outcome": "Apply trauma-informed, positive, and inclusive support for students\u2019 behavioural and emotional needs.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Behaviour as communication",
+        "focus": "development, trauma, neurodiversity, culture, and avoiding punitive assumptions"
+      },
+      {
+        "order": 2,
+        "title": "Tiered supports",
+        "focus": "classroom strategies, individual plans, crisis response, and referrals"
+      },
+      {
+        "order": 3,
+        "title": "Collaboration and review",
+        "focus": "student voice, caregiver partnership, teacher consultation, documentation, and outcome monitoring"
+      }
+    ],
+    "assets": [
+      "behaviour-support plan",
+      "teacher consultation guide",
+      "classroom case."
+    ],
+    "cbt_focus": [
+      "trauma-informed practice",
+      "tiers of support",
+      "inclusive response"
+    ],
+    "code": "SWP-020",
+    "slug": "behavioral-and-emotional-support-in-schools"
+  },
+  {
+    "number": 21,
+    "school": "School of School Social Work",
+    "title": "School-Wide Systems & Policy",
+    "outcome": "Influence school climate, procedures, and policy using social-work and equity principles.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "School systems and climate",
+        "focus": "discipline, inclusion, wellbeing, safeguarding, and data-informed problem identification"
+      },
+      {
+        "order": 2,
+        "title": "Policy analysis and improvement",
+        "focus": "stakeholders, equity impact, implementation planning, and communication"
+      },
+      {
+        "order": 3,
+        "title": "Whole-school change",
+        "focus": "restorative practices, multi-tiered systems, evaluation, and sustaining change"
+      }
+    ],
+    "assets": [
+      "policy-review checklist",
+      "climate-data dashboard brief",
+      "school-improvement case."
+    ],
+    "cbt_focus": [
+      "systems thinking",
+      "equity impacts",
+      "implementation"
+    ],
+    "code": "SWP-021",
+    "slug": "school-wide-systems-and-policy"
+  },
+  {
+    "number": 22,
+    "school": "School of Criminal Justice & Forensic Social Work",
+    "title": "Foundations of Forensic Social Work",
+    "outcome": "Explain social-work roles and ethical responsibilities in justice-related settings.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Practice contexts",
+        "focus": "courts, corrections, policing, victim services, child protection, and community programmes"
+      },
+      {
+        "order": 2,
+        "title": "Assessment and intervention",
+        "focus": "psychosocial reports, risk/needs principles, advocacy, and trauma-informed care"
+      },
+      {
+        "order": 3,
+        "title": "Ethics and boundaries",
+        "focus": "dual roles, confidentiality limits, informed consent, documentation, and cultural humility"
+      }
+    ],
+    "assets": [
+      "justice-settings map",
+      "ethics decision aid",
+      "forensic-assessment vignette."
+    ],
+    "cbt_focus": [
+      "roles",
+      "confidentiality limits",
+      "ethics",
+      "trauma-informed practice"
+    ],
+    "code": "SWP-022",
+    "slug": "foundations-of-forensic-social-work"
+  },
+  {
+    "number": 23,
+    "school": "School of Criminal Justice & Forensic Social Work",
+    "title": "Diversion Programs & Restorative Justice",
+    "outcome": "Describe suitable diversion and restorative approaches and their safeguards.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Alternatives to incarceration",
+        "focus": "eligibility, aims, equity, community-based support, and evidence"
+      },
+      {
+        "order": 2,
+        "title": "Restorative justice principles",
+        "focus": "voluntary participation, accountability, repair, victim safety, and facilitator neutrality"
+      },
+      {
+        "order": 3,
+        "title": "Case coordination",
+        "focus": "referral, service plans, monitoring, completion, and avoiding net widening"
+      }
+    ],
+    "assets": [
+      "eligibility flowchart",
+      "restorative-conference preparation guide",
+      "diversion case."
+    ],
+    "cbt_focus": [
+      "eligibility",
+      "consent",
+      "victim safety",
+      "programme safeguards"
+    ],
+    "code": "SWP-023",
+    "slug": "diversion-programs-and-restorative-justice"
+  },
+  {
+    "number": 24,
+    "school": "School of Criminal Justice & Forensic Social Work",
+    "title": "Reentry Planning & Community Reintegration",
+    "outcome": "Build coordinated plans that support safe reentry after detention or incarceration.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Reentry needs",
+        "focus": "housing, employment, health, identification, family, stigma, legal obligations, and risk"
+      },
+      {
+        "order": 2,
+        "title": "Planning before release",
+        "focus": "assessment, goal setting, records transfer, benefits, family preparation, and warm referrals"
+      },
+      {
+        "order": 3,
+        "title": "Community follow-up",
+        "focus": "continuity of care, peer support, crisis response, progress review, and advocacy"
+      }
+    ],
+    "assets": [
+      "reentry-plan template",
+      "service-navigation map",
+      "pre-release case."
+    ],
+    "cbt_focus": [
+      "needs assessment",
+      "pre-release planning",
+      "continuity of care"
+    ],
+    "code": "SWP-024",
+    "slug": "reentry-planning-and-community-reintegration"
+  },
+  {
+    "number": 25,
+    "school": "School of Disaster Response & Crisis Intervention",
+    "title": "Disaster Preparedness & Response Planning",
+    "outcome": "Support organisational and community readiness before and during a disaster.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Disaster-risk context",
+        "focus": "hazards, vulnerability, capacity, inclusion, and ethical preparedness"
+      },
+      {
+        "order": 2,
+        "title": "Preparedness planning",
+        "focus": "roles, communications, evacuation/shelter supports, safeguarding, and continuity plans"
+      },
+      {
+        "order": 3,
+        "title": "Response coordination",
+        "focus": "rapid needs assessment, information management, referrals, staff safety, and review"
+      }
+    ],
+    "assets": [
+      "preparedness checklist",
+      "rapid-needs-assessment tool",
+      "response-tabletop exercise."
+    ],
+    "cbt_focus": [
+      "risk",
+      "preparedness roles",
+      "coordination",
+      "inclusion"
+    ],
+    "code": "SWP-025",
+    "slug": "disaster-preparedness-and-response-planning"
+  },
+  {
+    "number": 26,
+    "school": "School of Disaster Response & Crisis Intervention",
+    "title": "Psychological First Aid",
+    "outcome": "Provide humane, practical first support after distressing events within professional limits.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "What PFA is and is not",
+        "focus": "principles, safety, dignity, culture, consent, and avoiding forced disclosure"
+      },
+      {
+        "order": 2,
+        "title": "Look, listen, link",
+        "focus": "immediate needs, calming support, active listening, information, and practical assistance"
+      },
+      {
+        "order": 3,
+        "title": "Referral and self-care",
+        "focus": "high-risk signs, protection issues, referral, documentation, and helper wellbeing"
+      }
+    ],
+    "assets": [
+      "PFA field card",
+      "referral decision tree",
+      "disaster-survivor scenario."
+    ],
+    "cbt_focus": [
+      "PFA principles",
+      "Look\u2013Listen\u2013Link",
+      "referral thresholds"
+    ],
+    "code": "SWP-026",
+    "slug": "psychological-first-aid"
+  },
+  {
+    "number": 27,
+    "school": "School of Disaster Response & Crisis Intervention",
+    "title": "Long-Term Disaster Recovery Support",
+    "outcome": "Support equitable long-term recovery and community resilience after an emergency.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Recovery over time",
+        "focus": "displacement, livelihoods, grief, service disruption, inequity, and community leadership"
+      },
+      {
+        "order": 2,
+        "title": "Case and community support",
+        "focus": "housing, benefits, mental-health referrals, child protection, and participation"
+      },
+      {
+        "order": 3,
+        "title": "Resilience and evaluation",
+        "focus": "recovery indicators, feedback, preparedness learning, and sustainable partnerships"
+      }
+    ],
+    "assets": [
+      "recovery-needs matrix",
+      "community-recovery case",
+      "resilience indicator worksheet."
+    ],
+    "cbt_focus": [
+      "long-term needs",
+      "equity",
+      "coordination",
+      "resilience"
+    ],
+    "code": "SWP-027",
+    "slug": "long-term-disaster-recovery-support"
+  },
+  {
+    "number": 28,
+    "school": "School of Social Policy & Advocacy",
+    "title": "Policy Analysis Fundamentals",
+    "outcome": "Analyse a policy\u2019s intent, implementation, stakeholders, and effects on communities.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Policy basics",
+        "focus": "policy cycle, actors, evidence, values, and social-work roles"
+      },
+      {
+        "order": 2,
+        "title": "Analytical framework",
+        "focus": "problem definition, target population, benefits/burdens, feasibility, and equity"
+      },
+      {
+        "order": 3,
+        "title": "Communicating analysis",
+        "focus": "policy brief structure, recommendations, evidence use, and ethical advocacy"
+      }
+    ],
+    "assets": [
+      "policy-analysis canvas",
+      "policy-brief template",
+      "local-policy case."
+    ],
+    "cbt_focus": [
+      "policy cycle",
+      "equity analysis",
+      "evidence",
+      "recommendations"
+    ],
+    "code": "SWP-028",
+    "slug": "policy-analysis-fundamentals"
+  },
+  {
+    "number": 29,
+    "school": "School of Social Policy & Advocacy",
+    "title": "Legislative Advocacy & Coalition Building",
+    "outcome": "Plan ethical, evidence-informed advocacy to influence legislation and public decisions.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Legislative landscape",
+        "focus": "how bills move, decision makers, committees, timing, and jurisdiction"
+      },
+      {
+        "order": 2,
+        "title": "Advocacy strategy",
+        "focus": "power mapping, coalition roles, messages, meetings, public engagement, and ethics"
+      },
+      {
+        "order": 3,
+        "title": "Campaign delivery",
+        "focus": "briefing decision makers, mobilising constituents, monitoring outcomes, and adaptation"
+      }
+    ],
+    "assets": [
+      "legislative tracker",
+      "advocacy message matrix",
+      "coalition action plan."
+    ],
+    "cbt_focus": [
+      "legislative process",
+      "strategy",
+      "coalition practice",
+      "ethical lobbying"
+    ],
+    "code": "SWP-029",
+    "slug": "legislative-advocacy-and-coalition-building"
+  },
+  {
+    "number": 30,
+    "school": "School of Social Policy & Advocacy",
+    "title": "Using Data to Drive Policy Change",
+    "outcome": "Turn responsible practice and community data into persuasive policy evidence.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Data foundations",
+        "focus": "quantitative/qualitative data, data quality, consent, privacy, and disaggregation"
+      },
+      {
+        "order": 2,
+        "title": "Finding the story",
+        "focus": "trend interpretation, inequity, visualisation, lived experience, and limits of inference"
+      },
+      {
+        "order": 3,
+        "title": "Policy communication",
+        "focus": "evidence brief, charts, recommendations, stakeholder presentation, and evaluation"
+      }
+    ],
+    "assets": [
+      "data-quality checklist",
+      "policy-chart workbook",
+      "evidence-to-message case."
+    ],
+    "cbt_focus": [
+      "data ethics",
+      "interpretation",
+      "equity",
+      "evidence communication"
+    ],
+    "code": "SWP-030",
+    "slug": "using-data-to-drive-policy-change"
+  }
+]

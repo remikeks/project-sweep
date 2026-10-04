@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-018 — Interdisciplinary Collaboration in Healthcare
+  - generic: SWP-018
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Team-based Care"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: simple
+  - paragraph: According to the Module 1 learning sequence, what is the first step a practitioner should take when beginning team-based care?
+  - generic: A.
+  - text: Define the purpose of team-based care in relation to the course outcome
+  - generic: B.
+  - text: Immediately escalate any concerns to a supervisor
+  - generic: C.
+  - text: Document all observations regardless of relevance
+  - generic: D.
+  - text: Identify the social determinants of health for the specific patient
+  - generic: "Rationale: The learning sequence for Module 1 explicitly states to 'Start by defining the purpose of team-based care in relation to the course outcome.'"
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3 Learning Sequences"
+  - generic: simple
+  - paragraph: Which of the following are the three criteria for documenting information in a collaborative healthcare setting as outlined in the learner guide?
+  - generic: A.
+  - text: Comprehensive, subjective, and timely
+  - generic: B.
+  - text: Relevant, accurate, and necessary
+  - generic: C.
+  - text: Brief, clinical, and confidential
+  - generic: D.
+  - text: Verifiable, exhaustive, and shared
+  - generic: "Rationale: Across all modules, the guide specifies that practitioners should 'document only information that is relevant, accurate, and necessary for the purpose of the work.'"
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3 Learning Sequences"
+  - generic: simple
+  - paragraph: What action must a practitioner take when a concern exceeds their specific role, competence, or authority?
+  - generic: A.
+  - text: Continue working but document the concern for later review
+  - generic: B.
+  - text: Ask a colleague from a different discipline to take over informally
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Modify the patient's care plan to fit within the current scope
+  - generic: "Rationale: The guide instructs practitioners to 'pause and use the correct escalation route' when a concern exceeds their role, supervision, competence, or authority."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Quality Improvement"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, Focus Section"
+  - generic: simple
+  - paragraph: Module 3 focuses on which specific set of topics within interdisciplinary collaboration?
+  - generic: A.
+  - text: Case conferences, handovers, and advocacy
+  - generic: B.
+  - text: Roles, scope, and social determinants of health
+  - generic: C.
+  - text: Confidentiality, consent, equity, burnout prevention, and reflective practice
+  - generic: D.
+  - text: Referrals, shared goals, and constructive disagreement
+  - generic: "Rationale: Module 3 is explicitly defined as focusing on confidentiality, consent, equity, burnout prevention, and reflective practice."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, and 3 Learning Sequences"
+  - generic: simple
+  - paragraph: According to the guide, what is the primary benefit of a prompt referral and a clear handover?
+  - generic: A.
+  - text: It reduces the administrative workload of the social worker
+  - generic: B.
+  - text: It protects continuity of support
+  - generic: C.
+  - text: It eliminates the need for further documentation
+  - generic: D.
+  - text: It ensures the social worker remains the primary point of contact
+  - generic: "Rationale: The text states that 'A prompt referral and a clear handover can protect continuity of support.'"
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 2: Communication and Coordination"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: A social worker is attending a case conference where a team member makes a statement about a patient's motivation based on a single interaction. Following the Module 2 learning sequence, how should the social worker respond?
+  - generic: A.
+  - text: Accept the statement as a clinical observation to maintain team harmony
+  - generic: B.
+  - text: Document the statement exactly as said without further verification
+  - generic: C.
+  - text: Separate the observation from the assumption and identify what needs to be checked
+  - generic: D.
+  - text: Immediately report the team member for unethical behavior
+  - generic: "Rationale: The guide advises practitioners to 'Separate observations from assumptions' when examining the practical implications of case conferences."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 1: Team-based Care"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, Focus Section"
+  - generic: intermediate
+  - paragraph: During a multidisciplinary meeting, a social worker realizes that the proposed discharge plan does not account for the patient's lack of stable housing. Which core concept from Module 1 is being applied when the social worker raises this concern?
+  - generic: A.
+  - text: Burnout prevention
+  - generic: B.
+  - text: Social determinants of health
+  - generic: C.
+  - text: Reflective practice
+  - generic: D.
+  - text: Constructive disagreement
+  - generic: "Rationale: Housing is a classic example of the 'social determinants of health,' which is a primary focus of Module 1."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 1: Team-based Care"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, Learning Sequence"
+  - generic: intermediate
+  - paragraph: When working in a team, a social worker is asked to perform a task that falls outside their professional scope but is required by a local procedure. According to the 'What to pay attention to' section, what is the priority?
+  - generic: A.
+  - text: Follow the local procedure regardless of professional scope
+  - generic: B.
+  - text: Use professional judgement to determine if the local procedure applies to your role
+  - generic: C.
+  - text: Ignore the local procedure and follow only professional standards
+  - generic: D.
+  - text: Perform the task but do not document it
+  - generic: "Rationale: The guide emphasizes noticing where 'professional judgement is needed and where a local procedure must guide the next step,' while also protecting the social-work perspective."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 2: Communication and Coordination"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, Focus and Learning Sequence"
+  - generic: intermediate
+  - paragraph: In the context of Module 2, how should a social worker approach a situation where they disagree with a team's decision regarding a client's advocacy needs?
+  - generic: A.
+  - text: Withdraw from the team to avoid conflict
+  - generic: B.
+  - text: Use a respectful, collaborative approach to engage in constructive disagreement
+  - generic: C.
+  - text: Submit to the team's decision to ensure a unified front
+  - generic: D.
+  - text: Advocate for the client privately without informing the team
+  - generic: "Rationale: Module 2 focuses on 'constructive disagreement' and using a 'respectful, collaborative approach' while protecting the social-work perspective."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Quality Improvement"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, Focus Section"
+  - generic: intermediate
+  - paragraph: A social worker is reviewing their own reactions to a difficult case to improve future performance. Which element of Module 3 are they practicing?
+  - generic: A.
+  - text: Equity
+  - generic: B.
+  - text: Burnout prevention
+  - generic: C.
+  - text: Reflective practice
+  - generic: D.
+  - text: Informed participation
+  - generic: "Rationale: Reflective practice involves examining one's own work and reactions to improve quality and ethical standards, as listed in Module 3."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, Learning Sequence"
+  - generic: intermediate
+  - paragraph: When documenting a case conference, a social worker includes details about a patient's estranged relative that are not relevant to the current medical intervention. This violates which principle of documentation mentioned in the guide?
+  - generic: A.
+  - text: The requirement for information to be accurate
+  - generic: B.
+  - text: The requirement for information to be necessary and relevant
+  - generic: C.
+  - text: The requirement for informed participation
+  - generic: D.
+  - text: The requirement for professional judgement
+  - generic: "Rationale: The guide states to document only information that is 'relevant, accurate, and necessary.' Including irrelevant details violates the 'relevant' and 'necessary' criteria."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Quality Improvement"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, Focus Section"
+  - generic: intermediate
+  - paragraph: A social worker feels overwhelmed by the emotional weight of their caseload and seeks supervision to discuss their wellbeing. This action aligns with which focus area of Module 3?
+  - generic: A.
+  - text: Confidentiality
+  - generic: B.
+  - text: Equity
+  - generic: C.
+  - text: Burnout prevention
+  - generic: D.
+  - text: Consent
+  - generic: "Rationale: Seeking support for the emotional impact of work is a key component of 'burnout prevention' listed in Module 3."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 3: Ethics and Quality Improvement"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, Focus Section"
+  - generic: hard
+  - paragraph: A team is deciding on a treatment plan for a patient with limited English proficiency. The social worker insists on waiting for a certified interpreter before obtaining consent. This scenario best demonstrates the synthesis of which two Module 3 concepts?
+  - generic: A.
+  - text: Confidentiality and Burnout prevention
+  - generic: B.
+  - text: Consent and Equity
+  - generic: C.
+  - text: Reflective practice and Scope
+  - generic: D.
+  - text: Shared goals and Documentation
+  - generic: "Rationale: Ensuring the patient understands the process to give valid consent while addressing the barrier to fair treatment (language) combines 'Consent' and 'Equity'."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: Course Objectives
+  - generic: 2 Marks
+  - generic: "Ref: Learning Objectives"
+  - generic: hard
+  - paragraph: In a complex discharge planning meeting, a social worker must balance the hospital's goal of 'rapid bed turnover' with the patient's need for 'safe housing.' According to the course objectives, what is the social worker's primary responsibility in this interdisciplinary setting?
+  - generic: A.
+  - text: Prioritize the hospital's organizational policy over the social-work perspective
+  - generic: B.
+  - text: Work effectively in the team while protecting the social-work perspective
+  - generic: C.
+  - text: Defer all decision-making to the clinical lead to avoid disagreement
+  - generic: D.
+  - text: Focus solely on the social-work perspective and ignore the team's shared goals
+  - generic: "Rationale: The primary objective is to 'Work effectively and ethically in healthcare teams while protecting the social-work perspective.' This requires balancing team goals with professional values."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: General Practice Standards
+  - generic: 2 Marks
+  - generic: "Ref: Practice Notice / Module 3 Learning Sequence"
+  - generic: hard
+  - paragraph: A social worker identifies that a local hospital policy for referrals contradicts the professional standards for patient confidentiality. Based on the 'Practice notice' and 'Learning sequence,' what is the most appropriate course of action?
+  - generic: A.
+  - text: Follow the local policy as it always replaces professional standards in a clinical setting
+  - generic: B.
+  - text: Ignore the policy and follow professional standards to avoid legal repercussions
+  - generic: C.
+  - text: Pause, use the correct escalation route, and check the local policy against legal requirements
+  - generic: D.
+  - text: Document the contradiction but proceed with the referral to ensure continuity of care
+  - generic: "Rationale: The guide requires applying law and policy but also protecting the social-work perspective and using escalation routes when concerns exceed authority or competence. A contradiction between policy and ethics requires a pause and consultation/escalation."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

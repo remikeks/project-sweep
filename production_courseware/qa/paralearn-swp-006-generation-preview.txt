@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-006 — Crisis Stabilization & Safety Planning
+  - generic: SWP-006
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: Crisis Recognition and Triage"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: According to Module 1, what is the primary focus when performing crisis recognition and triage?
+  - generic: A.
+  - text: Grounding techniques and environmental safety
+  - generic: B.
+  - text: Acute risk, protective factors, and emergency thresholds
+  - generic: C.
+  - text: Coping actions and means-safety discussions
+  - generic: D.
+  - text: Professional boundaries and documentation standards
+  - generic: "Rationale: Module 1 specifically lists acute risk, protective factors, emergency thresholds, and local escalation routes as the primary areas of focus for triage."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 3: Safety Planning and Follow-up"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, 'Learning sequence' step 4"
+  - generic: simple
+  - paragraph: In the context of Module 3, what is the specific purpose of a 'warm handover'?
+  - generic: A.
+  - text: To ensure the practitioner is no longer legally liable
+  - generic: B.
+  - text: To protect the continuity of support for the person
+  - generic: C.
+  - text: To provide a summary of the person's long-term clinical history
+  - generic: D.
+  - text: To fulfill the requirements of the means-safety discussion
+  - generic: "Rationale: The text states that a prompt referral and clear handover protect the continuity of support for the individual in crisis."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 1/2/3: Learning Sequence"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 2, & 3, 'Learning sequence' step 4"
+  - generic: simple
+  - paragraph: What should a practitioner do immediately if a crisis concern exceeds their current role, supervision, or authority?
+  - generic: A.
+  - text: Continue the intervention but document the lack of authority
+  - generic: B.
+  - text: Consult with the person's family before taking further action
+  - generic: C.
+  - text: Pause and use the correct escalation route
+  - generic: D.
+  - text: Attempt to de-escalate the situation independently first
+  - generic: "Rationale: Across all modules, the instructions state that if a concern exceeds one's role or competence, they must pause and use the correct escalation route."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 2: De-escalation and Engagement"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: Which of the following is identified as a core component of 'De-escalation and engagement' in Module 2?
+  - generic: A.
+  - text: Emergency thresholds
+  - generic: B.
+  - text: Grounding
+  - generic: C.
+  - text: Means-safety discussion
+  - generic: D.
+  - text: Warm handover
+  - generic: "Rationale: Module 2 focuses on communication, environment, grounding, and maintaining professional boundaries."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Module 2: De-escalation and Engagement"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'Learning sequence' step 3"
+  - generic: simple
+  - paragraph: According to the documentation standards mentioned in the learning sequence, what information should be recorded?
+  - generic: A.
+  - text: All details shared by the person regardless of relevance
+  - generic: B.
+  - text: Only information that supports the practitioner's assumptions
+  - generic: C.
+  - text: Information that is relevant, accurate, and necessary
+  - generic: D.
+  - text: Subjective interpretations of the person's emotional state
+  - generic: "Rationale: The guide specifies that practitioners should document only information that is relevant, accurate, and necessary for the purpose of the work."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 1: Crisis Recognition and Triage"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, 'Learning sequence' step 2"
+  - generic: intermediate
+  - paragraph: "A practitioner notices a client is pacing rapidly and breathing heavily. The practitioner records: 'The client is anxious and likely to become violent.' Based on Module 1, what is the error in this documentation?"
+  - generic: A.
+  - text: The practitioner failed to identify a protective factor
+  - generic: B.
+  - text: The practitioner failed to separate observations from assumptions
+  - generic: C.
+  - text: The practitioner did not use a local escalation route
+  - generic: D.
+  - text: The practitioner did not seek informed participation
+  - generic: "Rationale: Module 1 emphasizes the need to separate observations (pacing, heavy breathing) from assumptions (anxious, likely to become violent)."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 3: Safety Planning and Follow-up"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: During a safety planning session, a client mentions they have a supportive neighbor they can call. In which section of the safety plan should this be categorized?
+  - generic: A.
+  - text: Warning signs
+  - generic: B.
+  - text: Coping actions
+  - generic: C.
+  - text: Contacts
+  - generic: D.
+  - text: Means-safety
+  - generic: "Rationale: A supportive neighbor falls under the 'Contacts' category of the safety plan elements listed in Module 3."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 2: De-escalation and Engagement"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: A practitioner is working with a person in acute distress. To apply 'grounding' as taught in Module 2, which action is most appropriate?
+  - generic: A.
+  - text: Discussing the person's long-term childhood trauma
+  - generic: B.
+  - text: Helping the person focus on the immediate physical environment
+  - generic: C.
+  - text: Immediately referring the person to an emergency department
+  - generic: D.
+  - text: Reviewing the legal consequences of their current behavior
+  - generic: "Rationale: Grounding is a specific technique used in de-escalation to help a person stay present and connected to their environment."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 3: Safety Planning and Follow-up"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: When conducting a 'means-safety discussion' as part of Module 3, what is the practitioner primarily attempting to do?
+  - generic: A.
+  - text: Identify the person's internal coping strengths
+  - generic: B.
+  - text: Reduce the person's access to potentially lethal items or methods
+  - generic: C.
+  - text: Establish a timeline for the next follow-up appointment
+  - generic: D.
+  - text: Document the person's agreement to a 'no-harm' contract
+  - generic: "Rationale: Means-safety discussions involve collaboratively identifying and reducing access to methods of self-harm or suicide."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 2: De-escalation and Engagement"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: A practitioner is engaging with a highly agitated individual. Which environmental adjustment aligns with the de-escalation principles in Module 2?
+  - generic: A.
+  - text: Moving the conversation to a crowded public lobby for safety
+  - generic: B.
+  - text: Ensuring there is a clear exit path and reducing noise/stimuli
+  - generic: C.
+  - text: Standing directly in front of the person to show authority
+  - generic: D.
+  - text: Closing all doors and windows to prevent the person from leaving
+  - generic: "Rationale: Module 2 highlights 'Environment' as a key factor in de-escalation, which includes managing the physical space to reduce agitation."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: "Module 3: Safety Planning and Follow-up"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: "While developing a safety plan, a client identifies that they start to feel 'heavy in the chest' before a crisis occurs. This should be documented as a:"
+  - generic: A.
+  - text: Coping action
+  - generic: B.
+  - text: Warning sign
+  - generic: C.
+  - text: Protective factor
+  - generic: D.
+  - text: Emergency threshold
+  - generic: "Rationale: Physical sensations or feelings that precede a crisis are categorized as 'Warning signs' in the safety planning process."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 1: Crisis Recognition and Triage"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, 'Learning sequence' step 2"
+  - generic: intermediate
+  - paragraph: A practitioner is unsure if a client's statement about 'not wanting to be here anymore' meets the threshold for emergency escalation. According to Module 1, what is the best course of action?
+  - generic: A.
+  - text: Assume the client is not at risk if they are still attending sessions
+  - generic: B.
+  - text: Check the information with the person and consult a colleague or supervisor
+  - generic: C.
+  - text: Wait until the next scheduled session to see if the feeling persists
+  - generic: D.
+  - text: Immediately call emergency services without further questioning
+  - generic: "Rationale: The guide advises practitioners to be clear about information that must be checked with a person, family, colleague, or approved source when assessing risk."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 1: Crisis Recognition and Triage"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 'Learning sequence' step 2"
+  - generic: hard
+  - paragraph: A practitioner is working with a client who has a history of self-harm but currently has strong family support and a stable job. How should the practitioner synthesize this information during triage?
+  - generic: A.
+  - text: The history of self-harm is the only relevant factor for acute risk
+  - generic: B.
+  - text: The family support and job are protective factors that must be weighed against the risk
+  - generic: C.
+  - text: Protective factors are only relevant during the safety planning phase, not triage
+  - generic: D.
+  - text: The practitioner should ignore the history of self-harm if the client is currently employed
+  - generic: "Rationale: Triage requires identifying both concerns (history of self-harm) and strengths/protective factors (family support, job) to determine the level of risk."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Module 3: Safety Planning and Follow-up"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'Learning sequence' step 4"
+  - generic: hard
+  - paragraph: During a safety planning session (Module 3), a client refuses to participate in a means-safety discussion. How does this impact the practitioner's professional obligations?
+  - generic: A.
+  - text: The practitioner must respect the client's autonomy and skip that section
+  - generic: B.
+  - text: The practitioner should pause and use the correct escalation route as the risk may exceed their role
+  - generic: C.
+  - text: The practitioner should document the refusal and end the session immediately
+  - generic: D.
+  - text: The practitioner should force the discussion to comply with the safety plan template
+  - generic: "Rationale: If a person refuses to participate in a critical safety step, the concern may exceed the practitioner's current role or authority, requiring escalation to protect the person."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 1 & 2: Integration"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1 & 2, 'Learning sequence' step 4"
+  - generic: hard
+  - paragraph: A practitioner is using a collaborative approach for de-escalation (Module 2) but the person's distress is escalating toward an emergency threshold (Module 1). What is the most rigorous application of the taught practice?
+  - generic: A.
+  - text: Prioritize the collaborative relationship and avoid escalation to maintain trust
+  - generic: B.
+  - text: Transition to the local escalation route while maintaining a respectful, collaborative stance where possible
+  - generic: C.
+  - text: Cease all communication and wait for emergency services to arrive
+  - generic: D.
+  - text: Focus solely on grounding techniques until the person is no longer in distress
+  - generic: "Rationale: The practitioner must balance collaboration with the necessity of escalation when emergency thresholds are met, ensuring a clear handover for continuity of support."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

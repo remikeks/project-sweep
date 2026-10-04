@@ -1,0 +1,309 @@
+- banner:
+  - link:
+    - /url: /cbt
+    - button:
+  - generic: SWP-008 — Motivational Interviewing
+  - generic: SWP-008
+  - button:
+    - generic: Rubrics
+  - button:
+    - generic: ParaLearn
+    - generic: AI
+  - button: Save
+  - button:
+- generic: Offline draft mode. Changes will stay local until the CBT service is reachable.
+- generic: 0 questions
+- generic: 0 marks
+- generic: 60 mins
+- complementary:
+  - generic: Questions (0)
+  - generic: "Total: 0 Marks"
+  - button:
+    - generic: Add
+  - button: All (0)
+  - button: MCQ (0)
+  - button: Short (0)
+  - button: Long (0)
+  - paragraph: No questions matching filter.
+  - button: Clear Filter
+- main:
+  - heading [level=3]: No questions in this examination yet
+  - paragraph: Start authoring your assessment by creating MCQs, Short Essays, or Long Essays, or extract questions directly from documents, slides, audio, or video with ParaLearn AI.
+  - button:
+    - generic: Add First Question
+  - button:
+    - generic: Generate with ParaLearn AI
+- region "Notifications alt+T"
+- alert
+- dialog "Author Assessment with ParaLearn AI" [active]:
+  - heading "Author Assessment with ParaLearn AI" [level=2]
+  - generic: Multimodal • Hybrid Assessment
+  - paragraph: Extract context from slides, notes, audio, or video and author MCQs, Short Essays, and Long Essays with automated rubrics.
+  - button:
+  - generic: 15 of 15 Selected
+  - generic: balanced Mode
+  - generic: pure mcq
+  - button "Select All"
+  - button "Deselect All"
+  - button "Re-tune":
+    - text: Re-tune
+  - checkbox [checked]
+  - generic: "#1"
+  - generic: MCQ
+  - generic: "Module 1: MI Spirit"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: Which of the following is a core component of 'MI Spirit' as defined in Module 1 of the learner guide?
+  - generic: A.
+  - text: Partnership
+  - generic: B.
+  - text: Persuasion
+  - generic: C.
+  - text: Correction
+  - generic: D.
+  - text: Instruction
+  - generic: "Rationale: The learner guide explicitly lists Partnership, Acceptance, Compassion, and Evocation as key elements of MI Spirit."
+  - checkbox [checked]
+  - generic: "#2"
+  - generic: MCQ
+  - generic: "Module 2: OARS Skills"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: In the OARS acronym, what does the 'A' represent?
+  - generic: A.
+  - text: Advice
+  - generic: B.
+  - text: Affirmations
+  - generic: C.
+  - text: Assessment
+  - generic: D.
+  - text: Agreement
+  - generic: "Rationale: OARS stands for Open questions, Affirmations, Reflections, and Summaries."
+  - checkbox [checked]
+  - generic: "#3"
+  - generic: MCQ
+  - generic: "Module 3: Planning Change"
+  - generic: 1 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: According to Module 3, which of these is a primary focus when planning change?
+  - generic: A.
+  - text: Eliciting commitment language
+  - generic: B.
+  - text: Establishing authority
+  - generic: C.
+  - text: Diagnosing pathology
+  - generic: D.
+  - text: Enforcing compliance
+  - generic: "Rationale: Module 3 focuses on responding to ambivalence, eliciting commitment language, goal setting, and referral."
+  - checkbox [checked]
+  - generic: "#4"
+  - generic: MCQ
+  - generic: "Module 1: MI Spirit"
+  - generic: 1 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: What is the 'righting reflex' in the context of Motivational Interviewing?
+  - generic: A.
+  - text: The urge to correct a person's behavior or provide immediate solutions
+  - generic: B.
+  - text: The physical response to a client's emotional distress
+  - generic: C.
+  - text: The legal requirement to report a crime
+  - generic: D.
+  - text: A technique used to challenge a client's denial
+  - generic: "Rationale: The righting reflex is the natural urge of practitioners to fix problems or correct a client's course, which MI spirit advises avoiding."
+  - checkbox [checked]
+  - generic: "#5"
+  - generic: MCQ
+  - generic: "Module 2: OARS Skills"
+  - generic: 1 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: simple
+  - paragraph: Which skill involves the practitioner repeating or rephrasing what the client has said to show understanding?
+  - generic: A.
+  - text: Open questions
+  - generic: B.
+  - text: Affirmations
+  - generic: C.
+  - text: Reflections
+  - generic: D.
+  - text: Summaries
+  - generic: "Rationale: Reflections are used to mirror the client's thoughts and feelings, demonstrating active listening and empathy."
+  - checkbox [checked]
+  - generic: "#6"
+  - generic: MCQ
+  - generic: "Module 3: Planning Change"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: "A client says, 'I know I need to quit smoking for my health, but it's the only way I can handle stress at work.' This statement is an example of:"
+  - generic: A.
+  - text: Commitment language
+  - generic: B.
+  - text: Ambivalence
+  - generic: C.
+  - text: The righting reflex
+  - generic: D.
+  - text: A summary
+  - generic: "Rationale: Ambivalence is the state of having mixed feelings or contradictory ideas about something, such as wanting to change but also wanting to stay the same."
+  - checkbox [checked]
+  - generic: "#7"
+  - generic: MCQ
+  - generic: "Module 2: OARS Skills"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: A practitioner tells a client, 'You've shown a lot of resilience by coming here today despite how difficult this week has been.' Which OARS skill is being used?
+  - generic: A.
+  - text: Open question
+  - generic: B.
+  - text: Affirmation
+  - generic: C.
+  - text: Reflection
+  - generic: D.
+  - text: Summary
+  - generic: "Rationale: Affirmations identify and acknowledge a person's strengths and efforts."
+  - checkbox [checked]
+  - generic: "#8"
+  - generic: MCQ
+  - generic: "Module 1: MI Spirit"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: "During a session, a client expresses a desire to change but is unsure how. The practitioner responds by asking, 'What are some of the reasons you might want to make this change?' This is an example of:"
+  - generic: A.
+  - text: Evocation
+  - generic: B.
+  - text: Autonomy
+  - generic: C.
+  - text: Acceptance
+  - generic: D.
+  - text: Partnership
+  - generic: "Rationale: Evocation involves drawing out the client's own thoughts, reasons, and motivations for change rather than imposing them."
+  - checkbox [checked]
+  - generic: "#9"
+  - generic: MCQ
+  - generic: "Module 2: OARS Skills"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: Which of the following questions is the best example of an 'Open Question' as taught in Module 2?
+  - generic: A.
+  - text: Do you want to stop drinking?
+  - generic: B.
+  - text: How does your current habit affect your daily life?
+  - generic: C.
+  - text: Are you ready to set a goal today?
+  - generic: D.
+  - text: Have you tried to quit before?
+  - generic: "Rationale: Open questions cannot be answered with a simple 'yes' or 'no' and encourage the client to elaborate."
+  - checkbox [checked]
+  - generic: "#10"
+  - generic: MCQ
+  - generic: "Module 1: MI Spirit"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1, 'What to pay attention to'"
+  - generic: intermediate
+  - paragraph: A practitioner is working with a client who refuses to follow a specific medical recommendation. The practitioner acknowledges, 'Ultimately, it is your decision what you do with your health.' This demonstrates which element of MI Spirit?
+  - generic: A.
+  - text: Compassion
+  - generic: B.
+  - text: Partnership
+  - generic: C.
+  - text: Autonomy
+  - generic: D.
+  - text: Evocation
+  - generic: "Rationale: Autonomy recognizes that the client has the right and capacity for self-direction."
+  - checkbox [checked]
+  - generic: "#11"
+  - generic: MCQ
+  - generic: General Practice
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 1/2/3, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: If a practitioner identifies a concern that exceeds their professional competence or authority, what is the required action according to the learner guide?
+  - generic: A.
+  - text: Continue the session but document the concern
+  - generic: B.
+  - text: Pause and use the correct escalation route
+  - generic: C.
+  - text: Ask the client to solve the issue themselves
+  - generic: D.
+  - text: Ignore the concern if it is not related to substance use
+  - generic: "Rationale: The guide states that when a concern exceeds role or competence, the practitioner must pause and use the correct escalation route or referral."
+  - checkbox [checked]
+  - generic: "#12"
+  - generic: MCQ
+  - generic: "Module 2: OARS Skills"
+  - generic: 1.5 Marks
+  - generic: "Ref: Module 2, 'Learning sequence'"
+  - generic: intermediate
+  - paragraph: In Module 2, what is the primary purpose of 'Summaries'?
+  - generic: A.
+  - text: To provide a final judgment on the client's progress
+  - generic: B.
+  - text: To transition the conversation and check for shared understanding
+  - generic: C.
+  - text: To list all the mistakes the client made during the week
+  - generic: D.
+  - text: To replace the need for official documentation
+  - generic: "Rationale: Summaries help organize the conversation, transition between topics, and ensure both parties have a shared understanding of what has been discussed."
+  - checkbox [checked]
+  - generic: "#13"
+  - generic: MCQ
+  - generic: "Module 3: Planning Change"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'What to pay attention to'"
+  - generic: hard
+  - paragraph: "A practitioner is using MI to help a client set goals. The client says, 'I will call the clinic on Monday to book my first appointment.' This statement is best categorized as:"
+  - generic: A.
+  - text: Change talk
+  - generic: B.
+  - text: Commitment language
+  - generic: C.
+  - text: Ambivalence
+  - generic: D.
+  - text: Spirit of Partnership
+  - generic: "Rationale: Commitment language goes beyond 'wanting' or 'needing' to change; it involves a specific intent or promise to take action (e.g., 'I will')."
+  - checkbox [checked]
+  - generic: "#14"
+  - generic: MCQ
+  - generic: "Module 1: MI Spirit"
+  - generic: 2 Marks
+  - generic: "Ref: Module 1, 'Learning sequence' and 'Practice notice'"
+  - generic: hard
+  - paragraph: When applying MI Spirit, how should a practitioner handle the tension between 'Partnership' and 'Local Policy'?
+  - generic: A.
+  - text: Prioritize the partnership even if it violates local policy
+  - generic: B.
+  - text: Use a collaborative approach while strictly adhering to local policy and legal requirements
+  - generic: C.
+  - text: Ignore local policy if the client does not consent to it
+  - generic: D.
+  - text: Only follow local policy if the client is in immediate danger
+  - generic: "Rationale: The guide emphasizes that while MI Spirit is collaborative, practitioners must always apply the law, organizational policy, and local procedures that govern their setting."
+  - checkbox [checked]
+  - generic: "#15"
+  - generic: MCQ
+  - generic: "Module 3: Planning Change"
+  - generic: 2 Marks
+  - generic: "Ref: Module 3, 'Learning sequence'"
+  - generic: hard
+  - paragraph: During the 'Planning Change' phase, a practitioner notices a client is becoming increasingly resistant. According to the learning sequence, what is the most appropriate first step?
+  - generic: A.
+  - text: Immediately refer the client to a higher level of care
+  - generic: B.
+  - text: Separate observations from assumptions and identify strengths as well as concerns
+  - generic: C.
+  - text: Increase the use of the righting reflex to ensure the client stays on track
+  - generic: D.
+  - text: Stop the session and consult a supervisor before speaking again
+  - generic: "Rationale: The learning sequence suggests examining the practical implications of responding to ambivalence and separating observations from assumptions before taking further action."
+  - button "Cancel"
+  - button "Import 15 Questions to Exam":
+    - generic: Import 15 Questions to Exam
+  - button "Close":
+    - generic: Close

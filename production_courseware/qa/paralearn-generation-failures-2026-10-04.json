@@ -1,0 +1,14 @@
+[
+  {
+    "level": "error",
+    "message": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\n    at J (https://www.pln.ng/_next/static/chunks/0gfhtw21f25b9.js:1:3555)",
+    "timestamp": "2026-10-03T23:19:36.995Z",
+    "url": "https://www.pln.ng/_next/static/chunks/0gfhtw21f25b9.js"
+  },
+  {
+    "level": "error",
+    "message": "Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\n    at J (https://www.pln.ng/_next/static/chunks/0gfhtw21f25b9.js:1:3555)",
+    "timestamp": "2026-10-03T23:21:10.336Z",
+    "url": "https://www.pln.ng/_next/static/chunks/0gfhtw21f25b9.js"
+  }
+]
