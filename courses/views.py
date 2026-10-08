@@ -68,6 +68,7 @@ def render_course_markdown(value):
     return mark_safe(cleaned)
 
 
+@login_required
 @permission_required("courses.view_courseasset", raise_exception=True)
 def content_portal(request):
     """Django-session workspace for authors, reviewers, and publishers."""
