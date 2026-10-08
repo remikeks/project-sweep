@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 # gemini-2.0-flash was shut down by Google on 2026-06-01 — keep this in sync
 # with the default in sweep/settings.py.
-MODEL = getattr(settings, "AI_TUTOR_MODEL", "gemini-3.5-flash")
+MODEL = getattr(settings, "AI_TUTOR_MODEL", "gemini-3.8-flash")
 MAX_ANSWER_TOKENS = 700
 MAX_CONTEXT_CHARS = 12000
 DAILY_QUESTION_LIMIT = getattr(settings, "AI_TUTOR_DAILY_LIMIT", 30)

@@ -217,7 +217,7 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 # answers). Check https://ai.google.dev/gemini-api/docs/models for the
 # current lineup before changing this, since Google retires models on a
 # rolling basis.
-AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-2.5-flash")
+AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-3.8-flash")
 # Simple per-user cap so a public-facing "Ask AI" button can't run up an
 # unbounded API bill. Raise/lower via env var without a code change.
 AI_TUTOR_DAILY_LIMIT = _int_env("AI_TUTOR_DAILY_LIMIT", 30)
