@@ -1,0 +1,427 @@
+{
+  "course_code": "SWP-027",
+  "title": "Long-Term Disaster Recovery Support",
+  "status": "AI draft — expert review required",
+  "questions": [
+    {
+      "question": "In Module 1 (Recovery over time), how does long-term disaster recovery differ fundamentally from immediate emergency response?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Emergency response is community-led, while long-term recovery is strictly managed by military personnel",
+          "correct": false
+        },
+        {
+          "text": "B. Long-term recovery ends exactly thirty days after the disaster impact occurs",
+          "correct": false
+        },
+        {
+          "text": "C. Emergency response focuses on short-term survival and stabilization, while long-term recovery addresses protracted displacement, economic livelihoods, and community rebuilding over months and years",
+          "correct": true
+        },
+        {
+          "text": "D. There is no operational difference; the two phases utilize identical funding and staffing structures",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 1 explains that long-term recovery extends far beyond acute crisis stabilization, addressing prolonged displacement, grief, livelihood reconstruction, and structural inequities."
+    },
+    {
+      "question": "According to Module 1, why is understanding preexisting 'inequity' essential when planning long-term disaster recovery support?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Disasters affect all demographic groups with identical economic and social severity",
+          "correct": false
+        },
+        {
+          "text": "B. Recognizing inequity is solely necessary for federal grant compliance and has no bearing on case management",
+          "correct": false
+        },
+        {
+          "text": "C. Inequities naturally resolve themselves during the emergency relief phase without targeted intervention",
+          "correct": false
+        },
+        {
+          "text": "D. Systemic socioeconomic inequities mean low-income, marginalized, and minority populations often experience compounded losses, slower aid distribution, and greater barriers to reconstruction",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 1 highlights how disasters exacerbate existing social and economic vulnerabilities; equitable recovery requires targeted attention to structural barriers faced by marginalized communities."
+    },
+    {
+      "question": "What is the role of 'community leadership' in long-term disaster recovery as emphasized in Module 1?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Local community leaders and affected residents must drive recovery priorities, ensuring interventions reflect local culture, needs, and sustainable ownership",
+          "correct": true
+        },
+        {
+          "text": "B. Community members should merely serve as passive recipients of externally designed aid programs",
+          "correct": false
+        },
+        {
+          "text": "C. External non-governmental organizations should replace local governance structures indefinitely",
+          "correct": false
+        },
+        {
+          "text": "D. Community leadership is only consulted after all reconstruction contracts have been finalized",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 1 underscores that sustainable recovery depends on community leadership, local agency, and collaborative governance rather than top-down external impositions."
+    },
+    {
+      "question": "A practitioner working in a post-disaster community notes that small business owners in an informal market are struggling to resume operations. Under Module 1, what aspect of recovery does this represent?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Rapid triage",
+          "correct": false
+        },
+        {
+          "text": "B. Livelihoods restoration",
+          "correct": true
+        },
+        {
+          "text": "C. Search and rescue",
+          "correct": false
+        },
+        {
+          "text": "D. Emergency evacuation",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Livelihoods restoration is a central focus of Module 1 (Recovery over time), recognizing that restoring economic self-sufficiency is vital for household and community stability."
+    },
+    {
+      "question": "In Module 2 (Case and community support), what is the primary challenge associated with post-disaster 'housing' support?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Mandating that all families build identical concrete dwellings without individual preference",
+          "correct": false
+        },
+        {
+          "text": "B. Preventing tenants from applying for any government rental assistance subsidies",
+          "correct": false
+        },
+        {
+          "text": "C. Transitioning displaced families from emergency shelters through interim housing to secure, affordable, and permanent solutions",
+          "correct": true
+        },
+        {
+          "text": "D. Requiring all displaced residents to relocate permanently to distant urban centers",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 identifies housing as a core recovery pillar: moving clients through the housing continuum from emergency sheltering to secure, permanent, and safe housing."
+    },
+    {
+      "question": "When assisting disaster survivors with navigating 'benefits' and financial entitlements (Module 2), what ethical duty does the practitioner hold?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Guaranteeing approval for every grant application regardless of statutory criteria",
+          "correct": false
+        },
+        {
+          "text": "B. Charging a percentage fee on all disaster relief funds secured for clients",
+          "correct": false
+        },
+        {
+          "text": "C. Discouraging clients from applying for benefits to reduce state expenditure",
+          "correct": false
+        },
+        {
+          "text": "D. Providing accurate, transparent information, helping overcome administrative barriers, and ensuring fair access without deceptive promises",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 2 emphasizes assisting clients with complex benefit systems through accurate information, transparent eligibility guidance, and persistent advocacy."
+    },
+    {
+      "question": "A case manager in Module 2 observes that a parent in temporary housing exhibits symptoms of prolonged depression and debilitating grief eight months after a hurricane. What is the most appropriate action?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Provide a supported 'warm referral' to specialized community mental health services while continuing case coordination",
+          "correct": true
+        },
+        {
+          "text": "B. Dismiss the parent's feelings as normal and take no action",
+          "correct": false
+        },
+        {
+          "text": "C. Immediately assume child neglect and remove the children into foster care",
+          "correct": false
+        },
+        {
+          "text": "D. Prescribe anti-depressant medication directly to the client",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 emphasizes mental-health referrals: recognizing long-term trauma and complicated grief, and initiating supported handovers to specialized mental health practitioners."
+    },
+    {
+      "question": "Why is 'child protection' a critical focus area of Case and community support in Module 2?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Children are legally exempt from receiving social work support after disasters",
+          "correct": false
+        },
+        {
+          "text": "B. Disruption of schools, prolonged displacement, family stress, and informal housing significantly heighten risks of child neglect, abuse, and exploitation",
+          "correct": true
+        },
+        {
+          "text": "C. Child protection agencies cease operations during recovery phases",
+          "correct": false
+        },
+        {
+          "text": "D. Child protection concerns only exist during the first 48 hours of an emergency",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 addresses child protection because prolonged instability, parental distress, crowded temporary shelters, and disrupted school routines increase vulnerability to harm."
+    },
+    {
+      "question": "What is the core purpose of establishing 'recovery indicators' in Module 3 (Resilience and evaluation)?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. To determine which relief agencies receive media awards for publicity",
+          "correct": false
+        },
+        {
+          "text": "B. To terminate community assistance as soon as initial cleanup operations conclude",
+          "correct": false
+        },
+        {
+          "text": "C. To track quantifiable and qualitative benchmarks across housing, health, economic stability, and social wellbeing over time",
+          "correct": true
+        },
+        {
+          "text": "D. To penalize community members who fail to rebuild their homes within thirty days",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 utilizes recovery indicators to measure whether communities are achieving meaningful, equitable, and sustainable recovery across multidimensional domains."
+    },
+    {
+      "question": "In Module 3, how does systematic 'feedback' from affected communities improve recovery programs?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. It allows agencies to censor dissenting voices from public records",
+          "correct": false
+        },
+        {
+          "text": "B. It replaces the requirement for professional financial accounting",
+          "correct": false
+        },
+        {
+          "text": "C. It ensures that funding is diverted exclusively to external consultancy firms",
+          "correct": false
+        },
+        {
+          "text": "D. It enables organizations to identify service bottlenecks, correct unintended inequities, and adapt programs to real community priorities",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 3 emphasizes feedback mechanisms to ensure accountability, allowing organizations to adapt and improve services based on the direct experience of affected communities."
+    },
+    {
+      "question": "What does 'preparedness learning' in Module 3 contribute to long-term resilience?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Applying lessons learned from the recent disaster to strengthen infrastructure, community networks, and plans for future hazards",
+          "correct": true
+        },
+        {
+          "text": "B. Repeating identical emergency response procedures regardless of past shortcomings",
+          "correct": false
+        },
+        {
+          "text": "C. Rebuilding infrastructure to the exact pre-disaster vulnerabilities without improvement",
+          "correct": false
+        },
+        {
+          "text": "D. Deleting historical disaster records to prevent public anxiety",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Preparedness learning (Module 3) connects recovery with future resilience: ensuring lessons learned inform better risk mitigation and future emergency readiness ('building back better')."
+    },
+    {
+      "question": "What characterizes 'sustainable partnerships' in Module 3 of long-term recovery?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Short-term contracts designed to terminate immediately after initial grant disbursement",
+          "correct": false
+        },
+        {
+          "text": "B. Enduring collaborations between local government, civil society, grassroots groups, and community members that persist beyond temporary relief funding",
+          "correct": true
+        },
+        {
+          "text": "C. Exclusive arrangements where a single private contractor controls all recovery initiatives",
+          "correct": false
+        },
+        {
+          "text": "D. Informal agreements that bypass all legal standards and accountability checks",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 defines sustainable partnerships as robust, enduring relationships among local stakeholders that build long-term institutional and community capacity."
+    },
+    {
+      "question": "A community worker discovers that disaster repair grants are systematically being denied to residents living in an informal settlement due to lack of land titling. How should the worker apply the learning sequence?",
+      "metadata": [
+        "MCQ",
+        "Module 1-3 Synthesis",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Tell the residents there is nothing that can be done and close their files",
+          "correct": false
+        },
+        {
+          "text": "B. Falsify legal land titles to expedite payment without authorization",
+          "correct": false
+        },
+        {
+          "text": "C. Document the systemic barrier accurately, separate observations from assumptions, and escalate through supervisory, policy, and advocacy channels to seek equitable redress",
+          "correct": true
+        },
+        {
+          "text": "D. Advise the community to relocate immediately to another region",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: The learning sequence requires separating facts from assumptions, documenting the inequity accurately, and using proper escalation/advocacy channels to address structural exclusion."
+    },
+    {
+      "question": "What standard must guide a practitioner's documentation of sensitive client information during long-term case recovery (Module 2 & 3)?",
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Record exhaustive neighborhood gossip to build a comprehensive community narrative",
+          "correct": false
+        },
+        {
+          "text": "B. Make case files publicly accessible online to foster community transparency",
+          "correct": false
+        },
+        {
+          "text": "C. Refuse to record any progress notes to prevent legal scrutiny",
+          "correct": false
+        },
+        {
+          "text": "D. Document only information that is relevant, accurate, and necessary for the purpose of the work, maintaining confidentiality and data privacy",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: The learning sequence across all modules mandates documenting only information that is relevant, accurate, and necessary, in compliance with privacy laws and professional ethics."
+    },
+    {
+      "question": "Under the Practice notice for SWP-027, what must a practitioner do when confronted with an urgent child welfare crisis in a temporary housing facility?",
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Immediately activate mandatory statutory safeguarding procedures and approved referral pathways, as the course material does not replace urgent safeguarding protocols",
+          "correct": true
+        },
+        {
+          "text": "B. Wait until the annual long-term community recovery indicator report is drafted",
+          "correct": false
+        },
+        {
+          "text": "C. Treat the issue as an informal matter to be addressed in peer support groups",
+          "correct": false
+        },
+        {
+          "text": "D. Postpone reporting until permanent housing has been assigned to the family",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: The Practice notice explicitly clarifies that learning material does not replace urgent safeguarding, clinical, or legal procedures; statutory safeguarding pathways must be activated immediately."
+    }
+  ]
+}

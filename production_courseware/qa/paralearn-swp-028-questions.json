@@ -1,0 +1,427 @@
+{
+  "course_code": "SWP-028",
+  "title": "Policy Analysis Fundamentals",
+  "status": "AI draft — expert review required",
+  "questions": [
+    {
+      "question": "According to Module 1 (Policy basics), what is the 'policy cycle'?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. An annual budgetary accounting formula used exclusively by private foundations",
+          "correct": false
+        },
+        {
+          "text": "B. The term limits governing elected representatives in local municipal councils",
+          "correct": false
+        },
+        {
+          "text": "C. A legal process for appealing administrative sanctions in judicial courts",
+          "correct": false
+        },
+        {
+          "text": "D. A conceptual model describing the stages through which public policies are identified, formulated, adopted, implemented, and evaluated",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 1 defines the policy cycle as a structured framework encompassing problem identification, agenda setting, formulation, decision-making, implementation, and evaluation."
+    },
+    {
+      "question": "In Module 1, how are 'actors' in the policy arena defined and analyzed?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. The individuals, groups, and institutions (such as legislators, government agencies, advocacy groups, and affected communities) that influence or are influenced by policy decisions",
+          "correct": true
+        },
+        {
+          "text": "B. Professional theatrical performers hired to publicize government campaigns",
+          "correct": false
+        },
+        {
+          "text": "C. Only elected executive heads of state and judicial judges",
+          "correct": false
+        },
+        {
+          "text": "D. External foreign donors who provide non-repayable development grants",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 1 explores policy actors as the full spectrum of stakeholders, decision-makers, interest groups, and communities whose interests and power shape policy development."
+    },
+    {
+      "question": "What is the role of professional social work 'values' in policy analysis as taught in Module 1?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Ensuring policies prioritize market profitability over human wellbeing",
+          "correct": false
+        },
+        {
+          "text": "B. Providing an ethical foundation centered on social justice, human rights, equity, and dignity to evaluate policy intents and outcomes",
+          "correct": true
+        },
+        {
+          "text": "C. Requiring policy analysts to remain strictly neutral without regard to social justice or inequality",
+          "correct": false
+        },
+        {
+          "text": "D. Restricting analysis exclusively to financial balance sheets",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 1 stresses that social work roles and values ground policy analysis in principles of human dignity, social justice, and equity."
+    },
+    {
+      "question": "How does Module 1 position the unique 'social-work role' in the broader policy process?",
+      "metadata": [
+        "MCQ",
+        "Module 1",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Social workers are restricted to individual clinical counselling and prohibited from engaging in policy analysis",
+          "correct": false
+        },
+        {
+          "text": "B. Social workers are tasked with enforcing administrative penalties on non-compliant service users",
+          "correct": false
+        },
+        {
+          "text": "C. Social workers act as bridges between frontline community lived experiences and legislative systems, providing practice evidence for systemic change",
+          "correct": true
+        },
+        {
+          "text": "D. Social workers function solely as administrative clerks who rubber-stamp legislative directives",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 1 highlights the critical social work role in linking frontline practice realities, community voices, and systemic policy analysis to advocate for humane policies."
+    },
+    {
+      "question": "In Module 2 (Analytical framework), why is 'problem definition' considered the most critical initial step in policy analysis?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. It determines the maximum font size allowed in legislative briefs",
+          "correct": false
+        },
+        {
+          "text": "B. Problem definition is merely a formality completed after policy solutions have already been enacted",
+          "correct": false
+        },
+        {
+          "text": "C. It ensures that complex problems are reduced to single-variable individual failings",
+          "correct": false
+        },
+        {
+          "text": "D. How a social issue is framed determines which causes are acknowledged, what solutions are considered legitimate, and how resources are allocated",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 2 emphasizes that problem definition establishes the scope, ideological framing, and range of viable policy solutions; poorly defined problems generate ineffective policies."
+    },
+    {
+      "question": "What does analyzing the 'target population' involve according to Module 2?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Determining who is eligible, who is excluded, how eligibility is verified, and how social constructions of the group influence benefit delivery",
+          "correct": true
+        },
+        {
+          "text": "B. Counting the total national census without demographic disaggregation",
+          "correct": false
+        },
+        {
+          "text": "C. Restricting benefits to individuals who support the current ruling political coalition",
+          "correct": false
+        },
+        {
+          "text": "D. Conducting criminal background checks on all public school students",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 examines target populations: eligibility criteria, universal vs targeted design, and how societal perceptions shape the fairness and uptake of policy benefits."
+    },
+    {
+      "question": "When assessing 'benefits and burdens' in Module 2, what must an analyst evaluate?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Only the direct salary increases received by government department heads",
+          "correct": false
+        },
+        {
+          "text": "B. Who receives tangible or intangible benefits, who bears the direct financial or social costs, and what unintended negative consequences may emerge",
+          "correct": true
+        },
+        {
+          "text": "C. The total advertising revenue generated by commercial media covering the policy",
+          "correct": false
+        },
+        {
+          "text": "D. Whether the policy benefits are entirely tax-free for corporate donors",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 requires analysts to weigh the distribution of benefits versus burdens, assessing who gains, who bears costs, and identifying potential unintended harms."
+    },
+    {
+      "question": "What is meant by evaluating policy 'feasibility' in Module 2?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Deciding whether a policy can be implemented without hiring any professional staff",
+          "correct": false
+        },
+        {
+          "text": "B. Verifying whether the policy idea was borrowed from a foreign legal system",
+          "correct": false
+        },
+        {
+          "text": "C. Assessing whether a proposed policy is politically viable, administratively workable, and financially sustainable within existing constraints",
+          "correct": true
+        },
+        {
+          "text": "D. Ensuring that the policy requires no legislative oversight or evaluation",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 2 defines feasibility along political, administrative, technical, and fiscal lines: whether the proposed policy can realistically be enacted, staffed, funded, and managed."
+    },
+    {
+      "question": "Why is 'equity' an indispensable analytical dimension in Module 2's framework?",
+      "metadata": [
+        "MCQ",
+        "Module 2",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. It ensures that everyone receives identical resources regardless of need, history, or structural disadvantage",
+          "correct": false
+        },
+        {
+          "text": "B. It allows analysts to bypass all budgetary limits during implementation",
+          "correct": false
+        },
+        {
+          "text": "C. It is an optional metric only used when requested by political campaigns",
+          "correct": false
+        },
+        {
+          "text": "D. It evaluates whether the policy reduces or widens disparities among historically marginalized, racialized, or disadvantaged groups",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: Module 2 distinguishes equity from equality: equity analysis critically examines whether policies address systemic disparities and deliver proportional fairness to marginalized groups."
+    },
+    {
+      "question": "According to Module 3 (Communicating analysis), what are the core components of an effective 'policy brief'?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. An executive summary, problem statement, analysis of evidence/options, and actionable recommendations tailored to decision-makers",
+          "correct": true
+        },
+        {
+          "text": "B. A 200-page theoretical dissertation lacking practical summaries or takeaways",
+          "correct": false
+        },
+        {
+          "text": "C. A collection of unverified anecdotal complaints gathered from social media comments",
+          "correct": false
+        },
+        {
+          "text": "D. A legal indictment demanding criminal prosecution of opposing policy advocates",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 outlines policy brief structure: concise executive summary, clear problem statement, robust analysis of policy alternatives, and practical, evidence-based recommendations."
+    },
+    {
+      "question": "What standard should guide the development of policy 'recommendations' in Module 3?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Recommendations must be vague and open-ended to avoid commitment from elected officials",
+          "correct": false
+        },
+        {
+          "text": "B. Recommendations must be clear, actionable, evidence-informed, feasible, and directly connected to the problem definition and analysis",
+          "correct": true
+        },
+        {
+          "text": "C. Recommendations should strictly advocate for the elimination of all public social services",
+          "correct": false
+        },
+        {
+          "text": "D. Recommendations should reflect only the analyst's personal preferences without grounding in data",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 emphasizes that effective recommendations are specific, practical, grounded in empirical evidence, feasible to execute, and tied to the preceding analysis."
+    },
+    {
+      "question": "How should an analyst handle conflicting research evidence when writing a policy brief under Module 3?",
+      "metadata": [
+        "MCQ",
+        "Module 3",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Suppress all research findings that do not support the analyst's preferred conclusion",
+          "correct": false
+        },
+        {
+          "text": "B. Invent artificial statistics to create the appearance of universal scientific consensus",
+          "correct": false
+        },
+        {
+          "text": "C. Transparently acknowledge evidence limitations, weigh the methodological rigor of conflicting studies, and explain why the recommended path is justified",
+          "correct": true
+        },
+        {
+          "text": "D. Abandon the brief entirely whenever contradictory evidence exists",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 stresses ethical evidence use: presenting data accurately, acknowledging nuances and counter-evidence, and defending recommendations with methodological integrity."
+    },
+    {
+      "question": "A policy analyst is reviewing a proposal to digitize all social assistance applications. The analyst notices this will effectively exclude older adults and rural residents lacking broadband. Under the Learning sequence, what is the analyst's professional responsibility?",
+      "metadata": [
+        "MCQ",
+        "Module 1-3 Synthesis",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Support the proposal unconditionally because digitization reduces administrative overhead",
+          "correct": false
+        },
+        {
+          "text": "B. Advise excluded populations to purchase personal satellite internet equipment",
+          "correct": false
+        },
+        {
+          "text": "C. Ignore the digital divide because administrative efficiency is the sole policy metric",
+          "correct": false
+        },
+        {
+          "text": "D. Separate assumptions from observations, highlight the equity impact on digitally excluded populations, and recommend accessible alternative application pathways",
+          "correct": true
+        }
+      ],
+      "rationale": "Rationale: The learning sequence requires examining equity impacts, separating assumptions from empirical realities, and proposing concrete, accessible policy adaptations."
+    },
+    {
+      "question": "What is the key ethical boundary in policy advocacy as emphasized in Module 3?",
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "simple"
+      ],
+      "options": [
+        {
+          "text": "A. Advocacy must remain truthful, transparent, respect community voices, avoid deceptive claims, and adhere to professional standards and institutional rules",
+          "correct": true
+        },
+        {
+          "text": "B. Policy advocates are encouraged to fabricate crisis statistics to accelerate legislative action",
+          "correct": false
+        },
+        {
+          "text": "C. Advocates must always support government proposals without critical scrutiny",
+          "correct": false
+        },
+        {
+          "text": "D. Ethical advocacy prohibits presenting data to elected legislators",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: Module 3 emphasizes ethical advocacy: maintaining truthfulness, avoiding misrepresentation, respecting the agency of affected groups, and following legal and professional boundaries."
+    },
+    {
+      "question": "Under the SWP-028 Practice notice, what must an analyst do if an existing organizational policy appears to violate statutory human rights laws?",
+      "metadata": [
+        "MCQ",
+        "General Practice Standards",
+        "1 Marks",
+        "scenario"
+      ],
+      "options": [
+        {
+          "text": "A. Quietly ignore the violation because organizational policy always overrides national legislation",
+          "correct": false
+        },
+        {
+          "text": "B. Pause and follow the appropriate supervisory, legal, and institutional escalation routes, as statutory law governs the setting",
+          "correct": true
+        },
+        {
+          "text": "C. Leak confidential client case files to tabloid newspapers without supervisory consultation",
+          "correct": false
+        },
+        {
+          "text": "D. Resign immediately without reporting the concern to any supervisory authority",
+          "correct": false
+        }
+      ],
+      "rationale": "Rationale: The Practice notice and learning sequence instruct practitioners to apply the law that governs the setting and use established escalation routes when legal or safeguarding boundaries are compromised."
+    }
+  ]
+}

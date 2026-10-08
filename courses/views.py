@@ -244,7 +244,7 @@ def course_detail(request, slug):
         "badge": badge,
         "latest_attempt": latest_attempt,
         "verified_completion": verified_completion,
-        "paralearn_assessment_ready": bool(course.paralearn_assessment_id and launch_is_configured()),
+        "paralearn_assessment_ready": bool(course.paralearn_assessment_id),
         "paralearn_assessment_configured": bool(course.paralearn_assessment_id),
         "first_module": first_module,
         "modules_complete": modules_complete,
@@ -308,7 +308,7 @@ def course_module_detail(request, slug, module_order):
         "prev_module": prev_module,
         "next_module": next_module,
         "next_course": next_course,
-        "paralearn_assessment_ready": bool(course.paralearn_assessment_id and launch_is_configured()),
+        "paralearn_assessment_ready": bool(course.paralearn_assessment_id),
         "is_course_completed": is_course_completed,
         "assets": assets,
         "module_completed": module.id in completed_module_ids,
@@ -377,23 +377,18 @@ def paralearn_launch(request, slug):
             "This course does not yet have a ParaLearn CBT assessment identifier.",
             status=409,
         )
-    if not launch_is_configured():
-        return _assessment_unavailable(
-            request,
-            course,
-            "The ParaLearn assessment service is not configured yet. Please contact the course team.",
-        )
+    direct_code = course.course_code or f"SWP-{course.order:03d}"
+    direct_take_url = f"https://cbt.pln.ng/take/{direct_code}"
 
-    attempt = create_assessment_attempt(user=request.user, course=course)
-    try:
-        _, launch_url = launch_assessment_attempt(attempt=attempt)
-    except (ParaLearnError, AssessmentResultError):
-        return _assessment_unavailable(
-            request,
-            course,
-            "We could not start your ParaLearn assessment. You can retry this attempt from the course page.",
-        )
-    return redirect(launch_url)
+    if launch_is_configured():
+        attempt = create_assessment_attempt(user=request.user, course=course)
+        try:
+            _, launch_url = launch_assessment_attempt(attempt=attempt)
+            return redirect(launch_url)
+        except (ParaLearnError, AssessmentResultError):
+            return redirect(direct_take_url)
+
+    return redirect(direct_take_url)
 
 
 @login_required
@@ -408,23 +403,20 @@ def paralearn_retry_launch(request, attempt_id):
     if attempt.status != CourseAssessmentAttempt.Status.LAUNCH_FAILED:
         messages.info(request, "This assessment launch cannot be retried in its current state.")
         return redirect("course_detail", slug=attempt.course.slug)
-    if not launch_is_configured():
-        return _assessment_unavailable(
-            request,
-            attempt.course,
-            "The ParaLearn assessment service is not configured yet. Please contact the course team.",
-        )
-    try:
-        _, launch_url = launch_assessment_attempt(
-            attempt=attempt,
-        )
-    except (ParaLearnError, AssessmentResultError):
-        return _assessment_unavailable(
-            request,
-            attempt.course,
-            "We could not restart your ParaLearn assessment. Please try again later.",
-        )
-    return redirect(launch_url)
+
+    direct_code = attempt.course.course_code or f"SWP-{attempt.course.order:03d}"
+    direct_take_url = f"https://cbt.pln.ng/take/{direct_code}"
+
+    if launch_is_configured():
+        try:
+            _, launch_url = launch_assessment_attempt(
+                attempt=attempt,
+            )
+            return redirect(launch_url)
+        except (ParaLearnError, AssessmentResultError):
+            return redirect(direct_take_url)
+
+    return redirect(direct_take_url)
 
 
 @login_required
