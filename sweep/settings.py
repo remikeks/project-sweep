@@ -51,6 +51,11 @@ if _raw_allowed:
         ALLOWED_HOSTS.append("testserver")
 else:
     ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".vercel.app", "testserver"]
+
+for domain in ("sweepacademy.org", ".sweepacademy.org", "www.sweepacademy.org", ".vercel.app"):
+    if domain not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append(domain)
+
 CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get("CSRF_TRUSTED_ORIGINS", "").split(",") if origin.strip()]
 for host in ALLOWED_HOSTS:
     if host in ("localhost", "127.0.0.1", "testserver"):
