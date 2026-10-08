@@ -302,7 +302,11 @@ CONTENT_PORTAL_MAX_IMPORT_ROWS = _int_env("CONTENT_PORTAL_MAX_IMPORT_ROWS", 250)
 # returns a hosted Candidate Gate URL, and sends final HMAC-signed webhooks.
 # The real workspace API key and webhook secret remain deployment-only values:
 # blank defaults keep all outbound calls and webhook processing disabled.
-PARALEARN_API_BASE_URL = os.environ.get("PARALEARN_API_BASE_URL", "")
+_raw_pln = os.environ.get("PARALEARN_API_BASE_URL", "").strip()
+if _raw_pln.startswith("https://pln.ng"):
+    PARALEARN_API_BASE_URL = _raw_pln.replace("https://pln.ng", "https://www.pln.ng")
+else:
+    PARALEARN_API_BASE_URL = _raw_pln
 PARALEARN_API_KEY = os.environ.get("PARALEARN_API_KEY", "")
 PARALEARN_API_KEY_HEADER = os.environ.get("PARALEARN_API_KEY_HEADER", "Authorization")
 PARALEARN_API_KEY_PREFIX = os.environ.get("PARALEARN_API_KEY_PREFIX", "Bearer ")
@@ -314,11 +318,19 @@ PARALEARN_HTTP_TIMEOUT_SECONDS = min(
     max(_int_env("PARALEARN_HTTP_TIMEOUT_SECONDS", 10), 1),
     30,
 )
-PARALEARN_ALLOWED_LAUNCH_HOSTS = tuple(
+_raw_launch_hosts = [
     host.strip().lower()
     for host in os.environ.get("PARALEARN_ALLOWED_LAUNCH_HOSTS", "").split(",")
     if host.strip()
-)
+]
+for host in list(_raw_launch_hosts):
+    if host.startswith("www."):
+        _raw_launch_hosts.append(host[4:])
+    else:
+        _raw_launch_hosts.append(f"www.{host}")
+if "pln.ng" not in _raw_launch_hosts:
+    _raw_launch_hosts.extend(["pln.ng", "www.pln.ng"])
+PARALEARN_ALLOWED_LAUNCH_HOSTS = tuple(sorted(set(_raw_launch_hosts)))
 PARALEARN_WEBHOOK_SIGNING_SECRET = os.environ.get("PARALEARN_WEBHOOK_SIGNING_SECRET", "")
 PARALEARN_WEBHOOK_SIGNATURE_HEADER = os.environ.get("PARALEARN_WEBHOOK_SIGNATURE_HEADER", "x-cbt-signature")
 PARALEARN_WEBHOOK_SIGNATURE_PREFIX = os.environ.get("PARALEARN_WEBHOOK_SIGNATURE_PREFIX", "sha256=")

@@ -129,9 +129,29 @@ class ParaLearnClient:
             with urlopen(request, timeout=settings.PARALEARN_HTTP_TIMEOUT_SECONDS) as response:  # nosec B310 - configured HTTPS URL
                 response_body = response.read()
         except HTTPError as exc:
-            if method == "GET" and exc.code == 404:
+            if exc.code in (301, 302, 307, 308) and exc.headers.get("Location"):
+                redirect_url = exc.headers["Location"]
+                req2 = Request(redirect_url, data=data, method=method)
+                req2.add_header("Accept", "application/json")
+                req2.add_header(
+                    settings.PARALEARN_API_KEY_HEADER,
+                    f"{settings.PARALEARN_API_KEY_PREFIX}{settings.PARALEARN_API_KEY}",
+                )
+                if data is not None:
+                    req2.add_header("Content-Type", "application/json")
+                try:
+                    with urlopen(req2, timeout=settings.PARALEARN_HTTP_TIMEOUT_SECONDS) as resp2:
+                        response_body = resp2.read()
+                except HTTPError as exc2:
+                    if method == "GET" and exc2.code == 404:
+                        raise ParaLearnResultNotFoundError("ParaLearn has not published a result slip yet.") from exc2
+                    raise ParaLearnRequestError(f"ParaLearn returned HTTP {exc2.code}.") from exc2
+                except (URLError, TimeoutError) as exc2:
+                    raise ParaLearnRequestError("ParaLearn could not be reached.") from exc2
+            elif method == "GET" and exc.code == 404:
                 raise ParaLearnResultNotFoundError("ParaLearn has not published a result slip yet.") from exc
-            raise ParaLearnRequestError(f"ParaLearn returned HTTP {exc.code}.") from exc
+            else:
+                raise ParaLearnRequestError(f"ParaLearn returned HTTP {exc.code}.") from exc
         except (URLError, TimeoutError) as exc:
             raise ParaLearnRequestError("ParaLearn could not be reached.") from exc
         try:
@@ -147,6 +167,11 @@ class ParaLearnClient:
         allowed_hosts = {host.lower() for host in settings.PARALEARN_ALLOWED_LAUNCH_HOSTS}
         if not allowed_hosts:
             allowed_hosts.add(urlsplit(settings.PARALEARN_API_BASE_URL).hostname or "")
+        for host in list(allowed_hosts):
+            if host.startswith("www."):
+                allowed_hosts.add(host[4:])
+            elif host:
+                allowed_hosts.add(f"www.{host}")
         if parsed.scheme != "https" or not parsed.hostname or parsed.hostname.lower() not in allowed_hosts:
             raise ParaLearnProtocolError("ParaLearn returned a launch URL outside the configured HTTPS hosts.")
         return launch_url
