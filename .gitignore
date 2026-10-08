@@ -6,6 +6,9 @@ db.sqlite3
 .env
 .env.local
 venv/
+.venv/
+.agents/
+skills-lock.json
 .vercel/
 .deck-build/
 **/.deck-build/

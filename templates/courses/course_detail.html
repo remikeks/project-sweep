@@ -108,6 +108,38 @@
     </div>
   {% endif %}
 
+  {% if modules %}
+    <h2 class="section-heading">Curriculum &amp; Syllabus</h2>
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;" data-reveal>
+      {% for mod in modules %}
+        <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 240px;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+              <span class="badge-pill" style="background: #E2E8F0; color: var(--primary); font-weight: 600;">Module {{ mod.order }}</span>
+              <span class="meta">⏱ {{ mod.duration }}</span>
+              <span class="meta">· {{ mod.get_learning_mode_display }}</span>
+            </div>
+            <h3 style="margin: 4px 0 6px 0; font-size: 1.1rem;">{{ mod.title }}</h3>
+            {% if mod.overview %}<p class="meta" style="margin: 0;">{{ mod.overview }}</p>{% endif %}
+          </div>
+          <div>
+            {% if is_enrolled %}
+              {% if mod.id in completed_module_ids %}
+                <a href="{% url 'course_module_detail' course.slug mod.order %}" class="btn btn-outline" style="min-width: 130px; text-align: center;">✓ Completed</a>
+              {% elif mod.id == current_unlocked_module_id %}
+                <a href="{% url 'course_module_detail' course.slug mod.order %}" class="btn btn-primary" style="min-width: 130px; text-align: center;">Start Lesson →</a>
+              {% else %}
+                <span class="btn btn-outline" style="min-width: 130px; opacity: 0.6; cursor: not-allowed; text-align: center;">🔒 Locked</span>
+              {% endif %}
+            {% else %}
+              <span class="badge-pill" style="background: #EDF2F7; color: #4A5568; padding: 6px 12px;">Enrolled only</span>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
   {% if user.is_authenticated %}
     <div style="margin-top:20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
       {% if is_enrolled and first_module %}

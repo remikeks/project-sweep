@@ -23,6 +23,18 @@
     <!--<h2>Module content</h2>-->
     <div>{{ module_content_html }}</div>
   </div>
+  {% elif is_anonymous_visitor %}
+    <div class="card" style="border-left: 4px solid var(--gold); padding: 24px;">
+      <h2 style="font-size: 1.3rem; margin-bottom: 8px;">🔒 Full lesson content is available for enrolled learners</h2>
+      <p class="lede" style="font-size: 0.95rem; margin-bottom: 16px;">
+        Join SWEEP Academy for free to access this interactive module, practice worksheets, knowledge checks, and earn verified continuing education credentials.
+      </p>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="{% url 'signup' %}?next={{ request.path }}" class="btn btn-primary">Create free account &amp; enroll</a>
+        <a href="{% url 'login' %}?next={{ request.path }}" class="btn btn-outline">Log in</a>
+        <a href="{% url 'course_detail' course.slug %}" class="btn btn-outline">View course overview</a>
+      </div>
+    </div>
   {% else %}
     <div class="card"><strong>This module is locked.</strong><p>Complete the previous module to continue.</p></div>
   {% endif %}

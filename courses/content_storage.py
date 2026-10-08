@@ -147,8 +147,12 @@ def build_storage_path(*, course_slug, module_order, filename):
 
 def canonical_storage_url(storage_path):
     """Canonical, non-signed URL kept for metadata; learners receive a signed URL."""
-    base = _configured_base_url()
-    bucket = _bucket_name()
+    try:
+        base = _configured_base_url()
+        bucket = _bucket_name()
+    except StorageConfigurationError:
+        base = (getattr(settings, "SUPABASE_URL", "") or "https://supabase.local").rstrip("/")
+        bucket = getattr(settings, "SUPABASE_STORAGE_BUCKET", "") or "course-assets"
     if not _SAFE_PATH_RE.fullmatch(storage_path) or ".." in PurePath(storage_path).parts:
         raise ValueError("Storage path is invalid.")
     return f"{base}/storage/v1/object/authenticated/{quote(bucket, safe='')}/{quote(storage_path, safe='/')}"

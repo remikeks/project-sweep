@@ -91,6 +91,10 @@ def run_acceptance_test():
         course = Course.objects.filter(course_code="SWP-001", is_active=True).first()
         if not course:
             raise RuntimeError("Course SWP-001 not found.")
+        original_assessment_id = course.paralearn_assessment_id
+        if not course.paralearn_assessment_id:
+            course.paralearn_assessment_id = "test-cbt-swp-001"
+            course.save(update_fields=["paralearn_assessment_id"])
         print(f"2. Enrolling in course: {course.course_code} - {course.title}")
         enrollment, _ = CourseEnrollment.objects.get_or_create(user=user, course=course)
 
@@ -290,6 +294,9 @@ def run_acceptance_test():
             SchoolExamAttempt.objects.filter(user=user).delete()
             SchoolEnrollment.objects.filter(user=user).delete()
             ParaLearnLearnerIdentity.objects.filter(user=user).delete()
+            if 'course' in locals() and 'original_assessment_id' in locals():
+                course.paralearn_assessment_id = original_assessment_id
+                course.save(update_fields=["paralearn_assessment_id"])
             user.delete()
             print("[OK] Cleanup complete. Database left in pristine state.")
         except Exception as e:

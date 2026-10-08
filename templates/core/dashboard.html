@@ -25,6 +25,51 @@
     </div>
   </section>
 
+  {% if is_new_learner %}
+    <div class="card" style="border-left: 4px solid var(--gold); margin-bottom: 32px; background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);">
+      <h2 style="font-size: 1.4rem; margin-bottom: 8px;">🎓 Welcome to SWEEP Academy, {{ user.first_name|default:user.username }}!</h2>
+      <p class="lede" style="font-size: 0.95rem; margin-bottom: 20px;">
+        Follow these 3 easy steps to start your social work continuing education journey and earn accredited digital credentials:
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px;">
+        <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 16px;">
+          <strong style="color: var(--primary); display: block; margin-bottom: 6px;">1. Choose a Practice Area</strong>
+          <p class="meta" style="margin: 0;">Explore our 10 specialised schools and enroll in one that matches your practice focus.</p>
+        </div>
+        <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 16px;">
+          <strong style="color: var(--primary); display: block; margin-bottom: 6px;">2. Study Course Modules</strong>
+          <p class="meta" style="margin: 0;">Progress through sequential self-paced modules, interactive knowledge checks, and practice worksheets.</p>
+        </div>
+        <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 16px;">
+          <strong style="color: var(--primary); display: block; margin-bottom: 6px;">3. Earn Verified Badges</strong>
+          <p class="meta" style="margin: 0;">Pass the ParaLearn CBT assessments to earn digital badges and school certification certificates.</p>
+        </div>
+      </div>
+
+      {% if starter_courses %}
+        <h3 style="font-size: 1.1rem; margin-bottom: 12px;">Recommended Starter Courses</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+          {% for starter in starter_courses %}
+            <div style="background: white; border: 1px solid var(--line); border-radius: 8px; padding: 14px; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <span class="badge-pill {{ starter.difficulty }}">{{ starter.get_difficulty_display }}</span>
+                <h4 style="margin: 8px 0 4px 0; font-size: 1rem;"><a href="{% url 'course_detail' starter.slug %}">{{ starter.title }}</a></h4>
+                <p class="meta" style="margin-bottom: 12px;">{{ starter.school.name }}</p>
+              </div>
+              <a href="{% url 'course_detail' starter.slug %}" class="btn btn-outline btn-block" style="text-align: center;">View Course</a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="{% url 'school_list' %}" class="btn btn-primary">Browse All 10 Schools →</a>
+        <a href="{% url 'course_list' %}" class="btn btn-outline">Explore Course Catalog</a>
+      </div>
+    </div>
+  {% endif %}
+
   <h2 class="section-heading">Schools</h2>
   {% if school_rows %}
     <div class="school-grid">

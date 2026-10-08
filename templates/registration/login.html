@@ -8,6 +8,7 @@
       {{ form.as_p }}
       <button type="submit" class="btn btn-primary btn-block">Log in</button>
     </form>
-    <p style="margin-top:14px;">New to SWEEP? <a href="{% url 'signup' %}">Create an account</a>.</p>
+    <p style="margin-top:14px;"><a href="{% url 'password_reset' %}">Forgot your password?</a></p>
+    <p style="margin-top:8px;">New to SWEEP? <a href="{% url 'signup' %}">Create an account</a>.</p>
   </div>
 {% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Verify Your Email — SWEEP{% endblock %}
+{% block content %}
+  <div class="card" style="max-width:520px; margin:0 auto; text-align:center;">
+    <h1 style="font-size:1.6rem;">Verify your email address</h1>
+    <p class="lede" style="font-size:0.95rem; margin-top:12px;">
+      We've sent an activation link to <strong>{{ email }}</strong>.
+    </p>
+    <p class="meta" style="margin-top:12px;">
+      Please click the link in that email to activate your account and start learning. If you don't see it, check your spam or promotions folder.
+    </p>
+    <div style="margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="{% url 'resend_activation' %}" class="btn btn-outline">Resend activation email</a>
+      <a href="{% url 'login' %}" class="btn btn-primary">Return to log in</a>
+    </div>
+  </div>
+{% endblock %}

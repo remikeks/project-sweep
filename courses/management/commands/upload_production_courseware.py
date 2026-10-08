@@ -67,6 +67,11 @@ class Command(BaseCommand):
             action="store_true",
             help="Upload and register assets. Without this flag the command validates files and metadata only.",
         )
+        parser.add_argument(
+            "--register-local",
+            action="store_true",
+            help="Register assets in the database without uploading bytes to remote Supabase Storage.",
+        )
 
     def handle(self, *args, **options):
         release = options["release"].resolve()
@@ -96,9 +101,10 @@ class Command(BaseCommand):
         if not options["commit"]:
             self.stdout.write(self.style.SUCCESS("Validated 240 courseware files, checksums, and Storage-compatible metadata. No upload or database changes were made."))
             return
-        if not storage_is_configured():
-            raise CommandError("Supabase Storage is not configured in the protected environment.")
-        client = SupabaseStorageClient()
+        register_local = bool(options.get("register_local"))
+        if not register_local and not storage_is_configured():
+            raise CommandError("Supabase Storage is not configured in the protected environment. Use --register-local to register assets locally.")
+        client = None if register_local else SupabaseStorageClient()
         created = 0
         skipped = 0
         for entry in manifest:
@@ -128,8 +134,9 @@ class Command(BaseCommand):
                     module_order=module.order if module else None,
                     filename=source.name,
                 )
-                signed = client.create_signed_upload_url(storage_path)
-                upload_bytes(signed_url=signed.url, source=source, content_type=entry["content_type"])
+                if not register_local:
+                    signed = client.create_signed_upload_url(storage_path)
+                    upload_bytes(signed_url=signed.url, source=source, content_type=entry["content_type"])
                 payload = {
                     "title": entry["title"],
                     "asset_type": entry["asset_type"],
@@ -149,6 +156,7 @@ class Command(BaseCommand):
                 created += 1
             except (StorageConfigurationError, StorageRequestError) as exc:
                 raise CommandError(f"Storage setup failed while processing {source.name}: {exc}") from exc
+        action_verb = "Registered" if register_local else "Uploaded and registered"
         self.stdout.write(self.style.SUCCESS(
-            f"Uploaded and registered {created} assets as in review; skipped {skipped} matching existing assets."
+            f"{action_verb} {created} assets as in review; skipped {skipped} matching existing assets."
         ))

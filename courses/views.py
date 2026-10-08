@@ -131,7 +131,7 @@ def course_asset_download(request, asset_id):
     if not asset.course.enrollments.filter(user=request.user).exists():
         messages.warning(request, "You need to enroll in this course before accessing its resources.")
         return redirect("course_detail", slug=asset.course.slug)
-    if asset.storage_path:
+    if asset.storage_path and storage_is_configured():
         try:
             return redirect(
                 SupabaseStorageClient().create_signed_download_url(
@@ -224,9 +224,20 @@ def course_detail(request, slug):
         ).exists()
         modules_complete = course_modules_complete(request.user, course)
 
-    first_module = course.modules.order_by("order", "id").first()
+    modules = list(course.modules.order_by("order", "id"))
+    first_module = modules[0] if modules else None
+
+    completed_module_ids = set()
+    current_unlocked_module_id = None
+    if is_enrolled:
+        _, completed_module_ids, current_mod = module_completion_state(request.user, course)
+        current_unlocked_module_id = current_mod.id if current_mod else None
+
     context = {
         "course": course,
+        "modules": modules,
+        "completed_module_ids": completed_module_ids,
+        "current_unlocked_module_id": current_unlocked_module_id,
         "is_enrolled": is_enrolled,
         "progress": progress,
         "badge": badge,
@@ -306,6 +317,7 @@ def course_module_detail(request, slug, module_order):
         "module_summary_html": render_course_markdown(module.module_summary),
         "knowledge_check_html": render_course_markdown(module.knowledge_check),
         "practical_activity_html": render_course_markdown(module.practical_activity),
+        "is_anonymous_visitor": not request.user.is_authenticated,
     }
     return render(request, "courses/course_module_detail.html", context)
 

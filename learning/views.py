@@ -72,6 +72,15 @@ def dashboard(request):
             }
         )
 
+    is_new_learner = not school_rows and not course_rows
+    starter_schools = []
+    starter_courses = []
+    if is_new_learner:
+        starter_schools = list(School.objects.filter(is_active=True).order_by("order", "id")[:3])
+        starter_courses = list(
+            Course.objects.filter(is_active=True).select_related("school").order_by("order", "id")[:3]
+        )
+
     context = {
         "course_rows": course_rows,
         "school_rows": school_rows,
@@ -79,6 +88,9 @@ def dashboard(request):
             1 for row in course_rows if row["progress"] and row["progress"].status == "completed"
         ),
         "completed_schools_count": sum(1 for row in school_rows if row["fully_completed"]),
+        "is_new_learner": is_new_learner,
+        "starter_schools": starter_schools,
+        "starter_courses": starter_courses,
     }
     return render(request, "core/dashboard.html", context)
 

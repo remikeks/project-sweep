@@ -36,12 +36,28 @@ except ImportError:
 # --------------------------------------------------------------------------
 # SECURITY
 # --------------------------------------------------------------------------
-SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-change-this-key-before-deploying-to-production")
+SECRET_KEY = os.environ.get("SECRET_KEY", "").strip() or "django-insecure-change-this-key-before-deploying-to-production"
 
-DEBUG = os.environ.get("DEBUG", "True") == "True"
+_debug_env = os.environ.get("DEBUG", "").strip()
+if _debug_env:
+    DEBUG = _debug_env.lower() in ("true", "1", "yes")
+else:
+    DEBUG = True
 
-ALLOWED_HOSTS = [host.strip() for host in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,.vercel.app").split(",") if host.strip()]
+_raw_allowed = os.environ.get("ALLOWED_HOSTS", "").strip()
+if _raw_allowed:
+    ALLOWED_HOSTS = [host.strip() for host in _raw_allowed.split(",") if host.strip()]
+    if "testserver" not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append("testserver")
+else:
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".vercel.app", "testserver"]
 CSRF_TRUSTED_ORIGINS = [origin.strip() for origin in os.environ.get("CSRF_TRUSTED_ORIGINS", "").split(",") if origin.strip()]
+for host in ALLOWED_HOSTS:
+    if host in ("localhost", "127.0.0.1", "testserver"):
+        continue
+    origin = f"https://*{host}" if host.startswith(".") else f"https://{host}"
+    if origin not in CSRF_TRUSTED_ORIGINS:
+        CSRF_TRUSTED_ORIGINS.append(origin)
 
 # --------------------------------------------------------------------------
 # APPLICATIONS
@@ -169,6 +185,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_URL = "login"
 LOGIN_REDIRECT_URL = "dashboard"
 LOGOUT_REDIRECT_URL = "home"
+ACCOUNT_EMAIL_VERIFICATION_REQUIRED = os.environ.get("ACCOUNT_EMAIL_VERIFICATION_REQUIRED", "False").strip().lower() in ("true", "1")
 
 # --------------------------------------------------------------------------
 # SWEEP-SPECIFIC SETTINGS
