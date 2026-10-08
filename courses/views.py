@@ -248,6 +248,7 @@ def course_detail(request, slug):
         "paralearn_assessment_configured": bool(course.paralearn_assessment_id),
         "first_module": first_module,
         "modules_complete": modules_complete,
+        "course_assets": course.assets.filter(status="published").select_related("module"),
     }
     return render(request, "courses/course_detail.html", context)
 

@@ -140,6 +140,36 @@
     </div>
   {% endif %}
 
+  {% if course_assets %}
+    <h2 class="section-heading">Course Resources &amp; Materials</h2>
+    <div class="card" data-reveal style="margin-bottom: 24px;">
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px;">
+        {% for asset in course_assets %}
+          <li style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); padding-bottom: 10px; gap: 12px; flex-wrap: wrap;">
+            <div>
+              <strong>{{ asset.title }}</strong>
+              <span class="badge-pill" style="margin-left: 8px;">{{ asset.get_asset_type_display }}</span>
+              {% if asset.module %}
+                <span class="meta" style="margin-left: 6px;">Module {{ asset.module.order }}</span>
+              {% else %}
+                <span class="meta" style="margin-left: 6px;">Course-wide</span>
+              {% endif %}
+            </div>
+            <div>
+              {% if is_enrolled %}
+                <a href="{% url 'course_asset_download' asset.id %}" class="btn btn-outline" style="font-size: 0.85rem;" target="_blank" rel="noopener">
+                  Download Resource ↗
+                </a>
+              {% else %}
+                <span class="meta">Enroll to download</span>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
   {% if user.is_authenticated %}
     <div style="margin-top:20px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
       {% if is_enrolled and first_module %}
