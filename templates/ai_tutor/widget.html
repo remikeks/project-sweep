@@ -34,14 +34,14 @@ free-text form.
 
     {% if not tutor_compact %}
       <form class="tutor-input-row" data-tutor-form>
-        <input type="text" class="sw-input" placeholder="{{ tutor_placeholder|default:'Ask a question…' }}" data-tutor-input>
+        <input type="text" class="sw-input" maxlength="1000" placeholder="{{ tutor_placeholder|default:'Ask a question…' }}" data-tutor-input>
         <button type="submit" class="btn btn-primary" data-tutor-submit>Ask</button>
       </form>
     {% endif %}
 
     <div class="tutor-body" data-tutor-body>
       <p class="tutor-hint" data-tutor-hint>
-        {% if tutor_compact %}Getting an answer…{% else %}Ask about {% if tutor_module_order is not None %}this lesson{% else %}this course{% endif %}, or use the quick action above.{% endif %}
+        {% if tutor_compact %}Getting an answer…{% else %}Ask about {% if tutor_module_order is not None %}this lesson{% else %}this course{% endif %}, or use the quick action above. Answers are limited to course materials; do not share personal or client information.{% endif %}
       </p>
     </div>
   </div>

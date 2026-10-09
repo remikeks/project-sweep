@@ -31,13 +31,17 @@ def tutor_ask(request):
     except json.JSONDecodeError:
         return JsonResponse({"ok": False, "error": "That request didn't make sense."}, status=400)
 
-    course_slug = (payload.get("course_slug") or "").strip()
+    course_slug_value = payload.get("course_slug") or ""
+    course_slug = course_slug_value.strip() if isinstance(course_slug_value, str) else ""
     module_order = payload.get("module_order")
-    question = (payload.get("question") or "").strip()
+    question_value = payload.get("question") or ""
+    question = question_value.strip() if isinstance(question_value, str) else ""
     mode = payload.get("mode") or "chat"
 
     if not course_slug:
         return JsonResponse({"ok": False, "error": "Missing course."}, status=400)
+    if not isinstance(mode, str) or mode not in {"chat", "summary"}:
+        return JsonResponse({"ok": False, "error": "Unsupported AI Tutor request."}, status=400)
 
     course = get_object_or_404(Course, slug=course_slug, is_active=True)
 
@@ -60,8 +64,7 @@ def tutor_ask(request):
             else:
                 answer = services.summarize_course(request.user, course)
         else:
-            if not question:
-                return JsonResponse({"ok": False, "error": "Type a question first."}, status=400)
+            question = services.validate_question(question)
             if module:
                 answer = services.ask_module_question(request.user, course, module, question)
             else:
@@ -74,6 +77,8 @@ def tutor_ask(request):
         )
     except services.TutorQuotaExceeded as exc:
         return JsonResponse({"ok": False, "error": str(exc)}, status=429)
+    except services.TutorInputError as exc:
+        return JsonResponse({"ok": False, "error": str(exc)}, status=400)
     except services.TutorError:
         return JsonResponse(
             {"ok": False, "error": "The AI Tutor couldn't answer that just now. Please try again shortly."},

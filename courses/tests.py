@@ -480,6 +480,8 @@ class ParaLearnAssessmentTests(TestCase):
         create_launch.side_effect = ParaLearnRequestError("temporary provider outage")
         response = self.client.post(reverse("paralearn_launch", kwargs={"slug": self.course.slug}))
         self.assertEqual(response.status_code, 503)
+        self.assertNotContains(response, "cbt.pln.ng/take", status_code=503)
+        self.assertContains(response, "Retry assessment launch", status_code=503)
         attempt = CourseAssessmentAttempt.objects.get()
         original_key = attempt.launch_idempotency_key
         self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.LAUNCH_FAILED)

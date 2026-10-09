@@ -64,6 +64,10 @@ application metadata, not user-editable metadata.
 
 ## 3. Production SWEEP Configuration
 
+Source-control quality gates run without production credentials. Keep the
+deployment secrets below out of CI logs and pull-request environments; the
+automated suite uses an isolated SQLite database instead.
+
 Set these values only in the deployment host's protected environment-variable
 manager:
 
@@ -89,6 +93,8 @@ SUPABASE_JWT_ROLE_MAP=<JSON role mapping>
       proxy supplies the forwarded protocol safely.
 - [ ] Confirm static assets collect successfully.
 - [ ] Run `python manage.py check --deploy` with production settings.
+- [ ] Confirm the **Django Quality Gate** workflow is green for the deployment
+      revision before promotion.
 
 ## 4. Apply the SWEEP Database Changes
 

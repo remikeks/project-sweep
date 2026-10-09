@@ -221,6 +221,10 @@ AI_TUTOR_MODEL = os.environ.get("AI_TUTOR_MODEL", "gemini-3.8-flash")
 # Simple per-user cap so a public-facing "Ask AI" button can't run up an
 # unbounded API bill. Raise/lower via env var without a code change.
 AI_TUTOR_DAILY_LIMIT = _int_env("AI_TUTOR_DAILY_LIMIT", 30)
+AI_TUTOR_MAX_QUESTION_CHARS = min(
+    max(_int_env("AI_TUTOR_MAX_QUESTION_CHARS", 1000), 100),
+    4000,
+)
 
 # --------------------------------------------------------------------------
 # EMAIL

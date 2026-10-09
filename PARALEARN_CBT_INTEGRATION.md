@@ -73,6 +73,12 @@ Launch retry keeps the same local attempt UUID, so ParaLearn can resume or
 deduplicate the candidate session using `externalAttemptId`. A failed launch
 can be retried without creating another course attempt.
 
+SWEEP never falls back to a manually constructed or raw `/take/<exam-code>`
+URL when provisioning is unavailable or fails. Such a launch would omit the
+persisted `externalAttemptId` and cannot safely be matched to a signed result,
+so it must not complete a course or award a credential. The learner instead
+receives a retry action for the saved local attempt.
+
 ## Signed final results
 
 Register this endpoint in the ParaLearn workspace:

@@ -121,6 +121,7 @@ Then visit:
 | `CSRF_TRUSTED_ORIGINS` | Comma-separated trusted origins | empty |
 | `DATABASE_URL` | Postgres connection string | unset → falls back to SQLite |
 | `GOOGLE_API_KEY` / `ANTHROPIC_API_KEY` | AI Tutor model provider credentials | required only if the AI Tutor feature is enabled |
+| `AI_TUTOR_DAILY_LIMIT` / `AI_TUTOR_MAX_QUESTION_CHARS` | Per-learner request and input-size limits for the AI Tutor | `30` / `1000` |
 | `FEEDBACK_TO_EMAIL` | Optional notification address for new feedback | unset → feedback is still saved, just not emailed |
 | `SUPABASE_URL`, `SUPABASE_STORAGE_BUCKET`, `SUPABASE_SERVICE_ROLE_KEY` | Server-only signed URLs for the content portal | unset → direct portal uploads disabled |
 | `SUPABASE_JWT_ISSUER`, `SUPABASE_JWT_AUDIENCE`, `SUPABASE_JWKS_URL`, `SUPABASE_JWT_ALGORITHMS` | Verified Supabase JWT access to content APIs | unset → Supabase JWT access disabled (Django sessions still work) |
@@ -181,6 +182,7 @@ The `ai_tutor` app is a deliberately simple, course-aware Q&A/summary tutor:
 - Staff can attach extra source documents (`CourseMaterial`: PDF, DOCX, PPTX, TXT, or MD) to a course or a specific module; text is extracted once at upload time and reused on every question.
 - `TutorInteraction` logs every question and answer, and doubles as the basis for a per-user daily quota so a public-facing "Ask AI" button can't run up an unbounded API bill.
 - Everything goes through one endpoint, `tutor_ask`, which accepts a course, an optional module, a mode (`chat` or `summary`), and a question.
+- Each response must cite an excerpt label that is present in the supplied course material. Responses with missing or invented citations are replaced with a clear "not in the course materials" response; learner prompts and uploaded content cannot override the tutor's system rules.
 
 There's no tool use, autonomy, or memory beyond the interaction log yet;
 that's intentional for this iteration, with room to grow later without a
@@ -273,5 +275,6 @@ production Supabase database.
   per-question weighting, that logic belongs in `learning/services.py`.
 - The AI Tutor has no tool use, autonomy, or memory beyond its interaction
   log — a deliberate MVP scope, not a limitation of the data model.
+- The AI Tutor is course-grounded rather than authoritative professional advice. It refuses unsupported questions and directs learners to their instructor or qualified supervision where appropriate.
 - `logo.svg` currently embeds a raster image rather than true vector
   artwork; consider a vector redraw for large-format use.
