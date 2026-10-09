@@ -1,6 +1,6 @@
 # SWP-024 — Reentry Planning & Community Reintegration
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1, which of the following is categorized as a core 'reentry need' that must be addressed to support safe reintegration?
 

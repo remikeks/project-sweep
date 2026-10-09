@@ -1,6 +1,6 @@
 # SWP-007 — Screening & Brief Intervention (SBIRT)
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the SBIRT Learner Guide, what is the primary objective of using screening and brief-intervention principles?
 

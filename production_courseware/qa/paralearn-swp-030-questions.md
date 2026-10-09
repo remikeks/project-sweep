@@ -1,6 +1,6 @@
 # SWP-030 — Using Data to Drive Policy Change
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1 (Data foundations), what is the primary strength of combining quantitative and qualitative data in policy advocacy?
 

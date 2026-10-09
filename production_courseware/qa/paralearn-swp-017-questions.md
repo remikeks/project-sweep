@@ -1,6 +1,6 @@
 # SWP-017 — Chronic Illness & Adherence Support
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1 of the Learner Guide, which of the following is a core focus when examining the experience of living with a chronic illness?
 

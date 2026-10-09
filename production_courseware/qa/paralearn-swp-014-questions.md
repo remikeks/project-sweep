@@ -1,6 +1,6 @@
 # SWP-014 — Community Organizing & Coalition Building
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the SWP-014 course structure, which of the following is a primary focus of Module 1: Organising Foundations?
 

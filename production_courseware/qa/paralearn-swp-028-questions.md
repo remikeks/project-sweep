@@ -1,6 +1,6 @@
 # SWP-028 — Policy Analysis Fundamentals
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1 (Policy basics), what is the 'policy cycle'?
 

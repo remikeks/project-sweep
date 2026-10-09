@@ -1,6 +1,6 @@
 # SWP-018 — Interdisciplinary Collaboration in Healthcare
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the Module 1 learning sequence, what is the first step a practitioner should take when beginning team-based care?
 

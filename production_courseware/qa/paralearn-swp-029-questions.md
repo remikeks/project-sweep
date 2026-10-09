@@ -1,6 +1,6 @@
 # SWP-029 — Legislative Advocacy & Coalition Building
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. In Module 1 (Legislative landscape), what is the primary significance of understanding 'how bills move' through the legislative process?
 

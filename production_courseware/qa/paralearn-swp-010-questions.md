@@ -1,6 +1,6 @@
 # SWP-010 — Aging in Place & Independent Living
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1: Person-centred ageing, which of the following sets of factors must a practitioner focus on to support an older adult's independence?
 

@@ -1,4 +1,6 @@
-# ParaLearn draft bank progress — 2026-10-04
+# Historic ParaLearn draft-bank progress — 2026-10-04
+
+> **Superseded status (2026-10-09):** All 30 assessment banks are approved for content use. This file is retained as a historical creation log only; its draft and publication notes are not the current assessment-approval status. See [PARALEARN_REVIEW_INDEX.md](PARALEARN_REVIEW_INDEX.md).
 
 Target: 30 course banks, 15 questions each (450 total), left unpublished for expert review.
 

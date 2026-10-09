@@ -1,6 +1,6 @@
 # SWP-012 — Elder Abuse Prevention & Long-Term Care Advocacy
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1, which of the following is a core category of harm that practitioners must be able to recognize?
 

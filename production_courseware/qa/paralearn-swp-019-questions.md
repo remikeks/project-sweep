@@ -1,6 +1,6 @@
 # SWP-019 — Student Support & Attendance
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the Module 1 learning sequence, what is the primary purpose of understanding absenteeism?
 

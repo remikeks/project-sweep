@@ -1,6 +1,6 @@
 # SWP-022 — Foundations of Forensic Social Work
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the Practice Notice in the Learner Guide, what is the relationship between the course material and urgent safeguarding procedures?
 

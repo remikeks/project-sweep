@@ -1,6 +1,6 @@
 # SWP-020 — Behavioral & Emotional Support in Schools
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the Module 1 learning sequence, what is the primary lens through which student behavior should be interpreted to avoid punitive assumptions?
 

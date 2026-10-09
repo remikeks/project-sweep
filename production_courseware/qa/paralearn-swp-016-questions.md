@@ -1,6 +1,6 @@
 # SWP-016 — Hospital Discharge Planning
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to the SWP-016 Learner Guide, what is the primary overarching goal of hospital discharge planning?
 

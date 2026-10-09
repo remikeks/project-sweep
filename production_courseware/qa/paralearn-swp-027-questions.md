@@ -1,6 +1,6 @@
 # SWP-027 — Long-Term Disaster Recovery Support
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. In Module 1 (Recovery over time), how does long-term disaster recovery differ fundamentally from immediate emergency response?
 

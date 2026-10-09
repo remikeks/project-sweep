@@ -1,6 +1,6 @@
 # SWP-026 — Psychological First Aid
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. According to Module 1, which of the following statements accurately defines Psychological First Aid (PFA)?
 

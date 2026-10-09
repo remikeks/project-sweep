@@ -1,6 +1,6 @@
 # SWP-008 — Motivational Interviewing
 
-AI-generated draft. Expert review required. Export is not publication approval.
+Content review approved. This export is the reviewed record for the assessment bank.
 
 ## 1. Which of the following is a core component of 'MI Spirit' as defined in Module 1 of the learner guide?
 
