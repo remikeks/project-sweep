@@ -1,6 +1,10 @@
 from django.db import models
 from django.urls import reverse
+from django.templatetags.static import static
+from django.utils.functional import cached_property
 from django.utils.text import slugify
+
+from core.catalogue_artwork import school_artwork_path
 
 # A rotating set of emblem glyphs + accent tones used on school cards.
 # Cycled by `order`, so this scales automatically to any number of schools
@@ -79,12 +83,27 @@ class School(models.Model):
         """A glyph for this school's card, cycling through a fixed set."""
         return SCHOOL_EMBLEMS[self.order % len(SCHOOL_EMBLEMS)]
 
+    @cached_property
+    def thumbnail_url(self):
+        if self.poster_available:
+            return self.poster.url
+        return static(school_artwork_path(self.slug))
+
+    @cached_property
+    def thumbnail_srcset(self):
+        if self.poster_available:
+            return ""
+        return ", ".join(
+            f"{static(school_artwork_path(self.slug, width))} {width}w"
+            for width in (480, 960)
+        )
+
     @property
     def accent(self):
         """A CSS accent-tone name for this school's card, cycling through a fixed set."""
         return SCHOOL_ACCENTS[self.order % len(SCHOOL_ACCENTS)]
 
-    @property
+    @cached_property
     def poster_available(self):
         """
         Whether a poster is both set AND actually present in storage.

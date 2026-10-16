@@ -49,15 +49,9 @@
     {% for school in schools %}
       <div class="school-card accent-{{ school.accent }}" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
         <span class="tab-index">{{ forloop.counter|stringformat:"02d" }} / {{ schools|length|stringformat:"02d" }}</span>
-        {% if school.poster_available %}
-          <div class="card-poster">
-            <img src="{{ school.poster.url }}" alt="{{ school.name }} poster">
-          </div>
-        {% else %}
-          <div class="card-poster poster-fallback">
-            <span aria-hidden="true">{{ school.emblem }}</span>
-          </div>
-        {% endif %}
+        <div class="card-poster">
+          {% include "core/catalogue_thumbnail.html" with item=school %}
+        </div>
         <div class="card-body">
           <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
           {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}

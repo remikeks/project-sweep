@@ -30,15 +30,9 @@
       </div>
 
       <div class="hero-illustration">
-        {% if school.poster_available %}
-          <div class="hero-poster">
-            <img src="{{ school.poster.url }}" alt="{{ school.name }} poster">
-          </div>
-        {% else %}
-          <div class="hero-poster poster-fallback accent-{{ school.accent }}" aria-hidden="true">
-            {{ school.emblem }}
-          </div>
-        {% endif %}
+        <div class="catalogue-hero-art">
+          {% include "core/catalogue_thumbnail.html" with item=school image_loading="eager" image_sizes="(max-width: 860px) 280px, 45vw" %}
+        </div>
       </div>
     </div>
   </section>
@@ -96,11 +90,14 @@
   <h2 class="section-heading">Courses in this school</h2>
   <div class="course-grid">
     {% for row in course_rows %}
-      <div class="course-card" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
+      <div class="course-card course-card-with-art" data-reveal data-reveal-delay="{% widthratio forloop.counter0 1 60 %}">
+        <div class="course-card-art">
+          {% include "core/catalogue_thumbnail.html" with item=row.course %}
+        </div>
         <span class="badge-pill {{ row.course.difficulty }}">{{ row.course.get_difficulty_display }}</span>
         <h3><a href="{% url 'course_detail' row.course.slug %}">{{ row.course.title }}</a></h3>
         <p>{{ row.course.summary }}</p>
-        <p class="meta">⏱ {{ row.course.estimated_minutes }} min · {{ row.course.question_count }} question{{ row.course.question_count|pluralize }}</p>
+        <p class="meta">{{ row.course.estimated_minutes }} min · {{ row.course.question_count }} question{{ row.course.question_count|pluralize }}</p>
         {% if row.progress %}
           <span class="badge-pill status-{{ row.progress.status }}">{{ row.progress.get_status_display }}</span>
         {% endif %}

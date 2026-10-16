@@ -96,6 +96,14 @@ class Course(models.Model):
         return self.questions.count()
 
     @property
+    def thumbnail_url(self):
+        return self.school.thumbnail_url
+
+    @property
+    def thumbnail_srcset(self):
+        return self.school.thumbnail_srcset
+
+    @property
     def is_last_in_school(self):
         last = self.school.active_courses.order_by("-order", "-id").first()
         return last is not None and last.pk == self.pk

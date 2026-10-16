@@ -36,7 +36,9 @@
       </div>
 
       <div class="hero-illustration">
-        <span class="hero-emblem accent-{{ course.school.accent }}" aria-hidden="true">{{ course.school.emblem }}</span>
+        <div class="catalogue-hero-art">
+          {% include "core/catalogue_thumbnail.html" with item=course image_loading="eager" image_sizes="(max-width: 860px) 280px, 45vw" %}
+        </div>
       </div>
     </div>
   </section>

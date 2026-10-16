@@ -1,0 +1,5 @@
+{# Adjacent school/course headings provide the accessible label. #}
+<img src="{{ item.thumbnail_url }}"
+     {% if item.thumbnail_srcset %}srcset="{{ item.thumbnail_srcset }}" sizes="{{ image_sizes|default:'(max-width: 600px) 100vw, (max-width: 960px) 50vw, 380px' }}"{% endif %}
+     width="960" height="640" alt="" decoding="async"
+     loading="{{ image_loading|default:'lazy' }}" class="catalogue-thumbnail">
