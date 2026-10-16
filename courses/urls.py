@@ -18,6 +18,8 @@ urlpatterns = [
     path("<slug:slug>/assessment/launch/", views.paralearn_launch, name="paralearn_launch"),
     path("assessment-attempts/<uuid:attempt_id>/retry/", views.paralearn_retry_launch, name="paralearn_retry_launch"),
     path("assessment-attempts/<uuid:attempt_id>/reconcile/", views.paralearn_reconcile_result, name="paralearn_reconcile_result"),
+    path("introduction-to-social-work/", views.legacy_course_redirect, name="legacy_render_course_redirect"),
+    path("introduction-to-social-work/<path:legacy_path>/", views.legacy_course_redirect),
     path("", views.course_list, name="course_list"),
     path("<slug:slug>/", views.course_detail, name="course_detail"),
     path("<slug:slug>/modules/<int:module_order>/", views.course_module_detail, name="course_module_detail"),

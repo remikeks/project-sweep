@@ -113,6 +113,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "core.context_processors.curriculum_features",
             ],
         },
     },
@@ -198,6 +199,13 @@ ACCOUNT_EMAIL_VERIFICATION_REQUIRED = os.environ.get("ACCOUNT_EMAIL_VERIFICATION
 # Minimum percentage score required to pass a course assessment or a
 # school certification exam, unless overridden on the individual model.
 DEFAULT_PASSING_SCORE = 70
+
+# The Foundation of Social Work orientation is deliberately independent of
+# schools, course assessment, badges, and certificates. Keep it hidden until
+# the curriculum lead has approved the short orientation content.
+FOUNDATION_ORIENTATION_ENABLED = os.environ.get(
+    "FOUNDATION_ORIENTATION_ENABLED", "False"
+).strip().lower() in ("true", "1", "yes")
 
 # --------------------------------------------------------------------------
 # AI TUTOR

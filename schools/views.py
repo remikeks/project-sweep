@@ -1,6 +1,7 @@
 from django.db.models import Q
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, redirect, render
 
+from core.legacy_catalogue import LEGACY_SCHOOL_REDIRECTS
 from .models import School
 
 
@@ -35,6 +36,10 @@ def school_detail(request, slug):
     Show a school's overview, its courses, the user's enrollment/progress
     state, and — once every course is complete — the certification exam.
     """
+    legacy_destination = LEGACY_SCHOOL_REDIRECTS.get(slug)
+    if legacy_destination:
+        return redirect(legacy_destination, permanent=True)
+
     school = get_object_or_404(School, slug=slug, is_active=True)
     courses = school.active_courses
 

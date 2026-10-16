@@ -1,0 +1,42 @@
+[
+  {
+    "number": 34,
+    "school": "School of Community & Macro Practice",
+    "title": "Participatory Research and Practice Innovation",
+    "outcome": "Plan a small, ethical, participatory practice inquiry and use the findings with communities to test and improve a service within a professional role.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Practice questions and meaningful participation",
+        "focus": "question framing, positionality, consent, power, lived experience, co-research, and meaningful involvement"
+      },
+      {
+        "order": 2,
+        "title": "Ethical inquiry and interpretation",
+        "focus": "proportionate data collection, data minimisation, confidentiality, accessibility, bias, evidence limits, and transparent interpretation"
+      },
+      {
+        "order": 3,
+        "title": "Responsible innovation and learning",
+        "focus": "bounded pilots, feedback, implementation risks, decision criteria, documenting adaptations, escalation, and sharing learning with participants"
+      }
+    ],
+    "assets": [
+      "practice-question and participation canvas",
+      "consent and data-minimisation checklist",
+      "inquiry and innovation log",
+      "co-research case."
+    ],
+    "cbt_focus": [
+      "question framing",
+      "meaningful participation",
+      "informed consent",
+      "data minimisation",
+      "evidence limits",
+      "pilot safeguards",
+      "learning decisions"
+    ],
+    "code": "SWP-034",
+    "slug": "participatory-research-and-practice-innovation"
+  }
+]

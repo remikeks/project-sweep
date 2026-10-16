@@ -14,6 +14,7 @@ from pathlib import Path
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 
+from courses.curriculum_validation import CurriculumValidationError, validate_catalogue as validate_release_catalogue
 from courses.models import Course, CourseModule
 from schools.models import School, SchoolExamChoice, SchoolExamQuestion
 
@@ -30,22 +31,17 @@ def module_content(course: dict, module: dict) -> str:
     )
 
 
-def validate_catalogue(catalogue: list[dict], exams: list[dict]) -> None:
-    if not isinstance(catalogue, list) or len(catalogue) != 30:
-        raise CommandError("The catalogue must contain exactly 30 approved courses.")
+def validate_catalogue(catalogue: list[dict], exams: list[dict]) -> dict[str, int]:
+    try:
+        catalogue_summary = validate_release_catalogue(catalogue)
+    except CurriculumValidationError as exc:
+        raise CommandError(str(exc)) from exc
     if not isinstance(exams, list) or len(exams) != 10:
         raise CommandError("The school exam bank must contain exactly ten schools.")
-    course_keys = {(as_text(row.get("school")), as_text(row.get("title"))) for row in catalogue}
-    if len(course_keys) != 30:
-        raise CommandError("Course titles must be unique within a school.")
-    school_counts = {}
-    for row in catalogue:
-        modules = row.get("modules")
-        if not isinstance(modules, list) or len(modules) != 3:
-            raise CommandError(f"{row.get('title', 'A course')} must contain exactly three modules.")
-        school_counts[row["school"]] = school_counts.get(row["school"], 0) + 1
-    if set(school_counts.values()) != {3}:
-        raise CommandError("Every school must have exactly three courses.")
+    catalogue_schools = {as_text(row.get("school")) for row in catalogue}
+    exam_schools = {as_text(row.get("school")) for row in exams}
+    if catalogue_schools != exam_schools:
+        raise CommandError("The catalogue and school exam bank must cover the same ten schools.")
     for exam in exams:
         questions = exam.get("questions")
         if not isinstance(questions, list) or len(questions) != 15:
@@ -56,10 +52,11 @@ def validate_catalogue(catalogue: list[dict], exams: list[dict]) -> None:
                 raise CommandError("Every certification question must have four choices.")
             if sum(bool(choice.get("is_correct")) for choice in choices) != 1:
                 raise CommandError("Every certification question must have exactly one correct choice.")
+    return catalogue_summary
 
 
 class Command(BaseCommand):
-    help = "Synchronise 30 approved courses, three modules per course, and 15 certification questions per school."
+    help = "Synchronise an approved ten-school catalogue, three modules per course, and 15 certification questions per school."
 
     def add_arguments(self, parser):
         parser.add_argument("--catalogue", type=Path, required=True)
@@ -74,6 +71,11 @@ class Command(BaseCommand):
             action="store_true",
             help="Write the approved catalogue after validation. Without this flag the command validates only.",
         )
+        parser.add_argument(
+            "--create-missing-courses",
+            action="store_true",
+            help="Create a course absent from the database. Requires --commit and should only follow curriculum approval.",
+        )
 
     def handle(self, *args, **options):
         catalogue_path = options["catalogue"].resolve()
@@ -85,9 +87,14 @@ class Command(BaseCommand):
             exams = json.loads(exam_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
             raise CommandError("The supplied catalogue files must be valid JSON.") from exc
-        validate_catalogue(catalogue, exams)
+        catalogue_summary = validate_catalogue(catalogue, exams)
+        if options["create_missing_courses"] and not options["commit"]:
+            raise CommandError("--create-missing-courses requires --commit.")
         if not options["commit"]:
-            self.stdout.write(self.style.SUCCESS("Validated 30 courses, 90 modules, and 150 school certification questions. No database changes were made."))
+            self.stdout.write(self.style.SUCCESS(
+                f"Validated {catalogue_summary['courses']} courses, {catalogue_summary['modules']} modules, "
+                "and 150 school certification questions. No database changes were made."
+            ))
             return
 
         exams_by_school = {entry["school"]: entry for entry in exams}
@@ -100,13 +107,24 @@ class Command(BaseCommand):
                     + ", ".join(missing_schools)
                 )
             updated_courses = 0
+            created_courses = 0
             updated_modules = 0
             for entry in catalogue:
                 school = schools[entry["school"]]
                 try:
                     course = Course.objects.select_for_update().get(school=school, title=entry["title"])
                 except Course.DoesNotExist as exc:
-                    raise CommandError(f"Course is missing from {school.name}: {entry['title']}") from exc
+                    if not options["create_missing_courses"]:
+                        raise CommandError(f"Course is missing from {school.name}: {entry['title']}") from exc
+                    next_order = (school.courses.order_by("-order", "-id").values_list("order", flat=True).first() or 0) + 1
+                    course = Course.objects.create(
+                        school=school,
+                        title=entry["title"],
+                        slug=entry["slug"],
+                        course_code=entry["code"],
+                        order=next_order,
+                    )
+                    created_courses += 1
                 course.course_code = entry["code"]
                 # Keep the course's canonical URL aligned with the release manifest.
                 course.slug = entry["slug"]
@@ -180,5 +198,6 @@ class Command(BaseCommand):
                     ])
                     created_questions += 1
         self.stdout.write(self.style.SUCCESS(
-            f"Updated {updated_courses} courses, structured {updated_modules} modules, and created {created_questions} school certification questions."
+            f"Updated {updated_courses} courses, created {created_courses} new courses, structured {updated_modules} modules, "
+            f"and created {created_questions} school certification questions."
         ))

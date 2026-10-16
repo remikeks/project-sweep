@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
-import { Presentation, PresentationFile } from "@oai/artifact-tool";
 
 const [catalogueArg, outputArg, backgroundArg] = process.argv.slice(2);
 if (!catalogueArg || !outputArg || !backgroundArg) {
@@ -11,8 +11,15 @@ const cataloguePath = path.resolve(catalogueArg);
 const outputRoot = path.resolve(outputArg);
 const backgroundPath = path.resolve(backgroundArg);
 
-const skillDir = "C:\\Users\\PARAKLETUS HUB\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.904.11930\\skills\\presentations";
-const runtimePython = "C:\\Users\\PARAKLETUS HUB\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe";
+const skillDir = process.env.CODEX_PRESENTATIONS_SKILL_DIR;
+const runtimePython = process.env.CODEX_RUNTIME_PYTHON;
+const runtimeNodeModules = process.env.CODEX_RUNTIME_NODE_MODULES;
+if (!skillDir || !runtimePython || !runtimeNodeModules) {
+  throw new Error("Set CODEX_PRESENTATIONS_SKILL_DIR, CODEX_RUNTIME_PYTHON, and CODEX_RUNTIME_NODE_MODULES before building decks.");
+}
+const runtimeRequire = createRequire(path.join(runtimeNodeModules, "package.json"));
+const artifactToolPath = runtimeRequire.resolve("@oai/artifact-tool");
+const { Presentation, PresentationFile } = await import(pathToFileURL(artifactToolPath).href);
 const { resolvePresentationFont, finalizePresentation } = await import(
   pathToFileURL(path.join(skillDir, "container_tools", "artifact_tool_utils.mjs")).href,
 );
@@ -71,9 +78,9 @@ function addFooter(slide, course, index) {
 
 function addNotes(slide, course, purpose) {
   slide.speakerNotes.textFrame.setText(
-    `Source: SWEEP Academy Course Content Outlines, approved catalogue. ${purpose} ` +
+    `Source: SWEEP Academy Course Content Outlines. ${purpose} ` +
     "The deck uses a SWEEP Academy generated illustration as the cover background. " +
-    "Facilitators must confirm local law, policy, and referral routes before delivery.",
+    "Facilitators must confirm the course approval status, local law, policy, and referral routes before delivery.",
   );
 }
 
@@ -224,5 +231,5 @@ async function buildDeck(course) {
 
 for (const course of courses) {
   await buildDeck(course);
-  process.stdout.write(`Built deck ${course.number}/30: ${course.title}\n`);
+  process.stdout.write(`Built deck ${course.number}/${courses.length}: ${course.title}\n`);
 }

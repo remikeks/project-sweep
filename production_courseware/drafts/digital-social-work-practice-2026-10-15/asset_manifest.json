@@ -1,0 +1,67 @@
+[
+  {
+    "course_number": 31,
+    "course_code": "SWP-031",
+    "course_slug": "digital-social-work-practice",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Digital Social Work Practice learner guide DOCX",
+    "asset_type": "learner_guide",
+    "path": "docx/31-digital-social-work-practice-learner-guide.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 31,
+    "course_code": "SWP-031",
+    "course_slug": "digital-social-work-practice",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Digital Social Work Practice practice worksheet DOCX",
+    "asset_type": "worksheet",
+    "path": "docx/31-digital-social-work-practice-practice-worksheet.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 31,
+    "course_code": "SWP-031",
+    "course_slug": "digital-social-work-practice",
+    "school": "School of Community & Macro Practice",
+    "module_order": 1,
+    "title": "Digital Social Work Practice module 1 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/31-digital-social-work-practice-module-1-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 31,
+    "course_code": "SWP-031",
+    "course_slug": "digital-social-work-practice",
+    "school": "School of Community & Macro Practice",
+    "module_order": 2,
+    "title": "Digital Social Work Practice module 2 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/31-digital-social-work-practice-module-2-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 31,
+    "course_code": "SWP-031",
+    "course_slug": "digital-social-work-practice",
+    "school": "School of Community & Macro Practice",
+    "module_order": 3,
+    "title": "Digital Social Work Practice module 3 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/31-digital-social-work-practice-module-3-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  }
+]

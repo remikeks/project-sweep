@@ -8,4 +8,6 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("team/", views.team, name="team"),
     path("resources/", views.resources, name="resources"),
+    path("archive/render/", views.legacy_render_archive, name="legacy_render_archive"),
+    path("orientation/", views.foundation_orientation, name="foundation_orientation"),
 ]

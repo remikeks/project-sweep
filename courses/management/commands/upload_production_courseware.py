@@ -16,6 +16,7 @@ from urllib.request import Request, urlopen
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 
+from courses.curriculum_validation import CurriculumValidationError, validate_manifest
 from courses.content_storage import (
     StorageConfigurationError,
     StorageRequestError,
@@ -82,8 +83,10 @@ class Command(BaseCommand):
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
             raise CommandError("The upload manifest must be valid JSON.") from exc
-        if not isinstance(manifest, list) or len(manifest) != 240:
-            raise CommandError("The upload manifest must contain exactly 240 release assets.")
+        try:
+            manifest_summary = validate_manifest(manifest)
+        except CurriculumValidationError as exc:
+            raise CommandError(str(exc)) from exc
         for entry in manifest:
             source = (release / entry["path"]).resolve()
             if release not in source.parents or not source.is_file():
@@ -99,7 +102,10 @@ class Command(BaseCommand):
                 size_bytes=source.stat().st_size,
             )
         if not options["commit"]:
-            self.stdout.write(self.style.SUCCESS("Validated 240 courseware files, checksums, and Storage-compatible metadata. No upload or database changes were made."))
+            self.stdout.write(self.style.SUCCESS(
+                f"Validated {manifest_summary['assets']} courseware files across {manifest_summary['asset_courses']} course packages, "
+                "checksums, and Storage-compatible metadata. No upload or database changes were made."
+            ))
             return
         register_local = bool(options.get("register_local"))
         if not register_local and not storage_is_configured():

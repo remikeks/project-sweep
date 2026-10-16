@@ -34,6 +34,7 @@
       </div>
       <div class="sw-nav-links" id="sw-nav-links">
         <a href="{% url 'about' %}">About Us</a>
+        {% if foundation_orientation_enabled %}<a href="{% url 'foundation_orientation' %}">Start Here</a>{% endif %}
         <a href="{% url 'school_list' %}">Schools</a>
         <a href="{% url 'course_list' %}">Courses</a>
         <a href="{% url 'services' %}">Services</a>
@@ -92,6 +93,7 @@
         <div>
           <h3 class="footer-heading">Explore</h3>
           <a href="{% url 'home' %}">Home</a>
+          {% if foundation_orientation_enabled %}<a href="{% url 'foundation_orientation' %}">Start Here</a>{% endif %}
           <a href="{% url 'school_list' %}">Schools</a>
           <a href="{% url 'course_list' %}">Courses</a>
           <a href="{% url 'about' %}">About</a>

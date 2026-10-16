@@ -6,7 +6,14 @@ import argparse
 import csv
 import hashlib
 import json
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from courses.curriculum_validation import CurriculumValidationError, validate_catalogue, validate_manifest
 
 
 MIME_TYPES = {
@@ -50,9 +57,19 @@ def add_entry(entries, release, course, asset_path, asset_type, title, module_or
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--release", type=Path, required=True)
+    parser.add_argument(
+        "--expected-school-count",
+        type=int,
+        default=10,
+        help="Number of schools represented in this release. Use 1 only for an additive course draft.",
+    )
     args = parser.parse_args()
     release = args.release.resolve()
     catalogue = json.loads((release / "course_catalogue.json").read_text(encoding="utf-8"))
+    try:
+        validate_catalogue(catalogue, expected_school_count=args.expected_school_count)
+    except CurriculumValidationError as exc:
+        raise ValueError(f"Invalid course catalogue: {exc}") from exc
     entries = []
     for course in catalogue:
         prefix = f"{course['number']:02d}-{course['slug']}"
@@ -72,8 +89,14 @@ def main() -> None:
                 f"{course['title']} module {module_order} video plan and transcript DOCX",
                 module_order,
             )
-    if len(entries) != 240:
-        raise ValueError(f"Expected 240 assets, found {len(entries)}.")
+    try:
+        validate_manifest(
+            entries,
+            catalogue=catalogue,
+            expected_school_count=args.expected_school_count,
+        )
+    except CurriculumValidationError as exc:
+        raise ValueError(f"Generated an invalid upload manifest: {exc}") from exc
     (release / "upload_manifest.json").write_text(json.dumps(entries, indent=2), encoding="utf-8")
     with (release / "upload_manifest.csv").open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(entries[0]))

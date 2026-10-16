@@ -118,8 +118,8 @@ def parse_outlines(source: Path) -> list[Course]:
                 cbt_focus=[item.strip() for item in asset_match.group(2).rstrip(".").split(",") if item.strip()],
             )
         )
-    if len(courses) != 30:
-        raise ValueError(f"Expected 30 courses in the outline, found {len(courses)}.")
+    if not courses:
+        raise ValueError("The outline does not contain any complete course briefs.")
     return courses
 
 
@@ -436,8 +436,14 @@ def add_asset(
     )
 
 
-def build_release(source: Path, output: Path) -> None:
+def build_release(source: Path, output: Path, *, course_numbers: set[int] | None = None) -> None:
     courses = parse_outlines(source)
+    if course_numbers:
+        courses = [course for course in courses if course.number in course_numbers]
+        found = {course.number for course in courses}
+        if len(courses) != len(course_numbers):
+            missing = ", ".join(str(number) for number in sorted(course_numbers - found))
+            raise ValueError(f"No complete course brief exists for course number(s): {missing}.")
     docx_dir = output / "docx"
     if docx_dir.exists():
         shutil.rmtree(docx_dir)
@@ -480,8 +486,18 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--course-number",
+        type=int,
+        action="append",
+        help="Build only the specified course number. Repeat the option to build more than one course.",
+    )
     args = parser.parse_args()
-    build_release(args.source.resolve(), args.output.resolve())
+    build_release(
+        args.source.resolve(),
+        args.output.resolve(),
+        course_numbers=set(args.course_number) if args.course_number else None,
+    )
 
 
 if __name__ == "__main__":

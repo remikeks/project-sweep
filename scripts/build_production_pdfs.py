@@ -199,8 +199,21 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--course-number",
+        type=int,
+        action="append",
+        help="Build only the specified course number. Repeat the option to build more than one course.",
+    )
     args = parser.parse_args()
     courses = parse_outlines(args.source.resolve())
+    if args.course_number:
+        selected_numbers = set(args.course_number)
+        courses = [course for course in courses if course.number in selected_numbers]
+        found = {course.number for course in courses}
+        if len(courses) != len(selected_numbers):
+            missing = ", ".join(str(number) for number in sorted(selected_numbers - found))
+            raise ValueError(f"No complete course brief exists for course number(s): {missing}.")
     output = args.output.resolve()
     for course in courses:
         prefix = f"{course.number:02d}-{slugify(course.title)}"

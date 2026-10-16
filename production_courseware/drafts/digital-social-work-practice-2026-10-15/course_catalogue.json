@@ -1,0 +1,42 @@
+[
+  {
+    "number": 31,
+    "school": "School of Community & Macro Practice",
+    "title": "Digital Social Work Practice",
+    "outcome": "Use digital tools and digital service channels in ways that advance access, protect privacy, and preserve accountable human professional judgement.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Digital inclusion and service design",
+        "focus": "digital exclusion, accessibility, participation, community co-design, device and connectivity constraints, and non-digital alternatives"
+      },
+      {
+        "order": 2,
+        "title": "Information governance and secure practice",
+        "focus": "purpose limitation, informed consent, minimum necessary information, secure communication, records, retention, incident reporting, and local legal requirements"
+      },
+      {
+        "order": 3,
+        "title": "Telepractice, AI, and professional accountability",
+        "focus": "role and boundary setting, suitability and risk checks, bias and error awareness, human review, transparency, documentation, supervision, and escalation"
+      }
+    ],
+    "assets": [
+      "digital access and readiness checklist",
+      "consent and communication plan",
+      "information-governance risk review",
+      "inclusive digital-service case."
+    ],
+    "cbt_focus": [
+      "digital inclusion",
+      "informed consent",
+      "minimum necessary information",
+      "secure communication",
+      "AI-assisted practice",
+      "human oversight",
+      "accountability"
+    ],
+    "code": "SWP-031",
+    "slug": "digital-social-work-practice"
+  }
+]

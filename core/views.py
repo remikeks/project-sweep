@@ -1,8 +1,12 @@
+from django.conf import settings
+from django.http import Http404
 from django.shortcuts import render
 
 from courses.models import Course
 from schools.models import School
 
+from .foundation_orientation import ORIENTATION_MODULES, ORIENTATION_PROMPTS
+from .legacy_catalogue import RETIRED_RENDER_SCHOOLS
 from .models import Resource, TeamMember
 
 # Cap on how many courses the landing-page carousel pulls in, even once the
@@ -296,3 +300,26 @@ def resources(request):
     """Public 'Resources' page — free downloadable guides and toolkits, no login required."""
     resource_list = Resource.objects.filter(is_active=True)
     return render(request, "core/resources.html", {"resources": resource_list})
+
+
+def foundation_orientation(request):
+    """A review-gated, non-credit shared orientation before the course catalogue."""
+    if not settings.FOUNDATION_ORIENTATION_ENABLED:
+        raise Http404("The foundation orientation is not available yet.")
+    return render(
+        request,
+        "core/foundation_orientation.html",
+        {
+            "orientation_modules": ORIENTATION_MODULES,
+            "orientation_prompts": ORIENTATION_PROMPTS,
+        },
+    )
+
+
+def legacy_render_archive(request):
+    """Explain how the previous Render-era catalogue is preserved."""
+    return render(
+        request,
+        "core/legacy_render_archive.html",
+        {"retired_render_schools": RETIRED_RENDER_SCHOOLS},
+    )

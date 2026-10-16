@@ -15,6 +15,7 @@ import markdown
 
 from django.conf import settings
 from django.core.management import call_command
+from core.legacy_catalogue import LEGACY_COURSE_REDIRECTS, RENDER_ARCHIVE_PATH
 from schools.models import School
 
 from .models import Course, CourseAsset, CourseModule
@@ -196,6 +197,9 @@ def course_list(request):
 
 
 def course_detail(request, slug):
+    legacy_destination = LEGACY_COURSE_REDIRECTS.get(slug)
+    if legacy_destination:
+        return redirect(legacy_destination, permanent=True)
     course = get_object_or_404(Course, slug=slug, is_active=True)
 
     is_enrolled = False
@@ -251,6 +255,11 @@ def course_detail(request, slug):
         "course_assets": course.assets.filter(status="published").select_related("module"),
     }
     return render(request, "courses/course_detail.html", context)
+
+
+def legacy_course_redirect(request, legacy_path=""):
+    """Retire the Render-only course URL and its former nested routes."""
+    return redirect(RENDER_ARCHIVE_PATH, permanent=True)
 
 
 def course_module_detail(request, slug, module_order):

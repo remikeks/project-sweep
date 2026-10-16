@@ -1,0 +1,4 @@
+# Generated courseware must retain exact bytes for manifest checksum verification.
+*.docx binary
+*.pdf binary
+*.pptx binary

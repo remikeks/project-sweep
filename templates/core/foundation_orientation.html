@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Foundations of Social Work — Start Here | SWEEP{% endblock %}
+{% block content %}
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="850" cy="80" r="220" fill="#4C8B1D" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#F5A400" opacity="0.14" />
+      <circle cx="590" cy="470" r="140" fill="#EEF0EA" opacity="0.06" />
+    </svg>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Start here / Shared orientation</p>
+        <h1>Foundations of Social Work</h1>
+        <p class="lede">A short, optional starting point to help every learner choose a safe and relevant SWEEP pathway.</p>
+        <div class="stat-row">
+          <div>
+            <span class="stat-num">3</span>
+            <span class="stat-label">Short modules</span>
+          </div>
+          <div>
+            <span class="stat-num">35</span>
+            <span class="stat-label">Minutes estimated</span>
+          </div>
+          <div>
+            <span class="stat-num" style="font-size:1.2rem;">Optional</span>
+            <span class="stat-label">No assessment</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <span class="hero-emblem accent-leaf" aria-hidden="true">&#127793;</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" style="padding-top:8px;">
+    <div class="card" data-reveal>
+      <h2 style="margin-top:0;">What this is — and is not</h2>
+      <p>This is shared preparation material, not an eleventh School or a catalogue course. It does not create an enrolment, assessment attempt, badge, certificate, or learner-completion record.</p>
+      <p class="meta">Use it to orient yourself before selecting a School. Specialist guidance remains in the relevant course and should be applied only within your role, supervision, and local requirements.</p>
+    </div>
+
+    <h2 class="section-heading">Your orientation</h2>
+    <div style="display:flex; flex-direction:column; gap:12px; margin-bottom:24px;" data-reveal>
+      {% for module in orientation_modules %}
+        <article class="card">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px; flex-wrap:wrap;">
+            <span class="badge-pill" style="background:#E2E8F0; color:var(--primary); font-weight:600;">Part {{ forloop.counter }}</span>
+            <span class="meta">{{ module.duration }}</span>
+          </div>
+          <h3 style="margin:4px 0 6px; font-size:1.1rem;">{{ module.title }}</h3>
+          <p style="margin-bottom:8px;">{{ module.summary }}</p>
+          <p class="meta" style="margin:0;"><strong>Focus:</strong> {{ module.focus }}</p>
+        </article>
+      {% endfor %}
+    </div>
+
+    <h2 class="section-heading">Finish with a simple reflection</h2>
+    <div class="card" data-reveal>
+      <ol style="margin-bottom:0; padding-left:20px;">
+        {% for prompt in orientation_prompts %}<li style="margin-bottom:8px;">{{ prompt }}</li>{% endfor %}
+      </ol>
+    </div>
+
+    <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+      <a href="{% url 'school_list' %}" class="btn btn-gold">Explore the schools</a>
+      <a href="{% url 'course_list' %}" class="btn btn-outline">Browse courses</a>
+    </div>
+  </section>
+{% endblock %}

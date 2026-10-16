@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Earlier Render Catalogue | SWEEP Academy{% endblock %}
+{% block content %}
+  <section class="hero hero-list">
+    <svg class="hero-blobs" viewBox="0 0 1000 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="850" cy="80" r="220" fill="#4C8B1D" opacity="0.16" />
+      <circle cx="180" cy="520" r="190" fill="#F5A400" opacity="0.14" />
+    </svg>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Archive notice</p>
+        <h1>Earlier Render catalogue</h1>
+        <p class="lede">The earlier Render catalogue has been retired. SWEEP now offers ten specialist Schools with a clearer, reviewed curriculum structure.</p>
+      </div>
+      <div class="hero-illustration"><span class="hero-emblem accent-leaf" aria-hidden="true">&#128451;</span></div>
+    </div>
+  </section>
+
+  <section class="page-section" style="padding-top:8px;">
+    <div class="card" data-reveal>
+      <h2 style="margin-top:0;">What happens to earlier learning records</h2>
+      <p>Past completions, assessment attempts, badges, and certificates remain historical records. They are not automatically transferred into a different current course, School, or certificate path.</p>
+      <p class="meta">If you need help locating a historical record, contact SWEEP Academy with the learner name, approximate date, and the record you are trying to verify.</p>
+    </div>
+
+    <h2 class="section-heading">Retired Render schools</h2>
+    <div class="card" data-reveal>
+      <ul style="margin:0; padding-left:20px; columns:2; column-gap:36px;">
+        {% for school in retired_render_schools %}<li style="margin-bottom:8px; break-inside:avoid;">{{ school }}</li>{% endfor %}
+      </ul>
+    </div>
+
+    <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+      <a href="{% url 'school_list' %}" class="btn btn-gold">Explore the current schools</a>
+      <a href="{% url 'course_list' %}" class="btn btn-outline">Browse current courses</a>
+    </div>
+  </section>
+{% endblock %}

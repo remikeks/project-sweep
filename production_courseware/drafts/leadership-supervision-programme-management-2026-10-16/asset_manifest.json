@@ -1,0 +1,67 @@
+[
+  {
+    "course_number": 33,
+    "course_code": "SWP-033",
+    "course_slug": "leadership-supervision-and-programme-management",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Leadership Supervision and Programme Management learner guide DOCX",
+    "asset_type": "learner_guide",
+    "path": "docx/33-leadership-supervision-and-programme-management-learner-guide.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 33,
+    "course_code": "SWP-033",
+    "course_slug": "leadership-supervision-and-programme-management",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Leadership Supervision and Programme Management practice worksheet DOCX",
+    "asset_type": "worksheet",
+    "path": "docx/33-leadership-supervision-and-programme-management-practice-worksheet.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 33,
+    "course_code": "SWP-033",
+    "course_slug": "leadership-supervision-and-programme-management",
+    "school": "School of Community & Macro Practice",
+    "module_order": 1,
+    "title": "Leadership Supervision and Programme Management module 1 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/33-leadership-supervision-and-programme-management-module-1-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 33,
+    "course_code": "SWP-033",
+    "course_slug": "leadership-supervision-and-programme-management",
+    "school": "School of Community & Macro Practice",
+    "module_order": 2,
+    "title": "Leadership Supervision and Programme Management module 2 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/33-leadership-supervision-and-programme-management-module-2-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 33,
+    "course_code": "SWP-033",
+    "course_slug": "leadership-supervision-and-programme-management",
+    "school": "School of Community & Macro Practice",
+    "module_order": 3,
+    "title": "Leadership Supervision and Programme Management module 3 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/33-leadership-supervision-and-programme-management-module-3-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  }
+]

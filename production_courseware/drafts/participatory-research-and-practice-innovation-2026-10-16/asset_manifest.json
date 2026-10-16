@@ -1,0 +1,67 @@
+[
+  {
+    "course_number": 34,
+    "course_code": "SWP-034",
+    "course_slug": "participatory-research-and-practice-innovation",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Participatory Research and Practice Innovation learner guide DOCX",
+    "asset_type": "learner_guide",
+    "path": "docx/34-participatory-research-and-practice-innovation-learner-guide.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 34,
+    "course_code": "SWP-034",
+    "course_slug": "participatory-research-and-practice-innovation",
+    "school": "School of Community & Macro Practice",
+    "module_order": null,
+    "title": "Participatory Research and Practice Innovation practice worksheet DOCX",
+    "asset_type": "worksheet",
+    "path": "docx/34-participatory-research-and-practice-innovation-practice-worksheet.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 34,
+    "course_code": "SWP-034",
+    "course_slug": "participatory-research-and-practice-innovation",
+    "school": "School of Community & Macro Practice",
+    "module_order": 1,
+    "title": "Participatory Research and Practice Innovation module 1 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/34-participatory-research-and-practice-innovation-module-1-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 34,
+    "course_code": "SWP-034",
+    "course_slug": "participatory-research-and-practice-innovation",
+    "school": "School of Community & Macro Practice",
+    "module_order": 2,
+    "title": "Participatory Research and Practice Innovation module 2 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/34-participatory-research-and-practice-innovation-module-2-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  },
+  {
+    "course_number": 34,
+    "course_code": "SWP-034",
+    "course_slug": "participatory-research-and-practice-innovation",
+    "school": "School of Community & Macro Practice",
+    "module_order": 3,
+    "title": "Participatory Research and Practice Innovation module 3 video plan and transcript DOCX",
+    "asset_type": "transcript",
+    "path": "docx/34-participatory-research-and-practice-innovation-module-3-video-plan-transcript.docx",
+    "version": "1.0.0",
+    "language": "en",
+    "publication_status": "in_review"
+  }
+]

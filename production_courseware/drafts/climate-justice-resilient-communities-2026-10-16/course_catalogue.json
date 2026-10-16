@@ -1,0 +1,40 @@
+[
+  {
+    "number": 32,
+    "school": "School of Disaster Response & Crisis Intervention",
+    "title": "Climate Justice & Resilient Communities",
+    "outcome": "Use a rights-based, community-led approach to identify climate-related social inequities, strengthen adaptive capacity, and support accountable climate action within a professional role.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Climate risk, inequity, and rights",
+        "focus": "unequal exposure, vulnerability, livelihoods, displacement, health, disability inclusion, gender, participation, and human dignity"
+      },
+      {
+        "order": 2,
+        "title": "Community-led adaptation and resilient services",
+        "focus": "local knowledge, accessible planning, social protection, livelihoods, community assets, inclusion, and adaptation partnerships"
+      },
+      {
+        "order": 3,
+        "title": "Just transition, advocacy, and accountability",
+        "focus": "climate decisions, distribution of benefits and burdens, community voice, responsible evidence use, monitoring, and constructive advocacy"
+      }
+    ],
+    "assets": [
+      "climate-equity mapping prompt",
+      "community-adaptation partnership canvas",
+      "inclusive-resilience case",
+      "climate-accountability reflection."
+    ],
+    "cbt_focus": [
+      "climate inequity",
+      "participatory adaptation",
+      "inclusive services",
+      "community voice",
+      "accountability"
+    ],
+    "code": "SWP-032",
+    "slug": "climate-justice-and-resilient-communities"
+  }
+]

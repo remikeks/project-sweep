@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is the production-content blueprint for the current 30-course catalogue. It is not final teaching material. Each course outline is the source brief for its learner guide (DOCX/PDF), slide deck, video lessons, downloadable activities, and ParaLearn CBT assessment.
+This is the production-content blueprint for the 30 published courses and four in-review additions. It is not final teaching material. Each course outline is the source brief for its learner guide (DOCX/PDF), slide deck, video lessons, downloadable activities, and ParaLearn CBT assessment.
 
 ## Standard course package
 
@@ -180,6 +180,36 @@ Do not publish clinical, legal, child-protection, or safeguarding guidance witho
 
 **Assets:** logic-model template; indicator bank; evaluation-plan case. **CBT focus:** theory of change, outputs/outcomes, indicators, evaluation ethics.
 
+### 31. Digital Social Work Practice
+
+**Outcome:** Use digital tools and digital service channels in ways that advance access, protect privacy, and preserve accountable human professional judgement.
+
+1. **Digital inclusion and service design** — digital exclusion, accessibility, participation, community co-design, device and connectivity constraints, and non-digital alternatives.
+2. **Information governance and secure practice** — purpose limitation, informed consent, minimum necessary information, secure communication, records, retention, incident reporting, and local legal requirements.
+3. **Telepractice, AI, and professional accountability** — role and boundary setting, suitability and risk checks, bias and error awareness, human review, transparency, documentation, supervision, and escalation.
+
+**Assets:** digital access and readiness checklist; consent and communication plan; information-governance risk review; inclusive digital-service case. **CBT focus:** digital inclusion, informed consent, minimum necessary information, secure communication, AI-assisted practice, human oversight, accountability.
+
+### 33. Leadership Supervision and Programme Management
+
+**Outcome:** Lead and support teams, use reflective supervision, and manage community programmes with accountable governance within a professional role.
+
+1. **Leadership governance and role clarity** — shared purpose, delegated authority, inclusive decisions, power, accountability, and professional boundaries.
+2. **Reflective supervision and team support** — supervision agreements, feedback, workload, wellbeing, safeguarding boundaries, escalation, and support for learning.
+3. **Programme management and learning** — delivery oversight, resourcing, governance risks, implementation monitoring, issue escalation, and proportionate learning adjustments.
+
+**Assets:** supervision-agreement prompt; team decision-record template; programme-governance risk review; staff-support case. **CBT focus:** leadership accountability, role boundaries, reflective supervision, team wellbeing, programme governance, escalation, learning from delivery.
+
+### 34. Participatory Research and Practice Innovation
+
+**Outcome:** Plan a small, ethical, participatory practice inquiry and use the findings with communities to test and improve a service within a professional role.
+
+1. **Practice questions and meaningful participation** — question framing, positionality, consent, power, lived experience, co-research, and meaningful involvement.
+2. **Ethical inquiry and interpretation** — proportionate data collection, data minimisation, confidentiality, accessibility, bias, evidence limits, and transparent interpretation.
+3. **Responsible innovation and learning** — bounded pilots, feedback, implementation risks, decision criteria, documenting adaptations, escalation, and sharing learning with participants.
+
+**Assets:** practice-question and participation canvas; consent and data-minimisation checklist; inquiry and innovation log; co-research case. **CBT focus:** question framing, meaningful participation, informed consent, data minimisation, evidence limits, pilot safeguards, learning decisions.
+
 ## School of Medical & Health Social Work
 
 ### 16. Hospital Discharge Planning
@@ -307,6 +337,16 @@ Do not publish clinical, legal, child-protection, or safeguarding guidance witho
 3. **Resilience and evaluation** — recovery indicators, feedback, preparedness learning, and sustainable partnerships.
 
 **Assets:** recovery-needs matrix; community-recovery case; resilience indicator worksheet. **CBT focus:** long-term needs, equity, coordination, resilience.
+
+### 32. Climate Justice & Resilient Communities
+
+**Outcome:** Use a rights-based, community-led approach to identify climate-related social inequities, strengthen adaptive capacity, and support accountable climate action within a professional role.
+
+1. **Climate risk, inequity, and rights** — unequal exposure, vulnerability, livelihoods, displacement, health, disability inclusion, gender, participation, and human dignity.
+2. **Community-led adaptation and resilient services** — local knowledge, accessible planning, social protection, livelihoods, community assets, inclusion, and adaptation partnerships.
+3. **Just transition, advocacy, and accountability** — climate decisions, distribution of benefits and burdens, community voice, responsible evidence use, monitoring, and constructive advocacy.
+
+**Assets:** climate-equity mapping prompt; community-adaptation partnership canvas; inclusive-resilience case; climate-accountability reflection. **CBT focus:** climate inequity, participatory adaptation, inclusive services, community voice, accountability.
 
 ## School of Social Policy & Advocacy
 

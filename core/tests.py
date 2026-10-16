@@ -1,6 +1,7 @@
-from django.test import TestCase
+from django.test import TestCase, override_settings
 from django.urls import reverse
 
+from core.legacy_catalogue import LEGACY_SCHOOL_REDIRECTS
 from core.models import Resource, TeamMember
 from courses.models import Course
 from schools.models import School
@@ -56,3 +57,40 @@ class CoreViewsTests(TestCase):
         response = self.client.get(reverse("resources"))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Child Welfare Toolkit")
+
+    def test_foundation_orientation_is_hidden_until_curriculum_approval(self):
+        response = self.client.get(reverse("foundation_orientation"))
+        self.assertEqual(response.status_code, 404)
+        self.assertNotContains(self.client.get(reverse("home")), "Start Here")
+
+    @override_settings(FOUNDATION_ORIENTATION_ENABLED=True)
+    def test_foundation_orientation_is_shared_and_non_credit(self):
+        response = self.client.get(reverse("foundation_orientation"))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Foundations of Social Work")
+        self.assertContains(response, "not an eleventh School or a catalogue course")
+        self.assertContains(response, "No assessment")
+        self.assertContains(self.client.get(reverse("home")), "Start Here")
+
+    def test_render_archive_explains_historical_records(self):
+        response = self.client.get(reverse("legacy_render_archive"))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Earlier Render catalogue")
+        self.assertContains(response, "Past completions")
+        self.assertContains(response, "not automatically transferred")
+
+    def test_retired_render_urls_redirect_without_creating_current_enrolments(self):
+        for slug, destination in LEGACY_SCHOOL_REDIRECTS.items():
+            with self.subTest(slug=slug):
+                response = self.client.get(f"/schools/{slug}/")
+                self.assertEqual(response.status_code, 301)
+                self.assertEqual(response["Location"], destination)
+
+        for path in (
+            "/courses/introduction-to-social-work/",
+            "/courses/introduction-to-social-work/modules/1/",
+        ):
+            with self.subTest(path=path):
+                response = self.client.get(path)
+                self.assertEqual(response.status_code, 301)
+                self.assertEqual(response["Location"], "/archive/render/")

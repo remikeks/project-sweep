@@ -12,4 +12,5 @@ skills-lock.json
 .vercel/
 .deck-build/
 **/.deck-build/
+production_courseware/drafts/**/qa/
 *.log
