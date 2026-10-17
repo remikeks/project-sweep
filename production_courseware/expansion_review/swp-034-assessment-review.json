@@ -1,0 +1,505 @@
+{
+  "course_code": "SWP-034",
+  "title": "Participatory Research and Practice Innovation",
+  "course_slug": "participatory-research-and-practice-innovation",
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "assessment_id": null,
+  "proposed_pass_percent": 70,
+  "minimum_correct": 11,
+  "catalogue_path": "production_courseware/drafts/participatory-research-and-practice-innovation-2026-10-16/course_catalogue.json",
+  "catalogue_sha256": "80ce417f915e2fff59f61626f8e83f6c52e9991dd64c58daacd9054fcfffefef",
+  "authoring_source_sha256": "58a4c537c0bf32dd6fde12c93c51f93811208b948f208bfe0aa0b76b05f27a39",
+  "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+  "reference_framework": "IFSW ethical principles; course-specific inquiry design examples require research-methods review",
+  "modules": [
+    {
+      "order": 1,
+      "title": "Practice questions and meaningful participation",
+      "outcome": "Frame an answerable practice question and plan meaningful, voluntary participation.",
+      "teaching_points": [
+        {
+          "id": "SWP-034-M1-P1",
+          "text": "An answerable practice question identifies a specific issue, population or setting and a feasible inquiry; it should not assume its conclusion."
+        },
+        {
+          "id": "SWP-034-M1-P2",
+          "text": "Meaningful participation includes influence over relevant questions and interpretation, with roles and limits agreed in advance."
+        },
+        {
+          "id": "SWP-034-M1-P3",
+          "text": "Separate participation choices from service eligibility; make refusal possible without threatening support, and manage power differences."
+        },
+        {
+          "id": "SWP-034-M1-P4",
+          "text": "Researchers should reflect on how their role and assumptions influence questions, recruitment and interpretation; reflection does not eliminate bias."
+        },
+        {
+          "id": "SWP-034-M1-P5",
+          "text": "Agree co-researcher roles, support, compensation arrangements where applicable, access and confidentiality expectations before tasks begin."
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Ethical inquiry and interpretation",
+      "outcome": "Collect proportionate information and interpret findings without overstating what the inquiry can show.",
+      "teaching_points": [
+        {
+          "id": "SWP-034-M2-P1",
+          "text": "Choose the minimum information needed for the question and keep recruitment contacts separate from responses where feasible."
+        },
+        {
+          "id": "SWP-034-M2-P2",
+          "text": "Small groups can be identifiable through combinations of details even when names are removed; review quotations and context before sharing."
+        },
+        {
+          "id": "SWP-034-M2-P3",
+          "text": "Recruitment methods shape whose experiences are represented; describe missing perspectives and avoid generalising beyond the sample."
+        },
+        {
+          "id": "SWP-034-M2-P4",
+          "text": "Conflicting findings should be explored and reported transparently, not removed merely to make a simple story."
+        },
+        {
+          "id": "SWP-034-M2-P5",
+          "text": "A before-and-after change alone does not establish that a pilot caused the result; consider other explanations and design limits."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Responsible innovation and learning",
+      "outcome": "Plan a bounded, reviewable service pilot with safeguards and a useful feedback loop.",
+      "teaching_points": [
+        {
+          "id": "SWP-034-M3-P1",
+          "text": "Before a pilot, define the scope, participants, risks, responsible people and criteria for continuing, changing or stopping."
+        },
+        {
+          "id": "SWP-034-M3-P2",
+          "text": "A pilot label does not exempt a project from research-ethics or governance review; obtain the relevant determination before data collection."
+        },
+        {
+          "id": "SWP-034-M3-P3",
+          "text": "Stop or pause criteria should lead to timely review when harms or barriers emerge; completing the pilot schedule is not the only priority."
+        },
+        {
+          "id": "SWP-034-M3-P4",
+          "text": "Record adaptations and their timing so later readers know which version participants experienced."
+        },
+        {
+          "id": "SWP-034-M3-P5",
+          "text": "Return understandable findings to participants, explain limits and decisions, and offer a feasible way to respond."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "SWP-034-Q01",
+      "module_order": 1,
+      "teaching_point_id": "SWP-034-M1-P1",
+      "question": "Which question is best suited to a small inquiry about missed appointments at one service?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "What explains every missed appointment in the world?",
+          "correct": false
+        },
+        {
+          "text": "Why are all people who miss appointments irresponsible?",
+          "correct": false
+        },
+        {
+          "text": "What barriers do participating service users describe when attending appointments at this service?",
+          "correct": true
+        },
+        {
+          "text": "How can this team prove its service is perfect?",
+          "correct": false
+        }
+      ],
+      "rationale": "The bounded question can be explored without presuming blame or claiming universal reach."
+    },
+    {
+      "id": "SWP-034-Q02",
+      "module_order": 1,
+      "teaching_point_id": "SWP-034-M1-P2",
+      "question": "Residents are invited only to approve a finished research report. What would give them more meaningful influence in the next inquiry?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Replace discussion with a photograph for the report",
+          "correct": false
+        },
+        {
+          "text": "Agree involvement in framing questions and interpreting findings before collection starts",
+          "correct": true
+        },
+        {
+          "text": "Invite only residents who already agree with the conclusions",
+          "correct": false
+        },
+        {
+          "text": "Ask for more signatures on the final cover page",
+          "correct": false
+        }
+      ],
+      "rationale": "Early and substantive roles can influence the inquiry. End-stage endorsement alone provides limited participation."
+    },
+    {
+      "id": "SWP-034-Q03",
+      "module_order": 1,
+      "teaching_point_id": "SWP-034-M1-P3",
+      "question": "A service user thinks declining an interview will jeopardise their support. What should the team address before recruitment continues?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Clarify and protect voluntary choice and separate recruitment from service decisions",
+          "correct": true
+        },
+        {
+          "text": "Ask the caseworker to insist on participation",
+          "correct": false
+        },
+        {
+          "text": "Use the fear to obtain more responses",
+          "correct": false
+        },
+        {
+          "text": "Treat receipt of support as automatic research consent",
+          "correct": false
+        }
+      ],
+      "rationale": "The perceived dependency undermines free choice. The recruitment process must address the power relationship."
+    },
+    {
+      "id": "SWP-034-Q04",
+      "module_order": 1,
+      "teaching_point_id": "SWP-034-M1-P4",
+      "question": "A worker researching their own service believes its new process must be effective. What should they do with that assumption?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Rewrite questions so every answer supports the process",
+          "correct": false
+        },
+        {
+          "text": "Treat their job role as proof of objectivity",
+          "correct": false
+        },
+        {
+          "text": "Record it and seek methods and perspectives that can challenge it",
+          "correct": true
+        },
+        {
+          "text": "Exclude any account that contradicts it",
+          "correct": false
+        }
+      ],
+      "rationale": "Making the assumption visible and allowing challenge helps manage its influence; it does not guarantee neutrality."
+    },
+    {
+      "id": "SWP-034-Q05",
+      "module_order": 1,
+      "teaching_point_id": "SWP-034-M1-P5",
+      "question": "A resident co-researcher is asked to interview neighbours without training or a role agreement. What should happen first?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Require them to disclose neighbours' stories at a public meeting",
+          "correct": false
+        },
+        {
+          "text": "Assume living locally replaces preparation",
+          "correct": false
+        },
+        {
+          "text": "Agree the role and boundaries, provide appropriate support and review privacy risks",
+          "correct": true
+        },
+        {
+          "text": "Give them unrestricted access to all case files",
+          "correct": false
+        }
+      ],
+      "rationale": "Local experience is valuable but does not replace clear responsibilities, preparation and information safeguards."
+    },
+    {
+      "id": "SWP-034-Q06",
+      "module_order": 2,
+      "teaching_point_id": "SWP-034-M2-P1",
+      "question": "A satisfaction inquiry proposes collecting identity numbers although its question concerns appointment times. What should the team reconsider?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Whether irrelevant identifiers guarantee truthful answers",
+          "correct": false
+        },
+        {
+          "text": "Whether identifiers are necessary and whether less identifying information can answer the question",
+          "correct": true
+        },
+        {
+          "text": "Whether more identifiers would make the report look rigorous",
+          "correct": false
+        },
+        {
+          "text": "Whether responses can be posted with full identities",
+          "correct": false
+        }
+      ],
+      "rationale": "Identity numbers do not inherently help answer a scheduling question and add avoidable information risk."
+    },
+    {
+      "id": "SWP-034-Q07",
+      "module_order": 2,
+      "teaching_point_id": "SWP-034-M2-P2",
+      "question": "A report removes names but describes the only wheelchair user in a small village by job and household details. What is the main risk?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The person may still be identifiable from the combined description",
+          "correct": true
+        },
+        {
+          "text": "The description cannot be sensitive because it is written in prose",
+          "correct": false
+        },
+        {
+          "text": "The report becomes automatically anonymous once names are removed",
+          "correct": false
+        },
+        {
+          "text": "Confidentiality matters only for numeric data",
+          "correct": false
+        }
+      ],
+      "rationale": "Indirect details can identify someone in context. Name removal alone is not a sufficient privacy check."
+    },
+    {
+      "id": "SWP-034-Q08",
+      "module_order": 2,
+      "teaching_point_id": "SWP-034-M2-P3",
+      "question": "An online survey reaches only residents who follow the service's social-media page. What should the report acknowledge?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "People outside that channel may have different experiences that the survey did not capture",
+          "correct": true
+        },
+        {
+          "text": "Every resident had an equal chance to respond",
+          "correct": false
+        },
+        {
+          "text": "The findings prove the views of all non-users",
+          "correct": false
+        },
+        {
+          "text": "The response count removes any recruitment limitation",
+          "correct": false
+        }
+      ],
+      "rationale": "Channel-based recruitment can miss important groups regardless of the total response count."
+    },
+    {
+      "id": "SWP-034-Q09",
+      "module_order": 2,
+      "teaching_point_id": "SWP-034-M2-P4",
+      "question": "Interviews praise a service, but appointment records show persistent drop-out. What is the best next step?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Discard the interviews because numbers always override experience",
+          "correct": false
+        },
+        {
+          "text": "Explore the difference in what each source measures and report relevant limitations",
+          "correct": true
+        },
+        {
+          "text": "Average the statements into an unsupported single score",
+          "correct": false
+        },
+        {
+          "text": "Delete the records because interviews are more positive",
+          "correct": false
+        }
+      ],
+      "rationale": "Different sources can describe different experiences or populations. The discrepancy may be informative."
+    },
+    {
+      "id": "SWP-034-Q10",
+      "module_order": 2,
+      "teaching_point_id": "SWP-034-M2-P5",
+      "question": "Attendance rises after a reminder pilot during the same month transport becomes free. What can the team reasonably conclude?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Attendance improved, but the pilot's separate contribution is uncertain",
+          "correct": true
+        },
+        {
+          "text": "Free transport could not have any influence",
+          "correct": false
+        },
+        {
+          "text": "The reminder pilot alone caused the entire increase",
+          "correct": false
+        },
+        {
+          "text": "A before-and-after comparison proves causation in every case",
+          "correct": false
+        }
+      ],
+      "rationale": "Concurrent changes create alternative explanations. The observed improvement is not enough to isolate the reminder's effect."
+    },
+    {
+      "id": "SWP-034-Q11",
+      "module_order": 3,
+      "teaching_point_id": "SWP-034-M3-P1",
+      "question": "A team wants to try a new intake process. Which preparation best supports a responsible pilot?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Define success only after results are known",
+          "correct": false
+        },
+        {
+          "text": "Remove the current route before checking alternatives",
+          "correct": false
+        },
+        {
+          "text": "Roll it out everywhere without a review date",
+          "correct": false
+        },
+        {
+          "text": "Set a limited scope, safeguards, decision criteria and review responsibilities",
+          "correct": true
+        }
+      ],
+      "rationale": "A bounded plan supports a defensible decision and protects participants while uncertainty remains."
+    },
+    {
+      "id": "SWP-034-Q12",
+      "module_order": 3,
+      "teaching_point_id": "SWP-034-M3-P2",
+      "question": "A team says ethics review cannot apply because it calls its project 'service innovation'. What should it do?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Begin collecting sensitive data while avoiding any record",
+          "correct": false
+        },
+        {
+          "text": "Tell participants that pilots have no privacy requirements",
+          "correct": false
+        },
+        {
+          "text": "Assume the label settles the issue",
+          "correct": false
+        },
+        {
+          "text": "Ask the relevant governance or ethics body to determine the applicable requirements",
+          "correct": true
+        }
+      ],
+      "rationale": "The activity and its risks, not just its label, determine which review requirements apply."
+    },
+    {
+      "id": "SWP-034-Q13",
+      "module_order": 3,
+      "teaching_point_id": "SWP-034-M3-P3",
+      "question": "A new booking pilot repeatedly leaves participants unable to access urgent appointments. What is the best response?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Wait until the scheduled final report before raising the issue",
+          "correct": false
+        },
+        {
+          "text": "Continue unchanged to obtain a larger sample",
+          "correct": false
+        },
+        {
+          "text": "Remove those participants from the findings",
+          "correct": false
+        },
+        {
+          "text": "Use the agreed safety and escalation route and review whether to pause or change the pilot",
+          "correct": true
+        }
+      ],
+      "rationale": "Emerging access risks need timely action. More observations do not justify ignoring the problem."
+    },
+    {
+      "id": "SWP-034-Q14",
+      "module_order": 3,
+      "teaching_point_id": "SWP-034-M3-P4",
+      "question": "Halfway through a pilot, staff change the reminder script. What record is needed for interpretation?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Only the best outcome from either version",
+          "correct": false
+        },
+        {
+          "text": "A combined result that hides the change",
+          "correct": false
+        },
+        {
+          "text": "What changed, why, when and which participants experienced each version",
+          "correct": true
+        },
+        {
+          "text": "Only the original script because that was approved first",
+          "correct": false
+        }
+      ],
+      "rationale": "Version and timing information help explain results and prevent attributing every outcome to a single unchanged intervention."
+    },
+    {
+      "id": "SWP-034-Q15",
+      "module_order": 3,
+      "teaching_point_id": "SWP-034-M3-P5",
+      "question": "An inquiry ends with a technical report sent only to funders. What would improve accountability to participants?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Assume participants do not want to know the outcome",
+          "correct": false
+        },
+        {
+          "text": "Share an accessible summary, explain decisions and limitations, and provide a feedback route",
+          "correct": true
+        },
+        {
+          "text": "Publish identifiable raw interviews to show transparency",
+          "correct": false
+        },
+        {
+          "text": "Promise every suggestion will be adopted",
+          "correct": false
+        }
+      ],
+      "rationale": "An accessible feedback loop respects participation without promising agreement or exposing private data."
+    }
+  ]
+}

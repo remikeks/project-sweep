@@ -1,0 +1,766 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "courses": [
+    {
+      "code": "SWP-031",
+      "draft": "digital-social-work-practice-2026-10-15",
+      "reference": "NASW/ASWB technology standards; IFSW ethical principles",
+      "modules": [
+        {
+          "order": 1,
+          "outcome": "Choose an accessible service route with the person, based on their access, preferences, privacy and support needs.",
+          "items": [
+            [
+              "A shared phone can create access and privacy barriers even when a person technically owns or borrows a device.",
+              "A referral service assumes everyone with a phone can attend a private video appointment. A person shares one phone with several relatives. What should the worker establish first?",
+              "Whether a private, affordable and accessible channel is available to that person",
+              [
+                "Whether the phone is the newest model",
+                "Whether relatives can attend every appointment",
+                "Whether video appointments are faster for staff"
+              ],
+              "Phone access alone does not establish privacy or usability. Device age, staff convenience and family attendance do not resolve the person's access needs."
+            ],
+            [
+              "Test a proposed channel with people affected by access barriers before scaling it; a staff-only test misses real usage conditions.",
+              "An online intake form works well on staff laptops but residents report difficulty using it. Which pilot would best test inclusion?",
+              "Observe willing users with varied access needs completing representative tasks",
+              [
+                "Ask the software supplier to confirm that it is modern",
+                "Count how many staff members prefer the new design",
+                "Launch it everywhere and review only completed forms"
+              ],
+              "A representative task-based pilot can expose barriers among people unable to complete the form. Successful submissions alone exclude those who dropped out."
+            ],
+            [
+              "An alternative route should provide a comparable opportunity to use a service, not a punitive or indefinitely delayed option.",
+              "A learner cannot afford mobile data. The service offers an offline appointment only after all online applicants have been seen. What is the main design problem?",
+              "The alternative route introduces unequal access through avoidable delay",
+              [
+                "An offline route automatically prevents confidentiality",
+                "The learner must acquire a better phone first",
+                "Digital and offline routes must use identical equipment"
+              ],
+              "Comparable access concerns the opportunity and timeliness of service, not identical technology. An alternative should not disadvantage users merely for being offline."
+            ],
+            [
+              "Ask about functional access needs instead of inferring digital ability from age, disability or education.",
+              "A worker assumes an older resident cannot use a digital service. What is the best next step?",
+              "Ask the resident about preferences and support needs, then offer suitable choices",
+              [
+                "Arrange a family proxy without consulting the resident",
+                "Exclude the resident from digital options",
+                "Require the resident to demonstrate every phone function"
+              ],
+              "Individual preferences and practical needs are relevant; age-based assumptions and unnecessary tests can remove choice."
+            ],
+            [
+              "Measure service completion and abandonment by route, using proportionate data and user feedback; logins alone do not demonstrate inclusion.",
+              "A digital service reports twice as many logins after redesign. Which additional information would best test whether access improved?",
+              "Completion and drop-off patterns across access routes, alongside user feedback",
+              [
+                "The colour most frequently used in the interface",
+                "The number of devices purchased for managers",
+                "The total number of emails sent by the supplier"
+              ],
+              "Login volume does not show whether people obtained support. Completion, drop-off and feedback help reveal remaining barriers."
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "outcome": "Design a proportionate information-handling plan and identify when local governance advice is required.",
+          "items": [
+            [
+              "Before collecting information, specify its purpose, who needs it, how it is protected and which locally approved retention rules apply.",
+              "A new appointment form requests full family histories although it only schedules a call. Which revision best fits its purpose?",
+              "Collect the contact and access details necessary to arrange the call",
+              [
+                "Retain the full history in case a future project needs it",
+                "Require extra identity documents for every enquiry",
+                "Ask relatives to submit their records as well"
+              ],
+              "The task is scheduling. Unrelated histories add exposure without helping that task; additional data requires a justified purpose."
+            ],
+            [
+              "Consent discussions should explain the channel's use, foreseeable privacy limitations and available alternatives in understandable language.",
+              "A person signs a generic form but says they do not know who can read messages sent through the service. What should happen next?",
+              "Explain access and relevant risks, check understanding and revisit the communication choice",
+              [
+                "Treat the signature as proof that every risk was understood",
+                "Ask the person to find the platform's technical specification",
+                "Continue collecting sensitive details before discussing access"
+              ],
+              "A signature does not resolve an expressed misunderstanding. The worker should support an informed choice before proceeding with the channel."
+            ],
+            [
+              "An approved channel must still be used appropriately: check the intended recipient and share only necessary information.",
+              "A worker is about to send a sensitive attachment through an approved system. Two contacts have the same surname. What is the safest next step?",
+              "Verify the intended recipient and the necessary contents before sending",
+              [
+                "Send it to both contacts to avoid delay",
+                "Assume the first autocomplete suggestion is correct",
+                "Move the attachment to a personal account"
+              ],
+              "An approved platform does not prevent a wrong-recipient error. Recipient verification and proportionate disclosure address the immediate risk."
+            ],
+            [
+              "A suspected information incident needs prompt action through the organisation's incident route; preserve relevant facts and follow containment instructions.",
+              "A worker discovers that a case attachment went to the wrong recipient. What is the best initial response within role?",
+              "Use the incident-reporting route promptly and follow authorised containment steps",
+              [
+                "Wait until the next annual review to disclose it",
+                "Erase the activity record before anyone sees it",
+                "Ask colleagues to keep the event informal"
+              ],
+              "Reporting enables assessment and containment. Concealing the event or destroying its record can obstruct an appropriate response; notification duties need local advice."
+            ],
+            [
+              "Retention periods and exceptions require applicable policy and legal review; neither indefinite retention nor immediate deletion is a universal rule.",
+              "A team asks how long all client messages must be kept. What is the appropriate basis for deciding?",
+              "The applicable retention schedule and legal requirements, verified with the responsible lead",
+              [
+                "A universal seven-day deletion rule for every service",
+                "Unlimited retention because storage is cheap",
+                "The default setting of whichever phone is used"
+              ],
+              "The draft cannot prescribe a universal duration. The decision depends on the record purpose and applicable requirements."
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "outcome": "Recognise unsuitable digital practice and maintain accountable human judgement when using AI assistance.",
+          "items": [
+            [
+              "Telepractice needs a suitability and privacy check plus an agreed response to connection loss or urgent concerns, adapted to the service and local procedures.",
+              "At the start of a remote appointment the worker learns the person cannot speak privately. What is the best response?",
+              "Discuss a safer suitable channel or time and apply the service's risk procedure if needed",
+              [
+                "Continue because the appointment has already started",
+                "Require the person to disclose the concern in the shared room",
+                "Record the whole household to document the barrier"
+              ],
+              "The absence of privacy changes suitability. A safer arrangement should be considered without forcing disclosure or adding intrusive recording."
+            ],
+            [
+              "Check AI-generated statements against reliable case information; an AI draft is not a verified record or an accountable decision-maker.",
+              "An AI summary adds a referral that is absent from the verified notes. What should the worker do before using it?",
+              "Check the original information and correct or remove the unsupported statement",
+              [
+                "Accept it because the text sounds professionally written",
+                "Ask the person to confirm a referral without disclosing the uncertainty",
+                "Keep it because a later worker might make that referral"
+              ],
+              "Plausible wording is not evidence. The worker remains responsible for the accuracy of any record they use."
+            ],
+            [
+              "Do not enter identifiable case material into an unapproved AI service; use authorised tools and information-governance procedures.",
+              "A free AI tool asks a worker to paste a named case history to improve a draft. The organisation has not approved the tool. What should the worker do?",
+              "Use an approved workflow and seek governance advice before sharing case information",
+              [
+                "Paste it because the account is password-protected",
+                "Remove only the first name and assume the rest is anonymous",
+                "Share it and ask permission afterwards"
+              ],
+              "A password or partial name removal does not establish an authorised, safe disclosure. Approval and data handling must be considered first."
+            ],
+            [
+              "Review differential effects and error patterns before relying on an automated recommendation; average performance can hide exclusion.",
+              "A triage tool performs well overall but frequently misroutes requests written in a minority language. What needs review?",
+              "The unequal error pattern and safer routing options for affected users",
+              [
+                "Only the overall accuracy because it is higher than last year",
+                "Only whether staff like the dashboard",
+                "Whether affected users can be removed from the evaluation"
+              ],
+              "The subgroup pattern identifies a specific access risk. An overall average can conceal it, and excluding affected users would hide the problem."
+            ],
+            [
+              "A professional should be able to explain and document the reasons for a decision, including how an AI suggestion was checked and when advice was sought.",
+              "A worker rejects an AI recommendation after finding a factual error. Which record best supports accountability?",
+              "The relevant error, verified information, final reasoning and any consultation",
+              [
+                "Only the final AI confidence score",
+                "A statement that the computer made the decision",
+                "No record because AI was not ultimately followed"
+              ],
+              "A concise reasoning record explains the human decision and its basis; the score alone does not."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SWP-032",
+      "draft": "climate-justice-resilient-communities-2026-10-16",
+      "reference": "IPCC AR6 synthesis; IFSW ethical principles",
+      "modules": [
+        {
+          "order": 1,
+          "outcome": "Distinguish a climate hazard from unequal exposure, vulnerability and capacity to respond.",
+          "items": [
+            [
+              "A hazard map does not fully describe social risk: exposure, housing, livelihood dependence and capacity to respond can differ within the same area.",
+              "Two neighbourhoods face similar flood forecasts. One has accessible transport and secure housing; the other lacks both. What should a social-risk review examine?",
+              "How living conditions and response capacity change the consequences of the hazard",
+              [
+                "Only whether the forecast uses the same colour for both areas",
+                "Only which area pays more property tax",
+                "Whether all residents can be assigned an identical risk score"
+              ],
+              "The same forecast can have different consequences. Social conditions and available support matter to the review."
+            ],
+            [
+              "Do not describe communities only through deficits; identify local knowledge, mutual support and resources alongside constraints.",
+              "A climate assessment lists only residents' weaknesses. What information would improve the assessment?",
+              "Residents' existing knowledge, networks and adaptation resources",
+              [
+                "A replacement list written without residents",
+                "Only the value of imported equipment",
+                "An assumption that outside organisations must make every decision"
+              ],
+              "An asset-aware assessment can identify feasible locally supported actions rather than treating residents as passive recipients."
+            ],
+            [
+              "Displacement-related planning must consider access to livelihoods, services, relationships and meaningful participation; moving people is not itself proof of a just outcome.",
+              "A relocation proposal reduces flood exposure but moves families far from jobs and accessible services. What is the most useful next analysis?",
+              "The combined safety, livelihood and access effects with affected residents",
+              [
+                "Only the number of buildings constructed",
+                "Only whether the new site is outside the mapped flood zone",
+                "Whether residents can be excluded from the final discussion"
+              ],
+              "A single improvement does not establish the overall effect. Trade-offs need to be understood with those affected."
+            ],
+            [
+              "Participation records should identify whose perspectives are missing, not equate attendance with representation.",
+              "A climate consultation is attended mainly by property owners, although many residents rent. What is the main evidence gap?",
+              "The experiences and priorities of renters and other absent groups",
+              [
+                "A lack of enough photographs of the meeting",
+                "A need to count property owners twice",
+                "Proof that renters have no relevant experience"
+              ],
+              "Attendance by one group cannot establish the views of groups that were not reached."
+            ],
+            [
+              "Separate observed local impacts from explanations that need specialist evidence; avoid attributing every individual event to climate change without support.",
+              "A worker documents repeated heat-related disruption at a community centre. Which statement best respects the evidence available?",
+              "Describe the observed disruption and seek relevant climate evidence before making attribution claims",
+              [
+                "State that this single observation proves the cause of every local heat event",
+                "Remove the observation because the worker is not a climate scientist",
+                "Present an assumed future temperature as a measured fact"
+              ],
+              "The observation is useful, but stronger causal claims need additional evidence. Recording its limits preserves credibility."
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "outcome": "Compare adaptation options with communities, including accessibility, maintenance and unintended consequences.",
+          "items": [
+            [
+              "Co-design begins while choices can still change; consultation after a fixed design offers limited influence.",
+              "An adaptation project asks residents for views after the contractor and design are final. What would make the next planning cycle more participatory?",
+              "Involve residents before options are fixed and show how their input changes decisions",
+              [
+                "Invite residents only to the opening ceremony",
+                "Ask residents to endorse the existing design without changes",
+                "Publish a survey after all funds are spent"
+              ],
+              "Input has greater practical value when participants can influence meaningful choices and see the response."
+            ],
+            [
+              "An adaptation option may reduce one risk while shifting burdens elsewhere; assess who benefits and who may be harmed.",
+              "A drainage project protects a commercial area but diverts water toward lower-income homes. What is the key review question?",
+              "Whether the design transfers risk and what safer alternatives are available",
+              [
+                "Whether the protected buildings look newer",
+                "Whether the project can omit the affected homes from reports",
+                "Whether the budget was spent on time"
+              ],
+              "Risk reduction in one place can worsen another group's exposure. Delivery speed alone does not establish an equitable result."
+            ],
+            [
+              "Accessible services need usable routes, communication and support; a nominal facility is not enough if intended users cannot reach or use it.",
+              "A cooling centre is free but has steps at every entrance. Which change best addresses the identified access barrier?",
+              "Work with disabled residents to provide a safe usable access route and necessary support",
+              [
+                "Advertise that admission is free more often",
+                "Count everyone in the district as already served",
+                "Require residents to provide their own lifting assistance"
+              ],
+              "The issue is practical access, not price alone. A usable route should be designed with the people affected."
+            ],
+            [
+              "Compare adaptation options over their operating life, including responsibility and resources for upkeep.",
+              "A donated water-storage system has no maintenance owner or budget. What should be resolved before treating it as a sustainable service?",
+              "Who maintains it, with what resources, training and reporting arrangements",
+              [
+                "Only which donor logo will appear on it",
+                "Only the installation date",
+                "Whether the purchase price can be reported as zero"
+              ],
+              "Installation does not guarantee continued service. Ownership and upkeep resources are part of feasibility."
+            ],
+            [
+              "Combine appropriate technical advice with community knowledge; conflicting accounts should prompt investigation rather than automatic dismissal.",
+              "Residents report that a proposed meeting site becomes inaccessible during heavy rain, but the planning map shows no problem. What should the team do?",
+              "Investigate the discrepancy with residents and relevant technical partners",
+              [
+                "Reject the residents' account because it is not a map",
+                "Discard every technical source immediately",
+                "Proceed and collect complaints only after launch"
+              ],
+              "Different evidence sources may reveal different conditions. Investigating the discrepancy can improve the plan."
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "outcome": "Assess how climate decisions distribute benefits and burdens and propose accountable follow-up.",
+          "items": [
+            [
+              "A transition plan should examine who loses income or access as well as who gains; affected workers and communities need a meaningful role.",
+              "A cleaner-energy programme closes a polluting facility but offers no plan for affected workers. What should a just-transition review add?",
+              "Worker and community participation in assessing livelihood impacts and support options",
+              [
+                "Only the project's emissions estimate",
+                "A statement that all workers will automatically find new work",
+                "A rule preventing workers from raising concerns"
+              ],
+              "Environmental benefits do not erase distributional consequences. Livelihood effects and participation need explicit attention."
+            ],
+            [
+              "An accountability route needs accessible reporting, a responsible responder and a way to track responses without exposing complainants unnecessarily.",
+              "Residents can submit climate-project complaints, but nobody is assigned to respond. What is the most important missing element?",
+              "A clear response owner and a trackable follow-up process",
+              [
+                "A larger complaint box with the same process",
+                "A requirement to publish every complainant's name",
+                "A limit allowing complaints only on opening day"
+              ],
+              "Collecting complaints without responsibility for action does not establish an effective accountability route."
+            ],
+            [
+              "Disaggregate benefits where appropriate and safe: an average can hide who is not being reached.",
+              "A programme reports improved average access to water. Which further check best tests fairness?",
+              "Whether improvement reaches groups facing the greatest access barriers",
+              [
+                "Whether the average can be rounded upward",
+                "Whether the report contains more project photos",
+                "Whether unsuccessful households can be excluded from the denominator"
+              ],
+              "A positive average may coexist with persistent exclusion. Distribution matters alongside the headline result."
+            ],
+            [
+              "Use evidence that matches the claim and acknowledge uncertainty when communicating with decision-makers.",
+              "A campaign has ten resident interviews about a local drainage issue. Which claim is best supported?",
+              "These interviews describe concerns that warrant further local investigation",
+              [
+                "The interviews prove the exact prevalence across the country",
+                "Every resident agrees with every interviewee",
+                "The project is guaranteed to solve all future flooding"
+              ],
+              "The interviews provide situated accounts, not a national prevalence estimate or a guarantee."
+            ],
+            [
+              "Review an intervention when evidence shows new burdens; record the concern, consult affected people and use the authorised adjustment process.",
+              "Monitoring shows an adaptation project's fees exclude some intended users. What is the best next step?",
+              "Review affordability with affected users and responsible decision-makers, then consider adjustments",
+              [
+                "Keep the fees unchanged because the launch was successful",
+                "Stop recording low-income users",
+                "Declare the exclusion unrelated without investigation"
+              ],
+              "Monitoring should inform decisions. The observed barrier calls for review rather than removal from the evidence."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SWP-033",
+      "draft": "leadership-supervision-programme-management-2026-10-16",
+      "reference": "NASW/ASWB supervision standards; IFSW ethical principles",
+      "modules": [
+        {
+          "order": 1,
+          "outcome": "Clarify decision authority, conflicts of interest and accountability in programme teams.",
+          "items": [
+            [
+              "Delegation should state the decision scope, constraints, support and escalation route; it is not unlimited transfer of responsibility.",
+              "A coordinator tells a new worker to 'handle the whole project' without defining authority. What is the first governance improvement?",
+              "Agree which decisions the worker can make and which require approval or escalation",
+              [
+                "Assume the worker can sign every contract",
+                "Remove all supervision to demonstrate trust",
+                "Judge the worker only after the project ends"
+              ],
+              "Clear authority reduces ambiguity and supports appropriate decisions; vague delegation does not establish permission for every action."
+            ],
+            [
+              "When personal interests could influence a decision, disclose the conflict and use the organisation's independent decision process.",
+              "A manager is choosing a supplier owned by a close relative. What is the best next step?",
+              "Declare the conflict and follow the procurement and recusal process",
+              [
+                "Approve the supplier privately because it may be faster",
+                "Ask the relative to offer a personal reward",
+                "Omit the relationship from the decision record"
+              ],
+              "Disclosure and independent handling protect the decision process. A potentially useful supplier does not remove the conflict."
+            ],
+            [
+              "Record the decision, its reasons, authority, owner and review point; minutes that only say 'agreed' do not establish accountability.",
+              "A team cannot explain why it changed a service schedule. Which record would have helped most?",
+              "The reason, authorised decision, responsible owner and review date",
+              [
+                "Only a list of attendees' favourite options",
+                "Only the total meeting duration",
+                "Only the manager's job title"
+              ],
+              "A decision record connects the choice to its basis and follow-up, not merely to who was present."
+            ],
+            [
+              "Invite relevant perspectives before decisions and explain how disagreement was handled; inclusion is more than unanimous-looking minutes.",
+              "Frontline workers raise workload concerns but meeting minutes record only management's preferred option. What should the team improve?",
+              "Record and examine the concerns and explain the final decision",
+              [
+                "Delete the concerns to preserve a positive tone",
+                "Stop inviting frontline workers",
+                "Require workers to agree before they can speak"
+              ],
+              "A defensible process can reach a decision despite disagreement while retaining and responding to relevant evidence."
+            ],
+            [
+              "Authority to manage a programme does not automatically confer competence or permission to perform specialist professional tasks.",
+              "A programme lead is asked to provide specialist clinical advice outside their training. What should they do?",
+              "Recognise the limit and arrange appropriate qualified support through the agreed route",
+              [
+                "Give the advice because they manage the budget",
+                "Ask a junior worker to give it under the lead's name",
+                "Use an online summary as a substitute for competence"
+              ],
+              "Management responsibility does not establish specialist competence. Appropriate consultation or referral protects role boundaries."
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "outcome": "Use structured supervision to support learning, wellbeing and safe escalation.",
+          "items": [
+            [
+              "A supervision agreement should clarify purpose, roles, regularity, records, confidentiality limits and routes for urgent concerns.",
+              "A supervisee believes everything said in supervision is absolutely secret. What should the supervisor clarify?",
+              "The agreement's confidentiality limits and how safety or other reportable concerns are handled",
+              [
+                "That no concern can ever leave the room",
+                "That all discussions will be posted publicly",
+                "That keeping no record removes every confidentiality issue"
+              ],
+              "Supervision needs clear expectations. Neither absolute secrecy nor indiscriminate disclosure is an appropriate default."
+            ],
+            [
+              "Reflective supervision explores observations, assumptions, emotions and alternatives, then agrees a learning action; it is more than checking task counts.",
+              "A worker says, 'I assumed the family was unwilling because they missed two appointments.' Which prompt best encourages reflection?",
+              "What evidence supports that view, what alternatives are possible, and how could you check them?",
+              [
+                "How can you close the case before the end of the day?",
+                "Can you repeat the assumption in stronger language?",
+                "Which colleague can be blamed for the missed appointments?"
+              ],
+              "The prompt separates evidence from interpretation and opens a practical learning step rather than reinforcing an untested judgement."
+            ],
+            [
+              "Supportive supervision does not replace urgent safeguarding or incident procedures; use the appropriate route without waiting for a scheduled session.",
+              "A worker reports an immediate safeguarding concern shortly before a routine supervision meeting next week. What should the supervisor advise?",
+              "Use the applicable urgent safeguarding route now and arrange support alongside it",
+              [
+                "Save the concern for next week's reflective discussion",
+                "Ask the worker to keep it off the record",
+                "Treat a supportive conversation as completion of all required action"
+              ],
+              "Reflection and support are valuable but do not substitute for timely action through the appropriate safety procedure."
+            ],
+            [
+              "Feedback should identify specific behaviour and its effect, invite the worker's perspective, and agree a feasible improvement and review.",
+              "A supervisor wants to address incomplete handovers. Which feedback is most useful?",
+              "Discuss a specific missing handover detail, its effect and an agreed improvement",
+              [
+                "Tell the worker they are generally careless",
+                "Compare the worker's personality with a colleague's",
+                "Avoid feedback until the annual review"
+              ],
+              "Specific, actionable feedback supports learning and follow-up; personal labels do not explain what should change."
+            ],
+            [
+              "Repeated overload is a work-design issue to review as well as an individual support concern; consider case demands, resources and safe priorities.",
+              "Several workers miss breaks and report growing backlogs. What is the best supervisory response?",
+              "Review workload and resources, agree safe priorities and offer support",
+              [
+                "Offer a wellbeing poster while leaving all demands unchanged",
+                "Treat every backlog as proof of poor motivation",
+                "Cancel supervision until the backlog disappears"
+              ],
+              "Support should address the conditions contributing to overload, not only encourage individuals to cope."
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "outcome": "Use delivery information to manage risks, resources and authorised programme adjustments.",
+          "items": [
+            [
+              "Track an implementation issue with its impact, owner, action and review date; a list without follow-up is not a management response.",
+              "A referral partner repeatedly misses agreed handovers. What should the programme lead record and act on?",
+              "The effect on service continuity, responsible contacts and a dated corrective action",
+              [
+                "Only the partner's logo",
+                "Only the original launch announcement",
+                "A note to discuss it at an unspecified future time"
+              ],
+              "A clear owner and follow-up make the issue actionable and connect it to service continuity."
+            ],
+            [
+              "A variance from plan should be explained before action: compare intended and actual delivery, investigate causes and consider service effects.",
+              "A programme is spending less than planned because accessible transport has not been provided. How should the lead interpret the underspend?",
+              "As a possible delivery gap requiring investigation, not automatically as success",
+              [
+                "As proof that the service became more efficient",
+                "As permission to remove the transport budget permanently",
+                "As irrelevant because the accounts balance"
+              ],
+              "Lower spending may reflect unmet service needs. Financial totals must be interpreted with delivery information."
+            ],
+            [
+              "Changes beyond delegated limits require approval; document why a change is proposed and its likely effects before committing resources.",
+              "A coordinator wants to move funds to a new activity outside their delegated authority. What should happen first?",
+              "Submit the reason and implications through the authorised change process",
+              [
+                "Commit the money and request approval at year end",
+                "Describe the new activity under the old budget label",
+                "Ask a supplier to hide the change in an invoice"
+              ],
+              "The proposed change needs proper authority and a transparent record; relabelling does not create permission."
+            ],
+            [
+              "Distinguish a delivery count from a result for participants; both can be useful but they answer different questions.",
+              "A report says 200 sessions were delivered and therefore every participant's wellbeing improved. What is the problem?",
+              "The session count does not by itself establish a participant outcome",
+              [
+                "A session count can never be recorded",
+                "Delivery and outcomes must always be numerically identical",
+                "The number is too small to report without doubling it"
+              ],
+              "Delivery volume describes activity. The outcome claim needs appropriate evidence beyond the count."
+            ],
+            [
+              "A learning adjustment should state the change, owner, expected effect and review criteria, while preserving safety and authorised scope.",
+              "A pilot team changes appointment reminders after feedback. What makes this an accountable learning adjustment?",
+              "Document the change and owner, check risks, and agree how and when to review its effects",
+              [
+                "Change several unrelated processes without recording them",
+                "Assume every suggestion must be implemented permanently",
+                "Remove unsuccessful participants from subsequent reporting"
+              ],
+              "A bounded, documented change can be assessed and revised; unrecorded changes make learning and accountability harder."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SWP-034",
+      "draft": "participatory-research-and-practice-innovation-2026-10-16",
+      "reference": "IFSW ethical principles; course-specific inquiry design examples require research-methods review",
+      "modules": [
+        {
+          "order": 1,
+          "outcome": "Frame an answerable practice question and plan meaningful, voluntary participation.",
+          "items": [
+            [
+              "An answerable practice question identifies a specific issue, population or setting and a feasible inquiry; it should not assume its conclusion.",
+              "Which question is best suited to a small inquiry about missed appointments at one service?",
+              "What barriers do participating service users describe when attending appointments at this service?",
+              [
+                "Why are all people who miss appointments irresponsible?",
+                "How can this team prove its service is perfect?",
+                "What explains every missed appointment in the world?"
+              ],
+              "The bounded question can be explored without presuming blame or claiming universal reach."
+            ],
+            [
+              "Meaningful participation includes influence over relevant questions and interpretation, with roles and limits agreed in advance.",
+              "Residents are invited only to approve a finished research report. What would give them more meaningful influence in the next inquiry?",
+              "Agree involvement in framing questions and interpreting findings before collection starts",
+              [
+                "Ask for more signatures on the final cover page",
+                "Invite only residents who already agree with the conclusions",
+                "Replace discussion with a photograph for the report"
+              ],
+              "Early and substantive roles can influence the inquiry. End-stage endorsement alone provides limited participation."
+            ],
+            [
+              "Separate participation choices from service eligibility; make refusal possible without threatening support, and manage power differences.",
+              "A service user thinks declining an interview will jeopardise their support. What should the team address before recruitment continues?",
+              "Clarify and protect voluntary choice and separate recruitment from service decisions",
+              [
+                "Use the fear to obtain more responses",
+                "Treat receipt of support as automatic research consent",
+                "Ask the caseworker to insist on participation"
+              ],
+              "The perceived dependency undermines free choice. The recruitment process must address the power relationship."
+            ],
+            [
+              "Researchers should reflect on how their role and assumptions influence questions, recruitment and interpretation; reflection does not eliminate bias.",
+              "A worker researching their own service believes its new process must be effective. What should they do with that assumption?",
+              "Record it and seek methods and perspectives that can challenge it",
+              [
+                "Exclude any account that contradicts it",
+                "Treat their job role as proof of objectivity",
+                "Rewrite questions so every answer supports the process"
+              ],
+              "Making the assumption visible and allowing challenge helps manage its influence; it does not guarantee neutrality."
+            ],
+            [
+              "Agree co-researcher roles, support, compensation arrangements where applicable, access and confidentiality expectations before tasks begin.",
+              "A resident co-researcher is asked to interview neighbours without training or a role agreement. What should happen first?",
+              "Agree the role and boundaries, provide appropriate support and review privacy risks",
+              [
+                "Give them unrestricted access to all case files",
+                "Assume living locally replaces preparation",
+                "Require them to disclose neighbours' stories at a public meeting"
+              ],
+              "Local experience is valuable but does not replace clear responsibilities, preparation and information safeguards."
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "outcome": "Collect proportionate information and interpret findings without overstating what the inquiry can show.",
+          "items": [
+            [
+              "Choose the minimum information needed for the question and keep recruitment contacts separate from responses where feasible.",
+              "A satisfaction inquiry proposes collecting identity numbers although its question concerns appointment times. What should the team reconsider?",
+              "Whether identifiers are necessary and whether less identifying information can answer the question",
+              [
+                "Whether more identifiers would make the report look rigorous",
+                "Whether responses can be posted with full identities",
+                "Whether irrelevant identifiers guarantee truthful answers"
+              ],
+              "Identity numbers do not inherently help answer a scheduling question and add avoidable information risk."
+            ],
+            [
+              "Small groups can be identifiable through combinations of details even when names are removed; review quotations and context before sharing.",
+              "A report removes names but describes the only wheelchair user in a small village by job and household details. What is the main risk?",
+              "The person may still be identifiable from the combined description",
+              [
+                "The report becomes automatically anonymous once names are removed",
+                "Confidentiality matters only for numeric data",
+                "The description cannot be sensitive because it is written in prose"
+              ],
+              "Indirect details can identify someone in context. Name removal alone is not a sufficient privacy check."
+            ],
+            [
+              "Recruitment methods shape whose experiences are represented; describe missing perspectives and avoid generalising beyond the sample.",
+              "An online survey reaches only residents who follow the service's social-media page. What should the report acknowledge?",
+              "People outside that channel may have different experiences that the survey did not capture",
+              [
+                "Every resident had an equal chance to respond",
+                "The findings prove the views of all non-users",
+                "The response count removes any recruitment limitation"
+              ],
+              "Channel-based recruitment can miss important groups regardless of the total response count."
+            ],
+            [
+              "Conflicting findings should be explored and reported transparently, not removed merely to make a simple story.",
+              "Interviews praise a service, but appointment records show persistent drop-out. What is the best next step?",
+              "Explore the difference in what each source measures and report relevant limitations",
+              [
+                "Delete the records because interviews are more positive",
+                "Discard the interviews because numbers always override experience",
+                "Average the statements into an unsupported single score"
+              ],
+              "Different sources can describe different experiences or populations. The discrepancy may be informative."
+            ],
+            [
+              "A before-and-after change alone does not establish that a pilot caused the result; consider other explanations and design limits.",
+              "Attendance rises after a reminder pilot during the same month transport becomes free. What can the team reasonably conclude?",
+              "Attendance improved, but the pilot's separate contribution is uncertain",
+              [
+                "The reminder pilot alone caused the entire increase",
+                "Free transport could not have any influence",
+                "A before-and-after comparison proves causation in every case"
+              ],
+              "Concurrent changes create alternative explanations. The observed improvement is not enough to isolate the reminder's effect."
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "outcome": "Plan a bounded, reviewable service pilot with safeguards and a useful feedback loop.",
+          "items": [
+            [
+              "Before a pilot, define the scope, participants, risks, responsible people and criteria for continuing, changing or stopping.",
+              "A team wants to try a new intake process. Which preparation best supports a responsible pilot?",
+              "Set a limited scope, safeguards, decision criteria and review responsibilities",
+              [
+                "Roll it out everywhere without a review date",
+                "Remove the current route before checking alternatives",
+                "Define success only after results are known"
+              ],
+              "A bounded plan supports a defensible decision and protects participants while uncertainty remains."
+            ],
+            [
+              "A pilot label does not exempt a project from research-ethics or governance review; obtain the relevant determination before data collection.",
+              "A team says ethics review cannot apply because it calls its project 'service innovation'. What should it do?",
+              "Ask the relevant governance or ethics body to determine the applicable requirements",
+              [
+                "Assume the label settles the issue",
+                "Begin collecting sensitive data while avoiding any record",
+                "Tell participants that pilots have no privacy requirements"
+              ],
+              "The activity and its risks, not just its label, determine which review requirements apply."
+            ],
+            [
+              "Stop or pause criteria should lead to timely review when harms or barriers emerge; completing the pilot schedule is not the only priority.",
+              "A new booking pilot repeatedly leaves participants unable to access urgent appointments. What is the best response?",
+              "Use the agreed safety and escalation route and review whether to pause or change the pilot",
+              [
+                "Continue unchanged to obtain a larger sample",
+                "Remove those participants from the findings",
+                "Wait until the scheduled final report before raising the issue"
+              ],
+              "Emerging access risks need timely action. More observations do not justify ignoring the problem."
+            ],
+            [
+              "Record adaptations and their timing so later readers know which version participants experienced.",
+              "Halfway through a pilot, staff change the reminder script. What record is needed for interpretation?",
+              "What changed, why, when and which participants experienced each version",
+              [
+                "Only the original script because that was approved first",
+                "Only the best outcome from either version",
+                "A combined result that hides the change"
+              ],
+              "Version and timing information help explain results and prevent attributing every outcome to a single unchanged intervention."
+            ],
+            [
+              "Return understandable findings to participants, explain limits and decisions, and offer a feasible way to respond.",
+              "An inquiry ends with a technical report sent only to funders. What would improve accountability to participants?",
+              "Share an accessible summary, explain decisions and limitations, and provide a feedback route",
+              [
+                "Publish identifiable raw interviews to show transparency",
+                "Promise every suggestion will be adopted",
+                "Assume participants do not want to know the outcome"
+              ],
+              "An accessible feedback loop respects participation without promising agreement or exposing private data."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

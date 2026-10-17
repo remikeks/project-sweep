@@ -1,0 +1,505 @@
+{
+  "course_code": "SWP-032",
+  "title": "Climate Justice & Resilient Communities",
+  "course_slug": "climate-justice-and-resilient-communities",
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "assessment_id": null,
+  "proposed_pass_percent": 70,
+  "minimum_correct": 11,
+  "catalogue_path": "production_courseware/drafts/climate-justice-resilient-communities-2026-10-16/course_catalogue.json",
+  "catalogue_sha256": "a9a58d5d039e938f93ab9909a7228b7b90067893b9b4dcf7884991ffa929e83c",
+  "authoring_source_sha256": "58a4c537c0bf32dd6fde12c93c51f93811208b948f208bfe0aa0b76b05f27a39",
+  "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+  "reference_framework": "IPCC AR6 synthesis; IFSW ethical principles",
+  "modules": [
+    {
+      "order": 1,
+      "title": "Climate risk, inequity, and rights",
+      "outcome": "Distinguish a climate hazard from unequal exposure, vulnerability and capacity to respond.",
+      "teaching_points": [
+        {
+          "id": "SWP-032-M1-P1",
+          "text": "A hazard map does not fully describe social risk: exposure, housing, livelihood dependence and capacity to respond can differ within the same area."
+        },
+        {
+          "id": "SWP-032-M1-P2",
+          "text": "Do not describe communities only through deficits; identify local knowledge, mutual support and resources alongside constraints."
+        },
+        {
+          "id": "SWP-032-M1-P3",
+          "text": "Displacement-related planning must consider access to livelihoods, services, relationships and meaningful participation; moving people is not itself proof of a just outcome."
+        },
+        {
+          "id": "SWP-032-M1-P4",
+          "text": "Participation records should identify whose perspectives are missing, not equate attendance with representation."
+        },
+        {
+          "id": "SWP-032-M1-P5",
+          "text": "Separate observed local impacts from explanations that need specialist evidence; avoid attributing every individual event to climate change without support."
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Community-led adaptation and resilient services",
+      "outcome": "Compare adaptation options with communities, including accessibility, maintenance and unintended consequences.",
+      "teaching_points": [
+        {
+          "id": "SWP-032-M2-P1",
+          "text": "Co-design begins while choices can still change; consultation after a fixed design offers limited influence."
+        },
+        {
+          "id": "SWP-032-M2-P2",
+          "text": "An adaptation option may reduce one risk while shifting burdens elsewhere; assess who benefits and who may be harmed."
+        },
+        {
+          "id": "SWP-032-M2-P3",
+          "text": "Accessible services need usable routes, communication and support; a nominal facility is not enough if intended users cannot reach or use it."
+        },
+        {
+          "id": "SWP-032-M2-P4",
+          "text": "Compare adaptation options over their operating life, including responsibility and resources for upkeep."
+        },
+        {
+          "id": "SWP-032-M2-P5",
+          "text": "Combine appropriate technical advice with community knowledge; conflicting accounts should prompt investigation rather than automatic dismissal."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Just transition, advocacy, and accountability",
+      "outcome": "Assess how climate decisions distribute benefits and burdens and propose accountable follow-up.",
+      "teaching_points": [
+        {
+          "id": "SWP-032-M3-P1",
+          "text": "A transition plan should examine who loses income or access as well as who gains; affected workers and communities need a meaningful role."
+        },
+        {
+          "id": "SWP-032-M3-P2",
+          "text": "An accountability route needs accessible reporting, a responsible responder and a way to track responses without exposing complainants unnecessarily."
+        },
+        {
+          "id": "SWP-032-M3-P3",
+          "text": "Disaggregate benefits where appropriate and safe: an average can hide who is not being reached."
+        },
+        {
+          "id": "SWP-032-M3-P4",
+          "text": "Use evidence that matches the claim and acknowledge uncertainty when communicating with decision-makers."
+        },
+        {
+          "id": "SWP-032-M3-P5",
+          "text": "Review an intervention when evidence shows new burdens; record the concern, consult affected people and use the authorised adjustment process."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "SWP-032-Q01",
+      "module_order": 1,
+      "teaching_point_id": "SWP-032-M1-P1",
+      "question": "Two neighbourhoods face similar flood forecasts. One has accessible transport and secure housing; the other lacks both. What should a social-risk review examine?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Only whether the forecast uses the same colour for both areas",
+          "correct": false
+        },
+        {
+          "text": "Only which area pays more property tax",
+          "correct": false
+        },
+        {
+          "text": "Whether all residents can be assigned an identical risk score",
+          "correct": false
+        },
+        {
+          "text": "How living conditions and response capacity change the consequences of the hazard",
+          "correct": true
+        }
+      ],
+      "rationale": "The same forecast can have different consequences. Social conditions and available support matter to the review."
+    },
+    {
+      "id": "SWP-032-Q02",
+      "module_order": 1,
+      "teaching_point_id": "SWP-032-M1-P2",
+      "question": "A climate assessment lists only residents' weaknesses. What information would improve the assessment?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "An assumption that outside organisations must make every decision",
+          "correct": false
+        },
+        {
+          "text": "Residents' existing knowledge, networks and adaptation resources",
+          "correct": true
+        },
+        {
+          "text": "Only the value of imported equipment",
+          "correct": false
+        },
+        {
+          "text": "A replacement list written without residents",
+          "correct": false
+        }
+      ],
+      "rationale": "An asset-aware assessment can identify feasible locally supported actions rather than treating residents as passive recipients."
+    },
+    {
+      "id": "SWP-032-Q03",
+      "module_order": 1,
+      "teaching_point_id": "SWP-032-M1-P3",
+      "question": "A relocation proposal reduces flood exposure but moves families far from jobs and accessible services. What is the most useful next analysis?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The combined safety, livelihood and access effects with affected residents",
+          "correct": true
+        },
+        {
+          "text": "Whether residents can be excluded from the final discussion",
+          "correct": false
+        },
+        {
+          "text": "Only the number of buildings constructed",
+          "correct": false
+        },
+        {
+          "text": "Only whether the new site is outside the mapped flood zone",
+          "correct": false
+        }
+      ],
+      "rationale": "A single improvement does not establish the overall effect. Trade-offs need to be understood with those affected."
+    },
+    {
+      "id": "SWP-032-Q04",
+      "module_order": 1,
+      "teaching_point_id": "SWP-032-M1-P4",
+      "question": "A climate consultation is attended mainly by property owners, although many residents rent. What is the main evidence gap?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Proof that renters have no relevant experience",
+          "correct": false
+        },
+        {
+          "text": "The experiences and priorities of renters and other absent groups",
+          "correct": true
+        },
+        {
+          "text": "A lack of enough photographs of the meeting",
+          "correct": false
+        },
+        {
+          "text": "A need to count property owners twice",
+          "correct": false
+        }
+      ],
+      "rationale": "Attendance by one group cannot establish the views of groups that were not reached."
+    },
+    {
+      "id": "SWP-032-Q05",
+      "module_order": 1,
+      "teaching_point_id": "SWP-032-M1-P5",
+      "question": "A worker documents repeated heat-related disruption at a community centre. Which statement best respects the evidence available?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Remove the observation because the worker is not a climate scientist",
+          "correct": false
+        },
+        {
+          "text": "State that this single observation proves the cause of every local heat event",
+          "correct": false
+        },
+        {
+          "text": "Describe the observed disruption and seek relevant climate evidence before making attribution claims",
+          "correct": true
+        },
+        {
+          "text": "Present an assumed future temperature as a measured fact",
+          "correct": false
+        }
+      ],
+      "rationale": "The observation is useful, but stronger causal claims need additional evidence. Recording its limits preserves credibility."
+    },
+    {
+      "id": "SWP-032-Q06",
+      "module_order": 2,
+      "teaching_point_id": "SWP-032-M2-P1",
+      "question": "An adaptation project asks residents for views after the contractor and design are final. What would make the next planning cycle more participatory?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Invite residents only to the opening ceremony",
+          "correct": false
+        },
+        {
+          "text": "Ask residents to endorse the existing design without changes",
+          "correct": false
+        },
+        {
+          "text": "Involve residents before options are fixed and show how their input changes decisions",
+          "correct": true
+        },
+        {
+          "text": "Publish a survey after all funds are spent",
+          "correct": false
+        }
+      ],
+      "rationale": "Input has greater practical value when participants can influence meaningful choices and see the response."
+    },
+    {
+      "id": "SWP-032-Q07",
+      "module_order": 2,
+      "teaching_point_id": "SWP-032-M2-P2",
+      "question": "A drainage project protects a commercial area but diverts water toward lower-income homes. What is the key review question?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Whether the protected buildings look newer",
+          "correct": false
+        },
+        {
+          "text": "Whether the budget was spent on time",
+          "correct": false
+        },
+        {
+          "text": "Whether the project can omit the affected homes from reports",
+          "correct": false
+        },
+        {
+          "text": "Whether the design transfers risk and what safer alternatives are available",
+          "correct": true
+        }
+      ],
+      "rationale": "Risk reduction in one place can worsen another group's exposure. Delivery speed alone does not establish an equitable result."
+    },
+    {
+      "id": "SWP-032-Q08",
+      "module_order": 2,
+      "teaching_point_id": "SWP-032-M2-P3",
+      "question": "A cooling centre is free but has steps at every entrance. Which change best addresses the identified access barrier?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Work with disabled residents to provide a safe usable access route and necessary support",
+          "correct": true
+        },
+        {
+          "text": "Require residents to provide their own lifting assistance",
+          "correct": false
+        },
+        {
+          "text": "Count everyone in the district as already served",
+          "correct": false
+        },
+        {
+          "text": "Advertise that admission is free more often",
+          "correct": false
+        }
+      ],
+      "rationale": "The issue is practical access, not price alone. A usable route should be designed with the people affected."
+    },
+    {
+      "id": "SWP-032-Q09",
+      "module_order": 2,
+      "teaching_point_id": "SWP-032-M2-P4",
+      "question": "A donated water-storage system has no maintenance owner or budget. What should be resolved before treating it as a sustainable service?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Only which donor logo will appear on it",
+          "correct": false
+        },
+        {
+          "text": "Who maintains it, with what resources, training and reporting arrangements",
+          "correct": true
+        },
+        {
+          "text": "Whether the purchase price can be reported as zero",
+          "correct": false
+        },
+        {
+          "text": "Only the installation date",
+          "correct": false
+        }
+      ],
+      "rationale": "Installation does not guarantee continued service. Ownership and upkeep resources are part of feasibility."
+    },
+    {
+      "id": "SWP-032-Q10",
+      "module_order": 2,
+      "teaching_point_id": "SWP-032-M2-P5",
+      "question": "Residents report that a proposed meeting site becomes inaccessible during heavy rain, but the planning map shows no problem. What should the team do?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Investigate the discrepancy with residents and relevant technical partners",
+          "correct": true
+        },
+        {
+          "text": "Discard every technical source immediately",
+          "correct": false
+        },
+        {
+          "text": "Proceed and collect complaints only after launch",
+          "correct": false
+        },
+        {
+          "text": "Reject the residents' account because it is not a map",
+          "correct": false
+        }
+      ],
+      "rationale": "Different evidence sources may reveal different conditions. Investigating the discrepancy can improve the plan."
+    },
+    {
+      "id": "SWP-032-Q11",
+      "module_order": 3,
+      "teaching_point_id": "SWP-032-M3-P1",
+      "question": "A cleaner-energy programme closes a polluting facility but offers no plan for affected workers. What should a just-transition review add?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "A statement that all workers will automatically find new work",
+          "correct": false
+        },
+        {
+          "text": "A rule preventing workers from raising concerns",
+          "correct": false
+        },
+        {
+          "text": "Worker and community participation in assessing livelihood impacts and support options",
+          "correct": true
+        },
+        {
+          "text": "Only the project's emissions estimate",
+          "correct": false
+        }
+      ],
+      "rationale": "Environmental benefits do not erase distributional consequences. Livelihood effects and participation need explicit attention."
+    },
+    {
+      "id": "SWP-032-Q12",
+      "module_order": 3,
+      "teaching_point_id": "SWP-032-M3-P2",
+      "question": "Residents can submit climate-project complaints, but nobody is assigned to respond. What is the most important missing element?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "A larger complaint box with the same process",
+          "correct": false
+        },
+        {
+          "text": "A requirement to publish every complainant's name",
+          "correct": false
+        },
+        {
+          "text": "A limit allowing complaints only on opening day",
+          "correct": false
+        },
+        {
+          "text": "A clear response owner and a trackable follow-up process",
+          "correct": true
+        }
+      ],
+      "rationale": "Collecting complaints without responsibility for action does not establish an effective accountability route."
+    },
+    {
+      "id": "SWP-032-Q13",
+      "module_order": 3,
+      "teaching_point_id": "SWP-032-M3-P3",
+      "question": "A programme reports improved average access to water. Which further check best tests fairness?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Whether improvement reaches groups facing the greatest access barriers",
+          "correct": true
+        },
+        {
+          "text": "Whether the report contains more project photos",
+          "correct": false
+        },
+        {
+          "text": "Whether unsuccessful households can be excluded from the denominator",
+          "correct": false
+        },
+        {
+          "text": "Whether the average can be rounded upward",
+          "correct": false
+        }
+      ],
+      "rationale": "A positive average may coexist with persistent exclusion. Distribution matters alongside the headline result."
+    },
+    {
+      "id": "SWP-032-Q14",
+      "module_order": 3,
+      "teaching_point_id": "SWP-032-M3-P4",
+      "question": "A campaign has ten resident interviews about a local drainage issue. Which claim is best supported?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The project is guaranteed to solve all future flooding",
+          "correct": false
+        },
+        {
+          "text": "These interviews describe concerns that warrant further local investigation",
+          "correct": true
+        },
+        {
+          "text": "The interviews prove the exact prevalence across the country",
+          "correct": false
+        },
+        {
+          "text": "Every resident agrees with every interviewee",
+          "correct": false
+        }
+      ],
+      "rationale": "The interviews provide situated accounts, not a national prevalence estimate or a guarantee."
+    },
+    {
+      "id": "SWP-032-Q15",
+      "module_order": 3,
+      "teaching_point_id": "SWP-032-M3-P5",
+      "question": "Monitoring shows an adaptation project's fees exclude some intended users. What is the best next step?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Stop recording low-income users",
+          "correct": false
+        },
+        {
+          "text": "Declare the exclusion unrelated without investigation",
+          "correct": false
+        },
+        {
+          "text": "Review affordability with affected users and responsible decision-makers, then consider adjustments",
+          "correct": true
+        },
+        {
+          "text": "Keep the fees unchanged because the launch was successful",
+          "correct": false
+        }
+      ],
+      "rationale": "Monitoring should inform decisions. The observed barrier calls for review rather than removal from the evidence."
+    }
+  ]
+}

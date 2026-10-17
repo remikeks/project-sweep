@@ -2,3 +2,4 @@
 *.docx binary
 *.pdf binary
 *.pptx binary
+production_courseware/expansion_review/*.json text eol=lf

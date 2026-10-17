@@ -1,0 +1,505 @@
+{
+  "course_code": "SWP-033",
+  "title": "Leadership Supervision and Programme Management",
+  "course_slug": "leadership-supervision-and-programme-management",
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "assessment_id": null,
+  "proposed_pass_percent": 70,
+  "minimum_correct": 11,
+  "catalogue_path": "production_courseware/drafts/leadership-supervision-programme-management-2026-10-16/course_catalogue.json",
+  "catalogue_sha256": "0d80cfcaca57f3ac129c247f300e678b0330884eac3978d0f355a0fdea474ea6",
+  "authoring_source_sha256": "58a4c537c0bf32dd6fde12c93c51f93811208b948f208bfe0aa0b76b05f27a39",
+  "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+  "reference_framework": "NASW/ASWB supervision standards; IFSW ethical principles",
+  "modules": [
+    {
+      "order": 1,
+      "title": "Leadership governance and role clarity",
+      "outcome": "Clarify decision authority, conflicts of interest and accountability in programme teams.",
+      "teaching_points": [
+        {
+          "id": "SWP-033-M1-P1",
+          "text": "Delegation should state the decision scope, constraints, support and escalation route; it is not unlimited transfer of responsibility."
+        },
+        {
+          "id": "SWP-033-M1-P2",
+          "text": "When personal interests could influence a decision, disclose the conflict and use the organisation's independent decision process."
+        },
+        {
+          "id": "SWP-033-M1-P3",
+          "text": "Record the decision, its reasons, authority, owner and review point; minutes that only say 'agreed' do not establish accountability."
+        },
+        {
+          "id": "SWP-033-M1-P4",
+          "text": "Invite relevant perspectives before decisions and explain how disagreement was handled; inclusion is more than unanimous-looking minutes."
+        },
+        {
+          "id": "SWP-033-M1-P5",
+          "text": "Authority to manage a programme does not automatically confer competence or permission to perform specialist professional tasks."
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Reflective supervision and team support",
+      "outcome": "Use structured supervision to support learning, wellbeing and safe escalation.",
+      "teaching_points": [
+        {
+          "id": "SWP-033-M2-P1",
+          "text": "A supervision agreement should clarify purpose, roles, regularity, records, confidentiality limits and routes for urgent concerns."
+        },
+        {
+          "id": "SWP-033-M2-P2",
+          "text": "Reflective supervision explores observations, assumptions, emotions and alternatives, then agrees a learning action; it is more than checking task counts."
+        },
+        {
+          "id": "SWP-033-M2-P3",
+          "text": "Supportive supervision does not replace urgent safeguarding or incident procedures; use the appropriate route without waiting for a scheduled session."
+        },
+        {
+          "id": "SWP-033-M2-P4",
+          "text": "Feedback should identify specific behaviour and its effect, invite the worker's perspective, and agree a feasible improvement and review."
+        },
+        {
+          "id": "SWP-033-M2-P5",
+          "text": "Repeated overload is a work-design issue to review as well as an individual support concern; consider case demands, resources and safe priorities."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Programme management and learning",
+      "outcome": "Use delivery information to manage risks, resources and authorised programme adjustments.",
+      "teaching_points": [
+        {
+          "id": "SWP-033-M3-P1",
+          "text": "Track an implementation issue with its impact, owner, action and review date; a list without follow-up is not a management response."
+        },
+        {
+          "id": "SWP-033-M3-P2",
+          "text": "A variance from plan should be explained before action: compare intended and actual delivery, investigate causes and consider service effects."
+        },
+        {
+          "id": "SWP-033-M3-P3",
+          "text": "Changes beyond delegated limits require approval; document why a change is proposed and its likely effects before committing resources."
+        },
+        {
+          "id": "SWP-033-M3-P4",
+          "text": "Distinguish a delivery count from a result for participants; both can be useful but they answer different questions."
+        },
+        {
+          "id": "SWP-033-M3-P5",
+          "text": "A learning adjustment should state the change, owner, expected effect and review criteria, while preserving safety and authorised scope."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "SWP-033-Q01",
+      "module_order": 1,
+      "teaching_point_id": "SWP-033-M1-P1",
+      "question": "A coordinator tells a new worker to 'handle the whole project' without defining authority. What is the first governance improvement?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Assume the worker can sign every contract",
+          "correct": false
+        },
+        {
+          "text": "Agree which decisions the worker can make and which require approval or escalation",
+          "correct": true
+        },
+        {
+          "text": "Judge the worker only after the project ends",
+          "correct": false
+        },
+        {
+          "text": "Remove all supervision to demonstrate trust",
+          "correct": false
+        }
+      ],
+      "rationale": "Clear authority reduces ambiguity and supports appropriate decisions; vague delegation does not establish permission for every action."
+    },
+    {
+      "id": "SWP-033-Q02",
+      "module_order": 1,
+      "teaching_point_id": "SWP-033-M1-P2",
+      "question": "A manager is choosing a supplier owned by a close relative. What is the best next step?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Ask the relative to offer a personal reward",
+          "correct": false
+        },
+        {
+          "text": "Omit the relationship from the decision record",
+          "correct": false
+        },
+        {
+          "text": "Declare the conflict and follow the procurement and recusal process",
+          "correct": true
+        },
+        {
+          "text": "Approve the supplier privately because it may be faster",
+          "correct": false
+        }
+      ],
+      "rationale": "Disclosure and independent handling protect the decision process. A potentially useful supplier does not remove the conflict."
+    },
+    {
+      "id": "SWP-033-Q03",
+      "module_order": 1,
+      "teaching_point_id": "SWP-033-M1-P3",
+      "question": "A team cannot explain why it changed a service schedule. Which record would have helped most?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Only the total meeting duration",
+          "correct": false
+        },
+        {
+          "text": "Only a list of attendees' favourite options",
+          "correct": false
+        },
+        {
+          "text": "The reason, authorised decision, responsible owner and review date",
+          "correct": true
+        },
+        {
+          "text": "Only the manager's job title",
+          "correct": false
+        }
+      ],
+      "rationale": "A decision record connects the choice to its basis and follow-up, not merely to who was present."
+    },
+    {
+      "id": "SWP-033-Q04",
+      "module_order": 1,
+      "teaching_point_id": "SWP-033-M1-P4",
+      "question": "Frontline workers raise workload concerns but meeting minutes record only management's preferred option. What should the team improve?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Require workers to agree before they can speak",
+          "correct": false
+        },
+        {
+          "text": "Stop inviting frontline workers",
+          "correct": false
+        },
+        {
+          "text": "Delete the concerns to preserve a positive tone",
+          "correct": false
+        },
+        {
+          "text": "Record and examine the concerns and explain the final decision",
+          "correct": true
+        }
+      ],
+      "rationale": "A defensible process can reach a decision despite disagreement while retaining and responding to relevant evidence."
+    },
+    {
+      "id": "SWP-033-Q05",
+      "module_order": 1,
+      "teaching_point_id": "SWP-033-M1-P5",
+      "question": "A programme lead is asked to provide specialist clinical advice outside their training. What should they do?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Use an online summary as a substitute for competence",
+          "correct": false
+        },
+        {
+          "text": "Recognise the limit and arrange appropriate qualified support through the agreed route",
+          "correct": true
+        },
+        {
+          "text": "Ask a junior worker to give it under the lead's name",
+          "correct": false
+        },
+        {
+          "text": "Give the advice because they manage the budget",
+          "correct": false
+        }
+      ],
+      "rationale": "Management responsibility does not establish specialist competence. Appropriate consultation or referral protects role boundaries."
+    },
+    {
+      "id": "SWP-033-Q06",
+      "module_order": 2,
+      "teaching_point_id": "SWP-033-M2-P1",
+      "question": "A supervisee believes everything said in supervision is absolutely secret. What should the supervisor clarify?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "That keeping no record removes every confidentiality issue",
+          "correct": false
+        },
+        {
+          "text": "The agreement's confidentiality limits and how safety or other reportable concerns are handled",
+          "correct": true
+        },
+        {
+          "text": "That no concern can ever leave the room",
+          "correct": false
+        },
+        {
+          "text": "That all discussions will be posted publicly",
+          "correct": false
+        }
+      ],
+      "rationale": "Supervision needs clear expectations. Neither absolute secrecy nor indiscriminate disclosure is an appropriate default."
+    },
+    {
+      "id": "SWP-033-Q07",
+      "module_order": 2,
+      "teaching_point_id": "SWP-033-M2-P2",
+      "question": "A worker says, 'I assumed the family was unwilling because they missed two appointments.' Which prompt best encourages reflection?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "What evidence supports that view, what alternatives are possible, and how could you check them?",
+          "correct": true
+        },
+        {
+          "text": "Which colleague can be blamed for the missed appointments?",
+          "correct": false
+        },
+        {
+          "text": "Can you repeat the assumption in stronger language?",
+          "correct": false
+        },
+        {
+          "text": "How can you close the case before the end of the day?",
+          "correct": false
+        }
+      ],
+      "rationale": "The prompt separates evidence from interpretation and opens a practical learning step rather than reinforcing an untested judgement."
+    },
+    {
+      "id": "SWP-033-Q08",
+      "module_order": 2,
+      "teaching_point_id": "SWP-033-M2-P3",
+      "question": "A worker reports an immediate safeguarding concern shortly before a routine supervision meeting next week. What should the supervisor advise?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Use the applicable urgent safeguarding route now and arrange support alongside it",
+          "correct": true
+        },
+        {
+          "text": "Save the concern for next week's reflective discussion",
+          "correct": false
+        },
+        {
+          "text": "Treat a supportive conversation as completion of all required action",
+          "correct": false
+        },
+        {
+          "text": "Ask the worker to keep it off the record",
+          "correct": false
+        }
+      ],
+      "rationale": "Reflection and support are valuable but do not substitute for timely action through the appropriate safety procedure."
+    },
+    {
+      "id": "SWP-033-Q09",
+      "module_order": 2,
+      "teaching_point_id": "SWP-033-M2-P4",
+      "question": "A supervisor wants to address incomplete handovers. Which feedback is most useful?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Discuss a specific missing handover detail, its effect and an agreed improvement",
+          "correct": true
+        },
+        {
+          "text": "Avoid feedback until the annual review",
+          "correct": false
+        },
+        {
+          "text": "Compare the worker's personality with a colleague's",
+          "correct": false
+        },
+        {
+          "text": "Tell the worker they are generally careless",
+          "correct": false
+        }
+      ],
+      "rationale": "Specific, actionable feedback supports learning and follow-up; personal labels do not explain what should change."
+    },
+    {
+      "id": "SWP-033-Q10",
+      "module_order": 2,
+      "teaching_point_id": "SWP-033-M2-P5",
+      "question": "Several workers miss breaks and report growing backlogs. What is the best supervisory response?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Offer a wellbeing poster while leaving all demands unchanged",
+          "correct": false
+        },
+        {
+          "text": "Treat every backlog as proof of poor motivation",
+          "correct": false
+        },
+        {
+          "text": "Cancel supervision until the backlog disappears",
+          "correct": false
+        },
+        {
+          "text": "Review workload and resources, agree safe priorities and offer support",
+          "correct": true
+        }
+      ],
+      "rationale": "Support should address the conditions contributing to overload, not only encourage individuals to cope."
+    },
+    {
+      "id": "SWP-033-Q11",
+      "module_order": 3,
+      "teaching_point_id": "SWP-033-M3-P1",
+      "question": "A referral partner repeatedly misses agreed handovers. What should the programme lead record and act on?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Only the partner's logo",
+          "correct": false
+        },
+        {
+          "text": "Only the original launch announcement",
+          "correct": false
+        },
+        {
+          "text": "A note to discuss it at an unspecified future time",
+          "correct": false
+        },
+        {
+          "text": "The effect on service continuity, responsible contacts and a dated corrective action",
+          "correct": true
+        }
+      ],
+      "rationale": "A clear owner and follow-up make the issue actionable and connect it to service continuity."
+    },
+    {
+      "id": "SWP-033-Q12",
+      "module_order": 3,
+      "teaching_point_id": "SWP-033-M3-P2",
+      "question": "A programme is spending less than planned because accessible transport has not been provided. How should the lead interpret the underspend?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "As permission to remove the transport budget permanently",
+          "correct": false
+        },
+        {
+          "text": "As a possible delivery gap requiring investigation, not automatically as success",
+          "correct": true
+        },
+        {
+          "text": "As irrelevant because the accounts balance",
+          "correct": false
+        },
+        {
+          "text": "As proof that the service became more efficient",
+          "correct": false
+        }
+      ],
+      "rationale": "Lower spending may reflect unmet service needs. Financial totals must be interpreted with delivery information."
+    },
+    {
+      "id": "SWP-033-Q13",
+      "module_order": 3,
+      "teaching_point_id": "SWP-033-M3-P3",
+      "question": "A coordinator wants to move funds to a new activity outside their delegated authority. What should happen first?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Submit the reason and implications through the authorised change process",
+          "correct": true
+        },
+        {
+          "text": "Describe the new activity under the old budget label",
+          "correct": false
+        },
+        {
+          "text": "Ask a supplier to hide the change in an invoice",
+          "correct": false
+        },
+        {
+          "text": "Commit the money and request approval at year end",
+          "correct": false
+        }
+      ],
+      "rationale": "The proposed change needs proper authority and a transparent record; relabelling does not create permission."
+    },
+    {
+      "id": "SWP-033-Q14",
+      "module_order": 3,
+      "teaching_point_id": "SWP-033-M3-P4",
+      "question": "A report says 200 sessions were delivered and therefore every participant's wellbeing improved. What is the problem?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The number is too small to report without doubling it",
+          "correct": false
+        },
+        {
+          "text": "Delivery and outcomes must always be numerically identical",
+          "correct": false
+        },
+        {
+          "text": "The session count does not by itself establish a participant outcome",
+          "correct": true
+        },
+        {
+          "text": "A session count can never be recorded",
+          "correct": false
+        }
+      ],
+      "rationale": "Delivery volume describes activity. The outcome claim needs appropriate evidence beyond the count."
+    },
+    {
+      "id": "SWP-033-Q15",
+      "module_order": 3,
+      "teaching_point_id": "SWP-033-M3-P5",
+      "question": "A pilot team changes appointment reminders after feedback. What makes this an accountable learning adjustment?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Remove unsuccessful participants from subsequent reporting",
+          "correct": false
+        },
+        {
+          "text": "Change several unrelated processes without recording them",
+          "correct": false
+        },
+        {
+          "text": "Document the change and owner, check risks, and agree how and when to review its effects",
+          "correct": true
+        },
+        {
+          "text": "Assume every suggestion must be implemented permanently",
+          "correct": false
+        }
+      ],
+      "rationale": "A bounded, documented change can be assessed and revised; unrecorded changes make learning and accountability harder."
+    }
+  ]
+}

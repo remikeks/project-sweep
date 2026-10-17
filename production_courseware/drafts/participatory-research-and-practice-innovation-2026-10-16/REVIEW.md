@@ -2,10 +2,11 @@
 
 ## Draft status
 
-This is an **in-review-only** course package. It is not yet registered in the
-learner-visible catalogue, published to Supabase Storage, launched through
-ParaLearn, or eligible for a credential. Its proposed home is the School of
-Community & Macro Practice.
+This is an **in-review-only** course package. The 2026-10-16 staging verification
+recorded an inactive course and eight private Storage resources marked
+`in_review`. It is not learner-visible, launched through ParaLearn, or eligible
+for a credential. Its host is the School of Community & Macro Practice. A local
+15-question assessment draft now exists, without an assigned ParaLearn ID.
 
 ## Purpose and boundaries
 
@@ -44,6 +45,12 @@ transfer a historical Render learner record. Publication requires the recorded
 approvals above and the normal full-release audit.
 
 ## Local verification record
+
+See [the expansion review checklist](../../expansion_review/README.md) and
+[this course's review bank](../../expansion_review/swp-034-assessment-review.md)
+for the 2026-10-17 assessment work. The current guide is an outline-based draft.
+Develop and integrate the new teaching notes into the eight-file learner package
+before assessment publication. Reuse the staged course and asset identities.
 
 The read-only release audit verified one school, one course, three modules, and
 eight checksum-verified assets. The two PDFs and six-slide course deck were

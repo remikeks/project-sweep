@@ -2,10 +2,11 @@
 
 ## Draft status
 
-This is an in-review course package only. It has not been registered in the
-database, uploaded to Supabase Storage, assigned a ParaLearn assessment, or
-made visible to learners. Its intended home is the School of Community & Macro
-Practice.
+This is an in-review course package. The 2026-10-16 staging verification
+recorded an inactive course and eight private Storage resources marked
+`in_review`. It is not visible to learners. Its host is the School of Community
+& Macro Practice. A local 15-question assessment draft now exists; it has not
+been imported into ParaLearn or assigned a remote ID.
 
 ## Purpose and overlap boundary
 
@@ -34,17 +35,25 @@ Before any production release, obtain:
    addressing concerns that need formal escalation;
 4. local legal and organisational review for employment, delegated authority,
    whistleblowing, reporting, and supervision requirements; and
-5. curriculum-lead approval of the full 10-school, 33-course release and the
+5. curriculum-lead approval of the full 10-school, 34-course release and the
    ParaLearn assessment blueprint.
 
 ## Production gate
 
-Do not upload this delta package as published courseware. After approval,
-rebuild and audit the full release for 10 schools, 33 courses, 99 modules, and
-264 assets. Create the course with the explicit committed catalogue-sync flag,
-then upload its resources as `in_review` and move them through the normal
-approval workflow. Do not transfer any historical Render completion or
-credential record.
+Do not upload this delta package as published courseware. Reconcile the full
+candidate for 10 schools, 34 courses, 102 modules, and 272 assets. Reuse the
+existing staged course and asset identities; do not create duplicate records.
+After content approval, update review resources through the versioned workflow
+and complete the normal publication checks. Do not transfer historical Render
+completion or credential records.
+
+## Assessment and teaching review on 2026-10-17
+
+See [the expansion review checklist](../../expansion_review/README.md) and
+[this course's review bank](../../expansion_review/swp-033-assessment-review.md).
+The current guide is an outline-based draft. The new teaching notes must be
+developed and integrated into the eight-file learner package before assessment
+publication. Structural checks do not establish instructional completeness.
 
 ## Local package checks
 

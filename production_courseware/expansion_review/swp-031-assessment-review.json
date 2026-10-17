@@ -1,0 +1,505 @@
+{
+  "course_code": "SWP-031",
+  "title": "Digital Social Work Practice",
+  "course_slug": "digital-social-work-practice",
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "assessment_id": null,
+  "proposed_pass_percent": 70,
+  "minimum_correct": 11,
+  "catalogue_path": "production_courseware/drafts/digital-social-work-practice-2026-10-15/course_catalogue.json",
+  "catalogue_sha256": "25955c3e84ed26d2e65163a5cf2b6339293e58c9ecc581462812cb5dc98608ff",
+  "authoring_source_sha256": "58a4c537c0bf32dd6fde12c93c51f93811208b948f208bfe0aa0b76b05f27a39",
+  "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+  "reference_framework": "NASW/ASWB technology standards; IFSW ethical principles",
+  "modules": [
+    {
+      "order": 1,
+      "title": "Digital inclusion and service design",
+      "outcome": "Choose an accessible service route with the person, based on their access, preferences, privacy and support needs.",
+      "teaching_points": [
+        {
+          "id": "SWP-031-M1-P1",
+          "text": "A shared phone can create access and privacy barriers even when a person technically owns or borrows a device."
+        },
+        {
+          "id": "SWP-031-M1-P2",
+          "text": "Test a proposed channel with people affected by access barriers before scaling it; a staff-only test misses real usage conditions."
+        },
+        {
+          "id": "SWP-031-M1-P3",
+          "text": "An alternative route should provide a comparable opportunity to use a service, not a punitive or indefinitely delayed option."
+        },
+        {
+          "id": "SWP-031-M1-P4",
+          "text": "Ask about functional access needs instead of inferring digital ability from age, disability or education."
+        },
+        {
+          "id": "SWP-031-M1-P5",
+          "text": "Measure service completion and abandonment by route, using proportionate data and user feedback; logins alone do not demonstrate inclusion."
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Information governance and secure practice",
+      "outcome": "Design a proportionate information-handling plan and identify when local governance advice is required.",
+      "teaching_points": [
+        {
+          "id": "SWP-031-M2-P1",
+          "text": "Before collecting information, specify its purpose, who needs it, how it is protected and which locally approved retention rules apply."
+        },
+        {
+          "id": "SWP-031-M2-P2",
+          "text": "Consent discussions should explain the channel's use, foreseeable privacy limitations and available alternatives in understandable language."
+        },
+        {
+          "id": "SWP-031-M2-P3",
+          "text": "An approved channel must still be used appropriately: check the intended recipient and share only necessary information."
+        },
+        {
+          "id": "SWP-031-M2-P4",
+          "text": "A suspected information incident needs prompt action through the organisation's incident route; preserve relevant facts and follow containment instructions."
+        },
+        {
+          "id": "SWP-031-M2-P5",
+          "text": "Retention periods and exceptions require applicable policy and legal review; neither indefinite retention nor immediate deletion is a universal rule."
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Telepractice, AI, and professional accountability",
+      "outcome": "Recognise unsuitable digital practice and maintain accountable human judgement when using AI assistance.",
+      "teaching_points": [
+        {
+          "id": "SWP-031-M3-P1",
+          "text": "Telepractice needs a suitability and privacy check plus an agreed response to connection loss or urgent concerns, adapted to the service and local procedures."
+        },
+        {
+          "id": "SWP-031-M3-P2",
+          "text": "Check AI-generated statements against reliable case information; an AI draft is not a verified record or an accountable decision-maker."
+        },
+        {
+          "id": "SWP-031-M3-P3",
+          "text": "Do not enter identifiable case material into an unapproved AI service; use authorised tools and information-governance procedures."
+        },
+        {
+          "id": "SWP-031-M3-P4",
+          "text": "Review differential effects and error patterns before relying on an automated recommendation; average performance can hide exclusion."
+        },
+        {
+          "id": "SWP-031-M3-P5",
+          "text": "A professional should be able to explain and document the reasons for a decision, including how an AI suggestion was checked and when advice was sought."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "SWP-031-Q01",
+      "module_order": 1,
+      "teaching_point_id": "SWP-031-M1-P1",
+      "question": "A referral service assumes everyone with a phone can attend a private video appointment. A person shares one phone with several relatives. What should the worker establish first?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Whether relatives can attend every appointment",
+          "correct": false
+        },
+        {
+          "text": "Whether a private, affordable and accessible channel is available to that person",
+          "correct": true
+        },
+        {
+          "text": "Whether the phone is the newest model",
+          "correct": false
+        },
+        {
+          "text": "Whether video appointments are faster for staff",
+          "correct": false
+        }
+      ],
+      "rationale": "Phone access alone does not establish privacy or usability. Device age, staff convenience and family attendance do not resolve the person's access needs."
+    },
+    {
+      "id": "SWP-031-Q02",
+      "module_order": 1,
+      "teaching_point_id": "SWP-031-M1-P2",
+      "question": "An online intake form works well on staff laptops but residents report difficulty using it. Which pilot would best test inclusion?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Observe willing users with varied access needs completing representative tasks",
+          "correct": true
+        },
+        {
+          "text": "Ask the software supplier to confirm that it is modern",
+          "correct": false
+        },
+        {
+          "text": "Count how many staff members prefer the new design",
+          "correct": false
+        },
+        {
+          "text": "Launch it everywhere and review only completed forms",
+          "correct": false
+        }
+      ],
+      "rationale": "A representative task-based pilot can expose barriers among people unable to complete the form. Successful submissions alone exclude those who dropped out."
+    },
+    {
+      "id": "SWP-031-Q03",
+      "module_order": 1,
+      "teaching_point_id": "SWP-031-M1-P3",
+      "question": "A learner cannot afford mobile data. The service offers an offline appointment only after all online applicants have been seen. What is the main design problem?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "An offline route automatically prevents confidentiality",
+          "correct": false
+        },
+        {
+          "text": "Digital and offline routes must use identical equipment",
+          "correct": false
+        },
+        {
+          "text": "The alternative route introduces unequal access through avoidable delay",
+          "correct": true
+        },
+        {
+          "text": "The learner must acquire a better phone first",
+          "correct": false
+        }
+      ],
+      "rationale": "Comparable access concerns the opportunity and timeliness of service, not identical technology. An alternative should not disadvantage users merely for being offline."
+    },
+    {
+      "id": "SWP-031-Q04",
+      "module_order": 1,
+      "teaching_point_id": "SWP-031-M1-P4",
+      "question": "A worker assumes an older resident cannot use a digital service. What is the best next step?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Exclude the resident from digital options",
+          "correct": false
+        },
+        {
+          "text": "Arrange a family proxy without consulting the resident",
+          "correct": false
+        },
+        {
+          "text": "Ask the resident about preferences and support needs, then offer suitable choices",
+          "correct": true
+        },
+        {
+          "text": "Require the resident to demonstrate every phone function",
+          "correct": false
+        }
+      ],
+      "rationale": "Individual preferences and practical needs are relevant; age-based assumptions and unnecessary tests can remove choice."
+    },
+    {
+      "id": "SWP-031-Q05",
+      "module_order": 1,
+      "teaching_point_id": "SWP-031-M1-P5",
+      "question": "A digital service reports twice as many logins after redesign. Which additional information would best test whether access improved?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The total number of emails sent by the supplier",
+          "correct": false
+        },
+        {
+          "text": "The colour most frequently used in the interface",
+          "correct": false
+        },
+        {
+          "text": "Completion and drop-off patterns across access routes, alongside user feedback",
+          "correct": true
+        },
+        {
+          "text": "The number of devices purchased for managers",
+          "correct": false
+        }
+      ],
+      "rationale": "Login volume does not show whether people obtained support. Completion, drop-off and feedback help reveal remaining barriers."
+    },
+    {
+      "id": "SWP-031-Q06",
+      "module_order": 2,
+      "teaching_point_id": "SWP-031-M2-P1",
+      "question": "A new appointment form requests full family histories although it only schedules a call. Which revision best fits its purpose?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Ask relatives to submit their records as well",
+          "correct": false
+        },
+        {
+          "text": "Collect the contact and access details necessary to arrange the call",
+          "correct": true
+        },
+        {
+          "text": "Require extra identity documents for every enquiry",
+          "correct": false
+        },
+        {
+          "text": "Retain the full history in case a future project needs it",
+          "correct": false
+        }
+      ],
+      "rationale": "The task is scheduling. Unrelated histories add exposure without helping that task; additional data requires a justified purpose."
+    },
+    {
+      "id": "SWP-031-Q07",
+      "module_order": 2,
+      "teaching_point_id": "SWP-031-M2-P2",
+      "question": "A person signs a generic form but says they do not know who can read messages sent through the service. What should happen next?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Ask the person to find the platform's technical specification",
+          "correct": false
+        },
+        {
+          "text": "Explain access and relevant risks, check understanding and revisit the communication choice",
+          "correct": true
+        },
+        {
+          "text": "Continue collecting sensitive details before discussing access",
+          "correct": false
+        },
+        {
+          "text": "Treat the signature as proof that every risk was understood",
+          "correct": false
+        }
+      ],
+      "rationale": "A signature does not resolve an expressed misunderstanding. The worker should support an informed choice before proceeding with the channel."
+    },
+    {
+      "id": "SWP-031-Q08",
+      "module_order": 2,
+      "teaching_point_id": "SWP-031-M2-P3",
+      "question": "A worker is about to send a sensitive attachment through an approved system. Two contacts have the same surname. What is the safest next step?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Verify the intended recipient and the necessary contents before sending",
+          "correct": true
+        },
+        {
+          "text": "Send it to both contacts to avoid delay",
+          "correct": false
+        },
+        {
+          "text": "Move the attachment to a personal account",
+          "correct": false
+        },
+        {
+          "text": "Assume the first autocomplete suggestion is correct",
+          "correct": false
+        }
+      ],
+      "rationale": "An approved platform does not prevent a wrong-recipient error. Recipient verification and proportionate disclosure address the immediate risk."
+    },
+    {
+      "id": "SWP-031-Q09",
+      "module_order": 2,
+      "teaching_point_id": "SWP-031-M2-P4",
+      "question": "A worker discovers that a case attachment went to the wrong recipient. What is the best initial response within role?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Wait until the next annual review to disclose it",
+          "correct": false
+        },
+        {
+          "text": "Erase the activity record before anyone sees it",
+          "correct": false
+        },
+        {
+          "text": "Use the incident-reporting route promptly and follow authorised containment steps",
+          "correct": true
+        },
+        {
+          "text": "Ask colleagues to keep the event informal",
+          "correct": false
+        }
+      ],
+      "rationale": "Reporting enables assessment and containment. Concealing the event or destroying its record can obstruct an appropriate response; notification duties need local advice."
+    },
+    {
+      "id": "SWP-031-Q10",
+      "module_order": 2,
+      "teaching_point_id": "SWP-031-M2-P5",
+      "question": "A team asks how long all client messages must be kept. What is the appropriate basis for deciding?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "The applicable retention schedule and legal requirements, verified with the responsible lead",
+          "correct": true
+        },
+        {
+          "text": "A universal seven-day deletion rule for every service",
+          "correct": false
+        },
+        {
+          "text": "The default setting of whichever phone is used",
+          "correct": false
+        },
+        {
+          "text": "Unlimited retention because storage is cheap",
+          "correct": false
+        }
+      ],
+      "rationale": "The draft cannot prescribe a universal duration. The decision depends on the record purpose and applicable requirements."
+    },
+    {
+      "id": "SWP-031-Q11",
+      "module_order": 3,
+      "teaching_point_id": "SWP-031-M3-P1",
+      "question": "At the start of a remote appointment the worker learns the person cannot speak privately. What is the best response?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Continue because the appointment has already started",
+          "correct": false
+        },
+        {
+          "text": "Require the person to disclose the concern in the shared room",
+          "correct": false
+        },
+        {
+          "text": "Record the whole household to document the barrier",
+          "correct": false
+        },
+        {
+          "text": "Discuss a safer suitable channel or time and apply the service's risk procedure if needed",
+          "correct": true
+        }
+      ],
+      "rationale": "The absence of privacy changes suitability. A safer arrangement should be considered without forcing disclosure or adding intrusive recording."
+    },
+    {
+      "id": "SWP-031-Q12",
+      "module_order": 3,
+      "teaching_point_id": "SWP-031-M3-P2",
+      "question": "An AI summary adds a referral that is absent from the verified notes. What should the worker do before using it?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Keep it because a later worker might make that referral",
+          "correct": false
+        },
+        {
+          "text": "Ask the person to confirm a referral without disclosing the uncertainty",
+          "correct": false
+        },
+        {
+          "text": "Accept it because the text sounds professionally written",
+          "correct": false
+        },
+        {
+          "text": "Check the original information and correct or remove the unsupported statement",
+          "correct": true
+        }
+      ],
+      "rationale": "Plausible wording is not evidence. The worker remains responsible for the accuracy of any record they use."
+    },
+    {
+      "id": "SWP-031-Q13",
+      "module_order": 3,
+      "teaching_point_id": "SWP-031-M3-P3",
+      "question": "A free AI tool asks a worker to paste a named case history to improve a draft. The organisation has not approved the tool. What should the worker do?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Use an approved workflow and seek governance advice before sharing case information",
+          "correct": true
+        },
+        {
+          "text": "Remove only the first name and assume the rest is anonymous",
+          "correct": false
+        },
+        {
+          "text": "Share it and ask permission afterwards",
+          "correct": false
+        },
+        {
+          "text": "Paste it because the account is password-protected",
+          "correct": false
+        }
+      ],
+      "rationale": "A password or partial name removal does not establish an authorised, safe disclosure. Approval and data handling must be considered first."
+    },
+    {
+      "id": "SWP-031-Q14",
+      "module_order": 3,
+      "teaching_point_id": "SWP-031-M3-P4",
+      "question": "A triage tool performs well overall but frequently misroutes requests written in a minority language. What needs review?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "Whether affected users can be removed from the evaluation",
+          "correct": false
+        },
+        {
+          "text": "Only whether staff like the dashboard",
+          "correct": false
+        },
+        {
+          "text": "Only the overall accuracy because it is higher than last year",
+          "correct": false
+        },
+        {
+          "text": "The unequal error pattern and safer routing options for affected users",
+          "correct": true
+        }
+      ],
+      "rationale": "The subgroup pattern identifies a specific access risk. An overall average can conceal it, and excluding affected users would hide the problem."
+    },
+    {
+      "id": "SWP-031-Q15",
+      "module_order": 3,
+      "teaching_point_id": "SWP-031-M3-P5",
+      "question": "A worker rejects an AI recommendation after finding a factual error. Which record best supports accountability?",
+      "type": "MCQ",
+      "marks": 1,
+      "options": [
+        {
+          "text": "A statement that the computer made the decision",
+          "correct": false
+        },
+        {
+          "text": "The relevant error, verified information, final reasoning and any consultation",
+          "correct": true
+        },
+        {
+          "text": "No record because AI was not ultimately followed",
+          "correct": false
+        },
+        {
+          "text": "Only the final AI confidence score",
+          "correct": false
+        }
+      ],
+      "rationale": "A concise reasoning record explains the human decision and its basis; the score alone does not."
+    }
+  ]
+}

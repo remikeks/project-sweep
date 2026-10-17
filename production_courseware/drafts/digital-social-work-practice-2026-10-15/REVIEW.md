@@ -2,9 +2,10 @@
 
 ## Status
 
-In review. This is an additive course draft and is not registered in the live
-catalogue, uploaded to private Storage, assigned a ParaLearn assessment, or
-visible to learners.
+In review. The 2026-10-16 staging verification recorded an inactive course and
+eight private Storage resources marked `in_review`. The course is not visible
+to learners. A local 15-question assessment draft now exists; it has not been
+imported into ParaLearn or assigned an authoritative assessment identifier.
 
 ## Placement
 
@@ -44,13 +45,21 @@ human oversight of AI-assisted work.
    proposed delivery channels, including an equivalent non-digital route.
 4. A ParaLearn assessment owner must produce and approve the versioned CBT
    package and assign the authoritative assessment identifier.
-5. The curriculum lead must approve the final full 31-course release before
-   the course is added to production.
+5. The curriculum lead must approve the complete expansion candidate of ten
+   schools and 34 courses before learner activation.
 
 ## Production gate after approval
 
-Build the full ten-school catalogue, create the missing course only with the
-explicit catalogue command flag, upload the eight checksum-verified resources
-to the private course-assets bucket as `in_review`, then use the existing
-review and publish workflow. Do not transfer historical completion,
-assessment, badge, or certificate records to this course.
+Reconcile the full ten-school, 34-course candidate using existing staged course
+identities. Do not create another course or upload a duplicate package. Update
+review assets only through the versioned asset workflow after content approval,
+then use the existing review and publish process. Do not transfer historical
+completion, assessment, badge, or certificate records to this course.
+
+## Assessment and teaching review on 2026-10-17
+
+See [the expansion review checklist](../../expansion_review/README.md) and
+[this course's review bank](../../expansion_review/swp-031-assessment-review.md).
+The current guide is an outline-based draft. The new teaching notes must be
+developed and integrated into the eight-file learner package before assessment
+publication. Structural checks do not establish instructional completeness.

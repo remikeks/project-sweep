@@ -1,0 +1,35 @@
+{
+  "status": "draft_for_review",
+  "version": "0.1.0",
+  "banks": [
+    {
+      "course_code": "SWP-031",
+      "questions": 15,
+      "json": "swp-031-assessment-review.json",
+      "sha256": "30b582bf41d91977299b8c5a13499ed8622a35f70375c4f88a922e416646ccb7"
+    },
+    {
+      "course_code": "SWP-032",
+      "questions": 15,
+      "json": "swp-032-assessment-review.json",
+      "sha256": "97c1efc786d75003da77eca415a5ba20a0cb4b67518f739493e7b0cd8216413b"
+    },
+    {
+      "course_code": "SWP-033",
+      "questions": 15,
+      "json": "swp-033-assessment-review.json",
+      "sha256": "858023542d5a6def069e3472a74ca6a15db57a757506038c91f5141c32d31ba1"
+    },
+    {
+      "course_code": "SWP-034",
+      "questions": 15,
+      "json": "swp-034-assessment-review.json",
+      "sha256": "96dee185b5fc5638b7f015aa4f54c95d215e121251e2d0d87306c7881e3a1e52"
+    }
+  ],
+  "bank_hash_encoding": "utf8-lf",
+  "baseline_comparison": {
+    "local_banks": 24,
+    "limitation": "Exact normalised stems only; SWP-001\u2013006 local exports absent. Semantic overlap needs human review."
+  }
+}
