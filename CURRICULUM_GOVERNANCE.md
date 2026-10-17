@@ -73,6 +73,31 @@ an additional certificate path.
 
 ## Publication gate
 
+### Owner decision recorded 2026-10-17
+
+The owner explicitly authorized generation and deployment of the four expansion
+courses using verified research from DOAJ, Crossref and OpenAlex, with no invented
+claims. This decision permits an introductory, research-informed release without
+claiming that an independent subject-matter panel or local legal reviewer has
+approved it. It supersedes the earlier requirement to wait for those named
+sign-offs for this release only; it does not establish professional accreditation.
+The content explicitly defers jurisdictional procedures to applicable local
+requirements and labels fictional examples and evidence limitations.
+
+Technical publication conditions remain: checksum and identity audits, visual
+verification, genuine ParaLearn assessment IDs, verified answer keys/settings,
+and successful access/result-delivery tests. Owner approval is not evidence that
+these technical conditions have passed. Until they pass, SWP-031–034 remain
+inactive and their resources remain in review. The 2026-10-17 revision changes
+32 existing assets and 12 existing modules, not the ten-school structure or any
+historical learner credentials. Independent subject-matter review remains a
+recommended follow-up, not a completed check.
+
+Foundation Orientation is authorized as optional, non-credit shared preparation.
+It creates no enrolment, assessment, completion record, badge or certificate.
+
+### Repeatable checks
+
 Run this read-only check for every release before upload and publication:
 
 ```powershell

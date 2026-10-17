@@ -201,10 +201,10 @@ ACCOUNT_EMAIL_VERIFICATION_REQUIRED = os.environ.get("ACCOUNT_EMAIL_VERIFICATION
 DEFAULT_PASSING_SCORE = 70
 
 # The Foundation of Social Work orientation is deliberately independent of
-# schools, course assessment, badges, and certificates. Keep it hidden until
-# the curriculum lead has approved the short orientation content.
+# schools, course assessment, badges, and certificates. Owner authorised
+# publication on 2026-10-17. An environment override can still disable it.
 FOUNDATION_ORIENTATION_ENABLED = os.environ.get(
-    "FOUNDATION_ORIENTATION_ENABLED", "False"
+    "FOUNDATION_ORIENTATION_ENABLED", "True"
 ).strip().lower() in ("true", "1", "yes")
 
 # --------------------------------------------------------------------------

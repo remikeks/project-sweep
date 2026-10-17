@@ -25,12 +25,17 @@ innovation, and wellbeing remain archive references. They are not copied into
 the orientation because the active catalogue already treats their specialist
 dimensions in the relevant Schools.
 
-## Activation and review gate
+## Activation and review record
 
-The implementation is feature-gated. It remains unavailable until the
-curriculum lead approves the concise shared material. After approval, set
-`FOUNDATION_ORIENTATION_ENABLED=True` in the deployment environment. The site
-will then expose `/orientation/` as “Start Here”.
+The owner authorised generation and deployment on 2026-10-17. The orientation
+now contains three short lessons and applied reflection activities, with an
+estimated 15 minutes including reflection. It is enabled by default; set
+`FOUNDATION_ORIENTATION_ENABLED=False` to disable it. An explicit deployment
+environment value takes precedence. `/orientation/` appears as “Start Here”.
+
+This records owner approval, not independent professional accreditation or an
+external subject-matter sign-off. The content does not grant licensing,
+professional scope or transferred Render credentials.
 
 Before activation, confirm that the public wording is appropriate for the
 delivery jurisdictions and that it does not promise accreditation, licensing,

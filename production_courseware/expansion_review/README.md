@@ -1,6 +1,6 @@
 # Curriculum expansion: assessment and teaching review
 
-Status: **draft for review, not publication approval**. Created 2026-10-17.
+Status: **owner-authorized materials revision; live assessment verification pending**. Updated 2026-10-17.
 
 This folder is separate from the 30 approved course banks. It contains original
 teaching scenarios and assessment drafts for SWP-031–034. They are not ParaLearn
@@ -21,15 +21,20 @@ do not change them; exported bank checksums use UTF-8 with LF line endings.
 These links establish traceability, not expert approval or proof that
 the existing eight-file package teaches the point adequately.
 
-## Content gap found
+## Content gap and completed revision
 
 The existing learner-guide generator repeats a generic learning sequence with
 module focus words substituted. Its output is an outline-based draft, not enough
 to demonstrate complete instruction for all the new assessment decisions.
-The teaching notes in this review pack make the assessed reasoning explicit,
-but must still be expanded and integrated into the learner guides, slides,
-worksheets, and transcripts before learners are assessed. Do not publish a bank
-just because its structure passes validation.
+The replacement package `../drafts/expansion-evidence-2026-10-17` now integrates
+12 developed lessons, fictional worked examples, activities, feedback and all
+60 assessed decision points into the learner guides, slides, worksheets and
+written teaching scripts. These scripts are not recorded videos.
+`teaching_source.json` records research provenance, checked index identifiers,
+source-access limits and restrained claims. Indexing is not endorsement.
+All 32 version 1.1.0 files passed visual review: 56 DOCX pages, 32 PDF pages and
+35 slides. The receipt binds that review to the manifest and source checksums.
+Do not publish a bank just because its structure passes validation.
 
 ## Reference framework
 
@@ -42,17 +47,17 @@ are a practice reference, not a statement of Nigerian or other local law.
 - [IPCC AR6 synthesis, Summary for Policymakers](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/): inclusive decision-making, equity, resources, and monitoring support climate-resilient development; adaptation can have unequal effects.
 - [IFSW ethical principles](https://www.ifsw.org/global-social-work-statement-of-ethical-principles/): dignity, participation, confidentiality, competence, and accountable decisions apply to practice and research, including digital settings.
 
-## Publication checklist — all still open
+## Publication checklist
 
-1. Curriculum owner: approve scope boundaries, learning outcomes, and integrated teaching coverage.
-2. Relevant subject-matter reviewers: verify each stem, key, rationale, distractor, and scenario; record named approval of an exact file checksum/version.
-3. Local safeguarding, privacy, legal, and accessibility reviewers: adapt procedures and review accessible alternatives. No universal consent, reporting, retention, or supervision rule is asserted by this draft.
-4. Materials owner: integrate approved teaching content into all eight assets per course; render and inspect all document formats, including the five DOCX files; rebuild checksums.
-5. ParaLearn owner: import approved banks into the SWEEP account as unpublished assessments, verify answer keys and settings after import, assign actual assessment IDs, and test access and result delivery.
-6. Release owner: reconcile the full 10-school, 34-course, 102-module, 272-asset candidate; verify no duplicate identities or content, then approve publication and activation together.
+1. Owner authorization received on 2026-10-17 to generate and deploy researched introductory materials. This is not independent subject-matter or local legal review; see the dated governance decision.
+2. Materials integration, visual checks and checksum validation completed for all eight assets per course.
+3. Production revision completed in place: 32 existing asset IDs and 12 existing module IDs retained, with old storage objects retained for rollback. Courses remain inactive; resources remain in review.
+4. Pending: import the 60 questions into the SWEEP ParaLearn examiner account, verify keys/settings, record real assessment IDs, and test learner access and result delivery. No assessment IDs have been invented.
+5. Pending: rerun the production release checks, then publish resources and activate the four courses together after assessment readiness is verified.
+6. Independent subject-matter review remains recommended and uncompleted. Applicable safeguarding, privacy and legal procedures must be verified locally; the materials make no universal procedural claims.
 
-The last recorded production staging (2026-10-16) has four inactive course records
-and 32 resources marked `in_review`. This review work does not change that state.
+The 2026-10-17 production revision retains four inactive course records and
+32 resources marked `in_review`, now at version 1.1.0.
 The four new assessments are local drafts only. Historical Render learner
 completions and credentials remain excluded.
 
@@ -60,9 +65,14 @@ completions and credentials remain excluded.
 
 Run `python scripts/build_expansion_review.py --check` to validate the existing
 review exports against the authoring source without changing files. Run
-`python scripts/audit_expansion_candidate.py` to reconcile the original release
-and four staged packages in memory, verify all 272 asset files, and check
+`python scripts/audit_expansion_candidate.py --expansion-release production_courseware/drafts/expansion-evidence-2026-10-17`
+to reconcile the baseline release and revised expansion package in memory,
+verify all 272 asset files, and check
 cross-package identities and file checksums without copying or importing them.
+
+Do not import both the original four staged packages and this replacement.
+The original staged files are historical rollback/reference material, not an
+additional set of courses or assets.
 
 The 2026-10-17 checks passed for 10 schools, 34 courses, 102 modules and 272
 assets. The 60 draft stems are distinct from one another and from the 360

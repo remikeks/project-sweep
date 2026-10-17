@@ -31,7 +31,7 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def add_entry(entries, release, course, asset_path, asset_type, title, module_order=None):
+def add_entry(entries, release, course, asset_path, asset_type, title, module_order=None, version="1.0.0"):
     if not asset_path.is_file():
         raise FileNotFoundError(asset_path)
     entries.append(
@@ -47,7 +47,7 @@ def add_entry(entries, release, course, asset_path, asset_type, title, module_or
             "content_type": MIME_TYPES[asset_path.suffix.lower()],
             "size_bytes": asset_path.stat().st_size,
             "sha256": sha256(asset_path),
-            "version": "1.0.0",
+            "version": version,
             "language": "en",
             "publication_status": "in_review",
         }
@@ -57,6 +57,7 @@ def add_entry(entries, release, course, asset_path, asset_type, title, module_or
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--release", type=Path, required=True)
+    parser.add_argument("--version", default="1.0.0", help="Version of every resource in this package.")
     parser.add_argument(
         "--expected-school-count",
         type=int,
@@ -89,6 +90,8 @@ def main() -> None:
                 f"{course['title']} module {module_order} video plan and transcript DOCX",
                 module_order,
             )
+    for entry in entries:
+        entry["version"] = args.version
     try:
         validate_manifest(
             entries,

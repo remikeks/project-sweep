@@ -1,0 +1,160 @@
+[
+  {
+    "number": 31,
+    "school": "School of Community & Macro Practice",
+    "title": "Digital Social Work Practice",
+    "outcome": "Use digital tools and digital service channels in ways that advance access, protect privacy, and preserve accountable human professional judgement.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Digital inclusion and service design",
+        "focus": "digital exclusion, accessibility, participation, community co-design, device and connectivity constraints, and non-digital alternatives"
+      },
+      {
+        "order": 2,
+        "title": "Information governance and secure practice",
+        "focus": "purpose limitation, informed consent, minimum necessary information, secure communication, records, retention, incident reporting, and local legal requirements"
+      },
+      {
+        "order": 3,
+        "title": "Telepractice, AI, and professional accountability",
+        "focus": "role and boundary setting, suitability and risk checks, bias and error awareness, human review, transparency, documentation, supervision, and escalation"
+      }
+    ],
+    "assets": [
+      "digital access and readiness checklist",
+      "consent and communication plan",
+      "information-governance risk review",
+      "inclusive digital-service case."
+    ],
+    "cbt_focus": [
+      "digital inclusion",
+      "informed consent",
+      "minimum necessary information",
+      "secure communication",
+      "AI-assisted practice",
+      "human oversight",
+      "accountability"
+    ],
+    "code": "SWP-031",
+    "slug": "digital-social-work-practice"
+  },
+  {
+    "number": 32,
+    "school": "School of Disaster Response & Crisis Intervention",
+    "title": "Climate Justice & Resilient Communities",
+    "outcome": "Use a rights-based, community-led approach to identify climate-related social inequities, strengthen adaptive capacity, and support accountable climate action within a professional role.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Climate risk, inequity, and rights",
+        "focus": "unequal exposure, vulnerability, livelihoods, displacement, health, disability inclusion, gender, participation, and human dignity"
+      },
+      {
+        "order": 2,
+        "title": "Community-led adaptation and resilient services",
+        "focus": "local knowledge, accessible planning, social protection, livelihoods, community assets, inclusion, and adaptation partnerships"
+      },
+      {
+        "order": 3,
+        "title": "Just transition, advocacy, and accountability",
+        "focus": "climate decisions, distribution of benefits and burdens, community voice, responsible evidence use, monitoring, and constructive advocacy"
+      }
+    ],
+    "assets": [
+      "climate-equity mapping prompt",
+      "community-adaptation partnership canvas",
+      "inclusive-resilience case",
+      "climate-accountability reflection."
+    ],
+    "cbt_focus": [
+      "climate inequity",
+      "participatory adaptation",
+      "inclusive services",
+      "community voice",
+      "accountability"
+    ],
+    "code": "SWP-032",
+    "slug": "climate-justice-and-resilient-communities"
+  },
+  {
+    "number": 33,
+    "school": "School of Community & Macro Practice",
+    "title": "Leadership Supervision and Programme Management",
+    "outcome": "Lead and support teams, use reflective supervision, and manage community programmes with accountable governance within a professional role.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Leadership governance and role clarity",
+        "focus": "shared purpose, delegated authority, inclusive decisions, power, accountability, and professional boundaries"
+      },
+      {
+        "order": 2,
+        "title": "Reflective supervision and team support",
+        "focus": "supervision agreements, feedback, workload, wellbeing, safeguarding boundaries, escalation, and support for learning"
+      },
+      {
+        "order": 3,
+        "title": "Programme management and learning",
+        "focus": "delivery oversight, resourcing, governance risks, implementation monitoring, issue escalation, and proportionate learning adjustments"
+      }
+    ],
+    "assets": [
+      "supervision-agreement prompt",
+      "team decision-record template",
+      "programme-governance risk review",
+      "staff-support case."
+    ],
+    "cbt_focus": [
+      "leadership accountability",
+      "role boundaries",
+      "reflective supervision",
+      "team wellbeing",
+      "programme governance",
+      "escalation",
+      "learning from delivery"
+    ],
+    "code": "SWP-033",
+    "slug": "leadership-supervision-and-programme-management"
+  },
+  {
+    "number": 34,
+    "school": "School of Community & Macro Practice",
+    "title": "Participatory Research and Practice Innovation",
+    "outcome": "Plan a small, ethical, participatory practice inquiry and use the findings with communities to test and improve a service within a professional role.",
+    "modules": [
+      {
+        "order": 1,
+        "title": "Practice questions and meaningful participation",
+        "focus": "question framing, positionality, consent, power, lived experience, co-research, and meaningful involvement"
+      },
+      {
+        "order": 2,
+        "title": "Ethical inquiry and interpretation",
+        "focus": "proportionate data collection, data minimisation, confidentiality, accessibility, bias, evidence limits, and transparent interpretation"
+      },
+      {
+        "order": 3,
+        "title": "Responsible innovation and learning",
+        "focus": "bounded pilots, feedback, implementation risks, decision criteria, documenting adaptations, escalation, and sharing learning with participants"
+      }
+    ],
+    "assets": [
+      "practice-question and participation canvas",
+      "consent and data-minimisation checklist",
+      "inquiry and innovation log",
+      "co-research case."
+    ],
+    "cbt_focus": [
+      "question framing",
+      "meaningful participation",
+      "informed consent",
+      "data minimisation",
+      "evidence limits",
+      "pilot safeguards",
+      "learning decisions"
+    ],
+    "code": "SWP-034",
+    "slug": "participatory-research-and-practice-innovation"
+  }
+]

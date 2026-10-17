@@ -1,0 +1,280 @@
+{
+  "version": "1.1.0",
+  "authored_on": "2026-10-17",
+  "scope": "SWP-031 to SWP-034 only. Original educational synthesis and fictional cases, not jurisdiction-specific professional advice.",
+  "authorization": {
+    "date": "2026-10-17",
+    "type": "curriculum_owner_instruction",
+    "instruction": "Proceed with generation and deployment using verified research. Full approval; do not hallucinate.",
+    "independent_subject_matter_review": false
+  },
+  "evidence_policy": "Index inclusion verifies discovery and metadata, not reliability, endorsement, or fitness for every setting. Research notes state access and limits. No effect sizes, causal effects, universal legal rules, or independent expert certification are inferred.",
+  "references": [
+    {
+      "id": "R1",
+      "citation": "Kvakic, M., and Larsson, K. K. (2024). Caseworkers on the digital streets: Discretion in the digital decision-making process. Journal of Comparative Social Work, 19(1), 13-40.",
+      "url": "https://doi.org/10.31265/jcsw.v19i1.624",
+      "publisher": "https://journals.uis.no/index.php/JCSW/article/view/624",
+      "doaj": "https://doaj.org/article/05f712e35fc94823ab750df98df97ae9",
+      "openalex": "https://openalex.org/W4403100669",
+      "crossref_verified": true,
+      "access": "Publisher abstract read; metadata checked against Crossref and OpenAlex.",
+      "summary": "Focus groups with 26 Norwegian child-welfare caseworkers identified digital decision points requiring professional discretion.",
+      "limit": "Context-specific qualitative findings; not a test of AI accuracy or proof of effects in another country."
+    },
+    {
+      "id": "R2",
+      "citation": "Cwikel, J. (2025). Social work for a greener planet: reframing social work skills and education to mitigate the climate crisis. Cogent Social Sciences.",
+      "url": "https://doi.org/10.1080/23311886.2024.2444469",
+      "doaj": "https://doaj.org/article/bcd13a3b619640829cdb00ecfaa76119",
+      "openalex": "https://openalex.org/W4406173712",
+      "crossref_verified": true,
+      "access": "Indexed abstract and publisher search excerpt read; full text not reviewed. Crossref publication date 2025-01-08; DOI contains 2024 but is not a publication-year field.",
+      "summary": "A focused literature review discusses social-work skills and education for environmental challenges.",
+      "limit": "Used for curricular relevance only, not evidence that a particular adaptation intervention works."
+    },
+    {
+      "id": "R3",
+      "citation": "Viscu, L.-I., and Marici, M. (2024). Challenges in supervising social workers. International Journal of Social and Educational Innovation, 11(22), 81-94.",
+      "url": "https://zenodo.org/records/14246369",
+      "publisher": "https://journals.aseiacademic.org/index.php/ijsei/article/view/403",
+      "doaj": "https://doaj.org/article/398672351ad647ac86e562c3c55c95b3",
+      "crossref_verified": false,
+      "access": "Author-deposit abstract and DOAJ record checked. Zenodo DOI 10.5281/zenodo.14246369 is a repository DOI, not a Crossref-verified journal DOI.",
+      "summary": "The paper proposes a supervision framework attentive to work setting, professional training and organisational context.",
+      "limit": "Conceptual guidance, not an effectiveness trial; it does not establish local licensing or scope-of-practice rules."
+    },
+    {
+      "id": "R4",
+      "citation": "Cilia Vincenti, S., et al. (2025). Procedural Ethics for Participatory Research: Field-Specific Dilemmas and Recommendations From Researchers, Co-researching Community Partners and the REC Overseeing a Community-Academic ADHD Research Project. International Journal of Qualitative Methods, 24.",
+      "url": "https://doi.org/10.1177/16094069251364622",
+      "doaj": "https://doaj.org/article/9b1f65e76d41499dbc96e8f6a41672a0",
+      "openalex": "https://openalex.org/W4412998334",
+      "crossref_verified": true,
+      "access": "Publisher PDF abstract and introductory context read; metadata checked with Crossref and OpenAlex.",
+      "summary": "A community-academic photovoice project describes collaboration with an ethics committee during protocol design and approval.",
+      "limit": "A situated account of ethical planning, not a causal evaluation or exemption from local review."
+    },
+    {
+      "id": "S1",
+      "citation": "NASW and ASWB. Standards for Technology in Social Work Practice.",
+      "url": "https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/Standards-for-Technology-in-Social-Work-Practice",
+      "access": "Official standards consulted.",
+      "summary": "Professional practice framework for technology use.",
+      "limit": "Not a statement of Nigerian or other local law."
+    },
+    {
+      "id": "S2",
+      "citation": "NASW and ASWB. Best Practice Standards in Social Work Supervision.",
+      "url": "https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/Best-Practice-Standards-in-Social-Work-Supervision",
+      "access": "Official standards consulted.",
+      "summary": "Professional framework for supervision.",
+      "limit": "Adapt to local roles, qualifications and regulatory requirements."
+    },
+    {
+      "id": "S3",
+      "citation": "IPCC (2023). AR6 Synthesis Report Summary for Policymakers.",
+      "url": "https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/",
+      "access": "Official summary checked for equity and inclusive climate-resilient development themes.",
+      "summary": "Assessment framework for climate risk and equitable responses.",
+      "limit": "Not site-specific engineering advice or attribution of an individual local event."
+    },
+    {
+      "id": "S4",
+      "citation": "IFSW (2018). Global Social Work Statement of Ethical Principles.",
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "access": "Official ethical principles consulted.",
+      "summary": "Dignity, participation, confidentiality and professional accountability.",
+      "limit": "Does not replace applicable law or organisational safeguarding procedures."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-031",
+      "references": [
+        "R1",
+        "S1",
+        "S4"
+      ],
+      "case": "A neighbourhood advice service wants to replace its walk-in queue with a web booking system. Some residents use library computers, some need audio instructions, and others work shifts. Staff want to use automated summaries to reduce paperwork. Design a service pathway that preserves access, privacy and accountable decisions.",
+      "modules": [
+        {
+          "order": 1,
+          "heading": "Design the whole service journey",
+          "explanation": [
+            "Digital inclusion concerns whether someone can obtain the intended support, not simply whether a website loads. Map discovery, booking, the appointment and follow-up as separate tasks. Ask the person which steps they can use privately, reliably and affordably. A person may manage text well but find a video call inaccessible; another may prefer remote access because travel is difficult. Offer choices without requiring people to justify a stereotype about their age or disability.",
+            "Test a realistic task before widening use. Invite willing users with different access needs, explain the test and avoid collecting real case histories. Notice where they stop or need help. A usable alternative should lead to the same service opportunity within a reasonable local timetable. Record only proportionate access information. Compare completion and abandonment across routes, and ask people who did not finish what prevented them. A higher login count alone cannot show that residents received support."
+          ],
+          "example": "Fictional worked example: the advice service's booking page times out at the library. The team tests a save-and-return option and a staff-assisted booking route with willing residents. It tracks successful bookings and reports of difficulty, without recording their private histories in the test log.",
+          "activity": "Draw two booking routes for the service. Identify one barrier at each step and propose a way to test it without using identifiable case material.",
+          "feedback": "A strong response preserves resident choice, tests actual tasks, gives the assisted route a comparable opportunity, and names both a completion measure and a feedback method.",
+          "slide": "Map the service journey before choosing a channel.\nTest real tasks with willing users.\nKeep a comparable assisted or offline route."
+        },
+        {
+          "order": 2,
+          "heading": "Make an information handling plan",
+          "explanation": [
+            "Start with the task and justify each field. A booking form needs enough information to arrange contact; it does not automatically need a detailed account of the person's circumstances. For each information item, identify its purpose, authorised viewers, storage location, sharing route and applicable retention decision. Refer uncertain legal grounds or retention questions to the responsible local lead. Do not infer that a signed form authorises every future use.",
+            "Explain communication choices in language the person understands and check any expressed uncertainty. Before sharing, confirm both the recipient and the necessary contents: an approved system can still send information to the wrong person. If an incident is suspected, use the organisation's reporting route promptly, preserve relevant facts and follow authorised containment instructions. Do not hide the incident or invent a notification deadline. The privacy lead must determine the applicable duties and exceptions."
+          ],
+          "example": "Fictional worked example: the booking team removes a required family-history field. It keeps a preferred contact route and practical access needs, restricts staff access by role, and asks its governance lead to approve the retention schedule before launch.",
+          "activity": "Write a five-field information register for booking. For each field give the purpose and authorised audience; mark any retention or legal question for local review.",
+          "feedback": "Necessary booking information is separated from casework records. The answer states who must resolve uncertain rules and explains recipient checks and the incident-reporting route.",
+          "slide": "Collect for a defined purpose.\nCheck recipient and necessary contents.\nEscalate incidents through the authorised route."
+        },
+        {
+          "order": 3,
+          "heading": "Keep professional judgement accountable",
+          "explanation": [
+            "A remote appointment is a service arrangement, not just a connection. Check whether the setting and channel are suitable, explain relevant privacy limits and agree what happens if the connection fails. Use approved local procedures for urgent concerns; a remote session must not become a reason to delay required action. Revisit suitability when circumstances change.",
+            "Treat an automated summary as a draft that may contain unsupported statements or omit relevant context. Use only an authorised workflow for sensitive information, compare the draft with verified records and document substantive corrections. Partial name removal may leave a person identifiable through other details. Before relying on automated prioritisation, examine errors and who could be disadvantaged, not only average performance. Record the reasons for the professional decision and the advice sought. The worker's responsibility is not transferred to a tool."
+          ],
+          "example": "Fictional worked example: an authorised summarisation tool changes 'requested information about a referral' into 'referral completed'. The worker checks the source notes, corrects the draft, records the correction and raises the recurrent error with the service lead before wider use.",
+          "activity": "Write a verification checklist for an automated appointment summary, and a fallback plan for an unsuitable or disconnected remote appointment.",
+          "feedback": "The checklist verifies statements against sources, checks omissions, protects case information, identifies a responsible human and defines a safe local fallback.",
+          "slide": "Recheck suitability during remote work.\nVerify AI drafts against the record.\nExplain the human decision and its limits."
+        }
+      ]
+    },
+    {
+      "code": "SWP-032",
+      "references": [
+        "R2",
+        "S3",
+        "S4"
+      ],
+      "case": "A riverside community is considering a raised meeting centre, drainage improvements and transport support during severe weather. Market traders worry about losing work during construction. People in outlying streets say previous planning meetings were difficult to attend. Compare options without assuming that one design benefits everyone equally.",
+      "modules": [
+        {
+          "order": 1,
+          "heading": "Understand unequal risk and existing capacity",
+          "explanation": [
+            "Separate the physical hazard from who or what is exposed and the conditions that affect people's ability to respond. A flood map can help locate exposure but does not reveal every barrier to evacuation, income security or access to care. Combine appropriate technical information with residents' accounts. Record the source, date and uncertainty of each statement. Do not attribute a particular event to climate change without suitable specialist evidence.",
+            "Map strengths alongside constraints: neighbours, local organisations, transport arrangements and knowledge can inform planning. Ask whose views are missing from meetings and offer accessible ways to contribute before choices are fixed. If relocation is discussed, investigate effects on livelihoods, services and relationships, as well as physical safety. Moving people is not in itself evidence that a fair or workable outcome has been achieved."
+          ],
+          "example": "Fictional worked example: the project map shows two streets with similar flood exposure. Residents identify different transport access and work schedules. Planners record these differences and invite missing groups to discuss options rather than treating a single meeting as representative.",
+          "activity": "Create a risk-and-capacity map in words for the riverside case. Separate observed information, resident accounts and questions requiring technical advice.",
+          "feedback": "The map includes both capacities and barriers, missing voices and source uncertainty. It avoids unsupported event attribution and does not equate attendance with representation.",
+          "slide": "Distinguish hazard, exposure and vulnerability.\nRecord local capacities as well as constraints.\nAsk whose perspective is missing."
+        },
+        {
+          "order": 2,
+          "heading": "Compare options over their whole life",
+          "explanation": [
+            "Co-design requires room to change the proposal. Explain what decisions are still open, which constraints are real and who can authorise changes. Compare alternatives using agreed criteria such as accessibility, disruption, maintenance, responsible ownership and possible harm elsewhere. Do not reduce the comparison to initial cost or attendance at a consultation.",
+            "An option that protects one location can impose burdens on another. Ask who may lose access, time or income and seek technical advice about effects beyond the site. Consider the operating life: a facility without a workable maintenance plan may not remain useful. When resident experience and technical advice differ, document the difference and investigate it. Neither automatic dismissal of local knowledge nor unsupported rejection of expertise provides a sound decision."
+          ],
+          "example": "Fictional worked example: residents support the raised centre but identify an inaccessible approach route. The team revises the access design, checks its feasibility with qualified advisers and identifies responsibility for maintaining the route before treating the option as ready.",
+          "activity": "Compare two options from the course case against access, burden distribution, upkeep and decision authority. State what evidence is still needed.",
+          "feedback": "The comparison explains trade-offs and who bears them, includes operating responsibilities, and leaves unresolved technical questions open rather than inventing answers.",
+          "slide": "Keep choices open during co-design.\nCheck who benefits and who bears new burdens.\nPlan access and maintenance together."
+        },
+        {
+          "order": 3,
+          "heading": "Make distribution and follow up visible",
+          "explanation": [
+            "A fair transition asks who gains and who loses access or livelihood as decisions change. Invite affected workers and communities to influence the response within clearly stated decision boundaries. Make commitments specific enough to follow: identify the responsible person, the action and a review point. An accessible complaint route also needs a responder and a way to learn whether concerns were addressed.",
+            "Monitor the distribution of benefits where collecting and reporting that information is safe and useful. A service-wide average can hide an excluded group, but small-group reporting can expose individuals. Use proportionate categories and protect confidential detail. Match advocacy claims to evidence and state uncertainty. If monitoring reveals new burdens, consult affected people and use the authorised adjustment process; avoid claiming success solely because construction or spending finished."
+          ],
+          "example": "Fictional worked example: the centre opens, but traders report that the new route lengthens their journey. The project lead records the concern, checks it with affected users and technical advisers, and seeks approval for an adjustment. The public update explains what changed without naming complainants.",
+          "activity": "Draft a short accountability plan: one benefit measure, one burden measure, a protected feedback route, an action owner and a review decision.",
+          "feedback": "The plan can reveal uneven effects, protects complainants, assigns responsibility and explains when evidence would trigger a change.",
+          "slide": "Track benefits and burdens separately.\nMake feedback accessible and assign a responder.\nAdjust when new harms emerge."
+        }
+      ]
+    },
+    {
+      "code": "SWP-033",
+      "references": [
+        "R3",
+        "S2",
+        "S4"
+      ],
+      "case": "A community programme is expanding its outreach sessions. Two teams share staff, a manager has a personal connection to a potential supplier, and delayed referrals are adding pressure. The board wants more sessions, while workers report that preparation and follow-up time are insufficient.",
+      "modules": [
+        {
+          "order": 1,
+          "heading": "Clarify authority before acting",
+          "explanation": [
+            "Delegation should explain which decisions a worker can make, the limits, the available support and when to seek approval. Being responsible for a programme does not confer every specialist competence. Distinguish routine coordination from decisions reserved for a qualified practitioner, budget holder or governing body. Record authority alongside the reasons for a decision so another person can understand how it was made.",
+            "Invite relevant perspectives before the choice is settled. Record significant disagreement and how it was considered; uniform-looking minutes are not proof of inclusion. A personal or financial interest can compromise trust even if the person believes they can remain impartial. Disclose the interest and follow the organisation's independent decision process. Do not quietly resolve the issue by giving yourself permission or asking only people who benefit from the proposal."
+          ],
+          "example": "Fictional worked example: the manager declares the supplier connection before procurement decisions. An authorised independent person handles the selection under policy. The record identifies the decision owner, criteria, reasons and review point rather than simply stating that the team agreed.",
+          "activity": "Write a short delegation note for the outreach coordinator. Include one permitted decision, one limit, a support contact and an escalation route.",
+          "feedback": "Authority is explicit and bounded. The response separates management authority from specialist competence and describes a transparent conflict-of-interest process.",
+          "slide": "State the decision and its delegated limits.\nDisclose conflicts before deciding.\nRecord authority, reasons and review point."
+        },
+        {
+          "order": 2,
+          "heading": "Use supervision for reflection and safe action",
+          "explanation": [
+            "A supervision agreement should make purpose, roles, frequency, records and confidentiality limits clear. Use it to distinguish administrative oversight, learning and support. Reflective discussion starts with a specific situation: what happened, what was observed, what was assumed and how emotions affected the response. Explore alternatives and agree a learning action with a review point. Reflection is not a substitute for immediate safeguarding or incident action.",
+            "Give feedback about observable behaviour and its effect, then invite the worker's account before deciding an improvement. Avoid treating all difficulties as personal resilience failures. Repeated overload can reflect workload allocation, task design, staffing or unclear priorities. Review these conditions within managerial authority and escalate what cannot safely be resolved. Supervision supports professional work; it does not authorise practice outside competence or replace specialist care."
+          ],
+          "example": "Fictional worked example: a worker misses follow-up tasks after extra sessions are added. The supervisor reviews the actual demands, hears the worker's account and agrees a manageable priority plan. The manager reviews capacity rather than only recommending a wellbeing exercise.",
+          "activity": "Prepare a supervision agenda for the outreach case with a reflection question, a specific feedback observation, an agreed action and an urgent-issue route.",
+          "feedback": "The agenda balances learning and support with accountability, tests assumptions, addresses work design and does not postpone urgent concerns until the next meeting.",
+          "slide": "Explore observations, assumptions and alternatives.\nAgree a feasible action and review.\nEscalate urgent concerns without waiting."
+        },
+        {
+          "order": 3,
+          "heading": "Manage delivery and learn from variation",
+          "explanation": [
+            "Compare the intended plan with actual delivery before deciding why a difference occurred. A missed target may involve access barriers, unavailable staff or an unrealistic assumption; the count alone cannot identify the cause. Keep an issue record with the impact, action owner, next step and review date. Distinguish outputs, such as sessions held, from outcomes, such as whether participants obtained the intended support.",
+            "When a change is needed, state what will change, the expected effect, the resources and the safety implications. Check delegated limits before committing funds or altering scope. Define a review criterion that could show the change is not working. Learning requires a traceable adjustment, not silently redefining the target after results arrive. Use appropriate participant feedback with delivery information, and report uncertainty rather than promising that more activity necessarily creates better outcomes."
+          ],
+          "example": "Fictional worked example: the team has delivered more sessions but referral delays remain. It investigates the referral pathway and proposes a limited scheduling adjustment. The authorised manager approves a bounded trial with an owner and review date; the team tracks delays alongside session counts.",
+          "activity": "Write an issue log entry and a change proposal for the outreach programme. Give one output measure and one outcome-oriented measure.",
+          "feedback": "The entry explains impact and ownership. The proposal investigates causes, stays within authority and defines how service effects will be reviewed.",
+          "slide": "Investigate variation before changing the plan.\nSeparate activity counts from participant results.\nApprove and review bounded adjustments."
+        }
+      ]
+    },
+    {
+      "code": "SWP-034",
+      "references": [
+        "R4",
+        "S4"
+      ],
+      "case": "An advice centre wants to understand why some residents do not return after their first visit. Staff suggest a peer-navigation pilot. Residents want a say in the questions and how findings will be shared. The centre must keep service access separate from any choice to join the inquiry.",
+      "modules": [
+        {
+          "order": 1,
+          "heading": "Frame a question people can influence",
+          "explanation": [
+            "Start with an uncertainty that can be explored, not a conclusion to be confirmed. Specify the setting, whose experience matters and what decision the inquiry could inform. For example, asking what makes a return visit difficult leaves more room for learning than asking why residents fail to comply. Agree where community partners can influence questions, recruitment, interpretation and communication, and explain any genuine limits.",
+            "Participation must be a meaningful choice. Separate research invitations from decisions about support and avoid suggesting that refusal will affect eligibility. Consider how staff authority, language, timing or compensation could affect participation. Agree co-researcher roles, support, information access and confidentiality before work begins. Keep a reflective note on assumptions and positional influence; reflection makes these influences discussable but does not remove bias."
+          ],
+          "example": "Fictional worked example: residents reshape the centre's question from 'How do we increase compliance?' to 'What makes a second visit useful or difficult?' The team provides a separate way to decline the inquiry without changing access to advice and agrees co-researcher responsibilities.",
+          "activity": "Write an answerable question for the advice centre, identify two decisions residents can influence, and explain how someone can refuse without losing services.",
+          "feedback": "The question does not presume its answer. Participation roles and limits are clear, refusal is feasible, and the response acknowledges power differences.",
+          "slide": "Ask an answerable question without assuming its answer.\nAgree meaningful influence and clear limits.\nKeep participation separate from service eligibility."
+        },
+        {
+          "order": 2,
+          "heading": "Interpret proportionate information carefully",
+          "explanation": [
+            "Collect only what the question needs. Where feasible, separate contact information used for recruitment from responses used for analysis, and restrict access appropriately. Removing names does not guarantee anonymity: a quotation, job role and location may identify someone together. Review what a reader could infer before sharing detailed accounts, and follow the approved consent and governance arrangements.",
+            "Recruitment shapes whose experiences you hear. Explain who was invited, who contributed and which perspectives may be missing. Do not claim that a small or self-selected sample represents every resident. Examine disagreement rather than discarding inconvenient accounts. If outcomes improve after a pilot, consider other changes, participant selection and measurement limits. A before-and-after difference alone does not establish that the pilot caused the improvement."
+          ],
+          "example": "Fictional worked example: only residents who returned answer a feedback form. The team reports their views as those of respondents, not all service users. It considers an approved, non-coercive way to hear from others and removes identifying contextual details from shared examples.",
+          "activity": "Draft a short limitations paragraph for feedback from a small, self-selected group. Identify a disclosure risk and an alternative explanation for an observed change.",
+          "feedback": "The paragraph limits generalisation, preserves conflicting views, recognises indirect identification and separates observed change from causal attribution.",
+          "slide": "Use only information needed for the question.\nCheck indirect identification and missing voices.\nReport change without inventing causation."
+        },
+        {
+          "order": 3,
+          "heading": "Run a bounded pilot with ethical oversight",
+          "explanation": [
+            "Define a pilot's purpose, scope, participants, responsible people and safeguards before starting. Ask the relevant local authority whether research-ethics or other governance review is needed; calling an activity a pilot does not exempt it. Record the determination and obtain required approval before collecting information. Agree conditions for continuing, changing or pausing, including emerging harm or exclusion.",
+            "Keep a dated record of changes so findings can be interpreted against the version participants experienced. When a pause condition occurs, use the agreed review route rather than continuing simply to meet a schedule. Return findings in an understandable and accessible form, explain limitations and what decisions followed, and provide a feasible response route. This feedback closes the accountability loop without promising that every suggestion can be implemented."
+          ],
+          "example": "Fictional worked example: the peer-navigation pilot excludes residents who cannot attend daytime meetings. The team uses its review process to pause expansion, discusses alternatives with affected residents, records an approved schedule change and explains the limits of the early findings.",
+          "activity": "Create a one-page pilot brief with scope, oversight, a pause trigger, a change record and a plan for returning findings.",
+          "feedback": "The brief identifies required review before data collection, makes pause criteria actionable, records versions and explains how participants will hear and respond to findings.",
+          "slide": "Obtain the relevant governance determination first.\nDefine continue, change and pause criteria.\nRecord adaptations and return useful findings."
+        }
+      ]
+    }
+  ]
+}

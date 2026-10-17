@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "teaching_source_sha256": "8a19435f703620aa5e99f3c710367e4210117166bb8247a23077bda3a34e6cb9",
+  "assessment_source_sha256": "625bd7614e29a11f6e0bc1aa6d56e6e2cd1dd2876f00021a93d039b9dfd10a40",
+  "owner_authorized": true,
+  "independent_subject_matter_review": false,
+  "visual_review_complete": true,
+  "manifest_sha256": "ec850f7d192dbb50f9f57fda54a922647e8c0b48932784eb5fd84b1239c72f45",
+  "visual_review": {
+    "date": "2026-10-17",
+    "docx_files": 20,
+    "docx_pages_reviewed": 56,
+    "pdf_files": 8,
+    "pdf_pages_reviewed": 32,
+    "pptx_files": 4,
+    "slides_reviewed": 35,
+    "result": "All rendered pages and slides inspected; no clipping, overlap or unreadable text found. Inherited Word title borders removed and final files rerendered.",
+    "docx_renderer": "Isolated LibreOffice 26.8.1 with bundled render_docx and Poppler",
+    "qa_locations": ["qa/f", "qa/pdf-final", "qa/decks"]
+  },
+  "published": false,
+  "coverage": [
+    {
+      "course": "SWP-031",
+      "module": 1,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-031",
+      "module": 2,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-031",
+      "module": 3,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-032",
+      "module": 1,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-032",
+      "module": 2,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-032",
+      "module": 3,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-033",
+      "module": 1,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-033",
+      "module": 2,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-033",
+      "module": 3,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-034",
+      "module": 1,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-034",
+      "module": 2,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    },
+    {
+      "course": "SWP-034",
+      "module": 3,
+      "taught_decision_points": 5,
+      "activity": true,
+      "worked_example": true
+    }
+  ]
+}

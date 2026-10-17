@@ -58,7 +58,8 @@ class CoreViewsTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Child Welfare Toolkit")
 
-    def test_foundation_orientation_is_hidden_until_curriculum_approval(self):
+    @override_settings(FOUNDATION_ORIENTATION_ENABLED=False)
+    def test_foundation_orientation_can_be_disabled(self):
         response = self.client.get(reverse("foundation_orientation"))
         self.assertEqual(response.status_code, 404)
         self.assertNotContains(self.client.get(reverse("home")), "Start Here")
@@ -70,6 +71,9 @@ class CoreViewsTests(TestCase):
         self.assertContains(response, "Foundations of Social Work")
         self.assertContains(response, "not an eleventh School or a catalogue course")
         self.assertContains(response, "No assessment")
+        self.assertContains(response, "A person-in-environment perspective")
+        self.assertContains(response, "Try it:", count=3)
+        self.assertNotContains(response, "&#127793;")
         self.assertContains(self.client.get(reverse("home")), "Start Here")
 
     def test_render_archive_explains_historical_records(self):
