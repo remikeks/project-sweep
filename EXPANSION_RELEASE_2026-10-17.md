@@ -53,4 +53,18 @@ Owner authorization to generate and deploy is recorded in
 accreditation is claimed. Further research enrichment of the original 30 courses
 has not started; it follows completion of these release phases.
 
-Deployment status is reported separately after Vercel confirms readiness.
+## Deployment receipt
+
+Production deployment `dpl_3BtHx1yALydx9SaTFPHthKMhPWBP` was confirmed **Ready**
+on 2026-10-17. Deployed application commit: `7a3671c` (including curriculum
+implementation `0ddd087`).
+
+- Deployment: https://sweep-academy-ovo2zqnqu-evanders-projects-83d1e543.vercel.app
+- Production alias: https://sweepacademy.org
+- Browser verification: https://sweepacademy.org/orientation/ displayed all three
+  completed lessons, reflection activities, scope limits and ethical reference.
+- Git copies of the manifest, teaching source and assessment source were
+  checked against the review receipt: all three SHA-256 checks passed.
+
+This confirms application deployment and staged content migration, not activation
+of the four courses. The ParaLearn sign-in dependency above remains unresolved.
