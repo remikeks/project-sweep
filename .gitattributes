@@ -3,4 +3,5 @@
 *.pdf binary
 *.pptx binary
 production_courseware/expansion_review/*.json text eol=lf
-production_courseware/drafts/expansion-evidence-2026-10-17/*.json text eol=lf
+# Review receipts hash these exact source bytes, including their line endings.
+production_courseware/drafts/expansion-evidence-2026-10-17/*.json -text
