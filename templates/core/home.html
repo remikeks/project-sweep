@@ -277,7 +277,7 @@
                   <p>{{ course.summary }}</p>
                   <p class="meta">
                     {{ course.get_difficulty_display }} · Est. {{ course.estimated_minutes }} min ·
-                    {{ course.question_count }} question{{ course.question_count|pluralize }}
+                    {% include "courses/assessment_label.html" with course=course %}
                   </p>
                 </div>
                 <div class="featured-visual">

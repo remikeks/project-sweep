@@ -69,6 +69,17 @@ class CourseDetailAccessTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Enrolled")
 
+    def test_catalogue_identifies_provider_assessment_not_obsolete_local_count(self):
+        self.course.paralearn_assessment_id = "exam-real-provider-id"
+        self.course.save(update_fields=["paralearn_assessment_id"])
+        response = self.client.get(reverse("course_list"))
+        self.assertContains(response, "ParaLearn assessment")
+        self.assertNotContains(response, "0 questions")
+
+    def test_catalogue_does_not_imply_an_unmapped_assessment_is_available(self):
+        response = self.client.get(reverse("course_list"))
+        self.assertContains(response, "Assessment pending")
+
     def test_enrollment_redirects_to_the_first_module(self):
         user = get_user_model().objects.create_user(username="student2", password="secret123")
         CourseModule.objects.create(
@@ -366,7 +377,7 @@ class ParaLearnAssessmentTests(TestCase):
             "examCode": "SWEEP-101",
             "attemptId": "provider-attempt-001",
             "externalAttemptId": str(attempt.pk),
-            "studentId": str(identity.external_id),
+            "studentId": str(attempt.provider_student_id or identity.external_id),
             "candidateName": "Assessment Learner",
             "candidatePin": "849201",
             "email": self.user.email,
@@ -391,6 +402,7 @@ class ParaLearnAssessmentTests(TestCase):
             "metadata": {
                 "sweepLearnerId": str(identity.external_id),
                 "sweepAttemptId": str(attempt.pk),
+                **({"sweepCandidateId": str(attempt.provider_student_id)} if attempt.provider_student_id else {}),
             },
         }
         payload.update(overrides)
@@ -401,7 +413,7 @@ class ParaLearnAssessmentTests(TestCase):
         payload = {
             "attemptId": "provider-attempt-001",
             "externalAttemptId": str(attempt.pk),
-            "studentId": str(identity.external_id),
+            "studentId": str(attempt.provider_student_id or identity.external_id),
             "examId": self.course.paralearn_assessment_id,
             "examCode": "SWEEP-101",
             "examTitle": "SWEEP assessment",
@@ -434,6 +446,7 @@ class ParaLearnAssessmentTests(TestCase):
             "metadata": {
                 "sweepLearnerId": str(identity.external_id),
                 "sweepAttemptId": str(attempt.pk),
+                **({"sweepCandidateId": str(attempt.provider_student_id)} if attempt.provider_student_id else {}),
             },
         }
         payload.update(overrides)
@@ -629,7 +642,7 @@ class ParaLearnAssessmentTests(TestCase):
 
         self.assertEqual(response.status_code, 422)
         event = ParaLearnWebhookEvent.objects.get(event_id="evt-001")
-        self.assertIn("learner ID", event.processing_error)
+        self.assertIn("candidate ID", event.processing_error)
         self.assertFalse(Badge.objects.filter(user=self.user, course=self.course).exists())
 
     def test_signed_result_for_a_different_learner_is_audited_but_never_awards(self):
@@ -730,7 +743,7 @@ class ParaLearnAssessmentTests(TestCase):
         resolve_attempt_id.assert_called_once_with(
             exam_id=self.course.paralearn_assessment_id, candidate_id="candidate-001",
             external_attempt_id=str(attempt.pk),
-            student_id=str(ParaLearnLearnerIdentity.objects.get(user=self.user).external_id),
+            student_id=str(attempt.provider_student_id),
         )
 
     @patch("learning.assessment_services.ParaLearnClient.fetch_result")
@@ -795,6 +808,48 @@ class ParaLearnAssessmentTests(TestCase):
             award_badge(self.user, self.course, verified_attempt=attempt)
         self.assertFalse(Badge.objects.filter(user=self.user, course=self.course).exists())
 
+    def test_new_attempts_have_distinct_persisted_provider_student_ids(self):
+        first = create_assessment_attempt(user=self.user, course=self.course)
+        second = create_assessment_attempt(user=self.user, course=self.course)
+        self.assertNotEqual(first.provider_student_id, second.provider_student_id)
+        original = first.provider_student_id
+        first.refresh_from_db()
+        self.assertEqual(first.provider_student_id, original)
+        self.assertEqual(ParaLearnLearnerIdentity.objects.filter(user=self.user).count(), 1)
+
+    @patch("learning.assessment_services.ParaLearnClient.fetch_result")
+    def test_legacy_attempt_with_learner_identity_still_reconciles(self, fetch_result):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        attempt.provider_student_id = None
+        attempt.save(update_fields=["provider_student_id"])
+        fetch_result.return_value = self._result_slip(attempt)
+        self.client.post(reverse("paralearn_reconcile_result", kwargs={"attempt_id": attempt.pk}))
+        attempt.refresh_from_db()
+        self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.PASSED)
+
+    @patch("learning.assessment_services.ParaLearnClient.fetch_result")
+    def test_correct_candidate_with_wrong_learner_metadata_is_rejected(self, fetch_result):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        payload = self._result_slip(attempt)
+        payload["metadata"]["sweepLearnerId"] = "another-learner"
+        fetch_result.return_value = payload
+        self.client.post(reverse("paralearn_reconcile_result", kwargs={"attempt_id": attempt.pk}))
+        attempt.refresh_from_db()
+        self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.RECONCILIATION_FAILED)
+        self.assertFalse(Badge.objects.filter(user=self.user).exists())
+
+    @patch("learning.assessment_services.ParaLearnClient.fetch_result")
+    def test_pending_slip_from_another_candidate_is_rejected(self, fetch_result):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        other = create_assessment_attempt(user=self.user, course=self.course)
+        payload = self._result_slip(attempt, status="IN_PROGRESS", studentId=str(other.provider_student_id))
+        payload["metadata"]["sweepCandidateId"] = str(other.provider_student_id)
+        fetch_result.return_value = payload
+        self.client.post(reverse("paralearn_reconcile_result", kwargs={"attempt_id": attempt.pk}))
+        attempt.refresh_from_db()
+        self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.RECONCILIATION_FAILED)
+        self.assertIsNone(attempt.provider_attempt_id)
+
     @patch("learning.paralearn.urlopen")
     def test_client_provisions_candidate_using_the_confirmed_contract(self, urlopen):
         attempt = create_assessment_attempt(user=self.user, course=self.course)
@@ -822,12 +877,13 @@ class ParaLearnAssessmentTests(TestCase):
             {
                 "examId": "pl-course-101",
                 "candidateName": "assessment-learner",
-                "studentId": str(identity.external_id),
+                "studentId": str(attempt.provider_student_id),
                 "externalAttemptId": str(attempt.pk),
                 "email": "learner@example.test",
                 "metadata": {
                     "sweepLearnerId": str(identity.external_id),
                     "sweepAttemptId": str(attempt.pk),
+                    "sweepCandidateId": str(attempt.provider_student_id),
                 },
             },
         )

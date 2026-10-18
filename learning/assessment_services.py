@@ -128,7 +128,10 @@ def _parse_correlation(
         if mapped_attempt is not None and mapped_attempt != str(attempt_reference):
             raise AssessmentResultError("Result metadata does not match its external attempt ID.")
         mapped_learner = metadata.get("sweepLearnerId")
-        if mapped_learner is not None and mapped_learner != student_id_text:
+        mapped_candidate = metadata.get("sweepCandidateId")
+        if mapped_candidate is not None and mapped_candidate != student_id_text:
+            raise AssessmentResultError("Result metadata does not match its candidate ID.")
+        if mapped_candidate is None and mapped_learner is not None and mapped_learner != student_id_text:
             raise AssessmentResultError("Result metadata does not match its learner ID.")
     return attempt_reference, student_id
 
@@ -223,10 +226,10 @@ def parse_result_slip(
 
 
 def create_assessment_attempt(*, user, course) -> CourseAssessmentAttempt:
-    """Create the local attempt and its opaque, stable ParaLearn learner ID."""
+    """Create an attempt with stable learner and per-attempt provider identities."""
     with transaction.atomic():
         ParaLearnLearnerIdentity.objects.get_or_create(user=user)
-        return CourseAssessmentAttempt.objects.create(user=user, course=course)
+        return CourseAssessmentAttempt.objects.create(user=user, course=course, provider_student_id=uuid.uuid4())
 
 
 def _set_launch_failure(attempt_id, message: str) -> CourseAssessmentAttempt:
@@ -307,8 +310,11 @@ def _apply_result(
             identity = ParaLearnLearnerIdentity.objects.get(user=attempt.user)
         except ParaLearnLearnerIdentity.DoesNotExist as exc:
             raise AssessmentResultError("Result has no mapped SWEEP learner identity.") from exc
-        if result.student_id != identity.external_id:
+        if result.student_id != (attempt.provider_student_id or identity.external_id):
             raise AssessmentResultError("Result learner identifier does not match the assessment owner.")
+        metadata = payload.get("metadata") or {}
+        if metadata.get("sweepLearnerId") not in (None, str(identity.external_id)):
+            raise AssessmentResultError("Result metadata belongs to another learner.")
         if attempt.provider_attempt_id and attempt.provider_attempt_id != result.provider_attempt_id:
             raise AssessmentResultError("Result provider attempt identifier does not match the launched attempt.")
         if CourseAssessmentAttempt.objects.filter(
@@ -523,7 +529,7 @@ def reconcile_assessment_attempt(*, attempt: CourseAssessmentAttempt, client=Non
             provider_id = client.resolve_attempt_id(
                 exam_id=attempt.course.paralearn_assessment_id,
                 candidate_id=attempt.provider_candidate_id,
-                external_attempt_id=str(attempt.pk), student_id=str(identity.external_id),
+                external_attempt_id=str(attempt.pk), student_id=str(attempt.provider_student_id or identity.external_id),
             )
             payload = client.fetch_result(attempt_reference=provider_id)
     except ParaLearnResultNotFoundError:
@@ -534,6 +540,9 @@ def reconcile_assessment_attempt(*, attempt: CourseAssessmentAttempt, client=Non
 
     try:
         slip = parse_result_slip(payload, expected_attempt_id=attempt.pk)
+        identity = ParaLearnLearnerIdentity.objects.get(user=attempt.user)
+        if slip.exam_id != attempt.course.paralearn_assessment_id or slip.student_id != (attempt.provider_student_id or identity.external_id):
+            raise AssessmentResultError("Result slip does not match this exam and candidate.")
         if slip.status == "IN_PROGRESS":
             return _record_pending_result(
                 attempt=attempt,

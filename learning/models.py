@@ -164,6 +164,9 @@ class CourseAssessmentAttempt(models.Model):
     # ``externalAttemptId`` and uses that stable UUID for relaunch correlation.
     launch_idempotency_key = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
     provider_candidate_id = models.CharField(max_length=200, blank=True, null=True)
+    # New attempts use their own opaque provider student ID so ParaLearn can
+    # issue a new candidate/PIN. Null preserves pre-migration learner IDs.
+    provider_student_id = models.UUIDField(null=True, blank=True, editable=False)
     provider_attempt_id = models.CharField(max_length=200, blank=True, null=True)
     provider_result_id = models.CharField(max_length=200, blank=True, null=True)
     status = models.CharField(max_length=30, choices=Status.choices, default=Status.CREATED)

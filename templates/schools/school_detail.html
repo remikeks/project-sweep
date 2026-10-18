@@ -97,7 +97,7 @@
         <span class="badge-pill {{ row.course.difficulty }}">{{ row.course.get_difficulty_display }}</span>
         <h3><a href="{% url 'course_detail' row.course.slug %}">{{ row.course.title }}</a></h3>
         <p>{{ row.course.summary }}</p>
-        <p class="meta">{{ row.course.estimated_minutes }} min · {{ row.course.question_count }} question{{ row.course.question_count|pluralize }}</p>
+        <p class="meta">{{ row.course.estimated_minutes }} min · {% include "courses/assessment_label.html" with course=row.course %}</p>
         {% if row.progress %}
           <span class="badge-pill status-{{ row.progress.status }}">{{ row.progress.get_status_display }}</span>
         {% endif %}

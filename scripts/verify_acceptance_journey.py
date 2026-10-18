@@ -162,7 +162,7 @@ def run_acceptance_test():
             "timestamp": now_iso,
             "status": "SUBMITTED",
             "externalAttemptId": str(attempt.id),
-            "studentId": str(identity.external_id),
+            "studentId": str(attempt.provider_student_id or identity.external_id),
             "attemptId": f"pla_{uuid.uuid4().hex[:12]}",
             "examId": course.paralearn_assessment_id,
             "percentage": 85.0,

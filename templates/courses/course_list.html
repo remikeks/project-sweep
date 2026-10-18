@@ -66,7 +66,7 @@
         <span class="badge-pill {{ course.difficulty }}">{{ course.get_difficulty_display }}</span>
         <h3><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a></h3>
         <p>{{ course.summary }}</p>
-        <p class="meta">{{ course.estimated_minutes }} min · {{ course.question_count }} question{{ course.question_count|pluralize }}</p>
+        <p class="meta">{{ course.estimated_minutes }} min · {% include "courses/assessment_label.html" with course=course %}</p>
         {% if course.id in completed_course_ids %}
           <span class="badge-pill status-completed">Completed</span>
         {% elif course.id in enrolled_course_ids %}

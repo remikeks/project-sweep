@@ -87,7 +87,8 @@ class ParaLearnClient:
     """Client for candidate provisioning and result-slip retrieval.
 
     SWEEP supplies its local attempt UUID as ParaLearn's ``externalAttemptId``
-    and a separately generated opaque learner UUID as ``studentId``. The
+    and a persisted opaque per-attempt candidate UUID as ``studentId``. Legacy
+    attempts retain their original learner UUID. The
     provider returns a hosted Candidate Gate deep link; SWEEP never constructs
     that URL or handles the candidate PIN itself.
     """
@@ -184,12 +185,13 @@ class ParaLearnClient:
             {
                 "examId": attempt.course.paralearn_assessment_id,
                 "candidateName": attempt.user.get_full_name() or attempt.user.get_username(),
-                "studentId": str(learner_identity.external_id),
+                "studentId": str(attempt.provider_student_id or learner_identity.external_id),
                 "externalAttemptId": str(attempt.id),
                 "email": attempt.user.email,
                 "metadata": {
                     "sweepLearnerId": str(learner_identity.external_id),
                     "sweepAttemptId": str(attempt.id),
+                    **({"sweepCandidateId": str(attempt.provider_student_id)} if attempt.provider_student_id else {}),
                 },
             },
         )

@@ -30,9 +30,14 @@ HMAC defaults are `x-cbt-signature`, `sha256=`, and `hmac-sha256`.
 
 `CourseAssessmentAttempt.id` is a SWEEP UUID. It is sent as both
 `externalAttemptId` and `metadata.sweepAttemptId`. Each learner receives one
-persisted, opaque `ParaLearnLearnerIdentity.external_id` UUID; it is sent as
-`studentId` and `metadata.sweepLearnerId`. This avoids exposing a Django user
-primary key and makes relaunches and signed results deterministic.
+persisted, opaque `ParaLearnLearnerIdentity.external_id` UUID, sent as
+`metadata.sweepLearnerId`. New attempts also have a persisted, opaque
+`provider_student_id`, sent as `studentId` and `metadata.sweepCandidateId`.
+ParaLearn deduplicates candidates within an exam by student ID, so a distinct
+per-attempt ID permits genuine retakes while retries reuse the same candidate.
+Neither identifier exposes a Django user primary key. Attempts predating this
+change keep a null `provider_student_id` and use their original learner UUID;
+their records, signed results and credentials are not rewritten.
 
 `Course.paralearn_assessment_id` must contain the ParaLearn `examId` for that
 course. ParaLearn's own candidate ID (`cand_…`) and submitted-attempt ID
@@ -53,12 +58,13 @@ Content-Type: application/json
 {
   "examId": "<Course.paralearn_assessment_id>",
   "candidateName": "<learner display name>",
-  "studentId": "<stable SWEEP learner UUID>",
+  "studentId": "<persisted per-attempt provider-student UUID>",
   "externalAttemptId": "<SWEEP assessment-attempt UUID>",
   "email": "<learner email>",
   "metadata": {
     "sweepLearnerId": "<stable SWEEP learner UUID>",
-    "sweepAttemptId": "<SWEEP assessment-attempt UUID>"
+    "sweepAttemptId": "<SWEEP assessment-attempt UUID>",
+    "sweepCandidateId": "<persisted per-attempt provider-student UUID>"
   }
 }
 ```
@@ -69,9 +75,10 @@ and hosted by an allow-listed ParaLearn host, records only the candidate ID,
 then redirects the learner to the returned hosted URL. It never constructs an
 SSO URL or persists the candidate PIN.
 
-Launch retry keeps the same local attempt UUID, so ParaLearn can resume or
-deduplicate the candidate session using `externalAttemptId`. A failed launch
-can be retried without creating another course attempt.
+Launch retry keeps the same local attempt UUID and provider-student UUID, so
+ParaLearn can resume the same candidate. A failed launch can be retried without
+creating another course attempt. A new attempt gets a new provider-student UUID
+and therefore a distinct provider candidate and PIN.
 
 SWEEP never falls back to a manually constructed or raw `/take/<exam-code>`
 URL when provisioning is unavailable or fails. Such a launch would omit the
