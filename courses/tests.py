@@ -712,6 +712,27 @@ class ParaLearnAssessmentTests(TestCase):
         self.assertEqual(attempt.reconciliation_count, 1)
         self.assertFalse(Badge.objects.filter(user=self.user, course=self.course).exists())
 
+    @patch("learning.assessment_services.ParaLearnClient.resolve_attempt_id")
+    @patch("learning.assessment_services.ParaLearnClient.fetch_result")
+    def test_missing_webhook_resolves_internal_attempt_then_verifies_slip(self, fetch_result, resolve_attempt_id):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        attempt.provider_candidate_id = "candidate-001"
+        attempt.save(update_fields=["provider_candidate_id"])
+        resolve_attempt_id.return_value = "provider-attempt-001"
+        fetch_result.side_effect = [ParaLearnResultNotFoundError("external lookup unsupported"), self._result_slip(attempt)]
+        response = self.client.post(reverse("paralearn_reconcile_result", kwargs={"attempt_id": attempt.pk}))
+        self.assertEqual(response.status_code, 302)
+        attempt.refresh_from_db()
+        self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.PASSED)
+        self.assertEqual(attempt.provider_attempt_id, "provider-attempt-001")
+        self.assertNotIn("candidatePin", attempt.result_payload)
+        self.assertEqual(fetch_result.call_args.kwargs, {"attempt_reference":"provider-attempt-001"})
+        resolve_attempt_id.assert_called_once_with(
+            exam_id=self.course.paralearn_assessment_id, candidate_id="candidate-001",
+            external_attempt_id=str(attempt.pk),
+            student_id=str(ParaLearnLearnerIdentity.objects.get(user=self.user).external_id),
+        )
+
     @patch("learning.assessment_services.ParaLearnClient.fetch_result")
     def test_disqualified_result_slip_is_terminal_and_never_awards_badge(self, fetch_result):
         attempt = create_assessment_attempt(user=self.user, course=self.course)

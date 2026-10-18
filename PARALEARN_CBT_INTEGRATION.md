@@ -12,13 +12,13 @@ and result processing. A deployment must supply its workspace credentials from
 the secret manager before it can make an outbound request.
 
 ```text
-PARALEARN_API_BASE_URL=https://pln.ng/api/cbt
+PARALEARN_API_BASE_URL=https://cbt.pln.ng/api/cbt
 PARALEARN_API_KEY=<workspace API key>
 PARALEARN_API_KEY_HEADER=Authorization
 PARALEARN_API_KEY_PREFIX=Bearer 
 PARALEARN_CANDIDATE_PROVISION_PATH=/candidates
 PARALEARN_RESULT_PATH_TEMPLATE=/attempts/{attempt_reference}/slip
-PARALEARN_ALLOWED_LAUNCH_HOSTS=pln.ng
+PARALEARN_ALLOWED_LAUNCH_HOSTS=cbt.pln.ng
 PARALEARN_WEBHOOK_SIGNING_SECRET=<workspace webhook secret>
 ```
 
@@ -44,7 +44,7 @@ On the learner's launch action, SWEEP creates a local attempt, then performs an
 authenticated request only when the settings above are present:
 
 ```http
-POST https://pln.ng/api/cbt/candidates
+POST https://cbt.pln.ng/api/cbt/candidates
 Authorization: Bearer <workspace API key>
 Content-Type: application/json
 ```
@@ -121,10 +121,15 @@ ParaLearn exposes result slips at:
 GET /api/cbt/attempts/{attemptId}/slip
 ```
 
-The endpoint accepts either ParaLearn's internal `attemptId` or SWEEP's
-`externalAttemptId`. SWEEP uses the internal ID when it already knows it and
-otherwise uses its local attempt UUID. The documented template is enabled when
-workspace credentials are present:
+Live verification on 2026-10-18 confirmed that the current endpoint requires
+ParaLearn's internal `attemptId`; an external SWEEP UUID returns 404. When no
+provider ID is known, SWEEP retains the legacy external lookup, then resolves
+the internal ID through authenticated `GET /exams/{examId}/monitor`. Resolution
+requires the stored provider candidate ID, matching exam and external-attempt
+IDs, matching opaque learner UUID, and exactly one participant joined by the
+candidate PIN and learner UUID. Names are never identity keys. The PIN is used
+transiently and is not persisted. The resulting slip must pass the independent
+correlation checks below before a result can be applied. The template is:
 
 ```text
 PARALEARN_RESULT_PATH_TEMPLATE=/attempts/{attempt_reference}/slip
@@ -150,7 +155,10 @@ is retained for audit without repeating completion or badge work.
    SWEEP course's `paralearn_assessment_id`.
 2. Put the workspace key and webhook secret in the deployment secret manager.
 3. Configure the exact base URL, launch-host allow list, and webhook URL above.
-4. Send a non-production, correctly signed completion payload and confirm one
-   completion and one badge are recorded.
+4. Provision a clearly labelled synthetic candidate through SWEEP, start and
+   submit a real provider attempt, and confirm the provider's signed result is
+   received. Verify the authenticated slip and missed-webhook resolution too.
+   Test passing-score/badge rules in an isolated test database; do not fabricate
+   provider events or award credentials to real learners for verification.
 5. Keep the integration disabled whenever workspace credentials or signing
    details are unavailable.

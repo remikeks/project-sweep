@@ -199,7 +199,7 @@ class ParaLearnClient:
         )
 
     def fetch_result(self, *, attempt_reference: str) -> dict[str, Any]:
-        """Fetch a documented result slip by ParaLearn or SWEEP attempt ID."""
+        """Fetch a result slip; current ParaLearn requires its internal attempt ID."""
         if not result_reconciliation_is_configured():
             raise ParaLearnConfigurationError(
                 "ParaLearn result reconciliation is disabled until workspace credentials are configured."
@@ -217,3 +217,37 @@ class ParaLearnClient:
                 "ParaLearn result path must contain the {attempt_reference} placeholder."
             )
         return self._request_json("GET", path)
+
+    def resolve_attempt_id(self, *, exam_id, candidate_id, external_attempt_id, student_id):
+        """Resolve a missed-webhook attempt through the authenticated exam monitor.
+
+        Current v2 monitor participants omit externalAttemptId. Join only through
+        the stored provider candidate ID and its PIN, checking both opaque SWEEP
+        identifiers. PINs remain transient and are never returned or persisted.
+        The fetched slip must still pass the independent result identity checks.
+        """
+        if not candidate_id:
+            raise ParaLearnResultNotFoundError("No provider candidate has been provisioned.")
+        monitor = self._request_json("GET", f"/exams/{quote(exam_id, safe='')}/monitor")
+        if monitor.get("examId") != exam_id:
+            raise ParaLearnProtocolError("ParaLearn monitor belongs to another exam.")
+        candidates, participants = monitor.get("candidates"), monitor.get("participants")
+        if not isinstance(candidates, list) or not isinstance(participants, list):
+            raise ParaLearnProtocolError("ParaLearn monitor has invalid collections.")
+        matches = [c for c in candidates if isinstance(c, dict) and c.get("id") == candidate_id]
+        if not matches:
+            raise ParaLearnResultNotFoundError("Provider candidate is not yet available.")
+        if len(matches) != 1:
+            raise ParaLearnProtocolError("ParaLearn candidate identity is ambiguous.")
+        candidate = matches[0]
+        if (candidate.get("examId"), candidate.get("externalAttemptId"), candidate.get("studentId")) != (
+                exam_id, external_attempt_id, student_id):
+            raise ParaLearnProtocolError("ParaLearn candidate correlation does not match SWEEP.")
+        pin = self._required_text(candidate, "candidatePin")
+        matching_attempts = [p for p in participants if isinstance(p, dict)
+                             and p.get("candidatePin") == pin and p.get("studentId") == student_id]
+        if not matching_attempts:
+            raise ParaLearnResultNotFoundError("Candidate has not started an attempt yet.")
+        if len(matching_attempts) != 1:
+            raise ParaLearnProtocolError("ParaLearn attempt identity is ambiguous.")
+        return self._required_text(matching_attempts[0], "attemptId")

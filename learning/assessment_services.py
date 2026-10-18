@@ -511,12 +511,21 @@ def reconcile_assessment_attempt(*, attempt: CourseAssessmentAttempt, client=Non
 
     client = client or ParaLearnClient()
     try:
-        # ParaLearn accepts its internal ID or SWEEP's external attempt UUID.
-        # The latter lets SWEEP reconcile a candidate that has launched but has
-        # not yet reached the provider's assessment-start endpoint.
-        payload = client.fetch_result(
-            attempt_reference=attempt.provider_attempt_id or str(attempt.pk)
-        )
+        try:
+            # Retain compatibility with deployments accepting external UUIDs.
+            payload = client.fetch_result(
+                attempt_reference=attempt.provider_attempt_id or str(attempt.pk)
+            )
+        except ParaLearnResultNotFoundError:
+            if attempt.provider_attempt_id:
+                raise
+            identity = ParaLearnLearnerIdentity.objects.get(user=attempt.user)
+            provider_id = client.resolve_attempt_id(
+                exam_id=attempt.course.paralearn_assessment_id,
+                candidate_id=attempt.provider_candidate_id,
+                external_attempt_id=str(attempt.pk), student_id=str(identity.external_id),
+            )
+            payload = client.fetch_result(attempt_reference=provider_id)
     except ParaLearnResultNotFoundError:
         return _record_pending_result(attempt=attempt)
     except ParaLearnError as exc:
