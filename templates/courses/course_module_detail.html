@@ -39,6 +39,10 @@
     <div class="card"><strong>This module is locked.</strong><p>Complete the previous module to continue.</p></div>
   {% endif %}
 
+  {% if module_unlocked and research_reading %}
+    {% include "courses/research_reading.html" %}
+  {% endif %}
+
   {% if module_unlocked and module.module_summary %}
     <div class="card" style="margin-bottom:20px;">
       <h2>Module summary</h2>

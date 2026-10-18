@@ -1,0 +1,84 @@
+{
+  "version": "2026-10-19-batch-1",
+  "scope": "Six optional online readings; not a revision of downloadable packs, assessments or credentials. Index inclusion is metadata provenance, not endorsement or a quality rating.",
+  "readings": {
+    "SWP-003": {
+      "course_title": "Permanency Planning & Reunification",
+      "title": "Reunification evidence: context before transfer",
+      "citation": "Sibanda, S. (2025). Best practices for rendering family reunification services to children in alternative care placements in South Africa. Child Protection and Practice, 5, 100182.",
+      "doi": "10.1016/j.chipro.2025.100182",
+      "doaj_url": "https://doaj.org/article/0b5374ce057c4e04a36e6f207f9c3472",
+      "openalex_url": "https://openalex.org/W4410487368",
+      "evidence": "This exploratory mixed-methods study involved social workers at five South African child-protection organisations, using 15 interviews and 183 questionnaires. Its discussion of seven successful reunification narratives highlights communication, parental change and social-worker support.",
+      "limits": "These are context-specific accounts, not a randomized evaluation or a universal reunification checklist. Participation, contact or financial contributions alone do not establish safety. This reading does not replace local child-protection law, case-specific assessment or the child's views.",
+      "activity": "For a fictional reunification plan, separate three observations from three interpretations. Identify whose perspective is missing, what additional safety evidence is needed, and which decision requires authorised local review. Do not include an identifiable real case.",
+      "reflection": "Why can a successful case narrative suggest questions for assessment without proving that the same intervention will cause a safe outcome elsewhere?",
+      "verified_on": "2026-10-19"
+    },
+    "SWP-008": {
+      "course_title": "Motivational Interviewing",
+      "title": "Motivational interviewing: calibrating effectiveness claims",
+      "citation": "Frost, H., et al. (2018). Effectiveness of Motivational Interviewing on adult behaviour change in health and social care settings: A systematic review of reviews. PLOS ONE, 13(10), e0204890.",
+      "doi": "10.1371/journal.pone.0204890",
+      "doaj_url": "https://doaj.org/article/e6327e71579e49b8bc8800c8cae67a03",
+      "openalex_url": "https://openalex.org/W2897217960",
+      "evidence": "This overview included 104 reviews and searched through May 2018. Most meta-analysis evidence was rated low or very low quality; some comparisons supported small, mainly short-term benefits. The authors identified intervention-fidelity and reporting problems.",
+      "limits": "Do not translate this into a claim that motivational interviewing works for every person, behaviour or setting. This is a historical evidence overview, not a current treatment guideline or a substitute for supervised skills training.",
+      "activity": "Rewrite the claim 'motivational interviewing always changes behaviour' into a bounded statement naming an outcome, population and follow-up period. Then list what you would need to know about delivery fidelity and the comparison intervention before adopting the finding.",
+      "reflection": "How would you distinguish an intervention's popularity, the quality of its delivery, and the certainty of evidence about its outcomes?",
+      "verified_on": "2026-10-19"
+    },
+    "SWP-013": {
+      "course_title": "Community Needs Assessment",
+      "title": "Needs and assets: who frames the assessment?",
+      "citation": "Sheppard, S. M., & Fuerst, E. (2023). Reflections on evaluators' role in community needs assessment. Gateways, 16(2).",
+      "doi": "10.5130/ijcre.v16i2.8669",
+      "doaj_url": "https://doaj.org/article/12c245ac5178489882b192e1ca50a268",
+      "openalex_url": "https://openalex.org/W4390111970",
+      "evidence": "The authors reflect on a needs assessment supporting a community after a racially motivated mass shooting. They describe combining community-leader information with focus groups and surveys, and question whether an asset-based approach should have been introduced into a commissioned needs-based project.",
+      "limits": "This is reflective practice analysis, not a controlled comparison showing that one assessment model is superior. An assets lens must not erase unmet needs or override a community's priorities.",
+      "activity": "Draft four questions for a fictional community consultation: two about unmet needs and two about existing strengths. Explain who chooses the questions, who could be excluded, how disagreement will be recorded, and how the community will review the interpretation.",
+      "reflection": "When could reframing a needs assessment around strengths help the community, and when could it undermine the purpose residents agreed to?",
+      "verified_on": "2026-10-19"
+    },
+    "SWP-020": {
+      "course_title": "Behavioral & Emotional Support in Schools",
+      "title": "School-wide social-emotional learning: boundaries of transfer",
+      "citation": "Cipriano, C., et al. (2024). A systematic review and meta-analysis of the effects of universal school-based SEL programs in the United States: Considerations for marginalized students. Social and Emotional Learning: Research, Practice, and Policy, 3, 100029.",
+      "doi": "10.1016/j.sel.2024.100029",
+      "doaj_url": "https://doaj.org/article/52348baaa19342f48a01b0858091e273",
+      "openalex_url": "https://openalex.org/W4392145586",
+      "evidence": "This US-focused synthesis examined 90 studies of universal social-emotional learning, covering 47 programmes and 20,626 K–12 students. It reported benefits across several outcomes, but no overall follow-up effect at six months or longer after programmes ended.",
+      "limits": "Universal programmes are not equivalent to individual clinical care. Limited representation of some marginalized groups restricted subgroup analysis. Findings from US schools do not establish the same effects in a Nigerian school or justify using an unadapted programme.",
+      "activity": "Design a fictional pilot-review checklist covering language, disability access, student and family input, teacher preparation and follow-up. Choose one feasible outcome and explain how you would avoid mistaking a short-term change for a lasting effect.",
+      "reflection": "What additional local information is needed before selecting a programme, and which student needs still require individual support or referral?",
+      "verified_on": "2026-10-19"
+    },
+    "SWP-023": {
+      "course_title": "Diversion Programs & Restorative Justice",
+      "title": "Restorative conferencing: consent is part of the evidence",
+      "citation": "Strang, H., Sherman, L. W., Mayo-Wilson, E., Woods, D., & Ariel, B. (2013). Restorative Justice Conferencing (RJC) Using Face-to-Face Meetings of Offenders and Victims: Effects on Offender Recidivism and Victim Satisfaction. A Systematic Review. Campbell Systematic Reviews, 9(1).",
+      "doi": "10.4073/csr.2013.12",
+      "doaj_url": "https://doaj.org/article/a8fe1c7e7bc84b10b7739295a7d9f09d",
+      "openalex_url": "https://openalex.org/W2145719501",
+      "evidence": "This review synthesized ten randomized studies of face-to-face restorative conferences. It reported lower repeat offending on average and improved victim satisfaction in the studied settings. Consent from victims and offenders preceded random assignment.",
+      "limits": "The findings concern a particular form of conferencing among consenting participants, not every diversion or restorative programme. This older review does not establish current local eligibility rules, suitability in every case or a duty to participate.",
+      "activity": "For a fictional referral, draft questions about voluntary participation, safety, facilitation competence, support needs and alternatives. Separate research findings from legal eligibility decisions that only the relevant local authority can make.",
+      "reflection": "Why would compulsory attendance change both the ethical basis and the applicability of this evidence?",
+      "verified_on": "2026-10-19"
+    },
+    "SWP-026": {
+      "course_title": "Psychological First Aid",
+      "title": "Psychological first aid: support without overstating evidence",
+      "citation": "Hermosilla, S., et al. (2023; first published online 2022). We need to build the evidence: A systematic review of psychological first aid on mental health and well-being. Journal of Traumatic Stress, 36(1), 5–16.",
+      "doi": "10.1002/jts.22888",
+      "doaj_url": "",
+      "openalex_url": "https://openalex.org/W4307362488",
+      "evidence": "The review searched studies published before 9 March 2021 and included 12 studies with 1,437 participants. Only one was randomized. Although studies suggested positive outcomes, generally high risk of bias and inconsistent intervention components limited conclusions about efficacy.",
+      "limits": "Do not present PFA as proven to prevent PTSD or as a replacement for clinical assessment or treatment. This review describes evidence available by its search date, not every study published since then. Training satisfaction is not the same outcome as improved well-being among recipients.",
+      "activity": "Create a fictional programme-evaluation outline that distinguishes worker training outcomes from recipient outcomes. Describe consent, a proportionate follow-up measure and a referral boundary. Do not collect trauma narratives or identifiable health information for this learning exercise.",
+      "reflection": "How can a practitioner provide practical, respectful support while explaining uncertainty and recognising when additional qualified help is needed?",
+      "verified_on": "2026-10-19"
+    }
+  }
+}

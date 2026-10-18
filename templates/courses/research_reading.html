@@ -1,0 +1,19 @@
+<section class="card" style="margin-bottom:20px;" aria-labelledby="research-reading-title">
+  <p class="eyebrow">Optional research reading · Added {{ research_reading.verified_on }}</p>
+  <h2 id="research-reading-title">{{ research_reading.title }}</h2>
+  <p>{{ research_reading.citation }}</p>
+  <p><a href="https://doi.org/{{ research_reading.doi }}" target="_blank" rel="noopener noreferrer">Read the research article ↗</a></p>
+  <h3>What this source reports</h3>
+  <p>{{ research_reading.evidence }}</p>
+  <h3>Evidence limits</h3>
+  <p>{{ research_reading.limits }}</p>
+  <h3>SWEEP learning activity</h3>
+  <p>{{ research_reading.activity }}</p>
+  <p><strong>Reflection:</strong> {{ research_reading.reflection }}</p>
+  <details>
+    <summary>Source verification and scope</summary>
+    <p>Bibliographic identity was checked using Crossref and OpenAlex. {% if research_reading.doaj_url %}The article is also listed in DOAJ.{% endif %} Index inclusion is not an endorsement, quality rating or independent curriculum review.</p>
+    <p><a href="https://api.crossref.org/works/{{ research_reading.doi }}" target="_blank" rel="noopener noreferrer">Crossref metadata</a> · <a href="{{ research_reading.openalex_url }}" target="_blank" rel="noopener noreferrer">OpenAlex record</a>{% if research_reading.doaj_url %} · <a href="{{ research_reading.doaj_url }}" target="_blank" rel="noopener noreferrer">DOAJ record</a>{% endif %}</p>
+    <p>The summary is an introductory reading aid; the activity and reflection are SWEEP-authored. This optional online supplement does not change the downloadable course pack, assessment, completion requirements or credentials.</p>
+  </details>
+</section>

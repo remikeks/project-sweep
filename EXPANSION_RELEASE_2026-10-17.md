@@ -1,5 +1,9 @@
 # Curriculum expansion revision — 2026-10-17
 
+> Status update: the assessment import and publication gates below were completed
+> on 2026-10-18. The original dated receipt is retained as history. See
+> `EXPANSION_RELEASE_2026-10-19.md` for the current release and CI limitation.
+
 ## Completed and verified
 
 - Four version 1.1.0 packages: Digital Social Work Practice; Climate Justice and

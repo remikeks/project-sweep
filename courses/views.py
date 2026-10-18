@@ -19,6 +19,7 @@ from core.legacy_catalogue import LEGACY_COURSE_REDIRECTS, RENDER_ARCHIVE_PATH
 from schools.models import School
 
 from .models import Course, CourseAsset, CourseModule
+from .research_readings import reading_for_module
 from .content_api import (
     content_catalog,
     create_asset,
@@ -325,6 +326,7 @@ def course_module_detail(request, slug, module_order):
         "modules_complete": not current_module,
         "module_overview_html": render_course_markdown(module.overview),
         "module_content_html": render_course_markdown(module.content),
+        "research_reading": reading_for_module(course.course_code, module.order),
         "module_summary_html": render_course_markdown(module.module_summary),
         "knowledge_check_html": render_course_markdown(module.knowledge_check),
         "practical_activity_html": render_course_markdown(module.practical_activity),
