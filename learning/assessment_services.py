@@ -313,7 +313,14 @@ def _apply_result(
         if result.student_id != (attempt.provider_student_id or identity.external_id):
             raise AssessmentResultError("Result learner identifier does not match the assessment owner.")
         metadata = payload.get("metadata") or {}
-        if metadata.get("sweepLearnerId") not in (None, str(identity.external_id)):
+        # ParaLearn's hosted submission normalizes sweepLearnerId to studentId.
+        # Accept that exact candidate UUID as well as our original learner UUID;
+        # neither may point to an unrelated identity. The persisted attempt owner,
+        # exam, externalAttemptId and studentId remain independently verified.
+        expected_metadata_ids = {None, str(identity.external_id)}
+        if attempt.provider_student_id:
+            expected_metadata_ids.add(str(attempt.provider_student_id))
+        if metadata.get("sweepLearnerId") not in expected_metadata_ids:
             raise AssessmentResultError("Result metadata belongs to another learner.")
         if attempt.provider_attempt_id and attempt.provider_attempt_id != result.provider_attempt_id:
             raise AssessmentResultError("Result provider attempt identifier does not match the launched attempt.")

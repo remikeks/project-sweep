@@ -14,7 +14,7 @@ from types import SimpleNamespace
 from datetime import timedelta
 
 from courses.models import Choice, ContentUploadIntent, Course, CourseAsset, CourseModule, Question
-from learning.assessment_services import create_assessment_attempt
+from learning.assessment_services import create_assessment_attempt, reconcile_assessment_attempt
 from learning.models import (
     CourseAssessmentAttempt,
     CourseEnrollment,
@@ -456,6 +456,25 @@ class ParaLearnAssessmentTests(TestCase):
     def _signature(raw_payload):
         digest = hmac.new(b"test-webhook-secret", raw_payload, hashlib.sha256).hexdigest()
         return f"sha256={digest}"
+
+    def test_hosted_provider_normalized_learner_metadata_is_accepted(self):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        payload = self._result_payload(attempt)
+        payload["metadata"]["sweepLearnerId"] = str(attempt.provider_student_id)
+        response = self._post_signed_webhook(payload)
+        self.assertEqual(response.status_code, 200)
+        attempt.refresh_from_db()
+        self.assertEqual(attempt.status, CourseAssessmentAttempt.Status.PASSED)
+        self.assertIsNotNone(attempt.result_verified_at)
+
+    def test_result_slip_accepts_hosted_normalized_learner_metadata(self):
+        attempt = create_assessment_attempt(user=self.user, course=self.course)
+        payload = self._result_slip(attempt)
+        payload["metadata"]["sweepLearnerId"] = str(attempt.provider_student_id)
+        client = MagicMock()
+        client.fetch_result.return_value = payload
+        verified, _, _ = reconcile_assessment_attempt(attempt=attempt, client=client)
+        self.assertEqual(verified.status, CourseAssessmentAttempt.Status.PASSED)
 
     def _post_signed_webhook(self, payload):
         raw_payload = json.dumps(payload, separators=(",", ":")).encode("utf-8")

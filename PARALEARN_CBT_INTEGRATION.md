@@ -33,6 +33,12 @@ HMAC defaults are `x-cbt-signature`, `sha256=`, and `hmac-sha256`.
 persisted, opaque `ParaLearnLearnerIdentity.external_id` UUID, sent as
 `metadata.sweepLearnerId`. New attempts also have a persisted, opaque
 `provider_student_id`, sent as `studentId` and `metadata.sweepCandidateId`.
+The hosted provider submission may normalize `metadata.sweepLearnerId` to that
+same per-attempt student ID. Results accept either the original learner UUID or
+that attempt's exact candidate UUID in this metadata field, never an unrelated
+UUID. The persisted attempt owner, exam, external attempt and student ID are
+still checked independently. This behavior was observed in a real synthetic
+retake on 2026-10-19, not inferred from a mock.
 ParaLearn deduplicates candidates within an exam by student ID, so a distinct
 per-attempt ID permits genuine retakes while retries reuse the same candidate.
 Neither identifier exposes a Django user primary key. Attempts predating this
