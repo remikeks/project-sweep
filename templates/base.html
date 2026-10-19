@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/navigation.css' %}">
   <link rel="icon" type="image/svg+xml" href="{% static 'img/logo.svg' %}">
   <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
   <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
@@ -18,10 +19,11 @@
   {% block extra_head %}{% endblock %}
 </head>
 <body>
-  <nav class="sw-nav">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav class="sw-nav" aria-label="Main navigation">
     <div class="container">
       <div class="sw-nav-bar">
-        <a href="{% url 'home' %}" class="brand" style="text-decoration:none;">
+        <a href="{% url 'home' %}" class="brand">
           <img src="{% static 'img/logo.svg' %}" alt="" class="brand-mark" width="40" height="40">
           <span class="brand-text">
             SWEEP Academy
@@ -29,31 +31,29 @@
           </span>
         </a>
         <button class="sw-nav-toggle" type="button" aria-expanded="false" aria-controls="sw-nav-links" aria-label="Open navigation menu">
-          &#9776;
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <span data-nav-toggle-label>Menu</span>
         </button>
       </div>
       <div class="sw-nav-links" id="sw-nav-links">
-        <a href="{% url 'about' %}">About Us</a>
-        {% if foundation_orientation_enabled %}<a href="{% url 'foundation_orientation' %}">Start Here</a>{% endif %}
-        <a href="{% url 'school_list' %}">Schools</a>
-        <a href="{% url 'course_list' %}">Courses</a>
-        <a href="{% url 'services' %}">Services</a>
-        <a href="{% url 'resources' %}">Resources</a>
-        <a href="{% url 'team' %}">Our Team</a>
+        <div class="sw-nav-primary">
+          {% if foundation_orientation_enabled %}<a href="{% url 'foundation_orientation' %}"{% if request.resolver_match.url_name == 'foundation_orientation' %} aria-current="page"{% endif %}>Start Here</a>{% endif %}
+          <a href="{% url 'school_list' %}"{% if request.resolver_match.url_name == 'school_list' %} aria-current="page"{% endif %}>Schools</a>
+          <a href="{% url 'course_list' %}"{% if request.resolver_match.url_name == 'course_list' %} aria-current="page"{% endif %}>Courses</a>
+          <a href="{% url 'resources' %}"{% if request.resolver_match.url_name == 'resources' %} aria-current="page"{% endif %}>Resources</a>
+          <a href="{% url 'services' %}"{% if request.resolver_match.url_name == 'services' %} aria-current="page"{% endif %}>Services</a>
+          <a href="{% url 'about' %}"{% if request.resolver_match.url_name == 'about' %} aria-current="page"{% endif %}>About Us</a>
+          <a href="{% url 'team' %}"{% if request.resolver_match.url_name == 'team' %} aria-current="page"{% endif %}>Our Team</a>
+        </div>
+        <div class="sw-nav-actions">
         {% if user.is_authenticated %}
-          <a class="nav-link-auth" href="{% url 'dashboard' %}">My Learning</a>
-          <a class="nav-link-auth" href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
-          {% if perms.courses.view_courseasset %}<a class="nav-link-auth" href="{% url 'content_portal' %}">Content Admin</a>{% endif %}
-          <form class="nav-link-auth" action="{% url 'logout' %}" method="post" style="display:inline;">
-            {% csrf_token %}
-            <a href="#" onclick="this.closest('form').submit(); return false;">Log out</a>
-          </form>
-          <div class="nav-user-pill" data-user-menu>
-            <button type="button" class="nav-user-trigger" data-user-menu-trigger aria-haspopup="true" aria-expanded="false">
-              <span class="nav-user-avatar">{{ user.username|slice:":1"|upper }}</span>
-              <!--<span class="nav-user-text">happy learning, {{ user.username }}</span>-->
-            </button>
-            <div class="nav-user-menu" data-user-menu-panel>
+          <details class="nav-user-pill" data-user-menu>
+            <summary class="nav-user-trigger">
+              <span class="nav-user-avatar" aria-hidden="true">{{ user.username|slice:":1"|upper }}</span>
+              <span>Account</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="nav-user-menu">
               <a href="{% url 'dashboard' %}">My Learning</a>
               <a href="{% url 'my_credentials' %}">Badges &amp; Certificates</a>
               {% if perms.courses.view_courseasset %}<a href="{% url 'content_portal' %}">Content Admin</a>{% endif %}
@@ -62,16 +62,17 @@
                 <button type="submit">Log out</button>
               </form>
             </div>
-          </div>
+          </details>
         {% else %}
           <a href="{% url 'login' %}">Log in</a>
           <a href="{% url 'signup' %}" class="button">Sign up</a>
         {% endif %}
+        </div>
       </div>
     </div>
   </nav>
 
-  <main class="container page-section">
+  <main class="container page-section" id="main-content" tabindex="-1">
     {% if messages %}
       <ul class="messages">
         {% for message in messages %}
@@ -201,21 +202,12 @@
   </div>
 
   <script src="{% static 'js/motion.js' %}"></script>
+  <script src="{% static 'js/navigation.js' %}"></script>
   <script src="{% static 'js/carousel.js' %}"></script>
   <script src="{% static 'js/ai_tutor.js' %}"></script>
   <script src="{% static 'js/feedback.js' %}"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var toggle = document.querySelector('.sw-nav-toggle');
-      var navLinks = document.getElementById('sw-nav-links');
-      if (toggle && navLinks) {
-        toggle.addEventListener('click', function () {
-          var expanded = this.getAttribute('aria-expanded') === 'true';
-          this.setAttribute('aria-expanded', String(!expanded));
-          navLinks.classList.toggle('open');
-        });
-      }
-
       document.querySelectorAll('.typewriter').forEach(function (element, index) {
         var fullText = element.getAttribute('data-text') || element.textContent.trim();
         if (!fullText) return;
@@ -237,35 +229,6 @@
         window.setTimeout(typeNextCharacter, 120 + index * 180);
       });
 
-      var userMenus = document.querySelectorAll('[data-user-menu]');
-      function closeUserMenus() {
-        userMenus.forEach(function (wrap) {
-          wrap.classList.remove('open');
-          var trigger = wrap.querySelector('[data-user-menu-trigger]');
-          if (trigger) trigger.setAttribute('aria-expanded', 'false');
-        });
-      }
-      userMenus.forEach(function (wrap) {
-        var trigger = wrap.querySelector('[data-user-menu-trigger]');
-        if (!trigger) return;
-        trigger.addEventListener('click', function (evt) {
-          evt.stopPropagation();
-          var willOpen = !wrap.classList.contains('open');
-          closeUserMenus();
-          if (willOpen) {
-            wrap.classList.add('open');
-            trigger.setAttribute('aria-expanded', 'true');
-          }
-        });
-      });
-      document.addEventListener('click', function (evt) {
-        userMenus.forEach(function (wrap) {
-          if (!wrap.contains(evt.target)) wrap.classList.remove('open');
-        });
-      });
-      document.addEventListener('keydown', function (evt) {
-        if (evt.key === 'Escape') closeUserMenus();
-      });
     });
   </script>
 </body>
