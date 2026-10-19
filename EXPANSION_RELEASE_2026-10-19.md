@@ -78,3 +78,28 @@ not imported as additional resource records.
 Optional research enrichment of six original online courses is documented in
 `RESEARCH_ENRICHMENT_2026-10-19.md`; the remaining 24 and all 240 baseline
 downloadable files are not represented as enriched.
+
+## Final verification — 2026-10-19 Africa/Lagos
+
+- Application commit `57d180f` includes the provider metadata fix `d054e7b`.
+- Production deployment `dpl_HVAXCUYwrwd6iZxkgmghEtXKEqPn` confirmed Ready,
+  https://sweep-academy-gvvht7ri1-evanders-projects-83d1e543.vercel.app,
+  with the live alias https://sweepacademy.org.
+- All **132 tests passed** locally; migration consistency check reported no
+  changes. GitHub-hosted CI remains blocked by the account billing lock.
+- Final browser retake: local attempt `b137e9e0-03f6-4664-a4ff-333c58ec0235`,
+  provider attempt `att_168dea2094563c0f4c383be7`, signed event
+  `evt_cb2b1a9923c2664c28e0`. The event processed without error and verified the
+  actual zero-score result at 2026-10-18 23:14:03 UTC. Candidate and provider
+  attempt IDs differ from the previous submission.
+- The earlier metadata-rejected test was recovered through the live Check
+  result button using its genuine provider result; the original event's error
+  remains in the audit trail.
+- Browser verification showed the optional Motivational Interviewing reading,
+  its evidence limitations, learning activity and Crossref/OpenAlex/DOAJ links.
+- Final database audit confirmed 10 schools, 34 active/mapped courses, 102
+  modules, 272 published assets, no duplicate course codes or logical resource
+  identities, and zero QA badges/certificates.
+- The clearly labelled synthetic QA account was deactivated after verification;
+  its audit history was retained. A public browser page then showed Log in / Sign
+  up and the live count of 34 courses across 10 schools.

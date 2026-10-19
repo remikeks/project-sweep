@@ -96,6 +96,16 @@ recommended follow-up, not a completed check.
 Foundation Orientation is authorized as optional, non-credit shared preparation.
 It creates no enrolment, assessment, completion record, badge or certificate.
 
+### Publication receipt recorded 2026-10-19
+
+The four-course technical publication gates passed and SWP-031–034 are active,
+with 32 published resources. Actual provider assessment imports, signed-result
+delivery, remote-file checksums and a live retake were verified. See
+`EXPANSION_RELEASE_2026-10-19.md`. Earlier in-review descriptions above document
+the staging decision, not the current publication state. Independent SME review
+is still not claimed. GitHub-hosted CI is separately blocked by account billing;
+132 local tests passed, but they are not represented as a successful hosted run.
+
 ### Repeatable checks
 
 Run this read-only check for every release before upload and publication:
