@@ -1,0 +1,610 @@
+{
+  "status": "draft_for_review",
+  "school_code": "FSW",
+  "curriculum_version": "FSW-proposed-five-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-016",
+    "SWP-017",
+    "SWP-018",
+    "SWP-035",
+    "SWP-036"
+  ],
+  "proposed_duration_minutes": 150,
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Award criterion marks for equivalent defensible reasoning; accept contextually justified alternatives. Do not award unsupported clinical or legal claims. Record a rationale for each written score.",
+    "appeals": "Retain original response, rubric version, marker, moderation decision and amendment history; provide an authorised appeal route."
+  },
+  "items": [
+    {
+      "id": "FSW-SWP-016-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-08",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-08",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-08",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-08",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-08",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-WRITTEN-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "prompt": "A person is due to leave hospital but reports an unresolved housing barrier. Identify two matters to verify, the appropriate team consultation and a documented next step.",
+      "model_answer": "Check the person's account and current housing or support situation; involve the appropriate discharge team and social support role; agree and document responsibility and follow-up without making a unilateral clinical discharge decision.",
+      "rubric": [
+        {
+          "criterion": "Two relevant checks with the person's participation",
+          "marks": 2
+        },
+        {
+          "criterion": "Appropriate interdisciplinary consultation within role",
+          "marks": 1
+        },
+        {
+          "criterion": "Agreed action owner and follow-up",
+          "marks": 2
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "prompt": "A person misses a chronic-care appointment because of work hours and transport cost. Explain a respectful assessment and two collaborative support actions.",
+      "model_answer": "Explore the person's priorities and reported barriers without assigning blame; check feasible appointment or transport options with the relevant service; agree who will follow up. Do not alter clinical treatment independently.",
+      "rubric": [
+        {
+          "criterion": "Non-judgemental exploration and participation",
+          "marks": 2
+        },
+        {
+          "criterion": "Two feasible support actions within role",
+          "marks": 2
+        },
+        {
+          "criterion": "Follow-up responsibility",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "prompt": "Two services each assume the other will contact a family. Describe how to resolve the responsibility gap and record the handover.",
+      "model_answer": "Clarify the outstanding need with the person and services; name the responsible role, obtain acceptance and set the contact and review arrangements; record information-sharing authority and outstanding risk as relevant.",
+      "rubric": [
+        {
+          "criterion": "Identify the responsibility gap and relevant need",
+          "marks": 1
+        },
+        {
+          "criterion": "Explicit agreed responsibility and acceptance",
+          "marks": 2
+        },
+        {
+          "criterion": "Clear documented contact and review arrangements",
+          "marks": 2
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "prompt": "A partner asks for a whole case file for a narrow support decision. Give a reasoned response addressing purpose, authority, participation and proportionality.",
+      "model_answer": "Clarify the request and authority, involve the person where appropriate, consider a relevant limited summary, consult on uncertainty and use the approved secure route. A professional request alone does not justify disclosure.",
+      "rubric": [
+        {
+          "criterion": "Purpose and authority checked",
+          "marks": 2
+        },
+        {
+          "criterion": "Participation and proportionate information",
+          "marks": 2
+        },
+        {
+          "criterion": "Consultation or secure route",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "prompt": "A referral was sent but no response is recorded. Distinguish activity from outcome and propose a closed-loop review.",
+      "model_answer": "Sending is activity rather than evidence of access or benefit. Check receipt and the agreed next step with the person and receiving service, identify barriers, assign responsibility and update the plan.",
+      "rubric": [
+        {
+          "criterion": "Accurate activity and outcome distinction",
+          "marks": 2
+        },
+        {
+          "criterion": "Appropriate follow-through checks",
+          "marks": 2
+        },
+        {
+          "criterion": "Owner or plan update",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-035",
+        "SWP-036"
+      ],
+      "prompt": "A learner claims a desk-review paper proves a local agency caused a client's exclusion. Explain the evidence limitation and a defensible assessment response.",
+      "model_answer": "A secondary conceptual analysis does not establish the facts or causation in a particular case. Document the person's account, verify the local process and relevant evidence, and use appropriate accountability or supervision routes.",
+      "rubric": [
+        {
+          "criterion": "Research limitation explained",
+          "marks": 2
+        },
+        {
+          "criterion": "Local evidence and person-centred assessment",
+          "marks": 2
+        },
+        {
+          "criterion": "Appropriate accountability route",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-07",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-016",
+        "SWP-017",
+        "SWP-018",
+        "SWP-035",
+        "SWP-036"
+      ],
+      "prompt": "Fictional case: an adult preparing for discharge has a long-term condition, transport barriers and an unclear referral handover. The person wants to participate in decisions. Develop a coordinated support plan, explain an information-sharing dilemma, and show how you would review access and outcomes. Identify the limits of your role.",
+      "model_answer": "A defensible answer connects the person's priorities and discharge context to assessment, chronic-care support barriers, team responsibilities, proportionate information sharing and a measurable review plan. It identifies clinical decisions outside role, uncertainties and escalation or supervision needs. Alternative safe, justified plans may earn marks.",
+      "rubric": [
+        {
+          "criterion": "Discharge context and person-centred assessment",
+          "marks": 3
+        },
+        {
+          "criterion": "Practical chronic-care support within role",
+          "marks": 3
+        },
+        {
+          "criterion": "Interdisciplinary responsibilities and handover",
+          "marks": 3
+        },
+        {
+          "criterion": "Ethical reasoning and information sharing",
+          "marks": 3
+        },
+        {
+          "criterion": "Measurable coordination and review",
+          "marks": 3
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-WRITTEN-08",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-016",
+        "SWP-017",
+        "SWP-018",
+        "SWP-035",
+        "SWP-036"
+      ],
+      "prompt": "A team reports repeated unsuccessful referrals after discharge for adults with chronic conditions. Design a reflective service-improvement response that examines access barriers and responsibilities while protecting confidentiality. Explain what evidence can and cannot show and how individual plans would remain supported.",
+      "model_answer": "Use anonymised patterns alongside individual follow-up, distinguish referral activity from outcomes, clarify team roles and service capacity, include service-user participation, establish review measures and owners, and avoid causal or misconduct claims unsupported by local evidence. Include support for staff and organisational review rather than attributing every failure to individuals.",
+      "rubric": [
+        {
+          "criterion": "Discharge and chronic-care continuity considered",
+          "marks": 3
+        },
+        {
+          "criterion": "Access assessment and service-user participation",
+          "marks": 3
+        },
+        {
+          "criterion": "Team accountability and individual follow-through",
+          "marks": 3
+        },
+        {
+          "criterion": "Confidentiality and ethical or evidence reasoning",
+          "marks": 3
+        },
+        {
+          "criterion": "Feasible review measures and organisational action",
+          "marks": 3
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "teaching": {
+    "courses": 2,
+    "modules": 6,
+    "questions": 30
+  },
+  "school_exam": {
+    "courses": 5,
+    "items": 48,
+    "marks": 100,
+    "unbound_mcqs": 40,
+    "ready_for_launch": false
+  },
+  "package_sha256": "0288f7adfe20fb6d9523d11f746cdce297fd3e1381f19985b0f2f2ad54739bf9",
+  "school_exam_sha256": "988e85e32398afdc1506f088f7546e8f220138f5f8c997203ead01919099be9e"
+}
