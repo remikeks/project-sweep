@@ -1,0 +1,52 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "0288f7adfe20fb6d9523d11f746cdce297fd3e1381f19985b0f2f2ad54739bf9",
+  "summary": {
+    "assets": 8,
+    "asset_courses": 2
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-035-social-work-values-and-ethical-decision-making-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "7ae5318f7c5a38e076328e4777d21737314bf206c0a63a5bdbea25d09b26f2b4"
+    },
+    {
+      "path": "pdf/SWP-035-social-work-values-and-ethical-decision-making-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "8bc0b14538f7146f18a474dde91edfdfef28436561397cc2a171fbbdc01811e7"
+    },
+    {
+      "path": "pptx/SWP-035-social-work-values-and-ethical-decision-making-course-slides.pptx",
+      "pages": null,
+      "sha256": "30c9128c32612d03b4cd135c0f11e1814ffba17f5171501dfaea4efd6bd6049c"
+    },
+    {
+      "path": "pdf/SWP-035-social-work-values-and-ethical-decision-making-course-slides.pdf",
+      "pages": 16,
+      "sha256": "1a667961e20237fbc1455762cd645141845a19cea9e144fc73c0debf37bb685a"
+    },
+    {
+      "path": "pdf/SWP-036-generalist-assessment-and-case-management-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "b34e339948e4840a6e72ae83e57501d8e7c780e5f1ddb05cb2103a2b98269bfe"
+    },
+    {
+      "path": "pdf/SWP-036-generalist-assessment-and-case-management-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "075b35af940da033e5b0fcaf1c925b89b319fd7013611c0b43be42b31708976f"
+    },
+    {
+      "path": "pptx/SWP-036-generalist-assessment-and-case-management-course-slides.pptx",
+      "pages": null,
+      "sha256": "6684bc5f71a17985426e8a1cc0f1b16fc38793a13210705a572be8a4a4671b68"
+    },
+    {
+      "path": "pdf/SWP-036-generalist-assessment-and-case-management-course-slides.pdf",
+      "pages": 16,
+      "sha256": "e0fdef54a4453597f42a10172d6ac85914c01551f090787167cb8cc656f10ab9"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

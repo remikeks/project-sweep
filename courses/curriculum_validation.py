@@ -1,8 +1,8 @@
 """Validation shared by curriculum release build, audit, and sync commands.
 
-The production catalogue deliberately stays at ten schools. Courses may be
-added within those schools, so releases are checked for identity and package
-completeness without assuming a fixed course total.
+Historical releases default to their ten-school structure. Additive review
+batches declare their school count and resource profile explicitly. Releases
+are checked for identity and package completeness without a fixed course total.
 """
 
 from __future__ import annotations
@@ -124,8 +124,13 @@ def validate_manifest(
     catalogue: Any | None = None,
     release: Path | None = None,
     expected_school_count: int = 10,
+    profile: str = "legacy",
 ) -> dict[str, int]:
-    """Validate an eight-asset package for every course in a release."""
+    """Validate a legacy package or a PDF-and-slides package before videos exist."""
+    if profile not in {"legacy", "pdf_slides"}:
+        raise CurriculumValidationError("Unknown resource package profile.")
+    if release is not None:
+        release = release.resolve()
     if not isinstance(manifest, list) or not manifest:
         raise CurriculumValidationError("The asset manifest must be a non-empty JSON list.")
 
@@ -185,6 +190,25 @@ def validate_manifest(
         raise CurriculumValidationError("Every catalogue course must have a resource package and no extra packages are allowed.")
 
     for course_key, assets in by_course.items():
+        if profile == "pdf_slides":
+            pdf = "application/pdf"
+            pptx = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+            expected = Counter({("learner_guide", pdf): 1, ("worksheet", pdf): 1,
+                                ("slides", pdf): 1, ("slides", pptx): 1})
+            actual = Counter((a["asset_type"], a["content_type"]) for a in assets)
+            if len(assets) != 4 or actual != expected:
+                raise CurriculumValidationError(f"Course {course_key[0]} requires a PDF learner guide, PDF worksheet, editable PPTX and slide PDF.")
+            if len({a["version"] for a in assets}) != 1:
+                raise CurriculumValidationError("PDF-and-slides resources must share one version.")
+            for asset in assets:
+                if str(asset.get("module_order", "")).strip():
+                    raise CurriculumValidationError("This resource profile uses course-level assets.")
+                if asset.get("publication_status") != "in_review":
+                    raise CurriculumValidationError("New PDF-and-slides resources must enter review.")
+                suffix = ".pdf" if asset["content_type"] == pdf else ".pptx"
+                if Path(asset["path"]).suffix.lower() != suffix:
+                    raise CurriculumValidationError("Resource extension does not match its content type.")
+            continue
         if len(assets) != 8:
             raise CurriculumValidationError(f"Course {course_key[0]} must have exactly eight release assets.")
         types = Counter(str(asset["asset_type"]).strip() for asset in assets)

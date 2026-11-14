@@ -13,5 +13,6 @@ skills-lock.json
 .deck-build/
 **/.deck-build/
 production_courseware/drafts/**/qa/
+production_courseware/phase_three/**/qa/
 production_courseware/private/
 *.log
