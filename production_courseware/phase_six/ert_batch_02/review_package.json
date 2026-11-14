@@ -1,0 +1,1930 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-14",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved"
+  },
+  "references": [
+    {
+      "id": "S1",
+      "title": "Global Social Work Statement of Ethical Principles",
+      "author": "IFSW",
+      "year": 2018,
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "kind": "professional framework",
+      "use": "Ethical vocabulary and principles, not a Nigerian statute.",
+      "appraisal": "Normative professional guidance; does not measure intervention effectiveness.",
+      "licence": "Link and citation only; no copied text"
+    },
+    {
+      "id": "R8",
+      "author": "Mbata RI",
+      "year": 2026,
+      "title": "Compounding Vulnerabilities: An Architectural Study of the Socio-Spatial, Economic, and Environmental Characteristics of Marginalized Waterfront Communities in Port Harcourt, Nigeria, and Its Implications for Social Work and Development Practice",
+      "slide_title": "Compounding Vulnerabilities: Waterfront Communities in Port Harcourt",
+      "doi": "10.67007/ijsds-2026-v2_i2_002",
+      "url": "https://doi.org/10.67007/ijsds-2026-v2_i2_002",
+      "kind": "Nigerian mixed-methods contextual study",
+      "use": "Examining interacting environmental, livelihood and spatial barriers.",
+      "appraisal": "Full 11-page text read. Cross-sectional study in three waterfront communities, with a questionnaire sample of 364 and nine purposive interviews. Descriptive contextual evidence; cannot establish causal effects, developmental norms or national representativeness. Learner cases are independently fictional.",
+      "licence": "Journal declares CC BY 4.0; linked evidence and original commentary only",
+      "quartile": "No Q1/Q2 status verified. Included for relevant Nigerian context.",
+      "slide_limit": "Three communities and one time point. No causal or national claim."
+    },
+    {
+      "id": "S2",
+      "author": "IPCC",
+      "year": 2023,
+      "title": "Climate Change 2023 Synthesis Report Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+      "kind": "intergovernmental evidence assessment",
+      "use": "Risk context, adaptation, equity and possible maladaptation.",
+      "appraisal": "Global synthesis, especially A.2, A.3 and C.5. It cannot specify a site's engineering design, predict an individual's outcome or attribute a local event without suitable evidence.",
+      "licence": "Linked official report and original commentary only",
+      "link_label": "ipcc.ch AR6 synthesis summary",
+      "slide_limit": "Global assessment. Local decisions need appropriate site evidence."
+    },
+    {
+      "id": "S3",
+      "author": "Council on Social Work Education",
+      "year": 2022,
+      "title": "Educational Policy and Accreditation Standards for Baccalaureate and Master's Social Work Programs",
+      "url": "https://www.cswe.org/sites/default/files/2026-07/2022_EPAS.pdf",
+      "kind": "professional education benchmark",
+      "use": "Environmental justice, research-informed practice, assessment, intervention and evaluation competencies.",
+      "appraisal": "Current adopted 2022 US degree-programme standards checked on 14 November 2026. A 2029 draft is not treated as adopted. Selected learning-domain mapping does not confer accreditation, degree equivalence or Nigerian professional registration.",
+      "licence": "All rights reserved. Link and original curriculum commentary only; no exercises or text reproduced",
+      "link_label": "cswe.org 2022 EPAS",
+      "slide_author": "CSWE",
+      "slide_title": "2022 Educational Policy and Accreditation Standards",
+      "slide_limit": "US degree benchmark. No accreditation or registration conferred."
+    },
+    {
+      "id": "R2",
+      "author": "Parsons M and colleagues",
+      "year": 2025,
+      "title": "Participatory approaches to climate adaptation, resilience, and mitigation: A systematic review",
+      "doi": "10.1007/s13280-025-02202-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12569303/",
+      "kind": "systematic thematic review",
+      "use": "Power, meaningful influence and exclusion in participatory climate processes.",
+      "appraisal": "187 English-language peer-reviewed articles from Scopus covering 2015-2020 despite 2025 publication. Excludes grey and non-English knowledge; thematic interpretation rather than a pooled effectiveness estimate. Full text read. A local meeting's fairness or impact still needs direct checking.",
+      "licence": "CC BY 4.0; original commentary only",
+      "quartile": "SCImago's search-indexed 2025 Ambio record reports SJR Q1 (including Geography Planning and Development). Direct table access returned 403; JCR quartile not independently verified. https://www.scimagojr.com/journalsearch.php?clean=0&q=22704&tip=sid",
+      "slide_title": "Participatory approaches to climate adaptation, resilience and mitigation",
+      "slide_limit": "Thematic review; 2015-2020 literature. No local effectiveness guarantee."
+    },
+    {
+      "id": "S7",
+      "author": "Global Protection Cluster",
+      "year": 2025,
+      "title": "Role of Protection Clusters in Durable Solutions for Internally Displaced Persons Practical Guidance",
+      "url": "https://globalprotectioncluster.org/sites/default/files/2025-03/ds_guidance_full_document_annex_2025.03.19_pm.pdf",
+      "kind": "interagency operational guidance",
+      "use": "Voluntary informed decisions, participation, livelihoods and rights-based review of displacement support.",
+      "appraisal": "Official 54-page guidance file; relevant decision-making, pathways, evidence and early-groundwork sections read. An operational framework, not an individual legal determination, Nigerian policy substitute or proof that relocation is safe or a durable solution has been achieved.",
+      "licence": "Official linked guidance; original teaching only, no tools or annexes reproduced",
+      "slide_author": "Global Protection Cluster",
+      "slide_title": "Durable solutions: protection-cluster practical guidance",
+      "link_label": "globalprotectioncluster.org Guidance 2025",
+      "slide_limit": "Operational framework. No individual legal status or safety certification."
+    },
+    {
+      "id": "S8",
+      "author": "Global Indigenous Data Alliance",
+      "year": 2022,
+      "title": "Indigenous Data Sovereignty and Governance",
+      "url": "https://www.gida-global.org/s/Final_Attribution_NonCommercial_NoDerivatives_4_International.pdf",
+      "kind": "Indigenous data-governance educational resource",
+      "use": "Collective benefit, authority to control, responsibility and ethics when discussing knowledge use.",
+      "appraisal": "The actual linked file is a 29-page 2022 presentation, not a two-page CARE poster. Read with GIDA's CARE principles page. Indigenous-led governance benchmark; it does not identify a Nigerian group's protocols, replace individual rights or settle local legal authority.",
+      "licence": "CC BY-NC-ND 4.0. Linked resource and original factual commentary only; no slides, graphics, translated principles sheet or adapted exercises reproduced",
+      "slide_author": "GIDA",
+      "slide_title": "Indigenous Data Sovereignty and Governance (2022)",
+      "link_label": "gida-global.org Governance and CARE",
+      "slide_limit": "Community authority needs local agreement. No unrestricted sharing implied."
+    },
+    {
+      "id": "S9",
+      "author": "OECD",
+      "year": 2021,
+      "title": "Applying Evaluation Criteria Thoughtfully",
+      "doi": "10.1787/543e84ed-en",
+      "url": "https://www.oecd.org/en/publications/2021/03/applying-evaluation-criteria-thoughtfully_45a54ea7.html",
+      "kind": "evaluation guidance",
+      "use": "Purpose-driven evaluation questions concerning relevance, coherence, effectiveness, efficiency, impact and sustainability.",
+      "appraisal": "Guidance and relevant criteria/application sections read in the official 84-page PDF file. Criteria are evaluative lenses, not a causal-identification method or mandatory identical checklist. No source examples or scoring instrument are reproduced.",
+      "licence": "Copyright OECD 2021. Linked guidance and original commentary only",
+      "slide_title": "Applying Evaluation Criteria Thoughtfully",
+      "slide_limit": "Choose criteria for purpose. Criteria alone do not establish attribution."
+    },
+    {
+      "id": "R4",
+      "author": "Sengupta M",
+      "year": 2025,
+      "title": "Environmental immobility: A systematic review of empirical research",
+      "doi": "10.1007/s13280-025-02195-9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12480326/",
+      "kind": "systematic empirical-literature review",
+      "use": "Choices, constraints and changing mobility/staying aspirations in environmental change.",
+      "appraisal": "55 studies; English-language Scopus/Web of Science search in February 2024, with supplementary searching. Uneven geography, including 20 Bangladesh studies, and mainly qualitative evidence. Not a Nigerian prevalence estimate, event attribution or validated tool for assigning people a fixed mobility category.",
+      "licence": "CC BY 4.0; original commentary, no source diagram or cases copied",
+      "quartile": "Ambio: SCImago search-indexed 2025 SJR Q1 record, as in the preceding batch; direct table access restricted and JCR not independently verified.",
+      "slide_limit": "Uneven contexts and methods. Ask about preferences and constraints directly."
+    },
+    {
+      "id": "R5",
+      "author": "Dorji T and colleagues",
+      "year": 2024,
+      "title": "Understanding How Indigenous Knowledge Contributes to Climate Change Adaptation and Resilience: A Systematic Literature Review",
+      "doi": "10.1007/s00267-024-02032-x",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11549107/",
+      "kind": "systematic literature review",
+      "use": "Diversity of knowledge practices and the importance of context in community stewardship.",
+      "appraisal": "71 English-language Scopus papers from 2014 to May 2024, narrowed by indexed keywords; substantial Africa/Asia concentration. Maps reported practices, not a pooled effectiveness estimate or permission to transfer a practice, publish restricted knowledge or provide treatment. Full methods and conclusion read.",
+      "licence": "CC BY 4.0; original commentary only; no cultural practices, source figures or exercises reproduced",
+      "quartile": "Environmental Management quartile not independently verified for this batch",
+      "slide_author": "Dorji T and colleagues",
+      "slide_title": "Indigenous knowledge, climate adaptation and resilience: a review",
+      "slide_limit": "Context-specific reported practices. No universal transfer or treatment advice."
+    },
+    {
+      "id": "R7",
+      "author": "Rastogi S, Werner M, van Cauwenbergh N and van den Homberg M",
+      "year": 2026,
+      "title": "Operationalising local knowledge to enhance climate services: evidence from a systematic review",
+      "doi": "10.1016/j.cliser.2026.100665",
+      "url": "https://doi.org/10.1016/j.cliser.2026.100665",
+      "kind": "systematic review of literature and project documents",
+      "use": "Decision-focused knowledge relationships across climate-service roles.",
+      "appraisal": "119 articles and documentation of 22 operational projects; Scopus-based search and uneven project reporting. Publisher indexed methods/results and TU Delft repository record read; full PDF retrieval restricted. Findings inform questions about knowledge use and participation, not a tested local intervention effect or equivalence between Indigenous and all local knowledge.",
+      "licence": "CC BY 4.0 verified in Crossref and TU Delft record; original commentary only",
+      "quartile": "Climate Services: SCImago's indexed 2025 provider record reports SJR 1.342 Q1. Direct table retrieval not independently downloaded. https://www.scimagojr.com/journalsearch.php?clean=0&q=21100463842&tip=sid",
+      "slide_author": "Rastogi S and colleagues",
+      "slide_title": "Operationalising local knowledge to enhance climate services",
+      "slide_limit": "Review and project reporting. No local effect or unrestricted-use permission."
+    },
+    {
+      "id": "R10",
+      "author": "Horneman F, Torresan S, Furlan E and Critto A",
+      "year": 2026,
+      "title": "Exploring nature-based solutions' effectiveness indicators for climate change adaptation: a systematic review",
+      "doi": "10.3389/fenvs.2025.1603919",
+      "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2025.1603919/full",
+      "kind": "systematic review and scientometric analysis",
+      "use": "Selecting indicators that cover intended outcomes, social effects and trade-offs.",
+      "appraisal": "Published 9 January 2026 despite 2025 DOI/volume. 27 articles, 36 coastal/transitional case studies, English Scopus literature through June 2023. Limited socio-economic coverage and no universal evaluation tool. Full primary methods/results read. This course uses evaluation questions, not engineering designs or ecological effect estimates.",
+      "licence": "CC BY 4.0; original commentary, no figures or tables reproduced",
+      "quartile": "Frontiers' 2026 impact table reports 2025 Environmental Science JIF Q2 and CiteScore Q1. Publisher-reported; category details and independent JCR verification not obtained. https://www.frontiersin.org/about/impact",
+      "slide_author": "Horneman F and colleagues",
+      "slide_title": "Nature-based adaptation: effectiveness indicators review",
+      "slide_limit": "Coastal/transitional cases; literature to 2023. No universal indicator set."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-046",
+      "title": "Climate Displacement and Livelihood Adaptation",
+      "slug": "climate-displacement-and-livelihood-adaptation",
+      "cover_title": "Climate Displacement\nand Livelihood\nAdaptation",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners applying ecosocial practice under appropriate authority and supervision.",
+      "outcome": "Prepare a bounded displacement and livelihood-support plan that respects changing preferences, checks service capacity and reviews rights and access without determining legal status.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Moving staying and changing choices",
+          "outcome": "Distinguish a stated preference from a constraint without assigning a fixed mobility identity.",
+          "paragraphs": [
+            "Environmental change can interact with livelihoods, housing, relationships, services and public decisions to shape movement or staying. A flood preceding a move does not establish the event's attribution to climate change, nor does it establish that climate was the person's only reason. Describe the reported circumstances and the information source separately from an explanation still being investigated. The IPCC synthesis provides broad risk context; it cannot decide an individual's motives. In an introductory support conversation, ask what changed, what matters now and what the person wants help considering. [S2, R4]",
+            "Staying may reflect a valued attachment, a practical preference, constrained options or a combination that changes over time. Sengupta's review examines these relationships across uneven empirical contexts, including substantial Bangladesh evidence. It does not supply a validated Nigerian screening instrument or justify labelling someone permanently trapped. Ask about preferred options and the means of pursuing them separately. A person may want to stay but lack safe services, or want to move but lack accessible transport. Record the person's own account with appropriate privacy rather than infer willingness from current location. [R4, S1]",
+            "Different members of a household may have different priorities and opportunities to speak. Caring responsibilities, age, disability, work and access to documents can affect what is feasible, but they should not be assumed from a group label. Arrange a safe and accessible opportunity to contribute through authorised practice arrangements. Do not treat a household representative's answer as every member's consent. The local IJSDS study offers contextual questions about interacting livelihood and service constraints; its cross-sectional design does not predict this household's decisions or show what caused a particular outcome. [R8, S1]",
+            "Use mobility terms carefully. Displacement, voluntary movement and planned relocation raise different questions about agency, assistance and decision authority. This course does not assign refugee status, decide an entitlement or present a climate-refugee label as a legal determination. Record uncertainty and request appropriate protection or legal advice when needed. Summarise the present preference, constraints, immediate concern, agreed next step and review date. A changed preference is new information to consider, not evidence that the earlier account was false. Support should not depend on agreeing to an option the practitioner prefers. [S7, S1, R4]"
+          ],
+          "example": "Fictional case: after repeated flooding, one resident wishes to remain near a trading network, while another wants to explore moving but lacks accessible transport. The practitioner records each account separately and checks authorised support options without deciding that either choice is freely available or permanently fixed.",
+          "activity": "Write two separate preference-and-constraint notes for the fictional residents. Identify one missing fact, one question that allows a changed preference and one referral question requiring appropriate authority.",
+          "feedback": "A useful note separates what the resident prefers, what prevents an option and what remains uncertain. Current location alone cannot establish free choice, legal status or a permanent mobility category.",
+          "sources": [
+            "S2",
+            "R4",
+            "S1",
+            "R8",
+            "S7"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Livelihood continuity and support pathways",
+          "outcome": "Build a feasible support pathway around a person's priorities and verified receiving capacity.",
+          "paragraphs": [
+            "Livelihood adaptation concerns the conditions that allow people to sustain a living, not simply a list of alternative jobs. Ask about earning activities, unpaid care, accessible services, transport, tools, documents and relationships that matter to the person's preferred option. Discuss what can continue, what has been disrupted and which change the person wants to explore. Avoid asking for unnecessary details about income or identity when a less intrusive question would answer the support need. Climate and contextual social research help frame these questions, while an actual plan requires direct discussion and appropriate local evidence. [S2, R8, S1]",
+            "A referral is a possible pathway until the receiving service confirms its function, capacity, eligibility process and accessible contact arrangements. Check who can make the next contact and what information is genuinely required, within the relevant consent and lawful information-sharing process. Do not promise funding, employment, admission or replacement documents on another organisation's behalf. Explain any unresolved condition and agree a feasible follow-up. The displacement guidance supports coordinated access to rights and livelihoods, but a name in a directory does not establish that a particular service can accept this request today. [S7, S1]",
+            "Consider the surrounding community as well as people who have moved. Hosts may face pressure on shared services, and newcomers may encounter barriers that an apparently equal arrangement does not address. These are questions to investigate, not reasons to assume inevitable conflict or to rank people's worth. Ask whose time, care or travel costs change under the proposal and whether a hidden burden makes participation unrealistic. Do not recommend a loan, business investment or technical livelihood activity without suitable expertise. The practitioner can help clarify priorities, verify a pathway and identify the advice still needed. [S7, R8, S1]",
+            "Use a short support plan with a person-chosen priority, agreed action, responsible role, capacity check, dependency and review point. Distinguish a verified commitment from a request and record an alternative if the first pathway is unavailable. For example, a document-support enquiry may be feasible while a job placement remains unconfirmed; the plan should show the difference. Avoid counting a sent referral as a restored livelihood. Follow up on whether the person reached the intended support and whether the next step still matches their preference, keeping records proportionate and access controlled. [S7, S1, R4]"
+          ],
+          "example": "Fictional case: a displaced trader wants to restore access to a market and replace a missing document. A directory lists two services, but only the document-support enquiry has a confirmed contact. The plan records the market enquiry as pending and agrees a review instead of promising a job or finance.",
+          "activity": "Create a six-column support plan: priority, action, owner, verified capacity, unresolved condition and review. Include one possible burden on care or travel and a fallback for an unavailable service.",
+          "feedback": "The plan should separate a request from an accepted commitment and follow access beyond sending a referral. It should preserve the person's choices without promising a livelihood result or financial product.",
+          "sources": [
+            "S2",
+            "R8",
+            "S1",
+            "S7",
+            "R4"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Rights participation and durable-solutions review",
+          "outcome": "Review support pathways through informed choice and sustained access rather than movement counts.",
+          "paragraphs": [
+            "Durable-solutions work considers the conditions for people to resume their lives in safety and dignity with access to rights. The Global Protection Cluster guidance discusses return, local integration and settlement elsewhere as pathways requiring informed and voluntary decisions. Their feasibility depends on context and competent assessment. A beginning practitioner should not recommend a pathway solely because it is administratively convenient or publicly described as successful. Explain what is known, what is uncertain, which authority is responsible and how affected people can ask questions or express a different preference without losing appropriate support. [S7, S1]",
+            "Assessing progress requires more than recording where someone lives. Ask about access to housing, livelihoods, services, documentation and meaningful participation, using the relevant framework and appropriate professional roles. A completed move does not by itself show that a durable solution has been achieved. Physical, legal and material conditions require suitable evidence and expertise; this course does not certify the safety of a destination or resolve a housing dispute. Identify unresolved concerns clearly and use the applicable protection, technical or legal pathway rather than fill a gap with an unsupported assurance. [S7, S2]",
+            "Participation must allow people to understand alternatives and question the proposed arrangement. Use accessible communication, check understanding and acknowledge constraints on what is currently available. Do not condition essential support on accepting return or relocation, and do not confuse silence with informed agreement. Collective discussions can reveal shared barriers, but sensitive individual concerns need an appropriate channel. The immobility review encourages attention to changing circumstances and aspirations; it does not justify asking people to disclose personal histories in public to demonstrate that their preference is valid. [S7, R4, S1]",
+            "Agree how the support plan will be reviewed and how concerns can be raised without retaliation. Record the responsible role, a proportionate access or livelihood question, the next review point and what would prompt earlier attention. Respond to urgent concerns through authorised procedures rather than waiting for a routine review. Keep identifiable records restricted and use aggregate reporting carefully where small groups could be recognised. A review may identify progress alongside unresolved barriers. Report both, with the evidence and uncertainty, instead of treating a movement total as a final rights-based judgement. [S7, S1, R8]"
+          ],
+          "example": "Fictional case: a report counts twenty households as a completed relocation. Follow-up finds some cannot reach services or resume earning. The practitioner records these unresolved conditions, checks accessible feedback and refers technical and protection questions rather than certifying a durable solution from the movement count.",
+          "activity": "Write a review note with the person's preferred pathway, two conditions needing evidence, an accountable role, an accessible feedback route and an earlier-review trigger. Explain what the relocation count cannot demonstrate.",
+          "feedback": "A defensible review checks sustained rights and access, informed choice and unresolved concerns. It avoids treating a physical move, a signature or a programme label as sufficient evidence of a durable solution.",
+          "sources": [
+            "S7",
+            "S1",
+            "S2",
+            "R4",
+            "R8"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-046",
+        "course_slug": "climate-displacement-and-livelihood-adaptation",
+        "title": "Climate Displacement and Livelihood Adaptation",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "9c942e271861a8d5d07ac0f211c6185ae04ceb51d66e933d05ee65983939817f",
+        "catalogue_sha256": "cfd3303200cbf6794e007f4743bf4824be79f34cd8e39a5d5e7025d985d16cc3",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Moving staying and changing choices",
+            "outcome": "Distinguish a stated preference from a constraint without assigning a fixed mobility identity.",
+            "teaching_points": [
+              {
+                "id": "SWP-046-M1-T1",
+                "text": "Environmental and social influences can interact."
+              },
+              {
+                "id": "SWP-046-M1-T2",
+                "text": "Preference and ability to act require separate questions."
+              },
+              {
+                "id": "SWP-046-M1-T3",
+                "text": "Immobility is not a permanent identity."
+              },
+              {
+                "id": "SWP-046-M1-T4",
+                "text": "Household members may hold different priorities."
+              },
+              {
+                "id": "SWP-046-M1-T5",
+                "text": "Support conversations do not determine legal status."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Livelihood continuity and support pathways",
+            "outcome": "Build a feasible support pathway around a person's priorities and verified receiving capacity.",
+            "teaching_points": [
+              {
+                "id": "SWP-046-M2-T1",
+                "text": "Livelihoods include care and service access."
+              },
+              {
+                "id": "SWP-046-M2-T2",
+                "text": "A referral needs verified receiving capacity."
+              },
+              {
+                "id": "SWP-046-M2-T3",
+                "text": "Information sharing should be proportionate and authorised."
+              },
+              {
+                "id": "SWP-046-M2-T4",
+                "text": "Shared services can create different burdens."
+              },
+              {
+                "id": "SWP-046-M2-T5",
+                "text": "Sending a referral is an output rather than restored livelihood."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Rights participation and durable-solutions review",
+            "outcome": "Review support pathways through informed choice and sustained access rather than movement counts.",
+            "teaching_points": [
+              {
+                "id": "SWP-046-M3-T1",
+                "text": "Physical movement does not establish a durable solution."
+              },
+              {
+                "id": "SWP-046-M3-T2",
+                "text": "Pathways require informed voluntary decisions."
+              },
+              {
+                "id": "SWP-046-M3-T3",
+                "text": "Specialist safety and legal questions need competent assessment."
+              },
+              {
+                "id": "SWP-046-M3-T4",
+                "text": "Sensitive feedback needs an appropriate channel."
+              },
+              {
+                "id": "SWP-046-M3-T5",
+                "text": "Review should report mixed findings honestly."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-046-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-046-M1-T1",
+            "question": "A resident moved after flooding and loss of work. What can the support note establish from this account alone?",
+            "options": [
+              {
+                "text": "That climate change was the sole cause of the move.",
+                "correct": false
+              },
+              {
+                "text": "That the resident qualifies for a specific legal status.",
+                "correct": false
+              },
+              {
+                "text": "The reported sequence and concerns, with causal attribution still uncertain.",
+                "correct": true
+              },
+              {
+                "text": "That all residents affected by the flood wanted to move.",
+                "correct": false
+              }
+            ],
+            "rationale": "A reported sequence is not individual causal attribution or a legal determination."
+          },
+          {
+            "id": "SWP-046-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-046-M1-T2",
+            "question": "A resident wants to explore moving but has no accessible transport. What distinction should be recorded?",
+            "options": [
+              {
+                "text": "A conclusion that remaining proves satisfaction.",
+                "correct": false
+              },
+              {
+                "text": "A permanent label based solely on present location.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that accessible transport is already available.",
+                "correct": false
+              },
+              {
+                "text": "The wish to consider movement and the practical constraint on pursuing it.",
+                "correct": true
+              }
+            ],
+            "rationale": "A preference does not establish the means of realising it."
+          },
+          {
+            "id": "SWP-046-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-046-M1-T3",
+            "question": "A person changes their preferred option after service access improves. How should the practitioner respond?",
+            "options": [
+              {
+                "text": "Revisit the plan using the person's current account and circumstances.",
+                "correct": true
+              },
+              {
+                "text": "Reject the change because a previous category must remain fixed.",
+                "correct": false
+              },
+              {
+                "text": "Conclude that every earlier statement was false.",
+                "correct": false
+              },
+              {
+                "text": "Remove the person's opportunity to choose.",
+                "correct": false
+              }
+            ],
+            "rationale": "Aspirations and constraints can change and should be reviewed."
+          },
+          {
+            "id": "SWP-046-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-046-M1-T4",
+            "question": "Only a household representative attended a relocation discussion. What remains to check?",
+            "options": [
+              {
+                "text": "That attendance provides every member's consent.",
+                "correct": false
+              },
+              {
+                "text": "Whether other affected members have an appropriate opportunity to express their priorities.",
+                "correct": true
+              },
+              {
+                "text": "That all members have identical livelihood needs.",
+                "correct": false
+              },
+              {
+                "text": "That no accessible participation arrangement is necessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "One account need not represent every affected person."
+          },
+          {
+            "id": "SWP-046-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-046-M1-T5",
+            "question": "A learner is asked to certify a resident as a climate refugee. What fits this course's role?",
+            "options": [
+              {
+                "text": "Issue a status decision from the course certificate.",
+                "correct": false
+              },
+              {
+                "text": "Use a general climate report as a legal ruling.",
+                "correct": false
+              },
+              {
+                "text": "Document the concern and seek appropriate protection or legal advice.",
+                "correct": true
+              },
+              {
+                "text": "Guarantee eligibility for any destination's assistance.",
+                "correct": false
+              }
+            ],
+            "rationale": "Legal questions require the relevant authority and context."
+          },
+          {
+            "id": "SWP-046-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-046-M2-T1",
+            "question": "A job option conflicts with essential care and inaccessible travel. What should the livelihood discussion examine?",
+            "options": [
+              {
+                "text": "Only the job title.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that unpaid care has no practical cost.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that taking any job restores a livelihood.",
+                "correct": false
+              },
+              {
+                "text": "Whether those conditions make the option feasible for the person.",
+                "correct": true
+              }
+            ],
+            "rationale": "An option's practical conditions affect whether it can be pursued."
+          },
+          {
+            "id": "SWP-046-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-046-M2-T2",
+            "question": "An organisation is listed in an old directory. What is needed before describing a referral as accepted?",
+            "options": [
+              {
+                "text": "Confirmation of its current role, capacity and appropriate access process.",
+                "correct": true
+              },
+              {
+                "text": "The organisation's name alone.",
+                "correct": false
+              },
+              {
+                "text": "A promise made by the learner on its behalf.",
+                "correct": false
+              },
+              {
+                "text": "A larger number of copies of the directory.",
+                "correct": false
+              }
+            ],
+            "rationale": "A directory entry does not verify present access."
+          },
+          {
+            "id": "SWP-046-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-046-M2-T3",
+            "question": "A receiving service requests information unrelated to the agreed enquiry. What should be checked?",
+            "options": [
+              {
+                "text": "Automatic disclosure of the entire case record.",
+                "correct": false
+              },
+              {
+                "text": "Necessity and the applicable consent or lawful sharing process before disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Public posting to speed up the enquiry.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that every referral removes privacy obligations.",
+                "correct": false
+              }
+            ],
+            "rationale": "A referral does not justify unrestricted information sharing."
+          },
+          {
+            "id": "SWP-046-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-046-M2-T4",
+            "question": "A proposed support arrangement adds travel costs for hosts and newcomers. What should the plan do?",
+            "options": [
+              {
+                "text": "Assume inevitable conflict without asking anyone.",
+                "correct": false
+              },
+              {
+                "text": "Treat all households' costs as identical.",
+                "correct": false
+              },
+              {
+                "text": "Investigate the differing burdens and discuss feasible adjustments.",
+                "correct": true
+              },
+              {
+                "text": "Exclude one group from discussion because of its label.",
+                "correct": false
+              }
+            ],
+            "rationale": "Effects need investigation rather than stereotyping."
+          },
+          {
+            "id": "SWP-046-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-046-M2-T5",
+            "question": "A coordinator reports success because an enquiry was sent. What follow-up is most relevant?",
+            "options": [
+              {
+                "text": "Whether the outgoing message had a decorative heading.",
+                "correct": false
+              },
+              {
+                "text": "Whether sending proves employment was obtained.",
+                "correct": false
+              },
+              {
+                "text": "Whether the case can be publicised without further review.",
+                "correct": false
+              },
+              {
+                "text": "Whether the person reached suitable support and the next step still fits their priority.",
+                "correct": true
+              }
+            ],
+            "rationale": "The pathway's actual usefulness requires separate evidence."
+          },
+          {
+            "id": "SWP-046-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-046-M3-T1",
+            "question": "A programme records twenty completed moves but has no service-access follow-up. Which conclusion is justified?",
+            "options": [
+              {
+                "text": "Movement occurred; sustained rights and access still need evidence.",
+                "correct": true
+              },
+              {
+                "text": "Every household has achieved a durable solution.",
+                "correct": false
+              },
+              {
+                "text": "No further participation is necessary.",
+                "correct": false
+              },
+              {
+                "text": "A relocation count certifies destination safety.",
+                "correct": false
+              }
+            ],
+            "rationale": "Durable solutions concern conditions beyond location."
+          },
+          {
+            "id": "SWP-046-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-046-M3-T2",
+            "question": "A worker makes support conditional on accepting the worker's preferred return option. What needs correction?",
+            "options": [
+              {
+                "text": "Only the wording of the publicity notice.",
+                "correct": false
+              },
+              {
+                "text": "The coercive condition and the opportunity for an informed choice.",
+                "correct": true
+              },
+              {
+                "text": "The resident's right to ask about alternatives.",
+                "correct": false
+              },
+              {
+                "text": "The need to record who issued the condition.",
+                "correct": false
+              }
+            ],
+            "rationale": "Assistance should not be used to manufacture agreement."
+          },
+          {
+            "id": "SWP-046-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-046-M3-T3",
+            "question": "A destination has unresolved housing and structural concerns. What can a beginning practitioner appropriately do?",
+            "options": [
+              {
+                "text": "Certify physical and legal safety from a workshop discussion.",
+                "correct": false
+              },
+              {
+                "text": "Resolve a housing dispute by counting arrivals.",
+                "correct": false
+              },
+              {
+                "text": "Identify the concerns and seek the relevant authorised assessments.",
+                "correct": true
+              },
+              {
+                "text": "Replace technical evidence with a general climate citation.",
+                "correct": false
+              }
+            ],
+            "rationale": "The support role does not confer technical or legal decision authority."
+          },
+          {
+            "id": "SWP-046-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-046-M3-T4",
+            "question": "A resident wants to raise a personal concern outside a public meeting. What should the plan provide?",
+            "options": [
+              {
+                "text": "A requirement to disclose the concern publicly.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that silence means informed agreement.",
+                "correct": false
+              },
+              {
+                "text": "A public list linking residents to complaints.",
+                "correct": false
+              },
+              {
+                "text": "An accessible confidential route under the applicable protection arrangements.",
+                "correct": true
+              }
+            ],
+            "rationale": "Participation includes a safe way to raise sensitive concerns."
+          },
+          {
+            "id": "SWP-046-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-046-M3-T5",
+            "question": "Livelihood access improves while documentation barriers remain. How should the review describe progress?",
+            "options": [
+              {
+                "text": "Report the improvement and unresolved barrier with their evidence and next responsibility.",
+                "correct": true
+              },
+              {
+                "text": "Call every issue resolved because one indicator improved.",
+                "correct": false
+              },
+              {
+                "text": "Remove the barrier from the record.",
+                "correct": false
+              },
+              {
+                "text": "Declare total failure without examining the improvement.",
+                "correct": false
+              }
+            ],
+            "rationale": "A balanced judgement preserves both progress and unfinished work."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-047",
+      "title": "Indigenous Knowledge and Community Stewardship",
+      "slug": "indigenous-knowledge-and-community-stewardship",
+      "cover_title": "Indigenous Knowledge\nand Community\nStewardship",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners applying ecosocial practice under appropriate authority and supervision.",
+      "outcome": "Develop a community-agreed stewardship learning plan with bounded knowledge permissions, meaningful influence and accountable sharing and review arrangements.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Knowledge holders identity and authority",
+          "outcome": "Identify whose knowledge and authority matter without assuming a single community voice or unrestricted access.",
+          "paragraphs": [
+            "Indigenous knowledge and local knowledge are related terms with distinct histories and relationships to identity, land, institutions and authority. Do not assume that every local practice is Indigenous or assign Indigenous identity to a Nigerian community because a project uses that term. Ask how people describe their knowledge and which protocols govern an intended engagement. Dorji and colleagues review diverse reported practices in selected English-language literature; the review cannot identify this community's knowledge holders or determine whether a practice should be transferred. Begin with respectful enquiry and the relevant local relationships, not a universal cultural checklist. [R5, S1]",
+            "Communities contain different experiences and forms of authority. A recognised leader may help identify a legitimate process but should not automatically be treated as the sole voice on every subject or as able to consent for every individual. Ask who should contribute, whose perspective is missing and how people can decline without penalty. The participation review highlights power and exclusion across a broad literature, while the fairness of this engagement needs direct checking. Schedule and language arrangements should allow meaningful influence rather than merely increase an attendance count after the decision has already been fixed. [R2, S1]",
+            "Knowledge may be public, shared for a specific purpose or restricted by the people responsible for it. Permission to discuss a practice in a meeting does not necessarily include recording it, publishing a location, distributing a transcript or entering it into an artificial intelligence service. GIDA's governance resource and CARE principles emphasise collective benefit, authority, responsibility and ethics. They inform questions for agreement; they do not replace local protocols, individual rights or applicable law. Clarify the proposed use before requesting information and accept that some information should not be requested or recorded at all. [S8, S1]",
+            "Acknowledge knowledge with neither automatic dismissal nor automatic endorsement. A reported environmental practice may contain valuable observations while still requiring context-specific ecological, health or technical assessment before an activity is proposed. The climate-services review examines how knowledge is operationalised across roles and projects, not whether any particular practice is safe everywhere. Record what a contributor has authorised you to learn, what remains outside scope and the next decision that the knowledge could inform. Explain the limits of your own role and avoid promising a technical result or unrestricted publication in exchange for participation. [R7, R5, S1]"
+          ],
+          "example": "Fictional case: a stewardship team is invited to discuss seasonal observations. A local contact permits a discussion but says some locations must not be recorded. The team asks about an agreed participation process, offers ways to decline and does not treat the invitation as permission for public mapping or automated transcription.",
+          "activity": "Prepare an engagement note covering self-description, relevant knowledge holders, missing voices, the decision open to influence and permitted uses. Identify one type of information the team should avoid collecting until permission and necessity are clear.",
+          "feedback": "The note should recognise plural authority and bounded permission. It must not infer Indigenous identity, universal validity or unrestricted sharing from a local practice, a meeting invitation or one person's agreement.",
+          "sources": [
+            "R5",
+            "S1",
+            "R2",
+            "S8",
+            "R7"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Co-designing stewardship and learning",
+          "outcome": "Plan a bounded stewardship learning activity around an agreed decision and context-specific evidence.",
+          "paragraphs": [
+            "Begin co-design by identifying a decision that contributors consider useful and that the responsible roles can actually influence. A learning activity might explore how to review access to an existing community resource, rather than extract a catalogue of everything people know. Agree the purpose, boundaries, expected benefit and who will respond to findings before requesting contributions. The climate-services review connects knowledge use to decisions and relationships among service roles; it does not prove that collecting more observations automatically improves an outcome. Explain what will remain undecided and how contributors can challenge the proposed purpose. [R7, S1]",
+            "Create participation arrangements that fit the people involved. Language, timing, disability access, caring responsibilities and differences between generations can affect who is able to contribute. Ask what adjustments are appropriate instead of assuming one meeting format will work for everyone. Use separate or alternative channels where a collective discussion would suppress a view or expose sensitive information. The participation literature supports examining influence and power, but no standard checklist can certify this meeting as inclusive. Record missing perspectives and agreed attempts to address them without identifying people unnecessarily or interpreting non-attendance as consent. [R2, S1]",
+            "Select a small learning activity with the relevant community and responsible technical roles. Distinguish observing or discussing an existing arrangement from authorising ecological alteration, health treatment or construction. The knowledge review describes diverse practices under particular conditions; it should not be used to prescribe a technique from another place. Identify what needs specialist assessment, which permissions apply and what could cause harm or transfer a burden. If an activity cannot proceed within those conditions, revise its scope or keep it at the discussion stage instead of presenting an unapproved experiment as community stewardship. [R5, R7, S1]",
+            "Agree what success would mean for the bounded activity and how contributors will review it. A useful outcome may be a more accessible decision process or a clearer response to a priority, while meeting attendance is only an output. Choose proportionate evidence, note assumptions and provide feedback in an accessible form that contributors have approved. Do not require disclosure of restricted knowledge to demonstrate participation. GIDA's principles direct attention to community benefit and responsibility; the local agreement must still specify who can act, how a concern is raised and whether the activity remains worthwhile to those contributing. [S8, R2, S1]"
+          ],
+          "example": "Fictional case: contributors prefer to review access to an existing shared resource rather than disclose restricted seasonal sites. The team agrees a discussion-only activity, checks who is missing and asks the appropriate technical role about any later physical change. Feedback will use an approved summary without locations.",
+          "activity": "Design a one-page learning plan with purpose, decision space, participation adjustments, knowledge outside scope, technical dependency, outcome question and feedback owner. Include a condition under which the activity should be revised.",
+          "feedback": "A defensible plan begins with an agreed useful decision, respects non-disclosure and keeps technical approval separate. Its evidence should concern the intended benefit rather than treat attendance or information volume as success.",
+          "sources": [
+            "R7",
+            "S1",
+            "R2",
+            "R5",
+            "S8"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Knowledge governance sharing and accountability",
+          "outcome": "Document permitted uses and accountable review without treating attribution as consent.",
+          "paragraphs": [
+            "A knowledge-use agreement should describe the specific purpose, responsible roles, intended users, access restrictions, retention arrangements and approved outputs. Use language people can understand and the relevant local decision process. Some matters may require collective governance as well as individual agreement; one does not automatically replace the other. GIDA's CARE framework helps frame these questions, while local authority and legal obligations still need checking. Do not present an introductory template as a universal contract. Where permission is unclear, narrow the proposed collection or use while the appropriate process is clarified. [S8, S1]",
+            "Attribution acknowledges a contribution but does not create permission to use it. Ask whether and how contributors want to be identified, including whether an aggregate acknowledgement could still expose a small group. A source being publicly visible also does not necessarily authorise every reuse, adaptation or redistribution. In this course, the GIDA resource is linked and discussed through original commentary; its slides and exercises are not reproduced or adapted. Apply the same discipline to local contributions: record the agreed use and restrictions, and seek further agreement when a proposed output changes scope. [S8, S1]",
+            "Treat digital sharing as a separate decision with practical consequences. A map, photograph or transcript can expose locations, identities or relationships beyond the original audience. Do not enter restricted material into an unapproved AI or cloud service, or assume removing a name removes identification risk. Check necessity, approved access and the ability to control later distribution. The knowledge and participation reviews highlight relationships and influence, not a technological permission shortcut. A useful summary may answer the agreed decision question without retaining or disclosing the underlying sensitive details at all. [R7, R2, S1]",
+            "Provide a route for contributors to review proposed outputs, correct inaccuracies and raise concerns about later use. Explain honestly what can be changed, withdrawn or deleted within the relevant agreement and obligations, including limits once approved information has been distributed. Record the responsible role, response, version and communication back to contributors. Accountability includes reporting what happened after people contributed, not simply collecting a signature at the beginning. Review whether the intended benefit materialised and whose perspective is still missing; a respectful learning process can require changing or stopping a proposed use when its conditions are no longer satisfied. [S8, R5, S1]"
+          ],
+          "example": "Fictional case: a team has permission for an internal learning summary, with contributor review before circulation. A sponsor later requests an online map and named quotations. The team treats these as new proposed uses, checks authority and restrictions, and retains the original limits while that decision is unresolved.",
+          "activity": "Write a knowledge-use record covering purpose, authority, access, retention, approved output, attribution preference, review route and a proposed scope change. Explain one limit to withdrawal that must be communicated honestly.",
+          "feedback": "The record should make permissions specific and revisable through an accountable process. Acknowledgement, technical convenience or a sponsor's request cannot substitute for the appropriate agreement and lawful obligations.",
+          "sources": [
+            "S8",
+            "S1",
+            "R7",
+            "R2",
+            "R5"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-047",
+        "course_slug": "indigenous-knowledge-and-community-stewardship",
+        "title": "Indigenous Knowledge and Community Stewardship",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "fac08a4294f49cd280ed862bd4806e364047977d932437a67a2759ad8df759f5",
+        "catalogue_sha256": "f1c8c8f806fa6e11d908878b3036deb4584864903aaf0b542de16b691fc44953",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Knowledge holders identity and authority",
+            "outcome": "Identify whose knowledge and authority matter without assuming a single community voice or unrestricted access.",
+            "teaching_points": [
+              {
+                "id": "SWP-047-M1-T1",
+                "text": "Indigenous and local knowledge are not interchangeable labels."
+              },
+              {
+                "id": "SWP-047-M1-T2",
+                "text": "Authority can be plural and topic-specific."
+              },
+              {
+                "id": "SWP-047-M1-T3",
+                "text": "Discussion permission does not authorise every subsequent use."
+              },
+              {
+                "id": "SWP-047-M1-T4",
+                "text": "Participation should allow meaningful influence."
+              },
+              {
+                "id": "SWP-047-M1-T5",
+                "text": "Reported practices need contextual assessment."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Co-designing stewardship and learning",
+            "outcome": "Plan a bounded stewardship learning activity around an agreed decision and context-specific evidence.",
+            "teaching_points": [
+              {
+                "id": "SWP-047-M2-T1",
+                "text": "Knowledge collection should serve an agreed useful decision."
+              },
+              {
+                "id": "SWP-047-M2-T2",
+                "text": "Participation formats affect whose views are heard."
+              },
+              {
+                "id": "SWP-047-M2-T3",
+                "text": "A discussion does not authorise ecological alteration."
+              },
+              {
+                "id": "SWP-047-M2-T4",
+                "text": "Restricted knowledge need not be disclosed to prove participation."
+              },
+              {
+                "id": "SWP-047-M2-T5",
+                "text": "Outcomes concern the intended change."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Knowledge governance sharing and accountability",
+            "outcome": "Document permitted uses and accountable review without treating attribution as consent.",
+            "teaching_points": [
+              {
+                "id": "SWP-047-M3-T1",
+                "text": "Collective governance and individual rights need attention."
+              },
+              {
+                "id": "SWP-047-M3-T2",
+                "text": "Attribution is distinct from permission."
+              },
+              {
+                "id": "SWP-047-M3-T3",
+                "text": "Removing a name may not prevent identification."
+              },
+              {
+                "id": "SWP-047-M3-T4",
+                "text": "A changed output requires renewed scope review."
+              },
+              {
+                "id": "SWP-047-M3-T5",
+                "text": "Accountability continues after initial agreement."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-047-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-047-M1-T1",
+            "question": "A team labels all local observations Indigenous without asking contributors. What should change?",
+            "options": [
+              {
+                "text": "Keep the label because any local activity proves Indigenous identity.",
+                "correct": false
+              },
+              {
+                "text": "Ask an external database to assign an identity automatically.",
+                "correct": false
+              },
+              {
+                "text": "Clarify people's own descriptions and relevant histories and protocols.",
+                "correct": true
+              },
+              {
+                "text": "Assume the label grants permission to publish.",
+                "correct": false
+              }
+            ],
+            "rationale": "Identity and knowledge relationships should not be imposed by a project label."
+          },
+          {
+            "id": "SWP-047-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-047-M1-T2",
+            "question": "One contact approves a meeting. What is still necessary before claiming community agreement on every use?",
+            "options": [
+              {
+                "text": "Treat the approval as consent from every individual.",
+                "correct": false
+              },
+              {
+                "text": "Assume authority is identical for every topic.",
+                "correct": false
+              },
+              {
+                "text": "Exclude anyone who questions the proposal.",
+                "correct": false
+              },
+              {
+                "text": "Check the appropriate decision process, other voices and the scope of authority.",
+                "correct": true
+              }
+            ],
+            "rationale": "An invitation does not establish unlimited representative authority."
+          },
+          {
+            "id": "SWP-047-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-047-M1-T3",
+            "question": "Contributors allow a private discussion but not publication of locations. Which action respects the boundary?",
+            "options": [
+              {
+                "text": "Keep locations out of public outputs and clarify any further proposed use.",
+                "correct": true
+              },
+              {
+                "text": "Publish the map because discussion occurred.",
+                "correct": false
+              },
+              {
+                "text": "Upload all notes to a public AI tool without checking.",
+                "correct": false
+              },
+              {
+                "text": "Assume a credit line overrides the restriction.",
+                "correct": false
+              }
+            ],
+            "rationale": "Permission is bounded by the agreed purpose and use."
+          },
+          {
+            "id": "SWP-047-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-047-M1-T4",
+            "question": "A team seeks local input only after choosing the only acceptable option. What needs examination?",
+            "options": [
+              {
+                "text": "Whether attendance alone proves influence.",
+                "correct": false
+              },
+              {
+                "text": "Whether contributors have an honest opportunity to influence a decision still open.",
+                "correct": true
+              },
+              {
+                "text": "Whether a longer sign-in sheet resolves the issue.",
+                "correct": false
+              },
+              {
+                "text": "Whether critical contributors can be removed.",
+                "correct": false
+              }
+            ],
+            "rationale": "Influence depends on actual decision space and inclusion."
+          },
+          {
+            "id": "SWP-047-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-047-M1-T5",
+            "question": "A review describes a practice used elsewhere. What does that establish for this site's proposed activity?",
+            "options": [
+              {
+                "text": "Universal safety in every setting.",
+                "correct": false
+              },
+              {
+                "text": "Automatic authority to prescribe the practice.",
+                "correct": false
+              },
+              {
+                "text": "A question for contextual investigation rather than proof of local safety or effectiveness.",
+                "correct": true
+              },
+              {
+                "text": "Permission to disclose all associated knowledge.",
+                "correct": false
+              }
+            ],
+            "rationale": "A reported practice is neither a universal intervention nor a permission grant."
+          },
+          {
+            "id": "SWP-047-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-047-M2-T1",
+            "question": "A project requests every local observation before explaining any intended use. What should happen first?",
+            "options": [
+              {
+                "text": "Collect everything because storage is inexpensive.",
+                "correct": false
+              },
+              {
+                "text": "Promise that information volume guarantees adaptation.",
+                "correct": false
+              },
+              {
+                "text": "Assume all contributors want the same output.",
+                "correct": false
+              },
+              {
+                "text": "Agree the purpose, decision space, boundaries and expected benefit.",
+                "correct": true
+              }
+            ],
+            "rationale": "Purpose and authority should precede information collection."
+          },
+          {
+            "id": "SWP-047-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-047-M2-T2",
+            "question": "An evening meeting excludes people with care responsibilities. What is a useful response?",
+            "options": [
+              {
+                "text": "Discuss feasible alternative arrangements and record the remaining gap.",
+                "correct": true
+              },
+              {
+                "text": "Interpret absence as agreement.",
+                "correct": false
+              },
+              {
+                "text": "Assume the same format suits every contributor.",
+                "correct": false
+              },
+              {
+                "text": "Publish the names of non-attendees as uncooperative.",
+                "correct": false
+              }
+            ],
+            "rationale": "Access and power require practical attention without punitive disclosure."
+          },
+          {
+            "id": "SWP-047-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-047-M2-T3",
+            "question": "A learning group proposes changing a watercourse after discussing observations. What is needed?",
+            "options": [
+              {
+                "text": "A general journal citation as construction authority.",
+                "correct": false
+              },
+              {
+                "text": "The relevant permissions and qualified technical assessment before any physical change.",
+                "correct": true
+              },
+              {
+                "text": "A majority vote replacing all technical review.",
+                "correct": false
+              },
+              {
+                "text": "An immediate unsupervised experiment.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning contributions do not replace required authority or expertise."
+          },
+          {
+            "id": "SWP-047-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-047-M2-T4",
+            "question": "A contributor declines to reveal a sensitive site but offers a general concern. What is appropriate?",
+            "options": [
+              {
+                "text": "Require the site location as evidence of commitment.",
+                "correct": false
+              },
+              {
+                "text": "Guess and publish the location.",
+                "correct": false
+              },
+              {
+                "text": "Respect the boundary and consider the concern within the agreed purpose.",
+                "correct": true
+              },
+              {
+                "text": "Treat refusal as permission to record covertly.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation must respect the scope and limits of sharing."
+          },
+          {
+            "id": "SWP-047-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-047-M2-T5",
+            "question": "A stewardship activity aims to improve access to a decision process. Which question addresses that outcome?",
+            "options": [
+              {
+                "text": "How many sheets were printed?",
+                "correct": false
+              },
+              {
+                "text": "How many observation files were stored?",
+                "correct": false
+              },
+              {
+                "text": "How many decorative posters were displayed?",
+                "correct": false
+              },
+              {
+                "text": "Can intended contributors understand and influence the relevant decision?",
+                "correct": true
+              }
+            ],
+            "rationale": "Process access and influence are distinct from production counts."
+          },
+          {
+            "id": "SWP-047-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-047-M3-T1",
+            "question": "A project has one person's consent for material governed by a collective protocol. What should be checked?",
+            "options": [
+              {
+                "text": "The relevant collective authority as well as the individual's rights and agreement.",
+                "correct": true
+              },
+              {
+                "text": "That individual consent automatically cancels every collective protocol.",
+                "correct": false
+              },
+              {
+                "text": "That collective approval cancels every individual's rights.",
+                "correct": false
+              },
+              {
+                "text": "That no authority question remains because collection is convenient.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different rights and governance responsibilities may apply together."
+          },
+          {
+            "id": "SWP-047-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-047-M3-T2",
+            "question": "A team offers to credit a contributor for an unapproved public output. What remains necessary?",
+            "options": [
+              {
+                "text": "Only a larger credit line.",
+                "correct": false
+              },
+              {
+                "text": "The appropriate permission for that specific use.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that acknowledgement authorises any use.",
+                "correct": false
+              },
+              {
+                "text": "A decision to publish before asking.",
+                "correct": false
+              }
+            ],
+            "rationale": "Recognition does not grant a use right."
+          },
+          {
+            "id": "SWP-047-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-047-M3-T3",
+            "question": "A small community's sensitive site is mapped without personal names. What risk remains?",
+            "options": [
+              {
+                "text": "All identification risk is automatically removed.",
+                "correct": false
+              },
+              {
+                "text": "Maps cannot reveal relationships.",
+                "correct": false
+              },
+              {
+                "text": "Location and context may still identify people or restricted knowledge.",
+                "correct": true
+              },
+              {
+                "text": "Publication restrictions no longer apply.",
+                "correct": false
+              }
+            ],
+            "rationale": "Indirect identifiers and context can expose sensitive information."
+          },
+          {
+            "id": "SWP-047-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-047-M3-T4",
+            "question": "Permission covers an internal summary but a sponsor requests a public transcript. What is appropriate?",
+            "options": [
+              {
+                "text": "Assume funding creates unrestricted publication authority.",
+                "correct": false
+              },
+              {
+                "text": "Publish because a summary was previously allowed.",
+                "correct": false
+              },
+              {
+                "text": "Remove all recorded permission limits.",
+                "correct": false
+              },
+              {
+                "text": "Treat the transcript as a new proposed use and check the relevant agreement.",
+                "correct": true
+              }
+            ],
+            "rationale": "A wider audience and different output can exceed the original scope."
+          },
+          {
+            "id": "SWP-047-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-047-M3-T5",
+            "question": "An approved output contains an error raised by contributors. What should the process include?",
+            "options": [
+              {
+                "text": "Review, correction where appropriate, a response and a retained amendment history.",
+                "correct": true
+              },
+              {
+                "text": "Ignoring concerns because an initial signature exists.",
+                "correct": false
+              },
+              {
+                "text": "Secret replacement without any response.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that every distributed copy can always be recalled.",
+                "correct": false
+              }
+            ],
+            "rationale": "Ongoing accountability needs a realistic response and honest limits."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-048",
+      "title": "Evaluating Ecosocial Interventions",
+      "slug": "evaluating-ecosocial-interventions",
+      "cover_title": "Evaluating Ecosocial\nInterventions",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners applying ecosocial practice under appropriate authority and supervision.",
+      "outcome": "Prepare a proportionate ecosocial evaluation brief with relevant questions, transparent indicators, equity-sensitive evidence, bounded conclusions and accountable follow-through.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Evaluation questions and evaluability",
+          "outcome": "Select a useful evaluation question and identify the evidence and authority needed to answer it.",
+          "paragraphs": [
+            "Evaluation makes an explicit judgement about an intervention for a stated purpose, using relevant evidence and criteria. Routine monitoring can show whether activities are delivered and alert a team to a barrier; an evaluation asks a defined question about value, performance or consequences and explains how a judgement will be reached. Begin by identifying who needs the answer, what decision it will inform and whose experience matters. The social work education benchmark connects research-informed practice and evaluation, but does not accredit this course or authorise a local finding simply because the report uses an evaluation label. [S3, S1]",
+            "OECD guidance discusses relevance, coherence, effectiveness, efficiency, impact and sustainability as lenses to apply thoughtfully. Select and interpret criteria for the purpose and context instead of treating all six as a compulsory identical scoring checklist. Relevance might examine whether an arrangement addresses a priority; coherence might examine its fit with other services. These are questions, not automatic scores. Explain whose priorities and values inform the judgement and how disagreement will be recorded. Choosing an impact criterion does not provide the design or evidence needed to establish that the intervention caused a change. [S9, S1]",
+            "Map the working theory of change before choosing measures. Distinguish resources and activities from outputs and intended outcomes, and state assumptions that connect them. For an access arrangement, a published contact process is an output; people reaching suitable support is a different claim requiring evidence. Ask whether the required records, starting point, perspectives, skills, time and permissions are available. This evaluability check may show that the question should be narrowed or deferred. The participation review supports scrutiny of influence and missing perspectives; it does not guarantee that a convenient survey will answer every intended question. [R2, S9]",
+            "Use an evaluation matrix with purpose, criterion, question, intended claim, indicator or qualitative evidence, source, starting point, limitation and responsible role. Check that collection is necessary and proportionate, and identify the required ethical, organisational and community permissions before proceeding. A small review can produce useful bounded learning without claiming programme effectiveness for every group. State what the evaluation cannot answer and who may authorise changes in response. Where a question would need specialist causal analysis, technical measurement or legal judgement, identify that dependency rather than substitute a confident narrative for missing capability. [S9, S3, S1]"
+          ],
+          "example": "Fictional case: a team wants to know whether a contact arrangement suits people facing access barriers. It selects a relevance question and a bounded effectiveness question, checks available starting-point records and requests accessible feedback. It does not call an attendance sheet an impact evaluation.",
+          "activity": "Draft an evaluation matrix for one access question. Include its intended decision, selected criterion, evidence source, assumption, missing perspective, permission and a claim that the proposed design cannot support.",
+          "feedback": "A useful matrix connects a decision to an answerable question and identifies the evidence gap. The choice of a criterion or indicator cannot itself establish attribution, accreditation or an intervention's success.",
+          "sources": [
+            "S3",
+            "S1",
+            "S9",
+            "R2"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Design evidence and equity",
+          "outcome": "Interpret indicators and diverse accounts with transparent denominators and causal limits.",
+          "paragraphs": [
+            "Match the evidence approach to the evaluation question. Counts can describe recorded activity; interviews or accessible feedback can explore how an arrangement is experienced. Neither method is automatically more valid for every purpose, and combining methods does not remove their individual limitations. Specify who is included, how information will be obtained, the relevant period and what a missing response means. Review whether the approach excludes people most affected by the barrier. The participation review highlights power and whose voice shapes findings, while a local evaluation still needs transparent recruitment and an honest account of absent perspectives. [R2, S1, S9]",
+            "Define every rate with a numerator, denominator, time period and population. In an invented exercise, twelve of twenty respondents report access at the starting point and eighteen of thirty report access at review. Both recorded proportions are sixty percent, although the second count is larger. These are fictional teaching figures, not SWEEP learner or community data. The groups may differ and respondents may not represent everyone. Report the counts and proportions with those limitations; do not claim a higher access rate from the larger numerator or infer that the intervention caused a change. [S9, S1]",
+            "Causal questions require a design able to examine what would likely have happened otherwise, with assumptions and limitations made explicit by appropriate expertise. A simple before-and-after comparison can be influenced by changing weather, service capacity, demand or other interventions. A comparison group can also differ in important ways and is not automatically a valid counterfactual. This introductory course asks learners to identify those concerns, not to implement an unreviewed experimental study. Where only descriptive evidence is feasible, state that scope clearly and use it for the question it can actually answer. [S9, S3]",
+            "Include social effects and trade-offs when selecting ecosocial indicators. Horneman and colleagues review indicators in coastal and transitional nature-based adaptation cases and identify uneven coverage, including limited socio-economic attention. Their literature search ends in June 2023 despite the paper's 2026 publication. It offers reasons to examine indicator balance, not a universal metric set or proof of a local ecological effect. An environmental output can coexist with reduced access or increased unpaid work for some people. Seek relevant perspectives and qualified technical interpretation rather than using one favourable indicator to represent every consequence. [R10, R2, S1]"
+          ],
+          "example": "Fictional case: access is reported by twelve of twenty respondents before an activity and eighteen of thirty afterwards. Both proportions are sixty percent. The evaluator also hears from people excluded by the contact format and notes that the respondent groups differ, so neither a rate improvement nor causation is established.",
+          "activity": "Calculate both proportions and write a four-sentence findings note. Include numerator and denominator, the unchanged rate, one missing-perspective concern and one reason the design cannot attribute an effect. Add a social trade-off question for an environmental activity.",
+          "feedback": "Both proportions equal sixty percent. A larger count is not a higher rate; different respondents, missing perspectives and other influences limit comparison. A balanced ecosocial assessment examines social consequences as well as environmental outputs.",
+          "sources": [
+            "R2",
+            "S1",
+            "S9",
+            "S3",
+            "R10"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Judgement use and follow-through",
+          "outcome": "Write a bounded judgement and an accountable response without overstating efficiency or effect.",
+          "paragraphs": [
+            "An evaluation judgement should show the question, relevant criterion, evidence, limitations and reasoning that connect them. Separate an observation from an interpretation and distinguish an unmeasured outcome from a negative result. Findings may be mixed across groups and time periods, and disagreement may identify a real difference in priorities rather than an error to average away. State the strength of the supporting evidence in ordinary language. The OECD guidance helps organise evaluative questions, while professional responsibility requires that the wording of the conclusion remains proportionate to what the actual design and sources can demonstrate. [S9, S1, S3]",
+            "Efficiency questions need transparent information about resources and the relevant result. In an invented exercise, forty planning units support ten recorded participants, giving four units per participant. This is not a real Nigerian price, a health cost-effectiveness ratio or evidence that the arrangement is equitable. Unpaid time, accessibility costs, quality and benefits may be absent from the simple calculation. A comparison also needs sufficiently comparable costs, periods, participants and outcomes. Explain what the arithmetic includes and omits before using it to inform a decision; a lower ratio alone cannot establish a better intervention. [S9, S1]",
+            "Connect findings to a response that a responsible role can authorise. A recommendation should name the concern, proposed action, owner, dependency and review point, with an alternative if resources or authority remain unresolved. Contributors should receive an accessible account of the findings and the response, within the agreed knowledge and privacy arrangements. The participation review supports examining whether feedback has influence, not simply whether it was collected. Keep identifying details out of public summaries where people could be recognised or harmed, and record a route to question an interpretation or raise a correction. [R2, S1, S9]",
+            "Preserve an audit trail of the evidence basis, report version, decision and later amendment. If a technical indicator is uncertain, seek qualified interpretation and state that uncertainty rather than substitute a success label. The nature-based-solutions review supports careful indicator selection but does not certify this intervention's effectiveness. A proportionate evaluation may recommend continuing, revising or gathering better evidence, depending on the question and authority. Review whether the agreed response actually occurred and what remains unanswered. An evaluation report can support learning without acting as a professional accreditation, a school examination pass or a certificate authorisation. [R10, S3, S1, S9]"
+          ],
+          "example": "Fictional case: forty exercise units support ten participants. A report notes four units per participant but missing unpaid time and outcome evidence. Users report a useful contact process alongside an access barrier. The authorised owner agrees a revision and review date, and the report retains both findings and its limitations.",
+          "activity": "Write a short judgement and response note. Show the exercise ratio and its omissions, one supported finding, one unmeasured outcome, an action owner, a dependency, a feedback route and a review date.",
+          "feedback": "Four units per participant is an arithmetic description. A sound judgement explains missing costs and outcomes, preserves mixed findings and gives an authorised response route without claiming proven effectiveness or certification.",
+          "sources": [
+            "S9",
+            "S1",
+            "S3",
+            "R2",
+            "R10"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-048",
+        "course_slug": "evaluating-ecosocial-interventions",
+        "title": "Evaluating Ecosocial Interventions",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "5e0d5580cdb0fb359a7d0c76a7454b05e6079757924bb50e0d85ee8516e46cab",
+        "catalogue_sha256": "b9024597ec66f96a983ecf7b25f53476f854d36b6b61bdcfc97328c7f78c98ca",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Evaluation questions and evaluability",
+            "outcome": "Select a useful evaluation question and identify the evidence and authority needed to answer it.",
+            "teaching_points": [
+              {
+                "id": "SWP-048-M1-T1",
+                "text": "Evaluation needs a stated purpose and judgement question."
+              },
+              {
+                "id": "SWP-048-M1-T2",
+                "text": "Evaluation criteria are contextual lenses."
+              },
+              {
+                "id": "SWP-048-M1-T3",
+                "text": "Outputs and intended outcomes require distinct evidence."
+              },
+              {
+                "id": "SWP-048-M1-T4",
+                "text": "Evaluability checks whether a question can be answered responsibly."
+              },
+              {
+                "id": "SWP-048-M1-T5",
+                "text": "Choosing an impact criterion does not establish causality."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Design evidence and equity",
+            "outcome": "Interpret indicators and diverse accounts with transparent denominators and causal limits.",
+            "teaching_points": [
+              {
+                "id": "SWP-048-M2-T1",
+                "text": "Mixed methods retain their individual limitations."
+              },
+              {
+                "id": "SWP-048-M2-T2",
+                "text": "Rates need explicit denominators."
+              },
+              {
+                "id": "SWP-048-M2-T3",
+                "text": "Missing responses can affect interpretation."
+              },
+              {
+                "id": "SWP-048-M2-T4",
+                "text": "A comparison group is not automatically a valid counterfactual."
+              },
+              {
+                "id": "SWP-048-M2-T5",
+                "text": "Environmental indicators can omit social trade-offs."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Judgement use and follow-through",
+            "outcome": "Write a bounded judgement and an accountable response without overstating efficiency or effect.",
+            "teaching_points": [
+              {
+                "id": "SWP-048-M3-T1",
+                "text": "An unmeasured outcome is not a demonstrated negative outcome."
+              },
+              {
+                "id": "SWP-048-M3-T2",
+                "text": "Simple resource ratios have a bounded meaning."
+              },
+              {
+                "id": "SWP-048-M3-T3",
+                "text": "Recommendations require responsibility and authority."
+              },
+              {
+                "id": "SWP-048-M3-T4",
+                "text": "Mixed findings should remain visible."
+              },
+              {
+                "id": "SWP-048-M3-T5",
+                "text": "Evaluation supports learning without authorising credentials."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-048-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-048-M1-T1",
+            "question": "A team collects activity counts without stating what decision they inform. What should be clarified first?",
+            "options": [
+              {
+                "text": "The report's cover colour.",
+                "correct": false
+              },
+              {
+                "text": "A conclusion of effectiveness before analysis.",
+                "correct": false
+              },
+              {
+                "text": "The evaluation purpose, intended decision and question.",
+                "correct": true
+              },
+              {
+                "text": "A rule that more collected data always improves judgement.",
+                "correct": false
+              }
+            ],
+            "rationale": "Useful evidence collection follows a defined purpose."
+          },
+          {
+            "id": "SWP-048-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-048-M1-T2",
+            "question": "A reviewer applies all six OECD criteria as an identical scoring checklist without context. What should change?",
+            "options": [
+              {
+                "text": "Assume each criterion provides a causal method.",
+                "correct": false
+              },
+              {
+                "text": "Remove all explanation of whose priorities matter.",
+                "correct": false
+              },
+              {
+                "text": "Treat a total score as proof of universal effectiveness.",
+                "correct": false
+              },
+              {
+                "text": "Select and interpret criteria according to purpose and context, explaining the choice.",
+                "correct": true
+              }
+            ],
+            "rationale": "The guidance calls for thoughtful application rather than mechanical scoring."
+          },
+          {
+            "id": "SWP-048-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-048-M1-T3",
+            "question": "An evaluation asks whether users reached suitable support. Which is only an output measure?",
+            "options": [
+              {
+                "text": "The number of contact guides distributed.",
+                "correct": true
+              },
+              {
+                "text": "Users' accounts of reaching appropriate support.",
+                "correct": false
+              },
+              {
+                "text": "Verified access to the intended service.",
+                "correct": false
+              },
+              {
+                "text": "Evidence about barriers at the next step.",
+                "correct": false
+              }
+            ],
+            "rationale": "Distribution records show production or reach, not necessarily successful access."
+          },
+          {
+            "id": "SWP-048-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-048-M1-T4",
+            "question": "A proposed evaluation lacks baseline records, permissions and required analytical skills. What is appropriate?",
+            "options": [
+              {
+                "text": "Invent a starting point.",
+                "correct": false
+              },
+              {
+                "text": "Identify those gaps and narrow or defer unsupported claims while resolving them.",
+                "correct": true
+              },
+              {
+                "text": "Proceed as if resources were confirmed.",
+                "correct": false
+              },
+              {
+                "text": "Declare that a report template supplies the missing evidence.",
+                "correct": false
+              }
+            ],
+            "rationale": "An explicit feasibility check prevents conclusions beyond available evidence."
+          },
+          {
+            "id": "SWP-048-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-048-M1-T5",
+            "question": "A report is titled impact evaluation but uses only an uncontrolled post-activity survey. What must its claims reflect?",
+            "options": [
+              {
+                "text": "Causality guaranteed by the title.",
+                "correct": false
+              },
+              {
+                "text": "Proof of effects for all non-respondents.",
+                "correct": false
+              },
+              {
+                "text": "The design's limited ability to attribute observed outcomes to the activity.",
+                "correct": true
+              },
+              {
+                "text": "Automatic equivalence to a controlled study.",
+                "correct": false
+              }
+            ],
+            "rationale": "The method and evidence, rather than the label, bound attribution."
+          },
+          {
+            "id": "SWP-048-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-048-M2-T1",
+            "question": "An evaluation combines a convenience survey and a few interviews. What should it still report?",
+            "options": [
+              {
+                "text": "That combining methods guarantees representation.",
+                "correct": false
+              },
+              {
+                "text": "That every causal question is now resolved.",
+                "correct": false
+              },
+              {
+                "text": "That interview findings apply numerically to the entire population.",
+                "correct": false
+              },
+              {
+                "text": "Selection, missing perspectives and other limits of each evidence source.",
+                "correct": true
+              }
+            ],
+            "rationale": "Combining sources can add insight without eliminating design limitations."
+          },
+          {
+            "id": "SWP-048-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-048-M2-T2",
+            "question": "In the exercise, access is reported by 12 of 20 people and later 18 of 30. Which interpretation is correct?",
+            "options": [
+              {
+                "text": "Both recorded proportions are 60 percent; the larger count does not show a higher rate.",
+                "correct": true
+              },
+              {
+                "text": "The rate increased because eighteen is greater than twelve.",
+                "correct": false
+              },
+              {
+                "text": "The later rate is 90 percent because the earlier denominator should be reused.",
+                "correct": false
+              },
+              {
+                "text": "The figures prove the intervention caused improved access.",
+                "correct": false
+              }
+            ],
+            "rationale": "Twelve divided by twenty and eighteen divided by thirty both equal 0.6."
+          },
+          {
+            "id": "SWP-048-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-048-M2-T3",
+            "question": "People unable to use the contact format are absent from feedback. What should the evaluator do?",
+            "options": [
+              {
+                "text": "Assume their experience matches respondents exactly.",
+                "correct": false
+              },
+              {
+                "text": "Report the exclusion and consider an appropriate accessible way to hear their experience.",
+                "correct": true
+              },
+              {
+                "text": "Delete the limitation from the findings.",
+                "correct": false
+              },
+              {
+                "text": "Treat silence as satisfaction.",
+                "correct": false
+              }
+            ],
+            "rationale": "An excluded perspective may matter directly to the access question."
+          },
+          {
+            "id": "SWP-048-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-048-M2-T4",
+            "question": "Two communities differ in service capacity before a programme. What concern affects a simple outcome comparison?",
+            "options": [
+              {
+                "text": "Any second community guarantees causal attribution.",
+                "correct": false
+              },
+              {
+                "text": "Service capacity is irrelevant by definition.",
+                "correct": false
+              },
+              {
+                "text": "Baseline differences may explain part of the observed difference.",
+                "correct": true
+              },
+              {
+                "text": "A comparison cancels every measurement problem.",
+                "correct": false
+              }
+            ],
+            "rationale": "A credible causal interpretation needs design assumptions and appropriate expertise."
+          },
+          {
+            "id": "SWP-048-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-048-M2-T5",
+            "question": "An adaptation report measures vegetation but omits users' access and unpaid workload. What should be considered?",
+            "options": [
+              {
+                "text": "A rule that vegetation represents every consequence.",
+                "correct": false
+              },
+              {
+                "text": "A universal indicator set inferred from one review.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that environmental outputs benefit everyone equally.",
+                "correct": false
+              },
+              {
+                "text": "Relevant social outcomes and burdens alongside the environmental measures.",
+                "correct": true
+              }
+            ],
+            "rationale": "An ecosocial judgement needs a relevant balance of consequences."
+          },
+          {
+            "id": "SWP-048-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-048-M3-T1",
+            "question": "A review has no wellbeing data. Which wording is defensible?",
+            "options": [
+              {
+                "text": "Wellbeing effects were not established by this evidence.",
+                "correct": true
+              },
+              {
+                "text": "The intervention definitely worsened wellbeing.",
+                "correct": false
+              },
+              {
+                "text": "The intervention definitely improved wellbeing.",
+                "correct": false
+              },
+              {
+                "text": "No measurement is needed because a report exists.",
+                "correct": false
+              }
+            ],
+            "rationale": "Absence of measurement cannot establish an effect's direction."
+          },
+          {
+            "id": "SWP-048-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-048-M3-T2",
+            "question": "Forty fictional units support ten recorded participants. What does four units per participant establish?",
+            "options": [
+              {
+                "text": "A real Nigerian market price.",
+                "correct": false
+              },
+              {
+                "text": "A descriptive ratio with costs, quality, equity and outcomes still to assess.",
+                "correct": true
+              },
+              {
+                "text": "A proven health cost-effectiveness result.",
+                "correct": false
+              },
+              {
+                "text": "The best possible intervention regardless of outcomes.",
+                "correct": false
+              }
+            ],
+            "rationale": "The calculation does not contain the information needed for broader value judgements."
+          },
+          {
+            "id": "SWP-048-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-048-M3-T3",
+            "question": "An evaluation recommends an access revision with no owner or confirmed resources. What should be added?",
+            "options": [
+              {
+                "text": "A claim that publication makes implementation automatic.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that another service has accepted the task.",
+                "correct": false
+              },
+              {
+                "text": "A responsible role, authority or resource dependency and review point.",
+                "correct": true
+              },
+              {
+                "text": "An instruction to hide the unresolved dependency.",
+                "correct": false
+              }
+            ],
+            "rationale": "A usable recommendation makes its route to action explicit."
+          },
+          {
+            "id": "SWP-048-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-048-M3-T4",
+            "question": "Feedback identifies a useful process and a persistent access barrier. How should the conclusion be framed?",
+            "options": [
+              {
+                "text": "Remove the barrier to keep a positive narrative.",
+                "correct": false
+              },
+              {
+                "text": "Ignore the useful process to make every finding negative.",
+                "correct": false
+              },
+              {
+                "text": "Average the statements into an unsupported universal claim.",
+                "correct": false
+              },
+              {
+                "text": "Describe both findings with their evidence and limitations.",
+                "correct": true
+              }
+            ],
+            "rationale": "Balanced reporting retains relevant differences and unresolved concerns."
+          },
+          {
+            "id": "SWP-048-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-048-M3-T5",
+            "question": "A team completes an ecosocial evaluation report. What does this alone authorise?",
+            "options": [
+              {
+                "text": "No course pass or school certificate; those require their separate verified processes.",
+                "correct": true
+              },
+              {
+                "text": "Automatic certification for every participant.",
+                "correct": false
+              },
+              {
+                "text": "Replacement of the final ParaLearn school examination.",
+                "correct": false
+              },
+              {
+                "text": "Professional accreditation of the intervention.",
+                "correct": false
+              }
+            ],
+            "rationale": "An evaluation finding is separate from assessment and credential authorisation."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence checked 14 November 2026. Publication dates and reviewed evidence periods are distinguished. Journal metrics are limited to identified provider records and are not article-quality certification. No IJSDS, Environmental Management or independent JCR quartile is claimed. Guidance supports original practice exercises; local authority, community protocols and independent academic review remain necessary."
+}

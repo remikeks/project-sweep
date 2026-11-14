@@ -30,7 +30,7 @@ def retrieve(row):
                 raw=response.read();mime=response.headers.get("Content-Type","");final=response.url
             suffix=".pdf" if raw.startswith(b"%PDF") else (".json" if kind=="crossref" else ".html")
             (OUT/(rid+"-"+kind+suffix)).write_bytes(raw)
-            challenge=any(marker in raw for marker in (b"Client Challenge",b"JavaScript is disabled",b"Just a moment"))
+            challenge=any(marker in raw for marker in (b"Client Challenge",b"JavaScript is disabled",b"Just a moment",b"Checking your browser"))
             record[kind]=dict(url=final,bytes=len(raw),mime=mime,sha256=hashlib.sha256(raw).hexdigest(),
                 content_status="challenge_page_not_evidence" if challenge else "retrieved_not_independently_appraised")
         except Exception as exc:

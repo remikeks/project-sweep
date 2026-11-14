@@ -1,0 +1,72 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "bcbdc84e86fe513ebd6b3fb3560572a8b87f3054adb1f34e0efa4902ec9a52a7",
+  "summary": {
+    "assets": 12,
+    "asset_courses": 3
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-046-climate-displacement-and-livelihood-adaptation-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "89197c335af0c7ea6f813d3c70c8fc49fabdd90acfb480c82d6b3520309073d9"
+    },
+    {
+      "path": "pdf/SWP-046-climate-displacement-and-livelihood-adaptation-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "10f0c57fba06324ec8478b4d13258448b4ce71e1254f51c1f5c71f491c6e9c79"
+    },
+    {
+      "path": "pptx/SWP-046-climate-displacement-and-livelihood-adaptation-course-slides.pptx",
+      "pages": null,
+      "sha256": "55509c976f0d8ae971c8c8af5c1127106bba66cd10317d30ea620dc97dac40fb"
+    },
+    {
+      "path": "pdf/SWP-046-climate-displacement-and-livelihood-adaptation-course-slides.pdf",
+      "pages": 16,
+      "sha256": "fd19ba9b47f7f2c3e1e6d11f9d1370d8469af92e04d86b525adea679f440e0b1"
+    },
+    {
+      "path": "pdf/SWP-047-indigenous-knowledge-and-community-stewardship-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "e624f39c683a489dd24d290d7b1e1971b7eda99c05d5f11515fa9943d4374478"
+    },
+    {
+      "path": "pdf/SWP-047-indigenous-knowledge-and-community-stewardship-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "39d565594f23b10f967d6c6d6062439df3439bda96a9703a1610d5fb44dc64d2"
+    },
+    {
+      "path": "pptx/SWP-047-indigenous-knowledge-and-community-stewardship-course-slides.pptx",
+      "pages": null,
+      "sha256": "e4c411061dade2698195a9ead1fb82d297c877d425602f8eec64cbefd8ad8de5"
+    },
+    {
+      "path": "pdf/SWP-047-indigenous-knowledge-and-community-stewardship-course-slides.pdf",
+      "pages": 16,
+      "sha256": "865a31aec61d58aaa35a3e6fb0bbced508a0fc268602a937f15a15b65dde8d50"
+    },
+    {
+      "path": "pdf/SWP-048-evaluating-ecosocial-interventions-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "6d45d897f216098a6b46d0512061e98d3feb3d3e09ee5dbb886724219b95a153"
+    },
+    {
+      "path": "pdf/SWP-048-evaluating-ecosocial-interventions-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "fc242b664bb62b7f0e347c8e3876171083946444bb9c030d6de6a1540a8e86bf"
+    },
+    {
+      "path": "pptx/SWP-048-evaluating-ecosocial-interventions-course-slides.pptx",
+      "pages": null,
+      "sha256": "1692baf70a5c5f9a7036310461e03164db79dc40732871585b45b790caed358d"
+    },
+    {
+      "path": "pdf/SWP-048-evaluating-ecosocial-interventions-course-slides.pdf",
+      "pages": 16,
+      "sha256": "3bb63e66367d57d3cf90fe8f1fe4f82093701f02ffba8d7f72711dbc99049d72"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

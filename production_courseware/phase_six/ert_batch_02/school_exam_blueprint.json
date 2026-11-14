@@ -1,0 +1,692 @@
+{
+  "status": "draft_for_review",
+  "school_code": "ERT",
+  "curriculum_version": "ERT-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-032",
+    "SWP-042",
+    "SWP-043",
+    "SWP-044",
+    "SWP-045",
+    "SWP-046",
+    "SWP-047",
+    "SWP-048"
+  ],
+  "programme_target_course_count": 8,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "scope_note": "All eight planned ERT catalogue courses represented. Seven are review drafts; independent approval, question binding, piloting and verified live ParaLearn support remain pending. Historical five-course blueprint retained separately. This file cannot launch an exam or authorise a certificate.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed full-curriculum duration; academic review, accessibility adjustments and learner piloting required",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Accept equivalent defensible reasoning. Award criterion marks with a rationale, then human moderation before finalisation.",
+    "appeals": "Preserve original responses, rubric version, marker, moderation decision and amendment history, with an authorised appeal route."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Complete all eight approved ERT courses through verified course CBT passes",
+      "Pass the final full-curriculum ParaLearn exam after human marking and moderation",
+      "Receive authorised Head of Learning and Founder signatures; Head of Learning details pending; Founder Prof. Mina Ogbanga"
+    ]
+  },
+  "items": [
+    {
+      "id": "ERT8-SWP-032-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-032"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-032-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-032"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-032-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-032"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-032-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-032"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-032-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-032"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-042-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-042"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-042-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-042"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-042-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-042"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-042-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-042"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-042-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-042"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-043-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-043"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-043-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-043"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-043-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-043"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-043-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-043"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-043-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-043"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-044-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-044-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-044-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-044-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-044-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-045-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-045-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-045-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-045-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-045-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-046-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-046-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-046-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-046-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-046-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-047-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-047-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-047-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-047-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-047-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-048-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-048-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-048-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-048-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SWP-048-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "ERT8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-032",
+        "SWP-042",
+        "SWP-043"
+      ],
+      "prompt": "Two streets have similar flood exposure but different access, livelihoods and influence over decisions. Give five requirements for a climate-justice and participatory assessment note.",
+      "model_answer": "Distinguish physical exposure from vulnerability and capacity; trace a provisional environmental-social pathway; examine who benefits or carries burdens; enable missing voices to influence a decision; and distinguish reports from verified information with appropriate technical authority.",
+      "rubric": [
+        {
+          "criterion": "Exposure vulnerability and capacity",
+          "marks": 1
+        },
+        {
+          "criterion": "Provisional ecosocial pathway",
+          "marks": 1
+        },
+        {
+          "criterion": "Distribution of benefits and burdens",
+          "marks": 1
+        },
+        {
+          "criterion": "Meaningful accessible participation",
+          "marks": 1
+        },
+        {
+          "criterion": "Evidence status and decision authority",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-044"
+      ],
+      "prompt": "A fictional plan has thirty units, twelve for setup and four monthly for three months. Give total and balance, and three non-arithmetic readiness checks.",
+      "model_answer": "Total twenty-four and balance six fictional units. Check accepted delivery and approval roles, operating and accessibility resources, and dependencies or fallback. The balance is neither real market pricing nor spending permission.",
+      "rubric": [
+        {
+          "criterion": "Total twenty-four",
+          "marks": 1
+        },
+        {
+          "criterion": "Balance six and fictional-unit limits",
+          "marks": 1
+        },
+        {
+          "criterion": "Accepted roles and authority",
+          "marks": 1
+        },
+        {
+          "criterion": "Operation and accessibility",
+          "marks": 1
+        },
+        {
+          "criterion": "Dependency or fallback",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-045"
+      ],
+      "prompt": "A resident reports heat and smoke, forwards an undated screenshot and asks about medication. Give five appropriate actions within the social work role.",
+      "model_answer": "Record the experience without diagnosis; verify official information and measurement context; identify practical access barriers; use authorised clinical or emergency arrangements for medication or urgent concerns; and agree a feasible confidential follow-up without inventing a warning threshold.",
+      "rubric": [
+        {
+          "criterion": "Accurate information status",
+          "marks": 1
+        },
+        {
+          "criterion": "Source and measurement checks",
+          "marks": 1
+        },
+        {
+          "criterion": "Practical access barriers",
+          "marks": 1
+        },
+        {
+          "criterion": "Clinical scope and urgency",
+          "marks": 1
+        },
+        {
+          "criterion": "Authorised confidential follow-up",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-046"
+      ],
+      "prompt": "A displaced trader wants to consider staying but lacks reliable service access. A report counts relocation as a durable solution. Give five corrections for an appropriate support review.",
+      "model_answer": "Separate the trader's preference from constraints and revisit changing choices; investigate livelihood and care conditions; verify receiving-service capacity without promises; support informed voluntary consideration of pathways; and assess sustained rights and access rather than movement alone, using relevant protection or legal expertise.",
+      "rubric": [
+        {
+          "criterion": "Preference and constraint distinction",
+          "marks": 1
+        },
+        {
+          "criterion": "Livelihood and care conditions",
+          "marks": 1
+        },
+        {
+          "criterion": "Verified capacity and bounded referral",
+          "marks": 1
+        },
+        {
+          "criterion": "Voluntary informed pathways",
+          "marks": 1
+        },
+        {
+          "criterion": "Rights access and specialist limits",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-047"
+      ],
+      "prompt": "Contributors permit an internal knowledge summary but a sponsor requests a named online map. Give five requirements before any broader sharing.",
+      "model_answer": "Clarify the new purpose and output; check appropriate collective authority and individual rights; respect restricted knowledge and attribution preferences; assess location/context identification risk and approved digital handling; and provide contributor review, correction and an accountable response with honest withdrawal limits.",
+      "rubric": [
+        {
+          "criterion": "Specific changed scope",
+          "marks": 1
+        },
+        {
+          "criterion": "Collective and individual authority",
+          "marks": 1
+        },
+        {
+          "criterion": "Restrictions and attribution distinct from consent",
+          "marks": 1
+        },
+        {
+          "criterion": "Identification risk and digital handling",
+          "marks": 1
+        },
+        {
+          "criterion": "Review response and realistic withdrawal limits",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-048"
+      ],
+      "prompt": "An evaluation records access for twelve of twenty respondents before an activity and eighteen of thirty later. Give five elements of a defensible findings and response note.",
+      "model_answer": "Both proportions are sixty percent; report numerator denominator period and respondent coverage; examine missing voices and differing groups; avoid causal attribution from the uncontrolled comparison; and assign a response owner and review point for the supported finding or evidence gap.",
+      "rubric": [
+        {
+          "criterion": "Correct equal sixty-percent proportions",
+          "marks": 1
+        },
+        {
+          "criterion": "Transparent counts period and coverage",
+          "marks": 1
+        },
+        {
+          "criterion": "Missing perspectives and group differences",
+          "marks": 1
+        },
+        {
+          "criterion": "Bounded causal interpretation",
+          "marks": 1
+        },
+        {
+          "criterion": "Accountable response and review",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-032",
+        "SWP-042",
+        "SWP-043",
+        "SWP-044",
+        "SWP-045",
+        "SWP-046",
+        "SWP-047",
+        "SWP-048"
+      ],
+      "prompt": "For a fictional flood-affected community with differing mobility preferences, propose a bounded ecosocial support and adaptation plan. Integrate climate justice, participatory assessment, options and operating resources, heat/pollution information and referral boundaries, livelihood continuity, knowledge permissions and an evaluation question. Explain what requires authority or further evidence.",
+      "model_answer": "Credit coherent reasoning across all eight courses: environmental-social pathways and distribution; accessible assessment and influence; realistic options, resources and clinical/technical limits; informed choices, livelihood access and bounded knowledge governance; and a relevant evaluation design with denominators, missing perspectives, alternative explanations and accountable revision. Do not credit forced relocation, legal or engineering certification, medication advice, unrestricted knowledge publication or a movement count presented as a durable solution.",
+      "rubric": [
+        {
+          "criterion": "Climate justice ecosocial reasoning and participatory assessment (032/042/043)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Adaptation delivery and heat/pollution scope (044/045)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Voluntary mobility livelihood and durable-access review (046)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Knowledge authority permission and stewardship (047)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Evaluation evidence limits and accountable use (048)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "ERT8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-032",
+        "SWP-042",
+        "SWP-043",
+        "SWP-044",
+        "SWP-045",
+        "SWP-046",
+        "SWP-047",
+        "SWP-048"
+      ],
+      "prompt": "Critique a fictional project's claim of success: a flood intervention distributed guides, relocated households and published a community knowledge map without clear permissions. Access reports changed from twelve of twenty to eighteen of thirty respondents, while heat messages lack dates and operating support remains unconfirmed. Write a justified corrective plan and evaluation brief across the full ERT curriculum.",
+      "model_answer": "A strong answer distinguishes outputs from outcomes, examines justice and missing voices, verifies the assessment and current information, checks resources and professional role boundaries, revisits voluntary preferences and sustained access, reviews and restricts unapproved knowledge use through appropriate authority, and correctly interprets both rates as sixty percent without causal overclaim. Recommendations need named responsible roles, dependencies, feedback and review; equivalent defensible reasoning is accepted.",
+      "rubric": [
+        {
+          "criterion": "Environmental justice evidence and participatory gaps (032/042/043)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Delivery readiness and authoritative health information (044/045)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Informed mobility and livelihood/access conditions (046)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Knowledge-use scope and corrective governance (047)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Correct proportions bounded judgement and follow-through (048)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ],
+  "draft_catalogue_complete": true
+}

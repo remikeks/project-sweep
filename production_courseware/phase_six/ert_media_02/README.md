@@ -1,0 +1,13 @@
+# ERT final three draft-course review materials
+
+SWP-046 Climate Displacement and Livelihood Adaptation; SWP-047 Indigenous Knowledge and Community Stewardship; SWP-048 Evaluating Ecosocial Interventions. Version 0.1.0, English, draft for academic review.
+
+Each course has a seven-page learner-guide PDF, three-page practice-worksheet PDF, sixteen-slide editable PPTX and matching sixteen-page slide PDF. Twelve resources contain 48 editable slides and 78 final PDF pages. Guides use 12-point body text; slides follow the established navy/green/white SWEEP design with large editable text and correct ERT school identity. Full teaching, source links, methodological limitations and rights are in the guides and speaker notes. Cases and numerical examples are original fiction.
+
+Every final PDF page was rendered with Poppler and visually inspected, including slides exported from the actual final PPTX through isolated LibreOffice. No clipping or overlap was found. Decks passed package, geometry, font and Artifact Tool import validation; native Microsoft PowerPoint was not used. Source checks verify all guide paragraphs, cases, activities, feedback, module titles and every teaching point in both editable slides and matching slide PDFs. Production verification does not constitute independent academic or accessibility approval.
+
+`upload_manifest.json` binds the twelve files with SHA-256 checksums, ERT course identity and intended private `in_review` status. `package_validation.json` records source digest and page counts. Full sources, assessment-review banks and the full eight-course school-exam blueprint are in `../ert_batch_02/`; assessment keys and marking guidance are excluded from these learner resources and the review ZIP. QA images and operational receipts remain private and out of Git.
+
+ERT now has all eight planned titles in its draft catalogue: one retained active introduction and seven inactive drafts across two batches. Independent academic, Nigerian practice/legal and accessibility/pilot reviews remain pending. No course badge, live school exam or certificate is enabled by reading these drafts. ParaLearn mixed-exam capabilities, question bindings, marking/moderation workflows and authorised signatories remain release requirements. Head of Learning details are pending; Founder Prof. Mina Ogbanga.
+
+The standard is PDF and slides until actual video courses are produced with accessible captions or a checked transcript. Private staging preserves original course content/CBTs, previous drafts/resources and learner records. Full-school enrolment and certification remain closed.
