@@ -1,18 +1,20 @@
 from django.db.models import Q
 from django.shortcuts import get_object_or_404, redirect, render
+from django.http import Http404
 
 from core.legacy_catalogue import LEGACY_SCHOOL_REDIRECTS
 from .models import School
+from .catalogue import successor_codes
 
 
 def school_list(request):
-    """Browse and search the 10 schools offered on SWEEP."""
+    """Browse current schools, including planned pathways."""
     query = request.GET.get("q", "").strip()
     schools = School.objects.filter(is_active=True)
 
     if query:
         schools = schools.filter(
-            Q(name__icontains=query)
+            Q(code__icontains=query) | Q(name__icontains=query)
             | Q(description__icontains=query)
             | Q(tagline__icontains=query)
         )
@@ -27,6 +29,7 @@ def school_list(request):
         "schools": schools,
         "query": query,
         "enrolled_school_ids": enrolled_school_ids,
+        "open_school_count": schools.filter(enrollment_open=True, is_historical=False).count(),
     }
     return render(request, "schools/school_list.html", context)
 
@@ -40,7 +43,16 @@ def school_detail(request, slug):
     if legacy_destination:
         return redirect(legacy_destination, permanent=True)
 
-    school = get_object_or_404(School, slug=slug, is_active=True)
+    school = get_object_or_404(School, slug=slug)
+    if not school.is_active:
+        if not school.is_historical:
+            raise Http404
+        enrolled = request.user.is_authenticated and school.enrollments.filter(user=request.user).exists()
+        if not enrolled:
+            return render(request, "schools/school_transition.html", {
+                "school": school,
+                "successors": School.objects.filter(code__in=successor_codes(school.name), is_active=True),
+            })
     courses = school.active_courses
 
     is_enrolled = False
@@ -59,7 +71,8 @@ def school_detail(request, slug):
         enrollment = school.enrollments.filter(user=request.user).first()
         required_course_ids = list(enrollment.curriculum_requirements.values_list("course_id", flat=True)) if enrollment else []
         if enrollment:
-            courses = school.courses.filter(id__in=required_course_ids).order_by("order", "id")
+            from courses.models import Course
+            courses = Course.objects.filter(id__in=required_course_ids).order_by("order", "id")
         progresses = CourseProgress.objects.filter(user=request.user, course__in=courses)
         course_progress_map = {p.course_id: p for p in progresses}
         completed_course_count = sum(
@@ -95,6 +108,6 @@ def school_detail(request, slug):
         "all_courses_completed": all_courses_completed,
         "certificate": certificate,
         "exam_attempt": exam_attempt,
-        "has_exam_questions": school.exam_question_count > 0,
+        "has_exam_questions": not school.code and school.exam_question_count > 0,
     }
     return render(request, "schools/school_detail.html", context)

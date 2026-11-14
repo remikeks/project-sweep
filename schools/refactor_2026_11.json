@@ -1,0 +1,833 @@
+{
+  "date": "2026-11-14",
+  "status": "Owner authorized phased execution 2026-11-14",
+  "schools": [
+    {
+      "number": 1,
+      "code": "FSW",
+      "name": "School of Foundational Social Work Practice & Ethics",
+      "existing": [
+        "SWP-016",
+        "SWP-017",
+        "SWP-018"
+      ],
+      "new": [
+        "Social Work Values and Ethical Decision Making",
+        "Person in Environment and Human Development",
+        "Communication Interviewing and Helping Relationships",
+        "Generalist Assessment and Case Management",
+        "Professional Recording Consent and Confidentiality",
+        "Referral Networks and Interprofessional Practice",
+        "Reflective Practice Boundaries and Supervision"
+      ],
+      "target": 10,
+      "scope": "Generalist practice across settings, including the three unchanged health social work courses. These retain their healthcare scope; the school does not become a clinical specialization.",
+      "refs": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "number": 2,
+      "code": "ERT",
+      "name": "School of Ecosocial Resilience and Environmental Social Work",
+      "existing": [
+        "SWP-032"
+      ],
+      "new": [
+        "Ecosocial Systems and Environmental Justice",
+        "Participatory Ecological Vulnerability Assessment",
+        "Community Adaptation and Resilience Planning",
+        "Heat Pollution and Environmental Health Inequity",
+        "Climate Displacement and Livelihood Adaptation",
+        "Indigenous Knowledge and Community Stewardship",
+        "Evaluating Ecosocial Interventions"
+      ],
+      "target": 8,
+      "scope": "Community resilience, environmental injustice and adaptation. The existing climate course has one home here; blue economy and organizational sustainability remain distinct.",
+      "refs": [
+        "S01",
+        "S04",
+        "S16",
+        "R04",
+        "J01"
+      ]
+    },
+    {
+      "number": 3,
+      "code": "GBV",
+      "name": "School of Gender Studies and Gender-Based Violence Prevention",
+      "existing": [],
+      "new": [
+        "Gender Power and Intersectionality",
+        "Survivor Centred First Response and Referral",
+        "GBV Case Management and Safety Planning",
+        "Trauma Informed Support and Service Coordination",
+        "Community Prevention and Social Norms Change",
+        "Child Marriage FGM and Harmful Practices",
+        "Technology Facilitated Abuse and Digital Safety",
+        "Ethical GBV Data and Programme Evaluation"
+      ],
+      "target": 8,
+      "scope": "Prevention, safe survivor support, referral and accountable programming. It does not authorize clinical treatment or specialist forensic practice.",
+      "refs": [
+        "S05",
+        "R03"
+      ]
+    },
+    {
+      "number": 4,
+      "code": "MHP",
+      "name": "School of Mental Health and Psychosocial Care",
+      "existing": [
+        "SWP-004",
+        "SWP-005",
+        "SWP-006",
+        "SWP-007",
+        "SWP-008",
+        "SWP-009"
+      ],
+      "new": [
+        "Trauma Informed and Culturally Responsive Psychosocial Care",
+        "Community Mental Health Rights and Recovery",
+        "Child Adolescent and Family Psychosocial Support",
+        "Mental Health Service Coordination and Safe Referral"
+      ],
+      "target": 10,
+      "scope": "Keep all six clinical and addiction courses unchanged. Add population, cultural, rights and service-system coverage rather than replacing their CBTs.",
+      "refs": [
+        "S06",
+        "S01"
+      ]
+    },
+    {
+      "number": 5,
+      "code": "PCEI",
+      "name": "School of Community Development and Participatory Engagement",
+      "existing": [
+        "SWP-013",
+        "SWP-014",
+        "SWP-015"
+      ],
+      "new": [
+        "Participatory Facilitation and Community Dialogue",
+        "Asset Based Community Development",
+        "Community Accountability and Grievance Mechanisms",
+        "Inclusive Local Planning and Co Design",
+        "Community Programme Implementation Practicum"
+      ],
+      "target": 8,
+      "scope": "Community organizing, participation, planning and delivery. Research design belongs primarily to RDS and Nigerian-content compliance to SNC.",
+      "refs": [
+        "S07",
+        "S04",
+        "R02"
+      ]
+    },
+    {
+      "number": 6,
+      "code": "CPS",
+      "name": "School of Child Protection and Safeguarding",
+      "existing": [
+        "SWP-001",
+        "SWP-002",
+        "SWP-003"
+      ],
+      "new": [
+        "Child Rights and Safeguarding Systems",
+        "Child Centred Assessment Participation and Referral",
+        "Online Child Safety and Exploitation Prevention",
+        "Safeguarding in Organizations and Safer Recruitment",
+        "Child Protection Case Coordination Practicum"
+      ],
+      "target": 8,
+      "scope": "Child and family safety across prevention, response and organizational safeguarding. Preserve the three existing family welfare courses exactly.",
+      "refs": [
+        "S08",
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "number": 7,
+      "code": "SPG",
+      "name": "School of Social Policy and Governance",
+      "existing": [
+        "SWP-028"
+      ],
+      "new": [
+        "Social Protection Systems and Welfare Governance",
+        "Public Finance Budget Analysis and Accountability",
+        "Policy Design Implementation and Evaluation",
+        "Decentralization and Inclusive Public Administration",
+        "Social Policy Political Economy and Inequality",
+        "Participatory Governance and Public Consultation",
+        "Policy Briefing and Reform Practicum"
+      ],
+      "target": 8,
+      "scope": "Public policy and institutional governance. Legislative campaigning is housed in AHR; policy-data methods are housed in RDS.",
+      "refs": [
+        "S01",
+        "S04",
+        "S20"
+      ]
+    },
+    {
+      "number": 8,
+      "code": "SEE",
+      "name": "School of Social Entrepreneurship and Enterprise Development",
+      "existing": [],
+      "new": [
+        "Social Enterprise Models and Social Innovation",
+        "Community Market Research and Value Propositions",
+        "Business Models Costing and Cash Flow",
+        "Social Finance Cooperative Models and Inclusion",
+        "Impact Measurement and Mission Accountability",
+        "Social Enterprise Launch Practicum"
+      ],
+      "target": 6,
+      "scope": "Enterprise design and viability alongside social purpose. It is distinct from donor fundraising in FGR and occupational skills in VTS.",
+      "refs": [
+        "S09",
+        "S18",
+        "R05"
+      ]
+    },
+    {
+      "number": 9,
+      "code": "DAI",
+      "name": "School of Digital Innovation and Artificial Intelligence in Social Work",
+      "existing": [
+        "SWP-031"
+      ],
+      "new": [
+        "Digital Inclusion Accessibility and Service Design",
+        "Data Protection Consent and Cyber Hygiene",
+        "AI Literacy Limits Bias and Human Oversight",
+        "Responsible AI for Casework Documentation",
+        "Digital Case Management and Workflow Design",
+        "Evaluating Digital and AI Enabled Services",
+        "Digital Innovation Design Practicum"
+      ],
+      "target": 8,
+      "scope": "Digital practice and critical AI literacy with explicit limits, privacy, bias evaluation and accountable human judgement.",
+      "refs": [
+        "S01",
+        "S02",
+        "S10",
+        "R01"
+      ]
+    },
+    {
+      "number": 10,
+      "code": "BLU",
+      "name": "School of Climate Change and Blue Economy Social Work",
+      "existing": [],
+      "new": [
+        "Coastal Communities and Blue Economy Foundations",
+        "Fisheries Livelihoods Labour and Social Protection",
+        "Coastal Climate Risk and Inclusive Adaptation",
+        "Marine Conservation Justice and Participation",
+        "Blue Finance and Community Benefit Assessment",
+        "Coastal Livelihoods Planning Practicum"
+      ],
+      "target": 6,
+      "scope": "Coastal and marine livelihoods, ocean governance and community benefit. Avoid duplicating ERT general resilience or SUS institutional sustainability.",
+      "refs": [
+        "S11",
+        "S12",
+        "S16",
+        "J01"
+      ]
+    },
+    {
+      "number": 11,
+      "code": "EIL",
+      "name": "School of Extractive Industries, Livelihoods and SW-EMHEC",
+      "existing": [],
+      "new": [
+        "Extractive Sector Social Work and Community Relations",
+        "Social and Environmental Impact Assessment Literacy",
+        "Livelihood Restoration and Just Transition",
+        "Community Health Risks and Referral Coordination",
+        "Land Displacement and Community Benefit Negotiation",
+        "Grievance Conflict and Stakeholder Engagement",
+        "Corporate Accountability and Community Monitoring",
+        "Extractives Community Intervention Practicum"
+      ],
+      "target": 8,
+      "scope": "Cross-sector extractive impacts and livelihoods. Confirm the owner-defined meaning of SW-EMHEC before finalizing the school outcome map; SNC and SPIA handle distinct statutory applications.",
+      "refs": [
+        "S13",
+        "S14",
+        "S15",
+        "S19"
+      ]
+    },
+    {
+      "number": 12,
+      "code": "HDR",
+      "name": "School of Humanitarian Action and Disaster Response",
+      "existing": [
+        "SWP-025",
+        "SWP-026",
+        "SWP-027"
+      ],
+      "new": [
+        "Humanitarian Principles and Quality Standards",
+        "Rapid Needs Assessment and Inclusive Response",
+        "Protection Accountability and Prevention of Exploitation",
+        "Humanitarian Coordination and Referral Systems",
+        "Humanitarian Response Simulation"
+      ],
+      "target": 8,
+      "scope": "Operational preparedness, relief and recovery. Conflict mediation, displacement and peacebuilding receive distinct treatment in DCS.",
+      "refs": [
+        "S04",
+        "S08",
+        "S17",
+        "S18"
+      ]
+    },
+    {
+      "number": 13,
+      "code": "RDS",
+      "name": "School of Research Methods and Data for Social Impact",
+      "existing": [
+        "SWP-030",
+        "SWP-034"
+      ],
+      "new": [
+        "Research Questions Designs and Evidence Appraisal",
+        "Qualitative Inquiry and Thematic Analysis",
+        "Quantitative Methods Statistics and Interpretation",
+        "Mixed Methods and Ethical Data Collection",
+        "Monitoring Evaluation and Learning Systems",
+        "Research Ethics Data Stewardship and Reporting"
+      ],
+      "target": 8,
+      "scope": "Research, critical appraisal and evaluation methods, including the unchanged policy-data course and participatory research course.",
+      "refs": [
+        "S01",
+        "S04",
+        "S07",
+        "R02"
+      ]
+    },
+    {
+      "number": 14,
+      "code": "LMI",
+      "name": "School of Leadership, Management and Institutional Development",
+      "existing": [
+        "SWP-033"
+      ],
+      "new": [
+        "Strategy and Organizational Development",
+        "Human Resources Team Development and Wellbeing",
+        "Financial Management and Internal Controls",
+        "Governance Boards and Institutional Accountability",
+        "Change Management and Quality Improvement",
+        "Partnership and Programme Portfolio Management",
+        "Institutional Development Practicum"
+      ],
+      "target": 8,
+      "scope": "Human services leadership, people, finance, organizational learning and accountable management.",
+      "refs": [
+        "S21",
+        "S18",
+        "S04"
+      ]
+    },
+    {
+      "number": 15,
+      "code": "FGR",
+      "name": "School of Fundraising, Grants and Resource Mobilization",
+      "existing": [],
+      "new": [
+        "Ethical Fundraising and Resource Strategy",
+        "Donor Research and Relationship Stewardship",
+        "Grant Proposals Theory of Change and Budgets",
+        "Grant Compliance Reporting and Controls",
+        "Digital Fundraising and Responsible Storytelling",
+        "Resource Mobilization Proposal Practicum"
+      ],
+      "target": 6,
+      "scope": "Philanthropic income, grant quality, donor stewardship and accountability. Enterprise trading belongs to SEE.",
+      "refs": [
+        "S22",
+        "S21",
+        "R05"
+      ]
+    },
+    {
+      "number": 16,
+      "code": "AHR",
+      "name": "School of Advocacy, Human Rights and Legal Literacy",
+      "existing": [
+        "SWP-022",
+        "SWP-023",
+        "SWP-024",
+        "SWP-029"
+      ],
+      "new": [
+        "Human Rights Instruments and Local Legal Literacy",
+        "Legal Aid Referral Documentation and Access to Justice",
+        "Rights Based Campaign Design and Community Organizing",
+        "Strategic Advocacy and Accountability Practicum"
+      ],
+      "target": 8,
+      "scope": "Rights and access to justice, retaining forensic practice, restorative justice, reintegration and legislative advocacy without changing their assessments.",
+      "refs": [
+        "S02",
+        "S20",
+        "S04"
+      ]
+    },
+    {
+      "number": 17,
+      "code": "VTS",
+      "name": "School of Vocational and Technical Skills for Livelihoods",
+      "existing": [],
+      "new": [
+        "Livelihood Assessment and Vocational Pathway Planning",
+        "Foundational Digital and Workplace Skills",
+        "Green Skills and Sustainable Livelihood Pathways",
+        "Occupational Safety Rights and Inclusive Workplaces",
+        "Apprenticeship Employer Partnerships and Placement",
+        "Vocational Pathway Portfolio and Practice Assessment"
+      ],
+      "target": 6,
+      "scope": "Employability foundations and supported occupational pathways. Trade-specific competence requires qualified instructors, equipment and observed practice; online CBT alone is insufficient.",
+      "refs": [
+        "S09",
+        "S23"
+      ]
+    },
+    {
+      "number": 18,
+      "code": "YDE",
+      "name": "School of Youth Development and Employability",
+      "existing": [
+        "SWP-019",
+        "SWP-020",
+        "SWP-021"
+      ],
+      "new": [
+        "Positive Youth Development and Youth Participation",
+        "Career Guidance Job Search and Transition Planning",
+        "Youth Livelihoods Financial Capability and Inclusion",
+        "Mentoring Life Skills and Workplace Readiness",
+        "Youth Programme Design and Transition Practicum"
+      ],
+      "target": 8,
+      "scope": "Youth participation and education-to-work pathways. The three retained school social work courses keep their original student-support outcomes.",
+      "refs": [
+        "S09",
+        "S23",
+        "S07",
+        "R03"
+      ]
+    },
+    {
+      "number": 19,
+      "code": "ADI",
+      "name": "School of Aging, Disability and Inclusive Services",
+      "existing": [
+        "SWP-010",
+        "SWP-011",
+        "SWP-012"
+      ],
+      "new": [
+        "Disability Rights and the Social Model",
+        "Accessible Services Assistive Technology and Inclusion",
+        "Person Centred Integrated Care and Service Coordination",
+        "Caregiver Support Safeguarding and Social Participation",
+        "Inclusive Service Planning Practicum"
+      ],
+      "target": 8,
+      "scope": "Aging and disability across rights, care coordination, accessible services and participation; add disability depth beyond the retained gerontology courses.",
+      "refs": [
+        "S24",
+        "S25",
+        "S20"
+      ]
+    },
+    {
+      "number": 20,
+      "code": "GPS",
+      "name": "School of Global Partnerships, Ethics and Professional Standards",
+      "existing": [],
+      "new": [
+        "Global Social Work Ethics and Professional Standards",
+        "Equitable Partnerships and Localization",
+        "Intercultural Practice and Power Accountability",
+        "Partnership Governance Agreements and Due Diligence",
+        "Professional Quality Assurance and Continuing Development",
+        "Global Partnership Design Practicum"
+      ],
+      "target": 6,
+      "scope": "International collaboration, professional standards and reciprocal partnerships. Generalist ethics remains a foundational FSW competency.",
+      "refs": [
+        "S01",
+        "S02",
+        "S18"
+      ]
+    },
+    {
+      "number": 21,
+      "code": "SUS",
+      "name": "School of Social Work and Environmental Sustainability",
+      "existing": [],
+      "new": [
+        "Sustainability Systems and Social Work Practice",
+        "Sustainable Institutions Procurement and Operations",
+        "Circular Economy Waste and Community Wellbeing",
+        "Environmental Education and Behaviour Change",
+        "Sustainability Indicators and Impact Reporting",
+        "Institutional Sustainability Action Practicum"
+      ],
+      "target": 6,
+      "scope": "Institutional and community sustainability systems, circularity and environmental education, distinct from ERT adaptation and BLU coastal economies.",
+      "refs": [
+        "S16",
+        "S26",
+        "J01"
+      ]
+    },
+    {
+      "number": 22,
+      "code": "SDG",
+      "name": "School of Social Work and the SDGs",
+      "existing": [],
+      "new": [
+        "SDG Architecture Targets and Social Work Roles",
+        "Localizing the SDGs through Community Planning",
+        "Poverty Inequality Gender and Inclusion across SDGs",
+        "SDG Indicators Data and Accountability",
+        "SDG Partnerships Financing and Policy Coherence",
+        "Integrated SDG Action Plan Practicum"
+      ],
+      "target": 6,
+      "scope": "Integrated localization and accountability across the SDGs, using dedicated applied outcomes rather than rebadging individual subject courses.",
+      "refs": [
+        "S26",
+        "S27",
+        "S01"
+      ]
+    },
+    {
+      "number": 23,
+      "code": "SNC",
+      "name": "School of Social Work Nigerian Content and Community Development Planning",
+      "existing": [],
+      "new": [
+        "Nigerian Content Policy and Social Work Roles",
+        "Community Assets Needs and Development Planning",
+        "Local Supplier Participation and Enterprise Readiness",
+        "Inclusive Skills Employment and Community Linkages",
+        "Stakeholder Accountability and Content Monitoring",
+        "Nigerian Content Community Plan Practicum"
+      ],
+      "target": 6,
+      "scope": "Local participation, supplier and skills linkages and community development planning. Legal scope follows the Nigerian Content Act; distinguish SPIA trust governance.",
+      "refs": [
+        "S14",
+        "S07",
+        "S09"
+      ]
+    },
+    {
+      "number": 24,
+      "code": "SPIA",
+      "name": "School of Social Work and the Petroleum Industry Act",
+      "existing": [],
+      "new": [
+        "Petroleum Industry Act and Social Work Practice Boundaries",
+        "Host Community Trust Structures and Governance",
+        "Participatory Needs Assessment and Development Plans",
+        "Trust Project Selection Budgets and Accountability",
+        "Grievance Handling Inclusion and Conflict Prevention",
+        "Host Community Development Planning Practicum"
+      ],
+      "target": 6,
+      "scope": "PIA-specific host community development and trust accountability. Verify operative law and regulations before drafting; do not treat a consultation draft as law.",
+      "refs": [
+        "S13",
+        "S15",
+        "S07"
+      ]
+    },
+    {
+      "number": 25,
+      "code": "DCS",
+      "name": "School of Social Work in Disasters and Conflict",
+      "existing": [],
+      "new": [
+        "Conflict Analysis Sensitivity and Do No Harm",
+        "Displacement Protection and Durable Solutions",
+        "Peacebuilding Mediation and Community Dialogue",
+        "Trauma Informed Support in Conflict Affected Communities",
+        "Disaster Conflict Nexus and Recovery Planning",
+        "Conflict Sensitive Recovery Practicum"
+      ],
+      "target": 6,
+      "scope": "Conflict-sensitive protection, displacement and recovery across the disaster-conflict nexus. Operational humanitarian response stays in HDR.",
+      "refs": [
+        "S04",
+        "S17",
+        "S18",
+        "S08",
+        "J02"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-001",
+      "title": "Foundations of Child Protection",
+      "old_school": "School of Child & Family Welfare",
+      "new_school": "CPS",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-002",
+      "title": "Family Preservation & Kinship Care",
+      "old_school": "School of Child & Family Welfare",
+      "new_school": "CPS",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-003",
+      "title": "Permanency Planning & Reunification",
+      "old_school": "School of Child & Family Welfare",
+      "new_school": "CPS",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-004",
+      "title": "Biopsychosocial Assessment",
+      "old_school": "School of Mental Health & Clinical Practice",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-005",
+      "title": "Cognitive Behavioral Therapy Foundations",
+      "old_school": "School of Mental Health & Clinical Practice",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-006",
+      "title": "Crisis Stabilization & Safety Planning",
+      "old_school": "School of Mental Health & Clinical Practice",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-007",
+      "title": "Screening & Brief Intervention (SBIRT)",
+      "old_school": "School of Substance Use & Addiction Recovery",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-008",
+      "title": "Motivational Interviewing",
+      "old_school": "School of Substance Use & Addiction Recovery",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-009",
+      "title": "Recovery-Oriented Systems of Care",
+      "old_school": "School of Substance Use & Addiction Recovery",
+      "new_school": "MHP",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-010",
+      "title": "Aging in Place & Independent Living",
+      "old_school": "School of Gerontology & Aging Services",
+      "new_school": "ADI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-011",
+      "title": "Dementia Care & Caregiver Support",
+      "old_school": "School of Gerontology & Aging Services",
+      "new_school": "ADI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-012",
+      "title": "Elder Abuse Prevention & Long-Term Care Advocacy",
+      "old_school": "School of Gerontology & Aging Services",
+      "new_school": "ADI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-013",
+      "title": "Community Needs Assessment",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "PCEI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-014",
+      "title": "Community Organizing & Coalition Building",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "PCEI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-015",
+      "title": "Program Development & Evaluation",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "PCEI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-016",
+      "title": "Hospital Discharge Planning",
+      "old_school": "School of Medical & Health Social Work",
+      "new_school": "FSW",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-017",
+      "title": "Chronic Illness & Adherence Support",
+      "old_school": "School of Medical & Health Social Work",
+      "new_school": "FSW",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-018",
+      "title": "Interdisciplinary Collaboration in Healthcare",
+      "old_school": "School of Medical & Health Social Work",
+      "new_school": "FSW",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-019",
+      "title": "Student Support & Attendance",
+      "old_school": "School of School Social Work",
+      "new_school": "YDE",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-020",
+      "title": "Behavioral & Emotional Support in Schools",
+      "old_school": "School of School Social Work",
+      "new_school": "YDE",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-021",
+      "title": "School-Wide Systems & Policy",
+      "old_school": "School of School Social Work",
+      "new_school": "YDE",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-022",
+      "title": "Foundations of Forensic Social Work",
+      "old_school": "School of Criminal Justice & Forensic Social Work",
+      "new_school": "AHR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-023",
+      "title": "Diversion Programs & Restorative Justice",
+      "old_school": "School of Criminal Justice & Forensic Social Work",
+      "new_school": "AHR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-024",
+      "title": "Reentry Planning & Community Reintegration",
+      "old_school": "School of Criminal Justice & Forensic Social Work",
+      "new_school": "AHR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-025",
+      "title": "Disaster Preparedness & Response Planning",
+      "old_school": "School of Disaster Response & Crisis Intervention",
+      "new_school": "HDR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-026",
+      "title": "Psychological First Aid",
+      "old_school": "School of Disaster Response & Crisis Intervention",
+      "new_school": "HDR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-027",
+      "title": "Long-Term Disaster Recovery Support",
+      "old_school": "School of Disaster Response & Crisis Intervention",
+      "new_school": "HDR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-028",
+      "title": "Policy Analysis Fundamentals",
+      "old_school": "School of Social Policy & Advocacy",
+      "new_school": "SPG",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-029",
+      "title": "Legislative Advocacy & Coalition Building",
+      "old_school": "School of Social Policy & Advocacy",
+      "new_school": "AHR",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-030",
+      "title": "Using Data to Drive Policy Change",
+      "old_school": "School of Social Policy & Advocacy",
+      "new_school": "RDS",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-031",
+      "title": "Digital Social Work Practice",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "DAI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-032",
+      "title": "Climate Justice & Resilient Communities",
+      "old_school": "School of Disaster Response & Crisis Intervention",
+      "new_school": "ERT",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-033",
+      "title": "Leadership Supervision and Programme Management",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "LMI",
+      "change_scope": "primary school relationship only"
+    },
+    {
+      "code": "SWP-034",
+      "title": "Participatory Research and Practice Innovation",
+      "old_school": "School of Community & Macro Practice",
+      "new_school": "RDS",
+      "change_scope": "primary school relationship only"
+    }
+  ],
+  "totals": {
+    "schools": 25,
+    "retained_courses": 34,
+    "new_courses": 150,
+    "target_courses": 184,
+    "minimum_breadth_courses": 126
+  }
+}

@@ -2,6 +2,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_POST
+from django.core.exceptions import PermissionDenied
 
 from courses.models import Course
 from schools.models import School, SchoolExamQuestion
@@ -14,7 +15,11 @@ from .models import CourseProgress, SchoolExamAttempt
 @require_POST
 def enroll_in_school_view(request, slug):
     school = get_object_or_404(School, slug=slug, is_active=True)
-    _, created = services.enroll_in_school(request.user, school)
+    try:
+        _, created = services.enroll_in_school(request.user, school)
+    except PermissionError as exc:
+        messages.info(request, str(exc))
+        return redirect("school_detail", slug=school.slug)
     if created:
         messages.success(
             request,
@@ -98,7 +103,14 @@ def dashboard(request):
 @login_required
 def school_exam(request, slug):
     """Display and grade a school's certification exam."""
-    school = get_object_or_404(School, slug=slug, is_active=True)
+    school = get_object_or_404(School, slug=slug)
+    if school.code:
+        messages.info(request, "The integrated ParaLearn school examination is being prepared.")
+        return redirect("school_detail", slug=school.slug)
+    if not school.is_active and not (
+        school.is_historical and school.enrollments.filter(user=request.user).exists()
+    ):
+        raise PermissionDenied
     completed, total, fully_completed = services.school_completion_status(request.user, school)
 
     if not fully_completed:

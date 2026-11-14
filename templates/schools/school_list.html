@@ -13,7 +13,7 @@
       <div class="hero-copy">
         <p class="eyebrow">{{ schools|length }} schools · one learning path</p>
         <h1 class="typewriter" data-text="Browse the school-based learning pathways.">Browse the school-based learning pathways.</h1>
-        <p class="lede">Enroll in a school to gain full access to its entire course catalog, monitor your progress across all subjects, and take the final certification exam upon completion.</p>
+        <p class="lede">Explore our schools and study the courses available now. New school pathways are being developed, with a final ParaLearn certification exam covering the complete curriculum.</p>
         <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
           <a href="{% url 'course_list' %}" class="btn btn-gold">Explore courses</a>
         </div>
@@ -23,8 +23,8 @@
             <span class="stat-label">Schools</span>
           </div>
           <div>
-            <span class="stat-num">{{ schools|length }}</span>
-            <span class="stat-label">Certifications</span>
+            <span class="stat-num">{{ open_school_count }}</span>
+            <span class="stat-label">Open for school enrolment</span>
           </div>
         </div>
       </div>
@@ -54,6 +54,8 @@
         </div>
         <div class="card-body">
           <h3><a href="{% url 'school_detail' school.slug %}">{{ school.name }}</a></h3>
+          {% if school.code %}<p class="badge-pill">{{ school.code }}</p>{% endif %}
+          {% if not school.enrollment_open %}<p class="meta">Pathway in development · {{ school.target_course_count }} courses planned</p>{% endif %}
           {% if school.tagline %}<p class="tagline">{{ school.tagline }}</p>{% endif %}
           <p class="meta">{{ school.course_count }} course{{ school.course_count|pluralize }} · {{ school.total_estimated_minutes }} min total</p>
           {% if school.id in enrolled_school_ids %}

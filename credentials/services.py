@@ -48,6 +48,8 @@ def award_certificate(user, school):
     As with award_badge, artwork is rendered on demand by the
     certificate_png / certificate_pdf views rather than saved to disk here.
     """
+    if school.code:
+        raise ValueError("New-school certificates require a finalized ParaLearn school examination and approved signatories.")
     certificate, created = Certificate.objects.get_or_create(
         user=user,
         school=school,

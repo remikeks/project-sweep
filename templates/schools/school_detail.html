@@ -10,7 +10,7 @@
 
     <div class="hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow"><a href="{% url 'school_list' %}">Schools</a> / {{ school.name }}</p>
+        <p class="eyebrow"><a href="{% url 'school_list' %}">Schools</a> / {% if school.code %}{{ school.code }}{% else %}{{ school.name }}{% endif %}</p>
         <h1>{{ school.name }}</h1>
         {% if school.tagline %}<p class="lede">{{ school.tagline }}</p>{% endif %}
         <div class="stat-row">
@@ -38,11 +38,16 @@
   </section>
 
   {% if school.description %}<p class="section-intro">{{ school.description }}</p>{% endif %}
+  {% if school.is_historical %}
+    <p class="section-intro">This is your original school curriculum. Your enrolment, course progress and certification route remain available.</p>
+  {% elif not school.enrollment_open %}
+    <p class="section-intro">School pathway in development{% if school.target_course_count %} · {{ school.target_course_count }} courses planned{% endif %}. You can study the available courses individually. Full school enrolment and its ParaLearn certification exam will open when the curriculum is ready.</p>
+  {% endif %}
 
   {% if user.is_authenticated %}
     {% if is_enrolled %}
       <p class="badge-pill status-completed">You're enrolled in this school</p>
-    {% else %}
+    {% elif school.accepts_enrollment %}
       <form method="post" action="{% url 'enroll_in_school' school.slug %}">
         {% csrf_token %}
         <button type="submit" class="btn btn-primary">Enroll in all {{ courses|length }} courses</button>
@@ -84,7 +89,7 @@
       </div>
     {% endif %}
   {% else %}
-    <p><a href="{% url 'login' %}">Log in</a> or <a href="{% url 'signup' %}">sign up</a> to enroll in this school.</p>
+    {% if school.accepts_enrollment %}<p><a href="{% url 'login' %}">Log in</a> or <a href="{% url 'signup' %}">sign up</a> to enroll in this school.</p>{% endif %}
   {% endif %}
 
   <h2 class="section-heading">Courses in this school</h2>

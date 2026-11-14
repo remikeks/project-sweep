@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ school.name }} — School update{% endblock %}
+{% block content %}
+<section class="hero hero-list">
+  <div class="hero-copy">
+    <p class="eyebrow">School catalogue update</p>
+    <h1>{{ school.name }}</h1>
+    <p class="lede">Courses from this school now appear in the pathways below. Their learning content and course assessments are unchanged.</p>
+    <p>Existing learners can <a href="{% url 'login' %}?next={{ request.path|urlencode }}">log in</a> to continue their original school curriculum. Previously issued certificates remain valid.</p>
+  </div>
+</section>
+<div class="school-grid">
+{% for successor in successors %}
+  <article class="card"><p class="eyebrow">{{ successor.code }}</p><h2><a href="{{ successor.get_absolute_url }}">{{ successor.name }}</a></h2></article>
+{% empty %}
+  <p><a href="{% url 'school_list' %}">Browse the current schools</a></p>
+{% endfor %}
+</div>
+{% endblock %}

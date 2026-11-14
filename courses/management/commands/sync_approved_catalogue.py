@@ -78,6 +78,8 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        if options["commit"] and School.objects.filter(code__isnull=False).exclude(code="").exists():
+            raise CommandError("Legacy catalogue sync is closed after school realignment; it would rewrite existing course content.")
         catalogue_path = options["catalogue"].resolve()
         exam_path = options["exam_bank"].resolve()
         if not catalogue_path.is_file() or not exam_path.is_file():

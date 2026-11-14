@@ -37,7 +37,18 @@ def enroll_in_school(user, school: School):
     Enroll a user in a school, which enrolls them in every active course
     that school currently offers (idempotent).
     """
-    school_enrollment, created = SchoolEnrollment.objects.get_or_create(user=user, school=school)
+    with transaction.atomic():
+        school = School.objects.select_for_update().get(pk=school.pk)
+        existing = SchoolEnrollment.objects.filter(user=user, school=school).first()
+        if existing:
+            return existing, False
+        if not school.accepts_enrollment:
+            raise PermissionError("School enrolment is not open. Existing courses remain available individually.")
+        return _create_school_enrollment(user, school)
+
+
+def _create_school_enrollment(user, school):
+    school_enrollment = SchoolEnrollment.objects.create(user=user, school=school)
 
     for course in school.active_courses:
         enrollment, _ = CourseEnrollment.objects.get_or_create(
@@ -53,7 +64,7 @@ def enroll_in_school(user, school: School):
             school_enrollment=school_enrollment, course=course, defaults={"order": course.order}
         )
 
-    return school_enrollment, created
+    return school_enrollment, True
 
 
 def school_completion_status(user, school: School):
@@ -165,6 +176,8 @@ def grade_school_exam(user, school: School, post_data):
     Grade a submitted school certification exam and award a certificate
     if the user passed. Returns a result dict used by the template.
     """
+    if school.code:
+        raise PermissionError("This school requires its integrated ParaLearn examination.")
     _, _, eligible = school_completion_status(user, school)
     if not eligible:
         raise PermissionError("Complete the enrolled curriculum before taking this examination.")

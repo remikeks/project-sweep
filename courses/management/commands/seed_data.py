@@ -1257,6 +1257,9 @@ class Command(BaseCommand):
 
     @transaction.atomic
     def handle(self, *args, **options):
+        if School.objects.filter(code__isnull=False).exclude(code="").exists():
+            from django.core.management.base import CommandError
+            raise CommandError("The coded school catalogue is active. Legacy seeding would rewrite courses; use realign_schools instead.")
         if options["flush"]:
             self.stdout.write("Flushing existing schools and courses…")
             School.objects.all().delete()

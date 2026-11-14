@@ -3,6 +3,7 @@ from django.urls import reverse
 from django.templatetags.static import static
 from django.utils.functional import cached_property
 from django.utils.text import slugify
+from django.core.validators import MinValueValidator, MaxValueValidator, RegexValidator
 
 from core.catalogue_artwork import school_artwork_path
 
@@ -16,14 +17,19 @@ SCHOOL_ACCENTS = ["leaf", "moss", "fern", "sage", "pine"]
 
 class School(models.Model):
     """
-    One of the 10 'schools' offered on SWEEP (e.g. School of Child &
-    Family Welfare, School of Mental Health Practice, etc). A school is a
+    A current or historical school on SWEEP. A school is a
     themed collection of courses. Enrolling in a school enrolls the user
     in every active course it offers, and finishing every course unlocks
     a certification exam for the school itself.
     """
 
     name = models.CharField(max_length=150, unique=True)
+    code = models.CharField(max_length=8, null=True, blank=True, unique=True,
+                            validators=[RegexValidator(r"^[A-Z][A-Z0-9]{1,7}$")])
+    is_historical = models.BooleanField(default=False)
+    enrollment_open = models.BooleanField(default=True)
+    target_course_count = models.PositiveSmallIntegerField(
+        null=True, blank=True, validators=[MinValueValidator(5), MaxValueValidator(10)])
     slug = models.SlugField(max_length=170, unique=True, blank=True)
     tagline = models.CharField(max_length=255, blank=True)
     description = models.TextField(blank=True)
@@ -61,6 +67,10 @@ class School(models.Model):
 
     def get_absolute_url(self):
         return reverse("school_detail", kwargs={"slug": self.slug})
+
+    @property
+    def accepts_enrollment(self):
+        return self.is_active and not self.is_historical and self.enrollment_open
 
     @property
     def active_courses(self):

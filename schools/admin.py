@@ -29,17 +29,17 @@ class SchoolExamQuestionInline(admin.StackedInline):
 
 @admin.register(School)
 class SchoolAdmin(admin.ModelAdmin):
-    list_display = ("poster_thumbnail", "name", "course_count", "exam_question_count", "passing_score", "is_active", "order")
+    list_display = ("poster_thumbnail", "code", "name", "course_count", "target_course_count", "enrollment_open", "is_historical", "is_active", "order")
     list_display_links = ("name",)
     list_editable = ("order", "is_active")
     prepopulated_fields = {"slug": ("name",)}
-    search_fields = ("name", "description")
-    list_filter = ("is_active",)
+    search_fields = ("code", "name", "description")
+    list_filter = ("is_active", "is_historical", "enrollment_open")
     readonly_fields = ("poster_preview",)
     fields = (
-        "name", "slug", "tagline", "description",
+        "code", "name", "slug", "tagline", "description", "target_course_count",
         "poster", "poster_preview",
-        "passing_score", "is_active", "order",
+        "passing_score", "is_active", "is_historical", "enrollment_open", "order",
     )
     inlines = [SchoolExamQuestionInline]
 

@@ -2,6 +2,29 @@
 
 ## Authoritative catalogue
 
+### Owner decision recorded 2026-11-14
+
+The owner authorized phased execution of the 25-school refactor. The approved
+register and exact 34-course primary-school mapping are maintained in
+`schools/refactor_2026_11.json`. This decision supersedes the ten-school limit
+below. It does not authorize rewriting the existing course content or CBTs.
+School codes are distinct from the existing SWP course codes.
+
+Phase one creates the 25 coded schools and retires the former schools from
+public browsing and new enrolment. Historical school identities, frozen learner
+requirements, exams, progress and credentials remain intact. New-school
+enrolment remains closed until the curriculum and integrated ParaLearn school
+exam are ready. Course badges retain their existing verified-CBT requirement.
+New-school certificates require all required courses plus a finalized school
+exam containing MCQs, short answers and essays; signatories are the Head of
+Learning (details pending) and Prof. Mina Ogbanga, Founder, SWEEP Academy.
+
+New course production starts only after realignment parity checks pass. Each
+school targets 5–10 courses, with 184 courses (34 retained and 150 proposed new)
+in the working curriculum. Those proposals require individual evidence dossiers,
+current research, outcome mapping and appropriate review before publication.
+The historical release notes below describe the earlier catalogue and its gates.
+
 The live Vercel catalogue of ten schools is the authoritative curriculum.
 The older Render export is an archive and reference source only. It must not
 be bulk-imported into production.
