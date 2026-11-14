@@ -15,6 +15,8 @@ def compile_package(source):
     package=dict(version="0.1.0",status="draft_for_review",evidence_checked_on="2026-11-14",
         review=dict(subject_matter="pending",Nigerian_practice_and_legal="pending",accessibility_and_pilot="pending",publication="not_approved"),
         references=source.REFERENCES,courses=[])
+    if hasattr(source,"EVIDENCE_NOTE"):
+        package["evidence_note"]=source.EVIDENCE_NOTE
     for authored in source.COURSES:
         course={k:v for k,v in authored.items() if k!="modules"}
         course["modules"]=[dict(order=i,**{k:v for k,v in m.items() if k!="items"}) for i,m in enumerate(authored["modules"],1)]

@@ -53,6 +53,8 @@ class Command(BaseCommand):
                 course=qs.get(course_code=entry["course_code"],slug=entry["course_slug"])
             except Course.DoesNotExist as exc:
                 raise CommandError("A resource points to a missing or mismatched course") from exc
+            if entry.get("school_code") and entry["school_code"] != course.school.code:
+                raise CommandError("Resource school code does not match the course's actual school")
             if course.is_active or not course.school.code or course.school.enrollment_open or course.paralearn_assessment_id:
                 raise CommandError("This create-only review operation requires inactive coded-school drafts without an active CBT mapping")
             if course.enrollments.exists():

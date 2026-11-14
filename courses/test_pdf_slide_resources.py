@@ -54,6 +54,15 @@ class PdfSlideResourceTests(TestCase):
             call_command("stage_pdf_slide_resources",release=self.release,manifest=self.path,stdout=io.StringIO())
         storage.assert_not_called()
 
+    def test_wrong_school_code_is_rejected_before_storage_access(self):
+        for entry in self.manifest:
+            entry["school_code"]="ERT"
+        self.path.write_text(json.dumps(self.manifest))
+        with patch("courses.management.commands.stage_pdf_slide_resources.SupabaseStorageClient") as storage:
+            with self.assertRaisesRegex(CommandError,"school code"):
+                call_command("stage_pdf_slide_resources",release=self.release,manifest=self.path,commit=True,receipt=self.release/"wrong-school.json",stdout=io.StringIO())
+            storage.assert_not_called()
+
     def test_active_course_refused_before_upload(self):
         self.course.is_active=True;self.course.save(update_fields=["is_active"])
         with patch("courses.management.commands.stage_pdf_slide_resources.SupabaseStorageClient") as storage:

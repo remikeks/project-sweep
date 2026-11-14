@@ -1,0 +1,92 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "5cc8e1247c20a1f107ee6d0669b85a31cdea39bf67b8891ebe65d54aa4e394dc",
+  "summary": {
+    "assets": 16,
+    "asset_courses": 4
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-042-ecosocial-systems-and-environmental-justice-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "2a00175525206457c4388d083e531555ea4f8774bde9257f9fedab43e6ba754c"
+    },
+    {
+      "path": "pdf/SWP-042-ecosocial-systems-and-environmental-justice-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "fc1c34eb69446bd8f4028aa5528e056ed9b1252151a9fc9615871052fc6af15a"
+    },
+    {
+      "path": "pptx/SWP-042-ecosocial-systems-and-environmental-justice-course-slides.pptx",
+      "pages": null,
+      "sha256": "d92b13ed002d3237beae006926c5000e1ccdea3389e80bd970d4292925fdcf9b"
+    },
+    {
+      "path": "pdf/SWP-042-ecosocial-systems-and-environmental-justice-course-slides.pdf",
+      "pages": 16,
+      "sha256": "42dd282cc02a24ea0ad54d11f91d2a2601f4d23e5aaa7ffdb87817d8bd25fe8d"
+    },
+    {
+      "path": "pdf/SWP-043-participatory-ecological-vulnerability-assessment-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "4c0cc5e2e310a8f6800011264f9f88860b95d4ee8e87872b31c76b1b983b483b"
+    },
+    {
+      "path": "pdf/SWP-043-participatory-ecological-vulnerability-assessment-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "3f1754d69ace086aa3e43d57a3996ad8976da43be5b68c4f77c646a23f76a748"
+    },
+    {
+      "path": "pptx/SWP-043-participatory-ecological-vulnerability-assessment-course-slides.pptx",
+      "pages": null,
+      "sha256": "c38a77d7abd86527e3d7e12fa355bd81454f3e698c4d90e5505b50fe018430fc"
+    },
+    {
+      "path": "pdf/SWP-043-participatory-ecological-vulnerability-assessment-course-slides.pdf",
+      "pages": 16,
+      "sha256": "347836ee3b7e1f7b5bedf446b400d05eec2e3e43e889373435238e79f90eff5f"
+    },
+    {
+      "path": "pdf/SWP-044-community-adaptation-and-resilience-planning-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "111a560ad177632408a1260b7bde6941e84967b870da3ef4133be8e42e733491"
+    },
+    {
+      "path": "pdf/SWP-044-community-adaptation-and-resilience-planning-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "c634f256135305e42c0925f77c1ac17c185d4d64f8826c4080725c6d1dcceed0"
+    },
+    {
+      "path": "pptx/SWP-044-community-adaptation-and-resilience-planning-course-slides.pptx",
+      "pages": null,
+      "sha256": "a46d02cd31aeff3469aff2fb1bcfda31d105be750737d1511c664d54a7d6eda6"
+    },
+    {
+      "path": "pdf/SWP-044-community-adaptation-and-resilience-planning-course-slides.pdf",
+      "pages": 16,
+      "sha256": "f54aa9660f7e713bb6a6ed7c228b34fe128c52681fbd7dbd658c4f480c962459"
+    },
+    {
+      "path": "pdf/SWP-045-heat-pollution-and-environmental-health-inequity-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "2edc72479b34b7ec276fce8562fc75f068189ce1dc59105532965353812ad4f2"
+    },
+    {
+      "path": "pdf/SWP-045-heat-pollution-and-environmental-health-inequity-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "d0828d97b3a8435cfa2e9f08de964bf73162e1392cb5be6c681958a1b6a4517d"
+    },
+    {
+      "path": "pptx/SWP-045-heat-pollution-and-environmental-health-inequity-course-slides.pptx",
+      "pages": null,
+      "sha256": "f4ca6275340b4e05542fb124d16841983e8793e49361079ac94ec7033a456c6e"
+    },
+    {
+      "path": "pdf/SWP-045-heat-pollution-and-environmental-health-inequity-course-slides.pdf",
+      "pages": 16,
+      "sha256": "2291ec31734a4a4669b4940a54896be1a619d2e77eb69deafdacded1245aeefd"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

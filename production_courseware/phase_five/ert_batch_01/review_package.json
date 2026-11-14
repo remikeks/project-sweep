@@ -1,0 +1,2471 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-14",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved"
+  },
+  "references": [
+    {
+      "id": "S1",
+      "title": "Global Social Work Statement of Ethical Principles",
+      "author": "IFSW",
+      "year": 2018,
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "kind": "professional framework",
+      "use": "Ethical vocabulary and principles, not a Nigerian statute.",
+      "appraisal": "Normative professional guidance; does not measure intervention effectiveness.",
+      "licence": "Link and citation only; no copied text"
+    },
+    {
+      "id": "R8",
+      "author": "Mbata RI",
+      "year": 2026,
+      "title": "Compounding Vulnerabilities: An Architectural Study of the Socio-Spatial, Economic, and Environmental Characteristics of Marginalized Waterfront Communities in Port Harcourt, Nigeria, and Its Implications for Social Work and Development Practice",
+      "slide_title": "Compounding Vulnerabilities: Waterfront Communities in Port Harcourt",
+      "doi": "10.67007/ijsds-2026-v2_i2_002",
+      "url": "https://doi.org/10.67007/ijsds-2026-v2_i2_002",
+      "kind": "Nigerian mixed-methods contextual study",
+      "use": "Examining interacting environmental, livelihood and spatial barriers.",
+      "appraisal": "Full 11-page text read. Cross-sectional study in three waterfront communities, with a questionnaire sample of 364 and nine purposive interviews. Descriptive contextual evidence; cannot establish causal effects, developmental norms or national representativeness. Learner cases are independently fictional.",
+      "licence": "Journal declares CC BY 4.0; linked evidence and original commentary only",
+      "quartile": "No Q1/Q2 status verified. Included for relevant Nigerian context.",
+      "slide_limit": "Three communities and one time point. No causal or national claim."
+    },
+    {
+      "id": "S2",
+      "author": "IPCC",
+      "year": 2023,
+      "title": "Climate Change 2023 Synthesis Report Summary for Policymakers",
+      "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+      "kind": "intergovernmental evidence assessment",
+      "use": "Risk context, adaptation, equity and possible maladaptation.",
+      "appraisal": "Global synthesis, especially A.2, A.3 and C.5. It cannot specify a site's engineering design, predict an individual's outcome or attribute a local event without suitable evidence.",
+      "licence": "Linked official report and original commentary only",
+      "link_label": "ipcc.ch AR6 synthesis summary",
+      "slide_limit": "Global assessment. Local decisions need appropriate site evidence."
+    },
+    {
+      "id": "S3",
+      "author": "Council on Social Work Education",
+      "year": 2022,
+      "title": "Educational Policy and Accreditation Standards for Baccalaureate and Master's Social Work Programs",
+      "url": "https://www.cswe.org/sites/default/files/2026-07/2022_EPAS.pdf",
+      "kind": "professional education benchmark",
+      "use": "Environmental justice, research-informed practice, assessment, intervention and evaluation competencies.",
+      "appraisal": "Current adopted 2022 US degree-programme standards checked on 14 November 2026. A 2029 draft is not treated as adopted. Selected learning-domain mapping does not confer accreditation, degree equivalence or Nigerian professional registration.",
+      "licence": "All rights reserved. Link and original curriculum commentary only; no exercises or text reproduced",
+      "link_label": "cswe.org 2022 EPAS",
+      "slide_author": "CSWE",
+      "slide_title": "2022 Educational Policy and Accreditation Standards",
+      "slide_limit": "US degree benchmark. No accreditation or registration conferred."
+    },
+    {
+      "id": "S6",
+      "author": "Council on Social Work Education",
+      "year": 2020,
+      "title": "Curricular Guide for Environmental Justice 2015 EPAS Curricular Guide Resource Series",
+      "url": "https://www.cswe.org/sites/default/files/2026-07/Curricular_Guide_Environmental_Justice_2015_EPAS.pdf",
+      "kind": "specialist curriculum resource",
+      "use": "Environmental-justice relevance across generalist social work learning domains.",
+      "appraisal": "2020 guide aligned to the older 2015 EPAS. Used as a supplementary subject map, read alongside adopted 2022 EPAS, not a current accreditation standard or a Nigerian curriculum mandate.",
+      "licence": "All rights reserved; individual reading only. Linked benchmark; no guide text, assignments or exercises copied or adapted",
+      "link_label": "cswe.org Environmental justice guide",
+      "slide_author": "CSWE",
+      "slide_title": "Curricular Guide for Environmental Justice (2020)",
+      "slide_limit": "Supplementary 2015-EPAS guide. Read with current adopted standards."
+    },
+    {
+      "id": "S4",
+      "author": "WHO Regional Office for Europe",
+      "year": 2026,
+      "title": "Heat-health action plans guidance second edition Executive summary",
+      "url": "https://www.who.int/docs/librariesprovider2/default-document-library/who-hhap-guidance-exec-summary-eng-2026.pdf?download=true",
+      "kind": "public health implementation guidance",
+      "use": "Coordinated heat preparedness, communication, social-care access and monitoring.",
+      "appraisal": "Official 26-page executive-summary file read, not the complete 272-page report. Designed for the European Region; Nigerian application needs local public-health authorities, capacity checks and approved response arrangements. Not an individual treatment protocol.",
+      "licence": "CC BY-NC-SA 3.0 IGO stated for the linked guidance. Original commentary only; no message bank or figures reproduced",
+      "link_label": "who.int Heat-health guidance 2026",
+      "slide_author": "WHO Europe",
+      "slide_limit": "European guidance. Adapt through authorised local public-health arrangements."
+    },
+    {
+      "id": "S5",
+      "author": "World Health Organization",
+      "year": 2021,
+      "title": "WHO global air quality guidelines particulate matter ozone nitrogen dioxide sulfur dioxide and carbon monoxide",
+      "url": "https://www.who.int/publications/i/item/9789240034228",
+      "kind": "public health guideline overview",
+      "use": "Distinguish measured pollutant concentrations, health guidance and local regulatory standards.",
+      "appraisal": "Official publication overview checked. No numerical guideline or clinical threshold is reproduced. A technical reading needs pollutant, unit, averaging period, instrument quality and applicable local interpretation; a smell report does not establish a measured concentration.",
+      "licence": "Official linked overview; original commentary only",
+      "link_label": "who.int Global air quality guidelines",
+      "slide_author": "WHO",
+      "slide_title": "WHO global air quality guidelines (2021)",
+      "slide_limit": "Guideline overview, not a Nigerian legal limit or personal diagnosis."
+    },
+    {
+      "id": "R1",
+      "author": "Narhi K, Matthies AL, Stamm I and Hirvilammi T",
+      "year": 2025,
+      "title": "Social work practitioners' views of ecosocial work",
+      "doi": "10.1177/14680173251336105",
+      "url": "https://doi.org/10.1177/14680173251336105",
+      "kind": "qualitative focus-group study",
+      "use": "Human-nature relationships and organisational conditions for ecosocial practice.",
+      "appraisal": "Published online June 2025, issue January 2026. Fourteen already-interested social workers in three Finnish locations; focus groups over three cycles. Selected practitioner perspectives in a Nordic welfare setting, not representative Nigerian findings or tested intervention effects. Publisher methods and limitations read through indexed full text.",
+      "licence": "CC BY 4.0; original commentary, no participant quotes or figures reproduced",
+      "quartile": "Journal quartile not independently verified for this batch",
+      "slide_title": "Social work practitioners' views of ecosocial work",
+      "slide_author": "Narhi K and colleagues",
+      "slide_limit": "Fourteen selected Finnish practitioners. No representative or causal claim."
+    },
+    {
+      "id": "R2",
+      "author": "Parsons M and colleagues",
+      "year": 2025,
+      "title": "Participatory approaches to climate adaptation, resilience, and mitigation: A systematic review",
+      "doi": "10.1007/s13280-025-02202-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12569303/",
+      "kind": "systematic thematic review",
+      "use": "Power, meaningful influence and exclusion in participatory climate processes.",
+      "appraisal": "187 English-language peer-reviewed articles from Scopus covering 2015-2020 despite 2025 publication. Excludes grey and non-English knowledge; thematic interpretation rather than a pooled effectiveness estimate. Full text read. A local meeting's fairness or impact still needs direct checking.",
+      "licence": "CC BY 4.0; original commentary only",
+      "quartile": "SCImago's search-indexed 2025 Ambio record reports SJR Q1 (including Geography Planning and Development). Direct table access returned 403; JCR quartile not independently verified. https://www.scimagojr.com/journalsearch.php?clean=0&q=22704&tip=sid",
+      "slide_title": "Participatory approaches to climate adaptation, resilience and mitigation",
+      "slide_limit": "Thematic review; 2015-2020 literature. No local effectiveness guarantee."
+    },
+    {
+      "id": "R3",
+      "author": "Wright CY and colleagues",
+      "year": 2026,
+      "title": "Air Pollution and Heat Impacts on Respiratory Morbidity and Mortality Outcomes in Africa: A Systematic Review Towards a Meta-analysis",
+      "doi": "10.1007/s40572-026-00561-7",
+      "url": "https://doi.org/10.1007/s40572-026-00561-7",
+      "kind": "rapid systematic review",
+      "use": "African pollution evidence and the gap in evidence on heat-respiratory interactions.",
+      "appraisal": "Thirteen included studies with mixed observational designs, despite the stated case-control focus. Limited database coverage and heterogeneous reporting. Abstract says only three considered temperature and none tested heat-respiratory interactions. Protocol/preprint references and inconsistent design counts warrant caution. No pooled local effect or proven heat-pollution interaction is used here. Publisher methods, quality appraisal and limitations read through indexed full text; direct HTML was a challenge page, not archived full text.",
+      "licence": "CC BY 4.0 verified through publisher/Crossref metadata; original commentary only",
+      "quartile": "SCImago's indexed Switzerland journal table reports SJR Q1 for Current Environmental Health Reports; category/year table and JCR quartile were not independently downloaded. https://www.scimagojr.com/journalrank.php?country=CH&ord=desc&order=rpd&type=j&wos=true",
+      "slide_title": "Air pollution and heat: African respiratory-health evidence review",
+      "slide_limit": "Mixed study designs. No heat-respiratory interaction established."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-042",
+      "title": "Ecosocial Systems and Environmental Justice",
+      "slug": "ecosocial-systems-and-environmental-justice",
+      "cover_title": "Ecosocial Systems\nand Environmental\nJustice",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners working within authorised roles and supervision.",
+      "outcome": "Develop a justified environmental-justice analysis linking ecological conditions, everyday participation and accountable social work action.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Ecological dependence and everyday wellbeing",
+          "outcome": "Trace a plausible pathway between an environmental condition and a person's participation without treating it as proven causation.",
+          "paragraphs": [
+            "Ecosocial practice considers how people depend on living environments as well as relationships and institutions. Water, land, air, food systems and shelter can influence everyday participation, while social arrangements affect who can use or protect these resources. Begin with a situation the person or community identifies as important. Ask what condition has changed, which activity is affected and what information supports the connection. A pathway diagram is a way to organise questions, not a scientific finding that one factor caused every reported difficulty. [R1, S1]",
+            "Distinguish a physical condition from the arrangements through which it matters. A water interruption may affect cooking, care, work or attendance differently across households. Storage, cost, mobility, tenancy and the reliability of another supply may change the practical effect. Record the person's account and identify what a relevant technical service must verify. Avoid assuming that one neighbourhood label describes every resident. The Port Harcourt study provides locally relevant contextual evidence, but its cross-sectional design cannot establish an individual household's cause or predict the effect of a new project. [R8]",
+            "Recognise ecological relationships without romanticising nature or a particular community. A green space may offer opportunities for social contact while its location, access rules or maintenance create barriers. Ask who can use it safely and whose livelihood or responsibilities make participation difficult. Do not prescribe an outdoor activity as a clinical treatment or assume that an environmental project automatically improves wellbeing. The learner's role is to identify a defensible practice question, involve the people affected and recognise when another profession's assessment is needed. [S1, R1]",
+            "The Finnish ecosocial study explored fourteen selected practitioners' views and organisational conditions. It offers questions about how a service understands environmental issues, rather than representative evidence of Nigerian practice or a test of a teaching method. Use that distinction in your analysis. Describe the proposed connection, the relevant evidence, an alternative explanation and a proportionate verification task. Include resources such as shared knowledge or mutual assistance alongside barriers. A useful analysis remains open to correction by the person and by appropriate specialist information. [R1, R8]"
+          ],
+          "example": "Fictional case: residents report that an unreliable water point changes the time available for paid work and caring. Households have different storage and mobility arrangements. The worker records these differences and asks the authorised water service to verify the interruption before attributing every missed activity to it.",
+          "activity": "Write a five-link pathway from the reported water problem to one participation concern. Label each link as reported, observed or hypothetical, then give an alternative explanation and a verification owner.",
+          "feedback": "A sound pathway keeps information status visible and recognises variation between households. It identifies a check and an appropriate role instead of diagnosing an environmental cause from one account.",
+          "sources": [
+            "R1",
+            "S1",
+            "R8"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Distribution voice and recognition",
+          "outcome": "Examine who bears burdens, who influences a decision and whose knowledge is recognised.",
+          "paragraphs": [
+            "An environmental-justice analysis asks more than whether a project has an attractive overall aim. Examine how burdens and benefits are distributed, how people can influence the decision and whose experiences or identities receive attention. These are connected questions, not a mechanical score that decides a case. Start with the actual proposal and identify the people who may gain or lose access, time, livelihood or safety. Record the basis for each concern and avoid attributing motives to an organisation without evidence. [S1, S3]",
+            "Distribution concerns can remain hidden in a favourable average. A new facility may improve access for many while lengthening another group's journey or increasing an unaffordable charge. Ask what comparison is meaningful and whether the information can be collected safely and proportionately. Do not publish identifiable household details to demonstrate inequality. Where the evidence is incomplete, state whose experience has not been heard. A claim of fair distribution should explain both the benefits being considered and the burdens that remain unresolved. [R8, S1]",
+            "Procedural influence means knowing which decisions remain open and how contributions will be considered. A meeting held after a design is fixed offers a different opportunity from involvement before options are chosen. Ask who sets the agenda, controls relevant information and can authorise a change. The participation review examines power across climate initiatives and warns against equating participation language with meaningful influence. Its literature ends in 2020 and its thematic synthesis does not determine whether a particular local meeting is fair. Check the actual process. [R2]",
+            "Recognition involves taking people's knowledge and circumstances seriously without requiring them to present an identical account. Offer suitable ways to contribute and check whether language, timing, disability access or fear of consequences limits participation. A community leader's view can be valuable while leaving other perspectives unrepresented. Record disagreements respectfully and explain how a decision will be communicated back. The education standards support environmental justice and evidence-informed practice as learning domains; they do not certify that an analysis, project or academy has received external approval. [S3, S1]"
+          ],
+          "example": "Fictional case: a shade project is placed beside a market entrance. Some traders welcome it, while evening workers say the chosen position obstructs their route. The team separates the distribution question from the decision process and invites affected users to examine options while a change remains possible.",
+          "activity": "Prepare a justice-analysis note with one distribution question, one influence question and one recognition question. Identify missing perspectives, relevant evidence and the role able to respond.",
+          "feedback": "A strong note examines burdens and voice together, leaves disagreement visible and identifies a decision route. It does not treat attendance or a favourable average as proof of fairness.",
+          "sources": [
+            "S1",
+            "S3",
+            "R8",
+            "R2"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Practice pathways and accountable advocacy",
+          "outcome": "Convert an environmental-justice analysis into a bounded social work action and an evidence-aware advocacy statement.",
+          "paragraphs": [
+            "Choose a practice action that fits the analysis and the worker's authority. An immediate access concern may need individual support or an authorised referral. A recurring service barrier may need a discussion with the role responsible for the pathway. A contested policy may require a properly supported advocacy submission. These actions can connect, but one worker should not promise to resolve every ecological or institutional issue. Explain the intended contribution, the responsible role and what remains outside the service's authority. [S1, S3]",
+            "An advocacy statement should identify the decision being requested, the people affected, the relevant evidence and the uncertainty. Separate a reported concern from a verified technical finding. Do not allege contamination, a regulatory breach or event attribution from a visual impression alone. Ask an appropriate authority to assess the technical question while preserving the person's reported experience. Where a record includes personal information, use the approved process and share only what is justified for the purpose. Participation in an advocacy discussion is not unlimited permission to circulate someone's story. [S1, R8]",
+            "Select an action that can be followed through. For example, a service could clarify an inaccessible reporting route and name the role responsible for responding. Agree how people can learn what happened to the concern without exposing complainants. The environmental-justice curricular guide broadens the subject map across generalist practice; its older EPAS alignment is supplementary to the adopted 2022 standards. This course's cases and tasks are original and do not reproduce that guide's assignments. Benchmark use is not an accreditation claim. [S6, S3]",
+            "Review whether the promised action occurred and whether the access concern changed. A response letter, a completed meeting or a new sign is an output, not proof of improved wellbeing. Invite feedback that challenges the original analysis. If the action creates another burden, record it and use the authorised review route. The qualitative ecosocial study helps ask about organisational constraints, while the participation review helps examine influence. Neither establishes that this particular advocacy action caused a positive result. Keep the evidence proportionate to the conclusion. [R1, R2]"
+          ],
+          "example": "Fictional case: residents find an environmental complaint route difficult to use. A worker helps them prepare a factual request for an accessible route and a named responder. Technical allegations remain for the appropriate authority to assess, and the update reports the response without naming individual complainants.",
+          "activity": "Draft a 150-word advocacy statement: requested decision, affected access, evidence status, responsible authority and review point. Add one sentence explaining what a completed response would not prove.",
+          "feedback": "A defensible statement makes a specific request, protects relevant confidentiality and distinguishes social experience from technical findings. A recorded response is a step to review, not automatic evidence of impact.",
+          "sources": [
+            "S1",
+            "S3",
+            "R8",
+            "S6",
+            "R1",
+            "R2"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-042",
+        "course_slug": "ecosocial-systems-and-environmental-justice",
+        "title": "Ecosocial Systems and Environmental Justice",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "e0ac6e3740748afe3f5fbdb53a7b43cae1dbafb7a6edaa5878d88264995f5ea0",
+        "catalogue_sha256": "e72c580f019630fd650ec584cbbb307ad83e73dd707b339647db1bdf678e9b51",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Ecological dependence and everyday wellbeing",
+            "outcome": "Trace a plausible pathway between an environmental condition and a person's participation without treating it as proven causation.",
+            "teaching_points": [
+              {
+                "id": "SWP-042-M1-T1",
+                "text": "Ecological and social conditions interact in everyday participation."
+              },
+              {
+                "id": "SWP-042-M1-T2",
+                "text": "A pathway map organises hypotheses rather than proving them."
+              },
+              {
+                "id": "SWP-042-M1-T3",
+                "text": "Similar environmental exposure can have different practical effects."
+              },
+              {
+                "id": "SWP-042-M1-T4",
+                "text": "An environmental activity is not automatically a clinical intervention."
+              },
+              {
+                "id": "SWP-042-M1-T5",
+                "text": "Selected practitioner perspectives do not establish national prevalence."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Distribution voice and recognition",
+            "outcome": "Examine who bears burdens, who influences a decision and whose knowledge is recognised.",
+            "teaching_points": [
+              {
+                "id": "SWP-042-M2-T1",
+                "text": "A favourable average can conceal uneven burdens."
+              },
+              {
+                "id": "SWP-042-M2-T2",
+                "text": "Influence depends on decisions being open to change."
+              },
+              {
+                "id": "SWP-042-M2-T3",
+                "text": "Recognition does not require a single community narrative."
+              },
+              {
+                "id": "SWP-042-M2-T4",
+                "text": "A representative's contribution does not demonstrate complete inclusion."
+              },
+              {
+                "id": "SWP-042-M2-T5",
+                "text": "A curriculum benchmark does not approve a local justice analysis."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Practice pathways and accountable advocacy",
+            "outcome": "Convert an environmental-justice analysis into a bounded social work action and an evidence-aware advocacy statement.",
+            "teaching_points": [
+              {
+                "id": "SWP-042-M3-T1",
+                "text": "A practice action must match the worker's role and authority."
+              },
+              {
+                "id": "SWP-042-M3-T2",
+                "text": "Advocacy distinguishes reports from verified findings."
+              },
+              {
+                "id": "SWP-042-M3-T3",
+                "text": "Participation is not unlimited permission to publish a personal story."
+              },
+              {
+                "id": "SWP-042-M3-T4",
+                "text": "An advocacy output and a participation outcome are distinct."
+              },
+              {
+                "id": "SWP-042-M3-T5",
+                "text": "New burdens should trigger a review of the action."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-042-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-042-M1-T1",
+            "question": "A water interruption is reported alongside missed work. What should an ecosocial analysis examine?",
+            "options": [
+              {
+                "text": "Only whether the person is motivated to work.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed causal chain from the interruption to every absence.",
+                "correct": false
+              },
+              {
+                "text": "How the interruption, household arrangements and work conditions may connect.",
+                "correct": true
+              },
+              {
+                "text": "The neighbourhood name as a complete household assessment.",
+                "correct": false
+              }
+            ],
+            "rationale": "The task is to examine the connection and its evidence rather than assume a single explanation."
+          },
+          {
+            "id": "SWP-042-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-042-M1-T2",
+            "question": "A learner draws a diagram connecting a local condition to an outcome. What does the diagram establish?",
+            "options": [
+              {
+                "text": "A causal effect equivalent to an intervention trial.",
+                "correct": false
+              },
+              {
+                "text": "A diagnosis of everyone living nearby.",
+                "correct": false
+              },
+              {
+                "text": "Proof that alternative explanations are irrelevant.",
+                "correct": false
+              },
+              {
+                "text": "A proposed explanation whose links still need evidence.",
+                "correct": true
+              }
+            ],
+            "rationale": "Drawing a plausible relationship does not validate the relationship."
+          },
+          {
+            "id": "SWP-042-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-042-M1-T3",
+            "question": "Two households use the same unreliable water point but report different difficulties. What should be checked?",
+            "options": [
+              {
+                "text": "Their relevant access, storage, mobility and daily responsibilities.",
+                "correct": true
+              },
+              {
+                "text": "Which household can be made to match the expected story.",
+                "correct": false
+              },
+              {
+                "text": "Whether one account must be dishonest because the location is shared.",
+                "correct": false
+              },
+              {
+                "text": "Only a community-wide average with no household context.",
+                "correct": false
+              }
+            ],
+            "rationale": "Relevant capacities and circumstances can differ within the same setting."
+          },
+          {
+            "id": "SWP-042-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-042-M1-T4",
+            "question": "A project offers time in a green space. Which claim stays within the introductory worker's evidence?",
+            "options": [
+              {
+                "text": "It treats every participant's health condition.",
+                "correct": false
+              },
+              {
+                "text": "Its accessibility and intended participation purpose need checking with users.",
+                "correct": true
+              },
+              {
+                "text": "Its natural setting guarantees benefit for everyone.",
+                "correct": false
+              },
+              {
+                "text": "No suitability or access review can be necessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "The worker should not infer clinical effectiveness from the setting."
+          },
+          {
+            "id": "SWP-042-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-042-M1-T5",
+            "question": "How should the Finnish ecosocial study inform Nigerian service discussion?",
+            "options": [
+              {
+                "text": "As the proportion of all Nigerian practitioners supporting ecosocial work.",
+                "correct": false
+              },
+              {
+                "text": "As proof that a local project has improved outcomes.",
+                "correct": false
+              },
+              {
+                "text": "As contextual questions to examine locally, with its selected sample stated.",
+                "correct": true
+              },
+              {
+                "text": "As authority to replace residents' accounts with the study's themes.",
+                "correct": false
+              }
+            ],
+            "rationale": "Qualitative views from a specific welfare setting need careful transfer."
+          },
+          {
+            "id": "SWP-042-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-042-M2-T1",
+            "question": "Average travel time improves after a project but one group reports longer journeys. What should the analysis do?",
+            "options": [
+              {
+                "text": "Discard the group's experience because the average improved.",
+                "correct": false
+              },
+              {
+                "text": "Assume all benefits are equal across residents.",
+                "correct": false
+              },
+              {
+                "text": "Publish private journeys with household names to prove the point.",
+                "correct": false
+              },
+              {
+                "text": "Examine the distribution and the reported barrier with appropriate evidence.",
+                "correct": true
+              }
+            ],
+            "rationale": "Distribution requires attention to differences as well as overall change."
+          },
+          {
+            "id": "SWP-042-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-042-M2-T2",
+            "question": "A consultation happens after the final design is approved. What needs to be made clear?",
+            "options": [
+              {
+                "text": "Which decisions, if any, participants can still influence.",
+                "correct": true
+              },
+              {
+                "text": "That attendance automatically constitutes co-design.",
+                "correct": false
+              },
+              {
+                "text": "That a feedback form proves shared decision authority.",
+                "correct": false
+              },
+              {
+                "text": "That no explanation of decision boundaries is needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "The opportunity to influence a decision should be described honestly."
+          },
+          {
+            "id": "SWP-042-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-042-M2-T3",
+            "question": "Residents give different accounts of a project's burden. What is an appropriate response?",
+            "options": [
+              {
+                "text": "Select one account and describe it as everyone's view.",
+                "correct": false
+              },
+              {
+                "text": "Retain relevant differences and investigate them respectfully.",
+                "correct": true
+              },
+              {
+                "text": "Treat disagreement as proof that participation failed entirely.",
+                "correct": false
+              },
+              {
+                "text": "Remove the less convenient account from the record.",
+                "correct": false
+              }
+            ],
+            "rationale": "Differences can reveal circumstances that a single account would hide."
+          },
+          {
+            "id": "SWP-042-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-042-M2-T4",
+            "question": "A community leader attends a meeting. What further participation question remains?",
+            "options": [
+              {
+                "text": "Whether the leader can automatically consent for every household.",
+                "correct": false
+              },
+              {
+                "text": "Whether other views can now be omitted.",
+                "correct": false
+              },
+              {
+                "text": "Whose perspectives and access needs may still be missing.",
+                "correct": true
+              },
+              {
+                "text": "Whether attendance proves every decision is fair.",
+                "correct": false
+              }
+            ],
+            "rationale": "A useful contribution does not establish universal representation."
+          },
+          {
+            "id": "SWP-042-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-042-M2-T5",
+            "question": "What does mapping a lesson to CSWE environmental-justice domains establish?",
+            "options": [
+              {
+                "text": "Accreditation of SWEEP without review.",
+                "correct": false
+              },
+              {
+                "text": "A legally binding decision about a local project.",
+                "correct": false
+              },
+              {
+                "text": "Equivalence to completing a professional degree.",
+                "correct": false
+              },
+              {
+                "text": "A learning-domain comparison with independent approval still separate.",
+                "correct": true
+              }
+            ],
+            "rationale": "Educational mapping has a narrower purpose than accreditation or project approval."
+          },
+          {
+            "id": "SWP-042-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-042-M3-T1",
+            "question": "A community concern includes a possible technical pollution question. What can a generalist worker appropriately do?",
+            "options": [
+              {
+                "text": "Record the concern and seek assessment through the relevant authorised technical route.",
+                "correct": true
+              },
+              {
+                "text": "Certify contamination from appearance alone.",
+                "correct": false
+              },
+              {
+                "text": "Promise a regulatory finding before an assessment.",
+                "correct": false
+              },
+              {
+                "text": "Ignore the reported access concern until every scientific question is solved.",
+                "correct": false
+              }
+            ],
+            "rationale": "Social support and appropriate technical referral can proceed within clear boundaries."
+          },
+          {
+            "id": "SWP-042-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-042-M3-T2",
+            "question": "Which wording best preserves evidence status in an advocacy note?",
+            "options": [
+              {
+                "text": "The interruption proves intentional misconduct.",
+                "correct": false
+              },
+              {
+                "text": "Residents report an interruption; the service is asked to verify its cause.",
+                "correct": true
+              },
+              {
+                "text": "A report is the same as a confirmed technical cause.",
+                "correct": false
+              },
+              {
+                "text": "Uncertainty should be removed to make the request stronger.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accurate attribution strengthens accountability without inventing findings."
+          },
+          {
+            "id": "SWP-042-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-042-M3-T3",
+            "question": "A person contributes to a meeting about environmental access. What should govern later use of their details?",
+            "options": [
+              {
+                "text": "Attendance as permission for every public campaign.",
+                "correct": false
+              },
+              {
+                "text": "The worker's preference for a compelling story.",
+                "correct": false
+              },
+              {
+                "text": "The agreed purpose and authorised information-use arrangements.",
+                "correct": true
+              },
+              {
+                "text": "The assumption that advocacy removes confidentiality.",
+                "correct": false
+              }
+            ],
+            "rationale": "Purpose and authority remain relevant when communicating publicly."
+          },
+          {
+            "id": "SWP-042-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-042-M3-T4",
+            "question": "A service sends a response letter. Which review question remains?",
+            "options": [
+              {
+                "text": "Whether a letter guarantees better wellbeing.",
+                "correct": false
+              },
+              {
+                "text": "Whether further feedback is now unnecessary.",
+                "correct": false
+              },
+              {
+                "text": "Whether every reported burden was automatically resolved.",
+                "correct": false
+              },
+              {
+                "text": "Whether the intended people can use the route and the relevant barrier changed.",
+                "correct": true
+              }
+            ],
+            "rationale": "A completed communication is not the same as an improved experience."
+          },
+          {
+            "id": "SWP-042-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-042-M3-T5",
+            "question": "An access change creates an unexpected burden for another group. What should happen?",
+            "options": [
+              {
+                "text": "Record it, consult affected people and use the authorised adjustment process.",
+                "correct": true
+              },
+              {
+                "text": "Suppress the concern to preserve the success report.",
+                "correct": false
+              },
+              {
+                "text": "Assume an environmental aim makes every consequence acceptable.",
+                "correct": false
+              },
+              {
+                "text": "Treat the initial plan as permanently correct.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accountability includes revising an action when evidence challenges it."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-043",
+      "title": "Participatory Ecological Vulnerability Assessment",
+      "slug": "participatory-ecological-vulnerability-assessment",
+      "cover_title": "Participatory Ecological\nVulnerability Assessment",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners working within authorised roles and supervision.",
+      "outcome": "Prepare an ethical participatory assessment protocol and a provisional risk register that preserves local knowledge, uncertainty and technical scope.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Purpose participation and safe information gathering",
+          "outcome": "Design a bounded assessment process with clear influence, suitable participation and proportionate information handling.",
+          "paragraphs": [
+            "An assessment should answer a defined decision question. Establish what the information will help decide, who has authority over that decision and what cannot be promised. An introductory community assessment might identify barriers to reaching a service during heavy rain; it does not certify a site's physical safety or replace an environmental impact assessment. Explain these boundaries before inviting people to contribute. If the purpose changes, revisit the information required and the arrangements under which it can be used rather than treating the original invitation as unlimited permission. [S1, S3]",
+            "Plan participation before choosing the method. Identify groups likely to have relevant experiences and ask what could prevent them from contributing. Timing, transport, communication needs, caring duties and fear of consequences may matter. Offer an appropriate alternative to public speaking where feasible. Explain which decisions remain open and how contributions will be considered. The participation review highlights power and exclusion, but its English-language Scopus coverage ends in 2020. It informs process questions rather than proving that a method will be inclusive in this community. [R2]",
+            "Match information collection to the actual question. A discussion about a public route may not require names, health histories or precise household locations. Where personal data are necessary, use the organisation's approved basis, consent arrangements where applicable, access controls and retention process. Do not post an identifiable map simply because participants helped draw it. Discuss whether an entry could expose someone to stigma, conflict or other harm. Provide a way to correct an account and explain any relevant confidentiality limits through the authorised process. [S1]",
+            "A method can include a facilitated discussion, an accessible mapping exercise, a seasonal calendar or an agreed observation, depending on purpose and local suitability. None should require learners or residents to enter hazardous places or collect technical samples outside their training. Plan how uncertainty, disagreement and missing perspectives will be recorded. The education benchmark links engagement and assessment to informed practice, but selecting a tool from a learning course is not formal approval for field research. Seek the relevant service, ethics or safeguarding review before an actual exercise requires it. [S3, S1]"
+          ],
+          "example": "Fictional case: an assessment asks how rain affects access to a learning centre. Some participants cannot attend the public meeting. The team offers a suitable alternative, explains which route decisions remain open and avoids collecting household health details that are unnecessary for the access question.",
+          "activity": "Write a one-page protocol: decision question, authority, participation arrangements, method, necessary information, confidentiality limits and review requirements. Include an alternative for someone unable to attend.",
+          "feedback": "A strong protocol states both purpose and limits, gives people a meaningful route to contribute and minimises unnecessary information. It does not present an introductory assessment as technical certification.",
+          "sources": [
+            "S1",
+            "S3",
+            "R2"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Risk registers and triangulation",
+          "outcome": "Separate hazard, exposure, vulnerability and capacity while recording the source and limits of each entry.",
+          "paragraphs": [
+            "A provisional risk register organises a concern so that it can be discussed and checked. Distinguish a potential harmful event or condition, the people or assets that may be exposed, the circumstances affecting susceptibility and the resources available to respond. These categories overlap in real life but answer different questions. A rain-related route problem is not fully described by naming heavy rain. Consider who uses the route, when use occurs, which barriers matter and what alternative arrangements already exist. Avoid converting the categories into a precise prediction without an appropriate method. [S2]",
+            "Record the source, date, location or scale, and information status for each relevant entry. A resident's report, a direct observation, a service record and a technical projection are different forms of evidence. Each may be useful, but they should not be presented as interchangeable. Check whether a map or record is current and whether its geographic scale fits the decision. A city-level estimate may guide questions while failing to describe a particular street or household. Note any missing information and identify who could appropriately verify it. [S2, S3]",
+            "Triangulation compares sources to understand agreement, difference and gaps. It does not mean selecting the account that supports the preferred project. A service directory may list a usable route while residents describe a barrier at a particular time. Check dates, definitions and whose experience each source covers. Do not average away a meaningful disagreement. The IJSDS waterfront study illustrates interacting spatial, economic and environmental conditions in three Port Harcourt communities. Its descriptive findings can inform questions, while an assessment must still examine the actual local circumstances. [R8]",
+            "Include capacity and uncertainty alongside concern. A trusted contact, local warning practice or available transport may support a response without eliminating the underlying risk. Distinguish an existing arrangement from a proposed resource that has no confirmed owner or funding. If a concern requires urgent action, use the relevant response process rather than wait for a complete register. If technical evidence is unavailable, record the gap explicitly and seek appropriate advice. An honest provisional entry can support a safer decision than a polished score with no defensible basis. [S1, S2]"
+          ],
+          "example": "Fictional case: residents report that a path is difficult after rain, while a municipal map lists it as an access route. The register records the map date, reported timing and affected journeys, plus an existing alternative. A qualified service is asked to assess the physical route; no learner enters the hazardous area.",
+          "activity": "Create a provisional register with columns for concern, exposure, vulnerability, capacity, source/date, uncertainty and verification owner. Complete three fictional entries and mark an unsupported assumption.",
+          "feedback": "A useful register separates categories and evidence status. It keeps disagreement and capacities visible and gives a route to verify assumptions rather than inventing a precise risk probability.",
+          "sources": [
+            "S2",
+            "S3",
+            "R8",
+            "S1"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Validation prioritisation and feedback",
+          "outcome": "Agree a transparent provisional priority and communicate how evidence and contributions affected it.",
+          "paragraphs": [
+            "Validation gives contributors an opportunity to check whether the assessment represents their account accurately. Explain the draft in an accessible form and distinguish a correction of fact from a difference in interpretation or priority. Ask whose perspective remains missing and whether sharing the draft creates a confidentiality concern. A validation meeting does not require everyone to agree. Record relevant disagreement and state how it will be carried into the decision. A claim that the community has validated the whole assessment should not be based on a small, unexamined attendance list. [R2, S1]",
+            "Agree prioritisation criteria before using them to rank concerns. Criteria might include the significance of an access barrier, the people affected, urgency, feasibility, uncertainty and the possibility of harm. State who agreed the criteria and who can authorise action. A simple qualitative comparison can be useful when its limits are clear. Avoid presenting an unvalidated numerical score as an objective probability or using a total to hide a serious protection concern. A technical risk decision may need a specialist method beyond this introductory assessment. [S2, S3]",
+            "Distinguish urgency from feasibility. A concern can be important even when the community team cannot resolve it alone. Identify an immediate authorised response where necessary and a separate route for longer-term assessment or resources. Check whether the preferred priority could disadvantage a group whose voice has been weak. The participation review supports examining who influences decisions, while the Port Harcourt study reminds learners that conditions can interact. Neither provides a ready-made ranking for a different neighbourhood or establishes that the highest workshop score will produce the greatest benefit. [R2, R8]",
+            "Close the feedback loop by explaining the decision, its basis, outstanding uncertainty and the next review point. Identify the responsible role and a suitable correction or complaint route. If people offered information but no action can yet be authorised, say so rather than describe an unfunded option as a commitment. Retain a proportionate assessment record with access limited through the approved process. Later evidence may require a revised priority. Treat this as accountable learning, preserving the earlier reasoning and explaining what changed, rather than silently replacing the original assessment. [S1, S3]"
+          ],
+          "example": "Fictional case: a workshop ranks a convenient route change highly, but contributors later identify an access barrier affecting people absent from the session. The team revisits its criteria and records a provisional priority, the missing technical check and the role responsible for communicating the decision.",
+          "activity": "Write a priority note using three stated criteria. Include a disagreement, an evidence gap, an authorised next step and a feedback route. Explain what would cause the priority to be revisited.",
+          "feedback": "Strong prioritisation is transparent about authority, criteria and uncertainty. It preserves concerns from missing groups and does not convert a workshop score into a technical probability or a funding promise.",
+          "sources": [
+            "R2",
+            "S1",
+            "S2",
+            "S3",
+            "R8"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-043",
+        "course_slug": "participatory-ecological-vulnerability-assessment",
+        "title": "Participatory Ecological Vulnerability Assessment",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "a864e9586bbe5b593f51d123b58845d878492f917c28984c4bc7536bbea9335b",
+        "catalogue_sha256": "1e1916aac5a8794d43c09c0c40f180aff6ecbde66c3075832e73bc03628ee265",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Purpose participation and safe information gathering",
+            "outcome": "Design a bounded assessment process with clear influence, suitable participation and proportionate information handling.",
+            "teaching_points": [
+              {
+                "id": "SWP-043-M1-T1",
+                "text": "An assessment begins with a defined decision question."
+              },
+              {
+                "id": "SWP-043-M1-T2",
+                "text": "Participation arrangements need alternatives to a single meeting."
+              },
+              {
+                "id": "SWP-043-M1-T3",
+                "text": "Collect only information justified by the assessment purpose."
+              },
+              {
+                "id": "SWP-043-M1-T4",
+                "text": "A participatory map may still reveal sensitive information."
+              },
+              {
+                "id": "SWP-043-M1-T5",
+                "text": "An introductory method does not authorise hazardous field activity."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Risk registers and triangulation",
+            "outcome": "Separate hazard, exposure, vulnerability and capacity while recording the source and limits of each entry.",
+            "teaching_points": [
+              {
+                "id": "SWP-043-M2-T1",
+                "text": "Hazard alone does not describe the full risk context."
+              },
+              {
+                "id": "SWP-043-M2-T2",
+                "text": "Evidence scale must fit the proposed decision."
+              },
+              {
+                "id": "SWP-043-M2-T3",
+                "text": "Triangulation investigates differences rather than selecting a convenient account."
+              },
+              {
+                "id": "SWP-043-M2-T4",
+                "text": "Capacity can reduce a barrier without removing the underlying concern."
+              },
+              {
+                "id": "SWP-043-M2-T5",
+                "text": "Uncertainty needs an explicit verification task."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Validation prioritisation and feedback",
+            "outcome": "Agree a transparent provisional priority and communicate how evidence and contributions affected it.",
+            "teaching_points": [
+              {
+                "id": "SWP-043-M3-T1",
+                "text": "Validation can preserve disagreement while correcting an account."
+              },
+              {
+                "id": "SWP-043-M3-T2",
+                "text": "Prioritisation criteria should be explicit before ranking."
+              },
+              {
+                "id": "SWP-043-M3-T3",
+                "text": "A workshop score is not an objective technical probability."
+              },
+              {
+                "id": "SWP-043-M3-T4",
+                "text": "Importance and the team's ability to act are different questions."
+              },
+              {
+                "id": "SWP-043-M3-T5",
+                "text": "Feedback should distinguish a proposal from a commitment."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-043-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-043-M1-T1",
+            "question": "A team wants to collect community information but has not identified its use. What should be clarified first?",
+            "options": [
+              {
+                "text": "How to collect the largest possible dataset.",
+                "correct": false
+              },
+              {
+                "text": "Which personal details would make the report more striking.",
+                "correct": false
+              },
+              {
+                "text": "The decision question, authority and limits of the exercise.",
+                "correct": true
+              },
+              {
+                "text": "How to promise every requested project before assessment.",
+                "correct": false
+              }
+            ],
+            "rationale": "Purpose determines which information and process are justified."
+          },
+          {
+            "id": "SWP-043-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-043-M1-T2",
+            "question": "People with caring responsibilities cannot attend the main session. What should the protocol consider?",
+            "options": [
+              {
+                "text": "Treating absence as agreement with the meeting.",
+                "correct": false
+              },
+              {
+                "text": "Asking attendees to invent the absent group's views.",
+                "correct": false
+              },
+              {
+                "text": "Closing contributions because one session was held.",
+                "correct": false
+              },
+              {
+                "text": "A suitable alternative way to contribute and clear decision boundaries.",
+                "correct": true
+              }
+            ],
+            "rationale": "Attendance barriers should inform engagement rather than define whose views count."
+          },
+          {
+            "id": "SWP-043-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-043-M1-T3",
+            "question": "A public-route discussion does not need health histories. What is the appropriate collection choice?",
+            "options": [
+              {
+                "text": "Leave unnecessary health details out of the assessment.",
+                "correct": true
+              },
+              {
+                "text": "Collect every history in case it becomes useful later.",
+                "correct": false
+              },
+              {
+                "text": "Publish the details because the topic concerns the community.",
+                "correct": false
+              },
+              {
+                "text": "Treat names as essential for any map.",
+                "correct": false
+              }
+            ],
+            "rationale": "Data minimisation follows the defined purpose."
+          },
+          {
+            "id": "SWP-043-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-043-M1-T4",
+            "question": "Residents mark household circumstances on a draft map. What must be checked before sharing?",
+            "options": [
+              {
+                "text": "Only whether the map looks attractive.",
+                "correct": false
+              },
+              {
+                "text": "Purpose, authority and whether the map could identify or harm people.",
+                "correct": true
+              },
+              {
+                "text": "Whether participation automatically permits unrestricted publication.",
+                "correct": false
+              },
+              {
+                "text": "Whether every personal location can be treated as public.",
+                "correct": false
+              }
+            ],
+            "rationale": "Co-creation does not remove confidentiality and protection questions."
+          },
+          {
+            "id": "SWP-043-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-043-M1-T5",
+            "question": "A learner proposes entering a flooded area to improve a map. What should the plan do?",
+            "options": [
+              {
+                "text": "Proceed because community interest overrides safety arrangements.",
+                "correct": false
+              },
+              {
+                "text": "Treat the course as an environmental sampling qualification.",
+                "correct": false
+              },
+              {
+                "text": "Use safe authorised methods and seek the appropriate technical assessment.",
+                "correct": true
+              },
+              {
+                "text": "Ask untrained residents to enter instead.",
+                "correct": false
+              }
+            ],
+            "rationale": "Assessment purpose does not justify unsafe or unqualified fieldwork."
+          },
+          {
+            "id": "SWP-043-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-043-M2-T1",
+            "question": "A register names heavy rain but nothing about route users or access barriers. What is missing?",
+            "options": [
+              {
+                "text": "A more dramatic label for the same hazard.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed outcome for every household.",
+                "correct": false
+              },
+              {
+                "text": "A statement that all residents face identical consequences.",
+                "correct": false
+              },
+              {
+                "text": "Relevant exposure, vulnerability and capacity information.",
+                "correct": true
+              }
+            ],
+            "rationale": "The physical condition is only one part of the decision context."
+          },
+          {
+            "id": "SWP-043-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-043-M2-T2",
+            "question": "A city-wide estimate is used as an exact figure for one street. What needs checking?",
+            "options": [
+              {
+                "text": "Whether its scale and method support that local use.",
+                "correct": true
+              },
+              {
+                "text": "Whether a precise-looking number can be accepted without context.",
+                "correct": false
+              },
+              {
+                "text": "Whether the street can be assumed to match every city average.",
+                "correct": false
+              },
+              {
+                "text": "Whether the source date can be omitted.",
+                "correct": false
+              }
+            ],
+            "rationale": "A valid estimate at one scale does not automatically describe another."
+          },
+          {
+            "id": "SWP-043-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-043-M2-T3",
+            "question": "A current service record and residents' reports appear inconsistent. What should the assessment do?",
+            "options": [
+              {
+                "text": "Delete the account that delays the preferred project.",
+                "correct": false
+              },
+              {
+                "text": "Check timing, definitions and coverage while retaining the discrepancy.",
+                "correct": true
+              },
+              {
+                "text": "Treat a majority vote as technical verification.",
+                "correct": false
+              },
+              {
+                "text": "Average the statements into a fact neither source supports.",
+                "correct": false
+              }
+            ],
+            "rationale": "Differences can identify a relevant condition or evidence gap."
+          },
+          {
+            "id": "SWP-043-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-043-M2-T4",
+            "question": "Neighbours provide occasional transport during disruption. How should it be recorded?",
+            "options": [
+              {
+                "text": "As proof that the route risk no longer exists.",
+                "correct": false
+              },
+              {
+                "text": "As permanent funded capacity without confirmation.",
+                "correct": false
+              },
+              {
+                "text": "As a resource with its availability and limits stated.",
+                "correct": true
+              },
+              {
+                "text": "As a reason to remove residents' reported difficulties.",
+                "correct": false
+              }
+            ],
+            "rationale": "A helpful resource may still be limited or unreliable."
+          },
+          {
+            "id": "SWP-043-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-043-M2-T5",
+            "question": "A register contains an unconfirmed route restriction. What makes the entry reviewable?",
+            "options": [
+              {
+                "text": "A high score chosen to make action certain.",
+                "correct": false
+              },
+              {
+                "text": "Removal of every uncertain concern from discussion.",
+                "correct": false
+              },
+              {
+                "text": "A confirmed label because the report sounds plausible.",
+                "correct": false
+              },
+              {
+                "text": "A clear information status, gap and appropriate verification owner.",
+                "correct": true
+              }
+            ],
+            "rationale": "Provisional information can be used honestly when its limits and next check are visible."
+          },
+          {
+            "id": "SWP-043-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-043-M3-T1",
+            "question": "Contributors disagree about the most important barrier. What should the validation record show?",
+            "options": [
+              {
+                "text": "The relevant differences and how they enter the decision.",
+                "correct": true
+              },
+              {
+                "text": "An invented consensus to simplify the report.",
+                "correct": false
+              },
+              {
+                "text": "Only the view of the person chairing the meeting.",
+                "correct": false
+              },
+              {
+                "text": "A claim that disagreement invalidates every reported fact.",
+                "correct": false
+              }
+            ],
+            "rationale": "Validation should improve the accuracy and transparency of the assessment."
+          },
+          {
+            "id": "SWP-043-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-043-M3-T2",
+            "question": "A team changes its criteria after seeing which project wins. What is the concern?",
+            "options": [
+              {
+                "text": "Every ranking becomes more objective when criteria are hidden.",
+                "correct": false
+              },
+              {
+                "text": "The ranking may reflect a preferred outcome rather than a transparent comparison.",
+                "correct": true
+              },
+              {
+                "text": "Criteria are unnecessary if a numerical total is available.",
+                "correct": false
+              },
+              {
+                "text": "A chosen project retrospectively validates any scoring method.",
+                "correct": false
+              }
+            ],
+            "rationale": "Transparent criteria help people examine how the decision was reached."
+          },
+          {
+            "id": "SWP-043-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-043-M3-T3",
+            "question": "A qualitative exercise gives one concern the largest total. Which conclusion is justified?",
+            "options": [
+              {
+                "text": "Its exact probability is now scientifically measured.",
+                "correct": false
+              },
+              {
+                "text": "Every specialist assessment can be omitted.",
+                "correct": false
+              },
+              {
+                "text": "It ranks highest under those stated criteria, with method limits retained.",
+                "correct": true
+              },
+              {
+                "text": "Its intervention effect is proven by the total.",
+                "correct": false
+              }
+            ],
+            "rationale": "The meaning of the score depends on the exercise used."
+          },
+          {
+            "id": "SWP-043-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-043-M3-T4",
+            "question": "A serious concern exceeds the team's resources. What should the priority note include?",
+            "options": [
+              {
+                "text": "A low importance label solely because the team cannot fund it.",
+                "correct": false
+              },
+              {
+                "text": "A promise of resources controlled by another organisation.",
+                "correct": false
+              },
+              {
+                "text": "A decision to hide the concern from contributors.",
+                "correct": false
+              },
+              {
+                "text": "Its significance and the appropriate authorised response or escalation route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Limited authority does not make an important concern disappear."
+          },
+          {
+            "id": "SWP-043-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-043-M3-T5",
+            "question": "An option has no confirmed funding or decision owner. How should it be communicated?",
+            "options": [
+              {
+                "text": "As a proposal with the outstanding authority and resource questions stated.",
+                "correct": true
+              },
+              {
+                "text": "As a guaranteed project because participants support it.",
+                "correct": false
+              },
+              {
+                "text": "As completed adaptation despite no implementation.",
+                "correct": false
+              },
+              {
+                "text": "Without mentioning the unresolved decision.",
+                "correct": false
+              }
+            ],
+            "rationale": "Honest feedback avoids creating an unsupported expectation."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-044",
+      "title": "Community Adaptation and Resilience Planning",
+      "slug": "community-adaptation-and-resilience-planning",
+      "cover_title": "Community Adaptation\nand Resilience Planning",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners working within authorised roles and supervision.",
+      "outcome": "Develop a feasible community adaptation plan with explicit assumptions, responsibilities, operating resources and a proportionate review trigger.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Outcomes options and possible harm",
+          "outcome": "Compare adaptation options against a stated participation outcome, including burdens and assumptions.",
+          "paragraphs": [
+            "An adaptation plan begins with a specific problem and a desired change, using an assessment that people can examine. State whose participation or access should improve and under what conditions. Distinguish an output, such as an agreed contact arrangement, from an outcome, such as people reaching the intended support more reliably. Explain how the proposed activity is expected to contribute to that change and what must also hold true. This explanation is a working theory of change, not proof that the activity will produce the outcome. [S2, S1]",
+            "Develop more than one reasonable option before selecting a preferred response. Options may differ in access, disruption, operating demands, resources and the authority required. Include the possibility that an existing arrangement can be adjusted rather than assuming a new structure is necessary. Ask affected people which trade-offs matter and seek specialist advice for technical questions. A climate adaptation proposal should not be justified solely by its environmental label. It should explain the concern being addressed, the proposed contribution and the information needed to check that contribution. [S2, R2]",
+            "Consider whether an option shifts a burden or creates a new risk. A protected facility may remain unusable if the approach route is inaccessible; a service change may transfer time or cost to households. The IPCC assessment identifies maladaptation as a relevant concern, while local consequences require actual investigation. Do not recommend relocation, construction or ecological alteration without the necessary authority and expertise. Record how livelihood, relationships, service access and the people whose views were missing will enter the comparison, rather than treating physical completion as a sufficient outcome. [S2, R8]",
+            "Use a simple options note with the desired outcome, expected contribution, affected people, assumptions, trade-offs and unresolved advice. The participation review supports examining influence while the options remain open; it does not validate a scoring formula for this site. An option may remain provisional until resource or technical questions are resolved. Make this visible in the plan and explain the next decision point. If an urgent concern is identified, use the relevant response process separately instead of waiting for the whole adaptation plan to be approved. [R2, S1]"
+          ],
+          "example": "Fictional case: a learning centre considers changing its contact hours or funding an accessible contact arrangement during recurring disruption. Learners compare the options against reaching support reliably. The team checks who may carry extra time or cost, and keeps the proposal provisional until the responsible service confirms feasibility.",
+          "activity": "Prepare an options note comparing two responses and the current arrangement. Give the desired outcome, one assumption per option, a possible transferred burden and the advice needed before selection.",
+          "feedback": "A useful comparison links each option to the same outcome and makes trade-offs visible. It does not assume an adaptation label or a completed activity proves that access improves.",
+          "sources": [
+            "S2",
+            "S1",
+            "R2",
+            "R8"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Delivery ownership and operating resources",
+          "outcome": "Turn a provisional option into a bounded delivery plan with responsible roles and explicit resource conditions.",
+          "paragraphs": [
+            "A delivery plan states what will happen, who is responsible, what authority is required and when each decision can be reviewed. Separate the role coordinating the work from roles approving expenditure, providing technical advice and responding to the community. Use specific responsibilities rather than assigning everything to 'partners'. Confirm that a proposed organisation accepts its role before describing the arrangement as agreed. The ecosocial practitioner study offers contextual questions about organisational support; it does not establish that a local service has capacity simply because the plan lists it. [R1, S1]",
+            "Plan for operation as well as setup. Identify the resources needed to keep the arrangement useful, including staff time, communication, accessibility, maintenance and any appropriate supervision. Distinguish confirmed resources from requests still awaiting approval. If an option depends on unpaid work, discuss the burden and whether the arrangement is fair and feasible rather than treating community commitment as unlimited capacity. The climate assessment supports attention to enabling conditions, while a local plan still needs an actual decision about responsibilities and resources. [S2, R2]",
+            "Use transparent arithmetic and clearly label fictional planning estimates. In a teaching example, an arrangement has thirty planning units available. Setup needs twelve units and operation needs four units per month for three months: twenty-four units in total, leaving six unallocated. These are invented exercise units, not Nigerian market prices or an authorised budget. The remaining amount must not be described as available for a new activity until the responsible role has checked contingencies, conditions and approval. A balanced total alone does not establish affordability, rights compliance or effectiveness. [S1]",
+            "Identify dependencies and a fallback. If the access route, staff role or operating approval remains unresolved, specify what must be confirmed before starting and how the team will communicate a delay. Explain any temporary support that can be authorised separately. Avoid promising another service's admission, funding or technical result. Retain the agreed decision, responsible roles and review point in the approved record. The IJSDS contextual study helps learners notice interacting constraints, but local delivery must test which dependency actually matters rather than assume a published pattern applies to everyone. [R8, S1]"
+          ],
+          "example": "Fictional case: a contact arrangement has thirty exercise units, with twelve for setup and four monthly for three months. The coordinator checks the operating role, accessible communication cost and spending authority before calling the option ready. Six units remain unallocated; the figures are not real prices.",
+          "activity": "Make a delivery table with activity, owner, approving role, dependency, resource status and date. Calculate the example's total and remaining units, then identify an operating issue the arithmetic cannot resolve.",
+          "feedback": "The exercise total is twenty-four units with six unallocated. A feasible plan also needs confirmed roles, authority and operation; a correct sum does not provide those commitments.",
+          "sources": [
+            "R1",
+            "S1",
+            "S2",
+            "R2",
+            "R8"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Monitoring review triggers and revision",
+          "outcome": "Choose measures and a review trigger that match the intended outcome without claiming an untested causal effect.",
+          "paragraphs": [
+            "Monitoring asks whether the plan is being implemented and whether the intended change is occurring. Define an output measure and an outcome question separately. A count of contacts made may show activity, while users' ability to reach the relevant support addresses a different question. Establish a proportionate starting point and use consistent definitions across reviews. Avoid collecting identifiable details simply because disaggregation sounds useful. Where differences matter, use categories and reporting arrangements that protect people and explain any missing responses. [S1, S2]",
+            "A review trigger tells the responsible role when to examine the arrangement again. It may be a missed operating commitment, new evidence of an access barrier or an agreed review date. In a fictional pilot, two consecutive reviews with an unresolved contact barrier could trigger a joint service discussion. This is an invented management rule for the exercise, not a weather warning or a clinical threshold. Urgent safety concerns still follow the applicable response procedure immediately. Do not delay an urgent response until a routine monitoring condition has been reached. [S1, S2]",
+            "Look for unintended consequences and alternative explanations. An improvement after implementation may also reflect a change in weather, demand, staffing or another service. The participation review can inform who contributes to the review, but its thematic findings do not prove the effect of the local plan. Ask whether people report a meaningful change and whose experience remains absent. If a proposed measure only records expenditure or attendance, add a question that examines the relevant access or participation outcome without promising that monitoring alone will establish causation. [R2, R8]",
+            "Use the authorised revision process when evidence challenges the plan. State what changed, why it changed, who approved the adjustment and how contributors will be informed. Preserve the relevant earlier reasoning instead of silently replacing it with a success story. A plan may need to continue, change, pause a specific activity or seek further expertise, depending on the evidence and authority. Reflection on organisational conditions can help identify the role able to act; it does not make an unsupported promise of capacity or remove responsibility for responding to the current concern. [R1, S1]"
+          ],
+          "example": "Fictional case: contacts increase during a pilot, but users still report an inaccessible next step. The agreed review trigger prompts a joint discussion. The team checks the pathway and changing service demand, records an authorised adjustment and avoids presenting the contact count as proof of improved wellbeing.",
+          "activity": "Write a monitoring note with one output measure, one outcome question, a baseline source, a non-emergency review trigger and a revision owner. Give two alternative explanations for an observed improvement.",
+          "feedback": "Strong monitoring matches the intended change and gives a route to respond. It separates management triggers from urgent safety procedures and avoids attributing causation from a simple before-and-after observation.",
+          "sources": [
+            "S1",
+            "S2",
+            "R2",
+            "R8",
+            "R1"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-044",
+        "course_slug": "community-adaptation-and-resilience-planning",
+        "title": "Community Adaptation and Resilience Planning",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "9e2516cac4768faaa070374b817076d21d0c04f9c443b96009329fdd717f49ef",
+        "catalogue_sha256": "67a592eb1b61a04ddbcb477eb83bf9b1f83c804d36c9c07405c9abcd2d42cb1f",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Outcomes options and possible harm",
+            "outcome": "Compare adaptation options against a stated participation outcome, including burdens and assumptions.",
+            "teaching_points": [
+              {
+                "id": "SWP-044-M1-T1",
+                "text": "Outputs and outcomes answer different planning questions."
+              },
+              {
+                "id": "SWP-044-M1-T2",
+                "text": "A theory of change includes assumptions."
+              },
+              {
+                "id": "SWP-044-M1-T3",
+                "text": "Options should be compared before the choice is fixed."
+              },
+              {
+                "id": "SWP-044-M1-T4",
+                "text": "Adaptation can transfer burdens or create new risks."
+              },
+              {
+                "id": "SWP-044-M1-T5",
+                "text": "Technical feasibility requires appropriate authority and expertise."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Delivery ownership and operating resources",
+            "outcome": "Turn a provisional option into a bounded delivery plan with responsible roles and explicit resource conditions.",
+            "teaching_points": [
+              {
+                "id": "SWP-044-M2-T1",
+                "text": "A named organisation is not the same as an accepted responsibility."
+              },
+              {
+                "id": "SWP-044-M2-T2",
+                "text": "Operating resources matter alongside setup."
+              },
+              {
+                "id": "SWP-044-M2-T3",
+                "text": "Fictional budget totals must include the stated operating period."
+              },
+              {
+                "id": "SWP-044-M2-T4",
+                "text": "Unallocated funds still require the relevant approval."
+              },
+              {
+                "id": "SWP-044-M2-T5",
+                "text": "Dependencies should be resolved before readiness is claimed."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Monitoring review triggers and revision",
+            "outcome": "Choose measures and a review trigger that match the intended outcome without claiming an untested causal effect.",
+            "teaching_points": [
+              {
+                "id": "SWP-044-M3-T1",
+                "text": "An outcome question should match the intended participation change."
+              },
+              {
+                "id": "SWP-044-M3-T2",
+                "text": "A management review trigger is distinct from a safety threshold."
+              },
+              {
+                "id": "SWP-044-M3-T3",
+                "text": "Improvement after implementation can have other explanations."
+              },
+              {
+                "id": "SWP-044-M3-T4",
+                "text": "Revisions should preserve the reason and approval history."
+              },
+              {
+                "id": "SWP-044-M3-T5",
+                "text": "Participation in evaluation should include challenging feedback."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-044-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-044-M1-T1",
+            "question": "A project completes a contact list. Which statement describes an outcome needing separate evidence?",
+            "options": [
+              {
+                "text": "The list was produced.",
+                "correct": false
+              },
+              {
+                "text": "A meeting to discuss the list occurred.",
+                "correct": false
+              },
+              {
+                "text": "People can reach the intended support more reliably.",
+                "correct": true
+              },
+              {
+                "text": "The list was saved in the approved system.",
+                "correct": false
+              }
+            ],
+            "rationale": "A completed output may contribute to a change in access but does not demonstrate it."
+          },
+          {
+            "id": "SWP-044-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-044-M1-T2",
+            "question": "A contact arrangement is expected to improve access only if the service remains available. How should this be recorded?",
+            "options": [
+              {
+                "text": "As a guaranteed condition requiring no check.",
+                "correct": false
+              },
+              {
+                "text": "As proof that the arrangement has already worked.",
+                "correct": false
+              },
+              {
+                "text": "As a detail unrelated to the intended outcome.",
+                "correct": false
+              },
+              {
+                "text": "As an assumption to verify and monitor.",
+                "correct": true
+              }
+            ],
+            "rationale": "The pathway depends on conditions beyond producing the arrangement."
+          },
+          {
+            "id": "SWP-044-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-044-M1-T3",
+            "question": "A team calls a discussion co-design after removing every alternative. What should be reconsidered?",
+            "options": [
+              {
+                "text": "Whether people can meaningfully influence the choice and its trade-offs.",
+                "correct": true
+              },
+              {
+                "text": "Whether the label alone establishes shared influence.",
+                "correct": false
+              },
+              {
+                "text": "Whether attendance replaces an options comparison.",
+                "correct": false
+              },
+              {
+                "text": "Whether fewer explanations always make participation more meaningful.",
+                "correct": false
+              }
+            ],
+            "rationale": "Meaningful involvement needs an honest account of what remains open."
+          },
+          {
+            "id": "SWP-044-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-044-M1-T4",
+            "question": "A facility is protected but its revised route adds a costly journey for some users. What needs review?",
+            "options": [
+              {
+                "text": "Only whether construction finished on time.",
+                "correct": false
+              },
+              {
+                "text": "The resulting distribution of access and costs alongside the protection benefit.",
+                "correct": true
+              },
+              {
+                "text": "A rule that environmental projects cannot have adverse consequences.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that all users benefit equally.",
+                "correct": false
+              }
+            ],
+            "rationale": "A plan must consider consequences beyond the principal output."
+          },
+          {
+            "id": "SWP-044-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-044-M1-T5",
+            "question": "An option would alter a drainage structure. What should an introductory social work plan state?",
+            "options": [
+              {
+                "text": "A final engineering design created from a workshop vote.",
+                "correct": false
+              },
+              {
+                "text": "A construction guarantee based on a general climate report.",
+                "correct": false
+              },
+              {
+                "text": "The need for authorised technical assessment before committing to that option.",
+                "correct": true
+              },
+              {
+                "text": "Permission for untrained residents to modify the structure.",
+                "correct": false
+              }
+            ],
+            "rationale": "Community contribution complements, rather than replaces, the required technical decision."
+          },
+          {
+            "id": "SWP-044-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-044-M2-T1",
+            "question": "A plan assigns work to a partner that has not agreed. What status is accurate?",
+            "options": [
+              {
+                "text": "A binding delivery commitment because its name appears.",
+                "correct": false
+              },
+              {
+                "text": "Completed work because another service was identified.",
+                "correct": false
+              },
+              {
+                "text": "A reason to omit the action owner.",
+                "correct": false
+              },
+              {
+                "text": "Proposed responsibility awaiting confirmation.",
+                "correct": true
+              }
+            ],
+            "rationale": "Responsibility needs acknowledgement and appropriate authority."
+          },
+          {
+            "id": "SWP-044-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-044-M2-T2",
+            "question": "A budget funds installation but no ongoing staffing or maintenance. What should be added?",
+            "options": [
+              {
+                "text": "The operating requirements, owners and resource conditions.",
+                "correct": true
+              },
+              {
+                "text": "A statement that setup funding guarantees permanent operation.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that community volunteers have unlimited time.",
+                "correct": false
+              },
+              {
+                "text": "Only another launch event to demonstrate sustainability.",
+                "correct": false
+              }
+            ],
+            "rationale": "An arrangement needs resources over the period it is intended to work."
+          },
+          {
+            "id": "SWP-044-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-044-M2-T3",
+            "question": "With thirty exercise units, twelve for setup and four monthly for three months, how many units remain unallocated?",
+            "options": [
+              {
+                "text": "Fourteen units.",
+                "correct": false
+              },
+              {
+                "text": "Six units.",
+                "correct": true
+              },
+              {
+                "text": "Eighteen units.",
+                "correct": false
+              },
+              {
+                "text": "Two units.",
+                "correct": false
+              }
+            ],
+            "rationale": "Twelve plus three times four equals twenty-four, leaving six of the thirty exercise units."
+          },
+          {
+            "id": "SWP-044-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-044-M2-T4",
+            "question": "An exercise budget has an unallocated balance. What does that balance establish?",
+            "options": [
+              {
+                "text": "Automatic permission to spend it on any activity.",
+                "correct": false
+              },
+              {
+                "text": "Proof that the arrangement will improve outcomes.",
+                "correct": false
+              },
+              {
+                "text": "An arithmetic remainder, with spending conditions and approval still to check.",
+                "correct": true
+              },
+              {
+                "text": "A real Nigerian market-price estimate.",
+                "correct": false
+              }
+            ],
+            "rationale": "A balance is not a substitute for authority or an assessment of the proposal."
+          },
+          {
+            "id": "SWP-044-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-044-M2-T5",
+            "question": "A contact plan depends on an unconfirmed receiving role. What should the delivery note show?",
+            "options": [
+              {
+                "text": "Readiness because the task table is complete.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee of admission by the receiving service.",
+                "correct": false
+              },
+              {
+                "text": "No mention of the unresolved role.",
+                "correct": false
+              },
+              {
+                "text": "The dependency, confirmation owner and fallback or delay communication.",
+                "correct": true
+              }
+            ],
+            "rationale": "A plan is reviewable when outstanding conditions are explicit."
+          },
+          {
+            "id": "SWP-044-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-044-M3-T1",
+            "question": "A plan aims to improve access but measures only spending. What should the review add?",
+            "options": [
+              {
+                "text": "A proportionate question about whether intended users can reach support.",
+                "correct": true
+              },
+              {
+                "text": "A claim that spending proves access improved.",
+                "correct": false
+              },
+              {
+                "text": "A larger publicity count unrelated to the barrier.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that no feedback is needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "A relevant outcome question examines the intended change."
+          },
+          {
+            "id": "SWP-044-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-044-M3-T2",
+            "question": "A pilot uses two unresolved review points as a discussion trigger. How should this rule be described?",
+            "options": [
+              {
+                "text": "A universal medical emergency threshold.",
+                "correct": false
+              },
+              {
+                "text": "An agreed exercise management rule that does not delay urgent procedures.",
+                "correct": true
+              },
+              {
+                "text": "A scientific weather-warning limit.",
+                "correct": false
+              },
+              {
+                "text": "Permission to ignore immediate concerns until two reviews occur.",
+                "correct": false
+              }
+            ],
+            "rationale": "The rule's purpose and limits should remain explicit."
+          },
+          {
+            "id": "SWP-044-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-044-M3-T3",
+            "question": "Service access improves after a pilot while staffing also changes. What should the report consider?",
+            "options": [
+              {
+                "text": "Timing alone as complete causal proof.",
+                "correct": false
+              },
+              {
+                "text": "Only the explanation preferred by the project team.",
+                "correct": false
+              },
+              {
+                "text": "The staffing change and other plausible influences before attributing the effect.",
+                "correct": true
+              },
+              {
+                "text": "A thematic review as a controlled test of this pilot.",
+                "correct": false
+              }
+            ],
+            "rationale": "Monitoring observations do not isolate the intervention's effect by themselves."
+          },
+          {
+            "id": "SWP-044-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-044-M3-T4",
+            "question": "A monitoring finding leads to a changed plan. What should the record retain?",
+            "options": [
+              {
+                "text": "Only the newest version with no explanation.",
+                "correct": false
+              },
+              {
+                "text": "An invented claim that the original plan always included the change.",
+                "correct": false
+              },
+              {
+                "text": "A public list of identifiable complainants.",
+                "correct": false
+              },
+              {
+                "text": "The finding, reason, approving role and communication of the adjustment.",
+                "correct": true
+              }
+            ],
+            "rationale": "A transparent history supports accountability and future learning."
+          },
+          {
+            "id": "SWP-044-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-044-M3-T5",
+            "question": "A review receives a report that contradicts its success narrative. What is appropriate?",
+            "options": [
+              {
+                "text": "Examine the report and its evidence through the agreed review process.",
+                "correct": true
+              },
+              {
+                "text": "Exclude the report because it complicates the launch story.",
+                "correct": false
+              },
+              {
+                "text": "Assume every critical account proves total failure.",
+                "correct": false
+              },
+              {
+                "text": "Replace the account with an average without investigation.",
+                "correct": false
+              }
+            ],
+            "rationale": "A useful review remains open to evidence that changes its conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-045",
+      "title": "Heat Pollution and Environmental Health Inequity",
+      "slug": "heat-pollution-and-environmental-health-inequity",
+      "cover_title": "Heat Pollution and\nEnvironmental Health\nInequity",
+      "school_code": "ERT",
+      "school_name": "School of Ecosocial Resilience and Environmental Social Work",
+      "school_display": "Ecosocial Resilience and\nEnvironmental Social Work",
+      "estimated_minutes": 180,
+      "audience": "Beginning community practitioners and social work learners working within authorised roles and supervision.",
+      "outcome": "Prepare a locally authorised heat-and-pollution support pathway that addresses access barriers, communicates uncertainty and stays within social work scope.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Exposure evidence and unequal access to protection",
+          "outcome": "Distinguish heat and pollution information from an individual diagnosis and identify practical barriers to protection.",
+          "paragraphs": [
+            "Heat and air pollution can affect people in the same setting while requiring different information and response arrangements. A report that a room feels very hot, an official weather warning and a measured pollutant concentration describe different things. Ask what each source measures, where and when it applies and what authority issued it. A social worker should not infer an individual's diagnosis from an environmental reading. The purpose of this introductory assessment is to understand access and support needs and identify the appropriate source of technical or clinical advice. [S4, S5]",
+            "Exposure is shaped by time and place, while opportunities for protection can depend on housing, work, income, mobility, care responsibilities and available services. Ask what makes an official recommendation feasible or difficult for the person rather than assuming that knowledge alone changes the situation. A safe response may require coordination with a service controlling the relevant resource. The Port Harcourt contextual study supports attention to interacting conditions; it does not establish current temperatures, pollutant levels or the health status of every waterfront resident. Use actual local information for those questions. [R8, S1]",
+            "Check technical information carefully before interpreting a number. A pollution value requires the pollutant, unit, averaging period, location and relevant measurement quality. A general guideline overview is not an automatic Nigerian legal limit or a personal treatment threshold. A smell, visible haze or an unverified social-media message can justify recording a concern and seeking authorised assessment without establishing a measured concentration. Keep observation and inference separate. Do not claim that a single reading describes every indoor space or that the absence of an obvious smell proves safe air. [S5]",
+            "The 2026 African review maps pollution-related observational evidence with varied study designs and limited coverage. Its abstract reports that only three included studies considered temperature and none examined heat-respiratory interactions. Therefore, this course does not claim that the paper proves a combined heat-pollution effect or quantifies a local intervention benefit. The evidence supports asking careful exposure and access questions alongside official guidance. Clinical assessment, environmental sampling and regulatory determinations remain with the appropriately qualified and authorised roles. [R3, S1]"
+          ],
+          "example": "Fictional case: a household reports a hot room and smoke nearby. A forwarded screenshot has no date or measurement unit. The worker records the concern, asks about access to approved support and checks official information. They do not treat the screenshot as a diagnosis or confirmed local concentration.",
+          "activity": "Prepare an evidence note separating reported experience, official advice and a technical measurement that still needs verification. Identify two access barriers and the appropriate advice needed.",
+          "feedback": "A strong note preserves the concern without inventing a diagnosis or measured value. It records time, source and limits and avoids treating simultaneous exposures as proof of an interaction.",
+          "sources": [
+            "S4",
+            "S5",
+            "R8",
+            "S1",
+            "R3"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Authorised messages and support conversations",
+          "outcome": "Check the origin and relevance of a risk message and explain a feasible next support step without giving unqualified treatment advice.",
+          "paragraphs": [
+            "Use current, authorised public-health and environmental information when communicating about heat or pollution. Check the source, date, intended area, relevant period and any update or cancellation. A screenshot may have lost the context needed to interpret it. If information is uncertain, explain what is being checked and where a reliable update will come from. Do not create a warning threshold from an introductory lesson or describe a forwarded message as an official instruction simply because it appears to have a logo. [S4, S5]",
+            "Make the conversation accessible and practical. Ask how the person prefers to receive information and what the proposed next step would require. Use plain language and check understanding without testing or blaming them. Consider whether a contact method depends on data, electricity, literacy, language or a device that the person cannot reliably use. An alternative channel may be needed. Discuss relevant confidentiality and the scope of any agreed welfare contact before adding someone to a list or group. The worker's purpose is to support participation in an authorised pathway. [S1, S4]",
+            "Stay within role when a person asks about illness or medication. Refer clinical questions and urgent health concerns through the relevant authorised health or emergency route. Do not change a prescribed medicine, specify an individual fluid regimen or provide a treatment decision based on this course. A general public-health message does not replace personalised clinical advice. Similarly, advice about building alterations, ventilation equipment or protective technology may require qualified assessment of the setting. An apparently helpful change can conflict with outdoor pollution, security or another condition that must be considered. [S4, S5]",
+            "Agree a next step that can actually be followed. Check the receiving service's availability, access and role before promising support. State what the worker will do, what another role must decide and when the person can expect a follow-up. If a message changes, use the agreed channel to communicate the update and record the relevant contact through the approved process. The WHO executive summary organises heat-health action across sectors, but its European focus requires local adaptation. It does not establish a Nigerian referral protocol or prove that the proposed service is ready. [S4, S1]"
+          ],
+          "example": "Fictional case: a person receives an old heat message and asks whether to change prescribed medicine. The worker checks the official current message, routes the medication question to an appropriate clinician and agrees an accessible contact method. Any urgent concern follows the relevant local response procedure.",
+          "activity": "Draft a short support conversation covering source/date checks, the person's access barrier, a scope-appropriate referral, understanding and follow-up. Do not include medication or individual treatment instructions.",
+          "feedback": "An effective draft verifies the message, checks feasibility and names the next responsible role. It supports understanding while leaving clinical decisions with the appropriate professional.",
+          "sources": [
+            "S4",
+            "S5",
+            "S1"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Service preparedness accountability and learning",
+          "outcome": "Build a social-care readiness checklist and review whether authorised support reaches the people intended.",
+          "paragraphs": [
+            "A service preparedness plan connects information to responsible action. Identify who checks official updates, who can activate an agreed arrangement, which role contacts people and how a missed response is handled. Confirm staffing, communication, accessibility and the receiving service's role before describing readiness. A list of names or equipment is not a functioning pathway if nobody can use or maintain it. The WHO guidance emphasises coordinated planning; this teaching exercise applies that idea to a bounded social-care contribution rather than claiming to reproduce the complete heat-health plan. [S4, S1]",
+            "Review who may be missed by the arrangement. People without a stable contact channel, those working during service hours or those facing mobility barriers may need a suitable alternative. Ask about access rather than assuming an entire demographic group has one preference. Record only the information justified for the support purpose, protect access to welfare-contact details and follow the approved process when sharing with another role. A community contact can contribute local knowledge while remaining distinct from an authorised clinical assessment or an agency's protection responsibility. [S1, R8]",
+            "Test the process safely before relying on it. A tabletop exercise using fictional information can check whether a current message reaches the responsible role, whether an accessible contact works and whether the referral fallback is clear. Do not deliberately expose people to heat or pollution for a learning test. Record a missing step as a readiness issue with an owner and a review date. A successful simulation provides evidence about the tested process only; it does not prove that illness has been prevented or that every real-world condition has been covered. [S4, S1]",
+            "Monitoring should distinguish contacts attempted, contacts received, support accessed and the person's reported experience. A count of messages sent can conceal a failed channel. Investigate new barriers and use the authorised adjustment route. The pollution review's limited and mixed evidence does not validate this local pathway, while a descriptive contextual study cannot isolate its effect. Report the source, period and coverage of the monitoring information and avoid attributing health changes to the service without a suitable evaluation design and qualified input. Learning remains useful when its claims match its evidence. [R3, R8, S4]"
+          ],
+          "example": "Fictional case: a tabletop exercise finds that the named contact role is unavailable and the fallback was never agreed. The service records the gap before claiming readiness. Later monitoring separates messages sent from people reached and support accessed, using no real personal details in the training exercise.",
+          "activity": "Create a readiness checklist with role, evidence, unresolved gap, owner and review date. Add three distinct pathway measures and one question about an excluded person's access.",
+          "feedback": "A strong checklist tests a real responsibility and fallback, protects information and separates process evidence from health effects. A simulation or message count cannot certify effectiveness.",
+          "sources": [
+            "S4",
+            "S1",
+            "R8",
+            "R3"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-045",
+        "course_slug": "heat-pollution-and-environmental-health-inequity",
+        "title": "Heat Pollution and Environmental Health Inequity",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "8d97c3fe6da0d9dacb16be785a4dab472ad93a64faa40e4dacd04268e8ff0e59",
+        "catalogue_sha256": "d8619cfe2a0c121f344edbf29a8c04702996c0e5c80b6814e398ec8e4d14fa55",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Exposure evidence and unequal access to protection",
+            "outcome": "Distinguish heat and pollution information from an individual diagnosis and identify practical barriers to protection.",
+            "teaching_points": [
+              {
+                "id": "SWP-045-M1-T1",
+                "text": "An environmental reading does not diagnose an individual."
+              },
+              {
+                "id": "SWP-045-M1-T2",
+                "text": "Protection advice may be difficult to follow because of access barriers."
+              },
+              {
+                "id": "SWP-045-M1-T3",
+                "text": "A pollutant number needs its measurement context."
+              },
+              {
+                "id": "SWP-045-M1-T4",
+                "text": "Sensory observation is distinct from measured concentration."
+              },
+              {
+                "id": "SWP-045-M1-T5",
+                "text": "The reviewed evidence does not establish heat-respiratory interactions."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Authorised messages and support conversations",
+            "outcome": "Check the origin and relevance of a risk message and explain a feasible next support step without giving unqualified treatment advice.",
+            "teaching_points": [
+              {
+                "id": "SWP-045-M2-T1",
+                "text": "An official-looking message still needs a date and source check."
+              },
+              {
+                "id": "SWP-045-M2-T2",
+                "text": "Communication channels must be usable by the intended person."
+              },
+              {
+                "id": "SWP-045-M2-T3",
+                "text": "Medication questions require clinical advice."
+              },
+              {
+                "id": "SWP-045-M2-T4",
+                "text": "A practical change needs the relevant setting and expertise considered."
+              },
+              {
+                "id": "SWP-045-M2-T5",
+                "text": "A service's availability should be checked before support is promised."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Service preparedness accountability and learning",
+            "outcome": "Build a social-care readiness checklist and review whether authorised support reaches the people intended.",
+            "teaching_points": [
+              {
+                "id": "SWP-045-M3-T1",
+                "text": "Preparedness requires an operational role and fallback."
+              },
+              {
+                "id": "SWP-045-M3-T2",
+                "text": "A safe tabletop exercise can use fictional information."
+              },
+              {
+                "id": "SWP-045-M3-T3",
+                "text": "Simulation evidence is limited to the process tested."
+              },
+              {
+                "id": "SWP-045-M3-T4",
+                "text": "Sent messages and reached people are distinct measures."
+              },
+              {
+                "id": "SWP-045-M3-T5",
+                "text": "A health-effect claim needs an appropriate evaluation design."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-045-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-045-M1-T1",
+            "question": "A household reports heat and a worker sees an air-quality screenshot. Which conclusion stays within scope?",
+            "options": [
+              {
+                "text": "The screenshot establishes the person's clinical diagnosis.",
+                "correct": false
+              },
+              {
+                "text": "Every symptom has one proven environmental cause.",
+                "correct": false
+              },
+              {
+                "text": "The information raises exposure and support questions requiring appropriate verification.",
+                "correct": true
+              },
+              {
+                "text": "No authorised advice is needed if a number is shown.",
+                "correct": false
+              }
+            ],
+            "rationale": "Environmental information and individual health assessment answer different questions."
+          },
+          {
+            "id": "SWP-045-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-045-M1-T2",
+            "question": "A person understands official advice but cannot reach the suggested service. What should the worker explore?",
+            "options": [
+              {
+                "text": "A conclusion that the person lacks knowledge.",
+                "correct": false
+              },
+              {
+                "text": "The assumption that understanding guarantees access.",
+                "correct": false
+              },
+              {
+                "text": "A promise of a service place without checking availability.",
+                "correct": false
+              },
+              {
+                "text": "The practical access barrier and an appropriate authorised support route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Information alone does not resolve resource or service constraints."
+          },
+          {
+            "id": "SWP-045-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-045-M1-T3",
+            "question": "A forwarded pollution value lacks a unit and averaging period. What should happen before interpretation?",
+            "options": [
+              {
+                "text": "Check the source, pollutant, unit, period, location and relevant measurement quality.",
+                "correct": true
+              },
+              {
+                "text": "Compare it with any number found online.",
+                "correct": false
+              },
+              {
+                "text": "Describe it as a confirmed personal treatment threshold.",
+                "correct": false
+              },
+              {
+                "text": "Assume it represents every nearby room.",
+                "correct": false
+              }
+            ],
+            "rationale": "The meaning of a technical value depends on how and where it was measured."
+          },
+          {
+            "id": "SWP-045-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-045-M1-T4",
+            "question": "Smoke is reported near a home. What is a defensible record?",
+            "options": [
+              {
+                "text": "A certified pollutant concentration based on smell.",
+                "correct": false
+              },
+              {
+                "text": "A reported concern with the assessment or verification needed.",
+                "correct": true
+              },
+              {
+                "text": "A regulatory breach established by a generalist note alone.",
+                "correct": false
+              },
+              {
+                "text": "Proof that air is safe whenever no smell is noticed.",
+                "correct": false
+              }
+            ],
+            "rationale": "Observation can prompt action without becoming an unsupported technical finding."
+          },
+          {
+            "id": "SWP-045-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-045-M1-T5",
+            "question": "What claim can be made from the 2026 African review used here?",
+            "options": [
+              {
+                "text": "It proves the combined effect of heat and pollution for this household.",
+                "correct": false
+              },
+              {
+                "text": "It tests the effectiveness of SWEEP's support pathway.",
+                "correct": false
+              },
+              {
+                "text": "It maps varied pollution evidence while leaving an interaction evidence gap.",
+                "correct": true
+              },
+              {
+                "text": "It supplies one validated local clinical threshold.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review's scope and limitations do not support those stronger claims."
+          },
+          {
+            "id": "SWP-045-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-045-M2-T1",
+            "question": "A heat message has a familiar logo but no date or area. What should the worker do?",
+            "options": [
+              {
+                "text": "Treat the logo as sufficient proof of a current warning.",
+                "correct": false
+              },
+              {
+                "text": "Invent a validity period to make it usable.",
+                "correct": false
+              },
+              {
+                "text": "Forward it as an instruction without checking context.",
+                "correct": false
+              },
+              {
+                "text": "Verify its origin, current relevance and intended location before presenting it as guidance.",
+                "correct": true
+              }
+            ],
+            "rationale": "Visual appearance does not establish current authority or applicability."
+          },
+          {
+            "id": "SWP-045-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-045-M2-T2",
+            "question": "A welfare update is sent only through an app the person cannot access. What needs to change?",
+            "options": [
+              {
+                "text": "Agree a suitable accessible alternative through the authorised arrangement.",
+                "correct": true
+              },
+              {
+                "text": "Assume sending means the person received and understood it.",
+                "correct": false
+              },
+              {
+                "text": "Blame the person for lacking a device.",
+                "correct": false
+              },
+              {
+                "text": "Add their details to an unrelated public group.",
+                "correct": false
+              }
+            ],
+            "rationale": "A message needs a usable route and proportionate information handling."
+          },
+          {
+            "id": "SWP-045-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-045-M2-T3",
+            "question": "A learner is asked whether a prescribed medicine should change during heat. What is appropriate?",
+            "options": [
+              {
+                "text": "Give an individual medication instruction from the course slides.",
+                "correct": false
+              },
+              {
+                "text": "Route the question to the relevant qualified clinician without altering treatment.",
+                "correct": true
+              },
+              {
+                "text": "Assume every medicine should be stopped during hot weather.",
+                "correct": false
+              },
+              {
+                "text": "Treat a public message as a personal prescription.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course does not qualify learners to make individual treatment decisions."
+          },
+          {
+            "id": "SWP-045-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-045-M2-T4",
+            "question": "A suggested building change could conflict with outdoor pollution or security. What should the worker seek?",
+            "options": [
+              {
+                "text": "A universal instruction copied without considering the setting.",
+                "correct": false
+              },
+              {
+                "text": "A claim that any cooling-related change is automatically safe.",
+                "correct": false
+              },
+              {
+                "text": "An appropriate qualified assessment and authorised local advice.",
+                "correct": true
+              },
+              {
+                "text": "Untrained modification of equipment to test the idea.",
+                "correct": false
+              }
+            ],
+            "rationale": "Interacting conditions can make a generic suggestion unsuitable."
+          },
+          {
+            "id": "SWP-045-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-045-M2-T5",
+            "question": "A person needs an accessible receiving service. What should the next-step discussion clarify?",
+            "options": [
+              {
+                "text": "A guaranteed place because the service appears in a directory.",
+                "correct": false
+              },
+              {
+                "text": "A completed referral outcome as soon as a message is sent.",
+                "correct": false
+              },
+              {
+                "text": "An admission decision made on another service's behalf.",
+                "correct": false
+              },
+              {
+                "text": "Availability, access, responsible roles and follow-up.",
+                "correct": true
+              }
+            ],
+            "rationale": "The agreed next step should reflect actual authority and capacity."
+          },
+          {
+            "id": "SWP-045-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-045-M3-T1",
+            "question": "A contact list exists but its named role is unavailable. What does the service need before claiming readiness?",
+            "options": [
+              {
+                "text": "A confirmed responsible arrangement and an agreed fallback.",
+                "correct": true
+              },
+              {
+                "text": "Only a longer list with no role confirmation.",
+                "correct": false
+              },
+              {
+                "text": "A success announcement because the document exists.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that any colleague will automatically respond.",
+                "correct": false
+              }
+            ],
+            "rationale": "Readiness depends on the arrangement working, not only its documentation."
+          },
+          {
+            "id": "SWP-045-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-045-M3-T2",
+            "question": "How can a learner test a communication pathway without exposing people to environmental hazards?",
+            "options": [
+              {
+                "text": "Deliberately place participants in hazardous conditions.",
+                "correct": false
+              },
+              {
+                "text": "Use a supervised fictional scenario to check roles, access and fallback.",
+                "correct": true
+              },
+              {
+                "text": "Use identifiable records in an unapproved public chat.",
+                "correct": false
+              },
+              {
+                "text": "Treat a live clinical emergency as a classroom exercise.",
+                "correct": false
+              }
+            ],
+            "rationale": "Simulation can examine a process within appropriate safeguards and authority."
+          },
+          {
+            "id": "SWP-045-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-045-M3-T3",
+            "question": "A tabletop exercise succeeds. What can the team conclude?",
+            "options": [
+              {
+                "text": "Heat-related illness has been prevented in the population.",
+                "correct": false
+              },
+              {
+                "text": "Every future service condition is covered.",
+                "correct": false
+              },
+              {
+                "text": "The specified process worked in the exercise, with real-world effectiveness still unproven.",
+                "correct": true
+              },
+              {
+                "text": "No monitoring or update can be needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "A process test does not measure population health outcomes."
+          },
+          {
+            "id": "SWP-045-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-045-M3-T4",
+            "question": "A service records many messages but few confirmations of receipt. What should monitoring examine?",
+            "options": [
+              {
+                "text": "The sent total as proof of successful support.",
+                "correct": false
+              },
+              {
+                "text": "A health benefit inferred from the message volume.",
+                "correct": false
+              },
+              {
+                "text": "A conclusion that all non-responders refuse help.",
+                "correct": false
+              },
+              {
+                "text": "Whether the channel reaches people and what access barriers remain.",
+                "correct": true
+              }
+            ],
+            "rationale": "The pathway has stages that need separate evidence."
+          },
+          {
+            "id": "SWP-045-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-045-M3-T5",
+            "question": "A service observes fewer reported health concerns during a later period. What should it avoid?",
+            "options": [
+              {
+                "text": "Claiming its pathway caused the change without suitable evidence and qualified input.",
+                "correct": true
+              },
+              {
+                "text": "Recording the period and coverage of reports.",
+                "correct": false
+              },
+              {
+                "text": "Considering other environmental or service changes.",
+                "correct": false
+              },
+              {
+                "text": "Seeking feedback about access to support.",
+                "correct": false
+              }
+            ],
+            "rationale": "An observation over time does not isolate the pathway's effect."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence checked 14 November 2026. Sources distinguish adopted standards, supplementary curricula, public-health guidance and research. SCImago Q1 records were visible in the provider's search-indexed results; direct ranking-table access was restricted. No JCR quartile or IJSDS quartile is claimed. Journal ranking does not establish article validity. Review the limits alongside every application."
+}

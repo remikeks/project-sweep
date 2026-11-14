@@ -2,6 +2,7 @@
 import hashlib
 import argparse
 import json
+import re
 from pathlib import Path
 import sys
 from xml.etree import ElementTree as ET
@@ -39,8 +40,18 @@ for c in package["courses"]:
             reader=PdfReader(file)
             pages=len(reader.pages)
             body="\n".join(p.extract_text() or "" for p in reader.pages)
-            normalized=" ".join(body.split())
+            # A teaching paragraph can continue across pages. Remove only the
+            # exact document furniture before comparing it to the source text.
+            furniture={f"SWEEP Academy {c['school_code']} Draft for academic review",f"{c['code']} Version 0.1.0"}
+            reading_lines=[line for line in body.splitlines()
+                if " ".join(line.split()) not in furniture and not re.fullmatch(r"Page \d+",line.strip())]
+            normalized=" ".join(" ".join(reading_lines).split())
             assert all((p.extract_text() or "").strip() for p in reader.pages),"Empty PDF page"
+            if kind in {"learner_guide","worksheet"}:
+                header=f"SWEEP Academy {c['school_code']} Draft for academic review"
+                assert all(header in " ".join((p.extract_text() or "").split()) for p in reader.pages),"PDF school header mismatch"
+            if kind=="learner_guide" and c.get("school_name"):
+                assert c["school_name"] in normalized,"Learner guide school name mismatch"
             assert c["code"] in body
             assert len(body)>600,"PDF has insufficient accessible text"
             if "course-slides" in suffix: assert pages==expected_slides
@@ -63,7 +74,7 @@ for c in package["courses"]:
                     for point in module["teaching_points"]:
                         assert point["text"] in body,"Missing teaching point in editable slides"
                 assert "is_correct" not in body and '"correct":' not in body
-        entry=dict(course_code=c["code"],course_slug=c["slug"],school_code="FSW",module_order="",
+        entry=dict(course_code=c["code"],course_slug=c["slug"],school_code=c["school_code"],module_order="",
             title=c["title"]+" "+label,asset_type=kind,path=file.relative_to(release).as_posix(),
             content_type="application/pdf" if file.suffix==".pdf" else "application/vnd.openxmlformats-officedocument.presentationml.presentation",
             size_bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),version="0.1.0",language="en",publication_status="in_review")

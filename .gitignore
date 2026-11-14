@@ -15,5 +15,6 @@ skills-lock.json
 production_courseware/drafts/**/qa/
 production_courseware/phase_three/**/qa/
 production_courseware/phase_four/**/qa/
+production_courseware/phase_five/**/qa/
 production_courseware/private/
 *.log

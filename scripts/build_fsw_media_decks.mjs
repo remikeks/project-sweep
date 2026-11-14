@@ -43,7 +43,7 @@ for(const c of source.courses){
   cover.images.add({blob:background,contentType:'image/png',alt:'SWEEP Academy illustration of a diverse community learning together',fit:'cover',position:{left:0,top:0,width:1280,height:720}});
   const coverTitle=c.cover_title || (c.code==='SWP-035'?'Social Work Values\nand Ethical\nDecision Making':'Generalist Assessment\nand Case Management');
   text(cover,coverTitle,68,145,620,245,52,true,'#FFFFFF');
-  text(cover,'Foundational Social Work\nPractice and Ethics',70,438,480,88,26,false,'#FFFFFF');
+  text(cover,c.school_display || 'Foundational Social Work\nPractice and Ethics',70,438,480,88,26,false,'#FFFFFF');
   text(cover,`${c.code}   Draft for academic review\nVersion 0.1.0`,70,558,550,68,22,false,'#FFFFFF');
   text(cover,'SWEEP Academy',70,659,350,28,18,true,'#FFFFFF');
   cover.speakerNotes.textFrame.setText(`${c.title}\n${c.outcome}\nCover image: existing SWEEP Academy generated courseware background, static/img/courseware-deck-background.png. Original teaching source: ${sourcePath}. This is a teaching draft, not a published course or a recorded video.`);
