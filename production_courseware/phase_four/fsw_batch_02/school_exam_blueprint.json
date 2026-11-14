@@ -1,0 +1,684 @@
+{
+  "status": "draft_for_review",
+  "school_code": "FSW",
+  "curriculum_version": "FSW-proposed-ten-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-016",
+    "SWP-017",
+    "SWP-018",
+    "SWP-035",
+    "SWP-036",
+    "SWP-037",
+    "SWP-038",
+    "SWP-039",
+    "SWP-040",
+    "SWP-041"
+  ],
+  "proposed_duration_minutes": 180,
+  "duration_status": "Proposal requiring accessible learner piloting and academic review",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Accept equivalent defensible reasoning and contextually justified alternatives. Award criterion marks, record written-score rationale and moderate before finalisation.",
+    "appeals": "Preserve original responses, rubric version, marker, moderation decision and amendment history with an authorised appeal route."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Every approved curriculum course passed through verified ParaLearn CBT",
+      "Final school exam passed after human marking and moderation",
+      "Head of Learning name and authorised signatures supplied",
+      "Founder signature authorised: Prof. Mina Ogbanga"
+    ]
+  },
+  "items": [
+    {
+      "id": "FSW-SWP-016-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-016-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-016"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-017-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-017"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-018-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-018"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-035-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-035"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-036-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-036"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-037-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-037"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-037-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-037"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-037-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-037"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-037-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-037"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-038-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-038"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-038-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-038"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-038-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-038"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-038-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-038"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-039-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-039"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-039-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-039"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-039-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-039"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-039-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-039"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-040-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-040"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-040-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-040"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-040-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-040"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-040-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-040"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-041-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-041"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-041-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-041"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-041-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-041"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SWP-041-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-041"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "FSW-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-016",
+        "SWP-017",
+        "SWP-018"
+      ],
+      "prompt": "A fictional hospital discharge plan includes ongoing support needs and input from several professions. Identify five checks that make the transition reviewable without promising clinical decisions outside the social worker's role.",
+      "model_answer": "Clarify the person's priorities and understanding of the discharge arrangements. Confirm relevant support needs and the appropriate professional's responsibility for clinical advice. Check a feasible next service or support contact and any access barrier. Identify a named coordination role and authorised handover route. Agree a follow-up point and how unresolved concerns will be escalated.",
+      "rubric": [
+        {
+          "criterion": "Person's participation",
+          "marks": 1
+        },
+        {
+          "criterion": "Role and scope",
+          "marks": 1
+        },
+        {
+          "criterion": "Access and continuity",
+          "marks": 1
+        },
+        {
+          "criterion": "Accountable handover",
+          "marks": 1
+        },
+        {
+          "criterion": "Follow-up and escalation",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-037"
+      ],
+      "prompt": "A 19-year-old learner misses training while combining caring responsibilities with irregular transport. Give a contextual explanation and a next step, distinguishing facts from a hypothesis.",
+      "model_answer": "Start with the learner's account and goal. Connect relevant developmental domains without diagnosing from age or attendance. Identify how caring, training and transport arrangements may interact. Mark an unverified explanation as a hypothesis and state a check. Agree a feasible support action and review point.",
+      "rubric": [
+        {
+          "criterion": "Person's account",
+          "marks": 1
+        },
+        {
+          "criterion": "Development without diagnosis",
+          "marks": 1
+        },
+        {
+          "criterion": "Interacting context",
+          "marks": 1
+        },
+        {
+          "criterion": "Uncertainty and verification",
+          "marks": 1
+        },
+        {
+          "criterion": "Collaborative next step",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-038"
+      ],
+      "prompt": "A relative answers every interview question while the person remains quiet. Describe five communication actions that support participation without assuming what the silence means.",
+      "model_answer": "Explain roles and the purpose of the conversation. Ask the person about communication and participation preferences. Use an accessible open question and allow time to respond. Clarify understanding and avoid interpreting silence as agreement. Check any need for a separate conversation or authorised support without promising absolute confidentiality.",
+      "rubric": [
+        {
+          "criterion": "Roles and purpose",
+          "marks": 1
+        },
+        {
+          "criterion": "Preferences and access",
+          "marks": 1
+        },
+        {
+          "criterion": "Listening and questioning",
+          "marks": 1
+        },
+        {
+          "criterion": "Understanding without assumption",
+          "marks": 1
+        },
+        {
+          "criterion": "Appropriate follow-up",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-039"
+      ],
+      "prompt": "A partner service requests an entire file for a specific transport-support decision. Describe five checks before sharing, including the distinction between consent and other authority questions.",
+      "model_answer": "Clarify purpose, intended recipient and the relevant information. Check the organisation's authorised lawful-basis assessment and applicable conditions with data-protection advice where needed. Check the person's understanding and the scope of consent where consent is relied upon. Use minimum relevant information and an authorised secure route. Record the reasoned decision, uncertainty and any further advice needed.",
+      "rubric": [
+        {
+          "criterion": "Defined purpose",
+          "marks": 1
+        },
+        {
+          "criterion": "Applicable authority and advice",
+          "marks": 1
+        },
+        {
+          "criterion": "Consent scope and understanding",
+          "marks": 1
+        },
+        {
+          "criterion": "Proportionate secure handling",
+          "marks": 1
+        },
+        {
+          "criterion": "Accountable decision record",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-040"
+      ],
+      "prompt": "An old directory entry produces a referral that is acknowledged but not accepted. Describe five network actions that clarify the pathway and prevent an unsupported claim of successful access.",
+      "model_answer": "Verify eligibility, access and capacity with a current contact. Separate referral sent, receipt, acceptance and service reached. Agree the decision owner and the person's next contact. Use an agreed response date and fallback or escalation route. Assign the directory correction and review the pathway with relevant feedback.",
+      "rubric": [
+        {
+          "criterion": "Current verification",
+          "marks": 1
+        },
+        {
+          "criterion": "Accurate stage definitions",
+          "marks": 1
+        },
+        {
+          "criterion": "Explicit ownership",
+          "marks": 1
+        },
+        {
+          "criterion": "Follow-up and fallback",
+          "marks": 1
+        },
+        {
+          "criterion": "Shared improvement",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-041"
+      ],
+      "prompt": "A worker feels more confident after a reflective group but faces an unresolved boundary concern. Describe five steps that connect reflection to authorised supervision and a reviewable learning action.",
+      "model_answer": "Describe the event separately from interpretation and consider alternative explanations. Identify the boundary, policy or conflict question. Seek an authorised supervisor's advice and check decision authority. Use the relevant escalation route if a serious concern remains unresolved. Agree a specific action and review evidence; confidence alone does not establish competence or effectiveness.",
+      "rubric": [
+        {
+          "criterion": "Structured reflection",
+          "marks": 1
+        },
+        {
+          "criterion": "Boundary question",
+          "marks": 1
+        },
+        {
+          "criterion": "Authorised supervision",
+          "marks": 1
+        },
+        {
+          "criterion": "Escalation",
+          "marks": 1
+        },
+        {
+          "criterion": "Evidence-aware learning plan",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-035",
+        "SWP-036",
+        "SWP-037",
+        "SWP-038",
+        "SWP-039"
+      ],
+      "prompt": "Using a fictional adult seeking support with training while caring for a relative, develop a generalist assessment and support plan. Explain ethical reasoning, contextual influences, an accessible interview, information-use decisions and how uncertainty will be reviewed. Do not invent clinical findings or legal authority.",
+      "model_answer": "An acceptable answer keeps the person's goals and rights visible; distinguishes evidence from hypotheses; considers strengths and interacting barriers; explains accessible participation; identifies a justified information-use purpose and the authority/advice needed; and gives actions, owners and review points. Equivalent defensible alternatives earn marks. Unsupported diagnostic or legal claims do not earn the relevant criterion marks.",
+      "rubric": [
+        {
+          "criterion": "Ethical reasoning and participation",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Contextual assessment and uncertainty",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Accessible communication",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Purposeful lawful information handling and consultation",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Action ownership and review",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "FSW-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-016",
+        "SWP-017",
+        "SWP-018",
+        "SWP-040",
+        "SWP-041"
+      ],
+      "prompt": "A fictional person leaving hospital needs ongoing support and a cross-sector referral. The receiving service has changed eligibility and has not accepted the referral. Propose an accountable transition and network response, respecting clinical scope, continuity and the person's preferences. Explain how reflection, supervision and pathway feedback would inform improvement without claiming causation from referral counts.",
+      "model_answer": "An acceptable answer distinguishes social support from clinical decisions; preserves participation and continuity; identifies professional contributions and a named coordinating role; verifies the cross-sector pathway, handover status and fallback; and uses reflection and authorised supervision with a bounded improvement and honest evidence limits. It does not treat a sent referral as access, a peer group as automatic formal supervision, or a higher count as causal proof.",
+      "rubric": [
+        {
+          "criterion": "Person-centred transition and appropriate clinical scope",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Continuity and support needs",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Interprofessional roles and communication",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Verified network handover and fallback",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        },
+        {
+          "criterion": "Reflective supervised improvement and evidence limits",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 limited relevant point; 2 defensible reasoning with an important omission; 3 coherent, contextual reasoning with action and limits."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

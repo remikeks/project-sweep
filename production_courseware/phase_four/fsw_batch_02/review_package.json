@@ -1,0 +1,3058 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-14",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved"
+  },
+  "references": [
+    {
+      "id": "S1",
+      "title": "Global Social Work Statement of Ethical Principles",
+      "author": "IFSW",
+      "year": 2018,
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "kind": "professional framework",
+      "use": "Ethical vocabulary and principles, not a Nigerian statute.",
+      "appraisal": "Normative professional guidance; does not measure intervention effectiveness.",
+      "licence": "Link and citation only; no copied text"
+    },
+    {
+      "id": "S2",
+      "title": "NASW Standards for Social Work Case Management",
+      "author": "NASW",
+      "year": 2013,
+      "url": "https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Case-Management",
+      "kind": "professional practice benchmark",
+      "use": "Assessment, planning, coordination, review and documentation.",
+      "appraisal": "US professional benchmark, not Nigerian licensing rules; supplemented by recent research.",
+      "licence": "All rights reserved; link and citation only"
+    },
+    {
+      "id": "R1",
+      "title": "Triggers and factors associated with moral distress and moral injury in health and social care workers: A systematic review of qualitative studies",
+      "author": "Beadle ES and colleagues",
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0303013",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0303013",
+      "kind": "systematic qualitative review",
+      "use": "Organisational constraints and ethical distress.",
+      "appraisal": "51 reports from 49 studies; geographic remit excludes Nigeria. Qualitative associations cannot establish that a proposed support intervention works.",
+      "licence": "CC BY 4.0",
+      "quartile": "Not verified for this review"
+    },
+    {
+      "id": "R2",
+      "title": "On the development of a professional mandate by social workers in medical rehabilitation key results from the SWIMMER Project",
+      "author": "Knoop T, Freymüller N, Dettmers S and Meyer-Feil T",
+      "year": 2024,
+      "doi": "10.3389/fresc.2024.1383995",
+      "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2024.1383995/full",
+      "kind": "qualitative comparative study",
+      "use": "Negotiating client, organisational and professional expectations.",
+      "appraisal": "Ten German rehabilitation facilities; transfer to Nigerian services requires contextual judgement. Title corrected by DOI 10.3389/fresc.2024.1508335; correction states conclusions unchanged.",
+      "licence": "CC BY 4.0",
+      "quartile": "Publisher reports journal JIF Q1 and CiteScore Q2 in its 2026 impact release; category not shown and not independently verified"
+    },
+    {
+      "id": "R3",
+      "title": "Working between systems: an umbrella review of care navigator roles and responsibilities",
+      "author": "Wijekulasuriya S, Wahlstrom L, Lewis S and colleagues",
+      "year": 2025,
+      "doi": "10.3389/frhs.2025.1632307",
+      "url": "https://www.frontiersin.org/journals/health-services/articles/10.3389/frhs.2025.1632307/full",
+      "kind": "umbrella review",
+      "use": "Clarifying roles and referral responsibilities across services.",
+      "appraisal": "26 reviews and 824 unique primary sources; searches ended May 2024. Review quality and role definitions vary; not proof that all navigation models improve outcomes.",
+      "licence": "CC BY 4.0",
+      "quartile": "Publisher reports journal JIF Q2 and CiteScore Q1 in its 2026 impact release; category not shown and not independently verified"
+    },
+    {
+      "id": "R5",
+      "title": "Corruption, Professional Social Work and Social Welfare Delivery in Nigeria: A Qualitative Analysis of Institutional Barriers to Social Justice",
+      "author": "Bassey GE and Adie JJ",
+      "year": 2026,
+      "doi": "10.67007/ijsds-2026-v2_i1_008",
+      "url": "https://www.ijsds.org/article/corruption-professional-social-work-and-social-welfare-delivery-in-nigeria-a-qualitative-analysis-of-institutional-barriers-to-social-justice+10.67007-ijsds-2026-v2_i1_008",
+      "kind": "Nigerian qualitative desk review",
+      "use": "Discussing accountability and institutional access barriers.",
+      "appraisal": "Full text read, especially methodology pages 8 to 9. Secondary documentary synthesis, prioritising 2020 to 2025; no new participant data or effect estimate. Search strategy and screening counts are not reported in sufficient detail for replication. Proposed framework is conceptual, not an evaluated intervention.",
+      "licence": "Journal declares CC BY 4.0; link and original commentary only",
+      "quartile": "No Q1 or Q2 status verified; included for relevant Nigerian context"
+    },
+    {
+      "id": "S3",
+      "author": "IFSW and IASSW",
+      "year": 2020,
+      "title": "Global Standards for Social Work Education and Training",
+      "url": "https://www.ifsw.org/global-standards-for-social-work-education-and-training/",
+      "kind": "professional education benchmark",
+      "use": "Contextual knowledge, generalist practice, reflection and supervised practice learning.",
+      "appraisal": "Primarily a degree-programme benchmark. This short-course school uses selected domains and does not claim accreditation, placement equivalence or professional registration.",
+      "licence": "Link and original commentary only",
+      "link_label": "ifsw.org Education standards",
+      "slide_limit": "Education benchmark. No accreditation or degree equivalence implied."
+    },
+    {
+      "id": "S4",
+      "author": "OpenStax",
+      "year": 2024,
+      "title": "Lifespan Development Section 1.4 Contexts and Settings of Development",
+      "url": "https://openstax.org/books/lifespan-development/pages/1-4-contexts-and-settings-of-development",
+      "kind": "open textbook foundation",
+      "use": "Ecological context and variation across the lifespan.",
+      "appraisal": "Introductory synthesis, not an intervention trial or a Nigerian developmental norm. Read alongside contextual research and the person's account.",
+      "licence": "CC BY-NC-SA 4.0. Linked reading only; no text, cases or figures reproduced or adapted.",
+      "link_label": "openstax.org Developmental context",
+      "slide_limit": "Textbook framework. Context and individual experience still matter."
+    },
+    {
+      "id": "S5",
+      "author": "Nigeria Data Protection Commission",
+      "year": 2025,
+      "title": "Nigeria Data Protection Act General Application and Implementation Directive 2025",
+      "url": "https://ndpc.gov.ng/wp-content/uploads/2025/03/NDP-ACT-GAID-2025-MARCH-20TH.pdf",
+      "kind": "official Nigerian regulatory guidance",
+      "use": "Purpose, minimisation, lawful-basis assessment, consent accountability and secure records.",
+      "appraisal": "Official GAID, particularly Articles 15 to 18 and 27 to 38, read with the NDP Act. Application, sensitive-data conditions and exceptions require authorised legal or data-protection review; an introductory lesson does not determine a case's lawful basis.",
+      "licence": "Official linked guidance; original teaching only",
+      "link_label": "ndpc.gov.ng GAID 2025",
+      "slide_limit": "Apply the Act and relevant exceptions with authorised guidance."
+    },
+    {
+      "id": "R6",
+      "author": "Moilanen J and colleagues",
+      "year": 2026,
+      "title": "Mapping studies on practitioners' communication skills in child and family social work: A scoping review",
+      "doi": "10.1093/bjsw/bcaf310",
+      "url": "https://doi.org/10.1093/bjsw/bcaf310",
+      "kind": "scoping review",
+      "use": "Communication, participation and the limits of claims about service-user outcomes.",
+      "appraisal": "47 English-language empirical articles; mostly qualitative research. Outcome links remain under-examined. Findings concern child and family services and cannot establish that this course improves outcomes. Full published text read through the University of Jyväskylä repository.",
+      "licence": "CC BY 4.0; original commentary, no copied cases or figures",
+      "quartile": "Publisher reports 2025 JIF rank 11 of 99 in Social Work, within the top quartile by rank. This is a Q1-consistent inference, not independent JCR quartile verification.",
+      "slide_limit": "Mostly qualitative child/family evidence. Outcome claims remain limited."
+    },
+    {
+      "id": "R7",
+      "author": "Gregory M, Cook L, Yussif IA and Porter B",
+      "year": 2025,
+      "title": "Reflective group interventions with social workers: A scoping review",
+      "doi": "10.1093/bjsw/bcaf029",
+      "url": "https://doi.org/10.1093/bjsw/bcaf029",
+      "kind": "scoping review",
+      "use": "Reflective learning, group conditions and supervision evaluation.",
+      "appraisal": "27 studies/reports; searches December 2022. Most studies were qualitative and many concerned UK/Ireland child/family practice. Retention and cost-effectiveness evidence was sparse. Accepted manuscript read in UEA repository. A reflective group does not automatically provide managerial supervision.",
+      "licence": "CC BY-NC 4.0. Linked source and original factual commentary only; no article text, cases or figures reproduced or adapted.",
+      "quartile": "Publisher reports 2025 JIF rank 11 of 99 in Social Work, within the top quartile by rank. This is a Q1-consistent inference, not independent JCR quartile verification.",
+      "slide_limit": "Heterogeneous studies. Retention and cost-effectiveness evidence is sparse."
+    },
+    {
+      "id": "R8",
+      "author": "Mbata RI",
+      "year": 2026,
+      "title": "Compounding Vulnerabilities: An Architectural Study of the Socio-Spatial, Economic, and Environmental Characteristics of Marginalized Waterfront Communities in Port Harcourt, Nigeria, and Its Implications for Social Work and Development Practice",
+      "slide_title": "Compounding Vulnerabilities: Waterfront Communities in Port Harcourt",
+      "doi": "10.67007/ijsds-2026-v2_i2_002",
+      "url": "https://doi.org/10.67007/ijsds-2026-v2_i2_002",
+      "kind": "Nigerian mixed-methods contextual study",
+      "use": "Examining interacting environmental, livelihood and spatial barriers.",
+      "appraisal": "Full 11-page text read. Cross-sectional study in three waterfront communities, with a questionnaire sample of 364 and nine purposive interviews. Descriptive contextual evidence; cannot establish causal effects, developmental norms or national representativeness. Learner cases are independently fictional.",
+      "licence": "Journal declares CC BY 4.0; linked evidence and original commentary only",
+      "quartile": "No Q1/Q2 status verified. Included for relevant Nigerian context.",
+      "slide_limit": "Three communities and one time point. No causal or national claim."
+    },
+    {
+      "id": "R9",
+      "author": "Knechtel ML, Torres S and Olaison A",
+      "year": 2026,
+      "title": "Exploring the Landscape of Research on Client Documentation in Social Work: A Scoping Review",
+      "doi": "10.1177/14680173261435141",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/14680173261435141",
+      "kind": "scoping review",
+      "use": "Documentation as professional practice, participation and accountability.",
+      "appraisal": "490 English-language articles with an in-depth subsample of 95; literature through 2023. Domain coverage is uneven, especially weighted toward child welfare/protection. Research-gap findings do not prove one note template is effective or legally compliant. Full text reviewed through the publisher's indexed page.",
+      "licence": "CC BY 4.0; original commentary only",
+      "quartile": "Journal quartile not independently verified for this review",
+      "slide_limit": "Research coverage varies by domain. No universal template validated."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-037",
+      "title": "Person in Environment and Human Development",
+      "slug": "person-in-environment-and-human-development",
+      "cover_title": "Person in Environment\nand Human Development",
+      "school_code": "FSW",
+      "estimated_minutes": 180,
+      "audience": "Beginning social work learners applying generalist knowledge under appropriate supervision.",
+      "outcome": "Develop a contextual account of a person's changing needs, strengths and environment without using age or group membership as a diagnosis.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Development across the lifespan",
+          "outcome": "Distinguish developmental domains and transitions while recognising individual and cultural variation.",
+          "paragraphs": [
+            "People develop through interactions among bodily changes, thinking, emotions, relationships and the conditions in which they live. A developmental perspective asks what is changing, what has remained stable and what a person needs in a particular situation. It does not reduce an individual to an age category. Start with the person's account of everyday functioning, priorities and sources of support. Ask which change matters to them and how they understand it. A generalist worker gathers this contextual information without making a specialist developmental or clinical diagnosis. [S4, S1]",
+            "Consider physical, cognitive and psychosocial domains together. For example, a change in mobility can affect travel, social contact and participation in work, while the design of transport can either increase or reduce the resulting barrier. The domains are useful organising questions rather than separate compartments. Avoid treating a person's communication style or a single missed task as proof of a developmental deficit. Where a concern needs specialist assessment, explain the reason for referral and seek the appropriate service instead of applying an unvalidated label. [S4]",
+            "A life transition can involve starting education, changing work, parenting, migration, bereavement or retirement. The meaning and timing of these experiences vary. Ask what the transition has changed in the person's responsibilities, relationships and access to resources. A timetable drawn from one population should not become a universal expectation. Differences within the same age group may be substantial. Culture, disability, gender, income, historical events and personal experience can shape opportunities and the way a person describes the change. [S4, S1]",
+            "Build a tentative account that can be revised. Separate the person's report from observation and from a theory used to interpret either. A theoretical explanation should generate questions, not silence the person's own understanding. If two explanations remain plausible, record the uncertainty and identify what information would help distinguish them. The IFSW and IASSW education standards support attention to contextual knowledge and reflective practice. They are a curriculum benchmark here, not evidence that this short course meets degree or professional-registration requirements. [S3]"
+          ],
+          "example": "Fictional case: Efe, aged 19, combines training with care for a relative. Missed classes may relate to changing responsibilities and travel conditions. The worker asks Efe about priorities and support, checks the training timetable and avoids assuming that age explains the difficulty.",
+          "activity": "Write a short account of Efe's transition. Identify one question in each developmental domain, two contextual influences and one point that needs specialist advice or factual verification.",
+          "feedback": "A strong account keeps Efe's voice visible, treats age as context and separates hypotheses from findings. It does not diagnose a developmental problem from attendance alone.",
+          "sources": [
+            "S4",
+            "S1",
+            "S3"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Ecological context and structural barriers",
+          "outcome": "Map interacting personal, relationship, service and structural influences without attributing causation prematurely.",
+          "paragraphs": [
+            "A person-in-environment account connects an individual's concerns to relationships, organisations, neighbourhood conditions and wider arrangements. Map the settings that matter to the person's stated goal, rather than collecting an exhaustive biography. Ask who offers support, which services are reachable, how work or caring arrangements affect access and what rules shape the available choices. Record both resources and constraints. A supportive family relationship can be important without removing a need for housing, transport or income support. [S4, S1]",
+            "Ecological models draw attention to interactions between settings. A training provider's timetable may conflict with a caregiver's work hours, while a transport route makes an otherwise suitable service inaccessible. These links matter because an intervention in only one setting may leave another barrier unchanged. Use the model to formulate questions with the person. Do not infer that every influence has equal importance or that drawing a network establishes the direction of causation. The map is a practical thinking aid that requires checking against experience. [S4]",
+            "Structural conditions can constrain choices that appear individual. Service eligibility rules, discrimination, insecure livelihoods and environmental exposure may affect how a person participates in daily life. In the IJSDS waterfront study, Mbata examines interacting socio-spatial, economic and environmental conditions in three Port Harcourt communities. The cross-sectional design supports a contextual discussion of coexisting barriers. It cannot establish that a particular condition caused a person's difficulty, describe every waterfront resident or prove that a proposed intervention will work. Keep that distinction when applying research to a case. [R8]",
+            "Use respectful descriptions of place and identity. A community may face substantial barriers while also holding knowledge, relationships and organising capacity. Avoid portraying every resident as having the same need or assuming a neighbourhood name defines an individual. Ask which resources the person values and which changes they consider feasible. Compare information from the person, an available service directory and relevant local evidence. Where accounts differ, retain the uncertainty and agree how it will be checked before a plan relies on it. [S1, S3]"
+          ],
+          "example": "Fictional case: a waterfront resident wants reliable access to training. Flooding, irregular transport and a changing work schedule may interact. The worker maps these influences with the resident and also records a trusted community contact and existing practical skills.",
+          "activity": "Create a four-level context map for the case. Give a personal or household factor, a relationship resource, a service condition and a structural barrier. Mark each entry as reported, observed or still to be checked.",
+          "feedback": "The map should connect relevant influences while preserving the person's strengths. The research informs questions; it does not establish causation or justify assumptions about all residents.",
+          "sources": [
+            "S4",
+            "S1",
+            "R8",
+            "S3"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Contextual formulation and support planning",
+          "outcome": "Translate a contextual account into a collaborative next step and a reviewable hypothesis.",
+          "paragraphs": [
+            "A formulation is a working explanation that connects what matters to the person with relevant strengths, needs, barriers and uncertainties. It should be concise enough to guide a next step and flexible enough to change. Begin with the person's goal. Then explain which contextual influences appear relevant, what evidence supports that view and which assumptions still need checking. Avoid presenting an elegant theory as more important than contradictory information from the person. A useful account makes its own limits visible. [S3, S1]",
+            "Choose an action at the level where a feasible change may occur. A person may want support with a practical task, a family discussion, an accessible referral or an organisational barrier. These options can complement one another. Agree the action with the person, identify the responsible role and set a realistic review point. A plan should not make an individual responsible for changing a structural condition beyond their control. Equally, recognising a structural barrier does not remove the value of immediate practical support chosen by the person. [S1, S4]",
+            "Life transitions can expose gaps between services. Clarify which professional can assess a specialist concern, which service can offer practical support and who will coordinate the next contact. The care-navigation umbrella review describes wide variation in navigation roles and responsibilities. It supports checking local scope and ownership rather than assuming that every navigator or case manager can perform the same task. A referral should therefore state its purpose and the responsibility being requested, with information sharing handled through the appropriate authority. [R3]",
+            "Review both the explanation and the result. Ask whether the agreed action happened, whether access improved and whether the person's priorities changed. If an initial hypothesis does not fit the new information, revise it and document why. A change after support does not automatically show that the support caused it. Include the person's assessment of usefulness and any remaining barriers. This habit links contextual theory to accountable practice: a formulation is valuable when it helps people make a justified, reviewable decision in their actual setting. [S3, S1]"
+          ],
+          "example": "Fictional case: Efe chooses to explore a flexible training timetable. The worker confirms current options with the provider, checks what contact Efe wants and agrees a review date. If the timetable change does not improve access, they revisit the travel and caring constraints.",
+          "activity": "Write a 180-word formulation and action plan. Include the person's goal, two supported influences, one uncertainty, a task owner, a review date and the information that would lead you to revise the explanation.",
+          "feedback": "A strong formulation explains its evidence and limits, assigns a feasible action and remains open to revision. It does not guarantee a service outcome or treat a referral title as authority to perform specialist work.",
+          "sources": [
+            "S3",
+            "S1",
+            "S4",
+            "R3"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-037",
+        "course_slug": "person-in-environment-and-human-development",
+        "title": "Person in Environment and Human Development",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "a33f605a3d2c0665b38874fbf31bc4cb5b0e122a3a81da3e73355540d3172e2e",
+        "catalogue_sha256": "543883c2b605bab223f5f5f446b34e0df4d621eccfc565d0bcafcccf72550960",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Development across the lifespan",
+            "outcome": "Distinguish developmental domains and transitions while recognising individual and cultural variation.",
+            "teaching_points": [
+              {
+                "id": "SWP-037-M1-T1",
+                "text": "Developmental domains interact with context."
+              },
+              {
+                "id": "SWP-037-M1-T2",
+                "text": "A generalist observation does not establish a specialist diagnosis."
+              },
+              {
+                "id": "SWP-037-M1-T3",
+                "text": "Transitions have meanings that vary between people."
+              },
+              {
+                "id": "SWP-037-M1-T4",
+                "text": "The person's account remains distinct from theoretical interpretation."
+              },
+              {
+                "id": "SWP-037-M1-T5",
+                "text": "A curriculum benchmark does not confer accreditation."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Ecological context and structural barriers",
+            "outcome": "Map interacting personal, relationship, service and structural influences without attributing causation prematurely.",
+            "teaching_points": [
+              {
+                "id": "SWP-037-M2-T1",
+                "text": "A context map includes resources as well as barriers."
+              },
+              {
+                "id": "SWP-037-M2-T2",
+                "text": "Interactions between settings can create access problems."
+              },
+              {
+                "id": "SWP-037-M2-T3",
+                "text": "Cross-sectional contextual findings do not prove an individual's cause."
+              },
+              {
+                "id": "SWP-037-M2-T4",
+                "text": "Place and identity should not become stereotypes."
+              },
+              {
+                "id": "SWP-037-M2-T5",
+                "text": "Information status should remain visible in the map."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Contextual formulation and support planning",
+            "outcome": "Translate a contextual account into a collaborative next step and a reviewable hypothesis.",
+            "teaching_points": [
+              {
+                "id": "SWP-037-M3-T1",
+                "text": "A formulation is a revisable explanation."
+              },
+              {
+                "id": "SWP-037-M3-T2",
+                "text": "Actions should match the level of a feasible change."
+              },
+              {
+                "id": "SWP-037-M3-T3",
+                "text": "Referral roles need local verification."
+              },
+              {
+                "id": "SWP-037-M3-T4",
+                "text": "Review distinguishes completed activity from improved access."
+              },
+              {
+                "id": "SWP-037-M3-T5",
+                "text": "Contradictory information can require a revised explanation."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-037-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-037-M1-T1",
+            "question": "A learner notices that reduced mobility affects an adult's work attendance. What should the assessment explore?",
+            "options": [
+              {
+                "text": "Whether age alone explains the attendance change.",
+                "correct": false
+              },
+              {
+                "text": "Only the physical change before discussing daily life.",
+                "correct": false
+              },
+              {
+                "text": "How mobility, transport design and the person's priorities interact.",
+                "correct": true
+              },
+              {
+                "text": "Whether a standard age timetable predicts the right service.",
+                "correct": false
+              }
+            ],
+            "rationale": "A contextual account connects domains and environment without substituting a label for assessment."
+          },
+          {
+            "id": "SWP-037-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-037-M1-T2",
+            "question": "A worker sees difficulty with one written task. Which conclusion is justified?",
+            "options": [
+              {
+                "text": "Assign a developmental diagnosis from the task.",
+                "correct": false
+              },
+              {
+                "text": "Assume the person cannot participate in any decision.",
+                "correct": false
+              },
+              {
+                "text": "Use the task result as the person's complete cognitive profile.",
+                "correct": false
+              },
+              {
+                "text": "Record the observation and explore relevant explanations and assessment needs.",
+                "correct": true
+              }
+            ],
+            "rationale": "One observation raises questions; it does not establish a specialist finding."
+          },
+          {
+            "id": "SWP-037-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-037-M1-T3",
+            "question": "Two people of the same age describe retirement differently. How should a worker respond?",
+            "options": [
+              {
+                "text": "Explore each person's meaning, circumstances and support priorities.",
+                "correct": true
+              },
+              {
+                "text": "Choose the experience that best matches a standard timetable.",
+                "correct": false
+              },
+              {
+                "text": "Apply the same goals because their ages match.",
+                "correct": false
+              },
+              {
+                "text": "Treat the difference as an error in one account.",
+                "correct": false
+              }
+            ],
+            "rationale": "Age groups do not remove variation in experience or goals."
+          },
+          {
+            "id": "SWP-037-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-037-M1-T4",
+            "question": "A theory suggests one explanation for Efe's attendance. What should the record show?",
+            "options": [
+              {
+                "text": "The theory as an established fact about Efe.",
+                "correct": false
+              },
+              {
+                "text": "Efe's account, the tentative interpretation and what remains unverified.",
+                "correct": true
+              },
+              {
+                "text": "Only the interpretation to make the note concise.",
+                "correct": false
+              },
+              {
+                "text": "A conclusion without the information used to reach it.",
+                "correct": false
+              }
+            ],
+            "rationale": "Distinguishing evidence and interpretation keeps the account open to review."
+          },
+          {
+            "id": "SWP-037-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-037-M1-T5",
+            "question": "What does using the IFSW education standards establish for this course?",
+            "options": [
+              {
+                "text": "Automatic professional registration for every learner.",
+                "correct": false
+              },
+              {
+                "text": "Equivalence to a supervised social work degree.",
+                "correct": false
+              },
+              {
+                "text": "A basis for mapping selected learning domains, with approval questions still separate.",
+                "correct": true
+              },
+              {
+                "text": "External accreditation without a formal review.",
+                "correct": false
+              }
+            ],
+            "rationale": "Selected benchmark domains guide content design; they do not confer recognition."
+          },
+          {
+            "id": "SWP-037-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-037-M2-T1",
+            "question": "Which map entry best represents a strengths-aware account?",
+            "options": [
+              {
+                "text": "Only the person's deficits and service failures.",
+                "correct": false
+              },
+              {
+                "text": "A neighbourhood label used as a complete needs assessment.",
+                "correct": false
+              },
+              {
+                "text": "Family support recorded as proof that no service is needed.",
+                "correct": false
+              },
+              {
+                "text": "A trusted community contact alongside the reported transport barrier.",
+                "correct": true
+              }
+            ],
+            "rationale": "Resources and constraints can coexist and should both inform planning."
+          },
+          {
+            "id": "SWP-037-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-037-M2-T2",
+            "question": "A service timetable conflicts with caring duties and transport hours. What does ecological mapping add?",
+            "options": [
+              {
+                "text": "A way to examine how the linked arrangements affect access.",
+                "correct": true
+              },
+              {
+                "text": "Proof that the person lacks motivation.",
+                "correct": false
+              },
+              {
+                "text": "A reason to assess each setting without comparing their interaction.",
+                "correct": false
+              },
+              {
+                "text": "Confirmation that one setting must explain every difficulty.",
+                "correct": false
+              }
+            ],
+            "rationale": "The interaction may matter even when each arrangement appears reasonable in isolation."
+          },
+          {
+            "id": "SWP-037-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-037-M2-T3",
+            "question": "How can the Port Harcourt waterfront study be used in an individual assessment?",
+            "options": [
+              {
+                "text": "Assign the same need profile to every resident.",
+                "correct": false
+              },
+              {
+                "text": "Inform questions about relevant conditions while checking the person's own circumstances.",
+                "correct": true
+              },
+              {
+                "text": "Treat the study as a diagnosis of the person's difficulty.",
+                "correct": false
+              },
+              {
+                "text": "Claim the study tested the worker's proposed intervention.",
+                "correct": false
+              }
+            ],
+            "rationale": "Contextual evidence cannot replace person-specific information or establish untested effects."
+          },
+          {
+            "id": "SWP-037-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-037-M2-T4",
+            "question": "A referral describes a whole community as dependent. What is the strongest response?",
+            "options": [
+              {
+                "text": "Use the description as a verified characteristic of every resident.",
+                "correct": false
+              },
+              {
+                "text": "Remove all contextual information to avoid discussing inequality.",
+                "correct": false
+              },
+              {
+                "text": "Ask about the person's priorities and community resources while examining the reported barriers.",
+                "correct": true
+              },
+              {
+                "text": "Assume community strengths make structural barriers unimportant.",
+                "correct": false
+              }
+            ],
+            "rationale": "A respectful account recognises diversity and resources while retaining relevant constraints."
+          },
+          {
+            "id": "SWP-037-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-037-M2-T5",
+            "question": "A transport restriction is reported but not checked. How should it appear?",
+            "options": [
+              {
+                "text": "As a confirmed restriction because it fits the theory.",
+                "correct": false
+              },
+              {
+                "text": "As irrelevant until every detail can be independently observed.",
+                "correct": false
+              },
+              {
+                "text": "As proof that the person cannot use any service.",
+                "correct": false
+              },
+              {
+                "text": "As reported information with an agreed verification task.",
+                "correct": true
+              }
+            ],
+            "rationale": "The entry is relevant while its verification status remains explicit."
+          },
+          {
+            "id": "SWP-037-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-037-M3-T1",
+            "question": "Which statement best describes a useful formulation?",
+            "options": [
+              {
+                "text": "A working account connecting the person's goal, relevant evidence and uncertainty.",
+                "correct": true
+              },
+              {
+                "text": "A final label that should remain stable despite new information.",
+                "correct": false
+              },
+              {
+                "text": "A summary that excludes the person's account to preserve objectivity.",
+                "correct": false
+              },
+              {
+                "text": "A theory selected before considering the practical concern.",
+                "correct": false
+              }
+            ],
+            "rationale": "A formulation guides action while remaining answerable to evidence and the person's experience."
+          },
+          {
+            "id": "SWP-037-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-037-M3-T2",
+            "question": "A service's timetable creates a barrier. Which plan is proportionate?",
+            "options": [
+              {
+                "text": "Require the person to resolve the provider's policy alone.",
+                "correct": false
+              },
+              {
+                "text": "Explore an authorised timetable option with the person while supporting immediate needs.",
+                "correct": true
+              },
+              {
+                "text": "Wait for complete structural reform before offering any practical support.",
+                "correct": false
+              },
+              {
+                "text": "Treat the barrier as evidence of personal failure.",
+                "correct": false
+              }
+            ],
+            "rationale": "Individual support and attention to organisational barriers can proceed together."
+          },
+          {
+            "id": "SWP-037-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-037-M3-T3",
+            "question": "A directory lists a navigator but gives no scope. What should the worker check?",
+            "options": [
+              {
+                "text": "Assume the title includes specialist assessment authority.",
+                "correct": false
+              },
+              {
+                "text": "Transfer responsibility without obtaining agreement.",
+                "correct": false
+              },
+              {
+                "text": "What the role can do and who will own the requested next step.",
+                "correct": true
+              },
+              {
+                "text": "Use the title alone as evidence of service effectiveness.",
+                "correct": false
+              }
+            ],
+            "rationale": "Navigation roles vary; scope and responsibility must be established locally."
+          },
+          {
+            "id": "SWP-037-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-037-M3-T4",
+            "question": "The provider received Efe's referral. What still needs review?",
+            "options": [
+              {
+                "text": "Only whether the referral count increased.",
+                "correct": false
+              },
+              {
+                "text": "Whether the original hypothesis can be left unchanged permanently.",
+                "correct": false
+              },
+              {
+                "text": "Whether receipt alone proves the training goal was achieved.",
+                "correct": false
+              },
+              {
+                "text": "Whether the agreed next step occurred and access became more useful to Efe.",
+                "correct": true
+              }
+            ],
+            "rationale": "Receipt is an activity milestone rather than evidence of the final outcome."
+          },
+          {
+            "id": "SWP-037-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-037-M3-T5",
+            "question": "New information shows that transport is accessible but the timetable remains unsuitable. What should happen?",
+            "options": [
+              {
+                "text": "Revise the working account and plan, recording the new evidence.",
+                "correct": true
+              },
+              {
+                "text": "Retain the transport explanation because it appeared first.",
+                "correct": false
+              },
+              {
+                "text": "Remove the conflicting information from the case account.",
+                "correct": false
+              },
+              {
+                "text": "Conclude that contextual assessment has no value.",
+                "correct": false
+              }
+            ],
+            "rationale": "A formulation is useful when it responds to evidence rather than defending an earlier assumption."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-038",
+      "title": "Communication Interviewing and Helping Relationships",
+      "slug": "communication-interviewing-and-helping-relationships",
+      "cover_title": "Communication Interviewing\nand Helping Relationships",
+      "school_code": "FSW",
+      "estimated_minutes": 180,
+      "audience": "Beginning social work learners applying generalist knowledge under appropriate supervision.",
+      "outcome": "Conduct a purposeful helping conversation using accessible questions, reflective listening and a clear agreed ending within role.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Engagement power and accessible communication",
+          "outcome": "Establish a shared purpose and adapt communication to the person's preferences and service context.",
+          "paragraphs": [
+            "The opening of a helping conversation sets expectations about purpose, choice and power. Introduce your role, explain why the contact is taking place and ask what the person wants from the conversation. Clarify what you can offer and what remains outside your authority. An invitation to speak is more meaningful when the person understands how their account may be used. Avoid promising a particular service outcome before eligibility, capacity or professional responsibility has been checked. [S1, S2]",
+            "Ask about language, communication and accessibility preferences rather than deciding them from appearance or diagnosis. A person may prefer a different pace, a quiet setting, written information or an appropriate interpreter. Check that the chosen arrangement is safe and acceptable. When using an interpreter, address the person directly and clarify the interpreter's role and confidentiality arrangements through the authorised service process. A relative's availability does not automatically establish that they are a suitable interpreter for a sensitive discussion. [S1]",
+            "Institutional power can affect what a person feels able to say. Explain any compulsory element of the contact and the choices that remain. Distinguish a worker's request from a legal or organisational requirement that has actually been verified. A respectful tone cannot remove an eligibility rule, but it can make the rule and any challenge route understandable. Research on professional mandates in rehabilitation illustrates tensions among client, organisational and professional expectations. Use it to consider your role; the German study does not determine a Nigerian service's powers. [R2]",
+            "Communication should support participation throughout the contact. Check whether the person understands the purpose, ask permission before changing topics and make room for questions. The 2026 scoping review by Moilanen and colleagues maps communication research in child and family social work and identifies limited testing of links with service-user outcomes. It supports thoughtful attention to interaction while cautioning against claims that one conversational technique guarantees a result. The learner's task is to practise and review specific observable skills, with supervised feedback. [R6, S3]"
+          ],
+          "example": "Fictional case: Halima attends a support appointment with an adult relative. The worker asks Halima how she would like to communicate, explains the purpose and offers a suitable way to discuss sensitive matters. The relative's presence does not replace Halima's preferences.",
+          "activity": "Write a 90-second opening for Halima's appointment. Include role, purpose, relevant limits, a communication preference check and a question about what she wants to discuss.",
+          "feedback": "A useful opening makes the service purpose clear and asks rather than assumes. It avoids promising approval, treating a relative as the decision-maker or implying confidentiality has no limits.",
+          "sources": [
+            "S1",
+            "S2",
+            "R2",
+            "R6",
+            "S3"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Questions listening and shared understanding",
+          "outcome": "Use open and focused questions, reflection and clarification to develop an accurate shared account.",
+          "paragraphs": [
+            "Questions should serve a clear purpose. An open question invites a fuller account, while a focused question can clarify a particular detail. Start broadly enough to hear the person's priorities, then explain why a narrower detail matters. Asking several questions at once can make it difficult to know which one the person is answering. Leading wording may suggest the response the worker expects. Use ordinary language and ask one question at a time, adapting the pace to the person's response. [S1, S2]",
+            "Listening is an active process of attending, checking and allowing correction. A short reflection can show your current understanding of meaning or feeling without claiming to know more than the person has said. Offer it tentatively and invite correction. Summarising can connect several points and identify what still needs clarification. Neither skill requires agreement with every proposed action. A worker can acknowledge an experience while remaining clear about uncertainty, role limits or a concern that needs further assessment. [S1, R6]",
+            "Silence can allow thought, but its meaning is not fixed. A pause may reflect reflection, discomfort, uncertainty, language processing or a wish not to answer. Check respectfully rather than assigning a motive. Where a sensitive topic arises, explain why it is relevant and discuss whether the person wants a pause or another communication arrangement. Do not turn an introductory helping interview into an investigation beyond your authority. Use appropriate supervision or referral when the conversation raises concerns requiring specialist skills. [S1, S2]",
+            "Accuracy improves when the worker checks their understanding before acting. A helpful summary distinguishes what the person said, what the worker understood and what remains open. Ask what has been missed and whether the wording reflects the person's meaning. Communication research spans different concepts and methods, so the learner should avoid treating a technique name as evidence of competence. Practise a specific skill, observe its effect on the conversation and seek feedback from the person or an appropriate supervisor without claiming an unmeasured service outcome. [R6, S3]"
+          ],
+          "example": "Fictional case: a parent says a referral felt dismissive. The worker asks what happened, reflects the parent's concern tentatively and checks a summary before discussing options. The worker does not infer that the referral service acted unlawfully from this account alone.",
+          "activity": "Write a six-turn conversation containing an open question, a focused clarification, a tentative reflection and a summary check. Explain the purpose of each worker contribution.",
+          "feedback": "A strong response allows correction and avoids leading questions or multiple demands in one turn. The reflection is a check of understanding, not a diagnosis or a statement that every proposed action is justified.",
+          "sources": [
+            "S1",
+            "S2",
+            "R6",
+            "S3"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Difficult conversations endings and skill review",
+          "outcome": "Manage disagreement respectfully and agree a clear next step while evaluating communication within supervision.",
+          "paragraphs": [
+            "Disagreement can concern facts, expectations, service limits or the meaning of an experience. Clarify which issue is in dispute before trying to resolve it. Describe the difference without blaming the person. Explain a service decision in accessible terms and identify any authorised review or complaint route. A worker should not promise to reverse a decision outside their authority, but can check whether the reason has been understood and whether relevant information was overlooked. [S1, R2]",
+            "When emotions intensify, pay attention to pace, setting and safety. Acknowledge the expressed concern without making an unsupported interpretation. Offer a pause or an appropriate alternative contact arrangement where possible. If there is an immediate safety concern, use the applicable response process and obtain support; conversational skill does not replace that responsibility. Maintain boundaries about respectful contact and the worker's role, while avoiding threats or a loss of service that has no authorised basis. [S1, S2]",
+            "A clear ending helps the person understand what happens next. Summarise the agreed concern, any difference that remains, the action, its responsible role and the expected review point. Check whether the person can use the proposed contact route. Distinguish an action you will undertake from an outcome controlled by another service. If the relationship or episode of support is ending, explain the reason and any available route for further support. Record the relevant agreement accurately and in accordance with the service's information rules. [S2]",
+            "Review communication through observable practice rather than confidence alone. In a fictional role-play or an authorised supervised exercise, identify whether the learner asked one clear question, checked meaning, invited correction and explained the next step. Feedback should connect an observation to its possible effect and a specific improvement task. The education standards support reflective skill development, while the communication review cautions that evidence of improved conversation should not be presented as proof of a wider service-user outcome unless that outcome has actually been assessed. [S3, R6]"
+          ],
+          "example": "Fictional case: a person disputes a service decision. The worker checks the disagreement, explains the verified review route and agrees to send the relevant information. They do not promise that the decision will change and confirm how the person can make further contact.",
+          "activity": "Draft an ending for the disagreement and a short supervision note. Identify the agreed action, remaining disagreement, contact route and one communication skill you would practise next.",
+          "feedback": "The ending should make responsibility and uncertainty clear. The review note should use observable behaviour and a realistic improvement task rather than a claim that confidence proves competence.",
+          "sources": [
+            "S1",
+            "R2",
+            "S2",
+            "S3",
+            "R6"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-038",
+        "course_slug": "communication-interviewing-and-helping-relationships",
+        "title": "Communication Interviewing and Helping Relationships",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "3892f1b5cfb86bf65df681c62a835b34554d29fc5ac7d9d608208609254570c8",
+        "catalogue_sha256": "74d952a2b2474c9450e5d0f8a805c43fcd7d08b38122f8d288fac52f29725a2c",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Engagement power and accessible communication",
+            "outcome": "Establish a shared purpose and adapt communication to the person's preferences and service context.",
+            "teaching_points": [
+              {
+                "id": "SWP-038-M1-T1",
+                "text": "An opening establishes role and shared purpose."
+              },
+              {
+                "id": "SWP-038-M1-T2",
+                "text": "Communication preferences should be checked directly."
+              },
+              {
+                "id": "SWP-038-M1-T3",
+                "text": "An interpreter's role and suitability require attention."
+              },
+              {
+                "id": "SWP-038-M1-T4",
+                "text": "A worker should distinguish a request from a verified requirement."
+              },
+              {
+                "id": "SWP-038-M1-T5",
+                "text": "Communication evidence does not guarantee a particular outcome."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Questions listening and shared understanding",
+            "outcome": "Use open and focused questions, reflection and clarification to develop an accurate shared account.",
+            "teaching_points": [
+              {
+                "id": "SWP-038-M2-T1",
+                "text": "Open and focused questions have different purposes."
+              },
+              {
+                "id": "SWP-038-M2-T2",
+                "text": "A reflection is tentative and open to correction."
+              },
+              {
+                "id": "SWP-038-M2-T3",
+                "text": "Acknowledgement does not require agreement with every action."
+              },
+              {
+                "id": "SWP-038-M2-T4",
+                "text": "Silence should not be given an assumed meaning."
+              },
+              {
+                "id": "SWP-038-M2-T5",
+                "text": "A summary invites correction before action."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Difficult conversations endings and skill review",
+            "outcome": "Manage disagreement respectfully and agree a clear next step while evaluating communication within supervision.",
+            "teaching_points": [
+              {
+                "id": "SWP-038-M3-T1",
+                "text": "Disagreement needs a clear subject."
+              },
+              {
+                "id": "SWP-038-M3-T2",
+                "text": "A review route should be explained without promising its result."
+              },
+              {
+                "id": "SWP-038-M3-T3",
+                "text": "Safety procedures remain necessary during an intensified conversation."
+              },
+              {
+                "id": "SWP-038-M3-T4",
+                "text": "An ending identifies action ownership and remaining uncertainty."
+              },
+              {
+                "id": "SWP-038-M3-T5",
+                "text": "Communication competence needs observable review."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-038-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-038-M1-T1",
+            "question": "Which opening best supports an informed helping conversation?",
+            "options": [
+              {
+                "text": "Begin a full history before explaining why you are there.",
+                "correct": false
+              },
+              {
+                "text": "Promise the requested outcome to encourage engagement.",
+                "correct": false
+              },
+              {
+                "text": "Explain the contact and your role, then ask what the person wants to address.",
+                "correct": true
+              },
+              {
+                "text": "Describe your preferred solution before hearing the concern.",
+                "correct": false
+              }
+            ],
+            "rationale": "Shared purpose gives context for participation without promising an unverified outcome."
+          },
+          {
+            "id": "SWP-038-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-038-M1-T2",
+            "question": "Halima attends with a relative. What should the worker establish first about communication?",
+            "options": [
+              {
+                "text": "That the relative will answer because they arrived together.",
+                "correct": false
+              },
+              {
+                "text": "That no interpreter is needed because the relative speaks both languages.",
+                "correct": false
+              },
+              {
+                "text": "That the standard interview pace suits everyone.",
+                "correct": false
+              },
+              {
+                "text": "Halima's preferences and whether the proposed support arrangement is appropriate.",
+                "correct": true
+              }
+            ],
+            "rationale": "The person's preferences and safety guide the arrangement, subject to the service's responsibilities."
+          },
+          {
+            "id": "SWP-038-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-038-M1-T3",
+            "question": "A sensitive issue arises and a relative offers to interpret. What is the strongest response?",
+            "options": [
+              {
+                "text": "Check the person's choice, the sensitivity and the authorised interpreter arrangement.",
+                "correct": true
+              },
+              {
+                "text": "Accept immediately because availability establishes suitability.",
+                "correct": false
+              },
+              {
+                "text": "Exclude the person from discussion to simplify communication.",
+                "correct": false
+              },
+              {
+                "text": "Assume interpretation removes the need to explain confidentiality.",
+                "correct": false
+              }
+            ],
+            "rationale": "An available relative may not provide a suitable or safe arrangement for every discussion."
+          },
+          {
+            "id": "SWP-038-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-038-M1-T4",
+            "question": "A worker wants a person to attend a meeting. How should its status be explained?",
+            "options": [
+              {
+                "text": "Present a preferred action as compulsory to secure agreement.",
+                "correct": false
+              },
+              {
+                "text": "State accurately whether attendance is optional or required and explain the verified basis.",
+                "correct": true
+              },
+              {
+                "text": "Avoid discussing status because the tone is friendly.",
+                "correct": false
+              },
+              {
+                "text": "Assume every agency request has the same authority.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation depends on an honest account of choices and authority."
+          },
+          {
+            "id": "SWP-038-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-038-M1-T5",
+            "question": "What claim can the communication scoping review support?",
+            "options": [
+              {
+                "text": "Proof that one opening script improves all service outcomes.",
+                "correct": false
+              },
+              {
+                "text": "A validated guarantee for this SWEEP course.",
+                "correct": false
+              },
+              {
+                "text": "A rationale for studying specific interaction skills while recognising limits in outcome evidence.",
+                "correct": true
+              },
+              {
+                "text": "An identical effect across every setting and population.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review maps a varied evidence base; it does not validate universal effects."
+          },
+          {
+            "id": "SWP-038-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-038-M2-T1",
+            "question": "After hearing a broad concern, the worker needs the date of a referral. Which approach fits?",
+            "options": [
+              {
+                "text": "Continue only with broad questions even though the detail is needed.",
+                "correct": false
+              },
+              {
+                "text": "Ask several unrelated details in one long question.",
+                "correct": false
+              },
+              {
+                "text": "Suggest the date that would make the service account easier to defend.",
+                "correct": false
+              },
+              {
+                "text": "Explain why the detail matters and ask one focused question.",
+                "correct": true
+              }
+            ],
+            "rationale": "A focused clarification can follow an open account when its purpose is clear."
+          },
+          {
+            "id": "SWP-038-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-038-M2-T2",
+            "question": "Which response best uses reflective listening?",
+            "options": [
+              {
+                "text": "It sounds as though the meeting left you unsure about the next step; have I understood that?",
+                "correct": true
+              },
+              {
+                "text": "You must have felt exactly what I would feel.",
+                "correct": false
+              },
+              {
+                "text": "Your feelings prove the other service was negligent.",
+                "correct": false
+              },
+              {
+                "text": "I know the explanation, so there is no need to clarify.",
+                "correct": false
+              }
+            ],
+            "rationale": "A tentative reflection checks meaning rather than declaring it or inferring misconduct."
+          },
+          {
+            "id": "SWP-038-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-038-M2-T3",
+            "question": "A person proposes an action outside the worker's authority. What can the worker do?",
+            "options": [
+              {
+                "text": "Agree to the action to preserve rapport.",
+                "correct": false
+              },
+              {
+                "text": "Acknowledge the concern and explain the role limit while exploring appropriate options.",
+                "correct": true
+              },
+              {
+                "text": "Stop listening because the proposed action is unsuitable.",
+                "correct": false
+              },
+              {
+                "text": "Treat acknowledgement as a commitment to deliver the action.",
+                "correct": false
+              }
+            ],
+            "rationale": "Understanding the concern and authorising an action are separate judgements."
+          },
+          {
+            "id": "SWP-038-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-038-M2-T4",
+            "question": "A person pauses during a difficult question. What is the most appropriate next step?",
+            "options": [
+              {
+                "text": "Record the pause as evidence of resistance.",
+                "correct": false
+              },
+              {
+                "text": "Repeat the question more forcefully until an answer is given.",
+                "correct": false
+              },
+              {
+                "text": "Allow time and check respectfully whether they need clarification, a pause or another arrangement.",
+                "correct": true
+              },
+              {
+                "text": "Treat the pause as proof that the concern is resolved.",
+                "correct": false
+              }
+            ],
+            "rationale": "The meaning of a pause needs contextual checking."
+          },
+          {
+            "id": "SWP-038-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-038-M2-T5",
+            "question": "Which ending to a summary best protects accuracy?",
+            "options": [
+              {
+                "text": "This is now the final account and cannot change.",
+                "correct": false
+              },
+              {
+                "text": "I will act on my understanding without checking it.",
+                "correct": false
+              },
+              {
+                "text": "Please agree so that we can finish the form.",
+                "correct": false
+              },
+              {
+                "text": "What have I missed or understood differently from you?",
+                "correct": true
+              }
+            ],
+            "rationale": "A summary is a shared understanding check rather than a demand for agreement."
+          },
+          {
+            "id": "SWP-038-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-038-M3-T1",
+            "question": "A person challenges a decision. What should the worker clarify before responding?",
+            "options": [
+              {
+                "text": "Whether the disagreement concerns facts, expectations, authority or the explanation.",
+                "correct": true
+              },
+              {
+                "text": "Which phrase will persuade the person to agree fastest.",
+                "correct": false
+              },
+              {
+                "text": "Whether disagreement itself justifies ending the service.",
+                "correct": false
+              },
+              {
+                "text": "How to avoid recording the person's concern.",
+                "correct": false
+              }
+            ],
+            "rationale": "Clarifying the issue supports a relevant and accountable response."
+          },
+          {
+            "id": "SWP-038-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-038-M3-T2",
+            "question": "Which response accurately describes a complaint route?",
+            "options": [
+              {
+                "text": "A complaint guarantees the decision will change.",
+                "correct": false
+              },
+              {
+                "text": "I can explain how to request review, while the authorised process determines its result.",
+                "correct": true
+              },
+              {
+                "text": "A worker's personal agreement replaces the review process.",
+                "correct": false
+              },
+              {
+                "text": "The person should avoid review because the worker cannot guarantee success.",
+                "correct": false
+              }
+            ],
+            "rationale": "Access to a process and its eventual outcome are different matters."
+          },
+          {
+            "id": "SWP-038-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-038-M3-T3",
+            "question": "An immediate safety concern arises during a disagreement. What takes priority?",
+            "options": [
+              {
+                "text": "Continue the discussion without support to demonstrate rapport.",
+                "correct": false
+              },
+              {
+                "text": "Treat the conversation script as emergency authority.",
+                "correct": false
+              },
+              {
+                "text": "Follow the approved response process and seek appropriate support.",
+                "correct": true
+              },
+              {
+                "text": "Wait for routine feedback before considering safety.",
+                "correct": false
+              }
+            ],
+            "rationale": "Communication skills support practice but do not replace urgent procedures."
+          },
+          {
+            "id": "SWP-038-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-038-M3-T4",
+            "question": "Which ending best supports follow-through?",
+            "options": [
+              {
+                "text": "Offer a general reassurance without naming the next step.",
+                "correct": false
+              },
+              {
+                "text": "Promise another service's decision before checking it.",
+                "correct": false
+              },
+              {
+                "text": "End once the worker has spoken, without a final understanding check.",
+                "correct": false
+              },
+              {
+                "text": "Summarise the action, owner and review point, and check the person's contact route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Specific agreements are easier to act on and review."
+          },
+          {
+            "id": "SWP-038-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-038-M3-T5",
+            "question": "Which feedback is most useful after a role-play?",
+            "options": [
+              {
+                "text": "You asked three questions at once; practise separating them and checking the response.",
+                "correct": true
+              },
+              {
+                "text": "You felt confident, so all relevant skills are established.",
+                "correct": false
+              },
+              {
+                "text": "The exercise proves every future client outcome will improve.",
+                "correct": false
+              },
+              {
+                "text": "Your style is wrong, without an example or an improvement task.",
+                "correct": false
+              }
+            ],
+            "rationale": "An observation and a specific practice task provide a useful basis for learning."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-039",
+      "title": "Professional Recording Consent and Confidentiality",
+      "slug": "professional-recording-consent-and-confidentiality",
+      "cover_title": "Professional Recording\nConsent and Confidentiality",
+      "school_code": "FSW",
+      "estimated_minutes": 180,
+      "audience": "Beginning social work learners applying generalist knowledge under appropriate supervision.",
+      "outcome": "Prepare relevant, accurate professional records and identify when consent, disclosure or data-protection questions need authorised review.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Purposeful and accountable records",
+          "outcome": "Write a concise record that distinguishes information sources, interpretation and an agreed action.",
+          "paragraphs": [
+            "A professional record supports a defined purpose: understanding the concern, explaining a decision, coordinating an action or reviewing support. Before collecting a detail, ask why it is relevant to that purpose and who needs access. More information does not automatically create a better record. A note that mixes unrelated personal history with a current referral can obscure the decision and increase unnecessary exposure. Use the service's approved format while keeping the person's concern and the reason for the action clear. [S2, S1]",
+            "Distinguish the person's report, another source's report, your observation and your interpretation. Record uncertainty rather than presenting a hypothesis as a finding. Neutral language can describe a difficult interaction without making a character judgement. For example, record that a person declined a proposed appointment and the reason they gave, rather than labelling them uncooperative. Where wording could materially affect a decision, check your understanding with the person when appropriate and explain any difference that remains. [S1, R6]",
+            "A useful progress note identifies the date and purpose of contact, relevant information, the person's expressed preference, action taken, rationale, outstanding tasks and review arrangements. These are teaching prompts rather than a universal statutory template. The service context and applicable requirements determine what the formal record must contain. Document through the authorised system and distinguish the date of an event from the date a later note is written. Do not make a late entry appear contemporaneous or sign as though you authored someone else's account. [S2]",
+            "The 2026 documentation scoping review by Knechtel and colleagues maps a substantial literature but also identifies uneven coverage across social work domains. It reminds learners to examine the purpose and setting of documentation rather than assume one practice fits every service. The review does not establish that this course's prompts improve outcomes or meet every legal requirement. Use the prompts to support transparent reasoning, then check the required local form, access arrangements and supervisory expectations. [R9]"
+          ],
+          "example": "Fictional case: Sade reports missing a referral appointment because the time changed. A useful note identifies that this is her account, records the change that needs checking and names the worker who will contact the service. It does not present the account as verified misconduct.",
+          "activity": "Write a 150-word progress note for Sade. Label information sources, distinguish a hypothesis from a fact and include an action owner and review date.",
+          "feedback": "A strong note is relevant, neutral and reviewable. It identifies the source of each material claim and does not use a broad label where a specific description is available.",
+          "sources": [
+            "S2",
+            "S1",
+            "R6",
+            "R9"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Consent purpose and lawful information use",
+          "outcome": "Identify the purpose and authority for processing or sharing information and recognise questions requiring data-protection advice.",
+          "paragraphs": [
+            "Consent is a meaningful process when a person understands a specific choice and can express a preference without a misleading promise. Explain what information is proposed for use or sharing, the purpose, the intended recipient and relevant limits. Check understanding in an accessible way. A signature can document an agreement but does not by itself establish that the person understood it or that every future use is permitted. Record the scope and any relevant condition of the agreement through the approved process. [S1, S5]",
+            "In Nigeria, the NDP Act and the NDPC's 2025 General Application and Implementation Directive provide the relevant data-protection framework. The GAID addresses processing principles, lawful bases and consent accountability. A worker should establish the service's authorised purpose and basis for processing before relying on a form or sharing arrangement. Consent is not a universal substitute for that assessment. Additional requirements and exceptions may apply to sensitive data, children and other circumstances. Seek the organisation's data-protection or legal advice rather than inventing a basis for a difficult case. [S5]",
+            "Distinguish permission to participate in a service from a specific information-sharing decision. A person may agree to an appointment while wanting clarification about a proposed disclosure. Discuss the question, identify what the service genuinely requires and avoid promising that information can always remain secret. If a duty or justified exception may limit confidentiality, check the applicable authority and explain relevant limits where appropriate and safe. Another professional's interest in a case does not, by itself, establish entitlement to the complete file. [S1, S2]",
+            "When consent is the basis used, follow the approved process for recording it, reviewing its scope and handling withdrawal. A new purpose or recipient should prompt a fresh check rather than an assumption that an old agreement covers everything. Consider what minimum relevant information can meet the justified purpose, who is authorised to send it and which secure route applies. If the basis or conditions remain uncertain, seek timely authorised advice and record the decision process. Urgent safeguarding or emergency duties still require the relevant local response procedure. [S5, S1]"
+          ],
+          "example": "Fictional case: a service asks for Sade's full record to consider transport support. The worker clarifies the purpose, checks the service's authorised basis and the applicable information-sharing conditions, and discusses relevant information with Sade. A previous appointment consent form is not treated as unlimited permission.",
+          "activity": "Prepare an information-use decision note. Identify purpose, proposed recipient, relevant information, authority that must be checked, the person's understanding and the advice needed before acting.",
+          "feedback": "A good note distinguishes consent from other authority questions and records uncertainty. It does not state that every processing activity has the same lawful basis or that a signature permits unrestricted disclosure.",
+          "sources": [
+            "S1",
+            "S5",
+            "S2"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Secure access corrections and digital tools",
+          "outcome": "Use approved access and correction processes while maintaining confidentiality and an accurate record history.",
+          "paragraphs": [
+            "Confidentiality depends on everyday handling as well as decisions about disclosure. Use approved accounts, devices, storage and access arrangements. Confirm the intended recipient before sending information and avoid exposing a person's details in a public setting. An access permission should match the task, rather than assume that everyone in an organisation needs every file. Follow local requirements for retention and disposal; this course does not prescribe a universal retention period for all records or services. [S5, S2]",
+            "People may ask to see or correct information about them. Route the request through the authorised process, establish identity appropriately and obtain guidance where third-party information or other restrictions are involved. Do not assume that a request gives unrestricted access to another person's information. Where an error is identified, use a transparent amendment process that preserves the relevant history. Distinguish correcting an inaccurate fact from recording a person's disagreement with a professional interpretation, and explain the next review route. [S5, S1]",
+            "Digital assistance can make drafting easier while creating new accuracy and confidentiality risks. A worker remains responsible for checking a note, whether it began as typed text, speech recognition or an AI suggestion. Do not put identifiable records into an unapproved tool or accept generated details as observed facts. Check that the authorised system and data-handling conditions fit the task. If information is sent to the wrong recipient or another incident occurs, follow the service's incident process promptly and seek appropriate advice rather than attempting a private cover-up. [S5, S2]",
+            "Review the record as a communication that may affect the person and future decisions. Check relevance, source attribution, dates, meaning and the agreed next action. The communication review supports inviting clarification, while the documentation review highlights the diversity of recording contexts. Neither paper proves that a particular digital tool or note template is safe or effective. Combine professional judgement, the person's account, approved systems and supervision. A concise, accurate record should make it easier to see both the decision and the limits of the evidence used. [R6, R9]"
+          ],
+          "example": "Fictional case: an automated draft adds a detail that Sade never reported. The worker checks the draft against the contact record and removes the unsupported statement before saving. If an inaccurate entry has already been stored, the worker follows the authorised amendment process.",
+          "activity": "Review a fictional note containing an incorrect date, an unsupported interpretation and an unnecessary personal detail. State how each issue should be handled and what needs an authorised correction or incident process.",
+          "feedback": "A strong review preserves an honest history, removes unsupported claims through the right process and limits information to its purpose. It does not silently rewrite an existing record or assume a tool takes responsibility for accuracy.",
+          "sources": [
+            "S5",
+            "S2",
+            "S1",
+            "R6",
+            "R9"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-039",
+        "course_slug": "professional-recording-consent-and-confidentiality",
+        "title": "Professional Recording Consent and Confidentiality",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "f5217a01bada283e68e265d590774d370c9f0e470b3baf9a4988cf2340a0f6f7",
+        "catalogue_sha256": "95d145040e1498ed98a5db169d3808deb868defb8c778ed15432f395e246406f",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Purposeful and accountable records",
+            "outcome": "Write a concise record that distinguishes information sources, interpretation and an agreed action.",
+            "teaching_points": [
+              {
+                "id": "SWP-039-M1-T1",
+                "text": "A record should serve an identified purpose."
+              },
+              {
+                "id": "SWP-039-M1-T2",
+                "text": "Reports and verified facts remain distinguishable."
+              },
+              {
+                "id": "SWP-039-M1-T3",
+                "text": "Neutral wording describes behaviour and context."
+              },
+              {
+                "id": "SWP-039-M1-T4",
+                "text": "Late entries should preserve event and entry timing."
+              },
+              {
+                "id": "SWP-039-M1-T5",
+                "text": "Documentation research does not validate a universal template."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Consent purpose and lawful information use",
+            "outcome": "Identify the purpose and authority for processing or sharing information and recognise questions requiring data-protection advice.",
+            "teaching_points": [
+              {
+                "id": "SWP-039-M2-T1",
+                "text": "A signature does not establish unlimited informed permission."
+              },
+              {
+                "id": "SWP-039-M2-T2",
+                "text": "The lawful basis requires an authorised assessment."
+              },
+              {
+                "id": "SWP-039-M2-T3",
+                "text": "Service participation and disclosure are distinct choices."
+              },
+              {
+                "id": "SWP-039-M2-T4",
+                "text": "A new purpose prompts a renewed scope check."
+              },
+              {
+                "id": "SWP-039-M2-T5",
+                "text": "Disclosure should be relevant and securely authorised."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Secure access corrections and digital tools",
+            "outcome": "Use approved access and correction processes while maintaining confidentiality and an accurate record history.",
+            "teaching_points": [
+              {
+                "id": "SWP-039-M3-T1",
+                "text": "Access should match the authorised task."
+              },
+              {
+                "id": "SWP-039-M3-T2",
+                "text": "Retention periods depend on the applicable requirements."
+              },
+              {
+                "id": "SWP-039-M3-T3",
+                "text": "Corrections preserve a transparent record history."
+              },
+              {
+                "id": "SWP-039-M3-T4",
+                "text": "Generated text requires human verification and approved data handling."
+              },
+              {
+                "id": "SWP-039-M3-T5",
+                "text": "Information incidents need the authorised response process."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-039-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-039-M1-T1",
+            "question": "A referral needs information about access barriers. Which recording approach is strongest?",
+            "options": [
+              {
+                "text": "Copy the entire history because greater volume always improves a note.",
+                "correct": false
+              },
+              {
+                "text": "Collect unrelated sensitive details in case they might be useful someday.",
+                "correct": false
+              },
+              {
+                "text": "Include relevant barriers and the reason they matter to the referral.",
+                "correct": true
+              },
+              {
+                "text": "Omit the purpose because the form already has a title.",
+                "correct": false
+              }
+            ],
+            "rationale": "Purpose helps determine relevance and supports an understandable decision record."
+          },
+          {
+            "id": "SWP-039-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-039-M1-T2",
+            "question": "Sade reports a changed appointment time. How should the note describe it initially?",
+            "options": [
+              {
+                "text": "Record that the service definitely changed the appointment without checking.",
+                "correct": false
+              },
+              {
+                "text": "Exclude Sade's account because it is not independently confirmed.",
+                "correct": false
+              },
+              {
+                "text": "Replace the reported event with a judgement about her reliability.",
+                "correct": false
+              },
+              {
+                "text": "Record Sade's account and the verification task separately.",
+                "correct": true
+              }
+            ],
+            "rationale": "The person's report is relevant while its verification status stays visible."
+          },
+          {
+            "id": "SWP-039-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-039-M1-T3",
+            "question": "Which entry best supports a defensible record?",
+            "options": [
+              {
+                "text": "The person declined the appointment and reported a conflict with caring duties.",
+                "correct": true
+              },
+              {
+                "text": "The person was difficult and had a bad attitude.",
+                "correct": false
+              },
+              {
+                "text": "The person will never engage with services.",
+                "correct": false
+              },
+              {
+                "text": "The person's choice proves they do not need support.",
+                "correct": false
+              }
+            ],
+            "rationale": "Specific description avoids unsupported conclusions about character or future behaviour."
+          },
+          {
+            "id": "SWP-039-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-039-M1-T4",
+            "question": "A worker writes a note the day after a contact. What should be clear?",
+            "options": [
+              {
+                "text": "Only the earlier date so the record appears contemporaneous.",
+                "correct": false
+              },
+              {
+                "text": "The date of contact and the date the note was entered.",
+                "correct": true
+              },
+              {
+                "text": "A colleague's signature without identifying the actual author.",
+                "correct": false
+              },
+              {
+                "text": "No date because timing might cause questions.",
+                "correct": false
+              }
+            ],
+            "rationale": "Transparent timing preserves the history of the record."
+          },
+          {
+            "id": "SWP-039-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-039-M1-T5",
+            "question": "What follows from the documentation scoping review?",
+            "options": [
+              {
+                "text": "One template is proven appropriate for every social work setting.",
+                "correct": false
+              },
+              {
+                "text": "A large literature removes the need for local requirements.",
+                "correct": false
+              },
+              {
+                "text": "Consider the service domain and evidence limits when using a recording approach.",
+                "correct": true
+              },
+              {
+                "text": "Research-gap findings establish legal compliance.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review maps varied scholarship rather than certifying a universal recording form."
+          },
+          {
+            "id": "SWP-039-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-039-M2-T1",
+            "question": "A signed form is presented as authority for a new disclosure. What should be checked?",
+            "options": [
+              {
+                "text": "Only whether a signature appears anywhere in the file.",
+                "correct": false
+              },
+              {
+                "text": "Whether the recipient finds the information interesting.",
+                "correct": false
+              },
+              {
+                "text": "Whether copying the full file would be administratively convenient.",
+                "correct": false
+              },
+              {
+                "text": "Its scope, the person's understanding and the proposed purpose and recipient.",
+                "correct": true
+              }
+            ],
+            "rationale": "The actual information-use decision needs a defined scope and appropriate authority."
+          },
+          {
+            "id": "SWP-039-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-039-M2-T2",
+            "question": "A learner is unsure which basis permits processing in a Nigerian service. What should they do?",
+            "options": [
+              {
+                "text": "Use the organisation's data-protection or legal advice to check the applicable basis and conditions.",
+                "correct": true
+              },
+              {
+                "text": "Choose consent automatically for every activity without further assessment.",
+                "correct": false
+              },
+              {
+                "text": "Copy a basis from an overseas example without checking local requirements.",
+                "correct": false
+              },
+              {
+                "text": "Assume the form's existence resolves the question.",
+                "correct": false
+              }
+            ],
+            "rationale": "The applicable framework and context must inform the decision; a learner should not invent legal authority."
+          },
+          {
+            "id": "SWP-039-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-039-M2-T3",
+            "question": "A person agrees to an appointment but asks about a referral disclosure. What is appropriate?",
+            "options": [
+              {
+                "text": "Treat attendance as agreement to every future disclosure.",
+                "correct": false
+              },
+              {
+                "text": "Discuss the specific disclosure, its purpose and relevant conditions separately.",
+                "correct": true
+              },
+              {
+                "text": "Assume a question about disclosure means the person rejects all support.",
+                "correct": false
+              },
+              {
+                "text": "Avoid explaining the recipient because the service is helpful.",
+                "correct": false
+              }
+            ],
+            "rationale": "Agreement to a service does not remove the need to address a particular information use."
+          },
+          {
+            "id": "SWP-039-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-039-M2-T4",
+            "question": "A record collected for support planning is requested for a different purpose. What should happen?",
+            "options": [
+              {
+                "text": "Rely on the original collection decision without reviewing the change.",
+                "correct": false
+              },
+              {
+                "text": "Send everything because the organisation already holds it.",
+                "correct": false
+              },
+              {
+                "text": "Check the proposed purpose, basis and conditions before reusing it.",
+                "correct": true
+              },
+              {
+                "text": "Ask the recipient to determine all authority after receipt.",
+                "correct": false
+              }
+            ],
+            "rationale": "Purpose and authority should be checked before the new use, not assumed from possession."
+          },
+          {
+            "id": "SWP-039-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-039-M2-T5",
+            "question": "Once a justified referral purpose is established, what should the worker consider?",
+            "options": [
+              {
+                "text": "The largest possible file to avoid later requests.",
+                "correct": false
+              },
+              {
+                "text": "A personal account because it is easier to access.",
+                "correct": false
+              },
+              {
+                "text": "All historical details regardless of their relevance.",
+                "correct": false
+              },
+              {
+                "text": "The minimum relevant information, authorised sender and secure route.",
+                "correct": true
+              }
+            ],
+            "rationale": "A justified purpose still requires proportionate handling and secure delivery."
+          },
+          {
+            "id": "SWP-039-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-039-M3-T1",
+            "question": "A colleague requests a file unrelated to their role. What should the worker check?",
+            "options": [
+              {
+                "text": "The task, authority and appropriate access route before disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Whether the colleague works anywhere in the same organisation.",
+                "correct": false
+              },
+              {
+                "text": "Whether sharing the full file would be quicker.",
+                "correct": false
+              },
+              {
+                "text": "Whether the file has already been digitised.",
+                "correct": false
+              }
+            ],
+            "rationale": "Organisational membership alone does not establish a need for every record."
+          },
+          {
+            "id": "SWP-039-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-039-M3-T2",
+            "question": "Which retention statement is appropriate for a learner?",
+            "options": [
+              {
+                "text": "Use one fixed period for every service and type of record.",
+                "correct": false
+              },
+              {
+                "text": "Check the service's authorised schedule and applicable requirements.",
+                "correct": true
+              },
+              {
+                "text": "Keep all personal data indefinitely without a purpose review.",
+                "correct": false
+              },
+              {
+                "text": "Delete any record immediately whenever space is limited.",
+                "correct": false
+              }
+            ],
+            "rationale": "Retention must follow the relevant framework and service obligations."
+          },
+          {
+            "id": "SWP-039-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-039-M3-T3",
+            "question": "An existing note contains an incorrect date. What is the defensible response?",
+            "options": [
+              {
+                "text": "Silently replace the original without an amendment trail.",
+                "correct": false
+              },
+              {
+                "text": "Change the date to make the service performance look better.",
+                "correct": false
+              },
+              {
+                "text": "Use the authorised amendment process and preserve the relevant history.",
+                "correct": true
+              },
+              {
+                "text": "Ignore the error because an earlier note cannot be questioned.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accuracy and transparency should be addressed together."
+          },
+          {
+            "id": "SWP-039-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-039-M3-T4",
+            "question": "An AI draft adds an event that was not reported. What must the worker do?",
+            "options": [
+              {
+                "text": "Keep the event because fluent text is likely accurate.",
+                "correct": false
+              },
+              {
+                "text": "Treat the tool as responsible for the professional record.",
+                "correct": false
+              },
+              {
+                "text": "Send identifiable files to another unapproved tool for confirmation.",
+                "correct": false
+              },
+              {
+                "text": "Check the source information and correct the unsupported content through the appropriate process.",
+                "correct": true
+              }
+            ],
+            "rationale": "The worker retains responsibility for accuracy and confidentiality."
+          },
+          {
+            "id": "SWP-039-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-039-M3-T5",
+            "question": "A worker discovers that information went to the wrong recipient. What should happen?",
+            "options": [
+              {
+                "text": "Follow the incident process promptly and obtain appropriate advice.",
+                "correct": true
+              },
+              {
+                "text": "Hide the event if no complaint has arrived.",
+                "correct": false
+              },
+              {
+                "text": "Assume recalling an email removes every responsibility.",
+                "correct": false
+              },
+              {
+                "text": "Wait for the next routine record review regardless of the incident.",
+                "correct": false
+              }
+            ],
+            "rationale": "A prompt authorised response allows the service to assess and address the incident."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-040",
+      "title": "Referral Networks and Interprofessional Practice",
+      "slug": "referral-networks-and-interprofessional-practice",
+      "cover_title": "Referral Networks\nand Interprofessional\nPractice",
+      "school_code": "FSW",
+      "estimated_minutes": 180,
+      "audience": "Beginning social work learners applying generalist knowledge under appropriate supervision.",
+      "outcome": "Build a reviewable cross-sector referral arrangement with clear roles, accessible pathways and accountable follow-up.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Service ecosystems and referral readiness",
+          "outcome": "Check a service pathway against purpose, eligibility, capacity and the person's preferences.",
+          "paragraphs": [
+            "A referral network connects organisations and roles that contribute different forms of support. It may include public services, community organisations, disability advocates, education providers and livelihood programmes. Begin with the person's chosen goal rather than a list of institutions. Ask which contribution is needed, whether the person wants that support and whether another route is more suitable. A directory is a starting point for checking an option; the presence of a name in it does not prove that a service is available or appropriate. [S1, S2]",
+            "A useful directory records the service purpose, eligibility, geographic reach, access arrangements, fees if any, referral route, contact role and date of verification. Check capacity and waiting arrangements through an authorised contact before describing an option as available. A service may have changed its criteria or temporarily stopped receiving referrals. Keep sensitive information about individuals out of the directory. Assign responsibility for checking entries and recording corrections, so that an obsolete contact does not become a repeated barrier for everyone using the network. [S2]",
+            "Examine the pathway from the person's perspective. A technically eligible service can remain inaccessible because of transport, communication, opening hours, documentation requirements or cost. Ask which barrier matters in this situation and whether a reasonable adjustment or alternative route can be agreed. Do not promise admission on another organisation's behalf. The navigation umbrella review describes varied roles and arrangements across studies; it does not establish one model that will work in every setting. Use it to ask practical questions about local access and responsibility. [R3]",
+            "Network work differs from taking over every task in a person's case. A worker can improve the shared route while an identified practitioner remains responsible for the individual support plan. Discuss the proposed route with the person, explain what remains uncertain and agree the next contact. If a directory entry fails a check, record the specific issue and notify the responsible role through the approved process. Immediate safeguarding concerns require the relevant response procedure rather than waiting for a routine network update. [S1, S2]"
+          ],
+          "example": "Fictional case: a learner finds a livelihood service in an old directory. The current contact confirms a waiting list and a changed document requirement. The worker checks the person's preferred option and discusses an accessible alternative rather than promising immediate admission.",
+          "activity": "Draft a directory entry for a fictional service. Include eligibility, access, capacity status, verification date and update owner. Identify one question to discuss with the person before referral.",
+          "feedback": "A strong entry distinguishes confirmed information from an unresolved condition. It records who will update the route and avoids promising another service's decision.",
+          "sources": [
+            "S1",
+            "S2",
+            "R3"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Roles handovers and shared accountability",
+          "outcome": "Agree a bounded interprofessional handover with a named receiving role and clear follow-up.",
+          "paragraphs": [
+            "Interprofessional practice requires more than copying several organisations into a message. Participants need to understand the purpose of collaboration, their own contribution and the limits of their authority. Identify which role coordinates the next step, which service makes an eligibility decision and who will communicate with the person. Avoid transferring responsibility through an unexplained phrase such as 'referred on'. A referral can be sent without being received, understood or accepted. Record these stages separately and agree what will happen if the receiving role cannot respond. [S2]",
+            "Before a handover, check the applicable information-sharing authority and the person's understanding through the approved process. Share the relevant information needed for the justified purpose using an authorised route. A handover summary can state the person's goal, relevant context, agreed request, immediate concerns and the contact responsible for clarification. Do not include an entire file simply because it is available. Where different services use different terms, explain the meaning rather than assume that a shared word represents the same assessment or decision. [S1, S2]",
+            "Professional mandates can overlap or conflict. A worker may face an institutional deadline while a person needs time to consider options. Discuss the actual tension, the relevant duties and the decision that each role can make. The German rehabilitation study examines such mandate tensions in a particular health setting. It offers a lens for reflection, not a tested solution for every Nigerian cross-sector partnership. Ask what requires consultation, which decision must be escalated and how the person's account will remain visible in a joint discussion. [R2]",
+            "A useful handover closes the communication loop. Confirm receipt and the next responsible role, explain the agreed next step to the person and set a review date. If no response arrives, follow the escalation route rather than treating silence as acceptance. Keep a proportionate record of the request, response and outstanding work. This course addresses service relationships across sectors; the healthcare collaboration course examines team practice within health settings, while generalist case management addresses the person's overall support plan. These activities can support one another without becoming interchangeable. [S2, S1]"
+          ],
+          "example": "Fictional case: a housing worker sends an agreed referral to a training provider. The provider confirms receipt but needs a separate eligibility decision. The two roles identify who will contact the person, when a decision is expected and how an unanswered request will be escalated.",
+          "activity": "Write a short handover agreement. State the request, relevant information, receiving role, decision owner, response date and fallback if the referral is not accepted.",
+          "feedback": "Receipt and acceptance should be distinct. A good agreement makes responsibilities and the person's next contact clear, with an authorised information-sharing route.",
+          "sources": [
+            "S2",
+            "S1",
+            "R2"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Network review and access improvement",
+          "outcome": "Use proportionate pathway data and participant feedback to identify a specific improvement without overstating causation.",
+          "paragraphs": [
+            "A network should review whether its arrangements help people reach the intended support. Start with a clear question, such as whether referrals are acknowledged or whether a document requirement prevents access. Choose a small set of measures that match that question. Counts of referrals sent, acknowledgements received, decisions made and services reached describe different stages. They should not be combined into a single success total without explaining the definitions. A large number sent may coexist with long waits or low service uptake. [S2, R3]",
+            "Ask for the person's experience as well as administrative counts. They may describe unclear instructions, repeated storytelling, inaccessible communication or an option that did not fit their priorities. Gather this information through an approved and proportionate process, with attention to confidentiality and the burden of participation. Avoid displaying identifiable case details in a shared network report. Differences between groups may indicate a barrier worth investigating, but small numbers, missing responses and changing eligibility can affect what a comparison means. Record those limitations alongside the finding. [S1, S2]",
+            "Select an improvement that responds to a verified problem. If a referral form repeatedly omits a necessary access preference, the network could clarify the form and the receiving role's response process. Agree who will change the arrangement, what evidence will show whether the change is useful and when it will be reviewed. The IJSDS institutional-corruption paper offers a contextual discussion of accountability and institutional barriers, not a causal evaluation of a referral reform. Do not convert a conceptual framework or a before-and-after count into proof of effectiveness. [R5, R3]",
+            "Keep an honest account of outcomes and unresolved work. A change in uptake may reflect the network adjustment, seasonal demand, staffing, transport or another influence. Ask what alternative explanations remain and whether the person reports a meaningful improvement. Retain a route for complaints and corrections, including feedback that challenges the network's preferred account. Document what will be continued, revised or stopped through the authorised process. Network learning should improve shared access while keeping responsibility for individual support and urgent concerns with the appropriate practitioner or service. [S1, S2]"
+          ],
+          "example": "Fictional case: a network sends more referrals after revising its form, but service uptake is unchanged. Feedback suggests that appointment hours still conflict with caring responsibilities. The review separates referral volume from access and agrees a focused discussion with the receiving service.",
+          "activity": "Propose three pathway measures, one feedback question and a review date. Explain one alternative reason why an improvement in uptake would not by itself prove that the new form caused the change.",
+          "feedback": "Strong reviews distinguish stages, include the person's experience and acknowledge competing explanations. An improvement plan has an owner and a measurable review question.",
+          "sources": [
+            "S2",
+            "S1",
+            "R3",
+            "R5"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-040",
+        "course_slug": "referral-networks-and-interprofessional-practice",
+        "title": "Referral Networks and Interprofessional Practice",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "e0bd82138555b5d8fcfa9e6047b443a5b9239fb2aa30ca205110b9832ec63646",
+        "catalogue_sha256": "24d003c8e1e9e31e33453e49627348cd606677ad5474f5f7e05da4985fb8e132",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Service ecosystems and referral readiness",
+            "outcome": "Check a service pathway against purpose, eligibility, capacity and the person's preferences.",
+            "teaching_points": [
+              {
+                "id": "SWP-040-M1-T1",
+                "text": "The person's goal guides the service search."
+              },
+              {
+                "id": "SWP-040-M1-T2",
+                "text": "Directory entries require current verification."
+              },
+              {
+                "id": "SWP-040-M1-T3",
+                "text": "Eligibility and practical accessibility are different questions."
+              },
+              {
+                "id": "SWP-040-M1-T4",
+                "text": "A network needs an owner for directory updates."
+              },
+              {
+                "id": "SWP-040-M1-T5",
+                "text": "Navigation evidence does not establish one universally effective model."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Roles handovers and shared accountability",
+            "outcome": "Agree a bounded interprofessional handover with a named receiving role and clear follow-up.",
+            "teaching_points": [
+              {
+                "id": "SWP-040-M2-T1",
+                "text": "Sending a referral does not prove acceptance."
+              },
+              {
+                "id": "SWP-040-M2-T2",
+                "text": "Handover information follows a justified purpose and authorised route."
+              },
+              {
+                "id": "SWP-040-M2-T3",
+                "text": "Roles and decision authority should be explicit."
+              },
+              {
+                "id": "SWP-040-M2-T4",
+                "text": "Mandate tensions require contextual consultation."
+              },
+              {
+                "id": "SWP-040-M2-T5",
+                "text": "An unanswered handover requires an agreed fallback."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Network review and access improvement",
+            "outcome": "Use proportionate pathway data and participant feedback to identify a specific improvement without overstating causation.",
+            "teaching_points": [
+              {
+                "id": "SWP-040-M3-T1",
+                "text": "Referral volume and service access are different measures."
+              },
+              {
+                "id": "SWP-040-M3-T2",
+                "text": "Participant feedback complements pathway counts."
+              },
+              {
+                "id": "SWP-040-M3-T3",
+                "text": "Small samples and missing responses limit comparisons."
+              },
+              {
+                "id": "SWP-040-M3-T4",
+                "text": "An improvement plan needs ownership and a review question."
+              },
+              {
+                "id": "SWP-040-M3-T5",
+                "text": "Before-and-after observations do not establish causation alone."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-040-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-040-M1-T1",
+            "question": "Several organisations offer different support. What should guide the first referral discussion?",
+            "options": [
+              {
+                "text": "The organisation with the most familiar name.",
+                "correct": false
+              },
+              {
+                "text": "The first contact listed regardless of service purpose.",
+                "correct": false
+              },
+              {
+                "text": "The person's goal, preferences and the contribution actually needed.",
+                "correct": true
+              },
+              {
+                "text": "A requirement to use every available organisation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Service matching begins with the purpose and the person's participation."
+          },
+          {
+            "id": "SWP-040-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-040-M1-T2",
+            "question": "An old directory lists a service as open. What should the worker do before promising access?",
+            "options": [
+              {
+                "text": "Assume the printed entry remains accurate.",
+                "correct": false
+              },
+              {
+                "text": "Promise a place because the organisation previously accepted referrals.",
+                "correct": false
+              },
+              {
+                "text": "Remove the person's choice to make the referral faster.",
+                "correct": false
+              },
+              {
+                "text": "Check its current eligibility, capacity and referral arrangements.",
+                "correct": true
+              }
+            ],
+            "rationale": "A directory identifies an option, not a guaranteed place."
+          },
+          {
+            "id": "SWP-040-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-040-M1-T3",
+            "question": "A person meets a service's criteria but cannot use its transport route. What needs attention?",
+            "options": [
+              {
+                "text": "The access barrier and possible adjustments or alternatives.",
+                "correct": true
+              },
+              {
+                "text": "Eligibility alone as proof that access is solved.",
+                "correct": false
+              },
+              {
+                "text": "The assumption that the person has rejected support.",
+                "correct": false
+              },
+              {
+                "text": "An admission promise without discussing travel.",
+                "correct": false
+              }
+            ],
+            "rationale": "Meeting formal criteria does not remove practical barriers."
+          },
+          {
+            "id": "SWP-040-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-040-M1-T4",
+            "question": "The same incorrect contact repeatedly blocks referrals. Which change addresses the shared problem?",
+            "options": [
+              {
+                "text": "Ask each person to discover the error independently.",
+                "correct": false
+              },
+              {
+                "text": "Assign an update owner and a dated verification process.",
+                "correct": true
+              },
+              {
+                "text": "Keep the entry unchanged because it was once correct.",
+                "correct": false
+              },
+              {
+                "text": "Store private case histories in the public directory.",
+                "correct": false
+              }
+            ],
+            "rationale": "Shared maintenance prevents an obsolete entry being repeatedly relied on."
+          },
+          {
+            "id": "SWP-040-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-040-M1-T5",
+            "question": "What can the navigation umbrella review support when designing a local pathway?",
+            "options": [
+              {
+                "text": "A guarantee that one arrangement works everywhere.",
+                "correct": false
+              },
+              {
+                "text": "Proof that a listed service has current capacity.",
+                "correct": false
+              },
+              {
+                "text": "Questions about roles, context and access that need local checking.",
+                "correct": true
+              },
+              {
+                "text": "Permission to skip the person's preferences.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review describes varied evidence and arrangements, requiring contextual judgement."
+          },
+          {
+            "id": "SWP-040-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-040-M2-T1",
+            "question": "A message has been sent but no response received. Which status is accurate?",
+            "options": [
+              {
+                "text": "Accepted because the sender completed the form.",
+                "correct": false
+              },
+              {
+                "text": "Completed because another service was named.",
+                "correct": false
+              },
+              {
+                "text": "Rejected because no immediate answer arrived.",
+                "correct": false
+              },
+              {
+                "text": "Sent, with receipt and acceptance still unconfirmed.",
+                "correct": true
+              }
+            ],
+            "rationale": "Each stage needs its own evidence and follow-up."
+          },
+          {
+            "id": "SWP-040-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-040-M2-T2",
+            "question": "What should determine the information in an interagency handover?",
+            "options": [
+              {
+                "text": "The relevant request, applicable authority and minimum information needed.",
+                "correct": true
+              },
+              {
+                "text": "Every detail held by the sending service.",
+                "correct": false
+              },
+              {
+                "text": "A recipient's general interest in the file.",
+                "correct": false
+              },
+              {
+                "text": "Whatever can be sent fastest through a personal account.",
+                "correct": false
+              }
+            ],
+            "rationale": "Collaboration does not remove confidentiality or proportionate information handling."
+          },
+          {
+            "id": "SWP-040-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-040-M2-T3",
+            "question": "Two services each expect the other to contact the person. What should be agreed?",
+            "options": [
+              {
+                "text": "A general statement that the network will manage it.",
+                "correct": false
+              },
+              {
+                "text": "A named contact role, next action and review date.",
+                "correct": true
+              },
+              {
+                "text": "A duplicate referral with no responsibility discussion.",
+                "correct": false
+              },
+              {
+                "text": "Silence until the person asks again.",
+                "correct": false
+              }
+            ],
+            "rationale": "Explicit ownership reduces gaps between organisations."
+          },
+          {
+            "id": "SWP-040-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-040-M2-T4",
+            "question": "An institutional deadline conflicts with a person's need to consider options. What is appropriate?",
+            "options": [
+              {
+                "text": "Assume the institutional deadline removes the person's voice.",
+                "correct": false
+              },
+              {
+                "text": "Treat one overseas study as a universal resolution.",
+                "correct": false
+              },
+              {
+                "text": "Identify the duties and decision authority and seek timely consultation.",
+                "correct": true
+              },
+              {
+                "text": "Ignore every deadline without checking its basis.",
+                "correct": false
+              }
+            ],
+            "rationale": "The tension requires a reasoned local decision and a visible account of participation."
+          },
+          {
+            "id": "SWP-040-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-040-M2-T5",
+            "question": "A receiving role misses the agreed response date. What should the sending worker use?",
+            "options": [
+              {
+                "text": "An assumption that silence means consent.",
+                "correct": false
+              },
+              {
+                "text": "A completed-case label regardless of the person's position.",
+                "correct": false
+              },
+              {
+                "text": "Unrestricted distribution of the file to find any response.",
+                "correct": false
+              },
+              {
+                "text": "The documented follow-up and escalation arrangement.",
+                "correct": true
+              }
+            ],
+            "rationale": "A closed communication loop includes a way to handle non-response."
+          },
+          {
+            "id": "SWP-040-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-040-M3-T1",
+            "question": "A network sends more referrals but uptake is unchanged. Which conclusion is justified?",
+            "options": [
+              {
+                "text": "Referral activity increased while access needs further investigation.",
+                "correct": true
+              },
+              {
+                "text": "Every extra referral represents successful support.",
+                "correct": false
+              },
+              {
+                "text": "The new form necessarily caused improved wellbeing.",
+                "correct": false
+              },
+              {
+                "text": "Administrative volume makes participant feedback unnecessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "The stages answer different questions and should not be conflated."
+          },
+          {
+            "id": "SWP-040-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-040-M3-T2",
+            "question": "Counts show timely acknowledgements but people report confusing instructions. What should the review do?",
+            "options": [
+              {
+                "text": "Discard the feedback because acknowledgement was timely.",
+                "correct": false
+              },
+              {
+                "text": "Examine the reported experience alongside the administrative measures.",
+                "correct": true
+              },
+              {
+                "text": "Assume all people experienced the same problem.",
+                "correct": false
+              },
+              {
+                "text": "Publish identifiable complaints to demonstrate openness.",
+                "correct": false
+              }
+            ],
+            "rationale": "Counts do not capture every relevant aspect of access or experience."
+          },
+          {
+            "id": "SWP-040-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-040-M3-T3",
+            "question": "Only a few people answer a pathway survey. How should its findings be reported?",
+            "options": [
+              {
+                "text": "As a complete account of every network user.",
+                "correct": false
+              },
+              {
+                "text": "Without mentioning non-response.",
+                "correct": false
+              },
+              {
+                "text": "With the response coverage and limits visible.",
+                "correct": true
+              },
+              {
+                "text": "As proof of a population-wide causal effect.",
+                "correct": false
+              }
+            ],
+            "rationale": "Evidence coverage affects the strength of the conclusion."
+          },
+          {
+            "id": "SWP-040-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-040-M3-T4",
+            "question": "A recurring form problem has been verified. Which next step is most useful?",
+            "options": [
+              {
+                "text": "Issue a general request for everyone to collaborate better.",
+                "correct": false
+              },
+              {
+                "text": "Declare success before implementing a change.",
+                "correct": false
+              },
+              {
+                "text": "Remove every measurement to avoid disagreement.",
+                "correct": false
+              },
+              {
+                "text": "Agree an owner, a specific change and a way to review its usefulness.",
+                "correct": true
+              }
+            ],
+            "rationale": "An actionable change can be followed through and assessed."
+          },
+          {
+            "id": "SWP-040-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-040-M3-T5",
+            "question": "Uptake improves after a network change. What should the report consider?",
+            "options": [
+              {
+                "text": "Other changes and limitations before attributing the improvement.",
+                "correct": true
+              },
+              {
+                "text": "The timing as complete proof of causation.",
+                "correct": false
+              },
+              {
+                "text": "Only evidence that supports the preferred explanation.",
+                "correct": false
+              },
+              {
+                "text": "The conceptual paper as a trial of this local change.",
+                "correct": false
+              }
+            ],
+            "rationale": "Alternative explanations remain relevant when no causal design isolates the effect."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-041",
+      "title": "Reflective Practice Boundaries and Supervision",
+      "slug": "reflective-practice-boundaries-and-supervision",
+      "cover_title": "Reflective Practice\nBoundaries and Supervision",
+      "school_code": "FSW",
+      "estimated_minutes": 180,
+      "audience": "Beginning social work learners applying generalist knowledge under appropriate supervision.",
+      "outcome": "Use structured reflection and supervision to examine judgement, maintain professional boundaries and agree a reviewable learning action.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Structured reflection and accountable judgement",
+          "outcome": "Separate description, interpretation and learning when reviewing a practice decision.",
+          "paragraphs": [
+            "Reflection examines how a decision was made and what could improve future practice. It begins with a specific situation rather than a general judgement that a worker is good or bad. Describe the relevant event, the person's account, the action taken and what was known at the time. Then distinguish observation from interpretation and hindsight. A later outcome may reveal a learning need without proving that every earlier uncertainty could have been resolved. Use a fictional or appropriately de-identified account in learning settings. [S1, S3]",
+            "Ask which assumptions shaped attention and whose perspective was missing. A worker may interpret a missed appointment as unwillingness while overlooking cost, fear, an inaccessible message or an error in the service's timetable. Reflection should open these possibilities to checking rather than replace one unsupported explanation with another. Consider how power, identity and organisational expectations influenced the interaction. Seek the person's view where appropriate through an approved process. A reflective account remains accountable for actions while recognising that institutional conditions can constrain the options available. [S1, S3]",
+            "A structured note can move through description, interpretation, alternative explanations, relevant duties and a next learning action. Include evidence that challenges the preferred explanation. Identify a question for supervision rather than attempting to solve every dilemma alone. The moral-distress review describes professional and organisational tensions across settings outside Nigeria. It helps frame questions about ethical strain; its qualitative synthesis does not diagnose a particular worker or prove that one reflective exercise will prevent distress. Keep individual learning and organisational responsibility visible together. [R1]",
+            "Finish with a practical action that can be revisited. This may involve checking a policy, practising an explanation, seeking feedback or escalating an access problem to the appropriate role. State who will act and when the learning will be reviewed. Reflection is not a substitute for reporting an urgent concern, correcting an inaccurate record or following an incident procedure. If the review reveals a current risk or duty requiring action, use the relevant response route promptly. An eloquent reflective note cannot replace the necessary practical response. [S1, S3]"
+          ],
+          "example": "Fictional case: a worker initially describes missed appointments as disengagement. A review finds that the service sent instructions in an inaccessible format. The worker separates the initial assumption from the evidence and agrees to check communication preferences before the next contact.",
+          "activity": "Write a five-part reflective note: event, interpretation, alternative explanation, duty or uncertainty, and a specific learning action with a review date.",
+          "feedback": "A strong note challenges an assumption without inventing a new fact. It links reflection to action and identifies any issue that requires immediate reporting or consultation.",
+          "sources": [
+            "S1",
+            "S3",
+            "R1"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Supervision agreements and professional boundaries",
+          "outcome": "Prepare a supervision question and recognise when boundary concerns require authorised advice or escalation.",
+          "paragraphs": [
+            "Supervision provides a structured opportunity to review practice, responsibilities and development with an authorised supervisor. Clarify its purpose, frequency, record arrangements, confidentiality limits and escalation routes. Different settings may combine supportive, educational and managerial functions in different ways. A peer conversation can be helpful without carrying the authority of formal supervision. Confirm who can make a decision, approve an action or address an employment concern. Do not assume that a discussion group fulfils every supervision requirement simply because participants find it supportive. [S3, R7]",
+            "Prepare a focused agenda rather than an unfiltered case history. State the decision or uncertainty, relevant facts, the person's priorities, steps already taken and the advice sought. Share sensitive information only through the authorised arrangement. Ask the supervisor to distinguish guidance from a decision that they are responsible for making. Record the agreed action, owner and review point through the approved process. Where advice conflicts with a duty or a serious concern remains unresolved, use the relevant escalation route and retain a proportionate account of the issue. [S1, S3]",
+            "Professional boundaries help maintain a relationship directed toward the person's legitimate service needs. A gift, private contact request, financial request or overlapping community relationship may require careful discussion rather than an impulsive promise or a universal rule invented by the learner. Identify the power imbalance, potential conflict, applicable policy and effect on the person. Seek timely supervision before acting when possible. Avoid using the relationship for personal benefit, exposing confidential information or making contact through an unapproved private channel merely because it feels friendly. [S1]",
+            "Supervision must remain connected to the actual concern. If a person reports harm, the response may require safeguarding, complaints or another authorised process alongside learning support. A group cannot promise absolute secrecy where relevant duties apply. The reflective-group review maps diverse interventions and mostly qualitative evidence; it does not prove that one group format supplies formal oversight or solves retention problems. Use that evidence to ask about facilitation, psychological safety, accountability and evaluation, while checking the organisation's supervision arrangements and the person's protection needs. [R7, S1]"
+          ],
+          "example": "Fictional case: a person asks a worker to become a private paid adviser outside the service. The worker does not make an immediate promise. They explain that the request needs an authorised boundary and conflict review and bring a focused question to supervision.",
+          "activity": "Prepare a supervision agenda for the case. Include the decision needed, relevant policy question, potential conflict, information-sharing limits and an action route if the concern remains unresolved.",
+          "feedback": "A useful agenda identifies the authority needed and the risk of personal benefit or conflicting roles. A supportive discussion alone does not establish approval for an outside arrangement.",
+          "sources": [
+            "S3",
+            "R7",
+            "S1"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Feedback learning and organisational follow-through",
+          "outcome": "Turn feedback into a bounded improvement and distinguish supportive claims from evidence of effectiveness.",
+          "paragraphs": [
+            "Feedback can come from the person receiving support, a supervisor, a colleague or a structured review. Ask about a specific behaviour or decision so that the response can guide action. Invite correction without pressuring someone to praise the service or disclose more than they wish. Clarify how feedback will be used and what route exists for a complaint or a concern requiring a formal response. A learner should not treat a person's participation in feedback as agreement with every decision made about their support. [S1, S3]",
+            "Respond by checking the meaning of the feedback and separating it from a global judgement about competence. Ask what happened, what effect was reported and which part can be changed. If accounts differ, retain the distinction and seek appropriate clarification rather than choosing the most flattering version. Agree a practice change within the worker's authority and identify issues needing organisational action. The professional-mandate study highlights tensions between client, professional and institutional expectations in German rehabilitation. It supports contextual questioning rather than a universal explanation of every disagreement. [R2]",
+            "A learning plan should state the skill or issue, the practice activity, the source of support and the evidence for review. For example, a worker might rehearse an accessible explanation, use it in an appropriate setting and seek feedback on whether the next step was understood. Do not claim that confidence alone establishes competence or that one positive comment proves improved outcomes. Where a planned change affects people or records, use the authorised process and supervision. Keep the review proportionate and avoid collecting unnecessary personal information for a learning exercise. [S1, S3]",
+            "Organisational follow-through matters when recurring barriers exceed one worker's authority. Record the issue through the relevant route, identify the role able to respond and agree when the concern will be reviewed. A supportive reflective group may provide learning opportunities, but the scoping review found limited evidence on retention and cost-effectiveness. Do not sell reflection as a proven remedy for staffing shortages or unsafe conditions. Review whether the intended practice action occurred, what changed and what remains uncertain, while preserving space for feedback that challenges the preferred conclusion. [R7, R1]"
+          ],
+          "example": "Fictional case: feedback says that a worker explained options clearly but the appointment letter remained inaccessible. The learning plan includes a communication rehearsal and a request to the authorised role to review the letter format. Confidence and service access are reviewed separately.",
+          "activity": "Write a learning plan with one individual skill action and one organisational issue. Give an owner, review evidence, date and a limit on what a positive result would establish.",
+          "feedback": "A strong plan distinguishes the worker's authority from an organisational change and uses specific review evidence. It does not infer overall competence or causal impact from confidence alone.",
+          "sources": [
+            "S1",
+            "S3",
+            "R2",
+            "R7",
+            "R1"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-041",
+        "course_slug": "reflective-practice-boundaries-and-supervision",
+        "title": "Reflective Practice Boundaries and Supervision",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "6af370d46b06bb75333618d7cf67212d2fd5bdd4099bc31d2f86ae5101f626aa",
+        "catalogue_sha256": "fc0a468d9e80534d8016acaa66bc92884ae0c7cd24d663b8e3b600fdf7ebd066",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Structured reflection and accountable judgement",
+            "outcome": "Separate description, interpretation and learning when reviewing a practice decision.",
+            "teaching_points": [
+              {
+                "id": "SWP-041-M1-T1",
+                "text": "Reflection separates description from interpretation."
+              },
+              {
+                "id": "SWP-041-M1-T2",
+                "text": "Alternative explanations need checking rather than automatic acceptance."
+              },
+              {
+                "id": "SWP-041-M1-T3",
+                "text": "Power and organisational context can shape judgement."
+              },
+              {
+                "id": "SWP-041-M1-T4",
+                "text": "A learning action should be specific and reviewable."
+              },
+              {
+                "id": "SWP-041-M1-T5",
+                "text": "Reflection does not replace an urgent response duty."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Supervision agreements and professional boundaries",
+            "outcome": "Prepare a supervision question and recognise when boundary concerns require authorised advice or escalation.",
+            "teaching_points": [
+              {
+                "id": "SWP-041-M2-T1",
+                "text": "Supportive peer discussion and authorised supervision have different functions."
+              },
+              {
+                "id": "SWP-041-M2-T2",
+                "text": "A supervision agenda identifies a specific decision or uncertainty."
+              },
+              {
+                "id": "SWP-041-M2-T3",
+                "text": "Boundary decisions require policy and conflict review."
+              },
+              {
+                "id": "SWP-041-M2-T4",
+                "text": "Confidentiality in supervision has relevant limits."
+              },
+              {
+                "id": "SWP-041-M2-T5",
+                "text": "Unresolved serious concerns require an escalation route."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Feedback learning and organisational follow-through",
+            "outcome": "Turn feedback into a bounded improvement and distinguish supportive claims from evidence of effectiveness.",
+            "teaching_points": [
+              {
+                "id": "SWP-041-M3-T1",
+                "text": "Specific feedback is more actionable than a global label."
+              },
+              {
+                "id": "SWP-041-M3-T2",
+                "text": "Feedback participation does not equal agreement with every decision."
+              },
+              {
+                "id": "SWP-041-M3-T3",
+                "text": "Confidence alone is not evidence of competence or outcomes."
+              },
+              {
+                "id": "SWP-041-M3-T4",
+                "text": "Learning plans distinguish individual and organisational authority."
+              },
+              {
+                "id": "SWP-041-M3-T5",
+                "text": "Reflective-group evidence does not prove a remedy for staffing problems."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-041-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-041-M1-T1",
+            "question": "A worker reviews a missed appointment. Which entry is descriptive?",
+            "options": [
+              {
+                "text": "The person is uninterested in all support.",
+                "correct": false
+              },
+              {
+                "text": "The missed visit proves that the service is ineffective.",
+                "correct": false
+              },
+              {
+                "text": "The appointment was missed and the reason has not yet been established.",
+                "correct": true
+              },
+              {
+                "text": "The worker must have known every barrier in advance.",
+                "correct": false
+              }
+            ],
+            "rationale": "A descriptive starting point keeps unverified explanations separate."
+          },
+          {
+            "id": "SWP-041-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-041-M1-T2",
+            "question": "Reflection suggests that transport may explain an absence. What should happen next?",
+            "options": [
+              {
+                "text": "Replace the original assumption with transport as a confirmed fact.",
+                "correct": false
+              },
+              {
+                "text": "Avoid asking because reflection already established the cause.",
+                "correct": false
+              },
+              {
+                "text": "Remove the person's account from the review.",
+                "correct": false
+              },
+              {
+                "text": "Check the possibility with the person and relevant information.",
+                "correct": true
+              }
+            ],
+            "rationale": "A plausible explanation remains a hypothesis until appropriately examined."
+          },
+          {
+            "id": "SWP-041-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-041-M1-T3",
+            "question": "A review focuses only on a worker's attitude while a service barrier remains. What should be added?",
+            "options": [
+              {
+                "text": "An examination of the barrier and the roles able to address it.",
+                "correct": true
+              },
+              {
+                "text": "A claim that organisational context removes all individual responsibility.",
+                "correct": false
+              },
+              {
+                "text": "A conclusion that only personal resilience matters.",
+                "correct": false
+              },
+              {
+                "text": "A diagnosis of every worker from the same event.",
+                "correct": false
+              }
+            ],
+            "rationale": "Individual accountability and organisational conditions can both matter."
+          },
+          {
+            "id": "SWP-041-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-041-M1-T4",
+            "question": "Which reflective conclusion provides a clear next step?",
+            "options": [
+              {
+                "text": "Try to be better at everything.",
+                "correct": false
+              },
+              {
+                "text": "Check communication preferences at the next contact and review this with the supervisor.",
+                "correct": true
+              },
+              {
+                "text": "Avoid all future uncertainty.",
+                "correct": false
+              },
+              {
+                "text": "Assume the written reflection completes every duty.",
+                "correct": false
+              }
+            ],
+            "rationale": "A defined action makes follow-through possible."
+          },
+          {
+            "id": "SWP-041-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-041-M1-T5",
+            "question": "A reflective discussion reveals an immediate concern requiring the service's response procedure. What is appropriate?",
+            "options": [
+              {
+                "text": "Wait for the next group meeting before taking any action.",
+                "correct": false
+              },
+              {
+                "text": "Treat a reflective paragraph as an incident response.",
+                "correct": false
+              },
+              {
+                "text": "Use that procedure promptly while arranging subsequent reflection.",
+                "correct": true
+              },
+              {
+                "text": "Keep the concern within a learning journal only.",
+                "correct": false
+              }
+            ],
+            "rationale": "Urgent responsibilities require the relevant action route."
+          },
+          {
+            "id": "SWP-041-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-041-M2-T1",
+            "question": "A peer group provides emotional support. What must still be checked?",
+            "options": [
+              {
+                "text": "Whether feeling supported automatically fulfils every supervision requirement.",
+                "correct": false
+              },
+              {
+                "text": "Whether peers can approve any action without an assigned role.",
+                "correct": false
+              },
+              {
+                "text": "Whether group membership removes professional accountability.",
+                "correct": false
+              },
+              {
+                "text": "Whether formal oversight and required decision authority are provided elsewhere.",
+                "correct": true
+              }
+            ],
+            "rationale": "Support does not by itself confer managerial or professional authority."
+          },
+          {
+            "id": "SWP-041-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-041-M2-T2",
+            "question": "Which preparation best supports a focused supervision session?",
+            "options": [
+              {
+                "text": "Relevant facts, the person's priorities and the advice or decision sought.",
+                "correct": true
+              },
+              {
+                "text": "An unrestricted file copy with no review question.",
+                "correct": false
+              },
+              {
+                "text": "Only a request for reassurance without identifying the concern.",
+                "correct": false
+              },
+              {
+                "text": "A final decision disguised as a request that cannot be challenged.",
+                "correct": false
+              }
+            ],
+            "rationale": "A clear question helps the supervisor address the actual need."
+          },
+          {
+            "id": "SWP-041-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-041-M2-T3",
+            "question": "A service user proposes a private paid arrangement with the worker. What should the worker do?",
+            "options": [
+              {
+                "text": "Accept because the person made the request voluntarily.",
+                "correct": false
+              },
+              {
+                "text": "Seek authorised advice about boundaries and conflicts before agreeing.",
+                "correct": true
+              },
+              {
+                "text": "Assume payment is acceptable whenever it is small.",
+                "correct": false
+              },
+              {
+                "text": "Use a private channel to avoid the service's review process.",
+                "correct": false
+              }
+            ],
+            "rationale": "A request can still create a conflict or inappropriate personal benefit."
+          },
+          {
+            "id": "SWP-041-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-041-M2-T4",
+            "question": "A learning group is asked to promise absolute secrecy about every disclosure. What is appropriate?",
+            "options": [
+              {
+                "text": "Promise secrecy even where duties require action.",
+                "correct": false
+              },
+              {
+                "text": "Share all case details outside the group without authority.",
+                "correct": false
+              },
+              {
+                "text": "Explain the agreed confidentiality arrangements and relevant reporting limits.",
+                "correct": true
+              },
+              {
+                "text": "Assume calling it reflection removes every duty.",
+                "correct": false
+              }
+            ],
+            "rationale": "The learning setting does not erase applicable protection and reporting responsibilities."
+          },
+          {
+            "id": "SWP-041-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-041-M2-T5",
+            "question": "A supervision discussion leaves a serious duty-related concern unresolved. What should the worker use?",
+            "options": [
+              {
+                "text": "Silence because supervision occurred once.",
+                "correct": false
+              },
+              {
+                "text": "A personal public post containing case details.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that attendance transfers all responsibility.",
+                "correct": false
+              },
+              {
+                "text": "The relevant authorised escalation process with a proportionate record.",
+                "correct": true
+              }
+            ],
+            "rationale": "Supervision supports judgement but does not remove the need for appropriate escalation."
+          },
+          {
+            "id": "SWP-041-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-041-M3-T1",
+            "question": "Which feedback request best supports learning about an explanation?",
+            "options": [
+              {
+                "text": "Which part of the next step was clear and which part needed clarification?",
+                "correct": true
+              },
+              {
+                "text": "Would you describe the worker as perfect?",
+                "correct": false
+              },
+              {
+                "text": "Can you confirm that every service decision was correct?",
+                "correct": false
+              },
+              {
+                "text": "Will you avoid mentioning problems in the review?",
+                "correct": false
+              }
+            ],
+            "rationale": "A focused question invites useful detail without demanding praise."
+          },
+          {
+            "id": "SWP-041-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-041-M3-T2",
+            "question": "A person answers a feedback question but disputes the support plan. What should the worker recognise?",
+            "options": [
+              {
+                "text": "Answering the survey means the plan is accepted.",
+                "correct": false
+              },
+              {
+                "text": "Their feedback and disagreement can both be recorded and addressed.",
+                "correct": true
+              },
+              {
+                "text": "Disagreement makes all feedback invalid.",
+                "correct": false
+              },
+              {
+                "text": "Only positive comments belong in the record.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation does not surrender the person's ability to challenge a decision."
+          },
+          {
+            "id": "SWP-041-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-041-M3-T3",
+            "question": "A worker feels more confident after a reflective session. What can be concluded?",
+            "options": [
+              {
+                "text": "Every practice skill is now independently verified.",
+                "correct": false
+              },
+              {
+                "text": "Service-user outcomes necessarily improved.",
+                "correct": false
+              },
+              {
+                "text": "Confidence changed; practice and outcome claims need appropriate evidence.",
+                "correct": true
+              },
+              {
+                "text": "No further supervision can be needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "A self-report of confidence answers a narrower question than competence or effect."
+          },
+          {
+            "id": "SWP-041-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-041-M3-T4",
+            "question": "An inaccessible standard letter exceeds a learner's authority to redesign. What should the plan include?",
+            "options": [
+              {
+                "text": "A promise to change every organisational process alone.",
+                "correct": false
+              },
+              {
+                "text": "Only a personal attitude goal while ignoring the recurring barrier.",
+                "correct": false
+              },
+              {
+                "text": "An unapproved change to every live record.",
+                "correct": false
+              },
+              {
+                "text": "A relevant skill action and a referral of the letter issue to the authorised role.",
+                "correct": true
+              }
+            ],
+            "rationale": "A bounded plan links individual learning to the role able to address a systemic issue."
+          },
+          {
+            "id": "SWP-041-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-041-M3-T5",
+            "question": "A service proposes reflection as a guaranteed retention solution. What is the evidence-aware response?",
+            "options": [
+              {
+                "text": "Review its learning purpose and the limited retention evidence while addressing organisational conditions.",
+                "correct": true
+              },
+              {
+                "text": "Guarantee retention because groups may feel supportive.",
+                "correct": false
+              },
+              {
+                "text": "Replace every formal supervision arrangement with a group.",
+                "correct": false
+              },
+              {
+                "text": "Treat a scoping review as a local causal trial.",
+                "correct": false
+              }
+            ],
+            "rationale": "The mapped evidence does not justify a universal retention guarantee."
+          }
+        ]
+      }
+    }
+  ]
+}

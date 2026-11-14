@@ -6,7 +6,8 @@ import {pathToFileURL} from 'node:url';
 
 const root=process.cwd();
 const output=path.resolve(process.argv[2] || 'production_courseware/phase_three/fsw_media_01');
-const source=JSON.parse(await fs.readFile('production_courseware/phase_two/fsw_batch_01/review_package.json','utf8'));
+const sourcePath=process.argv[4] || 'production_courseware/phase_two/fsw_batch_01/review_package.json';
+const source=JSON.parse(await fs.readFile(sourcePath,'utf8'));
 const skill=process.env.CODEX_PRESENTATIONS_SKILL_DIR;
 process.env.RUNTIME_NODE_MODULES ||= process.env.CODEX_RUNTIME_NODE_MODULES;
 const require=createRequire(path.join(process.env.CODEX_RUNTIME_NODE_MODULES,'package.json'));
@@ -40,12 +41,12 @@ for(const c of source.courses){
   }
   const cover=presentation.slides.add();cover.background.fill='#071D52';
   cover.images.add({blob:background,contentType:'image/png',alt:'SWEEP Academy illustration of a diverse community learning together',fit:'cover',position:{left:0,top:0,width:1280,height:720}});
-  const coverTitle=c.code==='SWP-035'?'Social Work Values\nand Ethical\nDecision Making':'Generalist Assessment\nand Case Management';
+  const coverTitle=c.cover_title || (c.code==='SWP-035'?'Social Work Values\nand Ethical\nDecision Making':'Generalist Assessment\nand Case Management');
   text(cover,coverTitle,68,145,620,245,52,true,'#FFFFFF');
   text(cover,'Foundational Social Work\nPractice and Ethics',70,438,480,88,26,false,'#FFFFFF');
   text(cover,`${c.code}   Draft for academic review\nVersion 0.1.0`,70,558,550,68,22,false,'#FFFFFF');
   text(cover,'SWEEP Academy',70,659,350,28,18,true,'#FFFFFF');
-  cover.speakerNotes.textFrame.setText(`${c.title}\n${c.outcome}\nCover image: existing SWEEP Academy generated courseware background, static/img/courseware-deck-background.png. Original teaching source: phase_two/fsw_batch_01/review_package.json. This is a teaching draft, not a published course or a recorded video.`);
+  cover.speakerNotes.textFrame.setText(`${c.title}\n${c.outcome}\nCover image: existing SWEEP Academy generated courseware background, static/img/courseware-deck-background.png. Original teaching source: ${sourcePath}. This is a teaching draft, not a published course or a recorded video.`);
   let s=slide('Learning outcome and study route','COURSE OVERVIEW',c.outcome);
   text(s,c.outcome,64,212,1135,112,30);
   c.modules.forEach((m,i)=>text(s,`${m.order}. ${m.title}`,64,366+i*76,1140,62,28));
@@ -75,15 +76,15 @@ for(const c of source.courses){
     s=slide('References and evidence limits','COURSE SOURCES',page.map(r=>`[${r.id}] ${r.author} (${r.year}). ${r.title}. ${r.url}\n${r.appraisal}\n${r.licence}\n${r.quartile || ''}`).join('\n\n'));
     page.forEach((r,j)=>{
       const y=202+j*220;
-      text(s,`[${r.id}] ${r.author} (${r.year})`,64,y,1135,36,24,true);
-      text(s,r.title,64,y+43,1135,92,24);
-      const short=r.doi?`doi.org/${r.doi}`:(r.id==='S1'?'ifsw.org Ethical principles':'socialworkers.org Case management standards');
+      text(s,`[${r.id}] ${r.slide_author || r.author} (${r.year})`,64,y,1135,36,24,true);
+      text(s,r.slide_title || r.title,64,y+43,1135,92,24);
+      const short=r.link_label || (r.doi?`doi.org/${r.doi}`:(r.id==='S1'?'ifsw.org Ethical principles':'socialworkers.org Case management standards'));
       const link=text(s,short,64,y+139,1135,36,21,false,'#0B2C7A');
       link.hyperlink={uri:r.url,isExternal:true};
       const limits={S1:'Professional framework. Confirm local law and policy.',S2:'US practice benchmark. Confirm Nigerian requirements.',
         R1:'Qualitative evidence from settings outside Nigeria.',R2:'Ten German rehabilitation facilities. Context matters.',
         R3:'Review quality and navigation roles vary.',R5:'Desk review and conceptual framework. No new participant data.'};
-      text(s,limits[r.id],64,y+178,1135,39,22);
+      text(s,r.slide_limit || limits[r.id] || 'Read the full source and context limits in the learner guide.',64,y+178,1135,39,22);
     });
   }
   const count=presentation.slides.items.length;

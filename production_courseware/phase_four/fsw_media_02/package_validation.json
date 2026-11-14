@@ -1,0 +1,112 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "b82e6616fbc78d296c90052d8ec644d0df4cbbf48c9e2d82f1c8a3c9843df57f",
+  "summary": {
+    "assets": 20,
+    "asset_courses": 5
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-037-person-in-environment-and-human-development-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "8ae7b1cbfa266bc07cc6aa63d3efe73e1fc8ebd247063337c5c011693bc89401"
+    },
+    {
+      "path": "pdf/SWP-037-person-in-environment-and-human-development-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "e9e7cf32159278f1b85778dd1c4f11db0a0b17e29c994b4f8544e2c6e9669a77"
+    },
+    {
+      "path": "pptx/SWP-037-person-in-environment-and-human-development-course-slides.pptx",
+      "pages": null,
+      "sha256": "a3e6cf62b01445ca8baba939d9a7688d4fd569338b91949d83f4e8f4e220aa61"
+    },
+    {
+      "path": "pdf/SWP-037-person-in-environment-and-human-development-course-slides.pdf",
+      "pages": 16,
+      "sha256": "db617f1e5b8f4cfb5a4a6b36f3edaf13dc62d25f7eca56164c73c26d76f359f5"
+    },
+    {
+      "path": "pdf/SWP-038-communication-interviewing-and-helping-relationships-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "03d32a0581589b26ef4a0f4c8c8d2f910c0b03cf5235e3464e7db7779d263b0e"
+    },
+    {
+      "path": "pdf/SWP-038-communication-interviewing-and-helping-relationships-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "31e0f81d40ffc5bb11a42b0b304a8253f10fa20d5e01a9354e8f8b764300463b"
+    },
+    {
+      "path": "pptx/SWP-038-communication-interviewing-and-helping-relationships-course-slides.pptx",
+      "pages": null,
+      "sha256": "ddd133657c4b1322e8dadc4d76069785c95b1d01b785993a6643224a0b4f9efe"
+    },
+    {
+      "path": "pdf/SWP-038-communication-interviewing-and-helping-relationships-course-slides.pdf",
+      "pages": 16,
+      "sha256": "ddf3733f831d71b96ef450c8f5653601c59a2ef141135cca7b78c36018c9ba33"
+    },
+    {
+      "path": "pdf/SWP-039-professional-recording-consent-and-confidentiality-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "8fefd8a7079310aa0594893669f50b8b659d2781e6d93329c34e21090f085e2a"
+    },
+    {
+      "path": "pdf/SWP-039-professional-recording-consent-and-confidentiality-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "312fc163375be743b7e80d160b0c8524b49918d50be2c675f476209a47cd02bc"
+    },
+    {
+      "path": "pptx/SWP-039-professional-recording-consent-and-confidentiality-course-slides.pptx",
+      "pages": null,
+      "sha256": "28122b3abc4cddfd5f52eeec895880a1b65fc4f692df41325a4cc3268b70afbd"
+    },
+    {
+      "path": "pdf/SWP-039-professional-recording-consent-and-confidentiality-course-slides.pdf",
+      "pages": 16,
+      "sha256": "43021fc2623e51579447d132c327bf93319ee647a271635209292f3f54e84c47"
+    },
+    {
+      "path": "pdf/SWP-040-referral-networks-and-interprofessional-practice-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "c7ac3ec930fec51add2fe80006cd22521bae8803a367b7184bdb5a328766dd2b"
+    },
+    {
+      "path": "pdf/SWP-040-referral-networks-and-interprofessional-practice-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "6981b53ca5ab95ec4201ac14718557f3c0b641ab11a406fa1fc05a4666e67dfe"
+    },
+    {
+      "path": "pptx/SWP-040-referral-networks-and-interprofessional-practice-course-slides.pptx",
+      "pages": null,
+      "sha256": "90cdf11c97af808aaac8f8c3524c1279d9e069bc835a9ff3b9e7352d2eda16b9"
+    },
+    {
+      "path": "pdf/SWP-040-referral-networks-and-interprofessional-practice-course-slides.pdf",
+      "pages": 16,
+      "sha256": "ad3b5fc252ac450665980d2b55687689e88d95c418423ce1778f3ddbbd198f1e"
+    },
+    {
+      "path": "pdf/SWP-041-reflective-practice-boundaries-and-supervision-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "f9f552b3f65cd125d832b771950cea62d4b370421ca29b5cce46fda0c4da2cb6"
+    },
+    {
+      "path": "pdf/SWP-041-reflective-practice-boundaries-and-supervision-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "c447d53c8ea1a18b59c8e28380b74cc0d4358c1fdd45b5161ccdc00de034369d"
+    },
+    {
+      "path": "pptx/SWP-041-reflective-practice-boundaries-and-supervision-course-slides.pptx",
+      "pages": null,
+      "sha256": "4dfbb2a68b385bd6633f4bdd8969c5f89fb4f96f5d5ee46ee0462f3f4d983690"
+    },
+    {
+      "path": "pdf/SWP-041-reflective-practice-boundaries-and-supervision-course-slides.pdf",
+      "pages": 16,
+      "sha256": "7dda7f4bfb2e63cfa2032dab6603bedac87524afe3c7807e654e1c0ae506242a"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}
