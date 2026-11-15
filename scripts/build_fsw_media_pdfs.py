@@ -51,7 +51,7 @@ for c in data["courses"]:
            p(f"{c['code']}   About {c['estimated_minutes']//60} hours including practice   Version 0.1.0"),
            p("This learner guide develops practical reasoning through three modules, fictional cases, exercises and feedback. It is a draft for academic review and has not been approved for learner release."),
            p("Learning outcome","h1"),p(c["outcome"]),p("Who this course is for","h1"),p(c["audience"]),
-           p("How to study","h1"),p("Read each module and work through its case. Write your activity response before checking the feedback. Use fictional or fully de-identified situations. The slide deck provides a concise recap; this guide contains the fuller teaching and evidence notes."),
+           p("How to study","h1"),p(c.get("study_guidance","Read each module and work through its case. Write your activity response before checking the feedback. Use fictional or fully de-identified situations. The slide deck provides a concise recap; this guide contains the fuller teaching and evidence notes.")),
            p("Assessment and recognition","h1"),p("The draft course assessment contains 15 MCQs. Its proposed pass mark is 70 percent, requiring at least 11 correct answers. An approved course and a verified ParaLearn CBT pass are required for a course badge. A school certificate additionally requires every course in the approved school curriculum and a finalised school exam with MCQs, short answers and essays. Reading this draft does not award a credential."),
            p("Course structure","h1"),*[p(f"Module {m['order']}  {m['title']}") for m in c["modules"]],PageBreak()]
     for m in c["modules"]:
@@ -68,7 +68,7 @@ for c in data["courses"]:
     worksheet=[]
     for m in c["modules"]:
         if worksheet: worksheet.append(PageBreak())
-        worksheet.extend([p(c["title"]+" practice worksheet","title"),p(f"Module {m['order']} {m['title']}","h1"),p("Use a fictional or fully de-identified situation. Record your reasoning before consulting the learner-guide feedback."),p("Worked case","h2"),p(m["example"]),p("Your task","h2"),p(m["activity"])])
+        worksheet.extend([p(c["title"]+" practice worksheet","title"),p(f"Module {m['order']} {m['title']}","h1"),p(c.get("practice_safety_note","Use a fictional or fully de-identified situation. Record your reasoning before consulting the learner-guide feedback.")),p("Worked case","h2"),p(m["example"]),p("Your task","h2"),p(m["activity"])])
         for prompt in ["Relevant facts and uncertainties", "Your proposed action and reason", "Consultation or verification needed", "Action owner and review date"]:
             worksheet.extend([p(prompt,"h2"),Spacer(1,30)])
     document(OUT/"pdf"/(prefix+"-practice-worksheet.pdf"),worksheet,c["code"],c["school_code"])

@@ -21,6 +21,11 @@ SOURCES=[
     ("Q1","https://www.scimagojr.com/journalsearch.php?clean=0&q=22704&tip=sid",None),
 ]
 
+def is_challenge_page(raw):
+    # Full guidance pages can include a normal JavaScript-disabled notice.
+    # Small fallback responses and explicit browser challenges are not evidence.
+    return any(marker in raw for marker in (b"Client Challenge",b"Just a moment",b"Checking your browser")) or (len(raw)<10000 and b"JavaScript is disabled" in raw)
+
 def retrieve(row):
     rid,url,doi=row
     record=dict(id=rid,url=url)
@@ -30,7 +35,7 @@ def retrieve(row):
                 raw=response.read();mime=response.headers.get("Content-Type","");final=response.url
             suffix=".pdf" if raw.startswith(b"%PDF") else (".json" if kind=="crossref" else ".html")
             (OUT/(rid+"-"+kind+suffix)).write_bytes(raw)
-            challenge=any(marker in raw for marker in (b"Client Challenge",b"JavaScript is disabled",b"Just a moment",b"Checking your browser"))
+            challenge=is_challenge_page(raw)
             record[kind]=dict(url=final,bytes=len(raw),mime=mime,sha256=hashlib.sha256(raw).hexdigest(),
                 content_status="challenge_page_not_evidence" if challenge else "retrieved_not_independently_appraised")
         except Exception as exc:

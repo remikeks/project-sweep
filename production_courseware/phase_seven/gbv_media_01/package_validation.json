@@ -1,0 +1,92 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "07c8ac826458f973550d77a0494f5ac1bd710aa94700853a86b7295454e96d45",
+  "summary": {
+    "assets": 16,
+    "asset_courses": 4
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-049-gender-power-and-intersectionality-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "8e05af7083b52913b1266c94bd037fb9d9bc8e54e28606ca2d5881f4c9fff48d"
+    },
+    {
+      "path": "pdf/SWP-049-gender-power-and-intersectionality-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "e6f3a7d5062caf86ec78f06be92494f72d53a1eb591227f77e13b994c43d62c7"
+    },
+    {
+      "path": "pptx/SWP-049-gender-power-and-intersectionality-course-slides.pptx",
+      "pages": null,
+      "sha256": "e848b9d2fd94fd8cdbf73df4ef4e73270c5ea5e5065a214c43abb3cbd65f55ee"
+    },
+    {
+      "path": "pdf/SWP-049-gender-power-and-intersectionality-course-slides.pdf",
+      "pages": 16,
+      "sha256": "1f1f8adf627222c99dd9cc608d53e57e10321f4a531b814e37b4570e543a4ae0"
+    },
+    {
+      "path": "pdf/SWP-050-survivor-centred-first-response-and-referral-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "4c33e37e990f93a1527bf55cc3aeedc7f0dc53336e3b03d28442ee60ca35455f"
+    },
+    {
+      "path": "pdf/SWP-050-survivor-centred-first-response-and-referral-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "7d6693b68d1143601006a414c4473b40606a2a2a352ce3f93042ad227ccfee07"
+    },
+    {
+      "path": "pptx/SWP-050-survivor-centred-first-response-and-referral-course-slides.pptx",
+      "pages": null,
+      "sha256": "80b2ba003dd077b9ab423c568a4f21d9f9d6035ddbd7f0215a85827363d95de4"
+    },
+    {
+      "path": "pdf/SWP-050-survivor-centred-first-response-and-referral-course-slides.pdf",
+      "pages": 16,
+      "sha256": "e2a4a9f224ead7713a2ca13ad4d7362a5959a866aeadf559e22e988911729da9"
+    },
+    {
+      "path": "pdf/SWP-051-gbv-case-management-and-safety-planning-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "01af3044b585f906029d543690b94b36e8dc10e2c4d792becd4c2311c4e09683"
+    },
+    {
+      "path": "pdf/SWP-051-gbv-case-management-and-safety-planning-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "d665d0a5779e89cd4f938cfa207af0bd5f9571dbb5d4000cf570b6af8fabf2c2"
+    },
+    {
+      "path": "pptx/SWP-051-gbv-case-management-and-safety-planning-course-slides.pptx",
+      "pages": null,
+      "sha256": "31e6d937a6b48e23a93d9efae6d7c20cc86b2e495561090b09f9c4dae028592a"
+    },
+    {
+      "path": "pdf/SWP-051-gbv-case-management-and-safety-planning-course-slides.pdf",
+      "pages": 16,
+      "sha256": "19fb6aec89999405eb0fd47c7fd7bc14119c6d2012918047c1a7d65bb014c2c1"
+    },
+    {
+      "path": "pdf/SWP-052-trauma-informed-support-and-service-coordination-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "02ce8b20c2fe1fc88ff9a6b84e5f670d33bf3c85f9b201bc34482b25fa1648c9"
+    },
+    {
+      "path": "pdf/SWP-052-trauma-informed-support-and-service-coordination-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "b845e351a767094673c3a70ca3dc1af8702417f71e34693f4127a0eb72ed7830"
+    },
+    {
+      "path": "pptx/SWP-052-trauma-informed-support-and-service-coordination-course-slides.pptx",
+      "pages": null,
+      "sha256": "32e7751a49f2be1bff515a4f1257d848c91e516ac2b3520002dba309c1c35d60"
+    },
+    {
+      "path": "pdf/SWP-052-trauma-informed-support-and-service-coordination-course-slides.pdf",
+      "pages": 16,
+      "sha256": "db5cc5b960c4b627222624037b7880544ba99670641efbd6e91033bbef3403df"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

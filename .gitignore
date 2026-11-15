@@ -17,5 +17,6 @@ production_courseware/phase_three/**/qa/
 production_courseware/phase_four/**/qa/
 production_courseware/phase_five/**/qa/
 production_courseware/phase_six/**/qa/
+production_courseware/phase_seven/**/qa/
 production_courseware/private/
 *.log

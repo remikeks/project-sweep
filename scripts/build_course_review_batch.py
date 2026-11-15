@@ -12,9 +12,10 @@ from courses.assessment_review_validation import validate_review_bank
 
 
 def compile_package(source):
-    package=dict(version="0.1.0",status="draft_for_review",evidence_checked_on="2026-11-14",
+    package=dict(version="0.1.0",status="draft_for_review",evidence_checked_on=getattr(source,"EVIDENCE_CHECKED_ON","2026-11-14"),
         review=dict(subject_matter="pending",Nigerian_practice_and_legal="pending",accessibility_and_pilot="pending",publication="not_approved"),
         references=source.REFERENCES,courses=[])
+    package["review"].update(getattr(source,"REVIEW_REQUIREMENTS",{}))
     if hasattr(source,"EVIDENCE_NOTE"):
         package["evidence_note"]=source.EVIDENCE_NOTE
     for authored in source.COURSES:

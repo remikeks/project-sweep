@@ -1,0 +1,2462 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-15",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "specialist_GBV_and_safeguarding": "pending",
+    "supervised_skills_demonstration": "pending"
+  },
+  "references": [
+    {
+      "id": "S1",
+      "title": "Global Social Work Statement of Ethical Principles",
+      "author": "IFSW",
+      "year": 2018,
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "kind": "professional framework",
+      "use": "Ethical vocabulary and principles, not a Nigerian statute.",
+      "appraisal": "Normative professional guidance; does not measure intervention effectiveness.",
+      "licence": "Link and citation only; no copied text"
+    },
+    {
+      "id": "S10",
+      "author": "GBV Area of Responsibility and UNFPA",
+      "year": 2019,
+      "title": "The Inter-Agency Minimum Standards for Gender-Based Violence in Emergencies Programming",
+      "url": "https://www.unfpa.org/publications/inter-agency-minimum-standards-gender-based-violence-emergencies-programming",
+      "kind": "interagency programme-quality standards",
+      "use": "Benchmark survivor-centred participation, psychosocial support, case management, referrals, safe information and programme accountability.",
+      "appraisal": "Official linked PDF has 182 file pages, distinct from publication-page metadata; selected foundational, psychosocial, case-management, referral and information sections read. Sixteen programme standards address emergency services, not eight short-course credentials. Nigerian application needs qualified GBV and local practice/legal review; this course does not claim compliance or replace specialist staffing and supervision.",
+      "licence": "Copyright UNFPA 2019. Link and original commentary only; no standards tools, forms, assignments or figures reproduced",
+      "slide_author": "GBV AoR / UNFPA",
+      "slide_title": "Inter-Agency Minimum Standards for GBV Programming",
+      "link_label": "unfpa.org Inter-agency GBV standards",
+      "slide_limit": "Emergency programme benchmark. Not proof of training or service compliance."
+    },
+    {
+      "id": "S11",
+      "author": "GBVIMS Steering Committee",
+      "year": 2017,
+      "title": "Interagency Gender-Based Violence Case Management Guidelines",
+      "url": "https://www.gbvims.com/wp/wp-content/uploads/Interagency-GBV-Case-Management-Guidelines_Final_2017_Low-ResEn.pdf",
+      "kind": "specialist case-management guidance",
+      "use": "Informed consent, professional role boundaries, supported planning, referrals, follow-up and restricted case information.",
+      "appraisal": "Actual linked 260-page PDF retrieved; selected core principles, consent, case-management process, safety and supervision sections read. The 2017-named file includes a later updated child-marriage chapter, also announced on the site in 2025; this batch teaches adult introductory scope only. Qualified staff, organisational systems and supervised competency development are required. Not a Nigerian reporting-law decision or a clinical/forensic protocol.",
+      "licence": "Linked official guidance and original commentary only; no source case forms, safety tools, scripts or training exercises copied",
+      "slide_author": "GBVIMS Steering Committee",
+      "slide_title": "Interagency GBV Case Management Guidelines",
+      "link_label": "gbvims.com Case management guidelines",
+      "slide_limit": "Specialist guidance. An introductory course does not qualify a caseworker."
+    },
+    {
+      "id": "S12",
+      "author": "GBV Guidelines Reference Group and GBV AoR",
+      "year": 2018,
+      "title": "How to support survivors of gender-based violence when a GBV actor is not available in your area: A step-by-step pocket guide for humanitarian practitioners",
+      "url": "https://gbvguidelines.org/wp/wp-content/uploads/2018/03/GBV_PocketGuide021718.pdf",
+      "kind": "non-specialist first-response guidance",
+      "use": "Respond to a voluntary disclosure without investigation, unnecessary records, imposed choices or unverified referrals.",
+      "appraisal": "Actual English PDF has 13 file pages with booklet pagination. Relevant adult support, role boundaries, consent, privacy and referral sections read. The resource page describes its package as V2.0; no new publication date is inferred from a current website footer. Child/adolescent and specialist matters require appropriate safeguarding expertise and current local procedures. No source scripts or medical time limits are reproduced.",
+      "licence": "Official linked resource; original commentary and fictional exercises only; no adapted decision tree, scripts or worksheet",
+      "slide_author": "GBV Guidelines / GBV AoR",
+      "slide_title": "GBV Pocket Guide for non-specialist support",
+      "link_label": "gbvguidelines.org English Pocket Guide",
+      "slide_limit": "Basic support after disclosure. No proactive survivor identification or casework."
+    },
+    {
+      "id": "S13",
+      "author": "World Health Organization",
+      "year": 2025,
+      "title": "Caring for women subjected to violence: online facilitated training for health workers",
+      "url": "https://www.who.int/publications/i/item/9789240087873",
+      "kind": "health-worker training curriculum overview",
+      "use": "Compare communication, first-line support and skills-practice needs while preserving the health-worker boundary.",
+      "appraisal": "Official 5 April 2025 publication overview and session map read, not a claim to have reviewed the full 66-page trainer package. Links revised 2021 in-person training and highlights further practice. Used as a curriculum comparator only: this non-clinical academy course does not reproduce WHO exercises, certify health-provider competence or teach treatment.",
+      "licence": "Official linked overview; original comparison and commentary only; no WHO curriculum slides or exercises copied",
+      "slide_author": "WHO",
+      "slide_title": "Facilitated training on care for women subjected to violence",
+      "link_label": "who.int Health-worker training 2025",
+      "slide_limit": "Health-worker curriculum comparator. No clinical qualification conferred."
+    },
+    {
+      "id": "R21",
+      "author": "Alade OT, Farrokhyar F, Sprague SA, Acai A and Bhandari M",
+      "year": 2025,
+      "title": "Help seeking for intimate partner violence in a resource-constrained setting: A latent class analysis of the Nigerian demographic health survey dataset",
+      "doi": "10.1371/journal.pone.0334905",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334905",
+      "kind": "secondary cross-sectional survey analysis",
+      "use": "Ask about different formal/informal help pathways and practical barriers without assigning a survivor a fixed category.",
+      "appraisal": "Full primary methods and limitations read. Uses 2018 NDHS, downloaded in 2023, despite October 2025 publication; it is not the latest survey now. Four modelled classes concern 1,041 help-seekers from 3,054 women reporting physical/sexual IPV; predefined binary source options limit nuance. Descriptive/associational, not intervention effectiveness, a current local service directory or a universal individual classifier. No headline prevalence estimate is taught.",
+      "licence": "CC BY 4.0. Original commentary only; no source figures or participant data reproduced",
+      "quartile": "SCImago's own indexed 2025 ranking table lists PLOS ONE SJR 0.726 Q1. Direct table download restricted; no independently verified JCR quartile claimed. https://www.scimagojr.com/journalrank.php?ord=desc&order=titem&type=j&wos=true",
+      "slide_author": "Alade OT and colleagues",
+      "slide_title": "Nigerian IPV help-seeking: latent class analysis",
+      "slide_limit": "2018 survey; predefined source options. No causal or individual-classification claim."
+    },
+    {
+      "id": "R22",
+      "author": "Davies M, Satyen L and Toumbourou JW",
+      "year": 2025,
+      "title": "Trauma-and-Violence-Informed Care for Victim-Survivors of Domestic, Family and Sexual Violence: A Qualitative Meta-Synthesis of Service Providers' Perspectives",
+      "doi": "10.1177/15248380251383933",
+      "url": "https://journals.sagepub.com/doi/10.1177/15248380251383933",
+      "kind": "qualitative evidence synthesis of provider perspectives",
+      "use": "Examine choice, relationships, cultural responsiveness and organisational barriers to safer service experiences.",
+      "appraisal": "Publisher indexed full methods/results/limitations read; direct HTML retrieval restricted, not archived full text. Online 4 November 2025, assigned to December 2026 issue, which is future at this review date. Search updated September 2024; abstract/results report 29 articles/studies and 694 providers, limitations says 26 studies. Seven high-income Western countries and variable-quality evidence; provider perspectives are not survivor outcomes or a causal treatment-effect estimate. Count discrepancy retained, not silently resolved.",
+      "licence": "CC BY 4.0 stated in publisher rights section and Crossref. Original commentary only; no source themes table, quotes or exercises reproduced",
+      "quartile": "SCImago's own indexed 2025 Trauma Violence and Abuse record reports SJR Q1, including Applied Psychology/Public Health. Direct table download restricted; independent JCR category record not obtained. https://www.scimagojr.com/journalsearch.php?clean=0&q=13124&tip=sid",
+      "slide_author": "Davies M and colleagues",
+      "slide_title": "Trauma-and-violence-informed care: provider perspectives",
+      "slide_limit": "High-income contexts; inconsistent study count. Not a treatment-effect trial."
+    },
+    {
+      "id": "R23",
+      "author": "Folorunso-Olabisi O and colleagues",
+      "year": 2026,
+      "title": "Individual, household, and community level factors associated with intimate partner violence among women of reproductive age in Nigeria: a cross-sectional analysis of the 2024 Nigeria Demographic and Health Survey",
+      "doi": "10.1186/s12905-026-04790-8",
+      "url": "https://link.springer.com/article/10.1186/s12905-026-04790-8",
+      "kind": "secondary cross-sectional survey analysis",
+      "use": "Distinguish intersecting contextual associations from individual prediction, blame and causal explanations.",
+      "appraisal": "Publisher indexed primary methods and limitations read; direct HTML was a challenge page, not full text. Published 12 August 2026 using 2024 NDHS, weighted sample reported 20,202 ever/currently partnered women aged 15-49. Self-report, underreporting, complete-case selection and unclear combined lifetime/recent outcome wording limit interpretation. Logistic associations cannot establish causation or validate a personal risk score. No rate, odds ratio, universal screening policy or intervention benefit is taught.",
+      "licence": "CC BY-NC-ND 4.0 in Crossref/publisher terms. Link and original factual commentary only; no source text, figures, adapted material or dataset redistributed",
+      "quartile": "BMC Women's Health quartile not independently verified for this batch",
+      "slide_author": "Folorunso-Olabisi O and colleagues",
+      "slide_title": "Nigerian IPV contextual factors: 2024 DHS analysis",
+      "slide_limit": "Cross-sectional self-report. No causal, blame or personal risk-score conclusion."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-049",
+      "title": "Gender Power and Intersectionality",
+      "slug": "gender-power-and-intersectionality",
+      "cover_title": "Gender Power\nand Intersectionality",
+      "school_code": "GBV",
+      "school_name": "School of Gender Studies and Gender-Based Violence Prevention",
+      "school_display": "Gender Studies and\nGBV Prevention",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional adult scenarios. This course does not qualify a specialist GBV caseworker, clinician or forensic practitioner; supervised skills assessment and applicable safeguarding procedures remain necessary.",
+      "study_guidance": "Read each module and use only the supplied fictional adult scenarios. Do not seek real disclosures or submit survivor records for coursework. Write your response before consulting feedback. You may pause or use an alternative fictional exercise. Supervised skills observation remains a separate requirement.",
+      "practice_safety_note": "Use only the supplied fictional adult scenario. Do not collect real disclosures or submit survivor records. You may pause or use an alternative fictional exercise. Record your reasoning before checking the learner-guide feedback.",
+      "outcome": "Analyse a fictional service-access problem through gender, power and intersecting barriers, with an ethical response that avoids blame, forced disclosure and unsupported causal claims.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Gender roles power and responsibility",
+          "outcome": "Distinguish a contextual explanation of unequal access from an excuse for violence or an individual diagnosis.",
+          "paragraphs": [
+            "Gender-related expectations can influence who controls resources, whose decisions carry authority and whose contribution is recognised. Ask how those expectations operate in the particular service or household being discussed rather than assume everyone in a category has the same experience. An ecosocial or demographic description is not a personal diagnosis. The inter-agency standards place survivor-centred support within attention to unequal power and the particular risks faced by women and girls. Non-discriminatory assistance also requires respectful support for anyone experiencing violence, without making access depend on fitting a stereotype about gender, relationships or appearance. [S10, S1]",
+            "Power includes more than physical force. A person may face restrictions on money, movement, communication, documents or contact with services. Describe the reported behaviour and its effect on choice or access without requiring a dramatic injury or a complete personal history before offering appropriate support. Responsibility for violence remains with the person using it. Financial hardship, cultural expectations or conflict in a relationship do not justify coercion. The learner's task is to notice an access concern and an appropriate response, not to investigate an allegation, establish criminal liability or direct a survivor's relationship decisions. [S10, S1]",
+            "Research can help frame questions but cannot determine what happened to a particular person. The 2026 Nigerian survey analysis uses 2024 data and reports associations among measured contextual factors. Its cross-sectional, self-reported evidence cannot establish which factor caused violence or predict an individual's experience from identity, income or marital status. The paper's outcome wording also leaves uncertainty about the combined time period, so this course does not reproduce a prevalence rate or personal risk score. Ask what the person identifies as a barrier now rather than turn a statistical association into blame or a label. [R23, S1]",
+            "In a service review, separate the condition, its possible consequence and the action that the service can authorise. A registration process that requires permission from a partner may restrict a person's independent access. Examine the actual rule, its justification and who can change it, without collecting survivor histories to prove the concern exists. Make disagreement and missing information visible. Provider-perspective research can inform questions about coercion and organisational practice, but it does not prove that a locally revised form will improve recovery. A bounded recommendation should identify a responsible role and the further consultation required. [R22, S10, S1]"
+          ],
+          "example": "Fictional case: an adult cannot register independently because a service asks for a partner's approval. A learner examines the access rule and decision authority without requesting a violence history, blaming the applicant or claiming that the form alone caused abuse.",
+          "activity": "Write an access-analysis note with the rule, whose choices it affects, a plausible power concern, missing evidence and an authorised revision route. Include a sentence that keeps responsibility for violence separate from contextual explanation.",
+          "feedback": "A defensible analysis examines rules and choices without stereotyping people or excusing violence. It distinguishes a service barrier from a legal finding, causal explanation or personal risk classification.",
+          "sources": [
+            "S10",
+            "S1",
+            "R23",
+            "R22"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Intersecting barriers and meaningful choice",
+          "outcome": "Analyse interacting access barriers without reducing a person to a list of identities.",
+          "paragraphs": [
+            "Intersectional analysis asks how social positions and systems interact in a particular situation. It is more than adding labels such as age, disability, income, language or location to a form. A person may encounter a combination of inaccessible transport, restricted communication and a service rule that requires repeated visits. The interaction can create a barrier different from any single condition alone. Ask which features actually matter to the decision and whose account is missing. Professional ethics require respect and non-discrimination; no identity category should automatically be treated as evidence of incapacity, consent or a predetermined experience. [S1, S10]",
+            "Distinguish a service being listed from a person being able to use it. Cost, opening hours, language, privacy, physical access and the safety of the contact method may affect feasibility. Do not presume that a relative or caregiver is an appropriate interpreter or can give permission for an adult simply because support is needed. Discuss communication preferences and qualified accessible arrangements through the relevant service. The provider-perspective synthesis identifies cultural responsiveness and organisational access as important concerns, but its high-income settings and lack of demonstrated survivor outcomes limit direct transfer to a Nigerian service. [R22, S10]",
+            "Informal and formal pathways may both matter, with different possibilities and risks. The Nigerian help-seeking analysis models reported sources of help in 2018 survey data, using a predefined list. Its classes are analytical descriptions, not categories to assign to a current survivor, and the study cannot establish that a family contact is safe or that a listed institution is functioning today. Ask about the person's chosen trusted support and verify the relevant service pathway without automatically involving family, community leaders or police. A preference to delay a referral should not be interpreted as a failure of motivation. [R21, S1]",
+            "Make an access map for the fictional task that connects a stated priority, interacting barriers, feasible adjustments, missing information and an accountable role. Use only the information necessary for that task. A useful adjustment might reduce a repeated visit or provide an accessible private contact, but its feasibility must be checked with the service and affected people. Do not infer that one adjustment benefits everyone or that a consultation proves recovery improved. Review who remains excluded and whether the person can still decline or change the proposed next step without losing respectful assistance. [S10, R22, S1]"
+          ],
+          "example": "Fictional case: an adult using an inaccessible route also lacks a private phone and cannot attend repeated daytime appointments. A learner examines the interacting barriers, asks about preferred communication and checks an alternative contact arrangement without assuming a caregiver can consent for the adult.",
+          "activity": "Build a barrier-and-adjustment map for the case. Identify two interacting barriers, one assumption to verify, one access adjustment, an owner and a question that protects meaningful choice.",
+          "feedback": "The map should connect real features of the fictional situation rather than count identity labels. An accessible arrangement requires verification and individual choice; neither a modelled help-seeking class nor a family relationship establishes safe access.",
+          "sources": [
+            "S1",
+            "S10",
+            "R22",
+            "R21"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Evidence reflection and accountable access changes",
+          "outcome": "Prepare an ethical service-access recommendation with explicit evidence and review limits.",
+          "paragraphs": [
+            "Use evidence according to what it can establish. A programme standard describes expected practice, a qualitative synthesis interprets perspectives and a cross-sectional survey examines measured associations. Their strengths differ, and combining them does not turn a proposal into a tested intervention. The Nigerian studies and provider synthesis help learners ask better questions about access and influence; none can determine the experience of everyone using this service. Record the evidence type, relevant context and limitation alongside the recommendation so that a reader can distinguish a useful question from a claim already demonstrated. [S10, R21, R22, R23]",
+            "Reflect on the practitioner's own position in the interaction. Control over registration, referrals, funding or information can create pressure even when the worker intends to help. Explain what is optional, what the service can actually provide and which decisions remain with the person. Avoid rewarding disclosure, punishing disagreement or making respectful assistance conditional on accepting a preferred referral. Ethics and survivor-centred programme standards support this approach, while local procedures and lawful limits still need to be understood before a real interaction. An introductory lesson is not permission to invent a reporting rule or promise absolute confidentiality. [S1, S10]",
+            "Keep learning and programme feedback separate from a case investigation. Use original fictional scenarios for this course and do not ask classmates or applicants to reveal personal experiences as proof of learning. For an actual organisational review, seek appropriate specialist advice on safe consultation and necessary information rather than collect incident details casually. Aggregate findings can still identify a person in a small group, so consider the context before sharing. Provider perspectives may reveal service problems, but affected people's appropriately gathered views also matter; one professional account should not stand for every survivor's priorities. [R22, S1, S10]",
+            "Write a bounded recommendation with the access concern, proposed adjustment, responsible decision-maker, resource dependency, consultation route and review question. State what evidence would show that access changed and what the review cannot establish about violence reduction or recovery. A revised form is an output; more independent use of a suitable service is a different question. Keep unresolved concerns visible and provide an accountable response to feedback. The aim is a feasible ethical improvement that can be reviewed, rather than a universal claim of gender transformation or a certificate of specialist competence based on a short exercise. [S10, S1, R22]"
+          ],
+          "example": "Fictional case: a service proposes removing an unnecessary partner-approval field. The learner identifies the approving role and accessible consultation route, then asks whether adults can use the revised process independently. The form change alone is not presented as proof of reduced violence or recovery.",
+          "activity": "Prepare a recommendation with concern, evidence type and limit, adjustment, approving role, resource condition, feedback route and outcome question. Name one claim the planned review cannot support.",
+          "feedback": "A useful recommendation makes the decision and its limits visible. It protects choice and privacy, differentiates outputs from outcomes and does not turn short-course completion or an untested adjustment into specialist competence.",
+          "sources": [
+            "S10",
+            "R21",
+            "R22",
+            "R23",
+            "S1"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-049",
+        "course_slug": "gender-power-and-intersectionality",
+        "title": "Gender Power and Intersectionality",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "e93ce1eee556df7c66fdd84a581f0e821364844f8369fe2d1097e27b5385a892",
+        "catalogue_sha256": "e3dd69d912a9a525e64e0b07b6eaf00dedfb02523e6a4068d5809b4df7edf1aa",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Gender roles power and responsibility",
+            "outcome": "Distinguish a contextual explanation of unequal access from an excuse for violence or an individual diagnosis.",
+            "teaching_points": [
+              {
+                "id": "SWP-049-M1-T1",
+                "text": "Gender-related expectations can shape access and authority."
+              },
+              {
+                "id": "SWP-049-M1-T2",
+                "text": "Context does not excuse the person using violence."
+              },
+              {
+                "id": "SWP-049-M1-T3",
+                "text": "Coercion can restrict resources and communication."
+              },
+              {
+                "id": "SWP-049-M1-T4",
+                "text": "Cross-sectional associations do not identify an individual's cause."
+              },
+              {
+                "id": "SWP-049-M1-T5",
+                "text": "Service reviews need proportionate evidence."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Intersecting barriers and meaningful choice",
+            "outcome": "Analyse interacting access barriers without reducing a person to a list of identities.",
+            "teaching_points": [
+              {
+                "id": "SWP-049-M2-T1",
+                "text": "Intersectional analysis examines interaction rather than label counts."
+              },
+              {
+                "id": "SWP-049-M2-T2",
+                "text": "A listed service may remain inaccessible."
+              },
+              {
+                "id": "SWP-049-M2-T3",
+                "text": "A caregiver relationship does not automatically establish adult consent authority."
+              },
+              {
+                "id": "SWP-049-M2-T4",
+                "text": "Modelled help-seeking classes are descriptive."
+              },
+              {
+                "id": "SWP-049-M2-T5",
+                "text": "Delaying a referral can reflect constraints or preferences."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Evidence reflection and accountable access changes",
+            "outcome": "Prepare an ethical service-access recommendation with explicit evidence and review limits.",
+            "teaching_points": [
+              {
+                "id": "SWP-049-M3-T1",
+                "text": "Different evidence types support different claims."
+              },
+              {
+                "id": "SWP-049-M3-T2",
+                "text": "Practitioner control can affect meaningful choice."
+              },
+              {
+                "id": "SWP-049-M3-T3",
+                "text": "Course participation should not require personal survivor disclosure."
+              },
+              {
+                "id": "SWP-049-M3-T4",
+                "text": "Small-group reporting can remain identifying."
+              },
+              {
+                "id": "SWP-049-M3-T5",
+                "text": "A changed form is an output rather than proven recovery."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-049-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-049-M1-T1",
+            "question": "A service requires an adult applicant to obtain a partner's approval. What is a relevant gender-and-power question?",
+            "options": [
+              {
+                "text": "Whether every applicant has the same household experience.",
+                "correct": false
+              },
+              {
+                "text": "Whether the rule proves a particular crime occurred.",
+                "correct": false
+              },
+              {
+                "text": "Whether the rule restricts independent access and who has authority to review it.",
+                "correct": true
+              },
+              {
+                "text": "Whether a partner's approval is always equivalent to individual choice.",
+                "correct": false
+              }
+            ],
+            "rationale": "The analysis concerns the actual rule and its effects on agency."
+          },
+          {
+            "id": "SWP-049-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-049-M1-T2",
+            "question": "A discussion identifies financial stress around a reported coercive act. What distinction should remain clear?",
+            "options": [
+              {
+                "text": "Financial stress automatically makes coercion acceptable.",
+                "correct": false
+              },
+              {
+                "text": "The survivor is responsible for preventing another person's violence.",
+                "correct": false
+              },
+              {
+                "text": "Context proves that no response is needed.",
+                "correct": false
+              },
+              {
+                "text": "Stress may be relevant context but does not justify violence or transfer responsibility to the survivor.",
+                "correct": true
+              }
+            ],
+            "rationale": "Contextual explanation must not become an excuse or blame."
+          },
+          {
+            "id": "SWP-049-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-049-M1-T3",
+            "question": "An adult reports that another person controls their documents and service contacts. What is appropriate at this introductory level?",
+            "options": [
+              {
+                "text": "Recognise the reported access concern and offer a suitable support pathway within role.",
+                "correct": true
+              },
+              {
+                "text": "Require a visible injury before taking the concern seriously.",
+                "correct": false
+              },
+              {
+                "text": "Conduct an unsupervised criminal investigation.",
+                "correct": false
+              },
+              {
+                "text": "Contact the other person to negotiate without permission.",
+                "correct": false
+              }
+            ],
+            "rationale": "Support does not require the learner to investigate or confront another person."
+          },
+          {
+            "id": "SWP-049-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-049-M1-T4",
+            "question": "A survey associates a household characteristic with IPV. What may a learner conclude about an individual with that characteristic?",
+            "options": [
+              {
+                "text": "Their identity proves that violence occurred.",
+                "correct": false
+              },
+              {
+                "text": "The association alone cannot establish their experience, cause or personal risk score.",
+                "correct": true
+              },
+              {
+                "text": "The characteristic excuses harmful behaviour.",
+                "correct": false
+              },
+              {
+                "text": "The study identifies the correct relationship decision for them.",
+                "correct": false
+              }
+            ],
+            "rationale": "Population associations cannot replace a person's account or a suitable assessment."
+          },
+          {
+            "id": "SWP-049-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-049-M1-T5",
+            "question": "A team wants personal survivor stories to justify reviewing a restrictive form. What is a better first step?",
+            "options": [
+              {
+                "text": "Ask every applicant to disclose violence publicly.",
+                "correct": false
+              },
+              {
+                "text": "Assume more sensitive data always improves the decision.",
+                "correct": false
+              },
+              {
+                "text": "Examine the rule, its access consequences and review authority without soliciting unnecessary disclosures.",
+                "correct": true
+              },
+              {
+                "text": "Publish a list of applicants who decline to answer.",
+                "correct": false
+              }
+            ],
+            "rationale": "A service-rule concern can be examined without collecting unnecessary survivor histories."
+          },
+          {
+            "id": "SWP-049-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-049-M2-T1",
+            "question": "A person faces inaccessible transport and appointments requiring repeated visits. What should the analysis examine?",
+            "options": [
+              {
+                "text": "Only how many identity categories appear on a form.",
+                "correct": false
+              },
+              {
+                "text": "A fixed outcome predicted from one label.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that the barriers operate independently in every case.",
+                "correct": false
+              },
+              {
+                "text": "How those conditions combine to affect feasible access.",
+                "correct": true
+              }
+            ],
+            "rationale": "Interactions between systems and circumstances can change the practical barrier."
+          },
+          {
+            "id": "SWP-049-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-049-M2-T2",
+            "question": "A directory names a service but the applicant cannot use its contact format. What remains to assess?",
+            "options": [
+              {
+                "text": "Whether an appropriate private and accessible contact arrangement is available.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that listing proves effective access.",
+                "correct": false
+              },
+              {
+                "text": "Whether the applicant should be blamed for not attending.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that every service offers the same adjustments.",
+                "correct": false
+              }
+            ],
+            "rationale": "Availability on paper differs from feasible use."
+          },
+          {
+            "id": "SWP-049-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-049-M2-T3",
+            "question": "An adult needs communication support and a caregiver offers to answer every question. What is appropriate?",
+            "options": [
+              {
+                "text": "Treat disability as automatic incapacity.",
+                "correct": false
+              },
+              {
+                "text": "Clarify the adult's preferences and suitable supported communication without assuming substitute authority.",
+                "correct": true
+              },
+              {
+                "text": "Assume the caregiver's agreement replaces every adult choice.",
+                "correct": false
+              },
+              {
+                "text": "Exclude the adult from the discussion.",
+                "correct": false
+              }
+            ],
+            "rationale": "Support needs and legal authority require distinct consideration."
+          },
+          {
+            "id": "SWP-049-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-049-M2-T4",
+            "question": "A learner uses a survey's family-help class to decide that every family referral is safe. What is wrong?",
+            "options": [
+              {
+                "text": "The class guarantees current service capacity.",
+                "correct": false
+              },
+              {
+                "text": "A survey automatically grants permission to contact family.",
+                "correct": false
+              },
+              {
+                "text": "The analytical class does not verify an individual's preference or the safety of that pathway.",
+                "correct": true
+              },
+              {
+                "text": "A model predicts every survivor's next decision.",
+                "correct": false
+              }
+            ],
+            "rationale": "A statistical description cannot authorise a specific referral."
+          },
+          {
+            "id": "SWP-049-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-049-M2-T5",
+            "question": "An adult declines an offered referral today. What should the response preserve?",
+            "options": [
+              {
+                "text": "A judgement that they are unmotivated.",
+                "correct": false
+              },
+              {
+                "text": "Withdrawal of all respectful assistance.",
+                "correct": false
+              },
+              {
+                "text": "An unauthorised referral made secretly.",
+                "correct": false
+              },
+              {
+                "text": "Respectful support and the opportunity to reconsider, with accurate information and relevant lawful limits explained.",
+                "correct": true
+              }
+            ],
+            "rationale": "Choice and circumstances should be explored without coercion."
+          },
+          {
+            "id": "SWP-049-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-049-M3-T1",
+            "question": "A recommendation cites a standard and a qualitative synthesis. What does that combination alone establish?",
+            "options": [
+              {
+                "text": "A reasoned basis for questions and practice comparison, with local effects still untested.",
+                "correct": true
+              },
+              {
+                "text": "Proof of a causal local intervention effect.",
+                "correct": false
+              },
+              {
+                "text": "The same evidence as a randomised trial.",
+                "correct": false
+              },
+              {
+                "text": "A universal individual outcome prediction.",
+                "correct": false
+              }
+            ],
+            "rationale": "Standards and perspectives do not themselves demonstrate intervention effects."
+          },
+          {
+            "id": "SWP-049-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-049-M3-T2",
+            "question": "A worker links respectful assistance to accepting the worker's preferred referral. What should be corrected?",
+            "options": [
+              {
+                "text": "Only the referral form's decorative design.",
+                "correct": false
+              },
+              {
+                "text": "The coercive condition and the explanation of available choices.",
+                "correct": true
+              },
+              {
+                "text": "The person's opportunity to disagree.",
+                "correct": false
+              },
+              {
+                "text": "The need to communicate the service's actual limits.",
+                "correct": false
+              }
+            ],
+            "rationale": "A helpful intention does not remove pressure created by conditional assistance."
+          },
+          {
+            "id": "SWP-049-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-049-M3-T3",
+            "question": "A facilitator asks learners to recount personal violence experiences for marks. What fits this course's design?",
+            "options": [
+              {
+                "text": "Require disclosure to prove authenticity.",
+                "correct": false
+              },
+              {
+                "text": "Reward the most detailed private account.",
+                "correct": false
+              },
+              {
+                "text": "Use the original fictional scenarios and assess reasoning instead.",
+                "correct": true
+              },
+              {
+                "text": "Publish personal examples in class notes.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning can be assessed without soliciting sensitive personal histories."
+          },
+          {
+            "id": "SWP-049-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-049-M3-T4",
+            "question": "A feedback summary omits a name but includes a unique role and location. What remains to check?",
+            "options": [
+              {
+                "text": "A guarantee that removing names ensures anonymity.",
+                "correct": false
+              },
+              {
+                "text": "Automatic permission to share every detail.",
+                "correct": false
+              },
+              {
+                "text": "A rule that aggregate labels remove all privacy duties.",
+                "correct": false
+              },
+              {
+                "text": "Whether contextual details could identify the person before sharing.",
+                "correct": true
+              }
+            ],
+            "rationale": "Indirect identifiers can reveal identity in context."
+          },
+          {
+            "id": "SWP-049-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-049-M3-T5",
+            "question": "A service removes an unnecessary approval field. What outcome question could be reviewed separately?",
+            "options": [
+              {
+                "text": "Whether intended adults can access the suitable service more independently.",
+                "correct": true
+              },
+              {
+                "text": "Whether editing a field proves all violence stopped.",
+                "correct": false
+              },
+              {
+                "text": "Whether the new form certifies clinical recovery.",
+                "correct": false
+              },
+              {
+                "text": "Whether a completed edit eliminates all need for feedback.",
+                "correct": false
+              }
+            ],
+            "rationale": "An access change requires evidence beyond producing the revised form."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-050",
+      "title": "Survivor Centred First Response and Referral",
+      "slug": "survivor-centred-first-response-and-referral",
+      "cover_title": "Survivor Centred\nFirst Response\nand Referral",
+      "school_code": "GBV",
+      "school_name": "School of Gender Studies and Gender-Based Violence Prevention",
+      "school_display": "Gender Studies and\nGBV Prevention",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional adult scenarios. This course does not qualify a specialist GBV caseworker, clinician or forensic practitioner; supervised skills assessment and applicable safeguarding procedures remain necessary.",
+      "study_guidance": "Read each module and use only the supplied fictional adult scenarios. Do not seek real disclosures or submit survivor records for coursework. Write your response before consulting feedback. You may pause or use an alternative fictional exercise. Supervised skills observation remains a separate requirement.",
+      "practice_safety_note": "Use only the supplied fictional adult scenario. Do not collect real disclosures or submit survivor records. You may pause or use an alternative fictional exercise. Record your reasoning before checking the learner-guide feedback.",
+      "outcome": "Demonstrate a bounded first response to a fictional adult disclosure, preserving choice, privacy and role limits while offering verified referral information and appropriate urgent support.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "A safe first response to disclosure",
+          "outcome": "Offer respectful basic support without investigating, forcing a story or creating an incident record.",
+          "paragraphs": [
+            "A first response begins when a person voluntarily asks for help or shares a concern. It is not an invitation to search for survivors, conduct an interview for evidence or require a detailed account. Introduce the role honestly, ask what support the person wants now and consider whether the setting allows a private conversation without increasing risk. The GBV Pocket Guide addresses non-specialists when a GBV actor is unavailable and emphasises basic support rather than investigation. This course uses fictional adult situations; it does not authorise learners to practise by seeking real disclosures in their community. [S12, S1]",
+            "Listen without blame and without requiring the person to repeat distressing details. A supportive response recognises the concern and the person's right to respectful assistance. Avoid questions that suggest responsibility for another person's violence, promises that everything will be resolved or pressure to accept the worker's preferred option. Ask only what is necessary to understand the immediate request and appropriate next support. The specialist case-management guidance provides a fuller professional framework; an introductory worker should not turn a brief disclosure into a specialist intake simply because a form is available. [S11, S12]",
+            "Privacy includes the environment and information handling. A person may not want a companion, an interpreter drawn from their household or a phone recording the discussion. Do not photograph, transcribe or keep identifying incident details as a learning exercise. Understand applicable confidentiality limits and explain the relevant limits honestly before seeking sensitive information; do not invent a universal rule or promise secrecy without exceptions. Consultation should use an authorised, necessary process with consent and non-identifying information wherever possible. If a real situation raises safeguarding or urgent concerns, follow the relevant qualified pathway rather than improvise from a classroom scenario. [S12, S11, S1]",
+            "WHO's health-worker training overview highlights compassionate communication and first-line support, with further skills practice. It is a comparator for professional learning, not evidence that this non-clinical course qualifies a health provider. The provider-perspective synthesis supports attention to safety, agency and relationships, but does not establish that a particular phrase guarantees recovery. In the fictional task, practise a brief introduction, a non-blaming acknowledgement, a question about the immediate need and an explanation of the role. A learner may pause or use an alternative fictional task instead of performing a distressing role-play. [S13, R22, S1]"
+          ],
+          "example": "Fictional case: an adult at a service desk quietly asks for information after describing controlling behaviour. The worker offers an appropriate private conversation, explains the role and relevant limits, listens to the immediate request and avoids requesting a detailed incident history or making a recording.",
+          "activity": "Write a short fictional response with a role introduction, a non-blaming acknowledgement, an immediate-needs question and a statement of limits. Identify one detail the non-specialist should not collect and one environmental privacy check.",
+          "feedback": "The response should make space for the person's request and choice without investigating, recording identifying incident details or promising outcomes. It should keep health treatment, specialist intake and safeguarding decisions with the appropriate roles.",
+          "sources": [
+            "S12",
+            "S1",
+            "S11",
+            "S13",
+            "R22"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Choice consent and the next support",
+          "outcome": "Offer understandable options and verified information without coercive referral or unsupported guarantees.",
+          "paragraphs": [
+            "Explain available options in language the person can understand, including what remains uncertain. Ask whether the person wants information, help making contact or no referral at this time. Consent to talk is not automatically consent to share identifying details, contact another service or involve a family member. The Pocket Guide and specialist guidelines support respectful choice and informed permission. Relevant legal or safeguarding limits need a locally verified process and clear explanation; this course does not decide reporting law or treat organisational preference as a lawful exception to consent. [S12, S11, S1]",
+            "Check the receiving pathway before describing it as available. Confirm the current role, opening or response arrangements, accessibility, cost information where known and the safest way to make contact. A directory is a starting point rather than a guarantee of admission or competence. Share what is known and acknowledge what is not verified. Do not promise a place, protection outcome, money or a legal result on another service's behalf. The case-management guidance provides a basis for coordinated referral, while a first responder remains responsible for an accurate account of the actual options and their own limits. [S11, S12]",
+            "An immediate health or safety concern calls for prompt attention through the appropriate qualified service and applicable urgent-response arrangements, with the person's involvement and consent wherever possible. Do not delay access while completing coursework, obtaining a detailed story or trying to determine a criminal case. Some care can be time-sensitive, so offer accurate information about prompt professional assessment without reproducing medical eligibility cut-offs or treatment instructions. Explain that a clinician or relevant qualified role determines the appropriate assessment and care. A learner should not conclude that help is unavailable because time has passed or an account is incomplete. [S12, S13, S11]",
+            "If the person declines a proposed contact, maintain respectful support and explain any relevant service availability or lawful limits accurately. Do not make an unauthorised referral secretly or contact an alleged perpetrator to mediate. For children, adolescents, decision-making support or a safeguarding concern, use the appropriate specialist pathway rather than apply an adult-consent exercise mechanically. Provider-perspective research helps identify how coercion can be repeated by services; it does not justify overriding a person's choice in the name of recovery. In the fictional plan, state the chosen next step, verified information and unresolved dependency without retaining real incident details. [R22, S11, S12]"
+          ],
+          "example": "Fictional case: an adult wants information about an accessible service but does not agree to a call today. Its directory entry is old. The worker verifies current information without disclosing the adult's identity, explains uncertainty and respects the decision while identifying how prompt qualified care could be reached if requested.",
+          "activity": "Write a referral-options note for the fictional case. Separate consent to talk, consent to share and consent to make contact. Include a capacity check, an unknown, an urgent professional-support boundary and a response to declining referral.",
+          "feedback": "The note should preserve specific permission and accurate information. It must not promise admission, investigate the account, apply medical cut-offs or treat a refusal as permission for secret contact.",
+          "sources": [
+            "S12",
+            "S11",
+            "S1",
+            "S13",
+            "R22"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Safe handover and bounded follow-up",
+          "outcome": "Describe a permitted handover and feedback route without creating unsafe contact or parallel casework.",
+          "paragraphs": [
+            "A handover should occur only through the agreed appropriate pathway and within the relevant permission and lawful limits. Clarify what the receiving role needs to know for the chosen purpose and avoid transmitting an entire narrative by default. A non-specialist should not create a parallel incident database, retain identifiers for a classroom exercise or circulate a personal account to prove that a referral was made. Specialist guidance requires structured information management in competent services; it does not justify informal records in a learner's phone, email or personal cloud account. [S11, S12, S1]",
+            "Agree whether any follow-up contact is wanted and what communication would be safe. A shared device, message preview, voicemail or unexpected call can expose a service relationship. Do not assume the contact details given for one administrative purpose are safe for a different purpose. Check the person's preferences and the service's approved process, including what should happen if the contact cannot proceed privately. This lesson does not train a hotline worker or prescribe a universal remote safety protocol. If a safe arrangement cannot be confirmed, seek appropriate specialist advice without improvising a revealing message. [S11, S12]",
+            "Keep first response distinct from ongoing case management. A respectful conversation and an agreed referral may be a useful contribution, while continued assessment, safety planning and case records require qualified roles, supervision and organisational systems. Ask whether the intended support was actually reachable only through an agreed appropriate follow-up process. A sent referral is an output, not proof that safety, recovery or wellbeing improved. Provider-perspective research supports attention to continuity and system barriers but does not show that more contacts are always beneficial or that a worker should pursue someone who has declined further contact. [R22, S11, S1]",
+            "When a pathway fails, discuss an appropriate next option with the person through the agreed process rather than blame them or hide the gap. A general service-quality concern can be raised using necessary non-identifying information and appropriate consultation, with permission and safeguards where needed. Preserve a route to ask questions or complain without making disclosure a condition of assistance. In this course, use only the fictional handover exercise and assess the clarity of consent, scope, current service information and contact arrangements. Independent supervised skills observation is still needed before a real professional role can be considered competent. [S12, S13, S1]"
+          ],
+          "example": "Fictional case: an adult accepts a referral but does not want messages on a shared phone. The first responder checks the permitted handover route, shares only necessary agreed information and does not create a personal case file or promise ongoing case management. The receiving service's response remains to be confirmed.",
+          "activity": "Draft a fictional handover with purpose, receiving role, agreed information, communication boundary, unconfirmed condition and an authorised feedback route. Explain what a sent referral cannot demonstrate.",
+          "feedback": "A good handover protects the agreed boundaries and identifies what remains unresolved. It avoids revealing contact, parallel case records and claims that a referral alone proves recovery or specialist competence.",
+          "sources": [
+            "S11",
+            "S12",
+            "S1",
+            "R22",
+            "S13"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-050",
+        "course_slug": "survivor-centred-first-response-and-referral",
+        "title": "Survivor Centred First Response and Referral",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "381d289c7cc972d5ca97116dfd386348b2bbea3a8826c1b0cf3911f0e40d2e15",
+        "catalogue_sha256": "795e87cdc925b84db9c5cfc6a61a0c0c7c0f6ff3670810c08bb77ac93b6f21c8",
+        "modules": [
+          {
+            "order": 1,
+            "title": "A safe first response to disclosure",
+            "outcome": "Offer respectful basic support without investigating, forcing a story or creating an incident record.",
+            "teaching_points": [
+              {
+                "id": "SWP-050-M1-T1",
+                "text": "Non-specialist support follows voluntary disclosure."
+              },
+              {
+                "id": "SWP-050-M1-T2",
+                "text": "Support does not require a detailed retelling."
+              },
+              {
+                "id": "SWP-050-M1-T3",
+                "text": "A first response should avoid blame."
+              },
+              {
+                "id": "SWP-050-M1-T4",
+                "text": "Non-specialist learning does not require incident records."
+              },
+              {
+                "id": "SWP-050-M1-T5",
+                "text": "Training comparison is not clinical qualification."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Choice consent and the next support",
+            "outcome": "Offer understandable options and verified information without coercive referral or unsupported guarantees.",
+            "teaching_points": [
+              {
+                "id": "SWP-050-M2-T1",
+                "text": "Permission for one action does not authorise every action."
+              },
+              {
+                "id": "SWP-050-M2-T2",
+                "text": "A referral directory requires current verification."
+              },
+              {
+                "id": "SWP-050-M2-T3",
+                "text": "Prompt qualified care should not wait for a detailed story."
+              },
+              {
+                "id": "SWP-050-M2-T4",
+                "text": "Declining referral does not authorise secret contact."
+              },
+              {
+                "id": "SWP-050-M2-T5",
+                "text": "Adult exercises do not replace safeguarding expertise."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Safe handover and bounded follow-up",
+            "outcome": "Describe a permitted handover and feedback route without creating unsafe contact or parallel casework.",
+            "teaching_points": [
+              {
+                "id": "SWP-050-M3-T1",
+                "text": "Handover information should match the agreed purpose."
+              },
+              {
+                "id": "SWP-050-M3-T2",
+                "text": "Communication safety depends on the person and context."
+              },
+              {
+                "id": "SWP-050-M3-T3",
+                "text": "First response differs from ongoing case management."
+              },
+              {
+                "id": "SWP-050-M3-T4",
+                "text": "A referral sent is not a demonstrated wellbeing outcome."
+              },
+              {
+                "id": "SWP-050-M3-T5",
+                "text": "A failed pathway requires an accountable response."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-050-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-050-M1-T1",
+            "question": "A learner is told to find survivors to practise interviewing. What fits the course's first-response boundary?",
+            "options": [
+              {
+                "text": "Seek out survivors and collect detailed histories for marks.",
+                "correct": false
+              },
+              {
+                "text": "Require applicants to disclose violence before any assistance.",
+                "correct": false
+              },
+              {
+                "text": "Use the supplied fictional tasks and be prepared to respond appropriately if someone independently requests help.",
+                "correct": true
+              },
+              {
+                "text": "Treat a classroom exercise as permission to investigate.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course does not authorise proactive survivor identification or investigation."
+          },
+          {
+            "id": "SWP-050-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-050-M1-T2",
+            "question": "An adult asks for service information after a brief disclosure. What should guide further questions?",
+            "options": [
+              {
+                "text": "A requirement to recount every incident in detail.",
+                "correct": false
+              },
+              {
+                "text": "The worker's curiosity about the relationship.",
+                "correct": false
+              },
+              {
+                "text": "A need to complete an evidence statement before listening.",
+                "correct": false
+              },
+              {
+                "text": "Only what is necessary for the immediate request and appropriate support within role.",
+                "correct": true
+              }
+            ],
+            "rationale": "A non-specialist response should not force unnecessary recounting."
+          },
+          {
+            "id": "SWP-050-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-050-M1-T3",
+            "question": "Which response best supports an adult who describes coercion?",
+            "options": [
+              {
+                "text": "You deserve respectful support; what would be helpful to you now?",
+                "correct": true
+              },
+              {
+                "text": "You should have prevented the other person's behaviour.",
+                "correct": false
+              },
+              {
+                "text": "Help is available only if you make the decision I prefer.",
+                "correct": false
+              },
+              {
+                "text": "Your account matters only if you can prove every detail now.",
+                "correct": false
+              }
+            ],
+            "rationale": "The response recognises dignity and invites the person's priority without blame."
+          },
+          {
+            "id": "SWP-050-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-050-M1-T4",
+            "question": "A learner wants to record a real disclosure on a phone for coursework. What is appropriate?",
+            "options": [
+              {
+                "text": "Record secretly and remove the name later.",
+                "correct": false
+              },
+              {
+                "text": "Do not record it; use only the approved fictional learning material.",
+                "correct": true
+              },
+              {
+                "text": "Share the recording with classmates for feedback.",
+                "correct": false
+              },
+              {
+                "text": "Assume an educational purpose removes privacy responsibilities.",
+                "correct": false
+              }
+            ],
+            "rationale": "Sensitive personal disclosure is not a course assessment resource."
+          },
+          {
+            "id": "SWP-050-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-050-M1-T5",
+            "question": "The course links a WHO health-worker curriculum overview. What does that confer on a non-clinical learner?",
+            "options": [
+              {
+                "text": "A health-provider qualification.",
+                "correct": false
+              },
+              {
+                "text": "Permission to prescribe treatment.",
+                "correct": false
+              },
+              {
+                "text": "A curriculum comparison, without authority to provide clinical care.",
+                "correct": true
+              },
+              {
+                "text": "Proof that an unobserved skill has been mastered.",
+                "correct": false
+              }
+            ],
+            "rationale": "A link and short-course completion do not establish clinical competence."
+          },
+          {
+            "id": "SWP-050-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-050-M2-T1",
+            "question": "An adult agrees to a conversation but not information sharing. What can the worker infer?",
+            "options": [
+              {
+                "text": "Permission to send identifying details to any service.",
+                "correct": false
+              },
+              {
+                "text": "Automatic consent to contact family.",
+                "correct": false
+              },
+              {
+                "text": "Consent to publish the account for awareness.",
+                "correct": false
+              },
+              {
+                "text": "Permission for the conversation only, within the explained limits.",
+                "correct": true
+              }
+            ],
+            "rationale": "Consent needs to match the specific proposed action."
+          },
+          {
+            "id": "SWP-050-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-050-M2-T2",
+            "question": "A service listing is several years old. What should the first responder say?",
+            "options": [
+              {
+                "text": "Its current role and access arrangements need checking before availability is promised.",
+                "correct": true
+              },
+              {
+                "text": "Admission is guaranteed because the name appears.",
+                "correct": false
+              },
+              {
+                "text": "All listed services are equally accessible.",
+                "correct": false
+              },
+              {
+                "text": "The person must accept it without further information.",
+                "correct": false
+              }
+            ],
+            "rationale": "An old listing does not verify present capacity."
+          },
+          {
+            "id": "SWP-050-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-050-M2-T3",
+            "question": "A disclosure raises a potentially urgent health concern. What is within a non-clinical first responder's role?",
+            "options": [
+              {
+                "text": "Prescribe medication from the course notes.",
+                "correct": false
+              },
+              {
+                "text": "Facilitate prompt access to qualified assessment through the appropriate arrangements without delaying for a full history.",
+                "correct": true
+              },
+              {
+                "text": "Delay support until an evidence interview is complete.",
+                "correct": false
+              },
+              {
+                "text": "Declare care pointless because the account lacks dates.",
+                "correct": false
+              }
+            ],
+            "rationale": "Care decisions belong to qualified professionals; unnecessary questioning should not delay access."
+          },
+          {
+            "id": "SWP-050-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-050-M2-T4",
+            "question": "An adult declines a proposed service call with no established lawful exception. What respects the decision?",
+            "options": [
+              {
+                "text": "Call and disclose identifying details anyway.",
+                "correct": false
+              },
+              {
+                "text": "Contact the alleged perpetrator to negotiate.",
+                "correct": false
+              },
+              {
+                "text": "Provide accurate information and respectful support without making the call secretly.",
+                "correct": true
+              },
+              {
+                "text": "Withdraw dignity and non-discriminatory assistance.",
+                "correct": false
+              }
+            ],
+            "rationale": "A refusal is not consent, and a worker should not manufacture an exception."
+          },
+          {
+            "id": "SWP-050-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-050-M2-T5",
+            "question": "A fictional scenario is changed to involve a child. What should the learner recognise?",
+            "options": [
+              {
+                "text": "Every adult-consent rule applies unchanged.",
+                "correct": false
+              },
+              {
+                "text": "Any accompanying adult automatically has safe authority.",
+                "correct": false
+              },
+              {
+                "text": "The short course resolves all reporting obligations.",
+                "correct": false
+              },
+              {
+                "text": "An age-appropriate specialist safeguarding pathway and current local procedures are needed.",
+                "correct": true
+              }
+            ],
+            "rationale": "Child and safeguarding situations require appropriate expertise and verified procedures."
+          },
+          {
+            "id": "SWP-050-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-050-M3-T1",
+            "question": "A receiving contact needs a limited access enquiry. What information approach is appropriate?",
+            "options": [
+              {
+                "text": "Use the necessary agreed information through the authorised pathway.",
+                "correct": true
+              },
+              {
+                "text": "Send the whole narrative to every partner by default.",
+                "correct": false
+              },
+              {
+                "text": "Publish identifiers to prove a referral occurred.",
+                "correct": false
+              },
+              {
+                "text": "Keep a duplicate personal incident database.",
+                "correct": false
+              }
+            ],
+            "rationale": "Referral does not remove purpose and information limits."
+          },
+          {
+            "id": "SWP-050-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-050-M3-T2",
+            "question": "An adult says a phone is shared and messages are unsafe. What should the worker do?",
+            "options": [
+              {
+                "text": "Leave a revealing voicemail because follow-up is important.",
+                "correct": false
+              },
+              {
+                "text": "Respect that boundary and use only a confirmed appropriate contact arrangement.",
+                "correct": true
+              },
+              {
+                "text": "Assume a generic message can never expose the service relationship.",
+                "correct": false
+              },
+              {
+                "text": "Use an unrelated administrative number without checking.",
+                "correct": false
+              }
+            ],
+            "rationale": "Even the fact of service contact can be sensitive."
+          },
+          {
+            "id": "SWP-050-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-050-M3-T3",
+            "question": "A learner offers basic support and referral. What is needed before undertaking specialist ongoing casework?",
+            "options": [
+              {
+                "text": "Only a completed referral form.",
+                "correct": false
+              },
+              {
+                "text": "A promise to keep all records on a personal phone.",
+                "correct": false
+              },
+              {
+                "text": "The appropriate qualified role, supervision, organisational systems and competency development.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that one MCQ pass establishes professional competence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Specialist practice requires more than an introductory response lesson."
+          },
+          {
+            "id": "SWP-050-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-050-M3-T4",
+            "question": "A team reports recovery because a referral message was delivered. What is a defensible statement?",
+            "options": [
+              {
+                "text": "Delivery proves recovery.",
+                "correct": false
+              },
+              {
+                "text": "No receiving response matters.",
+                "correct": false
+              },
+              {
+                "text": "A message count certifies safety.",
+                "correct": false
+              },
+              {
+                "text": "The referral was sent; access and outcomes require separate appropriate evidence.",
+                "correct": true
+              }
+            ],
+            "rationale": "An output should not be presented as a verified personal outcome."
+          },
+          {
+            "id": "SWP-050-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-050-M3-T5",
+            "question": "The agreed receiving service cannot provide the requested support. What should happen next?",
+            "options": [
+              {
+                "text": "Use the agreed appropriate process to explain the gap and consider feasible options with the person.",
+                "correct": true
+              },
+              {
+                "text": "Blame the person for the service limitation.",
+                "correct": false
+              },
+              {
+                "text": "Hide the failed pathway in a success report.",
+                "correct": false
+              },
+              {
+                "text": "Make an unverified admission promise elsewhere.",
+                "correct": false
+              }
+            ],
+            "rationale": "A useful response is honest, bounded and informed by the person's preferences."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-051",
+      "title": "GBV Case Management and Safety Planning",
+      "slug": "gbv-case-management-and-safety-planning",
+      "cover_title": "GBV Case Management\nand Safety Planning",
+      "school_code": "GBV",
+      "school_name": "School of Gender Studies and Gender-Based Violence Prevention",
+      "school_display": "Gender Studies and\nGBV Prevention",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional adult scenarios. This course does not qualify a specialist GBV caseworker, clinician or forensic practitioner; supervised skills assessment and applicable safeguarding procedures remain necessary.",
+      "study_guidance": "Read each module and use only the supplied fictional adult scenarios. Do not seek real disclosures or submit survivor records for coursework. Write your response before consulting feedback. You may pause or use an alternative fictional exercise. Supervised skills observation remains a separate requirement.",
+      "practice_safety_note": "Use only the supplied fictional adult scenario. Do not collect real disclosures or submit survivor records. You may pause or use an alternative fictional exercise. Record your reasoning before checking the learner-guide feedback.",
+      "outcome": "Prepare a fictional case-support framework with specific consent, survivor-defined priorities, qualified safety-planning support, bounded information sharing and supervised review.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Casework roles consent and service readiness",
+          "outcome": "Explain the conditions required for specialist case management and distinguish specific consent from blanket permission.",
+          "paragraphs": [
+            "GBV case management is a structured professional process supporting a survivor's priorities and access to services over time. It involves more than making a referral or keeping a form. Qualified staff need suitable training, supervision, organisational procedures, secure information systems and functioning referral relationships. The inter-agency guidelines and programme standards are benchmarks for those arrangements; completing this introductory course does not establish specialist competence or authorise independent practice. In the fictional exercise, identify the responsible professional role and the service conditions that would be needed before a casework plan could be delivered. [S11, S10]",
+            "Consent is an ongoing informed discussion about a particular action, its purpose, relevant risks and available choices. Separate agreement to receive a service from agreement to create a record, share information or contact another organisation. A signature does not provide unlimited future permission and should not be treated as proof that the person understood or freely chose every subsequent step. Explain relevant confidentiality limits under verified local law and procedures before gathering sensitive information. The course does not decide Nigerian mandatory-reporting duties or permit a worker to invent an exception because another agency requests information. [S11, S1]",
+            "Clarify what the service can actually offer and how an individual can decline a particular action without being blamed. A person may want information or immediate assistance while remaining uncomfortable with documentation or a proposed referral. The guidelines support responding to concerns and preserving appropriate help rather than treating organisational paperwork as the purpose of support. Ask what options are feasible under the applicable procedures and professional role. Provider-perspective research identifies concerns about service control and access, but does not show that a template or a worker's preferred plan guarantees safety, trust or recovery. [S11, R22, S1]",
+            "Check readiness before assigning responsibility in a plan. Verify the professional role, supervisory support, private setting, accessible communication, current referral capacity and proportionate record arrangements. Record an unconfirmed condition as pending rather than describe another service's name as an accepted commitment. The Nigerian help-seeking study can prompt questions about different support pathways, while its 2018 survey classes neither certify current services nor determine an individual's preferred source of help. If the required specialist conditions are absent, keep the learner within basic support and an appropriate referral route instead of improvising case management. [R21, S10, S11]"
+          ],
+          "example": "Fictional case: a service wants a newly trained volunteer to manage a case alone using a downloaded form. The volunteer identifies missing supervision, information safeguards and referral capacity. In the exercise, consent to an initial discussion is kept separate from recording and information sharing.",
+          "activity": "Prepare a readiness-and-consent note with responsible qualified role, supervisor, private/access arrangements, referral capacity and three distinct permission decisions. Identify an unmet condition that prevents independent casework readiness.",
+          "feedback": "A form and an MCQ pass do not establish professional readiness. Consent must remain specific and informed, while qualified roles, supervision, capacity and secure procedures need actual confirmation.",
+          "sources": [
+            "S11",
+            "S10",
+            "S1",
+            "R22",
+            "R21"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Survivor-defined priorities and safety planning",
+          "outcome": "Describe a supported planning process that avoids universal prescriptions and unsupported safety guarantees.",
+          "paragraphs": [
+            "A case-support discussion begins with what the person identifies as most important, not the worker's preferred relationship outcome. Needs may concern immediate health, safety, communication, housing, care, livelihood or another priority. Ask only necessary questions through a qualified, consent-based assessment and avoid repeated retelling across services. Do not assume that leaving, returning, reporting or involving family is always the safest option. The inter-agency guidelines place the survivor's wishes and circumstances at the centre, while this introductory exercise practises reasoning about roles and conditions rather than delivering an individual professional assessment. [S11, S1]",
+            "Safety planning is an individual, changing process undertaken with appropriately trained support. It considers what the person sees as risks, feasible options, trusted support, safe communication and conditions requiring prompt qualified attention. A generic checklist or a completed worksheet cannot guarantee safety. An item that is helpful for one person, such as carrying a printed plan or receiving a message, may expose another person's service contact. The fictional task should identify these questions and relevant professional responsibilities, without writing a universal escape instruction or directing contact with a person who may cause harm. [S11, S10]",
+            "Maintain a distinction between social support and clinical, legal or forensic decisions. A potential urgent concern should connect promptly to the relevant authorised arrangements, with the person's involvement and consent wherever possible; routine planning should not delay appropriate care. A learner should not diagnose trauma, prescribe medication, collect forensic evidence or determine legal entitlements. Situations involving children, adolescents, supported decision-making or safeguarding need the appropriate specialist process and current local advice. The adult fictional exercise cannot establish that an accompanying person is a safe decision-maker or resolve an exception to confidentiality. [S11, S1]",
+            "Turn a chosen priority into a bounded plan with an agreed action, qualified owner, confirmed or pending service role, communication condition and review point. State what would need reassessment if circumstances or preferences change. The provider-perspective synthesis highlights choice and system accessibility but does not supply a tested Nigerian safety-planning instrument. The Nigerian help-seeking study also cannot validate a particular trusted contact. Treat each proposed support as something to discuss and verify rather than an assumption. A person can revise an earlier choice; the plan should preserve a feasible route for that discussion without blaming them for changing priorities. [R22, R21, S11]"
+          ],
+          "example": "Fictional case: an adult prioritises an accessible health enquiry and safe communication, while a worker assumes that a printed relocation plan is needed. The learner identifies the assumption, the risks of revealing materials and the qualified roles needed to discuss options without imposing an outcome.",
+          "activity": "Create a fictional support-plan outline with chosen priority, qualified action owner, service status, communication condition, review point and two assumptions to check. Explain why it cannot certify safety or replace an individual specialist assessment.",
+          "feedback": "The outline should preserve the person's priority and changing choices. It identifies professional boundaries and context-specific communication risks instead of prescribing departure, family contact or a universally safe checklist.",
+          "sources": [
+            "S11",
+            "S1",
+            "S10",
+            "R22",
+            "R21"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Follow-up supervision and restricted information",
+          "outcome": "Plan accountable follow-up and case review within qualified systems and specific permission.",
+          "paragraphs": [
+            "Follow-up checks whether the agreed support was reachable, remains useful and still matches the person's priorities, using the communication arrangements they have accepted. A failed referral, changed circumstance or new concern may require a revised plan and appropriate qualified attention. Do not equate attendance, a referral sent or a closed file with a demonstrated safety or recovery outcome. The inter-agency standards support accountable service quality, while the actual interpretation needs appropriate evidence and the person's perspective. In this course, record only an invented case sequence; no learner should create a real survivor record to show that follow-up has been practised. [S11, S10, S1]",
+            "Supervision should support competent decisions and worker accountability without turning a personal account into general circulation. Use the authorised secure system, relevant access restrictions and minimum necessary information for the supervisory purpose. Consent, information-sharing arrangements and applicable lawful limits remain important; a request from a supervisor does not justify posting identifiable details in a group chat. A general consultation can often be framed without identifiers, while a specific professional need must follow the appropriate process. Do not store case data in a personal AI service, unapproved cloud drive or coursework submission. [S11, S1]",
+            "Review the service's contribution honestly. Provider accounts can help identify practical pressures such as fragmented services and limited resources, but they should not replace appropriately gathered survivor feedback or be treated as a causal evaluation of recovery. The qualitative synthesis draws on high-income Western settings and reports inconsistent included-study counts, which are retained in the evidence note. Use its concerns to frame local questions about continuity, choice and barriers, not to claim the same outcomes everywhere. Record the action owner and unresolved dependency when a service cannot deliver what the plan anticipated. [R22, S10]",
+            "A case closure or transfer needs the relevant professional process, a discussion of the person's circumstances and preferences, and clarity about any continuing support or later return route. Do not close a file simply to improve performance counts or pursue unwanted contact to complete a target. Explain known service limits and preserve the approved record history and feedback route. Where a concern or complaint challenges a decision, use the appropriate review procedure without retaliating or sharing identifying details unnecessarily. These are conditions for supervised practice; an offline course score and a fictional plan do not authorise a school certificate or a specialist caseworker designation. [S11, S1, S10]"
+          ],
+          "example": "Fictional case: a referral did not reach the intended service. At an authorised supervisory review, the team examines the gap using necessary information, revisits agreed contact arrangements and records a qualified owner's response. It does not close the case to meet a target or post details to a general chat.",
+          "activity": "Write a fictional follow-up and supervision note with the failed step, permission/contact boundary, necessary information, qualified review role, response owner and a condition for later review or appropriate closure.",
+          "feedback": "The note should distinguish outputs from access and retain a route to respond. Qualified supervision, restricted information and the person's priorities matter more than contact or closure targets.",
+          "sources": [
+            "S11",
+            "S10",
+            "S1",
+            "R22"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-051",
+        "course_slug": "gbv-case-management-and-safety-planning",
+        "title": "GBV Case Management and Safety Planning",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "b662378f776e64084d48b60b8be859b91b9f4263341fa7ad8a184d8e62903fc3",
+        "catalogue_sha256": "316efa94ffd7b2400ac7fc8b609f551d65306eed4934be62bfa0e2b5a9b8a22f",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Casework roles consent and service readiness",
+            "outcome": "Explain the conditions required for specialist case management and distinguish specific consent from blanket permission.",
+            "teaching_points": [
+              {
+                "id": "SWP-051-M1-T1",
+                "text": "Case management requires organisational and professional conditions."
+              },
+              {
+                "id": "SWP-051-M1-T2",
+                "text": "Consent remains specific throughout a case."
+              },
+              {
+                "id": "SWP-051-M1-T3",
+                "text": "Confidentiality limits need verified local grounding."
+              },
+              {
+                "id": "SWP-051-M1-T4",
+                "text": "Documentation concerns should not be dismissed."
+              },
+              {
+                "id": "SWP-051-M1-T5",
+                "text": "Referral capacity requires current confirmation."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Survivor-defined priorities and safety planning",
+            "outcome": "Describe a supported planning process that avoids universal prescriptions and unsupported safety guarantees.",
+            "teaching_points": [
+              {
+                "id": "SWP-051-M2-T1",
+                "text": "A plan begins with the person's priorities."
+              },
+              {
+                "id": "SWP-051-M2-T2",
+                "text": "Safety planning is individual and revisable."
+              },
+              {
+                "id": "SWP-051-M2-T3",
+                "text": "A visible plan can create an information risk."
+              },
+              {
+                "id": "SWP-051-M2-T4",
+                "text": "A short course does not confer forensic or clinical authority."
+              },
+              {
+                "id": "SWP-051-M2-T5",
+                "text": "Changing preferences should prompt review rather than blame."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Follow-up supervision and restricted information",
+            "outcome": "Plan accountable follow-up and case review within qualified systems and specific permission.",
+            "teaching_points": [
+              {
+                "id": "SWP-051-M3-T1",
+                "text": "Follow-up asks about useful access rather than paperwork alone."
+              },
+              {
+                "id": "SWP-051-M3-T2",
+                "text": "Supervision does not justify unrestricted disclosure."
+              },
+              {
+                "id": "SWP-051-M3-T3",
+                "text": "Provider perspectives do not replace survivor outcomes."
+              },
+              {
+                "id": "SWP-051-M3-T4",
+                "text": "Closure targets should not determine a professional case decision."
+              },
+              {
+                "id": "SWP-051-M3-T5",
+                "text": "A fictional plan is distinct from credential authorisation."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-051-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-051-M1-T1",
+            "question": "A volunteer has passed an introductory MCQ course but has no supervision or secure records. What is accurate?",
+            "options": [
+              {
+                "text": "The MCQ pass alone authorises independent case management.",
+                "correct": false
+              },
+              {
+                "text": "A downloaded form supplies all missing safeguards.",
+                "correct": false
+              },
+              {
+                "text": "Specialist casework readiness is not established.",
+                "correct": true
+              },
+              {
+                "text": "A service name guarantees specialist capacity.",
+                "correct": false
+              }
+            ],
+            "rationale": "Professional competence and systems cannot be inferred from short-course completion."
+          },
+          {
+            "id": "SWP-051-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-051-M1-T2",
+            "question": "A person agrees to receive support but has not agreed to information sharing. What should the case framework show?",
+            "options": [
+              {
+                "text": "A blanket permission for every later use.",
+                "correct": false
+              },
+              {
+                "text": "Automatic permission to contact all relatives.",
+                "correct": false
+              },
+              {
+                "text": "A rule that a signature removes the need for explanation.",
+                "correct": false
+              },
+              {
+                "text": "A separate informed decision is needed for the proposed sharing, subject to verified lawful limits.",
+                "correct": true
+              }
+            ],
+            "rationale": "An agreement to one action is not all-encompassing consent."
+          },
+          {
+            "id": "SWP-051-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-051-M1-T3",
+            "question": "A worker says all GBV disclosures must always be reported under an invented universal rule. What should be corrected?",
+            "options": [
+              {
+                "text": "Use the actual applicable legal and safeguarding process with appropriate qualified advice and clear explanation.",
+                "correct": true
+              },
+              {
+                "text": "Keep the invented rule because it simplifies paperwork.",
+                "correct": false
+              },
+              {
+                "text": "Treat another agency's curiosity as a lawful exception.",
+                "correct": false
+              },
+              {
+                "text": "Promise absolute confidentiality regardless of established duties.",
+                "correct": false
+              }
+            ],
+            "rationale": "Neither invented reporting duties nor unrestricted secrecy is appropriate."
+          },
+          {
+            "id": "SWP-051-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-051-M1-T4",
+            "question": "An adult wants appropriate help but is concerned about a case file. What should a qualified service discuss?",
+            "options": [
+              {
+                "text": "A threat to withdraw all respectful assistance immediately.",
+                "correct": false
+              },
+              {
+                "text": "The concern, relevant procedures and feasible support choices without treating paperwork as the goal.",
+                "correct": true
+              },
+              {
+                "text": "Secret creation of a personal worker's file.",
+                "correct": false
+              },
+              {
+                "text": "A claim that records carry no possible privacy concern.",
+                "correct": false
+              }
+            ],
+            "rationale": "The guidelines centre assistance and informed choices rather than form completion."
+          },
+          {
+            "id": "SWP-051-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-051-M1-T5",
+            "question": "A case plan names an organisation that has not accepted a role. What status is accurate?",
+            "options": [
+              {
+                "text": "A confirmed service commitment.",
+                "correct": false
+              },
+              {
+                "text": "Completed support because a name was entered.",
+                "correct": false
+              },
+              {
+                "text": "A proposed pathway awaiting confirmation.",
+                "correct": true
+              },
+              {
+                "text": "A guaranteed result for the survivor.",
+                "correct": false
+              }
+            ],
+            "rationale": "Naming an organisation does not establish its agreement or capacity."
+          },
+          {
+            "id": "SWP-051-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-051-M2-T1",
+            "question": "A worker assumes every adult's goal is to leave immediately. What should a survivor-centred assessment do?",
+            "options": [
+              {
+                "text": "Apply the same relationship decision to everyone.",
+                "correct": false
+              },
+              {
+                "text": "Condition help on agreeing with the worker.",
+                "correct": false
+              },
+              {
+                "text": "Treat a different preference as proof of dishonesty.",
+                "correct": false
+              },
+              {
+                "text": "Explore the person's own priorities and circumstances through the appropriate qualified process.",
+                "correct": true
+              }
+            ],
+            "rationale": "A professional plan should not substitute the worker's preferred outcome."
+          },
+          {
+            "id": "SWP-051-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-051-M2-T2",
+            "question": "A completed generic worksheet is described as a guarantee of safety. What is accurate?",
+            "options": [
+              {
+                "text": "A worksheet cannot guarantee safety; individual assessment and continuing review remain necessary.",
+                "correct": true
+              },
+              {
+                "text": "Every checked box removes all risk.",
+                "correct": false
+              },
+              {
+                "text": "The same plan is safe in every context.",
+                "correct": false
+              },
+              {
+                "text": "No changed circumstance needs review.",
+                "correct": false
+              }
+            ],
+            "rationale": "Safety concerns and feasible options can change."
+          },
+          {
+            "id": "SWP-051-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-051-M2-T3",
+            "question": "An adult says a printed support plan could be found by someone controlling them. What needs consideration?",
+            "options": [
+              {
+                "text": "A rule that every survivor must take a printed plan.",
+                "correct": false
+              },
+              {
+                "text": "Whether the format and communication arrangement are safe in that person's circumstances.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that written materials are harmless.",
+                "correct": false
+              },
+              {
+                "text": "Permission to send the plan to shared contacts without checking.",
+                "correct": false
+              }
+            ],
+            "rationale": "The medium itself can reveal a sensitive service relationship."
+          },
+          {
+            "id": "SWP-051-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-051-M2-T4",
+            "question": "A learner is asked to collect forensic evidence and prescribe care during a fictional case discussion. What should be identified?",
+            "options": [
+              {
+                "text": "The course title as sufficient authority.",
+                "correct": false
+              },
+              {
+                "text": "A worksheet as a clinical protocol.",
+                "correct": false
+              },
+              {
+                "text": "Those decisions require relevant qualified professional roles and procedures.",
+                "correct": true
+              },
+              {
+                "text": "A general research citation as permission to prescribe.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course teaches bounded support reasoning, not specialist clinical or forensic practice."
+          },
+          {
+            "id": "SWP-051-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-051-M2-T5",
+            "question": "A person revises a previously chosen support option. What should the plan allow?",
+            "options": [
+              {
+                "text": "A penalty for changing their mind.",
+                "correct": false
+              },
+              {
+                "text": "Permanent enforcement of the earlier choice.",
+                "correct": false
+              },
+              {
+                "text": "Removal of all opportunities for feedback.",
+                "correct": false
+              },
+              {
+                "text": "A feasible discussion of the new preference and circumstances through the agreed process.",
+                "correct": true
+              }
+            ],
+            "rationale": "Supported planning is an ongoing process rather than a fixed contract for behaviour."
+          },
+          {
+            "id": "SWP-051-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-051-M3-T1",
+            "question": "A plan records a referral but the receiving service never responded. What is a relevant review question?",
+            "options": [
+              {
+                "text": "Whether the intended support was reachable and what appropriate next step the person wants.",
+                "correct": true
+              },
+              {
+                "text": "Whether sending the referral proves recovery.",
+                "correct": false
+              },
+              {
+                "text": "Whether the file can be counted as successful without enquiry.",
+                "correct": false
+              },
+              {
+                "text": "Whether the person should be blamed for the missing response.",
+                "correct": false
+              }
+            ],
+            "rationale": "The useful pathway extends beyond the outgoing referral."
+          },
+          {
+            "id": "SWP-051-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-051-M3-T2",
+            "question": "A general group chat asks for a survivor's identifying case details. What should guide the worker?",
+            "options": [
+              {
+                "text": "Assume any supervisory label removes confidentiality duties.",
+                "correct": false
+              },
+              {
+                "text": "Use the authorised necessary-information process and avoid broad disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Send the full file because a colleague asked.",
+                "correct": false
+              },
+              {
+                "text": "Upload the record to a personal AI account for convenience.",
+                "correct": false
+              }
+            ],
+            "rationale": "Access and purpose restrictions continue during professional consultation."
+          },
+          {
+            "id": "SWP-051-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-051-M3-T3",
+            "question": "A synthesis describes providers' preferred practices. What can a course responsibly infer?",
+            "options": [
+              {
+                "text": "A proven Nigerian treatment effect.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that every described practice is consistently implemented.",
+                "correct": false
+              },
+              {
+                "text": "Useful questions for service review, with actual survivor experience and effects still to assess.",
+                "correct": true
+              },
+              {
+                "text": "Permission to ignore affected people's feedback.",
+                "correct": false
+              }
+            ],
+            "rationale": "Qualitative provider evidence has a different scope from demonstrated outcomes."
+          },
+          {
+            "id": "SWP-051-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-051-M3-T4",
+            "question": "A manager wants a case closed solely to meet a monthly count. What should the review consider?",
+            "options": [
+              {
+                "text": "Only the target total.",
+                "correct": false
+              },
+              {
+                "text": "A presumption that file closure proves safety.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of unresolved concerns from the record.",
+                "correct": false
+              },
+              {
+                "text": "The relevant professional process, current circumstances, preferences and continuing support needs.",
+                "correct": true
+              }
+            ],
+            "rationale": "Administrative counts do not establish an appropriate closure decision."
+          },
+          {
+            "id": "SWP-051-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-051-M3-T5",
+            "question": "A learner completes a fictional case-management outline. What does that alone authorise?",
+            "options": [
+              {
+                "text": "Neither a specialist caseworker designation nor a school certificate.",
+                "correct": true
+              },
+              {
+                "text": "Independent specialist practice without supervision.",
+                "correct": false
+              },
+              {
+                "text": "A final ParaLearn school-exam pass.",
+                "correct": false
+              },
+              {
+                "text": "Clinical or forensic registration.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning evidence and professional or school credential requirements remain separate."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-052",
+      "title": "Trauma Informed Support and Service Coordination",
+      "slug": "trauma-informed-support-and-service-coordination",
+      "cover_title": "Trauma Informed\nSupport and Service\nCoordination",
+      "school_code": "GBV",
+      "school_name": "School of Gender Studies and Gender-Based Violence Prevention",
+      "school_display": "Gender Studies and\nGBV Prevention",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional adult scenarios. This course does not qualify a specialist GBV caseworker, clinician or forensic practitioner; supervised skills assessment and applicable safeguarding procedures remain necessary.",
+      "study_guidance": "Read each module and use only the supplied fictional adult scenarios. Do not seek real disclosures or submit survivor records for coursework. Write your response before consulting feedback. You may pause or use an alternative fictional exercise. Supervised skills observation remains a separate requirement.",
+      "practice_safety_note": "Use only the supplied fictional adult scenario. Do not collect real disclosures or submit survivor records. You may pause or use an alternative fictional exercise. Record your reasoning before checking the learner-guide feedback.",
+      "outcome": "Review a fictional service encounter and coordination pathway for choice, predictable communication, restricted information, qualified referral and accountable organisational support.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Trauma-informed service encounters",
+          "outcome": "Identify service practices that preserve agency without diagnosing trauma or prescribing treatment.",
+          "paragraphs": [
+            "A trauma-informed approach considers how an encounter may affect a person who has experienced distress or violence, while recognising that the worker may not know their history. It does not require every person to disclose trauma or accept a diagnostic label. Explain the role, the purpose of a question and what choices are available, and make the next step as predictable as possible. The provider-perspective synthesis identifies agency, relationships and organisational conditions as relevant concerns. Its qualitative findings are a basis for reflective questions, not proof that a particular communication technique produces clinical recovery. [R22, S1]",
+            "Ask permission before changes in the interaction, including involving another person or requesting sensitive information. Offer a pause, an accessible format or an alternative way to complete a necessary task where feasible. Respect cultural and individual communication preferences without presuming that a group label determines what is appropriate. Do not interpret silence, distress, a changed account or difficulty completing a form as evidence of dishonesty. The inter-agency standards support survivor-centred and non-discriminatory services, while the actual adjustment must fit the person's preferences, safety and the service's authority and resources. [S10, S1]",
+            "Keep supportive conduct separate from trauma therapy. A non-clinical learner can practise a respectful introduction, clear explanation, non-blaming acknowledgement and bounded referral information. They should not diagnose post-traumatic stress, ask a person to relive an experience, prescribe treatment or promise that a simple exercise will resolve symptoms. WHO's 2025 health-worker training overview emphasises professional communication and further skills development in a clinical workforce context. This academy course uses that map as a comparator and does not reproduce WHO exercises or confer a clinical qualification. [S13, S11, S1]",
+            "Use only the supplied fictional adult cases for practice. Participation should not depend on disclosing personal experiences, and a learner may pause or choose an alternative fictional exercise. Feedback should assess reasoning about choice, scope and the environment rather than the emotional intensity of a performance. Independent observation and supervised practice are still needed before a professional skill can be considered established. A service should also examine its own procedures and power, because a reassuring tone cannot compensate for coercive rules, inaccessible contact or an unqualified referral pathway. These are questions for accountable organisational review as well as individual reflection. [R22, S10, S13]"
+          ],
+          "example": "Fictional case: an adult is distressed by an unexplained change of staff during an appointment. The worker explains the proposed change and choices, asks about communication needs and offers a feasible pause. The worker does not request a trauma history or attempt therapy to complete the appointment.",
+          "activity": "Rewrite the fictional encounter with a role explanation, a permission check, a feasible choice, an access adjustment and a professional boundary. Identify one organisational issue that supportive wording alone cannot resolve.",
+          "feedback": "A trauma-informed encounter preserves agency and predictability without requiring disclosure or treatment. Appropriate wording matters alongside actual service rules, resources and qualified support.",
+          "sources": [
+            "R22",
+            "S1",
+            "S10",
+            "S13",
+            "S11"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Coordinated support and qualified referral",
+          "outcome": "Build a bounded service-coordination pathway that avoids repeated stories and unsupported promises.",
+          "paragraphs": [
+            "Coordination links relevant roles around an agreed priority without making the person responsible for resolving every gap between services. Start with what the person wants help with and which role can respond, then check whether the proposed support is actually available and accessible. A list of organisations is not a functioning pathway. The inter-agency standards distinguish psychosocial support, case management and referral arrangements, while qualified specialist services may involve several of these functions. This introductory exercise identifies the boundaries and dependencies; it does not train a learner to provide every component of care. [S10, S11]",
+            "Consent and purpose continue across organisational boundaries. Explain what a receiving role needs, why information would be shared and what the person can choose, subject to verified applicable limits. Avoid repeatedly requesting a full narrative because different teams use different forms. Use necessary information through the authorised process and do not create a shared public record or broad email chain of sensitive details. Specialist case-management guidance provides a professional information framework; it is not permission for informal data exchange or for a worker to decide another service's legal obligations without qualified advice. [S11, S1]",
+            "A clinical, protection, legal or safeguarding need should connect to the relevant qualified role through the applicable arrangements. Prompt professional assessment may be needed for an urgent concern, and a non-clinical coordination task should not delay that response while compiling a complete plan. Do not diagnose, prescribe, collect forensic evidence or guarantee a legal outcome. WHO's health-worker curriculum overview identifies a professional learning context that is different from this academy introduction. When children, adolescents or supported decision-making are involved, do not apply an adult fictional case as a universal protocol; seek the appropriate specialist process. [S13, S11, S1]",
+            "Assign responsibility for the next agreed step and its unresolved conditions. Confirm whether the receiving role has accepted the request, what communication is safe and whether the person wants follow-up. An inaccessible contact or an unavailable service should prompt an honest discussion of feasible options, not a repeated referral cycle or a promise that cannot be kept. Provider-perspective research identifies fragmentation and resource constraints as concerns, but does not demonstrate that an additional coordination meeting improves survivor outcomes. Review actual access and the person's priorities through an approved process rather than count messages as recovery. [R22, S10, S11]"
+          ],
+          "example": "Fictional case: a person has been asked to repeat the same account at several services but still cannot reach the intended support. The learner proposes a qualified coordinating role, purpose-limited information sharing and a confirmed next contact, with an unresolved capacity gap recorded honestly.",
+          "activity": "Draw a simple textual pathway for the fictional case: chosen priority, qualified role, permission and information scope, capacity status, next action owner and safe follow-up condition. Identify a step that should not wait for a complete plan if qualified urgent attention is needed.",
+          "feedback": "The pathway should reduce unneeded retelling, verify actual roles and preserve permission and communication boundaries. A referral count or meeting is not proof of accessible care or improved wellbeing.",
+          "sources": [
+            "S10",
+            "S11",
+            "S1",
+            "S13",
+            "R22"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Team conditions and accountable learning",
+          "outcome": "Identify organisational and supervisory responses to service pressure without substituting self-care for adequate systems.",
+          "paragraphs": [
+            "Consistent support depends on organisational conditions as well as individual goodwill. Appropriate staffing, supervision, access arrangements, clear responsibilities and realistic service availability affect what a team can deliver. The qualitative provider synthesis identifies both interaction-level and system-level concerns across several high-income Western contexts. It does not prove that a local service can achieve those conditions without resources or that individual resilience can compensate for an unsafe workload. In the fictional review, distinguish what the worker can adjust from decisions requiring a manager, a specialist supervisor or another accountable role. [R22, S10]",
+            "Workers may need confidential professional support when difficult work affects them, while protecting survivors' information and maintaining role boundaries. Use authorised supervision and appropriate staff-support arrangements rather than compulsory public retelling or sharing identifiable case material with friends or classmates. The case-management guidance includes supervision and staff care within service quality. This course does not prescribe treatment for workers or label ordinary distress as a diagnosis. A personal coping activity cannot replace management action on a harmful workload, missing training, harassment or an insecure information system. Identify the relevant responsibility instead of assigning every organisational problem to self-care. [S11, S1]",
+            "Gather feedback through an appropriate safe process that does not require disclosure as the price of assistance. Ask whether people understood the next step, could express a preference and reached the intended support, while noting who could not contribute. Counts of training attendance, contacts or closed cases do not establish quality or recovery on their own. The programme standards support monitoring and accountable learning, but a local review needs proportionate evidence and permissions. Staff accounts can identify constraints; they should sit alongside appropriately gathered service-user perspectives rather than substitute for them. [S10, R22, S1]",
+            "Create an improvement note with the observed process concern, evidence and limits, responsible decision-maker, feasible action, resource dependency and review point. Provide an appropriate response to concerns or corrections and retain the approved decision history without unnecessary identifiers. If a service cannot meet a condition, record the gap and next responsibility instead of relabelling it as readiness. WHO's training overview also points to further skills practice; neither a draft lesson, a positive feedback form nor a course MCQ pass establishes observed specialist competence. Academic, specialist and supervised practice review remain separate from this production build. [S13, S11, S1]"
+          ],
+          "example": "Fictional case: a team faces an excessive workload and unavailable supervisory cover. A manager offers a self-care leaflet but does not address the service conditions. The learner identifies managerial responsibilities, an appropriate confidential support route and a bounded improvement review without using identifiable case examples.",
+          "activity": "Write an improvement note with process concern, evidence limit, worker and management responsibilities, confidential support route, resource condition and review point. Explain why a self-care leaflet or attendance count cannot establish service readiness.",
+          "feedback": "A useful response assigns organisational responsibility and supports workers without unnecessary disclosure. It combines appropriate supervision, realistic resources and service feedback rather than claiming that personal coping or training attendance proves competence.",
+          "sources": [
+            "R22",
+            "S10",
+            "S11",
+            "S1",
+            "S13"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-052",
+        "course_slug": "trauma-informed-support-and-service-coordination",
+        "title": "Trauma Informed Support and Service Coordination",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "7beff9ac374e8ac24ab697eef12783e6e0e6dd6f15af9dade3fb4b6f2548d752",
+        "catalogue_sha256": "3871c9a4d85d354e85ab9a8670034f09da0737332846f315058e1259701e796b",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Trauma-informed service encounters",
+            "outcome": "Identify service practices that preserve agency without diagnosing trauma or prescribing treatment.",
+            "teaching_points": [
+              {
+                "id": "SWP-052-M1-T1",
+                "text": "Trauma-informed conduct does not require disclosure."
+              },
+              {
+                "id": "SWP-052-M1-T2",
+                "text": "Predictability can support agency."
+              },
+              {
+                "id": "SWP-052-M1-T3",
+                "text": "Distress does not establish dishonesty."
+              },
+              {
+                "id": "SWP-052-M1-T4",
+                "text": "Non-clinical support differs from trauma therapy."
+              },
+              {
+                "id": "SWP-052-M1-T5",
+                "text": "Supportive wording cannot replace adequate systems."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Coordinated support and qualified referral",
+            "outcome": "Build a bounded service-coordination pathway that avoids repeated stories and unsupported promises.",
+            "teaching_points": [
+              {
+                "id": "SWP-052-M2-T1",
+                "text": "Coordination needs functioning roles rather than a list."
+              },
+              {
+                "id": "SWP-052-M2-T2",
+                "text": "Repeated retelling is not automatically necessary for coordination."
+              },
+              {
+                "id": "SWP-052-M2-T3",
+                "text": "Urgent professional support should not wait for administrative completeness."
+              },
+              {
+                "id": "SWP-052-M2-T4",
+                "text": "Receiving capacity should remain explicit."
+              },
+              {
+                "id": "SWP-052-M2-T5",
+                "text": "Coordination outputs are distinct from outcomes."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Team conditions and accountable learning",
+            "outcome": "Identify organisational and supervisory responses to service pressure without substituting self-care for adequate systems.",
+            "teaching_points": [
+              {
+                "id": "SWP-052-M3-T1",
+                "text": "Organisational conditions affect service quality."
+              },
+              {
+                "id": "SWP-052-M3-T2",
+                "text": "Self-care does not replace management action."
+              },
+              {
+                "id": "SWP-052-M3-T3",
+                "text": "Worker support should protect survivor information."
+              },
+              {
+                "id": "SWP-052-M3-T4",
+                "text": "Attendance alone does not establish observed competence."
+              },
+              {
+                "id": "SWP-052-M3-T5",
+                "text": "Improvement notes need accountable follow-through."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-052-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-052-M1-T1",
+            "question": "A worker wants every applicant to recount trauma before receiving ordinary assistance. What fits this course?",
+            "options": [
+              {
+                "text": "Make disclosure compulsory to show engagement.",
+                "correct": false
+              },
+              {
+                "text": "Assign a diagnosis from a short form.",
+                "correct": false
+              },
+              {
+                "text": "Provide respectful predictable support without requiring a trauma history.",
+                "correct": true
+              },
+              {
+                "text": "Use personal histories as classroom performance material.",
+                "correct": false
+              }
+            ],
+            "rationale": "Respectful service can be offered without collecting a trauma narrative."
+          },
+          {
+            "id": "SWP-052-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-052-M1-T2",
+            "question": "An appointment will change staff unexpectedly. What should the worker explain?",
+            "options": [
+              {
+                "text": "Nothing, because explanations reduce efficiency.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that the change cannot be distressing.",
+                "correct": false
+              },
+              {
+                "text": "That accepting every change is a condition of dignity.",
+                "correct": false
+              },
+              {
+                "text": "The proposed change, relevant choices and feasible arrangements before proceeding.",
+                "correct": true
+              }
+            ],
+            "rationale": "Clear explanation allows the person to understand and influence the next step."
+          },
+          {
+            "id": "SWP-052-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-052-M1-T3",
+            "question": "An adult has difficulty completing a form while distressed. What is appropriate?",
+            "options": [
+              {
+                "text": "Explore a feasible supportive adjustment without treating distress as proof of dishonesty.",
+                "correct": true
+              },
+              {
+                "text": "Assume the account is false.",
+                "correct": false
+              },
+              {
+                "text": "Demand a detailed retelling to test credibility.",
+                "correct": false
+              },
+              {
+                "text": "Punish a request to pause.",
+                "correct": false
+              }
+            ],
+            "rationale": "A service difficulty is not a basis for an unsupported credibility judgement."
+          },
+          {
+            "id": "SWP-052-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-052-M1-T4",
+            "question": "A learner proposes asking someone to relive an experience as treatment. What boundary applies?",
+            "options": [
+              {
+                "text": "The course title alone authorises treatment.",
+                "correct": false
+              },
+              {
+                "text": "Trauma therapy requires the relevant qualified role and appropriate clinical process.",
+                "correct": true
+              },
+              {
+                "text": "Any distressing role-play is automatically therapeutic.",
+                "correct": false
+              },
+              {
+                "text": "A journal citation replaces clinical competence.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course teaches service support and referral rather than trauma processing."
+          },
+          {
+            "id": "SWP-052-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-052-M1-T5",
+            "question": "A worker speaks kindly but the service still imposes coercive access rules. What needs attention?",
+            "options": [
+              {
+                "text": "Only the tone, because rules cannot affect experience.",
+                "correct": false
+              },
+              {
+                "text": "A claim that kindness proves recovery.",
+                "correct": false
+              },
+              {
+                "text": "The organisational rules and their effect on choice as well as the interaction.",
+                "correct": true
+              },
+              {
+                "text": "More personal disclosures from applicants.",
+                "correct": false
+              }
+            ],
+            "rationale": "Trauma-informed review concerns systems and power, not wording alone."
+          },
+          {
+            "id": "SWP-052-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-052-M2-T1",
+            "question": "A pathway names many agencies but none has accepted a responsibility. What is missing?",
+            "options": [
+              {
+                "text": "Only more agency logos.",
+                "correct": false
+              },
+              {
+                "text": "A larger contact count as proof of access.",
+                "correct": false
+              },
+              {
+                "text": "A claim that naming an agency creates a commitment.",
+                "correct": false
+              },
+              {
+                "text": "Confirmed appropriate roles, capacity and an agreed next step.",
+                "correct": true
+              }
+            ],
+            "rationale": "A useful pathway depends on actual responsibility and access."
+          },
+          {
+            "id": "SWP-052-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-052-M2-T2",
+            "question": "Several services request full narratives for an access enquiry. What should be reviewed?",
+            "options": [
+              {
+                "text": "Whether necessary purpose-limited information can support the agreed pathway without repeated disclosure.",
+                "correct": true
+              },
+              {
+                "text": "A rule that every form requires every detail.",
+                "correct": false
+              },
+              {
+                "text": "Publication of one shared unrestricted narrative.",
+                "correct": false
+              },
+              {
+                "text": "Permission to bypass consent because coordination is difficult.",
+                "correct": false
+              }
+            ],
+            "rationale": "Information should match purpose within appropriate safeguards."
+          },
+          {
+            "id": "SWP-052-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-052-M2-T3",
+            "question": "A potentially urgent clinical concern arises while a plan is unfinished. What should a non-clinical worker facilitate?",
+            "options": [
+              {
+                "text": "Completion of every non-urgent form before access.",
+                "correct": false
+              },
+              {
+                "text": "Prompt qualified assessment through the applicable arrangements.",
+                "correct": true
+              },
+              {
+                "text": "A diagnosis made from the coordination map.",
+                "correct": false
+              },
+              {
+                "text": "A medication plan produced by the learner.",
+                "correct": false
+              }
+            ],
+            "rationale": "Administrative planning should not delay appropriate urgent care."
+          },
+          {
+            "id": "SWP-052-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-052-M2-T4",
+            "question": "A specialist service cannot confirm availability. What should the pathway show?",
+            "options": [
+              {
+                "text": "Guaranteed admission despite the uncertainty.",
+                "correct": false
+              },
+              {
+                "text": "A completed-care outcome.",
+                "correct": false
+              },
+              {
+                "text": "The unresolved capacity condition and an appropriate owner for considering feasible options.",
+                "correct": true
+              },
+              {
+                "text": "A hidden gap to keep the report positive.",
+                "correct": false
+              }
+            ],
+            "rationale": "Transparent limits support a realistic next decision."
+          },
+          {
+            "id": "SWP-052-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-052-M2-T5",
+            "question": "A programme counts case meetings as proof of recovery. What should the interpretation acknowledge?",
+            "options": [
+              {
+                "text": "More meetings always mean better recovery.",
+                "correct": false
+              },
+              {
+                "text": "No survivor perspective is relevant.",
+                "correct": false
+              },
+              {
+                "text": "A meeting count is a clinical measure.",
+                "correct": false
+              },
+              {
+                "text": "Meetings are activities; access and wellbeing outcomes need separate appropriate evidence.",
+                "correct": true
+              }
+            ],
+            "rationale": "Activity volume does not establish a personal outcome."
+          },
+          {
+            "id": "SWP-052-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-052-M3-T1",
+            "question": "A worker lacks supervision and has an unsafe workload. What should the service review address?",
+            "options": [
+              {
+                "text": "Staffing, supervision and management responsibilities alongside individual support.",
+                "correct": true
+              },
+              {
+                "text": "Only the worker's personal motivation.",
+                "correct": false
+              },
+              {
+                "text": "A claim that goodwill supplies missing capacity.",
+                "correct": false
+              },
+              {
+                "text": "A new success label without changing any condition.",
+                "correct": false
+              }
+            ],
+            "rationale": "Service systems shape what an individual can safely and competently deliver."
+          },
+          {
+            "id": "SWP-052-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-052-M3-T2",
+            "question": "A manager responds to excessive workload only with a self-care leaflet. What remains unresolved?",
+            "options": [
+              {
+                "text": "Nothing, because a leaflet guarantees readiness.",
+                "correct": false
+              },
+              {
+                "text": "The workload and organisational responsibilities requiring an appropriate decision.",
+                "correct": true
+              },
+              {
+                "text": "The need to blame workers for every system problem.",
+                "correct": false
+              },
+              {
+                "text": "A duty for workers to disclose case details publicly.",
+                "correct": false
+              }
+            ],
+            "rationale": "Personal coping support is distinct from correcting service conditions."
+          },
+          {
+            "id": "SWP-052-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-052-M3-T3",
+            "question": "A staff member seeks support after difficult work. What is appropriate?",
+            "options": [
+              {
+                "text": "Post identifiable narratives to a social group.",
+                "correct": false
+              },
+              {
+                "text": "Require compulsory public retelling of every case.",
+                "correct": false
+              },
+              {
+                "text": "Use authorised confidential support and supervision without unnecessary identifying case details.",
+                "correct": true
+              },
+              {
+                "text": "Upload personal case files to an unapproved tool.",
+                "correct": false
+              }
+            ],
+            "rationale": "Support needs do not justify broad disclosure."
+          },
+          {
+            "id": "SWP-052-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-052-M3-T4",
+            "question": "A team completes training attendance forms but no skills observation. What conclusion is justified?",
+            "options": [
+              {
+                "text": "Every specialist skill is proven.",
+                "correct": false
+              },
+              {
+                "text": "The service is automatically accredited.",
+                "correct": false
+              },
+              {
+                "text": "All survivor outcomes have improved.",
+                "correct": false
+              },
+              {
+                "text": "Attendance occurred; relevant skills still require appropriate observation and review.",
+                "correct": true
+              }
+            ],
+            "rationale": "Completion counts and demonstrated professional capability are different evidence."
+          },
+          {
+            "id": "SWP-052-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-052-M3-T5",
+            "question": "Feedback identifies a repeated access barrier. What should an improvement note include?",
+            "options": [
+              {
+                "text": "A responsible role, feasible action, dependency and review point with evidence limits.",
+                "correct": true
+              },
+              {
+                "text": "Only a positive slogan.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of the concern to protect the programme image.",
+                "correct": false
+              },
+              {
+                "text": "A universal recovery claim from one comment.",
+                "correct": false
+              }
+            ],
+            "rationale": "An accountable response connects evidence to an authorised action and later review."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence checked 15 November 2026. Actual source publication dates, evidence periods and forthcoming issue assignment are distinguished. SJR Q1 records were visible in provider-indexed results but direct tables were restricted; no independent JCR, BMC Women's Health or IJSDS quartile is claimed. Rank does not establish article validity. Sources support original non-clinical teaching, not unsupervised GBV casework. Specialist GBV, Nigerian practice/legal, accessibility and supervised skills review remain pending."
+}

@@ -1,0 +1,105 @@
+{
+  "school_code": "GBV",
+  "status": "draft_for_review",
+  "version": "0.1.0",
+  "evidence_checked_on": "2026-11-15",
+  "target_course_count": 8,
+  "authored_draft_count": 4,
+  "draft_catalogue_complete": false,
+  "curriculum_approved": false,
+  "courses": [
+    {
+      "title": "Gender Power and Intersectionality",
+      "course_code": "SWP-049",
+      "status": "inactive_review_draft"
+    },
+    {
+      "title": "Survivor Centred First Response and Referral",
+      "course_code": "SWP-050",
+      "status": "inactive_review_draft"
+    },
+    {
+      "title": "GBV Case Management and Safety Planning",
+      "course_code": "SWP-051",
+      "status": "inactive_review_draft"
+    },
+    {
+      "title": "Trauma Informed Support and Service Coordination",
+      "course_code": "SWP-052",
+      "status": "inactive_review_draft"
+    },
+    {
+      "title": "Community Prevention and Social Norms Change",
+      "course_code": null,
+      "status": "not_authored"
+    },
+    {
+      "title": "Child Marriage FGM and Harmful Practices",
+      "course_code": null,
+      "status": "not_authored"
+    },
+    {
+      "title": "Technology Facilitated Abuse and Digital Safety",
+      "course_code": null,
+      "status": "not_authored"
+    },
+    {
+      "title": "Ethical GBV Data and Programme Evaluation",
+      "course_code": null,
+      "status": "not_authored"
+    }
+  ],
+  "benchmark": {
+    "source_ids": [
+      "S10",
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "selected_domains": [
+      "Gender power and inclusion",
+      "Survivor-centred first response",
+      "Specialist casework and referral boundaries",
+      "Non-clinical psychosocial support and coordination",
+      "Prevention and social norms",
+      "Harmful practices and age-appropriate safeguarding",
+      "Technology-facilitated abuse",
+      "Ethical information and programme evaluation"
+    ],
+    "limit": "Sixteen inter-agency programme standards are a domain benchmark, not an eight-course accreditation mandate. Four courses remain unwritten; specialist review, adequate depth, Nigerian procedures and observed skills remain pending."
+  },
+  "exam_plan": {
+    "status": "not_authored_or_provisioned",
+    "provider": "ParaLearn CBT",
+    "provider_assessment_id": null,
+    "provider_contract_verified": false,
+    "coverage": "Every course in the final approved eight-course GBV curriculum, including the four not yet authored",
+    "proposed_items": {
+      "MCQ": 40,
+      "SHORT_ANSWER": 6,
+      "ESSAY": 2
+    },
+    "proposed_marks": 100,
+    "human_written_marking_required": true,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "next_gate": "Author the remaining courses, then develop and independently review a full-curriculum blueprint and question bindings; verify live mixed-exam capabilities and pilot before launch"
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Every approved curriculum course completed through verified ParaLearn course-CBT passes",
+      "Passed final full-curriculum ParaLearn MCQ/short-answer/essay exam after human marking and moderation",
+      "Authorised Head of Learning and Founder signatures"
+    ],
+    "head_of_learning": "Name and signature pending",
+    "founder": "Prof. Mina Ogbanga"
+  },
+  "review": {
+    "academic": "pending",
+    "specialist_GBV_and_safeguarding": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "supervised_skills": "pending"
+  }
+}

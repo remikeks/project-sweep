@@ -52,6 +52,10 @@ for c in package["courses"]:
                 assert all(header in " ".join((p.extract_text() or "").split()) for p in reader.pages),"PDF school header mismatch"
             if kind=="learner_guide" and c.get("school_name"):
                 assert c["school_name"] in normalized,"Learner guide school name mismatch"
+            if kind=="learner_guide" and c.get("study_guidance"):
+                assert " ".join(c["study_guidance"].split()) in normalized,"Missing course-specific study guidance"
+            if kind=="worksheet" and c.get("practice_safety_note"):
+                assert all(" ".join(c["practice_safety_note"].split()) in " ".join((p.extract_text() or "").split()) for p in reader.pages),"Missing practice boundary on a worksheet page"
             assert c["code"] in body
             assert len(body)>600,"PDF has insufficient accessible text"
             if "course-slides" in suffix: assert pages==expected_slides
