@@ -1,0 +1,692 @@
+{
+  "status": "draft_for_review",
+  "school_code": "GBV",
+  "curriculum_version": "GBV-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-049",
+    "SWP-050",
+    "SWP-051",
+    "SWP-052",
+    "SWP-053",
+    "SWP-054",
+    "SWP-055",
+    "SWP-056"
+  ],
+  "programme_target_course_count": 8,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "scope_note": "All eight proposed GBV courses represented as review drafts, not an approved professional curriculum. Historical four-course scope plan retained. Specialist safeguarding, Nigerian practice/legal, accessibility, piloting, supervised skills, independent academic approval, live ParaLearn mixed-item support and question binding remain pending. This file cannot launch an exam or authorise a certificate.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed; academic review, accessibility adjustments and learner piloting required",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Human marking with criterion-level rationales and independent human moderation. Accept equivalent defensible reasoning. Refer unsafe reasoning for specialist review; this draft defines no unapproved automatic fail or professional competency standard.",
+    "appeals": "Preserve responses, rubric version, marker, moderation and amendment history with an authorised appeal route."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Complete all eight approved GBV courses and verified ParaLearn course CBT passes before a course badge is awarded",
+      "Pass the final full-curriculum ParaLearn exam after human written marking and moderation",
+      "Meet approved curriculum/supervised skills requirements and receive authorised signatories; Head of Learning name/signature pending; Founder, SWEEP Academy - Prof. Mina Ogbanga"
+    ]
+  },
+  "items": [
+    {
+      "id": "GBV8-SWP-049-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-049"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-049-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-049"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-049-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-049"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-049-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-049"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-049-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-049"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-050-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-050"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-050-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-050"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-050-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-050"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-050-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-050"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-050-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-050"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-051-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-051"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-051-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-051"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-051-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-051"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-051-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-051"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-051-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-051"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-052-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-052"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-052-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-052"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-052-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-052"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-052-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-052"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-052-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-052"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-053-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-053-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-053-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-053-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-053-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-054-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-054-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-054-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-054-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-054-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-055-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-055-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-055-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-055-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-055-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-056-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-056-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-056-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-056-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SWP-056-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "GBV8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-049",
+        "SWP-050"
+      ],
+      "prompt": "A fictional service requires partner approval for adult access. An adult privately asks for help without wanting to recount an incident. Give five elements of an appropriate power-aware first response.",
+      "model_answer": "Identify the access rule and its effect on independent choice without stereotyping; listen without investigation or requiring a disclosure narrative; explain role and confidentiality limits honestly; respect the adult's preferences and consent rather than impose a referral; and identify a verified suitable support option with an agreed safe next contact. Context never excuses violence or transfers responsibility to the survivor.",
+      "rubric": [
+        {
+          "criterion": "Gender power and access without stereotype (049)",
+          "marks": 1
+        },
+        {
+          "criterion": "Listening without investigation or forced disclosure (050)",
+          "marks": 1
+        },
+        {
+          "criterion": "Role and privacy limits (050)",
+          "marks": 1
+        },
+        {
+          "criterion": "Choice consent and non-coercion (049/050)",
+          "marks": 1
+        },
+        {
+          "criterion": "Verified support and safe next step (050)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-051",
+        "SWP-052"
+      ],
+      "prompt": "A fictional adult has accepted discussion of support but is overwhelmed by repeated retelling and an unverified referral. Give five corrections for a supervised support and coordination outline.",
+      "model_answer": "Retain person-led goals and revisit preferences; plan safety and contact within qualified supervision rather than promise protection; minimise repeated retelling and information shared for each consented purpose; verify service scope and capacity before a bounded referral; and agree follow-up responsibilities with trauma-informed choice, predictable communication and clinical limits. No diagnosis, therapy or unsupervised casework is authorised.",
+      "rubric": [
+        {
+          "criterion": "Person-led goals and revisitable preferences (051/052)",
+          "marks": 1
+        },
+        {
+          "criterion": "Supervised planning and realistic safety limits (051)",
+          "marks": 1
+        },
+        {
+          "criterion": "Consent and minimum information/retelling (051/052)",
+          "marks": 1
+        },
+        {
+          "criterion": "Verified referral and coordination roles (051/052)",
+          "marks": 1
+        },
+        {
+          "criterion": "Trauma-informed follow-up without clinical overreach (052)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-053"
+      ],
+      "prompt": "A fictional club holds three awareness sessions and reports changed views. Its organiser claims proven violence reduction. Give five requirements for a defensible prevention review.",
+      "model_answer": "Distinguish private attitudes, perceived social expectations and behaviour; state a plausible mechanism rather than a proven effect; separate session outputs and stated views from violence outcomes; examine participation, context, alternative explanations and possible harms within approved arrangements; and assign a feasible revision and review owner. Pooled trial effects cannot be promised locally.",
+      "rubric": [
+        {
+          "criterion": "Attitude expectation behaviour distinction",
+          "marks": 1
+        },
+        {
+          "criterion": "Theory-of-change status",
+          "marks": 1
+        },
+        {
+          "criterion": "Output and outcome distinction",
+          "marks": 1
+        },
+        {
+          "criterion": "Coverage alternatives and harms",
+          "marks": 1
+        },
+        {
+          "criterion": "Accountable bounded revision",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-054"
+      ],
+      "prompt": "A non-graphic fictional concern involves a girl leaving school for marriage. A proposed plan assumes the accompanying adult is safe and promises an educational meeting will end FGM. Give five corrections.",
+      "model_answer": "Use qualified child safeguarding with attention to best interests, evolving capacities and age-appropriate participation; distinguish assent from legal consent and avoid assuming caregiver safety; obtain appropriate local legal/professional decisions instead of universal reporting or validity claims; preserve non-stigmatising access to qualified services without medicalisation or investigation; and distinguish very low-certainty knowledge/attitude evidence from demonstrated FGM incidence reduction.",
+      "rubric": [
+        {
+          "criterion": "Best interests evolving capacities and participation",
+          "marks": 1
+        },
+        {
+          "criterion": "Assent consent and caregiver safety",
+          "marks": 1
+        },
+        {
+          "criterion": "Qualified local safeguarding/legal authority",
+          "marks": 1
+        },
+        {
+          "criterion": "Dignified qualified access and scope",
+          "marks": 1
+        },
+        {
+          "criterion": "FGM evidence certainty and outcome limits",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-055"
+      ],
+      "prompt": "A fictional adult reports technology-related threats but needs a shared device for work. Someone proposes immediate deletion, a private screenshot in coursework and email follow-up without agreement. Give five corrections.",
+      "model_answer": "Recognise digital/offline coercion and access needs without blame; distinguish reports from technical verification rather than diagnose spyware; agree safe contact before sensitive messages; consider person-led priorities and qualified specialist planning before deletion/reporting; and exclude credentials or intimate/identifying material from coursework while respecting purpose-specific information limits. No forensic access or guaranteed platform outcome.",
+      "rubric": [
+        {
+          "criterion": "Digital/offline context and access",
+          "marks": 1
+        },
+        {
+          "criterion": "Evidence status and diagnostic boundary",
+          "marks": 1
+        },
+        {
+          "criterion": "Agreed safe contact",
+          "marks": 1
+        },
+        {
+          "criterion": "Specialist planning before changes",
+          "marks": 1
+        },
+        {
+          "criterion": "No sensitive coursework material or unapproved reuse",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-056"
+      ],
+      "prompt": "A fictional service completes twelve of thirty eligible referrals in period A and eighteen of sixty in B. It merges clinical and casework records for a sponsor and claims a higher completion rate proves lower GBV prevalence. Give five corrections.",
+      "model_answer": "Calculate A as forty percent and B as thirty percent, a decrease of ten percentage points despite a higher count; define units, denominators, periods and missingness; distinguish service use from prevalence and avoid causal claims; separate clinical/casework purposes with minimisation and qualified consent/governance before sharing; and use an authorised relevant review with safe feedback, suitable measures and a responsible action owner.",
+      "rubric": [
+        {
+          "criterion": "Correct 40% 30% and ten-percentage-point decrease",
+          "marks": 1
+        },
+        {
+          "criterion": "Definitions comparability and missingness",
+          "marks": 1
+        },
+        {
+          "criterion": "Service prevalence and causal limits",
+          "marks": 1
+        },
+        {
+          "criterion": "Purpose minimisation and qualified governance",
+          "marks": 1
+        },
+        {
+          "criterion": "Suitable ethical review and accountable response",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-049",
+        "SWP-050",
+        "SWP-051",
+        "SWP-052",
+        "SWP-053",
+        "SWP-054",
+        "SWP-055",
+        "SWP-056"
+      ],
+      "prompt": "Develop a bounded support and prevention proposal for a fictional youth/community service. Adults face partner-approval barriers; an adolescent raises a non-graphic marriage concern; digital threats affect access to work; and a sponsor requests linked health/casework data. Integrate all eight GBV courses, explaining support roles, consent and child-specific safeguarding, prevention mechanisms, safe digital planning and a feasible review. State authority, dependencies and evidence limits.",
+      "model_answer": "Credit coherent reasoning across all eight courses: analyse power and intersecting access without blame; provide respectful non-investigative first response; use person-led supervised casework/referral planning with trauma-informed choice and qualified clinical boundaries; distinguish prevention assumptions from effects; use child-specific best interests, consent/assent and local safeguarding expertise with honest FGM evidence limits; preserve safe contact and specialist digital planning without sensitive material; and minimise purpose-specific information, define indicators and bound evaluation claims. An introductory course does not qualify a specialist. Accept equivalent defensible reasoning, not source wording.",
+      "rubric": [
+        {
+          "criterion": "Power and survivor-centred first response (049/050)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Supervised casework trauma-informed coordination and follow-up (051/052)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Prevention mechanisms and child/FGM safeguarding evidence (053/054)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Safe digital contact specialist planning and information boundaries (055)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Data governance evaluation limits authority and response (056)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "GBV8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-049",
+        "SWP-050",
+        "SWP-051",
+        "SWP-052",
+        "SWP-053",
+        "SWP-054",
+        "SWP-055",
+        "SWP-056"
+      ],
+      "prompt": "Critique a fictional programme claiming success from attendance, public pledges, platform reports and increased referral counts. It asks learners for survivor testimony, assumes a caregiver is safe, treats battery loss as spyware, copies a foreign questionnaire and sends full records across co-located services. Write a justified corrective plan across all eight courses. Use the fictional change from twelve of thirty to eighteen of sixty referrals where relevant.",
+      "model_answer": "A strong critique connects unequal power and coercion with first-response choice; replaces forced testimony, repeated retelling and unsupported casework with supervised person-led support; separates sessions/pledges from violence outcomes and applies child-specific safeguarding and very low-certainty FGM evidence carefully; rejects diagnosis by device symptom, unsafe messages, blanket resets and platform guarantees; and separates clinical/case purposes, reviews instrument fit/permissions, calculates forty percent to thirty percent correctly and avoids prevalence or causal recovery claims. Identify qualified owners, resources, feedback and review rather than collect more private information.",
+      "rubric": [
+        {
+          "criterion": "Power coercion and non-investigative support (049/050)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Supervised safety planning trauma-informed coordination (051/052)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Prevention outcome distinctions child safeguarding and evidence (053/054)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Digital evidence status safe contact and specialist roles (055)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Purpose consent correct arithmetic measurement and accountable evaluation (056)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

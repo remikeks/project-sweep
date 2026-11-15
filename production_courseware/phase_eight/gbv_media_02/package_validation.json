@@ -1,0 +1,92 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "3f339ecf9822011e7f060160b82fa858c8dbcb02cbc5f013c90220f336ac07a3",
+  "summary": {
+    "assets": 16,
+    "asset_courses": 4
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-053-community-prevention-and-social-norms-change-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "69bb14cd0eff614386ade4f2fdb66dc7c19c0e83b0d0574e6da22062335d7348"
+    },
+    {
+      "path": "pdf/SWP-053-community-prevention-and-social-norms-change-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "2687b95e6b6ef4281d8eb9f1fa92af4c751544df4334e4f4b28f96d66e3eca16"
+    },
+    {
+      "path": "pptx/SWP-053-community-prevention-and-social-norms-change-course-slides.pptx",
+      "pages": null,
+      "sha256": "a1e79176830a5206e185c46cb69e767b222098cf56ed3ff3eeecc6c50576e718"
+    },
+    {
+      "path": "pdf/SWP-053-community-prevention-and-social-norms-change-course-slides.pdf",
+      "pages": 16,
+      "sha256": "13b2d33a587e4b3cca5795731f79413de4bf08129f82570f639366d3fcd6a99e"
+    },
+    {
+      "path": "pdf/SWP-054-child-marriage-fgm-and-harmful-practices-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "64d329328d5274405fa5c55e56a308e37e2b9e14a383ebfaec7df31c80e4a338"
+    },
+    {
+      "path": "pdf/SWP-054-child-marriage-fgm-and-harmful-practices-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "314907675b54462c70a4250b993b1dfd28854a7b88f4db269fba79f343b1e8aa"
+    },
+    {
+      "path": "pptx/SWP-054-child-marriage-fgm-and-harmful-practices-course-slides.pptx",
+      "pages": null,
+      "sha256": "f07b48a8b0db7b53f50d4a3fa61987e200f06dc108e9804f543f06dd44fe506c"
+    },
+    {
+      "path": "pdf/SWP-054-child-marriage-fgm-and-harmful-practices-course-slides.pdf",
+      "pages": 16,
+      "sha256": "3fa564fde7f785c56259a12882eefd78b4ae9f3f23008de83436ca179a1b2ab8"
+    },
+    {
+      "path": "pdf/SWP-055-technology-facilitated-abuse-and-digital-safety-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "6239b6d5e5fa41cb880ff6ef9e8981ba094f21581e2437917d8eac079ccaa8e9"
+    },
+    {
+      "path": "pdf/SWP-055-technology-facilitated-abuse-and-digital-safety-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "f268cba35957cf2993357f53bf04783c1007d7d9faf64e80490e802b56d3f1b6"
+    },
+    {
+      "path": "pptx/SWP-055-technology-facilitated-abuse-and-digital-safety-course-slides.pptx",
+      "pages": null,
+      "sha256": "0ba7e28bfbb53503c055905183ecdad4b159da0fdeb7cf7fdb3570c16a106126"
+    },
+    {
+      "path": "pdf/SWP-055-technology-facilitated-abuse-and-digital-safety-course-slides.pdf",
+      "pages": 16,
+      "sha256": "0e24f48b557c9f7fcd67d64e24f65affa27b42b455e81b21740bcf02238d1519"
+    },
+    {
+      "path": "pdf/SWP-056-ethical-gbv-data-and-programme-evaluation-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "912ab037137e98b20a4e3b0d335a00c134ce652df35db3ff7a8c7f00cd05a86a"
+    },
+    {
+      "path": "pdf/SWP-056-ethical-gbv-data-and-programme-evaluation-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "4976ccdcdd69734d0e2306c02d50b68ba5988603e240b4c5f8ab54442160e699"
+    },
+    {
+      "path": "pptx/SWP-056-ethical-gbv-data-and-programme-evaluation-course-slides.pptx",
+      "pages": null,
+      "sha256": "98bc3821863bbe97db5177e2bf7b1aadfe46cef232beaabbdce260cc5afad9f7"
+    },
+    {
+      "path": "pdf/SWP-056-ethical-gbv-data-and-programme-evaluation-course-slides.pdf",
+      "pages": 16,
+      "sha256": "d1a83f99716adadcc01280b0856c741c02d0004266f008f5140df272539b6051"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}
