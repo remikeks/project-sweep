@@ -8,7 +8,7 @@ The real cloud chat "MHP Phase Nine Continuation" built from dispatch checkpoint
 
 Reviewed source travelled through the first-party chat connector in two checksum-verified compressed text handoffs. The checkpoint teaching/package hashes and deterministic exam JSON matched. PDFs/PPTX were regenerated locally, not accepted on the cloud's binary hashes. Local adjustments make font paths portable, normalise Windows text newlines for Git comparisons, and gate the owner report on actual live proof. Cloud browser download stopped at human verification; no challenge was bypassed.
 
-Push the accurate build to `codex/mhp-phase-nine-cloud`, never force-push. Main remains at completed Phase 8 `037abd7211b69c191c5aa68b1b7dc2329b40432a`, consistent with the continuation handoff.
+The completed build was first pushed to `codex/mhp-phase-nine-cloud`. The owner's subsequent instruction on 16 November 2026 to push all builds brings `main` forward to this verified Phase 9 build as well. Future completed, verified phases should reach `main` before development moves to another school. Preserve other remote work and never force-push. This supersedes the historical cloud-dispatch restriction that kept main at Phase 8.
 
 ## Verified work
 
