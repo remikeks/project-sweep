@@ -1,0 +1,92 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "7f54a6fbb3501817671dbdb5e6451dd5cd87146fee6744330f235593308e887d",
+  "summary": {
+    "assets": 16,
+    "asset_courses": 4
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "87332ff30d94abfe8ac829d663a73891195b514b04d4efc1ee500e4a7f57a899"
+    },
+    {
+      "path": "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "422b8ff52d74644b1af776ec983762f3908d7d319c2c6d8e0f154421b9e1a57f"
+    },
+    {
+      "path": "pptx/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-course-slides.pptx",
+      "pages": null,
+      "sha256": "dcd7cb4d997314e8780db8f8ead1e39ae11dcd1da4fa66802b0a97fdbc4680ea"
+    },
+    {
+      "path": "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-course-slides.pdf",
+      "pages": 16,
+      "sha256": "1f0e2932aa643f565ba2c535a397d8e995f1a10ce7df2834cc449148ba2d5efb"
+    },
+    {
+      "path": "pdf/SWP-058-community-mental-health-rights-and-recovery-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "055e94e0fc7526af740d428466522c5c22747152146fff74585aa711177a5cae"
+    },
+    {
+      "path": "pdf/SWP-058-community-mental-health-rights-and-recovery-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "a359f11d92fb0eeeea86a1e2aab2e1f30e803d8a10884ca936735c58ed23f141"
+    },
+    {
+      "path": "pptx/SWP-058-community-mental-health-rights-and-recovery-course-slides.pptx",
+      "pages": null,
+      "sha256": "9bdb80649c709dadb8ee7010b5f10e730a7fbcbf6c3f4f1cca549f4824e00f13"
+    },
+    {
+      "path": "pdf/SWP-058-community-mental-health-rights-and-recovery-course-slides.pdf",
+      "pages": 16,
+      "sha256": "1a91450e3251289988fd1fd0c877ddb32cf91243a6ed59987b403f8b05377b59"
+    },
+    {
+      "path": "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "a8aab2ce0e9b5a769fa2ac8c05c17a0a45925ec64a02c95d721ad22135c0bee4"
+    },
+    {
+      "path": "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "a187d8663a1a248ef82ea76883eb932f3997da6c0046da413799b0d7d03f7f9a"
+    },
+    {
+      "path": "pptx/SWP-059-child-adolescent-and-family-psychosocial-support-course-slides.pptx",
+      "pages": null,
+      "sha256": "678ff5230bc12d5d7aaf0262ec3f5b7207e84d2a86383833f726a85aa9bf9973"
+    },
+    {
+      "path": "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-course-slides.pdf",
+      "pages": 16,
+      "sha256": "c4991aee9e5ecd5c2be3a5ac4c0efe4b9b64b02c7e767ce9dcdedd7e8c17f814"
+    },
+    {
+      "path": "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "f1e30bd05c7b3569bd9e8f423704c3d8118de64a115a8c73055c6530e18fc307"
+    },
+    {
+      "path": "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "9216d44921b6c172e76b19ed664a66dc64d8c69023786cc8ac0f6f4fef79f07a"
+    },
+    {
+      "path": "pptx/SWP-060-mental-health-service-coordination-and-safe-referral-course-slides.pptx",
+      "pages": null,
+      "sha256": "98607c51afe92f403680ab56e78d3606e8c70d955fdb6b1a36bf6ca7d71044c0"
+    },
+    {
+      "path": "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-course-slides.pdf",
+      "pages": 16,
+      "sha256": "b1250f7b8d0406b1cbc8226c8a77990170290c741769df3f3485f14ef33e8b27"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

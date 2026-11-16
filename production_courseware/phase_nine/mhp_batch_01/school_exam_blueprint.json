@@ -1,0 +1,869 @@
+{
+  "status": "draft_for_review",
+  "school_code": "MHP",
+  "curriculum_version": "MHP-proposed-ten-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-004",
+    "SWP-005",
+    "SWP-006",
+    "SWP-007",
+    "SWP-008",
+    "SWP-009",
+    "SWP-057",
+    "SWP-058",
+    "SWP-059",
+    "SWP-060"
+  ],
+  "retained_catalogue_domains": [
+    {
+      "code": "SWP-004",
+      "title": "Biopsychosocial Assessment",
+      "outcome": "Conduct a collaborative, ethical whole-person assessment and formulate priority needs.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Assessment framework",
+          "focus": "engagement, consent, presenting concerns, biological/psychological/social domains, and strengths"
+        },
+        {
+          "order": 2,
+          "title": "Risk and formulation",
+          "focus": "mental-state observation, suicide/self-harm and safeguarding screening, cultural humility, and formulation"
+        },
+        {
+          "order": 3,
+          "title": "From assessment to plan",
+          "focus": "goals, referrals, documentation, review, and simulated intake"
+        }
+      ],
+      "cbt_focus": [
+        "domains",
+        "risk escalation",
+        "formulation",
+        "documentation"
+      ]
+    },
+    {
+      "code": "SWP-005",
+      "title": "Cognitive Behavioral Therapy Foundations",
+      "outcome": "Explain core CBT concepts and use basic, supervised CBT-informed tools appropriately.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "The CBT model",
+          "focus": "links among situations, thoughts, emotions, bodily responses, and behaviour"
+        },
+        {
+          "order": 2,
+          "title": "Core tools",
+          "focus": "agenda setting, thought records, cognitive reappraisal, behavioural activation, and homework"
+        },
+        {
+          "order": 3,
+          "title": "Ethical application",
+          "focus": "collaboration, cultural adaptation, limits of competence, monitoring, and referral"
+        }
+      ],
+      "cbt_focus": [
+        "cognitive triangle",
+        "tool selection",
+        "collaborative practice",
+        "scope limits"
+      ]
+    },
+    {
+      "code": "SWP-006",
+      "title": "Crisis Stabilization & Safety Planning",
+      "outcome": "Respond to acute distress using de-escalation, risk assessment, and collaborative safety planning.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Crisis recognition and triage",
+          "focus": "acute risk, protective factors, emergency thresholds, and local escalation routes"
+        },
+        {
+          "order": 2,
+          "title": "De-escalation and engagement",
+          "focus": "communication, environment, grounding, and maintaining professional boundaries"
+        },
+        {
+          "order": 3,
+          "title": "Safety planning and follow-up",
+          "focus": "warning signs, coping actions, contacts, means-safety discussion, documentation, and warm handover"
+        }
+      ],
+      "cbt_focus": [
+        "triage",
+        "de-escalation",
+        "safety-plan elements",
+        "referral thresholds"
+      ]
+    },
+    {
+      "code": "SWP-007",
+      "title": "Screening & Brief Intervention (SBIRT)",
+      "outcome": "Use screening and brief-intervention principles to identify and respond to risky substance use.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Substance-use continuum",
+          "focus": "stigma-free language, risk factors, protective factors, and screening purpose"
+        },
+        {
+          "order": 2,
+          "title": "Screening and feedback",
+          "focus": "validated-tool principles, consent, interpretation, and brief feedback"
+        },
+        {
+          "order": 3,
+          "title": "Brief intervention and referral",
+          "focus": "motivational conversation, harm reduction, referral matching, and documentation"
+        }
+      ],
+      "cbt_focus": [
+        "SBIRT sequence",
+        "interpretation",
+        "harm reduction",
+        "referral"
+      ]
+    },
+    {
+      "code": "SWP-008",
+      "title": "Motivational Interviewing",
+      "outcome": "Use the spirit and core communication skills of motivational interviewing in appropriate settings.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "MI spirit",
+          "focus": "partnership, acceptance, compassion, evocation, autonomy, and avoiding the righting reflex"
+        },
+        {
+          "order": 2,
+          "title": "OARS skills",
+          "focus": "open questions, affirmations, reflections, summaries, and listening for change talk"
+        },
+        {
+          "order": 3,
+          "title": "Planning change",
+          "focus": "responding to ambivalence, eliciting commitment language, goal setting, and referral"
+        }
+      ],
+      "cbt_focus": [
+        "MI spirit",
+        "OARS",
+        "change talk",
+        "responses to resistance"
+      ]
+    },
+    {
+      "code": "SWP-009",
+      "title": "Recovery-Oriented Systems of Care",
+      "outcome": "Coordinate strengths-based, long-term recovery supports across systems.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Recovery orientation",
+          "focus": "recovery capital, person-defined goals, peer support, and anti-stigma practice"
+        },
+        {
+          "order": 2,
+          "title": "Coordinated support",
+          "focus": "housing, employment, family, health, legal, and community supports"
+        },
+        {
+          "order": 3,
+          "title": "Sustaining recovery",
+          "focus": "relapse-prevention planning, continuity of care, outcome monitoring, and lived-experience leadership"
+        }
+      ],
+      "cbt_focus": [
+        "recovery principles",
+        "peer roles",
+        "whole-system coordination"
+      ]
+    }
+  ],
+  "programme_target_course_count": 10,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "scope_note": "Six retained courses and four introductory additions. No original clinical/addiction teaching or CBT mapping changed. Specialist clinical, safeguarding, lived-experience, Nigerian legal/practice, academic and accessibility/pilot reviews pending. No authority to practise clinically or launch an exam.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed; academic review, accessibility adjustments and learner piloting required",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Human criterion-level marking and rationales, independent human moderation and equivalent defensible answers. Refer unsafe reasoning for specialist review; no unapproved automatic fail or professional competency standard is defined.",
+    "appeals": "Retain original responses, rubric version, marker, moderation decisions, amendments and appeal history with an authorised appeal route."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Each course badge requires that approved course and its verified ParaLearn course-CBT pass; school certification requires completion of every approved MHP course",
+      "Pass the full-curriculum ParaLearn mixed exam after human written marking and moderation",
+      "Independent curriculum/provider approvals and authorised signatures; Head of Learning details/signature pending; Founder, SWEEP Academy: Prof. Mina Ogbanga"
+    ]
+  },
+  "items": [
+    {
+      "id": "MHP10-SWP-004-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-004"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-004-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-004"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-004-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-004"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-004-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-004"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-005-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-005"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-005-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-005"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-005-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-005"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-005-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-005"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-006-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-006"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-006-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-006"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-006-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-006"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-006-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-006"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-007-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-007"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-007-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-007"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-007-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-007"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-007-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-007"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-008-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-008"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-008-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-008"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-008-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-008"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-008-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-008"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-009-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-009"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-009-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-009"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-009-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-009"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-009-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-009"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-057-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-057"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-057-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-057"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-057-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-057"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-057-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-057"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-058-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-058"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-058-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-058"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-058-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-058"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-058-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-058"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-059-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-059"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-059-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-059"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-059-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-059"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-059-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-059"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-060-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-060"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-060-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-060"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-060-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-060"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SWP-060-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-060"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "MHP10-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-004",
+        "SWP-005"
+      ],
+      "prompt": "Using a fictional adult who reports work stress and sleep difficulties, explain five features of a collaborative assessment and supervised CBT-informed learning formulation. Do not diagnose or prescribe treatment.",
+      "model_answer": "Seek engagement and consent; explore biological, psychological and social concerns alongside strengths; distinguish the person's account from an inference; illustrate links between situation, thoughts, emotions, bodily responses and behaviour without diagnosis; and agree documentation, supervision and review within competence. A worksheet is not a clinical assessment or authority to deliver therapy.",
+      "rubric": [
+        {
+          "criterion": "Engagement and consent (004)",
+          "marks": 1
+        },
+        {
+          "criterion": "Whole-person domains and strengths (004)",
+          "marks": 1
+        },
+        {
+          "criterion": "Account versus inference and priority needs (004)",
+          "marks": 1
+        },
+        {
+          "criterion": "Accurate CBT links without diagnosis (005)",
+          "marks": 1
+        },
+        {
+          "criterion": "Collaboration supervision and review within competence (004/005)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-006",
+        "SWP-007"
+      ],
+      "prompt": "A fictional adult in distress reports substance-use concerns. A learner proposes a screening score as a diagnosis and a routine referral without checking the approved escalation route. Give five corrections, using the retained crisis and SBIRT domains without inventing thresholds or a treatment protocol.",
+      "model_answer": "Recognise that acute concerns require the qualified local emergency/escalation pathway rather than unsupervised learner triage; use respectful de-escalating communication within role; distinguish consented validated screening from diagnosis; explain screening, brief intervention and matched referral as distinct SBIRT purposes; and use supervised collaborative safety planning, documentation and a warm handover/follow-up under approved local arrangements. Do not invent a cutoff, contact number or substance treatment.",
+      "rubric": [
+        {
+          "criterion": "Qualified local escalation rather than independent triage (006)",
+          "marks": 1
+        },
+        {
+          "criterion": "Respectful engagement and boundaries (006)",
+          "marks": 1
+        },
+        {
+          "criterion": "Consented validated screening is not diagnosis (007)",
+          "marks": 1
+        },
+        {
+          "criterion": "SBIRT sequence and matched referral (007)",
+          "marks": 1
+        },
+        {
+          "criterion": "Supervised safety planning documentation and handover (006/007)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-008",
+        "SWP-009"
+      ],
+      "prompt": "A fictional adult is ambivalent about a recovery goal. A worker insists on abstinence, assumes family involvement is wanted and counts a sent referral as recovery. Give five corrections connecting MI with recovery-oriented systems.",
+      "model_answer": "Use partnership, compassion and autonomy rather than the righting reflex; demonstrate an appropriate open question and reflective response; explore the person's own change talk and goals without coercion; consider chosen recovery capital, peer and practical supports rather than assume family involvement; and distinguish referral activity from access and person-defined recovery, agreeing continuity and review. No universal outcome or independent treatment authority follows.",
+      "rubric": [
+        {
+          "criterion": "MI spirit autonomy and non-coercion (008)",
+          "marks": 1
+        },
+        {
+          "criterion": "Appropriate OARS communication (008)",
+          "marks": 1
+        },
+        {
+          "criterion": "Ambivalence and person-defined goals (008/009)",
+          "marks": 1
+        },
+        {
+          "criterion": "Chosen recovery capital peer and practical supports (009)",
+          "marks": 1
+        },
+        {
+          "criterion": "Continuity and defensible outcome review (009)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-057",
+        "SWP-058"
+      ],
+      "prompt": "A fictional service requires trauma disclosure and family approval before adult access. It claims a Western qualitative review proves every Nigerian adult wants faith-based support. Give five corrections using trauma-informed care and community rights/recovery.",
+      "model_answer": "Remove compulsory trauma narration from the introductory exercise and offer choice; explain predictable respectful communication and permission rather than presume trauma; preserve adult participation and supported decisions without a universal legal-capacity ruling; ask about personally meaningful family, faith and peer support rather than assume it; and distinguish conceptual or qualitative evidence from causal treatment effects and Nigerian cultural rules. Verify local law, service capacity and qualified roles.",
+      "rubric": [
+        {
+          "criterion": "Choice and no forced disclosure (057)",
+          "marks": 1
+        },
+        {
+          "criterion": "Predictability permission and non-diagnostic support (057)",
+          "marks": 1
+        },
+        {
+          "criterion": "Rights participation and supported decisions (058)",
+          "marks": 1
+        },
+        {
+          "criterion": "Individual cultural and recovery preferences (057/058)",
+          "marks": 1
+        },
+        {
+          "criterion": "Evidence transfer limits and local verification (057/058)",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-059"
+      ],
+      "prompt": "A fictional youth service asks a learner to interview a real child, assumes the accompanying adult is safe and treats assent as legal consent. Give five corrections for an introductory child/adolescent/family learning exercise.",
+      "model_answer": "Use only a non-graphic fictional case; consider developmental fit and age-appropriate participation; distinguish assent from legal consent and seek qualified local decisions; assess caregiver involvement through qualified safeguarding rather than assume safety; and coordinate suitable services and transitions with appropriate confidentiality and supervision. Parenting evidence from voluntary adolescent programmes does not establish effectiveness for all children or compulsory safeguarding.",
+      "rubric": [
+        {
+          "criterion": "Fictional exercise and no real child interview",
+          "marks": 1
+        },
+        {
+          "criterion": "Developmental fit and child participation",
+          "marks": 1
+        },
+        {
+          "criterion": "Assent versus consent and qualified local authority",
+          "marks": 1
+        },
+        {
+          "criterion": "Caregiver safety and safeguarding boundaries",
+          "marks": 1
+        },
+        {
+          "criterion": "Suitable coordination confidentiality and evidence limits",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-060"
+      ],
+      "prompt": "A fictional adult agrees to a housing referral. The receiving service has not accepted it; a worker sends the whole health record and reports successful recovery. Give five corrections for safe service coordination.",
+      "model_answer": "Check the person's goal and purpose-specific permission; verify receiving scope, eligibility, capacity and safe contact; share the minimum authorised information securely rather than a whole record; name a responsible sender and receiver with acceptance and follow-up; and distinguish sending, access and person-defined benefit with a review owner. A scoping map does not prove a universal coordination model or grant clinical authority.",
+      "rubric": [
+        {
+          "criterion": "Person-defined goal and purpose-specific permission",
+          "marks": 1
+        },
+        {
+          "criterion": "Verified service fit capacity and safe contact",
+          "marks": 1
+        },
+        {
+          "criterion": "Minimum authorised secure information",
+          "marks": 1
+        },
+        {
+          "criterion": "Accepted handover named responsibilities and follow-up",
+          "marks": 1
+        },
+        {
+          "criterion": "Activity access benefit and evidence limits",
+          "marks": 1
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "MHP10-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-004",
+        "SWP-005",
+        "SWP-006",
+        "SWP-007",
+        "SWP-008",
+        "SWP-009",
+        "SWP-057",
+        "SWP-058",
+        "SWP-059",
+        "SWP-060"
+      ],
+      "prompt": "A fictional community centre supports adults with distress, substance-use concerns and housing barriers, and adolescents moving between family and community services. Develop a supervised service-learning proposal across all ten MHP courses. Address whole-person assessment and CBT concepts, approved crisis/SBIRT pathways, MI and recovery supports, cultural choice and rights, child-specific participation and safe coordination. Identify evidence limits, responsibilities and review. Do not create clinical protocols or use personal histories.",
+      "model_answer": "Credit a coherent proposal that distinguishes account from formulation, explains CBT links within supervision, uses qualified local crisis routes without invented thresholds, distinguishes screening from diagnosis, applies MI autonomy and chosen recovery capital, avoids forced trauma disclosure and cultural assumptions, supports rights without deciding legal capacity, uses child-specific consent/assent and safeguarding expertise, and closes consented referral loops. Explain evidence transfer and accountable review; educational completion confers no clinical authority.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Collaborative assessment and supervised CBT reasoning (004/005)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Qualified crisis escalation and SBIRT distinctions (006/007)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "MI autonomy recovery capital and continuity (008/009)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Trauma-informed cultural choice and community rights with evidence limits (057/058)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Child participation safeguarding and accountable safe coordination (059/060)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ]
+    },
+    {
+      "id": "MHP10-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-004",
+        "SWP-005",
+        "SWP-006",
+        "SWP-007",
+        "SWP-008",
+        "SWP-009",
+        "SWP-057",
+        "SWP-058",
+        "SWP-059",
+        "SWP-060"
+      ],
+      "prompt": "Critique a fictional programme that diagnoses from a screening score, assigns therapy to introductory learners, mandates trauma narratives and family/faith involvement, uses real child interviews, sends whole files to unverified services and claims attendance proves recovery. Integrate all ten MHP courses in a justified correction plan, including qualified crisis escalation and human accountability. Explain how you would review service access without collecting personal health records for coursework.",
+      "model_answer": "Credit corrections grounded in retained assessment/CBT competence limits, approved crisis escalation and SBIRT purposes; MI partnership and person-defined recovery rather than coercion; trauma-informed choice, cultural humility and community rights; developmentally appropriate child participation with qualified consent/safeguarding decisions; and verified minimum-information handovers. Distinguish attendance, referral, access and outcomes. Use fictional or approved aggregate learning data, acknowledge uncertainty, and assign qualified owners and review rather than claim treatment effectiveness.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Collaborative assessment and supervised CBT reasoning (004/005)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Qualified crisis escalation and SBIRT distinctions (006/007)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "MI autonomy recovery capital and continuity (008/009)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Trauma-informed cultural choice and community rights with evidence limits (057/058)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        },
+        {
+          "criterion": "Child participation safeguarding and accountable safe coordination (059/060)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible reasoning with important omission; 3 coherent contextual reasoning with feasible action and evidence limits."
+        }
+      ]
+    }
+  ]
+}

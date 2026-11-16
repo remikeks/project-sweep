@@ -45,7 +45,10 @@ for c in package["courses"]:
             furniture={f"SWEEP Academy {c['school_code']} Draft for academic review",f"{c['code']} Version 0.1.0"}
             reading_lines=[line for line in body.splitlines()
                 if " ".join(line.split()) not in furniture and not re.fullmatch(r"Page \d+",line.strip())]
-            normalized=" ".join(" ".join(reading_lines).split())
+            # LibreOffice may emit a separate punctuation text run, and pypdf
+            # then inserts a space before its full stop. Preserve words and
+            # numbers while accepting that extraction-only layout difference.
+            normalized=re.sub(r"\s+([.,;:!?])", r"\1", " ".join(" ".join(reading_lines).split()))
             assert all((p.extract_text() or "").strip() for p in reader.pages),"Empty PDF page"
             if kind in {"learner_guide","worksheet"}:
                 header=f"SWEEP Academy {c['school_code']} Draft for academic review"

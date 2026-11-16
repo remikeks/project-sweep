@@ -10,20 +10,32 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, KeepTogether
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument("--release",type=Path,default=ROOT/"production_courseware/phase_three/fsw_media_01")
 parser.add_argument("--package",type=Path,default=ROOT/"production_courseware/phase_two/fsw_batch_01/review_package.json")
+parser.add_argument("--reference-intro", default="Reference IDs identify the sources below. Cases and exercises are original fictional examples. International professional guidance is a practice benchmark; official Nigerian regulatory guidance is identified separately. Confirm applicable law and local procedures with an authorised supervisor.")
+parser.add_argument("--font-regular", type=Path)
+parser.add_argument("--font-bold", type=Path)
 args=parser.parse_args()
+if bool(args.font_regular) != bool(args.font_bold):
+    parser.error("Supply both font paths for portable embedded typography")
+regular, bold = "Helvetica", "Helvetica-Bold"
+if args.font_regular:
+    regular, bold = "CourseSans", "CourseSans-Bold"
+    pdfmetrics.registerFont(TTFont(regular, str(args.font_regular)))
+    pdfmetrics.registerFont(TTFont(bold, str(args.font_bold)))
 OUT=args.release
 PACKAGE=args.package
 data=json.loads(PACKAGE.read_text(encoding="utf-8"))
 styles={
-    "title":ParagraphStyle("Title",fontName="Helvetica-Bold",fontSize=23,leading=28,spaceAfter=18),
-    "h1":ParagraphStyle("Heading1",fontName="Helvetica-Bold",fontSize=16,leading=21,spaceBefore=15,spaceAfter=9,keepWithNext=True),
-    "h2":ParagraphStyle("Heading2",fontName="Helvetica-Bold",fontSize=13,leading=17,spaceBefore=11,spaceAfter=7,keepWithNext=True),
-    "body":ParagraphStyle("Body",fontName="Helvetica",fontSize=12,leading=15,spaceAfter=8,splitLongWords=True,allowWidows=0,allowOrphans=0),
+    "title":ParagraphStyle("Title",fontName=bold,fontSize=23,leading=28,spaceAfter=18),
+    "h1":ParagraphStyle("Heading1",fontName=bold,fontSize=16,leading=21,spaceBefore=15,spaceAfter=9,keepWithNext=True),
+    "h2":ParagraphStyle("Heading2",fontName=bold,fontSize=13,leading=17,spaceBefore=11,spaceAfter=7,keepWithNext=True),
+    "body":ParagraphStyle("Body",fontName=regular,fontSize=12,leading=15,spaceAfter=8,splitLongWords=True,allowWidows=0,allowOrphans=0),
 }
 
 
@@ -35,7 +47,7 @@ def document(path,story,code,school_code="FSW"):
     def furniture(canvas,doc):
         canvas.saveState()
         canvas.setFillColor(colors.HexColor("#17223B"))
-        canvas.setFont("Helvetica",10)
+        canvas.setFont(regular,10)
         canvas.drawString(.8*inch,A4[1]-.45*inch,f"SWEEP Academy   {school_code}   Draft for academic review")
         canvas.drawString(.8*inch,.4*inch,f"{code}   Version 0.1.0")
         canvas.drawRightString(A4[0]-.8*inch,.4*inch,f"Page {doc.page}")
@@ -59,7 +71,7 @@ for c in data["courses"]:
         story.extend(p(t) for t in m["paragraphs"])
         for label,key in [("Worked case","example"),("Practice activity","activity"),("Feedback","feedback")]:
             story.extend([p(label,"h2"),p(m[key])])
-    story.extend([p("References and evidence limits","h1"),p("Reference IDs identify the sources below. Cases and exercises are original fictional examples. International professional guidance is a practice benchmark; official Nigerian regulatory guidance is identified separately. Confirm applicable law and local procedures with an authorised supervisor."),p(data.get("evidence_note","Evidence review date 14 November 2026. Journal metrics do not certify an article's quality. Publisher metrics: https://www.frontiersin.org/about/impact and https://academic.oup.com/bjsw/pages/about. Source records distinguish reported quartiles from rank-based inferences. No Q1 or Q2 status is claimed for IJSDS."))])
+    story.extend([p("References and evidence limits","h1"),p(args.reference_intro),p(data.get("evidence_note","Evidence review date 14 November 2026. Journal metrics do not certify an article's quality. Publisher metrics: https://www.frontiersin.org/about/impact and https://academic.oup.com/bjsw/pages/about. Source records distinguish reported quartiles from rank-based inferences. No Q1 or Q2 status is claimed for IJSDS."))])
     used={s for m in c["modules"] for s in m["sources"]}
     for r in data["references"]:
         if r["id"] not in used: continue

@@ -1,0 +1,27 @@
+{
+  "reviewed_on": "2026-11-16",
+  "pdf_pages_reviewed": 105,
+  "contact_sheets_reviewed": 28,
+  "final_file_sha256": {
+    "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-learner-guide.pdf": "87332ff30d94abfe8ac829d663a73891195b514b04d4efc1ee500e4a7f57a899",
+    "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-practice-worksheet.pdf": "422b8ff52d74644b1af776ec983762f3908d7d319c2c6d8e0f154421b9e1a57f",
+    "pptx/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-course-slides.pptx": "dcd7cb4d997314e8780db8f8ead1e39ae11dcd1da4fa66802b0a97fdbc4680ea",
+    "pdf/SWP-057-trauma-informed-and-culturally-responsive-psychosocial-care-course-slides.pdf": "1f0e2932aa643f565ba2c535a397d8e995f1a10ce7df2834cc449148ba2d5efb",
+    "pdf/SWP-058-community-mental-health-rights-and-recovery-learner-guide.pdf": "055e94e0fc7526af740d428466522c5c22747152146fff74585aa711177a5cae",
+    "pdf/SWP-058-community-mental-health-rights-and-recovery-practice-worksheet.pdf": "a359f11d92fb0eeeea86a1e2aab2e1f30e803d8a10884ca936735c58ed23f141",
+    "pptx/SWP-058-community-mental-health-rights-and-recovery-course-slides.pptx": "9bdb80649c709dadb8ee7010b5f10e730a7fbcbf6c3f4f1cca549f4824e00f13",
+    "pdf/SWP-058-community-mental-health-rights-and-recovery-course-slides.pdf": "1a91450e3251289988fd1fd0c877ddb32cf91243a6ed59987b403f8b05377b59",
+    "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-learner-guide.pdf": "a8aab2ce0e9b5a769fa2ac8c05c17a0a45925ec64a02c95d721ad22135c0bee4",
+    "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-practice-worksheet.pdf": "a187d8663a1a248ef82ea76883eb932f3997da6c0046da413799b0d7d03f7f9a",
+    "pptx/SWP-059-child-adolescent-and-family-psychosocial-support-course-slides.pptx": "678ff5230bc12d5d7aaf0262ec3f5b7207e84d2a86383833f726a85aa9bf9973",
+    "pdf/SWP-059-child-adolescent-and-family-psychosocial-support-course-slides.pdf": "c4991aee9e5ecd5c2be3a5ac4c0efe4b9b64b02c7e767ce9dcdedd7e8c17f814",
+    "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-learner-guide.pdf": "f1e30bd05c7b3569bd9e8f423704c3d8118de64a115a8c73055c6530e18fc307",
+    "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-practice-worksheet.pdf": "9216d44921b6c172e76b19ed664a66dc64d8c69023786cc8ac0f6f4fef79f07a",
+    "pptx/SWP-060-mental-health-service-coordination-and-safe-referral-course-slides.pptx": "98607c51afe92f403680ab56e78d3606e8c70d955fdb6b1a36bf6ca7d71044c0",
+    "pdf/SWP-060-mental-health-service-coordination-and-safe-referral-course-slides.pdf": "b1250f7b8d0406b1cbc8226c8a77990170290c741769df3f3485f14ef33e8b27"
+  },
+  "method": "Actual final PPTX converted with isolated LibreOffice, final PDFs rendered with Poppler; all pages inspected on 28 contact sheets, guides and worksheets re-inspected after embedded-font/reference-intro rebuild; full-page guide spot checks.",
+  "result": "No clipping, overlap or missing content observed; 12-point embedded guide body fonts; specialist and accessibility/pilot approval pending.",
+  "native_powerpoint_checked": false,
+  "video_status": "not_produced"
+}

@@ -1,3 +1,5 @@
+> Historical dispatch checkpoint. Phase 9 completion and verified private staging are recorded in SCHOOL_REFACTOR_PHASE_NINE.md.
+
 # SWEEP Academy Phase 9 cloud continuation
 
 Handoff prepared 16 November 2026 at the owner's request to continue through Codex Cloud from a phone. This checkpoint preserves unfinished MHP authoring; it is **not** a completed phase or a learner release. No Phase 9 production courses, modules, resources, exams or credentials have been created yet.
