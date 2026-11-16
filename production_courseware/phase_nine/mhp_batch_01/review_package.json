@@ -1,0 +1,2484 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-15",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "clinical_and_child_safeguarding": "pending",
+    "lived_experience_review": "pending",
+    "supervised_skills_demonstration": "pending"
+  },
+  "references": [
+    {
+      "id": "S1",
+      "title": "Global Social Work Statement of Ethical Principles",
+      "author": "IFSW",
+      "year": 2018,
+      "url": "https://www.ifsw.org/global-social-work-statement-of-ethical-principles/",
+      "kind": "professional framework",
+      "use": "Ethical vocabulary and principles, not a Nigerian statute.",
+      "appraisal": "Normative professional guidance; does not measure intervention effectiveness.",
+      "licence": "Link and citation only; no copied text"
+    },
+    {
+      "id": "S21",
+      "author": "WHO",
+      "year": 2021,
+      "title": "Guidance on community mental health services: promoting person-centred and rights-based approaches",
+      "url": "https://www.who.int/publications/i/item/9789240025707",
+      "kind": "international service-system guidance",
+      "use": "Benchmark supported choice, inclusion, peer roles, community networks and accountable service design.",
+      "appraisal": "Actual 296-file-page official PDF retrieved. Selected person-centred/rights-based principles, supported decisions, community inclusion and action sections read, not every case example. Published June 2021, not a newly issued 2026 standard. Service-system guidance and examples are not an approved academy curriculum, a Nigerian legal ruling or evidence that any particular local service is available.",
+      "licence": "CC BY-NC-SA 3.0 IGO. Link and original factual commentary only; no source tools, models, forms, exercises, text or logos adapted/reproduced",
+      "slide_author": "WHO",
+      "slide_title": "Community mental health: person-centred rights-based services",
+      "slide_limit": "2021 system guidance. Local capacity, law and professional scope require review.",
+      "link_label": "who.int Community mental health services"
+    },
+    {
+      "id": "S22",
+      "author": "WHO",
+      "year": 2025,
+      "title": "Guidance on mental health policy and strategic action plans: Module 1. Introduction, purpose and use of the guidance",
+      "url": "https://www.who.int/publications/i/item/9789240106796",
+      "kind": "policy framework introduction",
+      "use": "Connect service reform with lived-experience participation, workforce, governance and social/structural determinants.",
+      "appraisal": "Actual 44-page official PDF retrieved; selected introduction, reform priorities, lived-experience and social/structural determinants sections read. Published 24 March 2025. This is Module 1, not appraisal of all five modules or detailed Module 2 directives. Policy framework is a comparator, not proof of legal compliance, clinical competence or local effectiveness.",
+      "licence": "CC BY-NC-SA 3.0 IGO. Link and original factual commentary only; no source tables, action tools, exercises or logos copied/adapted",
+      "slide_author": "WHO",
+      "slide_title": "Mental health policy reform: Module 1",
+      "slide_limit": "2025 policy introduction. No claim to have reviewed all five modules.",
+      "link_label": "who.int Mental health policy guidance 2025"
+    },
+    {
+      "id": "S23",
+      "author": "WHO and UNICEF",
+      "year": 2024,
+      "title": "Mental health of children and young people: service guidance",
+      "url": "https://www.who.int/publications/i/item/9789240100374",
+      "kind": "child/youth mental health service guidance",
+      "use": "Compare developmental fit, child participation, family roles, confidentiality, intersectoral support and transitions.",
+      "appraisal": "Actual official linked PDF has 112 file pages, while the WHO publication page lists 122; discrepancy retained. Selected rights, participation, community/family support and integrated/transition sections read. No single service model fits every setting. Not training to diagnose or treat children, decide legal consent or substitute for qualified safeguarding and local procedures.",
+      "licence": "CC BY-NC-SA 3.0 IGO. Link and original factual commentary only; no source service models, cases, forms, exercises or images reproduced/adapted",
+      "slide_author": "WHO and UNICEF",
+      "slide_title": "Children and young people: mental health service guidance",
+      "slide_limit": "112 PDF pages versus 122 in metadata. Developmental and local fit matter.",
+      "link_label": "who.int Child and youth service guidance"
+    },
+    {
+      "id": "R29",
+      "author": "MacRae A and colleagues",
+      "year": 2026,
+      "title": "Understanding Trauma-Informed Care Across Settings: A Contemporary Definition, Values, Model, and Framework From an Integrative Review",
+      "url": "https://journals.sagepub.com/doi/10.1177/15248380261451829",
+      "kind": "conceptual integrative review",
+      "use": "Distinguish organisational trauma-informed support from trauma-focused clinical treatment and assess service conditions.",
+      "appraisal": "Primary publisher indexed methods and limitations read; direct retrieval restricted, not archived full text. Online 22 May 2026; academic/grey searches to December 2024, English full-text frameworks. Rapid methods use single-reviewer screening/extraction with checks on 32 sources. Synthesises concepts, not intervention effects; proposed cross-sector model requires setting-specific validation and cannot prove recovery or diagnose trauma.",
+      "licence": "CC BY-NC 4.0 in publisher/Crossref. Original factual commentary only; no model/framework diagrams, tables, exercises or quotations reproduced/adapted",
+      "slide_author": "MacRae A and colleagues",
+      "slide_title": "Trauma-informed care across settings: integrative review",
+      "slide_limit": "Conceptual synthesis; rapid methods. Not a treatment-effect review.",
+      "doi": "10.1177/15248380261451829",
+      "quartile": "SCImago's own indexed 2025 Trauma Violence and Abuse record: SJR 2.896 Q1. Direct table restricted; no independent JCR claim. https://www.scimagojr.com/journalsearch.php?clean=0&q=13124&tip=sid"
+    },
+    {
+      "id": "R30",
+      "author": "Croke S and colleagues",
+      "year": 2026,
+      "title": "Digital peer support interventions for people with mental health conditions in outpatient settings: a systematic review and meta-analysis",
+      "url": "https://mentalhealth.bmj.com/content/ebmental/29/1/e302275.full.pdf",
+      "kind": "systematic review and meta-analysis",
+      "use": "Distinguish person-defined recovery/support from clinical outcomes and check access, training, safety and evidence limits.",
+      "appraisal": "Actual eight-page publisher PDF retrieved; methods/results/limitations read. Published February 2026; search to January 2025, 29 studies/5,825 participants, variable bias and scarce long-term/safety reporting. Text says five databases but names four; limitation also says non-English excluded despite unrestricted-language search wording. Discrepancies retained; no numerical effect or universal safety/engagement claim taught. Mostly Western outpatient digital support, not all peers or Nigerian crisis care.",
+      "licence": "CC BY 4.0 confirmed in PDF. Original commentary only; no source figures, datasets or intervention tools reproduced",
+      "slide_author": "Croke S and colleagues",
+      "slide_title": "Digital peer support: systematic review and meta-analysis",
+      "slide_limit": "Outpatient digital support; limited long-term/safety evidence. No universal effect.",
+      "doi": "10.1136/bmjment-2025-302275",
+      "quartile": "BMJ publisher 2025 metrics page reports SJR 2.833 and JIF 6.6; primary quartile table not obtained, so no BMJ Q1/Q2 claim in this batch. https://mentalhealth.bmj.com/pages/about/"
+    },
+    {
+      "id": "R31",
+      "author": "Desatnik A and colleagues",
+      "year": 2026,
+      "title": "Universal Parenting Interventions for Parents of Adolescents: A Systematic Review",
+      "url": "https://link.springer.com/article/10.1007/s10826-026-03286-1",
+      "kind": "systematic review with narrative synthesis",
+      "use": "Check voluntary participation, age range, caregiver involvement, accessibility and limits of programme transfer.",
+      "appraisal": "Primary publisher indexed methods/results/limitations read; direct retrieval returned challenge, not archived full text. Published 18 March 2026, searches December 2022/repeated December 2023; 24 publications/20 interventions, parents of ages 11-21, face-to-face components, English and voluntary samples. Mostly single screening after a 20% reliability sample; registration retrospective. Heterogeneous outcomes/no meta-analysis; not evidence for all younger children, mandated child protection, digital-only support or a copied parenting programme.",
+      "licence": "CC BY 4.0 publisher/Crossref. Original commentary; no source programme content, instruments or exercises copied",
+      "slide_author": "Desatnik A and colleagues",
+      "slide_title": "Universal parenting for adolescents: narrative review",
+      "slide_limit": "Search ends December 2023. Voluntary face-to-face programmes; transfer limits.",
+      "doi": "10.1007/s10826-026-03286-1",
+      "quartile": "SCImago's own indexed 2025 Journal of Child and Family Studies record: SJR 0.882 Q2 (including Life-span and Life-course Studies). Direct table restricted; no independent JCR claim. https://www.scimagojr.com/journalsearch.php?clean=0&q=15399&tip=sid"
+    },
+    {
+      "id": "R32",
+      "author": "Isaacs AN and Duncan Z",
+      "year": 2025,
+      "title": "Care coordination for persons with mental health challenges: a scoping review",
+      "url": "https://link.springer.com/article/10.1186/s13033-025-00679-5",
+      "kind": "adult care-coordination scoping review",
+      "use": "Clarify coordination roles, service eligibility, barriers and the difference between non-clinical navigation and treatment coordination.",
+      "appraisal": "Primary publisher indexed methods/results/limitations read; direct HTML challenge, not archived full text. Published 18 August 2025; 18 papers, mostly USA/Australia, adults and diverse designs. Search excluded case-management/alternative terminology and multiple populations/settings, potentially missing similar models; no clear search end date established from inspected main methods. Scoping map and reported benefits are not a rigorous causal effectiveness estimate or universal eligibility standard. Clinical and non-clinical authority must be determined locally.",
+      "licence": "CC BY-NC-ND 4.0 publisher/Crossref. Link and original factual commentary only; no source tables, model, tools or exercises copied/adapted",
+      "slide_author": "Isaacs AN and Duncan Z",
+      "slide_title": "Care coordination: adult mental health scoping review",
+      "slide_limit": "Terminology and population exclusions. Effectiveness still needs rigorous studies.",
+      "doi": "10.1186/s13033-025-00679-5"
+    },
+    {
+      "id": "R34",
+      "author": "Linton S, Oduola S and Teague B",
+      "year": 2026,
+      "title": "Perceptions and Experiences of Personal Recovery for Ethnic Minority People with Severe Mental Illness: A UK-informed Qualitative Systematic Review",
+      "url": "https://link.springer.com/article/10.1007/s10597-026-01676-9",
+      "kind": "qualitative systematic review",
+      "use": "Ask about personally meaningful identity, family and faith supports without assuming group consensus or benefit.",
+      "appraisal": "Primary publisher indexed methods/findings/limitations read; direct HTML challenge, not archived full text. Published 28 July 2026; updated search 21 November 2025, 20 studies and Western settings with UK-informed severe-illness definitions. Within/between-group differences and lifespan variation insufficiently resolved; no causal treatment effect or universal Nigerian cultural rule. July 31 table-caption correction noted. Family may support or obstruct; faith is not assumed desired or a substitute for care.",
+      "licence": "CC BY 4.0 publisher/Crossref. Original commentary only; no participant quotations, themes table, figures or tools reproduced",
+      "slide_author": "Linton S, Oduola S and Teague B",
+      "slide_title": "Culture and personal recovery: qualitative synthesis",
+      "slide_limit": "Western settings and differing illness definitions. Ask individuals; avoid stereotypes.",
+      "doi": "10.1007/s10597-026-01676-9"
+    },
+    {
+      "id": "R35",
+      "author": "Ejekaru GU and Adebusuyi JR",
+      "year": 2025,
+      "title": "Sociocultural Factors Influencing Mental Health Rehabilitation in Ibadan, Oyo State",
+      "url": "https://www.ijsds.org/article/sociocultural-factors-influencing-mental-health-rehabilitation-in-ibadan-oyo-state%2B10.67007-ijsds-2025-0200036",
+      "kind": "single-hospital descriptive provider survey",
+      "use": "Use Nigerian context to pose questions about stigma, chosen supports and service barriers while critically appraising evidence.",
+      "appraisal": "Actual linked 19-file-page IJSDS PDF retrieved, including issue front matter; selected abstract, methods, results and limitations read. 41 purposively sampled providers at Adeoyo, not service-user outcomes or a representative Nigerian sample. Cross-sectional self-report/selection bias; methods describe chi-square/correlation while abstract/results use regression, with inconsistent regression table degrees-of-freedom/sums/mean squares. Numerical findings are not taught or treated as causal proof; independent methods review needed. Used only as bounded contextual discussion alongside stronger guidance/syntheses.",
+      "licence": "PDF front matter says all rights reserved; Crossref supplies no licence. Link and original factual commentary only; no full PDF, source text, tables, data or exercises redistributed/adapted",
+      "slide_author": "Ejekaru GU and Adebusuyi JR",
+      "slide_title": "Ibadan mental health rehabilitation: provider survey",
+      "slide_limit": "Small single-site provider sample; inconsistent analysis reporting. No causal claim.",
+      "doi": "10.67007/ijsds-2025-0200036",
+      "quartile": "No Q1/Q2 status claimed for IJSDS"
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-057",
+      "title": "Trauma Informed and Culturally Responsive Psychosocial Care",
+      "slug": "trauma-informed-and-culturally-responsive-psychosocial-care",
+      "cover_title": "Trauma Informed and\nCulturally Responsive\nPsychosocial Care",
+      "school_code": "MHP",
+      "school_name": "School of Mental Health and Psychosocial Care",
+      "school_display": "Mental Health and\nPsychosocial Care",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional scenarios. No diagnosis, therapy, prescribing, crisis-triage authority or independent child/clinical practice is conferred. Qualified roles, local procedures and supervised skills remain necessary.",
+      "study_guidance": "Use only the supplied non-graphic fictional scenarios and invented aggregate data. Do not seek personal trauma histories, interview children or submit real health/service records. Write reasoning before checking feedback. You may pause or use an alternative fictional exercise. Supervised skills observation is separate.",
+      "practice_safety_note": "Use only the supplied non-graphic fictional scenario or invented aggregate data. Do not collect personal trauma histories, interview children or submit real health records. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback.",
+      "outcome": "Prepare a fictional psychosocial-service improvement that supports choice, cultural understanding and predictable communication while distinguishing supportive practice from trauma treatment and causal evidence.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Predictability choice and professional scope",
+          "outcome": "Distinguish trauma-informed service conditions from trauma-focused treatment or diagnosis.",
+          "paragraphs": [
+            "A trauma-informed service considers how its routines, communication and use of power may affect people who have experienced adversity. A person should not need to disclose a trauma history to receive respectful, predictable assistance. Explain what an encounter is for, who is involved, what choices are available and how a person can ask to pause. Ask about communication and access needs rather than assume a particular reaction proves trauma. An introductory learner can examine these service conditions; determining a diagnosis, selecting treatment or conducting a clinical trauma interview requires an appropriately qualified role. [R29, S21, S1]",
+            "Choice should be meaningful within honestly described limits. A worker can explain available appointment arrangements, the purpose of a question and which information is necessary, without promising that every preference can be met. Respectful practice also recognises that an option may carry transport, cost, language or privacy barriers. Silence is not automatically understanding or agreement. A fictional support outline should separate what the person has actually requested, what the service can currently provide and what needs a qualified decision. Good intentions do not remove the effect of unnecessary pressure. [S21, S1]",
+            "The 2026 integrative review organises trauma-informed concepts across settings and distinguishes them from trauma-focused clinical interventions. Its searches end in December 2024, and rapid methods involve single-reviewer stages with checks on a subset of sources. It proposes a conceptual framework rather than estimates the effect of a treatment. Do not use a framework diagram, a staff training session or a revised reception script as proof of symptom improvement. A service change may be justified by rights and practical reasoning while its local effects still need an appropriate review. [R29, S21]",
+            "For this course, use a non-graphic fictional encounter to identify one avoidable source of uncertainty and a feasible adjustment. Describe the responsible role, what the person may influence and what remains outside the learner's authority. Do not ask classmates for personal experiences, conduct an exposure exercise, teach a therapy technique or interpret distress as evidence of a specific disorder. Where an actual concern exceeds the worker's role, authorised supervision and local clinical or safeguarding procedures matter. The worksheet assesses reasoned service design; it does not demonstrate competence to deliver independent trauma treatment. [S1, S21, R29]"
+          ],
+          "example": "Fictional case: a reception desk asks an adult to repeat a private history in a shared waiting area before explaining the appointment. The learner proposes a private explanation and a choice about pacing without seeking the history or diagnosing the person.",
+          "activity": "Write a service-adjustment note with the avoidable uncertainty, an explanation to offer, a meaningful choice, an access constraint and the qualified decision boundary. Use no personal trauma account.",
+          "feedback": "A useful note improves predictability and choice without requiring disclosure. It distinguishes a service condition from a diagnosis, a treatment intervention or proven recovery.",
+          "sources": [
+            "R29",
+            "S21",
+            "S1"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Cultural understanding without stereotypes",
+          "outcome": "Ask about meaning, identity and chosen supports while keeping evidence and individual preferences distinct.",
+          "paragraphs": [
+            "Cultural responsiveness begins with curiosity about the person's own meaning and priorities. Ask what language, explanations, relationships or community connections matter to them, using appropriate communication support. Do not assume an ethnic or religious identity determines beliefs, coping or desired care. The same family, faith setting or community can offer support to one person and create pressure for another. An interpreter or communication aid needs an appropriate role and privacy arrangements; a readily available relative is not automatically the person's preferred or safe interpreter. Keep the person involved in deciding how communication will work. [S1, S21, R34]",
+            "The July 2026 qualitative synthesis explores personal recovery among ethnic-minority people with severe mental illness in Western settings. It identifies varied accounts of family, faith, identity and agency. These accounts can suggest questions, but they do not establish what every Nigerian person wants, whether a particular relationship is safe or which intervention causes improvement. The review's UK-informed illness definitions, limited attention to differences within groups and broad age coverage constrain transfer. Avoid converting a theme into a rule that all families should participate or that spiritual support should replace qualified mental-health care. [R34, S1]",
+            "A local IJSDS provider survey in Ibadan raises relevant questions about beliefs, stigma, family support and service conditions. It uses a small purposive sample from one hospital, not representative service-user outcomes. Its analysis reporting contains inconsistencies, so this course does not teach its numerical findings or interpret them as causal evidence. The appropriate use is to keep local questions visible alongside stronger service guidance and wider syntheses. Nationality of a study does not remove the need to appraise methods, participant perspective and whether its findings fit the decision being considered. [R35, S21]",
+            "In a fictional conversation, distinguish a person's stated preference from the worker's interpretation and an unresolved question. Someone may value a community relationship while declining to share health information with that person. Supporting identity does not require accepting coercion, restricting access to care or assuming a group representative can consent for an adult. Identify the practical adjustment and the responsible qualified role if confidentiality, safeguarding or clinical questions arise. A culturally responsive plan should be revisitable: people may change their preferences as trust, circumstances or available options change. [S1, S21, R34]"
+          ],
+          "example": "Fictional case: an adult values a faith community but does not want a community leader told about an appointment. A worker had assumed the leader should interpret. The learner separates valued connection from permission to share and considers an agreed communication option.",
+          "activity": "Draft a cultural-understanding note with the person's stated meaning, an assumption to avoid, a communication preference, a specific information boundary and an uncertainty requiring consultation.",
+          "feedback": "A sound note asks rather than stereotypes. Valuing family, faith or identity is not blanket consent to involve others, and contextual studies cannot determine an individual's preferences.",
+          "sources": [
+            "S1",
+            "S21",
+            "R34",
+            "R35"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Organisational response and accountable learning",
+          "outcome": "Propose a feasible service improvement with lived-experience input and bounded review.",
+          "paragraphs": [
+            "A supportive encounter depends partly on organisational conditions: workloads, privacy, communication access, staff preparation and accepted decision roles. A policy promising choice is insufficient if every process pressures people to disclose or accept one option. The 2025 WHO policy introduction connects service reform with workforce, governance and social conditions. For a fictional service review, identify which rule or resource creates a barrier and who can change it. Avoid framing an organisational failure as a personal lack of resilience or asking an individual worker to guarantee outcomes beyond their authority. [S22, S21, S1]",
+            "Lived-experience involvement should influence a stated decision through safe, accessible and appropriately supported arrangements. It need not require people to recount traumatic experiences or represent every member of a group. Explain what feedback can change, the limits of confidentiality and how a response will be provided. A person should be able to disagree without losing assistance. This course uses fictional feedback only; actual consultation requires appropriate governance and safeguarding. Do not interpret a low response rate as universal approval or remove a critical account because it complicates the proposed service story. [S21, S22, S1]",
+            "Evidence appraisal should remain visible in a recommendation. The trauma-informed review offers conceptual organisation, the cultural-recovery review provides contextual qualitative accounts and the Ibadan study raises local provider questions with substantial limitations. None alone proves that a new reception procedure reduces symptoms. State the specific change being tested, who can use it, a relevant observation and the limits of inference. A clearer appointment explanation is an output; whether intended people understand and can exercise choices is a separate review question. Clinical recovery would require different expertise and evidence. [R29, R34, R35, S21]",
+            "Write a proportionate action note with an authorised owner, resource dependency, accessible feedback route and review point. If a barrier cannot yet be resolved, record it and seek the responsible decision rather than promise an unavailable service. Staff support and supervision should address uncertainty, boundaries and workload without turning a short reflective task into treatment or competency certification. The goal is an accountable improvement in service conditions that can be reviewed. Independent clinical, lived-experience, legal and accessibility appraisal remains necessary before this draft becomes part of an approved learner curriculum. [S22, S21, S1]"
+          ],
+          "example": "Fictional case: a service rewrites its welcome leaflet but still has no private space or language support. A report calls the leaflet proof of recovery. The learner identifies the unresolved conditions and proposes a bounded review of understanding and choice.",
+          "activity": "Prepare an improvement brief with the barrier, change, owner, resource dependency, lived-experience input, review question and unsupported claim to remove. Distinguish an output from a service-access or clinical outcome.",
+          "feedback": "A defensible brief connects organisational conditions to a feasible action and honest review. It includes meaningful input and supervision without claiming that a leaflet, framework or course badge proves clinical recovery.",
+          "sources": [
+            "S22",
+            "S21",
+            "S1",
+            "R29",
+            "R34",
+            "R35"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-057",
+        "course_slug": "trauma-informed-and-culturally-responsive-psychosocial-care",
+        "title": "Trauma Informed and Culturally Responsive Psychosocial Care",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "73a338bf8e8fac54dabde78a162faa09bbe585c5e1a2f0aa44a54066e204e428",
+        "catalogue_sha256": "646da4dd0f7a668be3dc7617c99711b6fcb39ab04671ec774b1cd4e19b3d7e49",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Predictability choice and professional scope",
+            "outcome": "Distinguish trauma-informed service conditions from trauma-focused treatment or diagnosis.",
+            "teaching_points": [
+              {
+                "id": "SWP-057-M1-T1",
+                "text": "Respectful service does not require a disclosed trauma history."
+              },
+              {
+                "id": "SWP-057-M1-T2",
+                "text": "Trauma-informed conditions differ from trauma-focused treatment."
+              },
+              {
+                "id": "SWP-057-M1-T3",
+                "text": "An available option may still have access barriers."
+              },
+              {
+                "id": "SWP-057-M1-T4",
+                "text": "Conceptual synthesis does not demonstrate treatment effects."
+              },
+              {
+                "id": "SWP-057-M1-T5",
+                "text": "Course exercises should not become real trauma interviews."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Cultural understanding without stereotypes",
+            "outcome": "Ask about meaning, identity and chosen supports while keeping evidence and individual preferences distinct.",
+            "teaching_points": [
+              {
+                "id": "SWP-057-M2-T1",
+                "text": "Group identity does not determine an individual's care preferences."
+              },
+              {
+                "id": "SWP-057-M2-T2",
+                "text": "A valued relationship is distinct from permission to share."
+              },
+              {
+                "id": "SWP-057-M2-T3",
+                "text": "An available relative is not automatically an appropriate interpreter."
+              },
+              {
+                "id": "SWP-057-M2-T4",
+                "text": "Local evidence still requires critical appraisal."
+              },
+              {
+                "id": "SWP-057-M2-T5",
+                "text": "Qualitative themes are prompts rather than universal rules."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Organisational response and accountable learning",
+            "outcome": "Propose a feasible service improvement with lived-experience input and bounded review.",
+            "teaching_points": [
+              {
+                "id": "SWP-057-M3-T1",
+                "text": "Organisational barriers require appropriate authority and resources."
+              },
+              {
+                "id": "SWP-057-M3-T2",
+                "text": "Lived-experience input should influence a defined decision."
+              },
+              {
+                "id": "SWP-057-M3-T3",
+                "text": "Producing information differs from usable understanding."
+              },
+              {
+                "id": "SWP-057-M3-T4",
+                "text": "Evidence types constrain claims about an improvement."
+              },
+              {
+                "id": "SWP-057-M3-T5",
+                "text": "An unresolved dependency should remain visible."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-057-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-057-M1-T1",
+            "question": "A fictional reception process requires an adult to describe past trauma before receiving a clear appointment explanation. What should change?",
+            "options": [
+              {
+                "text": "Require a more graphic account to establish eligibility.",
+                "correct": false
+              },
+              {
+                "text": "Treat silence as proof that no support is needed.",
+                "correct": false
+              },
+              {
+                "text": "Provide respectful information and appropriate choices without requiring that history.",
+                "correct": true
+              },
+              {
+                "text": "Diagnose trauma from reluctance to speak publicly.",
+                "correct": false
+              }
+            ],
+            "rationale": "Predictable respectful assistance need not depend on personal disclosure."
+          },
+          {
+            "id": "SWP-057-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-057-M1-T2",
+            "question": "A learner improves privacy and explains an encounter's purpose. What has the learner done?",
+            "options": [
+              {
+                "text": "Completed a diagnostic examination.",
+                "correct": false
+              },
+              {
+                "text": "Established that symptoms are cured.",
+                "correct": false
+              },
+              {
+                "text": "Acquired authority to prescribe therapy.",
+                "correct": false
+              },
+              {
+                "text": "Addressed service conditions within scope rather than delivered a clinical trauma treatment.",
+                "correct": true
+              }
+            ],
+            "rationale": "Organisational support and clinical intervention have different competencies."
+          },
+          {
+            "id": "SWP-057-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-057-M1-T3",
+            "question": "A service offers an appointment that conflicts with an adult's work and transport. What should a support note consider?",
+            "options": [
+              {
+                "text": "Whether practical constraints limit the person's ability to use that option.",
+                "correct": true
+              },
+              {
+                "text": "That any offered slot proves access is equal.",
+                "correct": false
+              },
+              {
+                "text": "That inability to attend is necessarily resistance.",
+                "correct": false
+              },
+              {
+                "text": "That an unverified alternative can be promised as available.",
+                "correct": false
+              }
+            ],
+            "rationale": "Meaningful choice depends on feasible access as well as a listed option."
+          },
+          {
+            "id": "SWP-057-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-057-M1-T4",
+            "question": "A team cites the 2026 trauma-informed framework review as proof its revised desk process cures distress. What is the correction?",
+            "options": [
+              {
+                "text": "A diagram is equivalent to a treatment trial.",
+                "correct": false
+              },
+              {
+                "text": "The review supports conceptual appraisal; the local clinical-effect claim is unestablished.",
+                "correct": true
+              },
+              {
+                "text": "All settings necessarily achieve the same outcomes.",
+                "correct": false
+              },
+              {
+                "text": "A recent publication removes the need to examine methods.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review synthesises concepts rather than testing this service change."
+          },
+          {
+            "id": "SWP-057-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-057-M1-T5",
+            "question": "A facilitator asks learners to interview classmates about trauma for marks. Which alternative fits this course?",
+            "options": [
+              {
+                "text": "Reward the most detailed private history.",
+                "correct": false
+              },
+              {
+                "text": "Record real disclosures in the slide notes.",
+                "correct": false
+              },
+              {
+                "text": "Use the supplied fictional scenario and assess reasoning about service conditions.",
+                "correct": true
+              },
+              {
+                "text": "Require an exposure exercise as proof of understanding.",
+                "correct": false
+              }
+            ],
+            "rationale": "Introductory learning can be assessed without personal disclosure or clinical procedures."
+          },
+          {
+            "id": "SWP-057-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-057-M2-T1",
+            "question": "A worker assumes every member of a religious community wants the same support. What is a better approach?",
+            "options": [
+              {
+                "text": "Apply one presumed preference to everyone.",
+                "correct": false
+              },
+              {
+                "text": "Use identity as a diagnostic category.",
+                "correct": false
+              },
+              {
+                "text": "Treat a community leader's view as every adult's consent.",
+                "correct": false
+              },
+              {
+                "text": "Ask the person about their own priorities and desired connections.",
+                "correct": true
+              }
+            ],
+            "rationale": "Cultural responsiveness recognises individual and within-group variation."
+          },
+          {
+            "id": "SWP-057-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-057-M2-T2",
+            "question": "A fictional adult values a faith community but declines information sharing with its leader. What distinction matters?",
+            "options": [
+              {
+                "text": "Connection can matter without authorising disclosure of health information.",
+                "correct": true
+              },
+              {
+                "text": "Valuing the community grants unlimited disclosure permission.",
+                "correct": false
+              },
+              {
+                "text": "The worker may override preferences for cultural consistency.",
+                "correct": false
+              },
+              {
+                "text": "Any spiritual support replaces clinical care.",
+                "correct": false
+              }
+            ],
+            "rationale": "Support preferences and specific information permissions are separate."
+          },
+          {
+            "id": "SWP-057-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-057-M2-T3",
+            "question": "A relative offers to interpret a private appointment discussion. What should be considered?",
+            "options": [
+              {
+                "text": "Availability alone establishes suitability.",
+                "correct": false
+              },
+              {
+                "text": "The person's preference, privacy needs and appropriate communication-support arrangements.",
+                "correct": true
+              },
+              {
+                "text": "Family status proves the person agreed.",
+                "correct": false
+              },
+              {
+                "text": "Interpretation removes the need to explain roles.",
+                "correct": false
+              }
+            ],
+            "rationale": "Communication support must be suitable and agreed within the setting."
+          },
+          {
+            "id": "SWP-057-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-057-M2-T4",
+            "question": "A small single-hospital provider survey is described as proof of what all Nigerian service users experience. What is missing?",
+            "options": [
+              {
+                "text": "Only a local author affiliation.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that provider views equal patient outcomes.",
+                "correct": false
+              },
+              {
+                "text": "Attention to sampling, whose perspective was measured and limits of generalisation.",
+                "correct": true
+              },
+              {
+                "text": "Permission to ignore inconsistent analysis reporting.",
+                "correct": false
+              }
+            ],
+            "rationale": "A relevant setting does not make a limited design representative or causal."
+          },
+          {
+            "id": "SWP-057-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-057-M2-T5",
+            "question": "A review describes family support and family pressure in recovery accounts. How should a learner use that finding?",
+            "options": [
+              {
+                "text": "Require family involvement for every adult.",
+                "correct": false
+              },
+              {
+                "text": "Conclude no family can ever help.",
+                "correct": false
+              },
+              {
+                "text": "Treat a theme as an individual outcome prediction.",
+                "correct": false
+              },
+              {
+                "text": "Ask about the person's actual relationships and preferences without presuming benefit.",
+                "correct": true
+              }
+            ],
+            "rationale": "Varied accounts inform contextual questions rather than fixed instructions."
+          },
+          {
+            "id": "SWP-057-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-057-M3-T1",
+            "question": "A fictional policy promises private discussion but no private space exists. What should a recommendation identify?",
+            "options": [
+              {
+                "text": "The resource gap and the role authorised to resolve or manage it.",
+                "correct": true
+              },
+              {
+                "text": "Only the worker's attitude.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that written policy creates space.",
+                "correct": false
+              },
+              {
+                "text": "A demand that service users become more resilient.",
+                "correct": false
+              }
+            ],
+            "rationale": "Service conditions depend on organisational decisions as well as communication."
+          },
+          {
+            "id": "SWP-057-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-057-M3-T2",
+            "question": "A service seeks feedback but cannot explain what may change. What needs clarification?",
+            "options": [
+              {
+                "text": "A requirement to share a trauma narrative.",
+                "correct": false
+              },
+              {
+                "text": "The decision scope, access arrangements and accountable response to input.",
+                "correct": true
+              },
+              {
+                "text": "A claim that one contributor represents everyone.",
+                "correct": false
+              },
+              {
+                "text": "A rule that disagreement affects eligibility for support.",
+                "correct": false
+              }
+            ],
+            "rationale": "Meaningful involvement needs influence and appropriate conditions."
+          },
+          {
+            "id": "SWP-057-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-057-M3-T3",
+            "question": "A welcome leaflet is rewritten. Which separate review question fits the change?",
+            "options": [
+              {
+                "text": "Whether the print run proves clinical recovery.",
+                "correct": false
+              },
+              {
+                "text": "Whether producing text removes every service barrier.",
+                "correct": false
+              },
+              {
+                "text": "Whether intended people understand the process and can exercise the explained choices.",
+                "correct": true
+              },
+              {
+                "text": "Whether the leaflet is equivalent to a treatment trial.",
+                "correct": false
+              }
+            ],
+            "rationale": "An output does not establish its intended access or understanding outcome."
+          },
+          {
+            "id": "SWP-057-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-057-M3-T4",
+            "question": "A recommendation combines a conceptual review, qualitative accounts and a limited provider survey. What is justified?",
+            "options": [
+              {
+                "text": "A proven causal symptom reduction in every setting.",
+                "correct": false
+              },
+              {
+                "text": "An individual diagnosis from the combined citations.",
+                "correct": false
+              },
+              {
+                "text": "Permission to omit lived-experience feedback.",
+                "correct": false
+              },
+              {
+                "text": "A reasoned proposal with evidence limits and a need to review local effects.",
+                "correct": true
+              }
+            ],
+            "rationale": "Several sources can inform judgement without proving a local intervention effect."
+          },
+          {
+            "id": "SWP-057-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-057-M3-T5",
+            "question": "A fictional service cannot yet provide an agreed communication option. What should the plan state?",
+            "options": [
+              {
+                "text": "The limitation, responsible decision route and feasible follow-up rather than an availability promise.",
+                "correct": true
+              },
+              {
+                "text": "That the option is guaranteed because it is desirable.",
+                "correct": false
+              },
+              {
+                "text": "That the person caused the service gap.",
+                "correct": false
+              },
+              {
+                "text": "That all future reviews can be cancelled.",
+                "correct": false
+              }
+            ],
+            "rationale": "An honest plan identifies conditions requiring action and review."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-058",
+      "title": "Community Mental Health Rights and Recovery",
+      "slug": "community-mental-health-rights-and-recovery",
+      "cover_title": "Community Mental\nHealth Rights and\nRecovery",
+      "school_code": "MHP",
+      "school_name": "School of Mental Health and Psychosocial Care",
+      "school_display": "Mental Health and\nPsychosocial Care",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional scenarios. No diagnosis, therapy, prescribing, crisis-triage authority or independent child/clinical practice is conferred. Qualified roles, local procedures and supervised skills remain necessary.",
+      "study_guidance": "Use only the supplied non-graphic fictional scenarios and invented aggregate data. Do not seek personal trauma histories, interview children or submit real health/service records. Write reasoning before checking feedback. You may pause or use an alternative fictional exercise. Supervised skills observation is separate.",
+      "practice_safety_note": "Use only the supplied non-graphic fictional scenario or invented aggregate data. Do not collect personal trauma histories, interview children or submit real health records. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback.",
+      "outcome": "Prepare a fictional rights-based community support proposal with person-defined goals, supported choice, appropriate peer roles and a bounded review of inclusion and access.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Rights supported choice and participation",
+          "outcome": "Translate person-centred rights principles into a bounded service-access recommendation.",
+          "paragraphs": [
+            "A rights-based community service treats a person as someone with preferences, relationships, abilities and entitlements rather than as a diagnosis or a problem to manage. WHO's community guidance describes person-centred approaches and community inclusion across different service arrangements. In a fictional access review, ask who sets the goals, how information is explained and whether the person can participate meaningfully. Do not assume that receiving mental-health support removes the ability to make choices, or that a worker may decide every aspect of a person's life because the worker intends to help. [S21, S1]",
+            "Supported decision-making helps a person understand and communicate choices through appropriate assistance. It differs from replacing the person's preferences with another person's decision. The kind of support needed may vary with the decision, communication needs and circumstances. An introductory learner does not determine legal capacity, create a universal consent rule or decide a real safeguarding exception. Applicable law and qualified professional procedures remain necessary. A fictional proposal can identify an accessible explanation, a chosen support role and an unresolved authority question without making a legal finding. [S21, S1]",
+            "Participation also concerns the service itself. People with lived experience should be able to influence a relevant design or review decision through suitable, accessible arrangements. Involvement should not depend on disclosing a diagnosis publicly or agreeing with staff. The 2025 policy introduction connects governance, workforce and social determinants, including housing, work and exclusion. This supports asking what institutional rule or resource affects access. It does not prove that a locally proposed programme complies with Nigerian law or that participation alone removes all barriers to quality care. [S22, S21]",
+            "A bounded rights recommendation describes the actual barrier, its effect on participation, the person's stated preference and the responsible decision-maker. Avoid promises about benefit eligibility, legal remedies or service availability that have not been verified. Use non-stigmatising language and distinguish a reported concern from a confirmed policy or legal conclusion. For coursework, analyse only the supplied fictional situation, with no private health records or interviews. Qualified review must consider safety, local law and organisational responsibilities before any real change is implemented or presented as an approved standard. [S1, S21, S22]"
+          ],
+          "example": "Fictional case: a community centre requires every adult using a mental-health programme to obtain family approval for routine activities. An adult asks to choose a communication supporter instead. The learner examines the rule and appropriate decision authority without making a legal-capacity ruling.",
+          "activity": "Draft a rights/access note with the actual rule, its effect, the person's preference, an accessible decision-support option, an authority question and a proposed review route.",
+          "feedback": "A useful note recognises agency and practical support without assuming a diagnosis removes choice. It separates rights-based service design from a legal determination or a promise of eligibility.",
+          "sources": [
+            "S21",
+            "S1",
+            "S22"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Personal recovery peers and community life",
+          "outcome": "Distinguish person-defined recovery goals from clinical outcomes and define appropriate peer-support conditions.",
+          "paragraphs": [
+            "Personal recovery can concern meaning, agency, relationships and participation in ordinary life, including when difficulties continue. Clinical outcomes, such as symptoms assessed by qualified professionals, answer different questions. Neither perspective requires an introductory worker to promise a cure or dismiss health needs. Ask what the person wants to pursue and what support or environmental change could make that feasible. A fictional goal might involve returning to a valued activity or rebuilding a chosen connection, with the person's own definition of progress rather than a standard goal imposed on every participant. [S21, S1]",
+            "Peer support can offer connection through shared lived experience, but a peer role needs clear boundaries, training, supervision and organisational support. A peer supporter is not automatically a clinician, emergency responder or unpaid substitute for every service gap. People should understand the role and be able to choose whether it fits their needs. Support arrangements also need to consider the peer worker's wellbeing, workload and compensation. An introductory course cannot train or certify an independent peer specialist by asking someone to share a personal mental-health history. [S21, S1]",
+            "The 2026 digital peer-support review examines outpatient interventions with varied designs and populations. It reports limited long-term and safety information and does not establish that any online group is safe, effective or suitable for a particular Nigerian community. Digital access, privacy, moderation and escalation arrangements matter, as do alternatives for people who cannot or do not wish to participate online. Do not promise engagement or recovery because a platform has a peer-support label. A referral to a group requires appropriate verification and an informed choice rather than an automatic enrolment. [R30, S21]",
+            "A person-defined support plan connects the chosen goal with practical conditions, accepted roles and a way to revisit preferences. A request to join an activity does not authorise sharing clinical records with its organiser. Distinguish assistance offered from participation that actually becomes accessible, and both from clinical improvement. Where medication, acute distress or specialist needs arise, qualified services retain their roles; a recovery goal is not advice to stop treatment. Use the fictional exercise to explain choices and boundaries, without testing a real group, contacting service users or collecting evidence of another person's recovery. [S1, S21, R30]"
+          ],
+          "example": "Fictional case: an adult wants to reconnect with a community music group and is offered an unverified online peer forum instead. A learner asks about the adult's goal, access preferences and suitable support rather than treating forum enrolment as recovery.",
+          "activity": "Write a goal/support note with person-defined progress, one environmental barrier, an appropriate peer-role condition, a digital-access/privacy question and a separate clinical boundary.",
+          "feedback": "A defensible note supports ordinary-life goals and informed options. It does not equate a peer label, online enrolment or activity attendance with clinical recovery or guaranteed safety.",
+          "sources": [
+            "S21",
+            "S1",
+            "R30"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Inclusion resources and accountable review",
+          "outcome": "Connect social barriers with feasible cross-service action and evidence-aware review.",
+          "paragraphs": [
+            "A person may want an activity or service but face housing insecurity, transport cost, exclusion, inaccessible communication or conflicting work demands. A rights-based community plan examines these conditions without interpreting every barrier as a personal lack of motivation. The 2025 WHO introduction links mental-health reform with social and structural determinants. Identify the actual decision and the role that can act on it: a clinic may address an appointment process while another agency controls transport or accommodation. Coordination should clarify responsibilities, with the person involved, rather than promise one worker can solve every condition. [S22, S21, S1]",
+            "Evidence can inform this analysis without settling a particular person's circumstances. The adult coordination scoping review maps varied roles and service arrangements; its exclusions and terminology limits mean it does not establish one universally effective model. The Ibadan IJSDS survey adds local provider perspectives with small-sample, single-site and reporting limitations. Neither supports deciding what every service user experiences or whether a specific Nigerian programme causes recovery. Use them to ask about actual availability, barriers and responsibilities, alongside the person's appropriately obtained views and current authorised service information. [R32, R35, S21]",
+            "A practical review distinguishes a referral offered, a suitable service accepted, access achieved and progress toward the person's goal. More contacts do not necessarily mean better continuity or inclusion. If a process was inaccessible, examine the system before labelling the person non-compliant. Feedback arrangements should be voluntary, accessible and safe, with no requirement for a recovery narrative or public diagnosis. Real evaluation involving sensitive information needs appropriate governance; fictional coursework can test the quality of the proposed question without collecting actual service data or attempting clinical outcome measurement. [S21, S1, R32]",
+            "A recommendation should identify an authorised owner, a resource condition, the next agreed contact and a review point. State what the evidence supports and what remains uncertain. Where an option is unavailable, make that gap visible and seek an appropriate alternative through qualified roles rather than record a successful referral by assumption. A recovery-oriented service is accountable for how it responds to barriers and preferences; it should not pressure the person to endorse the programme's success story. Independent lived-experience, clinical, legal and accessibility review is still needed before this draft is approved for use. [S22, S21, S1]"
+          ],
+          "example": "Fictional case: a service records five referral offers as successful community inclusion, although an adult cannot reach the venue. A learner separates the output from access, identifies the transport decision-maker and proposes an agreed review of the person's actual goal.",
+          "activity": "Draft an inclusion review with the goal, barrier, source/evidence limit, accountable role, resource condition, access question and unsupported claim to remove.",
+          "feedback": "A sound review examines the actual barrier and feasible authority. It differentiates offers, access and personal progress, keeps evidence limits visible and avoids blaming the person for a system gap.",
+          "sources": [
+            "S22",
+            "S21",
+            "S1",
+            "R32",
+            "R35"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-058",
+        "course_slug": "community-mental-health-rights-and-recovery",
+        "title": "Community Mental Health Rights and Recovery",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "c0bcd2db638e90e1d94a0a33d9cf8187331ebfa3c709dd836061f4cef036931c",
+        "catalogue_sha256": "3484f268b0a6b44fa6f17707f6a53c5f4a8ab0c87764f72365ac53616c2ac960",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Rights supported choice and participation",
+            "outcome": "Translate person-centred rights principles into a bounded service-access recommendation.",
+            "teaching_points": [
+              {
+                "id": "SWP-058-M1-T1",
+                "text": "A diagnosis does not define all preferences or abilities."
+              },
+              {
+                "id": "SWP-058-M1-T2",
+                "text": "Decision support differs from substituting a preference."
+              },
+              {
+                "id": "SWP-058-M1-T3",
+                "text": "An introductory course cannot decide legal capacity."
+              },
+              {
+                "id": "SWP-058-M1-T4",
+                "text": "Lived-experience participation can address service governance."
+              },
+              {
+                "id": "SWP-058-M1-T5",
+                "text": "Rights-based guidance does not establish local legal compliance."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Personal recovery peers and community life",
+            "outcome": "Distinguish person-defined recovery goals from clinical outcomes and define appropriate peer-support conditions.",
+            "teaching_points": [
+              {
+                "id": "SWP-058-M2-T1",
+                "text": "Personal recovery and clinical outcomes are distinct."
+              },
+              {
+                "id": "SWP-058-M2-T2",
+                "text": "Peer roles require support and boundaries."
+              },
+              {
+                "id": "SWP-058-M2-T3",
+                "text": "Digital peer-support findings do not validate every forum."
+              },
+              {
+                "id": "SWP-058-M2-T4",
+                "text": "A person-defined goal should guide support options."
+              },
+              {
+                "id": "SWP-058-M2-T5",
+                "text": "Community participation does not require unrestricted health disclosure."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Inclusion resources and accountable review",
+            "outcome": "Connect social barriers with feasible cross-service action and evidence-aware review.",
+            "teaching_points": [
+              {
+                "id": "SWP-058-M3-T1",
+                "text": "Social barriers should not be reduced to motivation labels."
+              },
+              {
+                "id": "SWP-058-M3-T2",
+                "text": "A scoping map does not establish a universally effective model."
+              },
+              {
+                "id": "SWP-058-M3-T3",
+                "text": "Referral offers differ from access achieved."
+              },
+              {
+                "id": "SWP-058-M3-T4",
+                "text": "Feedback should not require a public recovery narrative."
+              },
+              {
+                "id": "SWP-058-M3-T5",
+                "text": "Unavailability should not be recorded as successful completion."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-058-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-058-M1-T1",
+            "question": "A fictional centre assumes all adults receiving mental-health support must want the same activities. What should change?",
+            "options": [
+              {
+                "text": "Use one staff preference for every participant.",
+                "correct": false
+              },
+              {
+                "text": "Treat a diagnosis as the person's entire identity.",
+                "correct": false
+              },
+              {
+                "text": "Ask about individual goals and provide meaningful participation.",
+                "correct": true
+              },
+              {
+                "text": "Require public health disclosure to express a preference.",
+                "correct": false
+              }
+            ],
+            "rationale": "Person-centred support recognises individual priorities and strengths."
+          },
+          {
+            "id": "SWP-058-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-058-M1-T2",
+            "question": "An adult requests help understanding options, but a supporter chooses without asking. What distinction matters?",
+            "options": [
+              {
+                "text": "Any helper automatically acquires all decision authority.",
+                "correct": false
+              },
+              {
+                "text": "Explanation is unnecessary once a supporter attends.",
+                "correct": false
+              },
+              {
+                "text": "A worker's preferred outcome defines informed choice.",
+                "correct": false
+              },
+              {
+                "text": "Helping the person decide is different from replacing the person's choice.",
+                "correct": true
+              }
+            ],
+            "rationale": "Support should enable the person's participation within appropriate procedures."
+          },
+          {
+            "id": "SWP-058-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-058-M1-T3",
+            "question": "A learner is asked to declare a real person's legal decision-making capacity. What fits the course boundary?",
+            "options": [
+              {
+                "text": "Identify the need for qualified context-specific legal and professional procedures.",
+                "correct": true
+              },
+              {
+                "text": "Issue a legal ruling from a worksheet score.",
+                "correct": false
+              },
+              {
+                "text": "Assume every mental-health diagnosis has the same legal effect.",
+                "correct": false
+              },
+              {
+                "text": "Use staff convenience as the capacity test.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course develops service reasoning rather than legal decision authority."
+          },
+          {
+            "id": "SWP-058-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-058-M1-T4",
+            "question": "A fictional service plans an access-rule review. Which involvement is meaningful?",
+            "options": [
+              {
+                "text": "Attendance after all decisions are final.",
+                "correct": false
+              },
+              {
+                "text": "Accessible input that can affect the stated decision and receives an accountable response.",
+                "correct": true
+              },
+              {
+                "text": "Mandatory public diagnosis disclosure.",
+                "correct": false
+              },
+              {
+                "text": "Excluding anyone who questions the proposed rule.",
+                "correct": false
+              }
+            ],
+            "rationale": "Meaningful participation involves influence and suitable conditions."
+          },
+          {
+            "id": "SWP-058-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-058-M1-T5",
+            "question": "A proposal cites WHO guidance and labels itself legally compliant in Nigeria. What remains necessary?",
+            "options": [
+              {
+                "text": "No further review because an international source is cited.",
+                "correct": false
+              },
+              {
+                "text": "A universal eligibility guarantee.",
+                "correct": false
+              },
+              {
+                "text": "Applicable local legal and professional review of the actual proposal.",
+                "correct": true
+              },
+              {
+                "text": "A claim that rights language proves service capacity.",
+                "correct": false
+              }
+            ],
+            "rationale": "International guidance is a benchmark rather than a local legal approval."
+          },
+          {
+            "id": "SWP-058-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-058-M2-T1",
+            "question": "A fictional adult values renewed participation while some difficulties continue. What is an appropriate interpretation?",
+            "options": [
+              {
+                "text": "Progress is impossible unless all symptoms vanish.",
+                "correct": false
+              },
+              {
+                "text": "Valued participation proves a clinical cure.",
+                "correct": false
+              },
+              {
+                "text": "A recovery goal means treatment should stop.",
+                "correct": false
+              },
+              {
+                "text": "Person-defined progress may matter alongside separately assessed clinical needs.",
+                "correct": true
+              }
+            ],
+            "rationale": "Different outcome domains should be recognised without substituting one for another."
+          },
+          {
+            "id": "SWP-058-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-058-M2-T2",
+            "question": "A centre expects a peer worker to manage every clinical emergency without supervision. What needs correction?",
+            "options": [
+              {
+                "text": "The role, training, supervision and qualified escalation arrangements.",
+                "correct": true
+              },
+              {
+                "text": "Only the worker's willingness to share a personal story.",
+                "correct": false
+              },
+              {
+                "text": "A rule that peers must work without compensation.",
+                "correct": false
+              },
+              {
+                "text": "A claim that lived experience grants prescribing authority.",
+                "correct": false
+              }
+            ],
+            "rationale": "Shared experience does not replace clinical competence or organisational duties."
+          },
+          {
+            "id": "SWP-058-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-058-M2-T3",
+            "question": "An organiser calls an unmoderated online forum safe because a 2026 review studied digital peers. What is missing?",
+            "options": [
+              {
+                "text": "Only the forum's popularity.",
+                "correct": false
+              },
+              {
+                "text": "Appraisal of the actual forum, access, moderation, privacy and appropriate response arrangements.",
+                "correct": true
+              },
+              {
+                "text": "A guarantee transferred from a pooled study label.",
+                "correct": false
+              },
+              {
+                "text": "Automatic consent from all potential participants.",
+                "correct": false
+              }
+            ],
+            "rationale": "Interventions and conditions vary; the review is not blanket approval."
+          },
+          {
+            "id": "SWP-058-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-058-M2-T4",
+            "question": "An adult wants a community music connection but is automatically enrolled in an unrelated group. What should be revisited?",
+            "options": [
+              {
+                "text": "How to persuade everyone to accept the same activity.",
+                "correct": false
+              },
+              {
+                "text": "Whether staff convenience overrides the goal.",
+                "correct": false
+              },
+              {
+                "text": "The person's goal, preferences and feasible suitable options.",
+                "correct": true
+              },
+              {
+                "text": "How to label enrolment as completed recovery.",
+                "correct": false
+              }
+            ],
+            "rationale": "Support should respond to the person's priorities rather than a predetermined service output."
+          },
+          {
+            "id": "SWP-058-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-058-M2-T5",
+            "question": "A fictional activity organiser requests a participant's full clinical file. What should a support outline consider?",
+            "options": [
+              {
+                "text": "Automatic sharing because the activity may help.",
+                "correct": false
+              },
+              {
+                "text": "A public copy in the course worksheet.",
+                "correct": false
+              },
+              {
+                "text": "A belief that recovery orientation removes privacy duties.",
+                "correct": false
+              },
+              {
+                "text": "The specific purpose, minimum necessary information and appropriate permissions/governance.",
+                "correct": true
+              }
+            ],
+            "rationale": "Supporting participation does not remove information boundaries."
+          },
+          {
+            "id": "SWP-058-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-058-M3-T1",
+            "question": "A fictional adult misses a community appointment because transport is unaffordable. What should the review examine?",
+            "options": [
+              {
+                "text": "The access barrier and the role able to address feasible options.",
+                "correct": true
+              },
+              {
+                "text": "A diagnosis of low motivation from the absence alone.",
+                "correct": false
+              },
+              {
+                "text": "A claim that the referral offer proves access.",
+                "correct": false
+              },
+              {
+                "text": "A rule that resources are irrelevant to participation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Practical conditions affect whether intended support can be used."
+          },
+          {
+            "id": "SWP-058-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-058-M3-T2",
+            "question": "A planner treats the coordination review as proof that one model works in every service. What is justified instead?",
+            "options": [
+              {
+                "text": "An identical outcome guarantee everywhere.",
+                "correct": false
+              },
+              {
+                "text": "Contextual comparison of roles and requirements with effectiveness still requiring suitable evidence.",
+                "correct": true
+              },
+              {
+                "text": "Universal eligibility inferred from one example.",
+                "correct": false
+              },
+              {
+                "text": "A claim that all relevant terminology and populations were included.",
+                "correct": false
+              }
+            ],
+            "rationale": "The review's purpose and exclusions constrain transfer."
+          },
+          {
+            "id": "SWP-058-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-058-M3-T3",
+            "question": "Five referral offers are logged while a venue remains inaccessible. What should a report avoid?",
+            "options": [
+              {
+                "text": "Recording the offers as an output.",
+                "correct": false
+              },
+              {
+                "text": "Stating the unresolved access barrier.",
+                "correct": false
+              },
+              {
+                "text": "Calling the offers demonstrated successful inclusion.",
+                "correct": true
+              },
+              {
+                "text": "Identifying a responsible review role.",
+                "correct": false
+              }
+            ],
+            "rationale": "The output does not establish use or progress toward a personal goal."
+          },
+          {
+            "id": "SWP-058-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-058-M3-T4",
+            "question": "A service links continued participation to giving a positive recovery story. What should change?",
+            "options": [
+              {
+                "text": "Keep the condition to improve evaluation response rates.",
+                "correct": false
+              },
+              {
+                "text": "Publish stories without separate permissions.",
+                "correct": false
+              },
+              {
+                "text": "Treat silence as proof of programme success.",
+                "correct": false
+              },
+              {
+                "text": "Remove the pressure and use an appropriate voluntary feedback route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Feedback conditions must respect choice and information boundaries."
+          },
+          {
+            "id": "SWP-058-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-058-M3-T5",
+            "question": "A fictional support option has no current capacity. What belongs in the plan?",
+            "options": [
+              {
+                "text": "The gap, responsible follow-up and appropriate alternatives without an availability promise.",
+                "correct": true
+              },
+              {
+                "text": "A completed-referral label based only on sending details.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that capacity will appear later.",
+                "correct": false
+              },
+              {
+                "text": "Blame directed at the person for needing support.",
+                "correct": false
+              }
+            ],
+            "rationale": "An accountable plan represents the actual status and unresolved needs."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-059",
+      "title": "Child Adolescent and Family Psychosocial Support",
+      "slug": "child-adolescent-and-family-psychosocial-support",
+      "cover_title": "Child Adolescent and\nFamily Psychosocial\nSupport",
+      "school_code": "MHP",
+      "school_name": "School of Mental Health and Psychosocial Care",
+      "school_display": "Mental Health and\nPsychosocial Care",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional scenarios. No diagnosis, therapy, prescribing, crisis-triage authority or independent child/clinical practice is conferred. Qualified roles, local procedures and supervised skills remain necessary.",
+      "study_guidance": "Use only the supplied non-graphic fictional scenarios and invented aggregate data. Do not seek personal trauma histories, interview children or submit real health/service records. Write reasoning before checking feedback. You may pause or use an alternative fictional exercise. Supervised skills observation is separate.",
+      "practice_safety_note": "Use only the supplied non-graphic fictional scenario or invented aggregate data. Do not collect personal trauma histories, interview children or submit real health records. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback.",
+      "outcome": "Prepare a fictional child/family support outline that considers development, participation, caregiver safety and intersectoral access without diagnosing, treating or deciding legal consent.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Development participation and everyday settings",
+          "outcome": "Identify developmentally appropriate support questions without turning an observation into a diagnosis.",
+          "paragraphs": [
+            "Children and adolescents differ in development, communication, interests, relationships and dependence on others. A support discussion should consider these differences alongside disability, language and the young person's own priorities. A change in school participation or a report of distress is a reason for an appropriate response, not a diagnosis by itself. WHO and UNICEF's service guidance emphasises rights and developmental fit rather than one service model for every setting. An introductory learner can identify relevant questions and qualified roles; assessing a mental-health condition or choosing treatment requires appropriate professional competence. [S23, S1]",
+            "Everyday settings such as home, school, community activities and health services can influence access to support. Ask what practical conditions make participation easier or harder without assigning blame to a child or family. The child's view and the caregiver's account may differ, and neither should be silently treated as the only perspective. Qualified staff need appropriate age- and communication-sensitive ways of hearing the young person. Coursework uses supplied fictional descriptions only: do not interview children, seek real disclosures, administer a screening tool or ask someone to reproduce a distressing experience for marks. [S23, S1]",
+            "Participation means explaining the purpose of an encounter and giving a young person an appropriate opportunity to express preferences. It does not mean promising every requested outcome or assuming participation alone authorises all information sharing. Consent, assent, caregiver involvement and legal duties are decision- and context-specific. This course provides no universal age rule, diagnosis threshold or reporting protocol. Where an actual concern arises, use designated qualified child-safeguarding, clinical and emergency procedures rather than improvise from a fictional exercise or allow a routine service discussion to delay an appropriate urgent response. [S23, S1]",
+            "A useful introductory note separates an observation, its context, the child's stated priority and an unanswered question. Describe an access need, such as an understandable explanation or an accessible contact arrangement, without assuming a particular clinical cause. Identify who can take the next appropriate step and what needs qualified review. Use non-stigmatising language and avoid recording unnecessary identifying details. The learning task is to prepare a bounded support question and responsibility map, not to label a child, determine parental fault or demonstrate independent child mental-health practice through a short worksheet. [S23, S1]"
+          ],
+          "example": "Fictional case: an adolescent stops attending an after-school club because its changed timetable conflicts with caring responsibilities. Adults call this a mental-health diagnosis without hearing the adolescent's account. The learner separates the observed absence, practical context and appropriate support questions.",
+          "activity": "Write a note with the observation, a contextual question, the young person's priority, an access adjustment and a qualified decision boundary. Avoid a diagnosis or judgement about the family.",
+          "feedback": "A defensible note considers development and context, hears the young person's perspective appropriately and separates a participation change from a clinical conclusion.",
+          "sources": [
+            "S23",
+            "S1"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Caregiver involvement and family support",
+          "outcome": "Plan bounded caregiver engagement that considers the young person's views, safety and evidence limits.",
+          "paragraphs": [
+            "Families and caregivers can provide practical, emotional and relational support, but involvement should not be assumed safe, desired or appropriate in every circumstance. A qualified process considers the young person's views, development, relevant law, privacy, potential conflict and safeguarding concerns. The fact that an adult accompanies a child does not settle all these questions. An introductory learner can identify the need for that process and communication support without deciding a real consent exception or arranging an unsupervised family meeting. Explain role limits honestly rather than promise absolute confidentiality or a specific outcome. [S23, S1]",
+            "A family-support outline should be specific about the goal and the kind of involvement proposed. Help with transport, a discussion about scheduling and a clinical family intervention are different activities with different responsibilities. Clarify what information is necessary for each purpose and who is authorised to share it. Do not send a full health account to every adult or school contact because they may be helpful. Where a caregiver has support needs, identify an appropriate route without turning the child into the caregiver's worker or making the child's assistance conditional on caregiver participation. [S23, S1]",
+            "The 2026 parenting review synthesises voluntary programmes for parents of adolescents aged eleven to twenty-one, using studies with face-to-face components. Its last reported search is December 2023. Diverse outcomes and methods prevented meta-analysis, and the review has screening and registration limitations. It can inform questions about accessible settings, facilitator preparation and engagement; it does not supply a universal family treatment, justify mandated participation or establish effects for every younger child. A recent publication date is not permission to copy a programme or extend its findings to unstudied groups and delivery formats. [R31, S23]",
+            "For the fictional exercise, identify the young person's goal, a possible supportive role, an uncertainty about safety or permission and the qualified decision route. Retain a way to revisit preferences and practical barriers. A family can face time, income, language or transport constraints without being unwilling to help, so avoid blame from a missed session. Any actual concern about violence, neglect or urgent risk belongs within designated qualified safeguarding and clinical procedures. The course assesses careful planning and evidence interpretation, not a learner's ability to conduct family therapy or settle a disputed care decision. [S23, S1, R31]"
+          ],
+          "example": "Fictional case: a service offers a fixed-time caregiver session and treats non-attendance as a lack of concern, although the caregiver works at that time. The adolescent wants help with school access but has not agreed to broad sharing. The learner separates practical support, permissions and qualified decisions.",
+          "activity": "Draft a caregiver-engagement outline with the young person's goal, the proposed role, scheduling/access question, purpose-specific information boundary, safety uncertainty and qualified follow-up owner.",
+          "feedback": "A sound outline treats caregiver involvement as a considered support option. It recognises access barriers and the limits of the parenting evidence without imposing participation, sharing broadly or promising treatment effects.",
+          "sources": [
+            "S23",
+            "S1",
+            "R31"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "School community pathways and transitions",
+          "outcome": "Specify a feasible intersectoral support pathway with qualified ownership and an appropriate review question.",
+          "paragraphs": [
+            "A child or adolescent may need support from education, health, social services and community organisations at the same time. WHO and UNICEF describe coordinated service networks while recognising that no single model fits all settings. Map the specific need, the role that can respond and the practical link between services rather than list every possible agency. A school can consider an access adjustment within its authority; clinical assessment and treatment remain with qualified professionals. Do not promise a specialist place or infer eligibility from an international service example. [S23, S21, S1]",
+            "Transitions can create gaps when age eligibility, contact roles, school routines or service locations change. Clarify who holds responsibility during the change, what the receiving service has accepted and how the young person and appropriate supporters understand the next step. Sending a referral does not establish continuity. Current service information, safe contact arrangements and appropriate information permissions are needed before a real handover. A fictional plan can identify those dependencies without making a call on behalf of a real child, transferring records or inventing an emergency number or waiting-time guarantee. [S23, S21]",
+            "The policy introduction links service quality with workforce, governance and social conditions. The parenting review raises implementation questions about facilitator preparation, engagement and setting, with limited transfer beyond its studied programmes. Together they encourage an honest readiness check: accepted roles, appropriate staff, access resources and a feedback process. A diagram of a pathway is an output rather than evidence that children can use it. If a service gap remains unresolved, state the gap and responsible decision route instead of recording support as completed or assigning responsibility to the young person. [S22, R31, S23]",
+            "A useful review question concerns whether a specified support became accessible and met the young person's agreed goal, within approved ethical arrangements. It is different from claiming that symptoms improved or that a programme caused recovery. Examine missing perspectives, changing circumstances and possible burdens on children or caregivers. Coursework uses only fictional material and invented observations, with no real outcome survey or copied clinical instrument. An accountable plan names the role that will respond to the finding, the review point and any qualified decision still needed. Curriculum approval and supervised skills assessment remain separate requirements. [S1, S23, S21]"
+          ],
+          "example": "Fictional case: an adolescent is about to leave a youth service's age range. A referral email is marked complete before the receiving service confirms eligibility or a first contact. The learner identifies the continuity gap and a responsible handover/review route.",
+          "activity": "Prepare a transition map with the goal, sending/receiving roles, acceptance and access dependencies, information boundary, fallback decision route and a bounded review question.",
+          "feedback": "A defensible map shows actual responsibility and unresolved dependencies. It distinguishes a referral sent from support accessed and does not turn an administrative transfer into a claim of clinical recovery.",
+          "sources": [
+            "S23",
+            "S21",
+            "S1",
+            "S22",
+            "R31"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-059",
+        "course_slug": "child-adolescent-and-family-psychosocial-support",
+        "title": "Child Adolescent and Family Psychosocial Support",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "5a6cc53415eb70dec09a7c463d4fa69402d81637ff20dc0f2818406943729bcd",
+        "catalogue_sha256": "4355972f27323efc6755e14f0fdada0cb742b8d3877aff18352972518822b141",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Development participation and everyday settings",
+            "outcome": "Identify developmentally appropriate support questions without turning an observation into a diagnosis.",
+            "teaching_points": [
+              {
+                "id": "SWP-059-M1-T1",
+                "text": "A participation change does not establish a diagnosis."
+              },
+              {
+                "id": "SWP-059-M1-T2",
+                "text": "Development and communication affect participation."
+              },
+              {
+                "id": "SWP-059-M1-T3",
+                "text": "Child and caregiver perspectives may differ."
+              },
+              {
+                "id": "SWP-059-M1-T4",
+                "text": "Participation is not blanket authorisation."
+              },
+              {
+                "id": "SWP-059-M1-T5",
+                "text": "Coursework should not recruit real child cases."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Caregiver involvement and family support",
+            "outcome": "Plan bounded caregiver engagement that considers the young person's views, safety and evidence limits.",
+            "teaching_points": [
+              {
+                "id": "SWP-059-M2-T1",
+                "text": "Caregiver involvement needs context-specific consideration."
+              },
+              {
+                "id": "SWP-059-M2-T2",
+                "text": "Practical family support differs from clinical family intervention."
+              },
+              {
+                "id": "SWP-059-M2-T3",
+                "text": "The parenting review has population and delivery limits."
+              },
+              {
+                "id": "SWP-059-M2-T4",
+                "text": "Missed sessions can reflect access constraints."
+              },
+              {
+                "id": "SWP-059-M2-T5",
+                "text": "Proposed help does not authorise all information sharing."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "School community pathways and transitions",
+            "outcome": "Specify a feasible intersectoral support pathway with qualified ownership and an appropriate review question.",
+            "teaching_points": [
+              {
+                "id": "SWP-059-M3-T1",
+                "text": "A network map needs specific accepted roles."
+              },
+              {
+                "id": "SWP-059-M3-T2",
+                "text": "A referral sent does not establish continuity."
+              },
+              {
+                "id": "SWP-059-M3-T3",
+                "text": "International service examples do not prove local availability."
+              },
+              {
+                "id": "SWP-059-M3-T4",
+                "text": "Readiness includes staff and access resources."
+              },
+              {
+                "id": "SWP-059-M3-T5",
+                "text": "An access review is not a clinical recovery claim."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-059-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-059-M1-T1",
+            "question": "A fictional adolescent misses a club after its timetable changes. What should a learner do first within this exercise?",
+            "options": [
+              {
+                "text": "Diagnose a disorder from absence alone.",
+                "correct": false
+              },
+              {
+                "text": "Assume all non-attendance has one clinical cause.",
+                "correct": false
+              },
+              {
+                "text": "Separate the observation from possible context and appropriate support questions.",
+                "correct": true
+              },
+              {
+                "text": "Label the family responsible without further information.",
+                "correct": false
+              }
+            ],
+            "rationale": "The observation needs contextual interpretation rather than an unsupported diagnosis."
+          },
+          {
+            "id": "SWP-059-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-059-M1-T2",
+            "question": "A support service uses identical explanations for every age and communication need. What should be reviewed?",
+            "options": [
+              {
+                "text": "Only whether the form has a logo.",
+                "correct": false
+              },
+              {
+                "text": "A rule that all ages understand options identically.",
+                "correct": false
+              },
+              {
+                "text": "A requirement that children disclose distress publicly.",
+                "correct": false
+              },
+              {
+                "text": "Whether explanations and participation opportunities fit the young person's development and access needs.",
+                "correct": true
+              }
+            ],
+            "rationale": "Developmentally appropriate support includes accessible communication."
+          },
+          {
+            "id": "SWP-059-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-059-M1-T3",
+            "question": "A fictional caregiver's account differs from the adolescent's stated concern. What should a support outline avoid?",
+            "options": [
+              {
+                "text": "Automatically treating one account as the complete perspective without qualified consideration.",
+                "correct": true
+              },
+              {
+                "text": "Retaining the difference as information to consider.",
+                "correct": false
+              },
+              {
+                "text": "Using appropriate safeguarding procedures.",
+                "correct": false
+              },
+              {
+                "text": "Identifying communication needs.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different accounts should remain visible within a suitable qualified process."
+          },
+          {
+            "id": "SWP-059-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-059-M1-T4",
+            "question": "A fictional young person agrees to discuss an activity. What should not be assumed?",
+            "options": [
+              {
+                "text": "That an accessible explanation can help.",
+                "correct": false
+              },
+              {
+                "text": "Permission for every disclosure, referral or legal decision.",
+                "correct": true
+              },
+              {
+                "text": "That the young person's views matter.",
+                "correct": false
+              },
+              {
+                "text": "That qualified local procedures remain necessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "Consent, assent and information permissions require decision-specific handling."
+          },
+          {
+            "id": "SWP-059-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-059-M1-T5",
+            "question": "A facilitator wants learners to interview children about distress as an assessment task. What fits this course instead?",
+            "options": [
+              {
+                "text": "Use the youngest available child as practice.",
+                "correct": false
+              },
+              {
+                "text": "Collect identifying school and health records.",
+                "correct": false
+              },
+              {
+                "text": "Analyse the supplied fictional descriptions without real interviews or screening.",
+                "correct": true
+              },
+              {
+                "text": "Administer an unapproved clinical scale for marks.",
+                "correct": false
+              }
+            ],
+            "rationale": "Introductory learning does not authorise real child assessment or sensitive collection."
+          },
+          {
+            "id": "SWP-059-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-059-M2-T1",
+            "question": "A fictional service assumes any accompanying adult may receive a child's full account. What needs review?",
+            "options": [
+              {
+                "text": "Only whether the adult arrived first.",
+                "correct": false
+              },
+              {
+                "text": "A rule that accompaniment grants all authority.",
+                "correct": false
+              },
+              {
+                "text": "A belief that privacy does not apply to young people.",
+                "correct": false
+              },
+              {
+                "text": "The adult's role, safety, relevant permissions and qualified safeguarding process.",
+                "correct": true
+              }
+            ],
+            "rationale": "Presence alone does not determine safe or authorised involvement."
+          },
+          {
+            "id": "SWP-059-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-059-M2-T2",
+            "question": "A caregiver helps organise transport to an appointment. What should not be inferred?",
+            "options": [
+              {
+                "text": "That the caregiver has delivered or is qualified to deliver family therapy.",
+                "correct": true
+              },
+              {
+                "text": "That transport can affect access.",
+                "correct": false
+              },
+              {
+                "text": "That role clarity is useful.",
+                "correct": false
+              },
+              {
+                "text": "That the young person's priorities remain relevant.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different activities have different purposes and competency requirements."
+          },
+          {
+            "id": "SWP-059-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-059-M2-T3",
+            "question": "A learner applies the 2026 review to prove a mandated digital-only programme for all young children works. What is the problem?",
+            "options": [
+              {
+                "text": "A recent issue date validates every population.",
+                "correct": false
+              },
+              {
+                "text": "The review concerns voluntary adolescent-parent programmes with face-to-face components and cannot justify that transfer.",
+                "correct": true
+              },
+              {
+                "text": "Every parenting programme is the same intervention.",
+                "correct": false
+              },
+              {
+                "text": "Narrative synthesis removes all applicability limits.",
+                "correct": false
+              }
+            ],
+            "rationale": "Age, voluntary participation and delivery format constrain interpretation."
+          },
+          {
+            "id": "SWP-059-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-059-M2-T4",
+            "question": "A fictional caregiver misses a meeting that conflicts with paid work. What should be considered?",
+            "options": [
+              {
+                "text": "Proof that the caregiver does not care.",
+                "correct": false
+              },
+              {
+                "text": "A diagnosis from the attendance record.",
+                "correct": false
+              },
+              {
+                "text": "The timing barrier and feasible engagement options rather than an automatic motivation judgement.",
+                "correct": true
+              },
+              {
+                "text": "A requirement to disclose more private information as a penalty.",
+                "correct": false
+              }
+            ],
+            "rationale": "Attendance is affected by practical conditions as well as preferences."
+          },
+          {
+            "id": "SWP-059-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-059-M2-T5",
+            "question": "A school contact may help with access and requests the entire health history. What should a plan clarify?",
+            "options": [
+              {
+                "text": "Automatic full disclosure to anyone offering help.",
+                "correct": false
+              },
+              {
+                "text": "A copy in the class worksheet.",
+                "correct": false
+              },
+              {
+                "text": "A rule that intersectoral support cancels privacy.",
+                "correct": false
+              },
+              {
+                "text": "The specific purpose, necessary information and appropriate permissions/qualified authority.",
+                "correct": true
+              }
+            ],
+            "rationale": "Support coordination still requires proportionate authorised information handling."
+          },
+          {
+            "id": "SWP-059-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-059-M3-T1",
+            "question": "A fictional pathway lists many agencies but no one owns the next step. What should be added?",
+            "options": [
+              {
+                "text": "The relevant need, responsible role and accepted action between services.",
+                "correct": true
+              },
+              {
+                "text": "More agency logos without responsibilities.",
+                "correct": false
+              },
+              {
+                "text": "A promise that every listed agency has capacity.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that a diagram itself delivers care.",
+                "correct": false
+              }
+            ],
+            "rationale": "Coordination requires clear actions and responsibility rather than a service list."
+          },
+          {
+            "id": "SWP-059-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-059-M3-T2",
+            "question": "An adolescent's transfer is marked complete before receiving-service acceptance. What is still unresolved?",
+            "options": [
+              {
+                "text": "Only whether the email was formatted well.",
+                "correct": false
+              },
+              {
+                "text": "Eligibility, accepted responsibility and a feasible next contact within appropriate arrangements.",
+                "correct": true
+              },
+              {
+                "text": "A guaranteed clinical outcome.",
+                "correct": false
+              },
+              {
+                "text": "A rule that no one remains responsible after sending.",
+                "correct": false
+              }
+            ],
+            "rationale": "Administrative transmission is not completed access or continuity."
+          },
+          {
+            "id": "SWP-059-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-059-M3-T3",
+            "question": "A learner promises a local specialist place because WHO describes an example elsewhere. What correction is needed?",
+            "options": [
+              {
+                "text": "Use the example's waiting time as a universal guarantee.",
+                "correct": false
+              },
+              {
+                "text": "Assume all systems have identical eligibility.",
+                "correct": false
+              },
+              {
+                "text": "Verify actual local scope and capacity through authorised roles before making an availability claim.",
+                "correct": true
+              },
+              {
+                "text": "Treat a source citation as a booking confirmation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Examples inform comparison rather than establish current local service status."
+          },
+          {
+            "id": "SWP-059-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-059-M3-T4",
+            "question": "A fictional pathway has agreed arrows but no trained staff or access arrangements. How should it be described?",
+            "options": [
+              {
+                "text": "Ready solely because the map is complete.",
+                "correct": false
+              },
+              {
+                "text": "Approved because the title includes psychosocial support.",
+                "correct": false
+              },
+              {
+                "text": "A substitute for independent safeguarding review.",
+                "correct": false
+              },
+              {
+                "text": "Conditional on resolving the staffing and access dependencies.",
+                "correct": true
+              }
+            ],
+            "rationale": "Implementation needs conditions beyond an administrative design."
+          },
+          {
+            "id": "SWP-059-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-059-M3-T5",
+            "question": "A fictional handover review confirms the next appointment was accessible. What remains a separate question?",
+            "options": [
+              {
+                "text": "Clinical outcomes and any causal programme-effect claim.",
+                "correct": true
+              },
+              {
+                "text": "Whether the referral action was documented.",
+                "correct": false
+              },
+              {
+                "text": "Whether access was the stated review question.",
+                "correct": false
+              },
+              {
+                "text": "Whether a responsible review role was named.",
+                "correct": false
+              }
+            ],
+            "rationale": "Evidence of access supports a limited claim, not all health outcomes."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-060",
+      "title": "Mental Health Service Coordination and Safe Referral",
+      "slug": "mental-health-service-coordination-and-safe-referral",
+      "cover_title": "Mental Health Service\nCoordination and\nSafe Referral",
+      "school_code": "MHP",
+      "school_name": "School of Mental Health and Psychosocial Care",
+      "school_display": "Mental Health and\nPsychosocial Care",
+      "estimated_minutes": 180,
+      "audience": "Introductory social work and community-service learners using fictional scenarios. No diagnosis, therapy, prescribing, crisis-triage authority or independent child/clinical practice is conferred. Qualified roles, local procedures and supervised skills remain necessary.",
+      "study_guidance": "Use only the supplied non-graphic fictional scenarios and invented aggregate data. Do not seek personal trauma histories, interview children or submit real health/service records. Write reasoning before checking feedback. You may pause or use an alternative fictional exercise. Supervised skills observation is separate.",
+      "practice_safety_note": "Use only the supplied non-graphic fictional scenario or invented aggregate data. Do not collect personal trauma histories, interview children or submit real health records. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback.",
+      "outcome": "Prepare a fictional mental-health support pathway with verified service fit, specific information permissions, accepted handover responsibility and a bounded continuity review within professional scope.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Needs roles and service fit",
+          "outcome": "Distinguish non-clinical navigation from treatment coordination and specify a service-verification task.",
+          "paragraphs": [
+            "Coordination helps connect a person's needs and preferences with suitable roles across services. It is more than giving someone a long list of contacts. Begin with the person's goal, the barrier to using support and the action each service can actually take. The WHO community guidance links mental-health services with social supports and ordinary community life. An introductory worker may help clarify access questions within their role; making a diagnosis, changing medication, deciding clinical triage or directing treatment requires qualified authority. Do not infer that all activities described as coordination have the same competency requirements. [S21, S1]",
+            "The 2025 scoping review distinguishes varied clinical and non-clinical tasks described in adult mental-health coordination. Its included settings and eligibility rules differ considerably, and exclusion of case-management terminology may have missed similar models. The review maps concepts and reported experiences rather than proving one effective model for every service. Its examples are not a universal eligibility standard or a substitute for local role definitions. For a fictional plan, state which task is practical navigation, which requires qualified clinical judgement and which belongs to an organisational decision-maker. [R32, S21]",
+            "A service option needs current verification of scope, eligibility, cost, access, communication and capacity through authorised arrangements. A familiar name or an old directory entry does not establish that a person can use the service now. Consider whether transport, language, disability access, digital exclusion or scheduling affects fit. Do not promise acceptance, a waiting time or a particular outcome before appropriate confirmation. The 2025 policy introduction makes workforce and system conditions relevant to quality; shortages should be represented as a service dependency rather than silently treated as the person's responsibility. [S22, S21, S1]",
+            "In this exercise, use fictional services and identify what would need verification before an actual referral. Keep a directory-quality question separate from a clinical assessment and do not contact real patients, impersonate a professional or send a real health account as a test. Write the information status clearly: a proposed option, verified service information and acceptance for a particular person are different. A useful outline names the authorised role that will check the gap and the next appropriate decision if the option is unsuitable. A completed worksheet does not qualify an independent care coordinator. [S1, R32, S21]"
+          ],
+          "example": "Fictional case: an adult needs an accessible appointment and transport support. A worker provides an old service list and marks care coordinated. The learner identifies the actual goal, verification questions and separate clinical and practical responsibilities.",
+          "activity": "Prepare a service-fit note with the person's goal, a practical barrier, service-status questions, clinical/non-clinical role distinction, verification owner and a conditional next step.",
+          "feedback": "A sound note identifies fit and authority rather than equating a directory with access. It retains uncertainty about current capacity and keeps treatment decisions with qualified roles.",
+          "sources": [
+            "S21",
+            "S1",
+            "R32",
+            "S22"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Permission handover and accepted responsibility",
+          "outcome": "Specify a bounded handover with suitable information and confirmed responsibility.",
+          "paragraphs": [
+            "A referral should have a clear purpose that the person understands through appropriate communication. Permission to discuss options is not automatically permission to send a full record. Identify the minimum information needed for the specific receiving role, the relevant authority or consent arrangements and an approved channel. Do not promise confidentiality without limits or decide a real reporting exception from a classroom scenario. Clinical, safeguarding and local legal requirements may need qualified handling. A fictional handover note can name these questions without containing a real person's history or identifiers. [S1, S21]",
+            "Accepted responsibility matters at each stage. Clarify who sends the referral, who receives it, what confirmation is needed and who remains responsible while acceptance or access is unresolved. A message sent, a message received, a service accepted and assistance accessed are distinct statuses. The adult coordination review reports confusion, service gaps and workload barriers across settings, so a neat diagram cannot establish continuity. Agree a feasible next contact within authorised arrangements and explain limitations rather than assume silence means consent, attendance or a successful outcome. [R32, S21]",
+            "Routine referrals and urgent clinical or safeguarding concerns require different response arrangements. A worker should know the designated qualified route for the actual setting and use it when appropriate, rather than invent thresholds, assign a universal risk score or wait for a routine form to be processed. This course does not teach clinical triage, emergency treatment or physical intervention. The fictional exercise tests whether the learner recognises a scope boundary and responsible escalation dependency. It never asks learners to simulate a real crisis with an unprepared person or practise on someone in distress. [S21, S1]",
+            "Digital and peer options can be part of a support network, but they require appropriate scope, access, privacy, moderation and response arrangements. The 2026 digital peer-support review cannot validate an arbitrary group or guarantee that it will manage urgent needs. A person should be able to consider suitable alternatives without losing unrelated support. Record only necessary handover status in authorised systems, with realistic follow-up responsibility. If acceptance fails or preferences change, revisit options through the person and qualified roles; do not forward the same sensitive account more widely as an improvised solution. [R30, S21, S1]"
+          ],
+          "example": "Fictional case: a worker sends a complete private account to several services and records a successful referral despite no acceptance. The adult had agreed only to discuss one option. The learner identifies the permission, minimum-information and responsibility gaps.",
+          "activity": "Draft a conditional handover outline with purpose, permission/authority check, necessary information, approved channel, sending/receiving responsibility, unresolved status and a qualified urgent-response boundary.",
+          "feedback": "A defensible outline separates discussion from permission to share and sending from acceptance. It assigns responsibility for gaps, preserves information boundaries and recognises qualified urgent procedures.",
+          "sources": [
+            "S1",
+            "S21",
+            "R32",
+            "R30"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Transitions measurement and service improvement",
+          "outcome": "Review access and continuity with defined measures and accountable action.",
+          "paragraphs": [
+            "Transitions between services can expose gaps in responsibility, communication or access. A person may change location, age eligibility or support preferences while a referral is pending. A useful review asks what the next service has accepted, what the person understands and who will respond if the planned contact fails. The WHO policy introduction connects these questions with staffing, governance and resources. Do not turn a transition failure into an assumption of non-compliance, or record support as completed because a form moved successfully between two systems. [S22, S21, S1]",
+            "Measure the question you actually need to answer. In an invented exercise, nine of twelve eligible handovers achieve a defined first contact in one period, compared with twelve of twenty in another. These are seventy-five percent and sixty percent: the count increases while the proportion falls by fifteen percentage points. Comparability still depends on the definition, eligible group, period and missing information. These fictional aggregates do not measure population mental-health prevalence, clinical recovery or staff competence. Unknown contact status should remain unknown under an explicit rule rather than automatically be recorded as success. [R32, S21]",
+            "The coordination scoping review identifies reported barriers and varied models but calls for rigorous effectiveness research. The digital peer-support review also has limited long-term and safety reporting. Neither permits a programme to infer recovery, universal safety or causal benefit from a contact count. An appropriate service review needs a relevant outcome, defined source, coverage, ethical governance and a design suited to its claim. Do not copy a clinical questionnaire or collect actual health records for this worksheet; critique the invented data and proposed process instead. [R32, R30, S1]",
+            "A review should support a feasible response. Identify the barrier, the role authorised to act, a resource or service dependency, an agreed feedback route and a point to revisit the change. Preserve uncertainty and differing perspectives, including those who could not use the proposed pathway. Where the solution needs a clinical, safeguarding, legal or organisational decision, state that dependency clearly. The course develops introductory coordination reasoning, not authority to approve a service or independently manage treatment. All changes to actual practice require appropriate qualified review, and observed skills remain a separate requirement for professional responsibilities. [S22, S21, S1]"
+          ],
+          "example": "Fictional dataset: nine of twelve eligible handovers achieve first contact in period A; twelve of twenty do so in B. A report calls the larger second count an improved rate and proof of recovery. The learner corrects the arithmetic and separates contact from clinical outcomes.",
+          "activity": "Calculate both proportions and the percentage-point change. Add definition/coverage checks, an unknown-status rule, an unsupported claim to remove and an accountable improvement owner.",
+          "feedback": "A is 75% and B is 60%, a decrease of 15 percentage points despite the higher count. First contact is a defined access observation, not demonstrated recovery or a causal programme effect.",
+          "sources": [
+            "S22",
+            "S21",
+            "S1",
+            "R32",
+            "R30"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-060",
+        "course_slug": "mental-health-service-coordination-and-safe-referral",
+        "title": "Mental Health Service Coordination and Safe Referral",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "c5171e81fb26214fc4c646cb10e10017fabaea0bb563b9433484d15e081652ee",
+        "catalogue_sha256": "14b7dd60cf3b22c71579ca14ac2d797a4effa266d665578fa8724278a5cb828b",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Needs roles and service fit",
+            "outcome": "Distinguish non-clinical navigation from treatment coordination and specify a service-verification task.",
+            "teaching_points": [
+              {
+                "id": "SWP-060-M1-T1",
+                "text": "Coordination begins with a person's goal and access needs."
+              },
+              {
+                "id": "SWP-060-M1-T2",
+                "text": "Navigation and treatment coordination have different authority requirements."
+              },
+              {
+                "id": "SWP-060-M1-T3",
+                "text": "An old directory does not verify current service fit."
+              },
+              {
+                "id": "SWP-060-M1-T4",
+                "text": "A scoping review is not a universal eligibility standard."
+              },
+              {
+                "id": "SWP-060-M1-T5",
+                "text": "A proposed option differs from person-specific acceptance."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Permission handover and accepted responsibility",
+            "outcome": "Specify a bounded handover with suitable information and confirmed responsibility.",
+            "teaching_points": [
+              {
+                "id": "SWP-060-M2-T1",
+                "text": "Discussing an option is not blanket consent to share records."
+              },
+              {
+                "id": "SWP-060-M2-T2",
+                "text": "Sending and acceptance are different handover statuses."
+              },
+              {
+                "id": "SWP-060-M2-T3",
+                "text": "Urgent concerns need the designated qualified response route."
+              },
+              {
+                "id": "SWP-060-M2-T4",
+                "text": "A peer group is not automatically a crisis service."
+              },
+              {
+                "id": "SWP-060-M2-T5",
+                "text": "Failed acceptance does not authorise wider disclosure."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Transitions measurement and service improvement",
+            "outcome": "Review access and continuity with defined measures and accountable action.",
+            "teaching_points": [
+              {
+                "id": "SWP-060-M3-T1",
+                "text": "Transition responsibility must remain explicit."
+              },
+              {
+                "id": "SWP-060-M3-T2",
+                "text": "Counts and handover proportions can differ."
+              },
+              {
+                "id": "SWP-060-M3-T3",
+                "text": "The percentage-point difference uses the two proportions."
+              },
+              {
+                "id": "SWP-060-M3-T4",
+                "text": "First contact is not demonstrated clinical recovery."
+              },
+              {
+                "id": "SWP-060-M3-T5",
+                "text": "A review finding needs a feasible accountable response."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-060-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-060-M1-T1",
+            "question": "A fictional worker sends a long contact list without considering an adult's access barrier. What should be clarified?",
+            "options": [
+              {
+                "text": "Only the length of the directory.",
+                "correct": false
+              },
+              {
+                "text": "A claim that every listed service is appropriate.",
+                "correct": false
+              },
+              {
+                "text": "The goal, practical barrier and suitable role for the next action.",
+                "correct": true
+              },
+              {
+                "text": "The worker's preferred diagnosis from the list.",
+                "correct": false
+              }
+            ],
+            "rationale": "Useful coordination connects needs and feasible actions rather than merely supplying contacts."
+          },
+          {
+            "id": "SWP-060-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-060-M1-T2",
+            "question": "A support worker can arrange transport but is asked to alter medication. What boundary applies?",
+            "options": [
+              {
+                "text": "Any coordination task grants prescribing authority.",
+                "correct": false
+              },
+              {
+                "text": "Transport planning is itself a medical prescription.",
+                "correct": false
+              },
+              {
+                "text": "The course badge replaces clinical authorisation.",
+                "correct": false
+              },
+              {
+                "text": "Medication decisions require an appropriately qualified clinical role.",
+                "correct": true
+              }
+            ],
+            "rationale": "Practical assistance does not confer treatment competence."
+          },
+          {
+            "id": "SWP-060-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-060-M1-T3",
+            "question": "A fictional referral option comes from a years-old leaflet. What should be checked through authorised arrangements?",
+            "options": [
+              {
+                "text": "Current scope, eligibility, access, cost and capacity relevant to the person's needs.",
+                "correct": true
+              },
+              {
+                "text": "Only the colour of its logo.",
+                "correct": false
+              },
+              {
+                "text": "A universal acceptance guarantee from its name.",
+                "correct": false
+              },
+              {
+                "text": "A real health history sent as a test.",
+                "correct": false
+              }
+            ],
+            "rationale": "Service information can change and needs appropriate verification."
+          },
+          {
+            "id": "SWP-060-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-060-M1-T4",
+            "question": "A learner applies one reviewed service's entry criteria to every mental-health service. What is missing?",
+            "options": [
+              {
+                "text": "Permission to use any criterion because it was published.",
+                "correct": false
+              },
+              {
+                "text": "Actual local service rules and context-specific verification.",
+                "correct": true
+              },
+              {
+                "text": "Proof that all reviewed settings were identical.",
+                "correct": false
+              },
+              {
+                "text": "A rule that no professional role differences exist.",
+                "correct": false
+              }
+            ],
+            "rationale": "Examples from varied settings cannot establish universal criteria."
+          },
+          {
+            "id": "SWP-060-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-060-M1-T5",
+            "question": "A service's general information is current but it has not accepted a fictional referral. What is the accurate status?",
+            "options": [
+              {
+                "text": "Completed care and guaranteed recovery.",
+                "correct": false
+              },
+              {
+                "text": "A confirmed booking solely from the directory.",
+                "correct": false
+              },
+              {
+                "text": "A potentially suitable verified option with person-specific acceptance still unresolved.",
+                "correct": true
+              },
+              {
+                "text": "Proof that no follow-up is needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "Information verification and an accepted referral are separate steps."
+          },
+          {
+            "id": "SWP-060-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-060-M2-T1",
+            "question": "A fictional adult agrees to hear about a service, but a worker sends the full record. What should have been clarified?",
+            "options": [
+              {
+                "text": "Only whether the file was large enough.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that all helpful uses are authorised.",
+                "correct": false
+              },
+              {
+                "text": "A public copy so other learners can check it.",
+                "correct": false
+              },
+              {
+                "text": "The specific referral purpose, appropriate permission/authority and necessary information.",
+                "correct": true
+              }
+            ],
+            "rationale": "Information sharing needs its own appropriate basis and proportionate scope."
+          },
+          {
+            "id": "SWP-060-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-060-M2-T2",
+            "question": "A fictional referral email is sent but no service confirms acceptance. What remains necessary?",
+            "options": [
+              {
+                "text": "An assigned follow-up and clarity about responsibility while access is unresolved.",
+                "correct": true
+              },
+              {
+                "text": "Automatic completion of care.",
+                "correct": false
+              },
+              {
+                "text": "A conclusion that the adult attended.",
+                "correct": false
+              },
+              {
+                "text": "A rule that no sender has further duties after pressing send.",
+                "correct": false
+              }
+            ],
+            "rationale": "Continuity needs accepted actions and follow-up rather than transmission alone."
+          },
+          {
+            "id": "SWP-060-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-060-M2-T3",
+            "question": "A fictional support outline says all urgent concerns should wait for routine referral processing. What needs correction?",
+            "options": [
+              {
+                "text": "Invent one numerical threshold for every situation.",
+                "correct": false
+              },
+              {
+                "text": "Use the setting's authorised qualified urgent clinical/safeguarding arrangements when applicable.",
+                "correct": true
+              },
+              {
+                "text": "Let an introductory quiz score authorise clinical triage.",
+                "correct": false
+              },
+              {
+                "text": "Practise an unprepared real crisis scenario.",
+                "correct": false
+              }
+            ],
+            "rationale": "Routine administration must not substitute for appropriate urgent procedures."
+          },
+          {
+            "id": "SWP-060-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-060-M2-T4",
+            "question": "An unverified online peer forum is listed as the sole response to urgent clinical needs. What is missing?",
+            "options": [
+              {
+                "text": "A popularity score sufficient to guarantee safety.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that all peers are clinicians.",
+                "correct": false
+              },
+              {
+                "text": "Verified appropriate scope and qualified response arrangements with suitable alternatives.",
+                "correct": true
+              },
+              {
+                "text": "A universal promise based on the review's title.",
+                "correct": false
+              }
+            ],
+            "rationale": "Digital peer support has different roles and evidence limits from urgent clinical care."
+          },
+          {
+            "id": "SWP-060-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-060-M2-T5",
+            "question": "One fictional service cannot accept a referral. What should a worker avoid?",
+            "options": [
+              {
+                "text": "Revisiting suitable options with the person.",
+                "correct": false
+              },
+              {
+                "text": "Recording the unresolved status appropriately.",
+                "correct": false
+              },
+              {
+                "text": "Seeking qualified advice within authorised arrangements.",
+                "correct": false
+              },
+              {
+                "text": "Forwarding the full account to many others without appropriate purpose and permission.",
+                "correct": true
+              }
+            ],
+            "rationale": "A service gap does not remove information-sharing boundaries."
+          },
+          {
+            "id": "SWP-060-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-060-M3-T1",
+            "question": "A fictional adult changes service eligibility while a referral is pending. What should be reviewed?",
+            "options": [
+              {
+                "text": "Accepted roles, suitable options and responsibility for the next contact or unresolved gap.",
+                "correct": true
+              },
+              {
+                "text": "A rule that all responsibility ends at an age boundary.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that another service automatically accepted.",
+                "correct": false
+              },
+              {
+                "text": "A diagnosis of non-compliance from the administrative change.",
+                "correct": false
+              }
+            ],
+            "rationale": "Continuity depends on actual arrangements during changing circumstances."
+          },
+          {
+            "id": "SWP-060-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-060-M3-T2",
+            "question": "An invented service records nine of twelve first contacts, then twelve of twenty. What are the proportions?",
+            "options": [
+              {
+                "text": "Sixty percent followed by seventy-five percent.",
+                "correct": false
+              },
+              {
+                "text": "Seventy-five percent followed by sixty percent.",
+                "correct": true
+              },
+              {
+                "text": "Nine percent followed by twelve percent.",
+                "correct": false
+              },
+              {
+                "text": "Both are twelve percent because contacts are counted.",
+                "correct": false
+              }
+            ],
+            "rationale": "9/12 is 0.75 and 12/20 is 0.60."
+          },
+          {
+            "id": "SWP-060-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-060-M3-T3",
+            "question": "A fictional first-contact proportion changes from 75% to 60%. What is the absolute change?",
+            "options": [
+              {
+                "text": "An increase of fifteen percentage points.",
+                "correct": false
+              },
+              {
+                "text": "No change because the contact count increased.",
+                "correct": false
+              },
+              {
+                "text": "A decrease of fifteen percentage points.",
+                "correct": true
+              },
+              {
+                "text": "A decrease of fifteen percent relative to 75%.",
+                "correct": false
+              }
+            ],
+            "rationale": "The absolute difference is 60 minus 75 percentage points; relative change is different."
+          },
+          {
+            "id": "SWP-060-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-060-M3-T4",
+            "question": "A fictional report calls an achieved first contact proof that mental-health difficulties resolved. What is justified?",
+            "options": [
+              {
+                "text": "A clinical cure from the appointment record alone.",
+                "correct": false
+              },
+              {
+                "text": "A causal effect established by counting contacts.",
+                "correct": false
+              },
+              {
+                "text": "A validated prevalence estimate for the whole community.",
+                "correct": false
+              },
+              {
+                "text": "A limited access observation, with clinical outcomes requiring separate appropriate evidence.",
+                "correct": true
+              }
+            ],
+            "rationale": "The measure supports its defined contact status rather than broader health claims."
+          },
+          {
+            "id": "SWP-060-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-060-M3-T5",
+            "question": "A fictional continuity review identifies a recurring unaccepted handover. What should a recommendation specify?",
+            "options": [
+              {
+                "text": "An authorised owner, corrective action, dependency, feedback route and review point.",
+                "correct": true
+              },
+              {
+                "text": "A success claim because more forms were sent.",
+                "correct": false
+              },
+              {
+                "text": "Unrestricted linkage of all health records.",
+                "correct": false
+              },
+              {
+                "text": "A promise that one worker can resolve every system gap.",
+                "correct": false
+              }
+            ],
+            "rationale": "Service improvement connects a supported finding with authority, resources and follow-through."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Checked 15 November 2026. Current OA studies complement WHO/UNICEF service guidance and Nigerian IJSDS context. Publication and evidence dates differ. Actual file-page counts, reporting inconsistencies, restricted retrievals and rights are explicit. Q1/Q2 statements use SCImago's own indexed records for Trauma Violence and Abuse/Journal of Child and Family Studies; direct tables restricted, no independent JCR claim. Rank is not article validity. Clinical/safeguarding, Nigerian practice/legal, lived-experience, accessibility/pilot and supervised-skills reviews remain pending."
+}
