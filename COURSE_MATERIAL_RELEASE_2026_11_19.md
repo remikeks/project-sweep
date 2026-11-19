@@ -1,4 +1,6 @@
-# Owner-approved course material release - 19 November 2026
+# Owner-approved course material release - LIVE 19 November 2026
+
+Completed and verified on 19 November 2026: 65 active courses, 396 published resources, all 124 newly released file hashes, 66 public pages and 124 unauthenticated download guards passed. The full 206-test isolated suite passed. Vercel production deployment `dpl_3p773gEKQw9FVHP91HHccfdn4vSV` is READY and serves sweepacademy.org and www.sweepacademy.org from source commit `ddb22009a321f7b75cb481eed9e18216f0348fbb`. Protected teaching/CBT/school/learner/credential fingerprints match. The non-sensitive verification summary is committed beside the approval record.
 
 The owner explicitly approved all existing course materials for live release on 19 November 2026. This supersedes the material-publication hold recorded in the earlier phase reports. The exact instruction and interpretation are recorded in `production_courseware/releases/2026-11-19/owner_approval.json`.
 
@@ -18,7 +20,7 @@ Eight new tests cover the exact 31-course/124-file release, preservation of teac
 
 The existing Vercel project is `sweep-academy` in the already linked team. Inspection showed production had not advanced with the recent main pushes, so the verified release also requires an explicit deployment through that existing connection. The owner has authorised production publication and main pushes. No new Vercel project, storage bucket, schema, RLS rule or account is needed. Keep secrets out of deployment arguments and use the existing CLI session.
 
-Expected after successful publication: 65 active courses, no inactive authored drafts, 396 published assets, 25 coded schools still closed. Verify actual database totals and protected parity, public catalogue/all 65 course pages, all 124 released resource titles, and unauthenticated download protection. Report actual observations only. The release does not claim that videos or ParaLearn assessments have been produced.
+Observed after publication: 65 active courses, no inactive authored drafts, 396 published assets, 25 coded schools still closed. Actual database totals and protected parity passed, alongside the public catalogue/all 65 course pages, all 124 released resource titles and all 124 unauthenticated download guards. Positive enrolled-download behaviour was exercised in isolated tests; no learner or credential writes were made during live verification. The release does not claim that videos or ParaLearn assessments have been produced.
 
 The GitHub Actions account is locked due to billing as observed on the Phase 10 push. Local validation is distinct from CI; do not describe a job that did not start as passing.
 
