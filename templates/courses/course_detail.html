@@ -24,7 +24,7 @@
           </div>
           <div>
             <span class="stat-num" style="font-size:1.2rem;">ParaLearn CBT</span>
-            <span class="stat-label">Verified assessment</span>
+            <span class="stat-label">{% if paralearn_assessment_configured %}Verified assessment{% else %}Assessment pending{% endif %}</span>
           </div>
           {% if course.course_code %}
             <div>
@@ -42,6 +42,16 @@
       </div>
     </div>
   </section>
+
+  {% if materials_approved_at %}
+    <div class="card" style="border-left:4px solid var(--primary); margin-bottom:20px;">
+      <p><strong>Learning materials approved {{ materials_approved_at|date:"j F Y" }}.</strong>
+        Some files retain their original draft-edition labels. These editions are approved for study.</p>
+      {% if not paralearn_assessment_configured %}
+        <p class="meta">You can study the materials now. The course assessment and completion badge are not yet available.</p>
+      {% endif %}
+    </div>
+  {% endif %}
 
   {% if user.is_authenticated %}
     {% if badge and verified_completion %}
@@ -67,7 +77,9 @@
           {% if progress %}Status: <span class="badge-pill status-{{ progress.status }}">{{ progress.get_status_display }}</span>{% endif %}
           {% if latest_attempt %} · Latest ParaLearn attempt: {{ latest_attempt.get_status_display }}{% if latest_attempt.score != None %} ({{ latest_attempt.score }}%){% endif %}{% endif %}
         </p>
-        {% if not modules_complete %}
+        {% if not paralearn_assessment_configured %}
+          <p class="meta">You can work through the modules now. Assessment and verified completion will be available after the course assessment is ready.</p>
+        {% elif not modules_complete %}
           <p class="meta">Complete each module in order to unlock the ParaLearn assessment.</p>
         {% elif paralearn_assessment_ready %}
           <form method="post" action="{% url 'paralearn_launch' course.slug %}" style="display:inline;">

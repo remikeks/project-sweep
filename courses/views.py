@@ -232,6 +232,8 @@ def course_detail(request, slug):
 
     modules = list(course.modules.order_by("order", "id"))
     first_module = modules[0] if modules else None
+    course_assets = list(course.assets.filter(status="published").select_related("module"))
+    approved_review_editions = [asset for asset in course_assets if asset.version == "0.1.0" and asset.reviewed_at]
 
     completed_module_ids = set()
     current_unlocked_module_id = None
@@ -253,7 +255,8 @@ def course_detail(request, slug):
         "paralearn_assessment_configured": bool(course.paralearn_assessment_id),
         "first_module": first_module,
         "modules_complete": modules_complete,
-        "course_assets": course.assets.filter(status="published").select_related("module"),
+        "course_assets": course_assets,
+        "materials_approved_at": min((asset.reviewed_at for asset in approved_review_editions), default=None),
     }
     return render(request, "courses/course_detail.html", context)
 
