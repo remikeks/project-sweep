@@ -1,0 +1,804 @@
+{
+  "status": "draft_for_review",
+  "school_code": "PCEI",
+  "curriculum_version": "PCEI-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-013",
+    "SWP-014",
+    "SWP-015",
+    "SWP-061",
+    "SWP-062",
+    "SWP-063",
+    "SWP-064",
+    "SWP-065"
+  ],
+  "programme_target_course_count": 8,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {
+    "SWP-013": {
+      "title": "Community Needs Assessment",
+      "outcome": "Plan and conduct a participatory assessment that identifies needs, assets, and priorities.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Assessment design",
+          "focus": "purpose, stakeholders, ethics, inclusion, and mixed-method choices"
+        },
+        {
+          "order": 2,
+          "title": "Collecting and interpreting evidence",
+          "focus": "surveys, interviews, focus groups, asset mapping, and data quality"
+        },
+        {
+          "order": 3,
+          "title": "Prioritisation and communication",
+          "focus": "ranking needs, validating findings, reporting back, and action recommendations"
+        }
+      ],
+      "cbt_focus": [
+        "participatory methods",
+        "ethics",
+        "assets versus deficits",
+        "prioritisation"
+      ]
+    },
+    "SWP-014": {
+      "title": "Community Organizing & Coalition Building",
+      "outcome": "Mobilise communities and partners around shared, achievable goals.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Organising foundations",
+          "focus": "power analysis, community leadership, issue selection, and trust building"
+        },
+        {
+          "order": 2,
+          "title": "Coalition formation",
+          "focus": "partners, roles, governance, communication, conflict management, and inclusion"
+        },
+        {
+          "order": 3,
+          "title": "Campaign action",
+          "focus": "strategy, tactics, mobilisation, evaluation, and sustainability"
+        }
+      ],
+      "cbt_focus": [
+        "organising principles",
+        "coalition roles",
+        "ethical mobilisation"
+      ]
+    },
+    "SWP-015": {
+      "title": "Program Development & Evaluation",
+      "outcome": "Design a feasible community programme and measure whether it works.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Programme design",
+          "focus": "needs-to-goals chain, theory of change, target groups, and feasibility"
+        },
+        {
+          "order": 2,
+          "title": "Implementation planning",
+          "focus": "activities, budget assumptions, partnerships, risk management, and inclusion"
+        },
+        {
+          "order": 3,
+          "title": "Monitoring and evaluation",
+          "focus": "indicators, baseline, data collection, learning loops, and reporting"
+        }
+      ],
+      "cbt_focus": [
+        "theory of change",
+        "outputs/outcomes",
+        "indicators",
+        "evaluation ethics"
+      ]
+    }
+  },
+  "scope_note": "Full eight-title internal draft map, not an approved professional curriculum. Original 013-015 domains read from retained catalogue. Academic, local community practice, safeguarding, accessibility/pilot and supervised-skills review pending. Provider mixed-item support and bindings unverified; no live exam or certification authorised.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed; academic/accessibility review and learner piloting pending",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Human criterion-level scores and rationales; independently identified human moderator checks written marking and amendments. Preserve response, rubric version, marker, moderator and amendment/appeal history. Equivalent defensible reasoning accepted; no unapproved automatic professional-competence or fail standard.",
+    "appeals": "Authorised review route with original response, criterion marks, reasons, moderation, dated amendments and appeal outcome retained."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Course badge: approved course plus verified ParaLearn course CBT pass",
+      "Certificate: complete all approved school courses and pass the final mixed ParaLearn exam after human written marking and independent human moderation",
+      "Authorised signatures required; Head of Learning name/signature pending; Founder Prof. Mina Ogbanga"
+    ]
+  },
+  "items": [
+    {
+      "id": "PCEI8-SWP-013-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-013"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-013-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-013"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-013-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-013"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-013-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-013"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-013-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-013"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-014-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-014"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-014-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-014"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-014-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-014"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-014-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-014"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-014-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-014"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-015-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-015"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-015-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-015"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-015-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-015"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-015-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-015"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-015-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-015"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-061-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-061-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-061-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-061-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-061-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-062-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-062-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-062-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-062-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-062-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-063-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-063-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-063-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-063-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-063-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-064-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-064-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-064-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-064-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-064-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-065-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-065"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-065-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-065"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-065-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-065"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-065-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-065"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SWP-065-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-065"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "PCEI8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-013",
+        "SWP-014"
+      ],
+      "prompt": "A fictional needs assessment uses only coalition leaders' views and announces the result as the whole community's priority. Give five corrections addressing assessment and organising.",
+      "model_answer": "Clarify the assessment purpose and inclusion/ethics; identify absent perspectives and suitable participatory methods without unsafe recruitment; consider assets alongside needs; validate and prioritise findings with an honest account of uncertainty; and explain coalition roles, power and communication so leaders do not stand for everyone. Do not invent a retained-course protocol.",
+      "rubric": [
+        {
+          "criterion": "Assessment purpose and ethics (013)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Missing perspectives and suitable participatory methods (013)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Assets alongside needs (013)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Validation and transparent prioritisation (013)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Coalition power roles and communication (014)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-015",
+        "SWP-065"
+      ],
+      "prompt": "A fictional programme holds two sessions, records eighteen attendances and claims proven community improvement. Its rehearsal portfolio is described as a completed professional placement. Give five corrections.",
+      "model_answer": "State a plausible needs-goals/theory-of-change link; distinguish activities/outputs from outcomes and appropriate indicators; identify baseline, missing data and alternative explanations without claiming causal proof; assign feasible implementation resources, roles and follow-up; and label rehearsal as introductory simulated learning, not a completed placement or independent competence.",
+      "rubric": [
+        {
+          "criterion": "Needs goals and theory of change (015)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Outputs outcomes and indicators (015)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Baseline missingness and evidence limits (015)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Feasible implementation responsibilities (015/065)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Simulation and supervised competence boundary (065)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-061"
+      ],
+      "prompt": "A fictional dialogue has a fixed budget, uses one app, and treats silence as consent. Give five improvements.",
+      "model_answer": "Explain fixed and open decisions and authority; check missing perspectives; provide feasible accessible participation alternatives; preserve disagreement without treating silence as consent; and give a feedback owner, reasoned decision status and next review point.",
+      "rubric": [
+        {
+          "criterion": "Honest decision scope",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Missing perspectives",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accessible alternatives",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Disagreement and no inferred consent",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Feedback responsibility and status",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-062"
+      ],
+      "prompt": "A fictional asset map lists a hall and skilled residents. The organiser assumes all access is free, asks for unpaid labour before funding is decided and claims the map proves benefit. Give five corrections.",
+      "model_answer": "Check access and control rather than existence alone; obtain voluntary bounded contributions; disclose costs, burdens and funding uncertainty; retain unmet needs and external responsibilities; and distinguish resource counts from outcomes, using the Newham and Tanzania evidence only within their contextual and methodological limits.",
+      "rubric": [
+        {
+          "criterion": "Access versus existence",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Voluntary bounded contribution",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Burdens and uncertain funding",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Needs and institutional responsibilities",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Outcome and evidence limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-063"
+      ],
+      "prompt": "A fictional complaint box has no owner; its decision-maker reviews their own disputed decision, serious concerns wait in the routine queue, and a fall in complaints is called proof of safety. Give five corrections.",
+      "model_answer": "Provide accessible bounded entry and a response owner; address conflicts through an authorised impartial route; use designated qualified safeguarding/emergency arrangements where applicable; minimise information with realistic confidentiality/non-retaliation arrangements and review options; and interpret counts cautiously because access and recording can change. Facilitation is not investigation or adjudication.",
+      "rubric": [
+        {
+          "criterion": "Accessible scope and owner",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Impartial authorised review",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Qualified safeguarding and scope",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Proportionate information and response review",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Counts and alternative explanations",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-064"
+      ],
+      "prompt": "A fictional plan is called co-designed although only its poster colour can change. A cheap venue excludes some users; three classmates praise the prototype. Give five corrections.",
+      "model_answer": "Match the label to meaningful decision influence; expose constraints and authority; compare options on access, resources and unequal burdens; describe the review as simulated rather than representative consultation; and retain versioned reasons, owners and unresolved approvals without claiming outcome proof.",
+      "rubric": [
+        {
+          "criterion": "Meaningful influence",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Constraints and authority",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Inclusive feasible trade-offs",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Simulation and prototype evidence limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Revision history and approval status",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "PCEI8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-013",
+        "SWP-014",
+        "SWP-015",
+        "SWP-061",
+        "SWP-062",
+        "SWP-063",
+        "SWP-064",
+        "SWP-065"
+      ],
+      "prompt": "Develop a conditional plan for a fictional community learning programme. A needs exercise hears only association leaders; the coalition disagrees on priorities; the hall has an access fee; unpaid work is requested before funding; a complaint route has no response owner; and delivery has not been approved. Integrate all eight PCEI courses. Explain evidence, participation, assets, accountability, inclusive options, implementation, review and boundaries.",
+      "model_answer": "A coherent answer uses participatory assessment with assets/needs and validated priorities; examines coalition power, roles and communication; states a feasible theory of change and output/outcome indicators without causal overclaim; bounds dialogue influence and provides access/feedback; checks voluntary asset contributions and uncertainty; assigns impartial complaint handling with qualified safeguarding routes; compares inclusive options and records revisions; and sets conditional task owners, dependencies, simulation status and supervised-learning limits. Include appropriate authority, privacy and missing perspectives rather than collect real sensitive accounts.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Participatory assessment and coalition power/roles (013/014)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Programme logic indicators feasible resources and evidence limits (015)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Dialogue influence and asset access/contribution burdens (061/062)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accountability scope and inclusive planning/revision (063/064)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Implementation dependencies supervised-learning boundary and coherent review (065)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "PCEI8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-013",
+        "SWP-014",
+        "SWP-015",
+        "SWP-061",
+        "SWP-062",
+        "SWP-063",
+        "SWP-064",
+        "SWP-065"
+      ],
+      "prompt": "Critique a fictional programme that claims success from attendance, an asset list, fewer complaints and a praised prototype. Its coalition calls silence unanimous consent; one channel is app-only; it promises a completed field placement and certification after an offline quiz. Propose justified corrections across all eight PCEI courses and explain what evidence and approvals remain missing.",
+      "model_answer": "A strong critique distinguishes assessment evidence and missing perspectives, coalition authority and consent, programme outputs and outcomes, dialogue access and disagreement, asset control and contribution burdens, grievance access/recording and qualified scope, prototype usability versus effects, and introductory rehearsal versus real delivery/competence. It sets feasible owners and feedback/revision points without assuming causal benefit. It rejects real sensitive coursework, unapproved recruitment, invented approvals and offline certification; approved courses, verified ParaLearn passes, full mixed exam, human written marking, independent moderation and authorised signatures remain separate gates.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Participatory assessment and coalition power/roles (013/014)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Programme logic indicators feasible resources and evidence limits (015)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Dialogue influence and asset access/contribution burdens (061/062)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accountability scope and inclusive planning/revision (063/064)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Implementation dependencies supervised-learning boundary and coherent review (065)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with an important gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    }
+  ]
+}

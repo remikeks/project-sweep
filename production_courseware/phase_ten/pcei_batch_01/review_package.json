@@ -1,0 +1,3016 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-16",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "local_community_practice": "pending",
+    "safeguarding": "pending",
+    "community_and_accessibility_review": "pending",
+    "supervised_skills_demonstration": "pending"
+  },
+  "references": [
+    {
+      "id": "S31",
+      "author": "IACD",
+      "year": 2018,
+      "title": "Towards Shared International Standards for Community Development Practice",
+      "url": "https://www.iacdglobal.org/international_standards_for_community_development",
+      "kind": "international competency benchmark",
+      "use": "Compare values, participation, organisation, inclusion and learning across the proposed eight-course catalogue.",
+      "appraisal": "Official page and selected practice themes in the linked 29-file-page English guidance PDF read. Standards first published 2018; download filename says May 2020 and hosting timestamp is 2024. January 2025 training and February 2026 training are implementation events, not new editions. A practice benchmark, not accreditation of SWEEP or evidence of programme effects.",
+      "licence": "No open reuse licence established for guidance; website copyright reserved. Link and original factual commentary only; no source framework tables, competency wording, tools or exercises copied/adapted.",
+      "checked_on": "2026-11-16",
+      "slide_title": "International community-development practice standards",
+      "slide_limit": "2018 standards; later training is not a new edition.",
+      "link_label": "www.iacdglobal.org"
+    },
+    {
+      "id": "S32",
+      "author": "OECD",
+      "year": 2022,
+      "title": "OECD Guidelines for Citizen Participation Processes",
+      "url": "https://doi.org/10.1787/f765caf6-en",
+      "kind": "public participation process guidance",
+      "use": "Clarify decision scope, participation access, feedback and process evaluation.",
+      "appraisal": "Actual 94-file-page official PDF retrieved; selected introduction and process design, inclusion, digital choice, feedback and evaluation sections read. Guidance synthesises practice, not a controlled effectiveness study. Public-decision context needs adaptation through local review; no Nigerian legal compliance claim.",
+      "licence": "Copyright OECD 2022, terms apply; no assumption of a new CC licence. Original factual teaching and links only; no ten-step model, tables, illustrations or cases copied/adapted.",
+      "checked_on": "2026-11-16",
+      "slide_title": "Citizen participation: design, access and feedback",
+      "slide_limit": "2022 practice guidance; context and decision authority matter.",
+      "link_label": "doi.org/10.1787/f765caf6-en"
+    },
+    {
+      "id": "S33",
+      "author": "World Bank",
+      "year": 2018,
+      "title": "Guidance Note for Borrowers: ESS10 Stakeholder Engagement and Information Disclosure",
+      "url": "https://documents1.worldbank.org/curated/en/476161530217390609/ESF-Guidance-Note-10-Stakeholder-Engagement-and-Information-Disclosure-English.pdf",
+      "kind": "project stakeholder and grievance guidance",
+      "use": "Benchmark accessible, proportionate grievance arrangements and appropriate information boundaries.",
+      "appraisal": "Actual 16-file-page official PDF retrieved; selected stakeholder engagement and paragraphs 26-27/GN27.1-5 and Annex A read. World Bank project-specific requirements, not a universal legal code. Accessibility, impartiality, non-retaliation and qualified routes require locally reviewed implementation. A classroom facilitator does not investigate or adjudicate.",
+      "licence": "World Bank guidance copyright/terms apply; no source grievance forms, mechanisms, model, tables or quotations reproduced/adapted. Link and original factual commentary only.",
+      "checked_on": "2026-11-16",
+      "slide_title": "ESS10: engagement and grievance arrangements",
+      "slide_limit": "Project-specific guidance; not universal law or investigator training.",
+      "link_label": "worldbank.org ESS10 Guidance Note"
+    },
+    {
+      "id": "R41",
+      "author": "Gilchrist K and colleagues",
+      "year": 2025,
+      "title": "A Mixed-Methods Evaluation of the Mencap Asset-Based Community Development (ABCD) Approach in Newham",
+      "url": "https://doi.org/10.1080/10705422.2025.2507702",
+      "kind": "formative mixed-methods evaluation",
+      "use": "Question who can use assets, connector workload and whether costs establish outcomes.",
+      "appraisal": "Actual 23-file-page published PDF via UCL repository read selectively: methods, findings, discussion and limitations. Publisher PDF says online 21 May 2025; Crossref issued date 3 April 2025 differs. Two 2021 interview rounds, 22 interviews with staff, parent and external stakeholders, purposeful recruitment with senior staff and rapid qualitative analysis; costs from 2019-20 financial records. Staff-heavy sampling may miss perspectives; one London setting and pandemic context limit transfer. Cost analysis is not cost-effectiveness and no local causal benefit is established.",
+      "licence": "CC BY 4.0 confirmed in UCL record/publisher PDF/Crossref. Original factual commentary only; no source instruments, framework, quotations or tables reproduced.",
+      "checked_on": "2026-11-16",
+      "slide_title": "ABCD in Newham: mixed-methods evaluation",
+      "slide_limit": "2021 interviews; staff-heavy sample. Costs are not effects.",
+      "link_label": "doi.org/10.1080/10705422.2025.2507702",
+      "doi": "10.1080/10705422.2025.2507702"
+    },
+    {
+      "id": "R42",
+      "author": "Hopkins I and colleagues",
+      "year": 2024,
+      "title": "What Do We Know About Sharing Power in Co-Production in Mental Health Research? A Systematic Review and Thematic Synthesis",
+      "url": "https://doi.org/10.1111/hex.70014",
+      "kind": "qualitative systematic review",
+      "use": "Use bounded lessons about decision power, relationships and institutional constraints, not advanced research instruction.",
+      "appraisal": "Actual publisher full HTML methods, findings and limitations read; PDF download 403, no bypass. Published 5 September 2024; searches 2 January 2024 in three databases, preregistered December 2023. Nine UK qualitative/mixed-method papers from 2018 onward, independent two-reviewer screening and CASP appraisal. Synthesis concerns research co-production, not all community planning. UK-only, publication lag and qualitative selection limit transfer; themes do not estimate causal development or treatment effects.",
+      "licence": "CC BY 4.0 confirmed by Crossref version-of-record licence. No source tools, framework, participant quotations or tables copied/adapted.",
+      "checked_on": "2026-11-16",
+      "slide_title": "Sharing power: qualitative systematic review",
+      "slide_limit": "UK research settings; thematic synthesis is not a causal effect.",
+      "link_label": "doi.org/10.1111/hex.70014",
+      "doi": "10.1111/hex.70014",
+      "quartile": "SCImago primary indexed 2025 Health Expectations record reports Q1 in Public Health, Environmental and Occupational Health. Direct ranking table restricted; no JCR claim. Checked 2026-11-16: https://www.scimagojr.com/journalsearch.php?clean=0&q=20885&tip=sid . Journal rank is not article validity."
+    },
+    {
+      "id": "R43",
+      "author": "Boräng F, Grimes M and Ahlborg H",
+      "year": 2026,
+      "title": "Competing for Development: How Programme Design in Community-Based Development Can Undermine Local Collective Action Capacity",
+      "url": "https://doi.org/10.1080/00220388.2026.2744428",
+      "kind": "qualitative comparative field study",
+      "use": "Examine programme burdens, uncertain funding and alternative explanations when planning collective work.",
+      "appraisal": "Published 3 November 2026. Publisher PDF methods/results/limitations accessible through indexed full-text retrieval and read; direct host download later returned 403, no bypass or archived PDF claimed. Six Tanzanian villages, 87 interviews (35 informants and 52 residents), three field visits in 2019-20, purposive variation, observations and discussions. Compares government community development with NGO electricity provision. Accounts associate design/burdens/funding uncertainty with collective action; not a randomised causal estimate. Different goods, implementing actors and prior trust confound comparisons; small rural settings and self-report limit transfer. No effect size taught.",
+      "licence": "CC BY 4.0 confirmed in publisher text and Crossref. Original factual commentary only; no participant quotations, tables or programme model copied/adapted.",
+      "checked_on": "2026-11-16",
+      "slide_title": "Programme design and collective action in Tanzania",
+      "slide_limit": "2019-20 qualitative fieldwork; alternatives limit causal claims.",
+      "link_label": "doi.org/10.1080/00220388.2026.2744428",
+      "doi": "10.1080/00220388.2026.2744428",
+      "quartile": "SCImago primary indexed 2025 Journal of Development Studies record reports Q1 Development. Direct table access restricted; no JCR claim. Checked 2026-11-16: https://www.scimagojr.com/journalsearch.php?clean=0&q=14849&tip=sid . Rank does not validate this article."
+    },
+    {
+      "id": "R44",
+      "author": "Leton De-Great, Kasi Blessing",
+      "year": 2026,
+      "title": "Socio-Economic Characteristics of Youth Organizations and the Factors Affecting Youth Effectiveness in Community Development in Rivers State",
+      "url": "https://doi.org/10.67007/ijsds-2026-5100043",
+      "kind": "descriptive organisational survey",
+      "use": "Pose locally relevant questions about resources and whose voices are represented; do not teach numerical effects.",
+      "appraisal": "Published 25 April 2026; actual official 16-file-page PDF including front matter read selectively: methods, results and conclusion. Registered organisation frame dated 2019, 283 organisations; six LGAs, 58 organisations and six purposively selected officials each, 348 planned and 247 valid responses. Self-reports from officials omit many residents/unregistered groups; no intervention, baseline or causal identification. Abstract mentions regression as well as ANOVA, whereas methods emphasise descriptive analysis/ANOVA; table 4.1 (file page 7) repeats district headers and has an apparent third n/header mismatch; independent statistical review needed. Related -0100082 uses the same frame/sample counts: overlap unresolved, not independent corroboration. No numerical association taught.",
+      "licence": "No OA reuse licence established; Crossref has no licence. Treat as reserved rights. Link and original factual appraisal only; no raw paper, instruments, data, tables or quotations redistributed.",
+      "checked_on": "2026-11-16",
+      "slide_title": "Rivers State youth organisations: survey",
+      "slide_limit": "Officials and registered groups; reporting limits. No causal claim.",
+      "link_label": "doi.org/10.67007/ijsds-2026-5100043",
+      "doi": "10.67007/ijsds-2026-5100043",
+      "quartile": "No Q1/Q2 status claimed for IJSDS."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-061",
+      "title": "Participatory Facilitation and Community Dialogue",
+      "slug": "participatory-facilitation-and-community-dialogue",
+      "cover_title": "Participatory Facilitation\nand Community\nDialogue",
+      "school_code": "PCEI",
+      "school_name": "School of Community Development and Participatory Engagement",
+      "school_display": "Community Development and\nParticipatory Engagement",
+      "estimated_minutes": 180,
+      "audience": "Introductory community participation, planning and delivery learners. No investigation, legal adjudication, independent safeguarding or professional competence is conferred.",
+      "study_guidance": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence. Proposed study duration is subject to piloting.",
+      "practice_safety_note": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence.",
+      "outcome": "Prepare and review a fictional community dialogue with a bounded decision purpose, accessible participation, constructive disagreement and an accountable feedback route.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Purpose power and participation",
+          "outcome": "Specify a dialogue purpose and distinguish attendance from influence.",
+          "paragraphs": [
+            "Facilitation creates conditions for people to consider an issue together; it does not give the facilitator ownership of the decision. Start by identifying the decision, who has authority over it and what participants can still influence. A meeting announced after a budget is fixed cannot honestly promise control of that budget. It may still offer a useful opportunity to discuss implementation if that narrower purpose is explicit. OECD guidance connects participation design with the stage and scope of a public decision. Describe the available influence before selecting an attractive meeting technique. [S32]",
+            "A community contains different interests and relationships rather than a single voice. Ask which groups may be affected, who normally speaks, whose time is constrained and who may prefer another way to contribute. An invitation through one organisation can reach valuable knowledge but cannot establish representation of all residents. IACD practice standards make engagement and inclusion relevant professional concerns. Their 2018 origin should not be confused with later training dates or a claim that an academy course has been accredited. In a fictional preparation note, identify missing perspectives as an unresolved design question rather than inventing their views. [S31]",
+            "Power also operates through language, agenda setting, access to documents and control over the written account. A UK qualitative synthesis of research co-production describes structural and relational barriers to sharing power. Its mental-health research context is different from ordinary community dialogue, so use it to question assumptions rather than claim a universal effect. Invite corrections to the agenda and explain how disagreement will be recorded. A respected chair or large attendance does not itself establish equal influence. Identify who can authorise changes and the process for responding when participants question the scope. [R42, S32]",
+            "The learner task is preparation using invented people and circumstances, not recruitment. Avoid asking classmates to disclose a personal experience to prove that an issue matters. State a voluntary fictional alternative and a way to pause. A useful purpose note records the question, authority, open and closed decisions, participation options and the next feedback point. It makes promises small enough to keep and makes constraints visible before people invest time. Such a note helps expose tokenism, but the existence of a note cannot prove that participation was meaningful or that later development outcomes improved. [S31, S32]"
+          ],
+          "example": "Fictional case: A committee has already selected a venue but invites residents to choose the session time. Its poster says residents will decide everything. A shift worker cannot attend the proposed meeting.",
+          "activity": "Write a purpose note naming the open decision, fixed constraint, decision owner, missing perspective and one alternative contribution route.",
+          "feedback": "Name the session time as open and the venue as fixed; correct the poster. Offer an accessible route without claiming to represent the absent shift worker.",
+          "sources": [
+            "S32",
+            "S31",
+            "R42"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Accessible dialogue and disagreement",
+          "outcome": "Plan accessible discussion that preserves differences without forcing consensus.",
+          "paragraphs": [
+            "Accessibility starts before the meeting. Consider timing, travel, cost, physical access, language, hearing, reading demands and access to a private device. These are questions to check with relevant participants through approved arrangements, not stereotypes about a group. A digital channel can widen access for some while excluding others. OECD participation guidance therefore supports choosing a suitable mix of routes rather than treating online response as universally available. In a fictional exercise, explain which barrier a proposed adjustment addresses, who will arrange it and what remains untested. [S32]",
+            "Prepare plain information about the question and constraints so people do not need specialist vocabulary to contribute. Allow enough time to understand options and ask questions. Where interpretation or communication support is needed, plan appropriate competence and privacy arrangements. Do not assume a relative can safely translate every concern. The facilitator can invite a variety of contributions without demanding that each person speak publicly. IACD inclusion principles help frame this responsibility, while actual local accessibility and safeguarding requirements require qualified review. A checkbox saying accessible is less useful than a specific feasible arrangement. [S31, S32]",
+            "Disagreement is not automatically a failed process. It can reveal competing needs, uncertain evidence or a choice that disadvantages some people. Establish respectful discussion expectations, invite reasons and summarise differing positions without naming sensitive experiences. A facilitator should avoid humiliating a speaker, diagnosing motives or turning a complaint into a public investigation. The co-production synthesis suggests that negotiation can be uncomfortable even within valued relationships; it does not show that all conflict is productive. If a discussion becomes unsafe, pause and use the designated qualified response arrangements rather than promise that facilitation can resolve every issue. [R42, S31]",
+            "Record both common ground and unresolved differences in language participants can check. If agreement is required, clarify the approved decision rule rather than invent a vote halfway through the session. Silence may reflect uncertainty, language barriers or a choice not to speak, so it is not consent. Small-group options can help some people but still need attention to dominance and reporting accuracy. The fictional task tests a reasoned design, not real conflict mediation competence. Keep personal histories and identifiable accounts out of learner submissions and allow a different invented exercise when needed. [S32, S31]"
+          ],
+          "example": "Fictional case: A dialogue uses only a phone app and declares agreement when nobody objects. Two invented residents share a device and another needs interpretation.",
+          "activity": "Propose two access arrangements, a way to check the recorded differences and a boundary for unsafe disagreement.",
+          "feedback": "Offer feasible non-digital and communication options. Record silence as no stated contribution, not consent, and retain unresolved positions for the authorised decision process.",
+          "sources": [
+            "S32",
+            "S31",
+            "R42"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Feedback and reflective improvement",
+          "outcome": "Design a feedback record that distinguishes contribution from decision and outcome.",
+          "paragraphs": [
+            "Participation continues after people leave a room. Agree when a response will be given, who will prepare it and how people can access it without another costly visit. Explain which ideas were accepted, modified, deferred or declined, with reasons and the relevant decision owner. A summary of attendance is not feedback about how contributions were used. OECD guidance emphasises using input and closing the feedback loop. A fictional response can acknowledge a resource constraint without implying that contributors were wrong to raise an issue or that an unfunded promise is approved. [S32]",
+            "Check the accuracy of the account through a proportionate route before treating it as a settled community position. People should be able to correct a misrepresented contribution without supplying a personal history in a public form. Keep necessary status information separate from sensitive complaints and from learner work. A public summary may explain decisions in aggregate while a designated qualified role handles a private concern. IACD standards include learning and improving practice, but an improvement plan should name who will act and when it will be reviewed rather than merely celebrate a completed event. [S31]",
+            "Process review asks whether the purpose was clear, access arrangements worked, differing contributions were represented and feedback was delivered. An outcome review asks a different question about what changed for people or a service. Neither satisfaction nor attendance alone proves inclusion, accountability or development outcomes. A qualitative synthesis can inform questions about power, but its themes cannot certify that a particular dialogue shared authority successfully. Review missing perspectives, limits in the record and possible alternative explanations before claiming benefit. Use only invented aggregate examples here; actual evaluation requires appropriate governance and skills. [R42, S32]",
+            "A reflective facilitator can distinguish a controllable practice change from a dependency on another authority. Changing the timing of future sessions may be within the organiser's remit; allocating public funds may not be. State the owner of each proposed action and a realistic response if the dependency remains unresolved. Do not rename a proposal as implementation or an email as completed action. An introductory course offers practice in careful reasoning, not evidence that the learner has facilitated a real community process. Supervised observation, local review, accessibility testing and piloting remain separate conditions. [S31, S32]"
+          ],
+          "example": "Fictional case: A committee reports a successful dialogue from thirty attendance slips, but no response to proposals has been sent. One proposed action requires another authority's approval.",
+          "activity": "Draft a feedback entry with input, decision status, reason, owner, next date and a separate process-review question.",
+          "feedback": "Distinguish attendance from influence and a proposed action from approval. A useful entry assigns feedback responsibility and admits the unresolved dependency.",
+          "sources": [
+            "S32",
+            "S31",
+            "R42"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-061",
+        "course_slug": "participatory-facilitation-and-community-dialogue",
+        "title": "Participatory Facilitation and Community Dialogue",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "140e5ba026d6fdc6103e67206e4978a82880eb8186eb43a7cdcbac3cc1f5600e",
+        "catalogue_sha256": "519bc1e189476bdf8fc7cfd27ab5c18e5f22982860a5a6771b02e78ea7955ee9",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Purpose power and participation",
+            "outcome": "Specify a dialogue purpose and distinguish attendance from influence.",
+            "teaching_points": [
+              {
+                "id": "SWP-061-M1-T1",
+                "text": "State what participants can influence before choosing a method."
+              },
+              {
+                "id": "SWP-061-M1-T2",
+                "text": "Attendance does not establish decision influence."
+              },
+              {
+                "id": "SWP-061-M1-T3",
+                "text": "One organisation cannot automatically represent every resident."
+              },
+              {
+                "id": "SWP-061-M1-T4",
+                "text": "Agenda and recording practices distribute power."
+              },
+              {
+                "id": "SWP-061-M1-T5",
+                "text": "A fictional alternative supports voluntary learning."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Accessible dialogue and disagreement",
+            "outcome": "Plan accessible discussion that preserves differences without forcing consensus.",
+            "teaching_points": [
+              {
+                "id": "SWP-061-M2-T1",
+                "text": "Digital access is not universal access."
+              },
+              {
+                "id": "SWP-061-M2-T2",
+                "text": "Access arrangements need a barrier and an owner."
+              },
+              {
+                "id": "SWP-061-M2-T3",
+                "text": "Silence is not consent."
+              },
+              {
+                "id": "SWP-061-M2-T4",
+                "text": "Record unresolved differences rather than force consensus."
+              },
+              {
+                "id": "SWP-061-M2-T5",
+                "text": "Unsafe disagreement may require a qualified route."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Feedback and reflective improvement",
+            "outcome": "Design a feedback record that distinguishes contribution from decision and outcome.",
+            "teaching_points": [
+              {
+                "id": "SWP-061-M3-T1",
+                "text": "Feedback explains the use of contributions."
+              },
+              {
+                "id": "SWP-061-M3-T2",
+                "text": "Proposed actions differ from approved actions."
+              },
+              {
+                "id": "SWP-061-M3-T3",
+                "text": "Process quality differs from development outcomes."
+              },
+              {
+                "id": "SWP-061-M3-T4",
+                "text": "Correction routes support a faithful account."
+              },
+              {
+                "id": "SWP-061-M3-T5",
+                "text": "Reflective actions need responsible owners."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-061-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-061-M1-T1",
+            "question": "A venue is fixed but the meeting time remains open. What should the invitation promise?",
+            "options": [
+              {
+                "text": "Control of every budget decision.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee of unanimous support.",
+                "correct": false
+              },
+              {
+                "text": "Influence over the time with the venue constraint explained.",
+                "correct": true
+              },
+              {
+                "text": "No explanation until after attendance.",
+                "correct": false
+              }
+            ],
+            "rationale": "Honest scope prevents a promise beyond the organiser's authority."
+          },
+          {
+            "id": "SWP-061-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-061-M1-T2",
+            "question": "Forty people attend a fictional dialogue. What is still unknown?",
+            "options": [
+              {
+                "text": "The count of attendees.",
+                "correct": false
+              },
+              {
+                "text": "Whether the room contained people.",
+                "correct": false
+              },
+              {
+                "text": "That all residents necessarily agreed.",
+                "correct": false
+              },
+              {
+                "text": "Whether their contributions influenced a decision.",
+                "correct": true
+              }
+            ],
+            "rationale": "A count measures attendance, not the use of input."
+          },
+          {
+            "id": "SWP-061-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-061-M1-T3",
+            "question": "A facilitator invites only one association and calls it the whole community. What needs review?",
+            "options": [
+              {
+                "text": "Whose perspectives and access routes may be missing.",
+                "correct": true
+              },
+              {
+                "text": "Whether every absent person agrees.",
+                "correct": false
+              },
+              {
+                "text": "How to remove all differing views.",
+                "correct": false
+              },
+              {
+                "text": "Why representation never matters.",
+                "correct": false
+              }
+            ],
+            "rationale": "Membership and influence vary within a community."
+          },
+          {
+            "id": "SWP-061-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-061-M1-T4",
+            "question": "Only the chair may change an agenda or correct the minutes. What concern follows?",
+            "options": [
+              {
+                "text": "Proof that equal influence is assured.",
+                "correct": false
+              },
+              {
+                "text": "Control over which contributions become part of the decision record.",
+                "correct": true
+              },
+              {
+                "text": "A need to collect private histories.",
+                "correct": false
+              },
+              {
+                "text": "An automatic causal development benefit.",
+                "correct": false
+              }
+            ],
+            "rationale": "Procedural control can exclude contributions even during discussion."
+          },
+          {
+            "id": "SWP-061-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-061-M1-T5",
+            "question": "A learner is asked to disclose a personal complaint in class. What is appropriate?",
+            "options": [
+              {
+                "text": "Require names to validate learning.",
+                "correct": false
+              },
+              {
+                "text": "Publish the complaint as evidence.",
+                "correct": false
+              },
+              {
+                "text": "Use an alternative invented scenario without requiring disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Recruit a real complainant to replace the learner.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course assesses reasoning without sensitive personal material."
+          },
+          {
+            "id": "SWP-061-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-061-M2-T1",
+            "question": "A fictional team accepts only app responses. What should it examine?",
+            "options": [
+              {
+                "text": "Whether app use proves inclusion.",
+                "correct": false
+              },
+              {
+                "text": "How to erase non-digital preferences.",
+                "correct": false
+              },
+              {
+                "text": "Whether all residents own private phones.",
+                "correct": false
+              },
+              {
+                "text": "Who lacks a usable device, connectivity or a suitable alternative.",
+                "correct": true
+              }
+            ],
+            "rationale": "Channel choice can create unequal access."
+          },
+          {
+            "id": "SWP-061-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-061-M2-T2",
+            "question": "A plan says only make the dialogue accessible. What improves it?",
+            "options": [
+              {
+                "text": "A specific barrier, feasible adjustment and responsible organiser.",
+                "correct": true
+              },
+              {
+                "text": "A smaller font to fit more text.",
+                "correct": false
+              },
+              {
+                "text": "A claim that no checking is needed.",
+                "correct": false
+              },
+              {
+                "text": "An assumption about every disabled person.",
+                "correct": false
+              }
+            ],
+            "rationale": "Concrete arrangements can be reviewed and tested."
+          },
+          {
+            "id": "SWP-061-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-061-M2-T3",
+            "question": "Nobody objects aloud to a fictional proposal. What is justified?",
+            "options": [
+              {
+                "text": "Every person freely consented.",
+                "correct": false
+              },
+              {
+                "text": "No objection was stated; agreement still needs an appropriate check.",
+                "correct": true
+              },
+              {
+                "text": "All absent residents voted yes.",
+                "correct": false
+              },
+              {
+                "text": "The proposal is legally binding.",
+                "correct": false
+              }
+            ],
+            "rationale": "Silence has multiple possible explanations."
+          },
+          {
+            "id": "SWP-061-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-061-M2-T4",
+            "question": "Two participants give incompatible but relevant priorities. What should a facilitator do?",
+            "options": [
+              {
+                "text": "Delete the less popular reason.",
+                "correct": false
+              },
+              {
+                "text": "Declare one speaker irrational.",
+                "correct": false
+              },
+              {
+                "text": "Clarify and record both reasons for the authorised decision process.",
+                "correct": true
+              },
+              {
+                "text": "Require a personal disclosure to settle it.",
+                "correct": false
+              }
+            ],
+            "rationale": "A faithful account can preserve disagreement."
+          },
+          {
+            "id": "SWP-061-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-061-M2-T5",
+            "question": "A fictional meeting raises a safeguarding concern. What boundary applies?",
+            "options": [
+              {
+                "text": "Investigate the allegation publicly.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee safety through a discussion rule.",
+                "correct": false
+              },
+              {
+                "text": "Require the class to decide guilt.",
+                "correct": false
+              },
+              {
+                "text": "Pause as appropriate and use designated qualified arrangements.",
+                "correct": true
+              }
+            ],
+            "rationale": "Facilitation does not confer safeguarding or adjudication authority."
+          },
+          {
+            "id": "SWP-061-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-061-M3-T1",
+            "question": "A fictional response lists only attendance. What is missing?",
+            "options": [
+              {
+                "text": "How proposals were handled, why, and by whom.",
+                "correct": true
+              },
+              {
+                "text": "The names of private complainants.",
+                "correct": false
+              },
+              {
+                "text": "A claim of unanimous consent.",
+                "correct": false
+              },
+              {
+                "text": "A larger attendance count invented later.",
+                "correct": false
+              }
+            ],
+            "rationale": "Feedback concerns decisions and reasons, not only presence."
+          },
+          {
+            "id": "SWP-061-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-061-M3-T2",
+            "question": "A budget request awaits an external authority. What status is accurate?",
+            "options": [
+              {
+                "text": "Fully implemented.",
+                "correct": false
+              },
+              {
+                "text": "Proposed and dependent on approval.",
+                "correct": true
+              },
+              {
+                "text": "Guaranteed funded.",
+                "correct": false
+              },
+              {
+                "text": "Certified by a classroom worksheet.",
+                "correct": false
+              }
+            ],
+            "rationale": "Status must reflect actual authority and evidence."
+          },
+          {
+            "id": "SWP-061-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-061-M3-T3",
+            "question": "Participants liked a fictional meeting. What cannot be concluded from this alone?",
+            "options": [
+              {
+                "text": "That some participants reported satisfaction.",
+                "correct": false
+              },
+              {
+                "text": "That a meeting occurred.",
+                "correct": false
+              },
+              {
+                "text": "That community development outcomes improved.",
+                "correct": true
+              },
+              {
+                "text": "That feedback could be collected.",
+                "correct": false
+              }
+            ],
+            "rationale": "Satisfaction is a process measure, not causal outcome evidence."
+          },
+          {
+            "id": "SWP-061-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-061-M3-T4",
+            "question": "A summary misstates an invented participant's priority. What is appropriate?",
+            "options": [
+              {
+                "text": "Require a public personal history.",
+                "correct": false
+              },
+              {
+                "text": "Prevent corrections after drafting.",
+                "correct": false
+              },
+              {
+                "text": "Treat the summary as automatically unanimous.",
+                "correct": false
+              },
+              {
+                "text": "An accessible correction route with proportionate information.",
+                "correct": true
+              }
+            ],
+            "rationale": "Records should be checkable without unnecessary exposure."
+          },
+          {
+            "id": "SWP-061-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-061-M3-T5",
+            "question": "A review recommends a new session time. What makes the recommendation actionable?",
+            "options": [
+              {
+                "text": "A responsible organiser, feasible arrangement and review date.",
+                "correct": true
+              },
+              {
+                "text": "A declaration that all inequalities ended.",
+                "correct": false
+              },
+              {
+                "text": "No owner because it is a suggestion.",
+                "correct": false
+              },
+              {
+                "text": "An unrelated professional certificate.",
+                "correct": false
+              }
+            ],
+            "rationale": "Responsibility and timing allow follow-through to be assessed."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-062",
+      "title": "Asset Based Community Development",
+      "slug": "asset-based-community-development",
+      "cover_title": "Asset Based\nCommunity\nDevelopment",
+      "school_code": "PCEI",
+      "school_name": "School of Community Development and Participatory Engagement",
+      "school_display": "Community Development and\nParticipatory Engagement",
+      "estimated_minutes": 180,
+      "audience": "Introductory community participation, planning and delivery learners. No investigation, legal adjudication, independent safeguarding or professional competence is conferred.",
+      "study_guidance": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence. Proposed study duration is subject to piloting.",
+      "practice_safety_note": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence.",
+      "outcome": "Develop a fictional asset-led action proposal that checks access, consent, resource burdens and evidence limits without substituting community effort for accountable services.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Assets needs and unequal access",
+          "outcome": "Distinguish available assets from accessible benefits and unmet needs.",
+          "paragraphs": [
+            "An asset is a potentially useful strength, relationship, skill, place or resource in a particular context. Calling something an asset does not establish who controls it, who can use it or whether it addresses a priority. A hall can be valuable while remaining inaccessible at the times people need it. Begin with people's purposes and verify access conditions rather than compiling an impressive inventory. IACD standards connect community strengths with participation and inclusion. Asset-led thinking should therefore sit alongside an honest account of needs, barriers and institutional responsibilities rather than erase them. [S31]",
+            "The Newham mixed-methods evaluation offers a bounded example of asset-based work in an urban setting involving people with learning disabilities and families. Interviews highlighted relationships, connecting roles and local conditions; the study does not prove that listing assets produces development outcomes. Its interviews took place in 2021 and recruitment involved senior staff, with relatively limited parent perspectives. Published dates in 2025 do not make the observations recent fieldwork. Use the study to ask about connectors, resources and absent perspectives, not to import its programme as a universally effective model. [R41]",
+            "Access can depend on fees, opening hours, transport, language, permission and how welcoming a space feels. These conditions differ between people and may change. Do not assume that a community-owned resource is automatically shared fairly or that an informal skill is freely available for a project. A fictional asset note can name a resource, its proposed purpose, the access conditions and the person authorised to confirm availability. It should also record whose experience has not been checked. An invented note practises careful judgement; it is not a directory for making real referrals. [S31, S32]",
+            "An asset approach must not become a reason to withdraw services or blame people for unmet needs. A group can have strong mutual support and still need safe infrastructure, paid expertise or an accountable public response. Ask which proposed contribution is genuinely voluntary and which responsibility belongs elsewhere. Avoid gathering identifying stories, photographing real homes or mapping locations of vulnerable people for coursework. Use the supplied invented setting or another fictional alternative. Distinguishing a potential resource from an available, appropriate and consented contribution is the central learning task, not the size of the final list. [S31, R41]"
+          ],
+          "example": "Fictional case: An invented neighbourhood has a hall, a skilled gardener and a water supply problem. The hall charges a fee, and the gardener has not agreed to volunteer.",
+          "activity": "Prepare three asset notes with purpose, access condition, permission status and one unmet need or external responsibility.",
+          "feedback": "Keep the hall fee and unconfirmed volunteer offer visible. Community strengths do not remove the need for an accountable water-service response.",
+          "sources": [
+            "S31",
+            "R41",
+            "S32"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Connections contributions and burdens",
+          "outcome": "Plan reciprocal connections with voluntary contributions and realistic resourcing.",
+          "paragraphs": [
+            "Connections may make a resource more usable: a trusted introduction, an accessible timetable or an agreed way to share equipment can matter more than another inventory entry. The person connecting groups needs time, competence, support and a clear role. The Newham evaluation describes connecting work and the importance of local relationships, while also making resource demands visible. Its formative findings are not a staffing formula for a Nigerian programme. Specify a proposed connector role in plain terms, including what it may arrange, what requires approval and how the person can seek support. [R41]",
+            "Reciprocity means considering what people offer and receive without treating every relationship as a transaction. A contribution must be voluntary, informed and feasible; declining it should not automatically exclude someone from unrelated benefits. Check the time, travel and opportunity costs as well as money. A household with insecure work may face a much greater burden from an unpaid meeting than a salaried organiser. IACD inclusion principles make these differences relevant, and participation guidance supports planning the resources needed for access. Do not assume that a contribution is fair because its cash value is small. [S31, S32]",
+            "The 2026 Tanzanian qualitative study examines how programme design and competition for resources may interact with local collective action. Interviews and observations from 2019-20 raise questions about upfront work, uncertain funding and expectations. They do not establish a universal rule that competition always damages cooperation. Government and NGO activities provided different goods and operated under different trust conditions, limiting causal comparisons. For a fictional proposal, explain the work requested before funding is confirmed and what happens if funding fails. Avoid promising later reimbursement or benefits that no authority has approved. [R43]",
+            "An agreement about shared activity should identify purpose, bounded responsibilities, access conditions, resources and a way to revisit the arrangement. Do not publish a real volunteer contact list or collect evidence of hardship in class to judge who deserves support. Work with invented roles and aggregate assumptions, and mark availability as unverified where necessary. If an activity depends on donated expertise, include the consequence of its withdrawal and an authorised alternative. An informal connection can be valuable, but it is not a guaranteed service, a substitute for safeguarding or proof that a community can absorb unlimited unpaid work. [S31, R41]"
+          ],
+          "example": "Fictional case: A fictional project requests three unpaid workdays before a grant decision and promises every contributor a later benefit. A connector has no allocated time.",
+          "activity": "Write a contribution agreement outline with voluntary scope, burdens, uncertain funding, connector support and a withdrawal contingency.",
+          "feedback": "Remove the unapproved guarantee. Make the cost of participation and grant uncertainty explicit, and provide a realistic alternative if contributions are unavailable.",
+          "sources": [
+            "R41",
+            "S31",
+            "S32",
+            "R43"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Asset-led action and learning",
+          "outcome": "Review an asset-led proposal using access and outcome distinctions.",
+          "paragraphs": [
+            "An asset-led proposal should connect a community-defined purpose to a small feasible action rather than leap from a resource list to a promised transformation. Name the intended users, the access conditions, the responsible roles and the assumptions about how the activity might help. A fictional shared garden may offer a learning opportunity, but the presence of land and volunteers does not prove food security or equitable benefit. IACD standards support collective learning and planning; the learner should distinguish this introductory planning task from advanced research design or an approved professional placement. [S31]",
+            "Use more than one kind of review question. An activity measure can show whether an agreed session happened; an access question can examine who could use it; an outcome question asks what changed for the intended people. Keep the units, time period and missing information clear. More listed assets or more volunteer hours may reflect effort, unequal burdens or improved recording rather than better development outcomes. The Newham evaluation includes cost analysis but does not establish cost-effectiveness without suitable outcome comparison. Avoid assigning an invented monetary benefit to every social connection to make a proposal look successful. [R41]",
+            "Contextual Nigerian evidence can prompt questions about organisation resources and representation, but it must be appraised carefully. The Rivers State youth-organisation survey uses officials from selected registered organisations, not a statewide random sample of every young person. Its reporting inconsistencies and potentially overlapping companion paper prevent treating the two publications as independent confirmation of effects. Do not teach its numerical associations as robust causal findings. In a fictional review, ask whose voice the organisation record misses and what additional authorised feedback would be needed before generalising. [R44]",
+            "Learning from a proposal includes identifying what should stop, change or remain uncertain. Assign an owner and a review point, and distinguish a recommendation from a decision already made. A group may choose not to proceed when the burden or access conditions are unacceptable. That can be a responsible planning result rather than a failure of community motivation. Keep real household details, locations and volunteer records out of learner resources. The completed worksheet demonstrates reasoning within an invented setting; actual implementation, supervised skill observation, local practice review and academic approval remain separate requirements. [S31, S32]"
+          ],
+          "example": "Fictional case: A fictional garden lists twenty assets and eighty volunteer hours. The organiser claims proven food security, although access times exclude shift workers and no outcomes were measured.",
+          "activity": "Prepare a review separating activity, access, burden and outcome questions, plus one justified revision and its owner.",
+          "feedback": "The counts show recorded resources and effort. Address excluded users and burdens, retain outcome uncertainty and assign a feasible revision without inventing impact.",
+          "sources": [
+            "S31",
+            "R41",
+            "R44",
+            "S32"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-062",
+        "course_slug": "asset-based-community-development",
+        "title": "Asset Based Community Development",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "78ed78f0eb00f563678f2915ab2d9efebffca7a83d248d3ba85709685a8ab86e",
+        "catalogue_sha256": "47bb38e22f6e75fd82cb89cd81464f3770522b59ed4c225ea34f88de8421a6bd",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Assets needs and unequal access",
+            "outcome": "Distinguish available assets from accessible benefits and unmet needs.",
+            "teaching_points": [
+              {
+                "id": "SWP-062-M1-T1",
+                "text": "An asset inventory does not establish usable access."
+              },
+              {
+                "id": "SWP-062-M1-T2",
+                "text": "Strengths and unmet needs can coexist."
+              },
+              {
+                "id": "SWP-062-M1-T3",
+                "text": "A named skill is not consent to contribute it."
+              },
+              {
+                "id": "SWP-062-M1-T4",
+                "text": "Publication dates differ from fieldwork dates."
+              },
+              {
+                "id": "SWP-062-M1-T5",
+                "text": "An evaluation in one setting is not universal proof."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Connections contributions and burdens",
+            "outcome": "Plan reciprocal connections with voluntary contributions and realistic resourcing.",
+            "teaching_points": [
+              {
+                "id": "SWP-062-M2-T1",
+                "text": "Connecting work needs allocated resources."
+              },
+              {
+                "id": "SWP-062-M2-T2",
+                "text": "Equal requested time can impose unequal burdens."
+              },
+              {
+                "id": "SWP-062-M2-T3",
+                "text": "Funding uncertainty should be disclosed before work is requested."
+              },
+              {
+                "id": "SWP-062-M2-T4",
+                "text": "Qualitative comparisons have alternative explanations."
+              },
+              {
+                "id": "SWP-062-M2-T5",
+                "text": "Voluntary contributions need withdrawal contingencies."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Asset-led action and learning",
+            "outcome": "Review an asset-led proposal using access and outcome distinctions.",
+            "teaching_points": [
+              {
+                "id": "SWP-062-M3-T1",
+                "text": "Asset counts are not development outcomes."
+              },
+              {
+                "id": "SWP-062-M3-T2",
+                "text": "Cost analysis is not cost-effectiveness."
+              },
+              {
+                "id": "SWP-062-M3-T3",
+                "text": "Officials do not represent all youth experiences automatically."
+              },
+              {
+                "id": "SWP-062-M3-T4",
+                "text": "Related papers may share data."
+              },
+              {
+                "id": "SWP-062-M3-T5",
+                "text": "A responsible revision may reduce or stop an activity."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-062-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-062-M1-T1",
+            "question": "A fictional hall appears on an asset list. What remains to check?",
+            "options": [
+              {
+                "text": "That its existence proves equal benefit.",
+                "correct": false
+              },
+              {
+                "text": "That every resident owns it.",
+                "correct": false
+              },
+              {
+                "text": "Availability, cost, accessibility and permission for the proposed purpose.",
+                "correct": true
+              },
+              {
+                "text": "That all service needs are solved.",
+                "correct": false
+              }
+            ],
+            "rationale": "A resource is useful only under suitable access conditions."
+          },
+          {
+            "id": "SWP-062-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-062-M1-T2",
+            "question": "A group has strong mutual support but unsafe water. What is defensible?",
+            "options": [
+              {
+                "text": "Declare water needs resolved by solidarity.",
+                "correct": false
+              },
+              {
+                "text": "Blame residents for not volunteering more.",
+                "correct": false
+              },
+              {
+                "text": "Remove all public responsibilities from the plan.",
+                "correct": false
+              },
+              {
+                "text": "Recognise the strength and retain the infrastructure responsibility.",
+                "correct": true
+              }
+            ],
+            "rationale": "Asset thinking does not erase structural needs."
+          },
+          {
+            "id": "SWP-062-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-062-M1-T3",
+            "question": "A gardener is listed as free labour without agreement. What is missing?",
+            "options": [
+              {
+                "text": "A voluntary and bounded agreement about any contribution.",
+                "correct": true
+              },
+              {
+                "text": "A public personal history.",
+                "correct": false
+              },
+              {
+                "text": "A rule making all skills compulsory.",
+                "correct": false
+              },
+              {
+                "text": "A claim that mapping creates consent.",
+                "correct": false
+              }
+            ],
+            "rationale": "Availability and consent require separate confirmation."
+          },
+          {
+            "id": "SWP-062-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-062-M1-T4",
+            "question": "A 2025 ABCD paper reports 2021 interviews. Which date describes the interviews?",
+            "options": [
+              {
+                "text": "2025 because the paper is recent.",
+                "correct": false
+              },
+              {
+                "text": "2021.",
+                "correct": true
+              },
+              {
+                "text": "2026 because it was searched now.",
+                "correct": false
+              },
+              {
+                "text": "The year of the learner's certificate.",
+                "correct": false
+              }
+            ],
+            "rationale": "Publication and data collection dates serve different purposes."
+          },
+          {
+            "id": "SWP-062-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-062-M1-T5",
+            "question": "A learner says the Newham evaluation proves every asset map improves outcomes. What is wrong?",
+            "options": [
+              {
+                "text": "All qualitative evidence is worthless.",
+                "correct": false
+              },
+              {
+                "text": "A title guarantees transportability.",
+                "correct": false
+              },
+              {
+                "text": "Its design and context do not establish that general causal claim.",
+                "correct": true
+              },
+              {
+                "text": "Every listed asset was tested in Nigeria.",
+                "correct": false
+              }
+            ],
+            "rationale": "Contextual evidence informs questions without universal causal conclusions."
+          },
+          {
+            "id": "SWP-062-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-062-M2-T1",
+            "question": "A fictional connector is assigned daily tasks with no time or support. What needs planning?",
+            "options": [
+              {
+                "text": "A claim that goodwill removes all costs.",
+                "correct": false
+              },
+              {
+                "text": "An assumption of unlimited volunteer capacity.",
+                "correct": false
+              },
+              {
+                "text": "An unrelated outcome guarantee.",
+                "correct": false
+              },
+              {
+                "text": "Feasible workload, support and role boundaries.",
+                "correct": true
+              }
+            ],
+            "rationale": "Relationships require practical work and support."
+          },
+          {
+            "id": "SWP-062-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-062-M2-T2",
+            "question": "Two residents are asked for the same unpaid day. What should be considered?",
+            "options": [
+              {
+                "text": "Different opportunity costs and whether participation is genuinely feasible.",
+                "correct": true
+              },
+              {
+                "text": "That identical hours prove fairness.",
+                "correct": false
+              },
+              {
+                "text": "That low income means automatic consent.",
+                "correct": false
+              },
+              {
+                "text": "That travel time cannot matter.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation costs differ between people."
+          },
+          {
+            "id": "SWP-062-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-062-M2-T3",
+            "question": "A grant is undecided but benefits are promised for upfront labour. What correction is needed?",
+            "options": [
+              {
+                "text": "Hide the funding status.",
+                "correct": false
+              },
+              {
+                "text": "Explain uncertainty and avoid guarantees beyond approved authority.",
+                "correct": true
+              },
+              {
+                "text": "Record the grant as received.",
+                "correct": false
+              },
+              {
+                "text": "Make unpaid work compulsory.",
+                "correct": false
+              }
+            ],
+            "rationale": "People need honest information before choosing a contribution."
+          },
+          {
+            "id": "SWP-062-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-062-M2-T4",
+            "question": "Government and NGO projects deliver different goods. What limits a causal comparison?",
+            "options": [
+              {
+                "text": "The title proves identical conditions.",
+                "correct": false
+              },
+              {
+                "text": "Publication cancels confounding.",
+                "correct": false
+              },
+              {
+                "text": "Differences in goods, actors and prior trust may influence accounts.",
+                "correct": true
+              },
+              {
+                "text": "All competition must therefore be prohibited.",
+                "correct": false
+              }
+            ],
+            "rationale": "Design and context affect interpretation."
+          },
+          {
+            "id": "SWP-062-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-062-M2-T5",
+            "question": "A fictional expert can no longer donate time. What improves the proposal?",
+            "options": [
+              {
+                "text": "Assume the promise cannot change.",
+                "correct": false
+              },
+              {
+                "text": "Expose the expert's private circumstances.",
+                "correct": false
+              },
+              {
+                "text": "Pretend the work was completed.",
+                "correct": false
+              },
+              {
+                "text": "An authorised alternative or revised feasible scope.",
+                "correct": true
+              }
+            ],
+            "rationale": "A plan should remain honest when resources change."
+          },
+          {
+            "id": "SWP-062-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-062-M3-T1",
+            "question": "A fictional list grows from ten to twenty assets. What can it establish alone?",
+            "options": [
+              {
+                "text": "A larger recorded inventory, not proven benefit.",
+                "correct": true
+              },
+              {
+                "text": "A doubled food-security outcome.",
+                "correct": false
+              },
+              {
+                "text": "Causal inclusion of every resident.",
+                "correct": false
+              },
+              {
+                "text": "Automatic programme effectiveness.",
+                "correct": false
+              }
+            ],
+            "rationale": "Inventory size and benefit are different measures."
+          },
+          {
+            "id": "SWP-062-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-062-M3-T2",
+            "question": "A project calculates staff and volunteer costs without comparative outcomes. What is missing for cost-effectiveness?",
+            "options": [
+              {
+                "text": "Only a more attractive currency symbol.",
+                "correct": false
+              },
+              {
+                "text": "Appropriate outcome information and a defensible comparison.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that all donations are free.",
+                "correct": false
+              },
+              {
+                "text": "A larger attendance list.",
+                "correct": false
+              }
+            ],
+            "rationale": "Costs alone do not establish benefit relative to alternatives."
+          },
+          {
+            "id": "SWP-062-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-062-M3-T3",
+            "question": "A survey samples registered organisation officials. What generalisation needs caution?",
+            "options": [
+              {
+                "text": "The fact that officials responded.",
+                "correct": false
+              },
+              {
+                "text": "The existence of selected organisations.",
+                "correct": false
+              },
+              {
+                "text": "Claims about all young people statewide.",
+                "correct": true
+              },
+              {
+                "text": "The need to identify the sampling frame.",
+                "correct": false
+              }
+            ],
+            "rationale": "The sampling frame excludes many perspectives."
+          },
+          {
+            "id": "SWP-062-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-062-M3-T4",
+            "question": "Two papers use the same author, frame and response counts. What is appropriate?",
+            "options": [
+              {
+                "text": "Count them as two independent experiments.",
+                "correct": false
+              },
+              {
+                "text": "Assume publication proves distinct samples.",
+                "correct": false
+              },
+              {
+                "text": "Teach their associations as causal effects.",
+                "correct": false
+              },
+              {
+                "text": "Flag possible overlap and avoid calling them independent replications.",
+                "correct": true
+              }
+            ],
+            "rationale": "Dataset independence must be established, not assumed."
+          },
+          {
+            "id": "SWP-062-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-062-M3-T5",
+            "question": "Access barriers and burdens remain unacceptable. What can a review recommend?",
+            "options": [
+              {
+                "text": "A justified pause or smaller feasible scope with a decision owner.",
+                "correct": true
+              },
+              {
+                "text": "Proceed because all assets must be used.",
+                "correct": false
+              },
+              {
+                "text": "Hide the barriers from reviewers.",
+                "correct": false
+              },
+              {
+                "text": "Claim completed professional competence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning includes deciding when a proposal is unsuitable."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-063",
+      "title": "Community Accountability and Grievance Mechanisms",
+      "slug": "community-accountability-and-grievance-mechanisms",
+      "cover_title": "Community Accountability\nand Grievance\nMechanisms",
+      "school_code": "PCEI",
+      "school_name": "School of Community Development and Participatory Engagement",
+      "school_display": "Community Development and\nParticipatory Engagement",
+      "estimated_minutes": 180,
+      "audience": "Introductory community participation, planning and delivery learners. No investigation, legal adjudication, independent safeguarding or professional competence is conferred.",
+      "study_guidance": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence. Proposed study duration is subject to piloting.",
+      "practice_safety_note": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence.",
+      "outcome": "Outline a fictional accessible accountability pathway with bounded complaint handling, qualified safeguarding routes, proportionate records and an honest review of responses.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Accountability and safe access",
+          "outcome": "Distinguish a usable accountability arrangement from a complaint box.",
+          "paragraphs": [
+            "Accountability concerns explaining decisions, hearing concerns and assigning responsibility for a suitable response. A box, phone number or online form is only an entry channel; it does not establish that a concern reaches an appropriate decision-maker or that anyone responds fairly. Start by identifying the activity for which the organisation is responsible, the people who may be affected and the authority that can review or change it. OECD participation guidance connects input with decision use and feedback. Participation and accountability can support each other, but attendance at a consultation cannot demonstrate that a grievance route works. [S32]",
+            "The World Bank ESS10 guidance describes accessible, proportionate grievance arrangements for projects within its own framework. It is a useful comparator for questions about access, impartiality, confidentiality and non-retaliation, not a universal legal rule or an academy-approved investigation protocol. A local mechanism needs qualified design and review for its actual setting. Learners can identify those dependencies without declaring legal compliance. Explain what kinds of ordinary programme concern the proposed route may receive, who has authority to respond and which matters need a separate qualified process. Do not promise that every allegation can be resolved internally. [S33]",
+            "Access involves language, disability, literacy, cost, travel, digital availability and whether a person fears adverse consequences. Offer appropriate alternatives and explain the process in understandable terms, including its limits. Anonymous concerns may need a route, but the ability to follow up can be constrained when no safe contact is available. Do not demand public identification as the price of raising a concern, or promise absolute anonymity where system access and legal duties have not been reviewed. Avoid assuming that a community leader can safely speak for everyone or that a family member is always an appropriate intermediary. [S33, S31]",
+            "For coursework, use invented concerns about an invented programme, such as an inaccessible timetable or an unclear selection rule. Never ask a real complainant to test a route, submit a child or survivor record, or describe a personal history. An alternative fictional exercise is available. A pathway outline should state entry options, scope, response owner, information limits and the existence of qualified safeguarding or emergency arrangements where relevant. This is introductory process reasoning, not training to investigate wrongdoing, make legal findings or independently handle serious disclosures. [S31, S33]"
+          ],
+          "example": "Fictional case: A fictional programme installs a complaints box on an upstairs landing, names no response owner and calls the system fully accountable.",
+          "activity": "Identify the access and responsibility gaps and outline a bounded alternative route using only an invented timetable concern.",
+          "feedback": "A usable route requires accessible options and an authorised response process. The box alone establishes neither inclusion nor accountability.",
+          "sources": [
+            "S32",
+            "S33",
+            "S31"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Bounded handling and qualified routes",
+          "outcome": "Outline acknowledgement, impartial referral and follow-up without adjudicating.",
+          "paragraphs": [
+            "Handling an ordinary programme concern begins with understanding what response is being requested and explaining the next appropriate step. Record only necessary information through an approved system and provide a realistic acknowledgement where safe contact is possible. Acknowledging receipt does not confirm that an allegation is true, that an investigation has begun or that the requested remedy is approved. ESS10 guidance discusses indicative response timeframes in relation to nature, complexity and resources. For the fictional task, label any proposed timing as subject to local review rather than invent a universal deadline. [S33]",
+            "Impartiality requires attention to conflicts of interest. A person who controls the disputed selection decision should not automatically be the sole reviewer of a concern about that decision. Identify an appropriately authorised alternative or escalation role, and explain who can decide a remedy. The facilitator may help someone understand a route within their role but must not pressure them to withdraw, bargain away rights or supply evidence publicly. A dialogue can clarify a routine service issue; it is not a substitute for investigation or legal adjudication when those are needed. Avoid deciding guilt from a classroom description. [S33, S31]",
+            "Safeguarding and emergency concerns need designated qualified arrangements, not an ordinary queue or improvised mediation. The actual triggers, responsibilities and routes require local professional and legal review. This course does not provide clinical triage, child protection investigation or a universal reporting rule. A learner should recognise the boundary and name the dependency without collecting details from a real person. Respect the person's appropriate choices and explain confidentiality limits honestly through authorised arrangements. Do not assume a caregiver, community leader or alleged subject is a safe person to contact merely because they hold a familiar role. [S31, S33]",
+            "Follow-up should distinguish the stages of the process: received, assigned, awaiting information, referred, decision communicated and closed under the relevant approved criteria. A referral sent is not a referral accepted, and a record closed is not proof that a person is satisfied or safe. Give a suitable way to query the response or seek an authorised review without retaliation. Maintain appropriate separation between public status summaries and private case information. In the fictional exercise, write roles and conditional steps rather than names, sensitive narratives or an invented claim that an external agency has agreed to act. [S33, S32]"
+          ],
+          "example": "Fictional case: A fictional selection officer reviews a complaint about their own decision. A serious safeguarding concern is placed in the same routine queue and an unaccepted referral is marked resolved.",
+          "activity": "Draft a handling outline separating acknowledgement, conflict review, qualified urgent routes and confirmation of follow-up responsibility.",
+          "feedback": "Receipt is not a finding, the disputed decision needs an impartial route, and urgent qualified arrangements cannot be replaced by routine complaint administration.",
+          "sources": [
+            "S33",
+            "S31",
+            "S32"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Proportionate records and accountable learning",
+          "outcome": "Interpret complaint information without exposing people or claiming false improvements.",
+          "paragraphs": [
+            "A record should support an authorised purpose, not accumulate every possible detail. A fictional tracking outline can use an invented reference, broad concern category, responsible role, status and next review point. It should not contain a real person's identity, sensitive account, contact details or a public link to a private record. Actual retention, access controls and exceptions require local governance and qualified review. ESS10 confidentiality and non-retaliation guidance is relevant as a benchmark, but completing a classroom template does not establish that an organisation's storage or handling is secure. [S33]",
+            "Learning from concerns can reveal repeated access problems or unclear rules. Aggregate information should be checked for small-group identification risks before any public summary. Explain what changed in the programme and which authority agreed it, without exposing who complained. OECD feedback principles support providing reasons for decisions and accessible follow-up. An accountability summary should also acknowledge unresolved problems and barriers to using the route. A polished dashboard with no response owner or no correction process is weak evidence of accountable practice, even if its numbers are technically accurate. [S32, S33]",
+            "Complaint counts need cautious interpretation. A rise may reflect improved access, greater awareness, more problems, changed classification or several factors together. A fall may reflect fewer problems, fear, inaccessible channels or missing records. Neither direction alone proves improvement. Compare defined periods, units, scope and completeness before describing a trend; distinguish concerns received, responses completed and changes experienced. Participation attendance likewise cannot establish effective accountability. Use invented aggregate figures to practise these distinctions without building an advanced causal evaluation or seeking real complainant records. [S32, S33]",
+            "A learning action needs a responsible owner, an approved scope and a review point. For example, a timetable concern could lead to a proposed alternative session with access checking; do not claim implementation until it occurred. Maintain a history of changes to the decision record and a suitable route for correction or appeal under approved arrangements. Staff decisions and learner marking are separate records, both requiring appropriate authority. Grievance facilitation remains distinct from investigation, legal adjudication, safeguarding and emergency response, regardless of a learner's quiz score. Supervised practice and local review remain pending. [S31, S33]"
+          ],
+          "example": "Fictional case: A fictional dashboard shows fewer complaints and claims all problems ended. The channel was moved online and an identifiable small-group case appears in a public summary.",
+          "activity": "Write a cautious interpretation and a revised summary plan with information limits, an access question and an accountable action owner.",
+          "feedback": "Fewer recorded complaints have several explanations. Remove identifying detail, check access and completeness, and separate proposed changes from completed responses.",
+          "sources": [
+            "S33",
+            "S32",
+            "S31"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-063",
+        "course_slug": "community-accountability-and-grievance-mechanisms",
+        "title": "Community Accountability and Grievance Mechanisms",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "74dc5beef0b0090d2399d82a8797d72900b5a35a698cdd0cd1cfbf770191b902",
+        "catalogue_sha256": "8be57bf1df82f4aa158a59169a85fe0e56fecfc6da44d1a9d45b9f8f481f1f99",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Accountability and safe access",
+            "outcome": "Distinguish a usable accountability arrangement from a complaint box.",
+            "teaching_points": [
+              {
+                "id": "SWP-063-M1-T1",
+                "text": "A complaint channel is not a complete accountability process."
+              },
+              {
+                "id": "SWP-063-M1-T2",
+                "text": "Accessibility includes perceived consequences and practical barriers."
+              },
+              {
+                "id": "SWP-063-M1-T3",
+                "text": "ESS10 is a context-specific comparator."
+              },
+              {
+                "id": "SWP-063-M1-T4",
+                "text": "Absolute privacy promises need an established basis."
+              },
+              {
+                "id": "SWP-063-M1-T5",
+                "text": "Coursework must not recruit real complainants."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Bounded handling and qualified routes",
+            "outcome": "Outline acknowledgement, impartial referral and follow-up without adjudicating.",
+            "teaching_points": [
+              {
+                "id": "SWP-063-M2-T1",
+                "text": "Acknowledgement is not a finding."
+              },
+              {
+                "id": "SWP-063-M2-T2",
+                "text": "Conflicts of interest need an authorised alternative."
+              },
+              {
+                "id": "SWP-063-M2-T3",
+                "text": "Safeguarding routes differ from routine complaint queues."
+              },
+              {
+                "id": "SWP-063-M2-T4",
+                "text": "Referral transmission is not accepted responsibility."
+              },
+              {
+                "id": "SWP-063-M2-T5",
+                "text": "Closure does not prove satisfaction or safety."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Proportionate records and accountable learning",
+            "outcome": "Interpret complaint information without exposing people or claiming false improvements.",
+            "teaching_points": [
+              {
+                "id": "SWP-063-M3-T1",
+                "text": "Fewer complaints do not prove fewer problems."
+              },
+              {
+                "id": "SWP-063-M3-T2",
+                "text": "Aggregates can still identify small groups."
+              },
+              {
+                "id": "SWP-063-M3-T3",
+                "text": "Track only necessary information for an authorised purpose."
+              },
+              {
+                "id": "SWP-063-M3-T4",
+                "text": "Comparable trends need defined units and completeness."
+              },
+              {
+                "id": "SWP-063-M3-T5",
+                "text": "Learning actions require authority and a review point."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-063-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-063-M1-T1",
+            "question": "A fictional box has no assigned reviewer. What is missing?",
+            "options": [
+              {
+                "text": "Proof that complaints are resolved.",
+                "correct": false
+              },
+              {
+                "text": "A requirement for public testimony.",
+                "correct": false
+              },
+              {
+                "text": "An authorised response owner and a clear handling process.",
+                "correct": true
+              },
+              {
+                "text": "A guarantee of legal compliance.",
+                "correct": false
+              }
+            ],
+            "rationale": "Receiving a message and responding accountably are distinct."
+          },
+          {
+            "id": "SWP-063-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-063-M1-T2",
+            "question": "A route is free but users fear losing unrelated support. What needs attention?",
+            "options": [
+              {
+                "text": "Only the colour of the form.",
+                "correct": false
+              },
+              {
+                "text": "A claim that free access removes every barrier.",
+                "correct": false
+              },
+              {
+                "text": "A rule excluding anonymous concerns.",
+                "correct": false
+              },
+              {
+                "text": "Non-retaliation arrangements and safe accessible options.",
+                "correct": true
+              }
+            ],
+            "rationale": "Cost is only one possible access barrier."
+          },
+          {
+            "id": "SWP-063-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-063-M1-T3",
+            "question": "A learner cites ESS10 as universal Nigerian law for every club. What is accurate?",
+            "options": [
+              {
+                "text": "It is World Bank project guidance requiring context-specific qualified review.",
+                "correct": true
+              },
+              {
+                "text": "It replaces all local professional judgement.",
+                "correct": false
+              },
+              {
+                "text": "It certifies the learner as an investigator.",
+                "correct": false
+              },
+              {
+                "text": "It automatically approves every academy form.",
+                "correct": false
+              }
+            ],
+            "rationale": "Guidance scope must remain explicit."
+          },
+          {
+            "id": "SWP-063-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-063-M1-T4",
+            "question": "A fictional form promises absolute anonymity without a systems review. What should change?",
+            "options": [
+              {
+                "text": "Guarantee secrecy regardless of duties.",
+                "correct": false
+              },
+              {
+                "text": "Explain realistic information access and limits through qualified review.",
+                "correct": true
+              },
+              {
+                "text": "Publish names to demonstrate transparency.",
+                "correct": false
+              },
+              {
+                "text": "Collect more identifiers by default.",
+                "correct": false
+              }
+            ],
+            "rationale": "Privacy promises must match actual arrangements."
+          },
+          {
+            "id": "SWP-063-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-063-M1-T5",
+            "question": "A class proposes testing a route with a real survivor account. What is appropriate?",
+            "options": [
+              {
+                "text": "Invite identifiable child records.",
+                "correct": false
+              },
+              {
+                "text": "Require a personal history.",
+                "correct": false
+              },
+              {
+                "text": "Use an invented programme concern instead.",
+                "correct": true
+              },
+              {
+                "text": "Send the account to all learners.",
+                "correct": false
+              }
+            ],
+            "rationale": "The exercise does not need sensitive real-world material."
+          },
+          {
+            "id": "SWP-063-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-063-M2-T1",
+            "question": "A fictional concern has been received. What can an acknowledgement establish?",
+            "options": [
+              {
+                "text": "A legal finding of guilt.",
+                "correct": false
+              },
+              {
+                "text": "An approved remedy automatically.",
+                "correct": false
+              },
+              {
+                "text": "Proof the complainant is satisfied.",
+                "correct": false
+              },
+              {
+                "text": "Receipt and the explained next step, not the truth of the allegation.",
+                "correct": true
+              }
+            ],
+            "rationale": "Process status should not overstate evidence or authority."
+          },
+          {
+            "id": "SWP-063-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-063-M2-T2",
+            "question": "The disputed decision-maker is the only complaint reviewer. What needs review?",
+            "options": [
+              {
+                "text": "An impartial authorised review or escalation arrangement.",
+                "correct": true
+              },
+              {
+                "text": "A rule that seniority removes conflicts.",
+                "correct": false
+              },
+              {
+                "text": "Pressure to withdraw the concern.",
+                "correct": false
+              },
+              {
+                "text": "A public vote on guilt.",
+                "correct": false
+              }
+            ],
+            "rationale": "Review independence matters for credible handling."
+          },
+          {
+            "id": "SWP-063-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-063-M2-T3",
+            "question": "A fictional plan delays every serious safety concern until the next monthly review. What is missing?",
+            "options": [
+              {
+                "text": "A universal learner-created reporting deadline.",
+                "correct": false
+              },
+              {
+                "text": "Designated qualified safeguarding or emergency arrangements as applicable.",
+                "correct": true
+              },
+              {
+                "text": "Improvised public mediation.",
+                "correct": false
+              },
+              {
+                "text": "Permission to investigate children independently.",
+                "correct": false
+              }
+            ],
+            "rationale": "Routine administration cannot substitute for qualified safety responses."
+          },
+          {
+            "id": "SWP-063-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-063-M2-T4",
+            "question": "A message is sent to another role but no acceptance is confirmed. What is accurate?",
+            "options": [
+              {
+                "text": "The concern is necessarily resolved.",
+                "correct": false
+              },
+              {
+                "text": "The person is proven safe.",
+                "correct": false
+              },
+              {
+                "text": "Follow-up and responsibility remain unresolved.",
+                "correct": true
+              },
+              {
+                "text": "All information may now be published.",
+                "correct": false
+              }
+            ],
+            "rationale": "Sending is one process step, not a completed outcome."
+          },
+          {
+            "id": "SWP-063-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-063-M2-T5",
+            "question": "A fictional register marks a record closed. What still cannot be inferred?",
+            "options": [
+              {
+                "text": "That a closure status was recorded.",
+                "correct": false
+              },
+              {
+                "text": "That criteria should be reviewed.",
+                "correct": false
+              },
+              {
+                "text": "That a response may need explanation.",
+                "correct": false
+              },
+              {
+                "text": "That the person agrees with the response or is safe.",
+                "correct": true
+              }
+            ],
+            "rationale": "Administrative status and lived outcomes are different."
+          },
+          {
+            "id": "SWP-063-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-063-M3-T1",
+            "question": "Recorded concerns fall after a fictional route becomes online-only. What must be considered?",
+            "options": [
+              {
+                "text": "Access barriers and recording changes as alternative explanations.",
+                "correct": true
+              },
+              {
+                "text": "That all problems necessarily ended.",
+                "correct": false
+              },
+              {
+                "text": "That fewer entries prove satisfaction.",
+                "correct": false
+              },
+              {
+                "text": "That no further review is warranted.",
+                "correct": false
+              }
+            ],
+            "rationale": "Counts depend on access and recording as well as underlying concerns."
+          },
+          {
+            "id": "SWP-063-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-063-M3-T2",
+            "question": "A public summary describes one distinctive invented household. What principle applies to real reporting?",
+            "options": [
+              {
+                "text": "Aggregate labels guarantee anonymity.",
+                "correct": false
+              },
+              {
+                "text": "Review identification risk and minimise detail before disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Publish all underlying records.",
+                "correct": false
+              },
+              {
+                "text": "Names are the only identifying information.",
+                "correct": false
+              }
+            ],
+            "rationale": "Distinctive combinations can expose people."
+          },
+          {
+            "id": "SWP-063-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-063-M3-T3",
+            "question": "A routine timetable concern form asks for a full health history. What is appropriate?",
+            "options": [
+              {
+                "text": "Collect it in case it is useful later.",
+                "correct": false
+              },
+              {
+                "text": "Publish it for class verification.",
+                "correct": false
+              },
+              {
+                "text": "Remove unnecessary sensitive information and use proportionate fields.",
+                "correct": true
+              },
+              {
+                "text": "Treat the complaint as consent for every use.",
+                "correct": false
+              }
+            ],
+            "rationale": "Purpose limits reduce needless exposure."
+          },
+          {
+            "id": "SWP-063-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-063-M3-T4",
+            "question": "Two fictional periods use different concern categories. What is needed before comparison?",
+            "options": [
+              {
+                "text": "Assume categories are identical.",
+                "correct": false
+              },
+              {
+                "text": "Compare totals as causal effects.",
+                "correct": false
+              },
+              {
+                "text": "Discard the smaller total automatically.",
+                "correct": false
+              },
+              {
+                "text": "Check definitions, coverage and missing information.",
+                "correct": true
+              }
+            ],
+            "rationale": "Measurement changes can produce apparent trends."
+          },
+          {
+            "id": "SWP-063-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-063-M3-T5",
+            "question": "A proposed timetable change is shown as completed. What correction is needed?",
+            "options": [
+              {
+                "text": "Record its actual status, decision owner and next check.",
+                "correct": true
+              },
+              {
+                "text": "Keep the success claim until challenged.",
+                "correct": false
+              },
+              {
+                "text": "Delete all amendment history.",
+                "correct": false
+              },
+              {
+                "text": "Certify the programme from the dashboard.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accountability includes an honest action history."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-064",
+      "title": "Inclusive Local Planning and Co Design",
+      "slug": "inclusive-local-planning-and-co-design",
+      "cover_title": "Inclusive Local Planning\nand Co Design",
+      "school_code": "PCEI",
+      "school_name": "School of Community Development and Participatory Engagement",
+      "school_display": "Community Development and\nParticipatory Engagement",
+      "estimated_minutes": 180,
+      "audience": "Introductory community participation, planning and delivery learners. No investigation, legal adjudication, independent safeguarding or professional competence is conferred.",
+      "study_guidance": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence. Proposed study duration is subject to piloting.",
+      "practice_safety_note": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence.",
+      "outcome": "Prepare a fictional local planning proposal that shares bounded decisions, compares feasible options, checks inclusion and records revisions without claiming causal outcomes or legal compliance.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Shared planning and decision scope",
+          "outcome": "Clarify who can shape a local plan and what remains conditional.",
+          "paragraphs": [
+            "Local planning links a purpose with choices about activities, resources and responsibilities in a particular place. Co-design implies that relevant people can shape meaningful aspects of those choices, rather than simply comment on a finished proposal. Explain which decisions are open, which constraints are fixed and who holds final authority. A funder may restrict the budget while leaving session location or delivery arrangements open. OECD guidance encourages matching participation to the decision and explaining its intended influence. Do not label an information session as shared design merely because residents were invited to hear it. [S32]",
+            "Inclusion requires attention to whose knowledge enters the plan and whose preferences carry weight. A formal association may provide useful connections without representing people who are not members. Consider language, disability, timing, care responsibilities, employment patterns and digital access as questions to check rather than assumed group characteristics. IACD practice standards connect planning, engagement and diversity with community development. Their role here is a competency comparator, not a prescribed course syllabus or proof that a particular participation method will work locally. Document missing perspectives and the conditions needed to engage them appropriately. [S31]",
+            "Sharing power is affected by more than the number of invited participants. Access to information, the ability to suggest alternatives, authority to change a draft and control over the final account all matter. The UK synthesis of research co-production identifies institutional constraints and relational negotiation in that specialised setting. It cannot establish the effectiveness of a local planning meeting in Nigeria, but it challenges the assumption that a friendly atmosphere guarantees influence. A fictional design note should explain how contributions can lead to an actual revision and how participants will learn what happened to their suggestions. [R42, S32]",
+            "Keep the scope introductory. Learners develop an invented service arrangement, not a legal compliance assessment or an advanced research protocol. Do not seek personal histories, recruit real residents or ask children to test an idea. An alternative fictional exercise can meet the same outcome. State which local practice, accessibility and safeguarding questions need qualified review before any real activity. A clear boundary can improve the honesty of the proposal even when it limits what can be promised. A plan is a draft until the responsible authority has approved the necessary decisions and resources. [S31, S32]"
+          ],
+          "example": "Fictional case: A fictional local programme calls its launch event co-design, but the location, time and delivery method were already decided. Only the poster colour can change.",
+          "activity": "Write a revised scope statement naming meaningful open choices, constraints, authority and an accessible route for missing perspectives.",
+          "feedback": "If meaningful decisions cannot change, describe the event honestly as information or consultation. Do not promise shared control that participants do not have.",
+          "sources": [
+            "S32",
+            "S31",
+            "R42"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Options resources and inclusive trade-offs",
+          "outcome": "Compare feasible local options while keeping unequal burdens visible.",
+          "paragraphs": [
+            "Planning often involves several plausible options rather than one obvious answer. Describe each option in relation to the same purpose and constraints. Compare access, resource needs, delivery responsibilities and the people who may benefit or bear costs. An option that reaches more people may still exclude a smaller group with a substantial barrier. OECD participation guidance supports clear information and appropriate methods, but it does not remove the need for judgement about trade-offs. Use plain explanations so the comparison can be questioned rather than conceal assumptions in an unexplained score. [S32]",
+            "Feasibility includes time, paid and unpaid work, transport, materials, competence, approval and continuing support. Do not treat donated labour as unlimited or available without agreement. The Newham ABCD evaluation highlights connecting work and contextual resources, while its cost analysis does not prove cost-effectiveness. A fictional plan should identify the owner and status of each important resource: confirmed for the exercise, assumed or requiring future verification. Avoid solving every gap by asking already constrained people to contribute more time. A missing dependency can justify changing the scope rather than disguising the shortfall. [R41, S31]",
+            "Choices about local contributions can affect cooperation and expectations. The Tanzanian qualitative comparison raises questions about upfront effort and uncertain funding, but differences between implementing actors and goods limit causal interpretation. Apply this as a prompt to disclose burdens and conditions, not as a rule that all competition undermines development. If residents are asked to help before a grant decision, explain what remains uncertain and what happens if the project cannot proceed. No classroom proposal can guarantee public funding, waive local requirements or bind an external organisation to deliver support. [R43]",
+            "A reasoned trade-off record explains why an option is proposed, which alternatives were considered and which disadvantages remain. Provide a way for affected people to question the assumptions under approved arrangements. Do not claim that the majority preference resolves every inclusion concern, or that an average benefit compensates automatically for serious exclusion. Keep sensitive individual circumstances out of the learner record; use invented aggregate assumptions and state uncertainty. This task develops transparent planning judgement, not an advanced causal analysis, a legal ruling or authority to make decisions for a real community. [S31, S32]"
+          ],
+          "example": "Fictional case: A fictional team compares a central daytime session with two smaller evening sessions. The first is cheaper but excludes shift workers; the second depends on unconfirmed volunteer support.",
+          "activity": "Compare both options by purpose, access, resources, burdens and unresolved dependencies, then justify a conditional recommendation.",
+          "feedback": "Explain the access trade-off and the unconfirmed support. A conditional recommendation is more honest than declaring either option universally inclusive.",
+          "sources": [
+            "S32",
+            "R41",
+            "S31",
+            "R43"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Prototypes feedback and revision",
+          "outcome": "Use a fictional prototype to review usability without confusing a pilot with proof.",
+          "paragraphs": [
+            "A prototype is a provisional representation used to explore an idea, such as an invented session schedule, a plain-language notice or a sample access route. It should be clearly labelled as a draft so nobody mistakes it for an approved service offer. The purpose of reviewing it is to expose unclear assumptions and practical barriers before committing resources. OECD participation guidance connects suitable methods and feedback with decision scope. A simple fictional prototype is sufficient for this course; learners are not asked to launch a service, collect real complaints or recruit vulnerable participants. [S32]",
+            "Feedback questions should relate to the intended purpose. Ask what the notice makes clear, what is missing, which access condition remains problematic and what would need qualified review. Avoid treating praise as evidence that every relevant person can use the plan. A review by classmates playing invented roles is a simulation, not a representative community consultation. IACD learning principles support revising practice in light of experience, but the claim made about that experience must match the exercise. Record the proposed correction, the reason, the responsible role and whether approval is still required. [S31, S32]",
+            "Testing and piloting have limits. A small review may identify an ambiguous instruction or a scheduling issue without showing whether the programme improves development outcomes. Outcome claims require suitable measures, context and evidence beyond a successful rehearsal. The qualitative co-production synthesis highlights ongoing negotiation rather than a simple finished state; its findings do not validate this prototype. Be explicit about the difference between a usable draft, an approved plan, delivered activity and demonstrated benefit. Do not relabel a learner's simulated exercise as completed field placement or independent professional competence. [R42, S31]",
+            "A revision history helps people understand what changed and why. Keep the version, decision owner, reason and unresolved issue in an appropriate record, and explain how feedback will reach those who contributed through approved arrangements. If a suggestion cannot be used, give a clear reason instead of silently removing it. Preserve privacy by using invented details in coursework and proportionate aggregate summaries in any future authorised process. Accessibility, local practice, safeguarding, supervised skill observation and learner piloting remain pending before real delivery. A polished document cannot substitute for these decisions or create an academy or provider approval. [S32, S31]"
+          ],
+          "example": "Fictional case: A fictional prototype notice is praised by three classmates. Its author claims statewide consultation, proven outcomes and approval to deliver, although access arrangements are unresolved.",
+          "activity": "Write a revision log with the actual simulation status, one access correction, reason, owner and remaining approval dependency.",
+          "feedback": "Call the review a fictional classroom simulation. Distinguish a revised draft from approval, delivery and outcome evidence; retain the unresolved access question.",
+          "sources": [
+            "S32",
+            "S31",
+            "R42"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-064",
+        "course_slug": "inclusive-local-planning-and-co-design",
+        "title": "Inclusive Local Planning and Co Design",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "49cee351f01c4f2c9d682df003df255b373d25cebf5547e36282178d3fd76492",
+        "catalogue_sha256": "43645e77dfaed60e383f0e82c4b447c8320489d4ac2ad35cb2e5e078e2feb5af",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Shared planning and decision scope",
+            "outcome": "Clarify who can shape a local plan and what remains conditional.",
+            "teaching_points": [
+              {
+                "id": "SWP-064-M1-T1",
+                "text": "Co-design requires influence over meaningful choices."
+              },
+              {
+                "id": "SWP-064-M1-T2",
+                "text": "Fixed constraints should be disclosed."
+              },
+              {
+                "id": "SWP-064-M1-T3",
+                "text": "Formal membership does not exhaust relevant perspectives."
+              },
+              {
+                "id": "SWP-064-M1-T4",
+                "text": "Friendly relations do not guarantee shared authority."
+              },
+              {
+                "id": "SWP-064-M1-T5",
+                "text": "Introductory planning does not authorise field recruitment."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Options resources and inclusive trade-offs",
+            "outcome": "Compare feasible local options while keeping unequal burdens visible.",
+            "teaching_points": [
+              {
+                "id": "SWP-064-M2-T1",
+                "text": "Compare options against a shared purpose."
+              },
+              {
+                "id": "SWP-064-M2-T2",
+                "text": "Lower cost does not automatically mean inclusive value."
+              },
+              {
+                "id": "SWP-064-M2-T3",
+                "text": "Unconfirmed support is a dependency."
+              },
+              {
+                "id": "SWP-064-M2-T4",
+                "text": "Contribution burdens should be disclosed."
+              },
+              {
+                "id": "SWP-064-M2-T5",
+                "text": "Majority preference does not erase exclusion."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Prototypes feedback and revision",
+            "outcome": "Use a fictional prototype to review usability without confusing a pilot with proof.",
+            "teaching_points": [
+              {
+                "id": "SWP-064-M3-T1",
+                "text": "Prototypes must be labelled as provisional."
+              },
+              {
+                "id": "SWP-064-M3-T2",
+                "text": "Classroom role-play is not community representation."
+              },
+              {
+                "id": "SWP-064-M3-T3",
+                "text": "Usability feedback is not outcome proof."
+              },
+              {
+                "id": "SWP-064-M3-T4",
+                "text": "Revision histories need reasons and owners."
+              },
+              {
+                "id": "SWP-064-M3-T5",
+                "text": "A simulated task is not completed field placement."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-064-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-064-M1-T1",
+            "question": "A fictional launch lets residents choose only a poster colour. What claim needs caution?",
+            "options": [
+              {
+                "text": "That an event was announced.",
+                "correct": false
+              },
+              {
+                "text": "That a colour can be chosen.",
+                "correct": false
+              },
+              {
+                "text": "That the programme was meaningfully co-designed.",
+                "correct": true
+              },
+              {
+                "text": "That constraints should be explained.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation labels should match actual influence."
+          },
+          {
+            "id": "SWP-064-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-064-M1-T2",
+            "question": "A grant fixes the budget but delivery times can change. What should participants know?",
+            "options": [
+              {
+                "text": "That they control every grant condition.",
+                "correct": false
+              },
+              {
+                "text": "Nothing until after drafting.",
+                "correct": false
+              },
+              {
+                "text": "That all alternatives are approved.",
+                "correct": false
+              },
+              {
+                "text": "The budget constraint and the genuine scope to shape delivery.",
+                "correct": true
+              }
+            ],
+            "rationale": "Honest scope enables informed participation."
+          },
+          {
+            "id": "SWP-064-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-064-M1-T3",
+            "question": "Only association members review a local plan. What remains uncertain?",
+            "options": [
+              {
+                "text": "The views and access needs of affected non-members.",
+                "correct": true
+              },
+              {
+                "text": "Whether invited members exist.",
+                "correct": false
+              },
+              {
+                "text": "Whether all non-members agree.",
+                "correct": false
+              },
+              {
+                "text": "That representation needs no checking.",
+                "correct": false
+              }
+            ],
+            "rationale": "Affected people may lie outside formal organisations."
+          },
+          {
+            "id": "SWP-064-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-064-M1-T4",
+            "question": "A warm meeting leaves all decisions with the original author. What should be examined?",
+            "options": [
+              {
+                "text": "Whether refreshments prove power sharing.",
+                "correct": false
+              },
+              {
+                "text": "Whether participants could actually revise the plan.",
+                "correct": true
+              },
+              {
+                "text": "Whether attendance certifies inclusion.",
+                "correct": false
+              },
+              {
+                "text": "Whether the author needs no accountability.",
+                "correct": false
+              }
+            ],
+            "rationale": "Influence requires decision arrangements, not atmosphere alone."
+          },
+          {
+            "id": "SWP-064-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-064-M1-T5",
+            "question": "A learner proposes recruiting real children to test a draft. What is appropriate here?",
+            "options": [
+              {
+                "text": "Recruit before approval to save time.",
+                "correct": false
+              },
+              {
+                "text": "Collect personal histories as design evidence.",
+                "correct": false
+              },
+              {
+                "text": "Use an invented scenario and identify qualified review dependencies.",
+                "correct": true
+              },
+              {
+                "text": "Treat a quiz pass as research permission.",
+                "correct": false
+              }
+            ],
+            "rationale": "The course uses fictional exercises with explicit scope limits."
+          },
+          {
+            "id": "SWP-064-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-064-M2-T1",
+            "question": "Two fictional delivery options are judged on unrelated criteria. What improves the comparison?",
+            "options": [
+              {
+                "text": "Choose the more colourful poster.",
+                "correct": false
+              },
+              {
+                "text": "Hide each option's costs.",
+                "correct": false
+              },
+              {
+                "text": "Assume all options have identical users.",
+                "correct": false
+              },
+              {
+                "text": "Use the same purpose, access and feasibility questions for both.",
+                "correct": true
+              }
+            ],
+            "rationale": "A common basis makes trade-offs understandable."
+          },
+          {
+            "id": "SWP-064-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-064-M2-T2",
+            "question": "A cheap daytime session excludes shift workers. What should remain visible?",
+            "options": [
+              {
+                "text": "The exclusion alongside cost and feasible alternatives.",
+                "correct": true
+              },
+              {
+                "text": "That the lowest cost proves equity.",
+                "correct": false
+              },
+              {
+                "text": "That excluded people consented.",
+                "correct": false
+              },
+              {
+                "text": "That access is irrelevant to planning.",
+                "correct": false
+              }
+            ],
+            "rationale": "Resource efficiency and inclusion are distinct considerations."
+          },
+          {
+            "id": "SWP-064-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-064-M2-T3",
+            "question": "A fictional option requires volunteers who have not agreed. What status is appropriate?",
+            "options": [
+              {
+                "text": "Fully resourced and approved.",
+                "correct": false
+              },
+              {
+                "text": "Conditional on voluntary support or a suitable alternative.",
+                "correct": true
+              },
+              {
+                "text": "Completed implementation.",
+                "correct": false
+              },
+              {
+                "text": "Guaranteed because the plan names them.",
+                "correct": false
+              }
+            ],
+            "rationale": "Naming a resource does not secure it."
+          },
+          {
+            "id": "SWP-064-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-064-M2-T4",
+            "question": "Residents are asked to work before funding is decided. What belongs in the plan?",
+            "options": [
+              {
+                "text": "A guaranteed benefit without approval.",
+                "correct": false
+              },
+              {
+                "text": "A hidden condition for unrelated support.",
+                "correct": false
+              },
+              {
+                "text": "The uncertainty, burden and consequence if funding fails.",
+                "correct": true
+              },
+              {
+                "text": "A claim that all competition is harmful.",
+                "correct": false
+              }
+            ],
+            "rationale": "Informed contributions need realistic conditions."
+          },
+          {
+            "id": "SWP-064-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-064-M2-T5",
+            "question": "Most invented respondents prefer an inaccessible venue. What is still necessary?",
+            "options": [
+              {
+                "text": "Treat all access concerns as settled.",
+                "correct": false
+              },
+              {
+                "text": "Delete minority reasons.",
+                "correct": false
+              },
+              {
+                "text": "Claim a legal ruling from the vote.",
+                "correct": false
+              },
+              {
+                "text": "Consider barriers and reasonable feasible alternatives through review.",
+                "correct": true
+              }
+            ],
+            "rationale": "Planning should retain unequal impacts for accountable judgement."
+          },
+          {
+            "id": "SWP-064-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-064-M3-T1",
+            "question": "An invented notice resembles a real approved offer. What should be explicit?",
+            "options": [
+              {
+                "text": "Its draft simulation status and unresolved approvals.",
+                "correct": true
+              },
+              {
+                "text": "A fabricated provider ID.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee of service access.",
+                "correct": false
+              },
+              {
+                "text": "A claim that design equals delivery.",
+                "correct": false
+              }
+            ],
+            "rationale": "Clear status prevents mistaken expectations."
+          },
+          {
+            "id": "SWP-064-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-064-M3-T2",
+            "question": "Three classmates review an invented schedule. What is an accurate description?",
+            "options": [
+              {
+                "text": "A statewide consultation.",
+                "correct": false
+              },
+              {
+                "text": "A simulated review by classmates.",
+                "correct": true
+              },
+              {
+                "text": "A random sample of residents.",
+                "correct": false
+              },
+              {
+                "text": "Proof that all communities support it.",
+                "correct": false
+              }
+            ],
+            "rationale": "The claim must match who actually participated."
+          },
+          {
+            "id": "SWP-064-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-064-M3-T3",
+            "question": "A prototype is easy to understand. What remains unproven?",
+            "options": [
+              {
+                "text": "That wording can be reviewed.",
+                "correct": false
+              },
+              {
+                "text": "That users may identify ambiguity.",
+                "correct": false
+              },
+              {
+                "text": "Whether delivery improves development outcomes.",
+                "correct": true
+              },
+              {
+                "text": "That a draft can be revised.",
+                "correct": false
+              }
+            ],
+            "rationale": "Usability and programme effects require different evidence."
+          },
+          {
+            "id": "SWP-064-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-064-M3-T4",
+            "question": "A draft changes after feedback. What should the log retain?",
+            "options": [
+              {
+                "text": "Only the final colour.",
+                "correct": false
+              },
+              {
+                "text": "Real sensitive histories by default.",
+                "correct": false
+              },
+              {
+                "text": "An invented signature of approval.",
+                "correct": false
+              },
+              {
+                "text": "The version, reason, responsible role and unresolved approval status.",
+                "correct": true
+              }
+            ],
+            "rationale": "Traceability helps reviewers assess decisions."
+          },
+          {
+            "id": "SWP-064-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-064-M3-T5",
+            "question": "A learner completes a fictional co-design worksheet. What recognition claim is appropriate?",
+            "options": [
+              {
+                "text": "Completion of an introductory learning exercise subject to course review.",
+                "correct": true
+              },
+              {
+                "text": "Independent professional competence.",
+                "correct": false
+              },
+              {
+                "text": "A completed supervised field placement.",
+                "correct": false
+              },
+              {
+                "text": "Automatic school certification.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning outputs cannot confer unobserved practice competence."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-065",
+      "title": "Community Programme Implementation Practicum",
+      "slug": "community-programme-implementation-practicum",
+      "cover_title": "Community Programme\nImplementation\nPracticum",
+      "school_code": "PCEI",
+      "school_name": "School of Community Development and Participatory Engagement",
+      "school_display": "Community Development and\nParticipatory Engagement",
+      "estimated_minutes": 180,
+      "audience": "Introductory community participation, planning and delivery learners. No investigation, legal adjudication, independent safeguarding or professional competence is conferred.",
+      "study_guidance": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence. Proposed study duration is subject to piloting.",
+      "practice_safety_note": "Use only supplied fictional scenarios and invented aggregate data. Do not collect real complainant, child or survivor records or personal histories, or recruit people for fieldwork. You may pause or use an alternative fictional exercise. Record reasoning before checking guide feedback. Practicum is introductory simulated/supervised learning, not completed field placement or independent professional competence.",
+      "outcome": "Prepare, rehearse and review a fictional implementation plan with feasible responsibilities, safe participation, honest status records and a supervised learning boundary.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "From plan to feasible delivery",
+          "outcome": "Translate a fictional programme purpose into bounded tasks and responsibilities.",
+          "paragraphs": [
+            "Implementation turns an approved plan into coordinated activity, but a classroom exercise is not approval to deliver. Begin with the intended purpose, the people the fictional programme is meant to serve and the assumptions linking activity to benefit. Separate tasks, outputs and outcomes: preparing a session is a task, holding it is an output and a meaningful change for people is an outcome requiring suitable evidence. The retained programme-development course provides the foundation for this distinction. IACD standards add the importance of collective planning and learning; neither a checklist nor attendance proves the intended benefit. [S31]",
+            "A feasible task needs an owner, a time, necessary resources and dependencies. Dependencies may include approved materials, a suitable venue, communication support, qualified supervision or an external decision. Show what cannot begin until the relevant condition is met. Do not mark a task complete because an email requesting approval was sent. OECD participation guidance connects resources, communication and access to a process's design. In the invented plan, identify which information is assumed for the exercise and which would need actual verification through authorised arrangements before real delivery. [S32]",
+            "Roles should match competence and authority. A learner can prepare an invented schedule and explain a concern; they do not gain authority to investigate complaints, recruit children, make legal determinations or independently deliver specialist services. The term practicum here means introductory fictional or supervised learning, not a completed field placement. Supervised skills observation would require a separate approved arrangement, suitable tasks and appropriate feedback. State these limits in the plan so the task cannot be mistaken for evidence of independent professional competence or an academy promise that a real placement has been completed. [S31]",
+            "Resources include paid and unpaid time, travel, materials, access arrangements and support for those coordinating the work. The Newham evaluation makes connecting roles and context visible but does not supply a universal staffing or cost-effectiveness formula. Do not assume that volunteers will absorb every shortfall, or treat their availability as confirmed without agreement. A smaller feasible activity may be preferable to an ambitious schedule built on unapproved contributions. Use invented roles and aggregate resource assumptions only; no real learner, volunteer, complainant, child or survivor records belong in the exercise. [R41, S31]"
+          ],
+          "example": "Fictional case: An invented programme schedules two sessions before the venue, interpreter and supervisor are confirmed. The learner is listed as an independent safeguarding lead.",
+          "activity": "Create a task sequence with owners, dependencies, resource status and a corrected learner role boundary.",
+          "feedback": "Hold dependent tasks as pending, distinguish requests from approvals and keep safeguarding with qualified arrangements. The plan is a simulation, not a placement record.",
+          "sources": [
+            "S31",
+            "S32",
+            "R41"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Rehearsal exceptions and safe changes",
+          "outcome": "Rehearse fictional delivery and assign qualified responses to exceptions.",
+          "paragraphs": [
+            "A rehearsal explores whether a planned sequence can work under stated conditions. Use an invented notice, schedule and set of roles, and clearly label all materials as simulated. A rehearsal can reveal missing information or a confusing handover; it cannot demonstrate that a real community received a service. OECD participation guidance supports clear communication and appropriate resources, while IACD standards make learning and reflection relevant. The exercise should have a defined purpose and a fictional alternative for a learner who prefers not to enact a role. No personal experience is needed to make the practice useful. [S32, S31]",
+            "Exceptions test a plan's assumptions. A venue may become unavailable, an access arrangement may fail or a volunteer may withdraw. Specify who can pause, revise or authorise a change, and how affected participants would receive appropriate information through approved arrangements. Do not improvise a larger activity to preserve a success claim when resources are missing. The Tanzanian qualitative study raises questions about contribution burdens and uncertain support, but does not prove that any particular contingency will restore cooperation. Use its limitations to resist an easy universal solution and keep the proposed response conditional. [R43]",
+            "A routine complaint about timing and a serious safeguarding concern require different routes. The World Bank project guidance provides a benchmark for accessible, impartial handling, not investigation competence. In the rehearsal, name the designated qualified dependency and stop at the learner's boundary; do not simulate a real distressing disclosure with an unprepared person. Avoid public mediation of allegations or promises of absolute confidentiality. A fictional pause can be the correct response when authority, competence or suitable arrangements are unavailable. Safety is not established merely because a practice session was completed without a recorded incident. [S33, S31]",
+            "Keep status changes traceable. Record the original assumption, the invented exception, the decision owner, the revised action and the reason. A proposed replacement venue is still proposed until the necessary access and approval conditions are met. Separate internal learning notes from any future authorised operational record, and never insert fabricated live receipts or signatures. This task rehearses transparent decisions under uncertainty rather than creating a record of actual service delivery. Supervised observation and local review remain pending, and no course score can replace the approval needed for a real programme change. [S32, S31]"
+          ],
+          "example": "Fictional case: During an invented rehearsal, the accessible venue becomes unavailable. An organiser suggests an inaccessible replacement and asks the learner to sign a completed-delivery record.",
+          "activity": "Write an exception note with the failed assumption, pause decision, qualified owner, conditional alternative and honest simulation status.",
+          "feedback": "Do not sign a false delivery record. Pause dependent activity, retain access requirements and record the alternative as conditional on appropriate verification and authority.",
+          "sources": [
+            "S32",
+            "S31",
+            "R43",
+            "S33"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Handover review and evidence limits",
+          "outcome": "Prepare a responsible simulated handover and distinguish learning from certification.",
+          "paragraphs": [
+            "A handover identifies what is complete, what remains unresolved and who accepts responsibility for the next step. An invented implementation note can show tasks completed within the simulation, pending dependencies and proposed follow-up dates. Do not assume that sending a document transfers responsibility; acceptance and suitability need separate confirmation through authorised arrangements in real work. IACD standards connect organisation and learning, while OECD participation guidance highlights feedback on how input is used. The handover should help another role understand the actual status rather than present an unqualified success narrative. [S31, S32]",
+            "Review the plan against its purpose, access arrangements, resources and decision record. Distinguish the count of activities from who could use them and from the change the programme intended. If a fictional session had twelve planned places and nine simulated attendances, that is not evidence that all community needs were met. Missing data and absent perspectives remain relevant. Contextual surveys of registered youth-organisation officials cannot establish statewide effects or validate this plan; reporting inconsistencies and possible overlap between related papers further limit numerical teaching claims. Use evidence to sharpen questions rather than manufacture certainty. [R44, S32]",
+            "Reflection should identify a specific strength, a gap, a revision and a responsible next step. It should also acknowledge when the evidence is insufficient. A contribution log or attractive portfolio does not establish inclusion, accountability or causal development impact. Use findings from the simulated exercise to revise responsibilities, access arrangements and the review date. Record what would need to be observed under approved supervision before judging real delivery. Keep the proposed study duration open to learner piloting and accessibility review, because a timetable alone does not show that people can complete the learning effectively. [S31, S32]",
+            "Recognition has separate gates. A course badge requires an approved course and a verified ParaLearn course-CBT pass. School certification requires all approved school courses, a passed final mixed ParaLearn exam, human written marking, independent moderation and authorised signatures under approved arrangements. Head of Learning details and signature are pending; the Founder is Prof. Mina Ogbanga. A perfect offline result cannot certify a learner. Award decisions must use authorised records and approved assessment arrangements. Keep fictional teaching records separate from learner, enrolment and credential data, and do not invent approvals to complete the exercise. [S31]"
+          ],
+          "example": "Fictional case: An invented portfolio contains a schedule and rehearsal notes. Its author calls it a completed placement and requests a school certificate after a perfect offline quiz.",
+          "activity": "Write a bounded handover and recognition statement identifying actual simulation outputs, unresolved dependencies and the distinct approval/provider/human-review gates.",
+          "feedback": "The portfolio demonstrates an introductory exercise only. Keep real placement, provider verification, academic approval, human moderation and signatures unresolved until actually established.",
+          "sources": [
+            "S31",
+            "S32",
+            "R44"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-065",
+        "course_slug": "community-programme-implementation-practicum",
+        "title": "Community Programme Implementation Practicum",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "1d153c516ba6836babe2080f73ac9c037fd50455643c18dcee5a4b0c1656c87d",
+        "catalogue_sha256": "cf9c524cfffd56bd5733b49de8b396df1c0bcc737f5fc970158d5921955a4cf0",
+        "modules": [
+          {
+            "order": 1,
+            "title": "From plan to feasible delivery",
+            "outcome": "Translate a fictional programme purpose into bounded tasks and responsibilities.",
+            "teaching_points": [
+              {
+                "id": "SWP-065-M1-T1",
+                "text": "Tasks outputs and outcomes are distinct."
+              },
+              {
+                "id": "SWP-065-M1-T2",
+                "text": "Dependencies should govern task status."
+              },
+              {
+                "id": "SWP-065-M1-T3",
+                "text": "Roles must match authority and competence."
+              },
+              {
+                "id": "SWP-065-M1-T4",
+                "text": "Practicum here is introductory simulated or supervised learning."
+              },
+              {
+                "id": "SWP-065-M1-T5",
+                "text": "Unpaid resources require feasible voluntary agreement."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Rehearsal exceptions and safe changes",
+            "outcome": "Rehearse fictional delivery and assign qualified responses to exceptions.",
+            "teaching_points": [
+              {
+                "id": "SWP-065-M2-T1",
+                "text": "A rehearsal is not actual service delivery."
+              },
+              {
+                "id": "SWP-065-M2-T2",
+                "text": "Exceptions need authorised change decisions."
+              },
+              {
+                "id": "SWP-065-M2-T3",
+                "text": "A fictional alternative supports safe learning."
+              },
+              {
+                "id": "SWP-065-M2-T4",
+                "text": "Safeguarding exceptions need qualified routes."
+              },
+              {
+                "id": "SWP-065-M2-T5",
+                "text": "Status records should retain changes and reasons."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Handover review and evidence limits",
+            "outcome": "Prepare a responsible simulated handover and distinguish learning from certification.",
+            "teaching_points": [
+              {
+                "id": "SWP-065-M3-T1",
+                "text": "Sending a handover does not establish accepted responsibility."
+              },
+              {
+                "id": "SWP-065-M3-T2",
+                "text": "Participation counts do not prove all needs were met."
+              },
+              {
+                "id": "SWP-065-M3-T3",
+                "text": "Reflection should lead to a bounded next action."
+              },
+              {
+                "id": "SWP-065-M3-T4",
+                "text": "A perfect offline score cannot authorise certification."
+              },
+              {
+                "id": "SWP-065-M3-T5",
+                "text": "Course badges and school certificates have different gates."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-065-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-065-M1-T1",
+            "question": "A fictional team holds two sessions. What does that count show?",
+            "options": [
+              {
+                "text": "A causal improvement for all residents.",
+                "correct": false
+              },
+              {
+                "text": "A completed professional placement.",
+                "correct": false
+              },
+              {
+                "text": "A delivery output, not proven development benefit.",
+                "correct": true
+              },
+              {
+                "text": "A verified school certificate.",
+                "correct": false
+              }
+            ],
+            "rationale": "Activity completion does not establish outcomes."
+          },
+          {
+            "id": "SWP-065-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-065-M1-T2",
+            "question": "A venue request is sent but not accepted. What is the task status?",
+            "options": [
+              {
+                "text": "Venue secured automatically.",
+                "correct": false
+              },
+              {
+                "text": "Session completed.",
+                "correct": false
+              },
+              {
+                "text": "All access arrangements verified.",
+                "correct": false
+              },
+              {
+                "text": "Awaiting confirmation before dependent delivery.",
+                "correct": true
+              }
+            ],
+            "rationale": "A request is not an approval."
+          },
+          {
+            "id": "SWP-065-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-065-M1-T3",
+            "question": "An introductory learner is assigned independent safeguarding decisions. What correction is needed?",
+            "options": [
+              {
+                "text": "Use qualified arrangements and keep the learner within an approved bounded role.",
+                "correct": true
+              },
+              {
+                "text": "Treat the quiz score as authority.",
+                "correct": false
+              },
+              {
+                "text": "Ask the class to investigate real cases.",
+                "correct": false
+              },
+              {
+                "text": "Remove supervision to encourage independence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning participation does not confer specialist authority."
+          },
+          {
+            "id": "SWP-065-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-065-M1-T4",
+            "question": "A fictional implementation worksheet is completed. What must not be claimed?",
+            "options": [
+              {
+                "text": "A draft learning output.",
+                "correct": false
+              },
+              {
+                "text": "A completed real field placement or independent competence.",
+                "correct": true
+              },
+              {
+                "text": "A reasoned task sequence.",
+                "correct": false
+              },
+              {
+                "text": "An identified supervision dependency.",
+                "correct": false
+              }
+            ],
+            "rationale": "The scope excludes unobserved field competence."
+          },
+          {
+            "id": "SWP-065-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-065-M1-T5",
+            "question": "A plan assigns unlimited volunteer hours. What should replace that assumption?",
+            "options": [
+              {
+                "text": "A guarantee that goodwill covers all costs.",
+                "correct": false
+              },
+              {
+                "text": "A compulsory contribution for unrelated benefits.",
+                "correct": false
+              },
+              {
+                "text": "Bounded agreed contributions and a realistic contingency.",
+                "correct": true
+              },
+              {
+                "text": "An invented receipt for donated work.",
+                "correct": false
+              }
+            ],
+            "rationale": "Resource planning needs honest limits."
+          },
+          {
+            "id": "SWP-065-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-065-M2-T1",
+            "question": "A team practises an invented schedule. How should its record be labelled?",
+            "options": [
+              {
+                "text": "Verified live staging.",
+                "correct": false
+              },
+              {
+                "text": "Completed field placement.",
+                "correct": false
+              },
+              {
+                "text": "Independent service accreditation.",
+                "correct": false
+              },
+              {
+                "text": "Simulated rehearsal, not completed community delivery.",
+                "correct": true
+              }
+            ],
+            "rationale": "The record must match the event that occurred."
+          },
+          {
+            "id": "SWP-065-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-065-M2-T2",
+            "question": "An accessible venue becomes unavailable. What should happen before choosing a replacement?",
+            "options": [
+              {
+                "text": "Review access and authority, with a pause if conditions are unmet.",
+                "correct": true
+              },
+              {
+                "text": "Ignore the original access need.",
+                "correct": false
+              },
+              {
+                "text": "Mark delivery successful anyway.",
+                "correct": false
+              },
+              {
+                "text": "Assume every alternative is approved.",
+                "correct": false
+              }
+            ],
+            "rationale": "Contingencies must preserve relevant requirements."
+          },
+          {
+            "id": "SWP-065-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-065-M2-T3",
+            "question": "A learner prefers not to act a role. What is suitable?",
+            "options": [
+              {
+                "text": "A demand to describe personal trauma.",
+                "correct": false
+              },
+              {
+                "text": "An equivalent invented written exercise without personal disclosure.",
+                "correct": true
+              },
+              {
+                "text": "A requirement to recruit a real participant.",
+                "correct": false
+              },
+              {
+                "text": "Loss of unrelated support.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning can assess reasoning without coercive participation."
+          },
+          {
+            "id": "SWP-065-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-065-M2-T4",
+            "question": "A rehearsal introduces a serious concern. What is the learner's appropriate boundary?",
+            "options": [
+              {
+                "text": "Decide guilt in public.",
+                "correct": false
+              },
+              {
+                "text": "Promise absolute secrecy.",
+                "correct": false
+              },
+              {
+                "text": "Recognise the designated qualified response dependency without investigation.",
+                "correct": true
+              },
+              {
+                "text": "Collect a real child's account as practice.",
+                "correct": false
+              }
+            ],
+            "rationale": "The exercise does not authorise specialist case handling."
+          },
+          {
+            "id": "SWP-065-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-065-M2-T5",
+            "question": "A replacement option is not approved. What belongs in the exception log?",
+            "options": [
+              {
+                "text": "A fabricated approval signature.",
+                "correct": false
+              },
+              {
+                "text": "A claim the session already happened.",
+                "correct": false
+              },
+              {
+                "text": "Only the final success label.",
+                "correct": false
+              },
+              {
+                "text": "Its conditional status, responsible owner and verification gap.",
+                "correct": true
+              }
+            ],
+            "rationale": "Traceable status prevents false completion claims."
+          },
+          {
+            "id": "SWP-065-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-065-M3-T1",
+            "question": "A fictional handover is emailed without acknowledgement. What remains uncertain?",
+            "options": [
+              {
+                "text": "Whether a suitable authorised role accepted the next task.",
+                "correct": true
+              },
+              {
+                "text": "That all work is complete.",
+                "correct": false
+              },
+              {
+                "text": "That the recipient agreed to every action.",
+                "correct": false
+              },
+              {
+                "text": "That an email grants accreditation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Transmission and accepted responsibility differ."
+          },
+          {
+            "id": "SWP-065-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-065-M3-T2",
+            "question": "Nine invented attendances are recorded. What cannot be inferred alone?",
+            "options": [
+              {
+                "text": "That a count was recorded.",
+                "correct": false
+              },
+              {
+                "text": "That the programme achieved its development outcomes.",
+                "correct": true
+              },
+              {
+                "text": "That missing perspectives may matter.",
+                "correct": false
+              },
+              {
+                "text": "That outputs should be defined.",
+                "correct": false
+              }
+            ],
+            "rationale": "Attendance does not demonstrate benefit or inclusion."
+          },
+          {
+            "id": "SWP-065-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-065-M3-T3",
+            "question": "A review says improve everything without an owner. What is more useful?",
+            "options": [
+              {
+                "text": "An unsupported impact claim.",
+                "correct": false
+              },
+              {
+                "text": "A fabricated receipt.",
+                "correct": false
+              },
+              {
+                "text": "A specific gap, feasible revision, responsible role and review point.",
+                "correct": true
+              },
+              {
+                "text": "Removal of all uncertainties.",
+                "correct": false
+              }
+            ],
+            "rationale": "Specific responsibility makes learning actionable."
+          },
+          {
+            "id": "SWP-065-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-065-M3-T4",
+            "question": "A learner achieves every offline mark. What recognition limit remains?",
+            "options": [
+              {
+                "text": "A certificate must issue automatically.",
+                "correct": false
+              },
+              {
+                "text": "The provider ID can be invented.",
+                "correct": false
+              },
+              {
+                "text": "Moderation is unnecessary after full marks.",
+                "correct": false
+              },
+              {
+                "text": "Approved curriculum, verified provider results, human review and signatures are still required.",
+                "correct": true
+              }
+            ],
+            "rationale": "Offline contracts intentionally cannot certify."
+          },
+          {
+            "id": "SWP-065-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-065-M3-T5",
+            "question": "An approved course CBT pass is verified. What does that alone not establish?",
+            "options": [
+              {
+                "text": "Completion of all school courses and the final moderated mixed exam for certification.",
+                "correct": true
+              },
+              {
+                "text": "That a course result can be checked.",
+                "correct": false
+              },
+              {
+                "text": "That course approval matters.",
+                "correct": false
+              },
+              {
+                "text": "That authorised records are needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "School certification has additional curriculum, exam and signature requirements."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Checked 16 November 2026. Standards, publication dates, fieldwork/search dates, rights, access and limitations are separate. IACD standards date to 2018; later training is not a new edition. Registry reference IDs are unresolved. Q1 statements concern indexed SCImago 2025 records with direct-table access limitations; rank is not article validity. Nigerian surveys are contextual, not causal evidence. No source tools or protected exercises copied. Academic, local practice, safeguarding, accessibility/pilot and supervised-skills review pending."
+}

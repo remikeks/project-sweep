@@ -1,0 +1,32 @@
+{
+  "status": "reviewed",
+  "reviewed_on": "2026-11-19",
+  "pdf_pages_reviewed": 128,
+  "slide_pages_reviewed": 78,
+  "method": "All 128 final Poppler page PNGs inspected individually at rendered size, including every slide, guide and worksheet page; no clipping or overlap observed. Text, teaching coverage, counts and hashes validated separately.",
+  "guide_body_points": 12,
+  "native_powerpoint_checked": false,
+  "accessibility_pilot_approval": "pending",
+  "final_file_sha256": {
+    "pdf/SWP-061-participatory-facilitation-and-community-dialogue-learner-guide.pdf": "6d019938809a8afc2f5caa25f675cabb77987c585663ae237a7e554990b02c7c",
+    "pdf/SWP-061-participatory-facilitation-and-community-dialogue-practice-worksheet.pdf": "674c6bb25954a4121ca4a813fe56765ae72266aef78627e34438b914e009520d",
+    "pptx/SWP-061-participatory-facilitation-and-community-dialogue-course-slides.pptx": "5050a780d1517e698c6cbec9b5b97e4ad96d721e696ac434d2859305e96e1021",
+    "pdf/SWP-061-participatory-facilitation-and-community-dialogue-course-slides.pdf": "eec78285aa408cdabd4d61df590e422beac5b56ee42ea2098f801721d4508ae6",
+    "pdf/SWP-062-asset-based-community-development-learner-guide.pdf": "42ba5aaaf0df055969dd30faa9a849a32bc70aab3c6794bb3080a83885d32944",
+    "pdf/SWP-062-asset-based-community-development-practice-worksheet.pdf": "39220481ec4ca5f1eb7f23841f83b6d496ed216318bb36c83c11ccba5a24cdaa",
+    "pptx/SWP-062-asset-based-community-development-course-slides.pptx": "ff481e56001712f1a94a6fe090c5366c1c6aa6b03466fa529eae9d8fc3f3fd8b",
+    "pdf/SWP-062-asset-based-community-development-course-slides.pdf": "49e4f9d5befa564ffd08f2993659bbf8edc08b737bd561a1ba9b019827bf750a",
+    "pdf/SWP-063-community-accountability-and-grievance-mechanisms-learner-guide.pdf": "26b8da84b8e66549afe6350227c0bedb8f0138e3b00e192894ff4c5547321a88",
+    "pdf/SWP-063-community-accountability-and-grievance-mechanisms-practice-worksheet.pdf": "c00c5bb0d4ff3b5fd7ea394d286bbe161a20851d09ed64960e875dcc3bd3abd4",
+    "pptx/SWP-063-community-accountability-and-grievance-mechanisms-course-slides.pptx": "61478df8944817c29fbfba84f9bede0139707a6c1208a6a0c2eaa04df14ecca0",
+    "pdf/SWP-063-community-accountability-and-grievance-mechanisms-course-slides.pdf": "e6493e40ebed33473a24d9e071b3bef71b4bea2633fdb5741d6892dac253762a",
+    "pdf/SWP-064-inclusive-local-planning-and-co-design-learner-guide.pdf": "2fcc2bbad84e4eb46ad87ce1678f38e139518d5bb63c7d547c8488bed610c7a8",
+    "pdf/SWP-064-inclusive-local-planning-and-co-design-practice-worksheet.pdf": "42cc18e84580e385bac169d14dc673b208c4664a7589c8d7f8b2d5da0c450ca1",
+    "pptx/SWP-064-inclusive-local-planning-and-co-design-course-slides.pptx": "278dd83c3155ad91bc62ef0eb06ac4d008210289f2fadc607cf8f0de52d21cfd",
+    "pdf/SWP-064-inclusive-local-planning-and-co-design-course-slides.pdf": "c0734b1f560f7c048ec1a9047f55878db1c07cd4eaf16b4a5097f73b7dd1e43c",
+    "pdf/SWP-065-community-programme-implementation-practicum-learner-guide.pdf": "9fca0ef93e0c7978bd385b55deb685968212151cb477cef0f8c5e45f2017c889",
+    "pdf/SWP-065-community-programme-implementation-practicum-practice-worksheet.pdf": "66fab812ca07716ce8cf84c26051cb6423573bf6f0297f6a3d74d4982bc132f2",
+    "pptx/SWP-065-community-programme-implementation-practicum-course-slides.pptx": "ba14a93da19860c6100dd9b3bf415c5763fbabfe48a1e01e5908a72f9734fc16",
+    "pdf/SWP-065-community-programme-implementation-practicum-course-slides.pdf": "c510405052b41edcad917235eeb838d79814640d1cacac32f2e09de28e4cc63b"
+  }
+}

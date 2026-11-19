@@ -22,3 +22,4 @@ production_courseware/phase_eight/**/qa/
 production_courseware/phase_nine/**/qa/
 production_courseware/private/
 *.log
+production_courseware/phase_ten/**/qa/
