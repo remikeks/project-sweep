@@ -31,3 +31,9 @@ Compile with scripts/build_cps_source.py. Use scripts/build_cps_media.py with th
 The publisher defaults to the already-applied November 19 release; explicitly select --release cps-2026-11-24 for this scope. Existing release journals are immutable and must not be replayed. Use only the intended new scope and approval receipt; verified remote bytes and record parity are mandatory before publication.
 
 Programme progress is 36 of 150 planned additions authored, with 114 remaining. Next is SPG (School of Social Policy and Governance), retaining SWP-028 and researching seven additions toward eight courses. Legislative campaigning stays in AHR, policy-data methods in RDS. The next_phase.json file records the existing refactor scope and the research/build/release gates. Do not call that future research completed or create courses before reviewing the actual retained scope.
+
+## Observed production and repository result
+
+Feature build a3dda3e9c71f91f63931bf1a71eaa0ac9af8b133 was pushed to origin/main and deployed as dpl_GJ3LdC8EdZPbqtTRg7REoZBP3yrg. Vercel reported READY, both sweepacademy.org and www.sweepacademy.org aliases were observed, and server-recorded githubCommitSha and verifiedSourceCommit both equal the full feature SHA. After readiness, actual HTTPS checks passed for the catalogue, all eight CPS course pages and twenty new login guards. Subsequent checkpoint changes affect reports and release observations only.
+
+GitHub Actions run 45483877934 could not start: the check annotation says the account is locked due to billing. This is not represented as a passing hosted CI run. The independently observed 213-test SQLite run and ready Vercel production build are recorded separately. No billing changes were attempted. The final one-page report was rerendered and visually inspected after adding that limitation.

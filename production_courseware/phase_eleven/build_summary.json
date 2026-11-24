@@ -23,5 +23,26 @@
   "guest_download_guards_verified": 20,
   "cps_course_count": 8,
   "original_cbts_unchanged": true,
-  "bundle_entries": 21
+  "bundle_entries": 21,
+  "source_package_sha256": "e9ef79e6f369125997bd2b05fa213c083a18c4b9b6077102068f9b2e5c2d3716",
+  "material_approval": "Standing owner authorisation recorded 24 November 2026",
+  "deployment_status": "READY",
+  "deployment_id": "dpl_GJ3LdC8EdZPbqtTRg7REoZBP3yrg",
+  "deployment_url": "https://sweep-academy-e8bc0hbnq-evanders-projects-83d1e543.vercel.app",
+  "deployment_source_commit": "a3dda3e9c71f91f63931bf1a71eaa0ac9af8b133",
+  "production_domains": [
+    "sweepacademy.org",
+    "www.sweepacademy.org"
+  ],
+  "deployment_source_verified": true,
+  "post_deployment_verified_on": "2026-11-24T20:48:51.852027+00:00",
+  "post_deployment_cps_pages_verified": 8,
+  "post_deployment_guest_guards_verified": 20,
+  "github_ci_status": "not_started_account_billing",
+  "github_ci_run": "https://github.com/remikeks/project-sweep/actions/runs/45483877934",
+  "github_ci_annotation": "The job was not started because your account is locked due to a billing issue.",
+  "report_pages": 1,
+  "report_body_points": 12,
+  "report_visually_reviewed": true,
+  "learner_bundle_sha256": "ce2ca33fb30b88d9a332c7d5758f45f343ac29c1beb2c56e4ac0138bee6a6378"
 }
