@@ -1,0 +1,112 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "e9ef79e6f369125997bd2b05fa213c083a18c4b9b6077102068f9b2e5c2d3716",
+  "summary": {
+    "assets": 20,
+    "asset_courses": 5
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-066-child-participation-and-accessible-safeguarding-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "848e860953d62ede2eec5b3372cf17224fa80d030810bc85379a3453067edb12"
+    },
+    {
+      "path": "pdf/SWP-066-child-participation-and-accessible-safeguarding-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "fc2f5c6e6daa15654b14f98086cb97d5d2930aad4d82451c6a5a4051eb31c414"
+    },
+    {
+      "path": "pptx/SWP-066-child-participation-and-accessible-safeguarding-course-slides.pptx",
+      "pages": null,
+      "sha256": "ae4748fed4b9b1c869a0794d0829f9b7d5775b2b0a7fcaf8d2ffd217ba760ffb"
+    },
+    {
+      "path": "pdf/SWP-066-child-participation-and-accessible-safeguarding-course-slides.pdf",
+      "pages": 15,
+      "sha256": "12a2fc279d6826cd0b6f6e2d95d0b6f249361fe7a4a0622a0abb6e98ec021c97"
+    },
+    {
+      "path": "pdf/SWP-067-child-protection-case-management-and-information-practice-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "d9c452cb5ee9f5d2569840efe06ada9c8ef32c04dfadb79364457635dc043a0c"
+    },
+    {
+      "path": "pdf/SWP-067-child-protection-case-management-and-information-practice-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "84ea09864e1e9b760760f7d28447925317a779a7ae73e428273652291f482ab3"
+    },
+    {
+      "path": "pptx/SWP-067-child-protection-case-management-and-information-practice-course-slides.pptx",
+      "pages": null,
+      "sha256": "ff3246bc9f9abec79ca698cd3fa8dbdff9109aaae88420789fdca7b17033c335"
+    },
+    {
+      "path": "pdf/SWP-067-child-protection-case-management-and-information-practice-course-slides.pdf",
+      "pages": 15,
+      "sha256": "54224ddb32f8dc13e8f410d2d5e3d00575db10d238342bd6170daaccae71b843"
+    },
+    {
+      "path": "pdf/SWP-068-safeguarding-organisations-and-safer-programmes-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "2e2e22053a11072e5a40d87ab4593b74168daeb4a0eec699d9e4e40c8f783b7c"
+    },
+    {
+      "path": "pdf/SWP-068-safeguarding-organisations-and-safer-programmes-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "3e3358ef4668f7ec6a7a710ca959495376b891e359630869dcacc64d637c0347"
+    },
+    {
+      "path": "pptx/SWP-068-safeguarding-organisations-and-safer-programmes-course-slides.pptx",
+      "pages": null,
+      "sha256": "0d6a4dfb326eb399ba5d7d85b2f0d4e97cf6fd53fb54746a99b290e56d15bfff"
+    },
+    {
+      "path": "pdf/SWP-068-safeguarding-organisations-and-safer-programmes-course-slides.pdf",
+      "pages": 15,
+      "sha256": "0e3a4f2ebb587491a679f79d51093aee314fd98258a851aee9ca5c6884b3cf20"
+    },
+    {
+      "path": "pdf/SWP-069-preventing-violence-and-supporting-caregivers-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "1819f0a82e7544363d6e6a25b43321904c0bc0fa5f421289598ec86c5f9162e0"
+    },
+    {
+      "path": "pdf/SWP-069-preventing-violence-and-supporting-caregivers-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "ff8f4fc769145b83583940aa24fe642d92b7bfcad8ca31b1ba56a2525836cf2b"
+    },
+    {
+      "path": "pptx/SWP-069-preventing-violence-and-supporting-caregivers-course-slides.pptx",
+      "pages": null,
+      "sha256": "8019683db28e9530c6222efbfb8fdb68cc8316a73f0f597d6481b2ec04afe513"
+    },
+    {
+      "path": "pdf/SWP-069-preventing-violence-and-supporting-caregivers-course-slides.pdf",
+      "pages": 16,
+      "sha256": "d8cb0fa12d42b4f45531553ecab3c1db925376eca7de4fc2d3bcb60c642d8cbd"
+    },
+    {
+      "path": "pdf/SWP-070-child-protection-in-emergencies-and-displacement-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "3ce7ecc1d638cbf62242bf7d346402bdb13f6f6b0738f8e89cbc2a521f72efea"
+    },
+    {
+      "path": "pdf/SWP-070-child-protection-in-emergencies-and-displacement-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "8f6b9018a1336cc49d434ea46273974d6532cb04175f36d62eeec441b54517c4"
+    },
+    {
+      "path": "pptx/SWP-070-child-protection-in-emergencies-and-displacement-course-slides.pptx",
+      "pages": null,
+      "sha256": "5d575dde4c1868796be21de05e89c33f4b4eb7657e41d5324647806b71abc52b"
+    },
+    {
+      "path": "pdf/SWP-070-child-protection-in-emergencies-and-displacement-course-slides.pdf",
+      "pages": 16,
+      "sha256": "3e87f88fc4232a4e84d7848d92b7575ce174357a38ab7eb2c7307ff4c2c4b9e4"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

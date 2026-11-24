@@ -1,0 +1,35 @@
+{
+  "phase": 12,
+  "school_code": "SPG",
+  "school_name": "School of Social Policy and Governance",
+  "retained_codes": [
+    "SWP-028"
+  ],
+  "proposed_additions": [
+    "Social Protection Systems and Welfare Governance",
+    "Public Finance Budget Analysis and Accountability",
+    "Policy Design Implementation and Evaluation",
+    "Decentralization and Inclusive Public Administration",
+    "Social Policy Political Economy and Inequality",
+    "Participatory Governance and Public Consultation",
+    "Policy Briefing and Reform Practicum"
+  ],
+  "target_courses": 8,
+  "scope": "Public policy and institutional governance. Legislative campaigning is housed in AHR; policy-data methods are housed in RDS.",
+  "first_step": "Verify current live mapping and read retained SWP-028 teaching and CBT focus; research the curriculum gaps before authoring.",
+  "planned_output": {
+    "new_courses": 7,
+    "modules": 21,
+    "course_mcqs": 105,
+    "designed_resources": 28
+  },
+  "gates": [
+    "Preserve all earlier teaching and CBT mappings; no source replacement",
+    "Appraise accessible primary practice guidance and current open-access studies, recording methods, dates, rights and limits",
+    "Create aligned guide and worksheet PDFs, editable PPTX and rendered slide PDFs with legible text",
+    "Validate the full-school mixed exam map and criterion-level human marking; keep unverified provider IDs blank",
+    "Run isolated SQLite checks, visually inspect final pages, protect existing file/record fingerprints",
+    "Under standing owner authority: privately upload, verify exact hashes, publish validated learning materials, verify access, commit and push main",
+    "School certification requires actual ParaLearn readiness, completion, human moderation and authorised signatures"
+  ]
+}

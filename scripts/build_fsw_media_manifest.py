@@ -18,7 +18,9 @@ from courses.curriculum_validation import validate_manifest
 parser=argparse.ArgumentParser()
 parser.add_argument("--release",type=Path,default=ROOT/"production_courseware/phase_three/fsw_media_01")
 parser.add_argument("--package",type=Path,default=ROOT/"production_courseware/phase_two/fsw_batch_01/review_package.json")
+parser.add_argument("--approved-materials", action="store_true")
 args=parser.parse_args()
+edition = "Approved learning materials" if args.approved_materials else "Draft for academic review"
 release=args.release.resolve()
 package=json.loads(args.package.read_text(encoding="utf-8"))
 validate_package(package)
@@ -42,7 +44,7 @@ for c in package["courses"]:
             body="\n".join(p.extract_text() or "" for p in reader.pages)
             # A teaching paragraph can continue across pages. Remove only the
             # exact document furniture before comparing it to the source text.
-            furniture={f"SWEEP Academy {c['school_code']} Draft for academic review",f"{c['code']} Version 0.1.0"}
+            furniture={f"SWEEP Academy {c['school_code']} {edition}",f"{c['code']} Version 0.1.0"}
             reading_lines=[line for line in body.splitlines()
                 if " ".join(line.split()) not in furniture and not re.fullmatch(r"Page \d+",line.strip())]
             # LibreOffice may emit a separate punctuation text run, and pypdf
@@ -51,7 +53,7 @@ for c in package["courses"]:
             normalized=re.sub(r"\s+([.,;:!?])", r"\1", " ".join(" ".join(reading_lines).split()))
             assert all((p.extract_text() or "").strip() for p in reader.pages),"Empty PDF page"
             if kind in {"learner_guide","worksheet"}:
-                header=f"SWEEP Academy {c['school_code']} Draft for academic review"
+                header=f"SWEEP Academy {c['school_code']} {edition}"
                 assert all(header in " ".join((p.extract_text() or "").split()) for p in reader.pages),"PDF school header mismatch"
             if kind=="learner_guide" and c.get("school_name"):
                 assert c["school_name"] in normalized,"Learner guide school name mismatch"

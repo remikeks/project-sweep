@@ -1,0 +1,3013 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-24",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "owner_material_release_authorised": true,
+    "local_operating_protocol": "requires_authorised_context",
+    "supervised_professional_competence": "not_conferred",
+    "paralearn_mixed_exam": "unverified"
+  },
+  "references": [
+    {
+      "id": "S41",
+      "author": "Keeping Children Safe",
+      "year": 2024,
+      "title": "International Child Safeguarding Standards: How to implement them",
+      "url": "https://www.keepingchildrensafe.global/wp-content/uploads/2024/08/KCS-ICS-Standards-EN-2024.pdf",
+      "kind": "practice_guidance",
+      "use": "Compare organisational responsibility, accessible reporting, safer operations and accountability; develop original fictional review questions.",
+      "appraisal": "Actual official 48-page PDF downloaded and extracted. Selected purpose/definitions and Policy, People, Procedures and Accountability sections read, including pages 17-22, 28-33, 42-47. Practice standards are not experimental evidence, Nigerian law or accreditation. A policy or course completion does not establish implementation or staff suitability.",
+      "licence": "No explicit open adaptation licence established from the inspected PDF. Link and original factual commentary only; no checklists, assessment webs, forms, photos, logos or wording reproduced.",
+      "checked_on": "2026-11-24",
+      "slide_title": "Organisational child safeguarding standards",
+      "slide_limit": "2024 practice comparator; local implementation and qualified review required.",
+      "link_label": "keepingchildrensafe.global Standards"
+    },
+    {
+      "id": "S42",
+      "author": "Alliance for Child Protection in Humanitarian Action",
+      "year": 2019,
+      "title": "Summary: Minimum Standards for Child Protection in Humanitarian Action, 2019 edition",
+      "url": "https://alliancecpha.org/sites/default/files/technical/attachments/2019_cpms_summary_v2_final_en.pdf",
+      "kind": "practice_guidance",
+      "use": "Compare participation, information management, coordination, separation prevention and cross-sector child protection.",
+      "appraisal": "Official 28-page summary read selectively: principles/context, standards 1-6, 13-20 and cross-sector guidance. Suggested citation dates the summary 2020 while the standards edition is 2019; later hosting/training dates are not new editions. Case management is Standard 18 in the inspected 2019 summary. Contextualisation and competent staff remain essential; this is a summary, not the full operational handbook.",
+      "licence": "No assumption of unrestricted adaptation. Original factual commentary and links only; no source forms, indicators, diagrams or exercises reproduced.",
+      "checked_on": "2026-11-24",
+      "slide_title": "Child protection in humanitarian action",
+      "slide_limit": "2019 standards / 2020 summary; introductory comparator, not deployment authority.",
+      "link_label": "alliancecpha.org CPMS summary"
+    },
+    {
+      "id": "S43",
+      "author": "Alliance for Child Protection in Humanitarian Action",
+      "year": 2024,
+      "title": "Inter-agency Child Protection Case Management Guidelines, second edition",
+      "url": "https://alliancecpha.org/en/technical-materials/inter-agency-guidelines-case-management-and-child-protection",
+      "kind": "practice_guidance",
+      "use": "Identify the updated case-management resource and the need for current contextualised procedures; not a substitute for reading and applying the operational guidance under supervision.",
+      "appraisal": "Official landing page dated 3 December 2024 read; indexed publisher PDF excerpts confirm second edition and CC BY-SA 4.0. The 49.58 MB full PDF exceeded the web reader limit and direct local retrieval returned 403; no whole-PDF appraisal or archive is claimed. No operational case-management sequence or global forms are reproduced from unread sections. Core information principles are supported separately by the actually read CPMS summary.",
+      "licence": "Publisher indexed PDF acknowledgement states CC BY-SA 4.0. No source tools or adapted manual content distributed; original factual resource commentary and links only.",
+      "checked_on": "2026-11-24",
+      "slide_title": "Updated inter-agency case-management guidance",
+      "slide_limit": "2024 resource identified; full PDF unavailable in this appraisal.",
+      "link_label": "alliancecpha.org Case management"
+    },
+    {
+      "id": "R51",
+      "author": "McCafferty P and Mercado Garcia E",
+      "year": 2024,
+      "title": "Children’s Participation in Child Welfare: A Systematic Review of Systematic Reviews",
+      "url": "https://doi.org/10.1093/bjsw/bcad167",
+      "kind": "peer_reviewed_research",
+      "use": "Question whether a process hears children, supports relationships and responds to their views; do not infer causal protection effects.",
+      "appraisal": "Actual 18-file-page publisher PDF in Queen’s University Belfast repository read selectively: methods, synthesis and limitations. Advance publication 8 July 2023, journal issue 2024. Fourteen databases, 674 hits and 14 included reviews; JBI appraisal. Peer-reviewed inclusion and no grey-literature search may introduce publication bias. Reviews may share primary studies, so they are not 14 independent intervention replications. Findings concern voice, relationships and context; no universal effect size or Nigerian legal procedure is established.",
+      "licence": "CC BY 4.0 stated on repository cover and publisher PDF. Original factual teaching only; no instruments, tables or quotations copied.",
+      "checked_on": "2026-11-24",
+      "doi": "10.1093/bjsw/bcad167",
+      "quartile": "SCImago primary 2025 Social Work table reports British Journal of Social Work Q1; checked 24 November 2026. Journal rank does not validate individual findings. No JCR claim.",
+      "slide_author": "McCafferty and Mercado Garcia",
+      "slide_title": "Participation: umbrella review",
+      "slide_limit": "Review synthesis; voice, relationships and context, not causal effect proof."
+    },
+    {
+      "id": "R52",
+      "author": "Backhaus S, Blackwell A and Gardner F",
+      "year": 2025,
+      "title": "The effectiveness of parenting interventions in reducing violence against children in humanitarian settings in low- and middle-income countries: A systematic review and meta-analysis",
+      "url": "https://doi.org/10.1016/j.chiabu.2024.106850",
+      "kind": "peer_reviewed_research",
+      "use": "Distinguish promising parenting support from guaranteed effects; check humanitarian setting, delivery capacity and outcome-specific evidence.",
+      "appraisal": "Actual 16-file-page final published PDF via University of Amsterdam read: methods, results and limitations. Online 16 June 2024; issue 162(2) dated 2025. Search updated August 2022; 23 trials, with differing trial counts by outcome. Robust variance estimation addressed multiple estimates. Effects heterogeneous; most settings protracted/post-crisis, most outcomes unblinded self-report, little long-term evidence and limited evidence for some violence outcomes. No pooled numerical effect is taught as a local prediction and no programme manual is reproduced.",
+      "licence": "CC BY-NC-ND 4.0 stated in publisher PDF/repository. Link and original factual commentary only; no translated/adapted article, programme manual, figures, measures or paper redistributed.",
+      "checked_on": "2026-11-24",
+      "doi": "10.1016/j.chiabu.2024.106850",
+      "quartile": "SCImago primary 2025 Social Work table reports Child Abuse and Neglect Q1; checked 24 November 2026. No article-validity or JCR inference.",
+      "slide_author": "Backhaus and colleagues",
+      "slide_title": "Parenting support in humanitarian settings",
+      "slide_limit": "23-trial synthesis; heterogeneity and limited acute-crisis/long-term evidence."
+    },
+    {
+      "id": "R53",
+      "author": "Bruehl A and colleagues",
+      "year": 2025,
+      "title": "Spillover mechanisms linking intimate partner violence and child maltreatment: a cross-sectional and longitudinal study among Eastern European mothers",
+      "url": "https://doi.org/10.1186/s12889-025-24955-8",
+      "kind": "peer_reviewed_research",
+      "use": "Explain why contemporaneous associations do not establish a causal pathway or justify blaming caregivers; support coordinated qualified help.",
+      "appraisal": "Actual publisher full HTML methods, results and limitations read. Published 4 November 2025; data March 2019-May 2020. Sample 701 mothers with children 2-9 years in an Eastern European parenting programme. Cross-sectional indirect associations did not replicate longitudinally; intervention exposure, selective attrition and pandemic timing complicate interpretation. Maternal reports and selected population limit transfer. No diagnostic, causal or inevitable intergenerational claim is taught.",
+      "licence": "Open-access publisher full text; no instruments or participant material copied. Original factual commentary and link only; exact reuse licence is not needed to reproduce a source instrument because none is reproduced.",
+      "checked_on": "2026-11-24",
+      "doi": "10.1186/s12889-025-24955-8",
+      "quartile": "SCImago primary 2025 record for BMC Public Health reports Q1 in Public Health, Environmental and Occupational Health; checked 24 November 2026. No JCR claim.",
+      "slide_author": "Bruehl and colleagues",
+      "slide_title": "Family violence: associations and limits",
+      "slide_limit": "2019-20 selected sample; cross-sectional pathways did not replicate longitudinally."
+    },
+    {
+      "id": "R54",
+      "author": "Sim A and colleagues",
+      "year": 2026,
+      "title": "Effects of an integrated parenting and mental health intervention on violence reduction and caregiver mental health among migrant and displaced families from Myanmar: a pragmatic randomized controlled trial",
+      "url": "https://doi.org/10.1111/jcpp.70241",
+      "kind": "peer_reviewed_research",
+      "use": "Consider supervised, context-sensitive caregiver support and distinguish caregiver outcomes from child outcomes and implementation readiness.",
+      "appraisal": "Actual open-access publisher HTML methods, outcome tables and limitations read. First published 17 September 2026. Thailand-Myanmar border study July 2024-August 2025; 480 baseline caregivers, 477 in analysis, children 4-15. Individual randomisation to integrated support or treatment as usual; follow-up to six months. Self-reported outcomes, unmasked participants, underrepresentation of men and one displacement setting limit generalisation. Reported caregiver/parenting improvements did not establish improvement in every child outcome; no significant child emotional/behavioural effect was found. No intervention sessions, measures or clinical techniques reproduced; no local effect prediction.",
+      "licence": "Publisher marks article open access; exact Creative Commons variant not established from inspected HTML. Original factual commentary and link only; no article adaptation or programme content reproduced.",
+      "checked_on": "2026-11-24",
+      "doi": "10.1111/jcpp.70241",
+      "quartile": "SCImago primary 2025 journal record 15402 reports Q1 in Pediatrics, Perinatology and Child Health; checked 24 November 2026. No JCR claim or article-validity inference.",
+      "slide_author": "Sim and colleagues",
+      "slide_title": "Integrated support in a displacement setting",
+      "slide_limit": "2026 pragmatic trial; one setting, self-reported outcomes and bounded transfer."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-066",
+      "title": "Child Participation and Accessible Safeguarding",
+      "slug": "child-participation-and-accessible-safeguarding",
+      "cover_title": "Child Participation\nand Accessible\nSafeguarding",
+      "school_code": "CPS",
+      "school_name": "School of Child Protection and Safeguarding",
+      "school_display": "Child Protection\nand Safeguarding",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and safeguarding learners preparing to recognise boundaries, analyse fictional plans and work under appropriate supervision. No statutory, investigation or clinical authority is conferred.",
+      "study_guidance": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns. Work through each case before reading feedback. Study time is a proposal for piloting.",
+      "practice_safety_note": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns.",
+      "outcome": "Review a fictional safeguarding process for meaningful child participation, communication access and accountable feedback without collecting real child disclosures.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Voice purpose and decision influence",
+          "outcome": "Distinguish an opportunity to speak from meaningful influence in a fictional protection decision.",
+          "paragraphs": [
+            "Participation concerns how a child can understand, express a view and learn what happened to that view. A meeting invitation alone does not establish influence. Start with the actual decision, the person authorised to make it and the choices that remain open. A fictional activity might let an invented child comment on a meeting arrangement while leaving statutory decisions with designated professionals. Describe that limited purpose honestly. Do not promise that expressing a preference guarantees a particular protection outcome. The CPMS participation principles provide a practice comparator, not an automatic local decision rule. [S42]",
+            "An umbrella review of child-welfare participation identified recurring difficulties with children being heard, relationships and the organisational context. The study synthesises existing reviews; it does not demonstrate that a particular classroom method prevents maltreatment. Its relevance here is to the questions a learner should ask: Was information understandable? Was there a trusted route to contribute? Did an adult respond to the contribution? Use the review to challenge a process that measures attendance but never records the influence or limits of the child’s view. [R51]",
+            "Listening requires attention to the difference between the child’s words, an adult’s interpretation and the final decision. These may legitimately differ, but the differences need reasons and appropriate accountability. A caregiver’s preference should not silently replace the child’s expressed view. Neither should a learner announce that the child has sole responsibility for resolving a difficult safety decision. In the invented case, keep a short distinction between what was expressed, what remains uncertain and what the authorised decision-maker must consider. Avoid creating a purported statutory assessment from a classroom exercise. [R51, S42]",
+            "The learning task uses invented people and supplied information. Do not ask children, classmates or family members to describe abuse or demonstrate that their voices were ignored. A learner may choose an alternative fictional situation and may pause. This course develops process reasoning, not interviewing, forensic or legal authority. A useful answer can identify an unresolved participation gap without pretending to fill it with a real disclosure. The appropriate next step is a bounded recommendation to a qualified owner, together with a review point. [S41, S42]"
+          ],
+          "example": "Fictional case: An invented review meeting invites a twelve-year-old to choose a poster colour, while adults have already fixed every service arrangement. The report describes this as the child designing the protection plan.",
+          "activity": "Write a participation-purpose note identifying the actual open choice, fixed constraints, decision owner, missing opportunity for influence and one honest correction to the report.",
+          "feedback": "Poster preference is a limited contribution. Describe its actual scope, identify a meaningful issue that the authorised process could consider and record how the child would receive an explanation.",
+          "sources": [
+            "R51",
+            "S42",
+            "S41"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Communication access and voluntary contribution",
+          "outcome": "Identify communication barriers and propose bounded, child-centred adjustments in an invented process.",
+          "paragraphs": [
+            "Communication access begins before a child is asked a question. Consider language, literacy, disability, timing, transport, privacy and whether the setting allows the child to understand what is happening. An adjustment should address a particular barrier rather than assume that every child in a group needs the same support. In the fictional plan, name the barrier, proposed support, responsible person and what still needs checking. The CPMS emphasise inclusion and contextualisation, while organisational safeguarding guidance places responsibility on the adults who design activities. [S42, S41]",
+            "Information should explain the purpose, available choices, who will use a contribution and the limits of confidentiality in language suited to the child. Do not promise that everything said will remain secret where a qualified response may be required. Equally, do not demand a personal account merely to show that the child has participated. A child may express a practical preference, ask a question, use an appropriate supported communication route or choose not to contribute to an optional activity. The adults retain responsibility for suitable safeguarding arrangements. [S41, S42]",
+            "An online form can improve access for some children while creating barriers for others. Shared devices, data costs, inaccessible interfaces or a lack of private space can affect the usefulness of a digital route. Offer suitable alternatives within an authorised process and avoid collecting unnecessary sensitive details. A photograph or a voice recording is not required simply because technology makes it easy. The participation review supports attention to relationships and context; a standardised form should assist the relationship rather than be treated as evidence that every child was heard. [R51, S41]",
+            "The learner is not being trained to assess capacity, appoint an interpreter or conduct a specialist communication assessment independently. Where a real adjustment would need expertise, identify that dependency and a qualified owner. In the invented scenario, a feasible recommendation can be conditional on checking communication preferences and safe support arrangements. Explain how the process can pause or change if the proposed method is unsuitable. A completed worksheet demonstrates reasoning about access, not proof that the adjustment works for an actual child or that a professional consultation has occurred. [S42, S41]"
+          ],
+          "example": "Fictional case: An invented club accepts safeguarding feedback only through a written phone form. One fictional child uses supported communication, another shares a device and the facilitator promises absolute secrecy.",
+          "activity": "Identify three different barriers and propose a suitable alternative, a responsible role and a truthful explanation of confidentiality limits for each.",
+          "feedback": "Separate communication support, private access and confidentiality. Use conditional adjustments with qualified support where required; avoid universal assumptions or promises of absolute secrecy.",
+          "sources": [
+            "S42",
+            "S41",
+            "R51"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Feedback representation and accountable review",
+          "outcome": "Draft an original fictional feedback record that preserves views, reasons and unresolved participation gaps.",
+          "paragraphs": [
+            "A participation process continues after a conversation or activity ends. The child should have an appropriate way to learn what was considered, what changed, what did not change and why. A response can acknowledge a constraint without claiming that the child’s view was unimportant. In the fictional feedback note, identify the contribution, decision status, responsible role and suitable next contact point. Keep the distinction between an action proposed for review and one actually authorised or completed. Participation needs a response, not a promise that every preference will be adopted. [R51, S42]",
+            "Representation also requires care when views are combined. An adult summary may overlook uncertainty, disagreement or an absent perspective. Do not describe a group account as the view of every child. Explain who contributed, the limited purpose of the exercise and whose perspective remains unknown without collecting identifying information to fill the gap. Where views differ, an appropriate decision process can consider them alongside other relevant information. The learner’s job is to preserve these distinctions in an invented record rather than determine a real child’s best interests or legal entitlement. [R51, S42]",
+            "Organisational accountability asks whether participation arrangements are implemented and reviewed. A policy document, complaint box or attractive form is not sufficient evidence that a child can use the process safely or obtain a response. Consider how the responsible organisation would check access, staff understanding, response ownership and learning from problems. KCS guidance supports monitoring and review as organisational responsibilities. Do not copy its assessment tools or assign the academy a certification status. An original fictional review note can name an observable gap and the authorised person who should address it. [S41]",
+            "Review should remain proportionate and respectful. Correct an inaccurate attribution without publishing a child’s personal account. A more complete response record can still leave uncertainty about longer-term outcomes. The participation review does not support a numerical claim that a particular feedback form prevents abuse. In this course, assess whether the learner’s reasoning is accurate, accessible and bounded. Real-world practice would additionally require local protocols, suitable supervision and appropriate professional judgement. The worksheet cannot replace those arrangements, confer independent decision authority or satisfy a school’s separate assessment and certificate requirements. [R51, S41, S42]"
+          ],
+          "example": "Fictional case: An invented team records one child’s timetable suggestion as unanimous agreement, marks an unapproved venue change complete and provides no route for checking the summary.",
+          "activity": "Create a short feedback-and-review entry that corrects attribution and action status, identifies missing perspectives and assigns an accessible response owner and review point.",
+          "feedback": "Record the actual limited contribution, preserve uncertainty and describe the venue change as proposed until authorised. Provide a checkable explanation without collecting or publishing personal child records.",
+          "sources": [
+            "R51",
+            "S41",
+            "S42"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-066",
+        "course_slug": "child-participation-and-accessible-safeguarding",
+        "title": "Child Participation and Accessible Safeguarding",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "d337b2cef252cb0804aa28683681038d4b61b1b29734c66c0b5c0a855a8514cb",
+        "catalogue_sha256": "4a293ed519a95d006e049618432a2b11da7a0674cbfc1db6a3ff7753a30c8724",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Voice purpose and decision influence",
+            "outcome": "Distinguish an opportunity to speak from meaningful influence in a fictional protection decision.",
+            "teaching_points": [
+              {
+                "id": "SWP-066-M1-T1",
+                "text": "A participation invitation needs an honest decision scope."
+              },
+              {
+                "id": "SWP-066-M1-T2",
+                "text": "An expressed view and a final decision are distinct records."
+              },
+              {
+                "id": "SWP-066-M1-T3",
+                "text": "Attendance alone cannot establish meaningful influence."
+              },
+              {
+                "id": "SWP-066-M1-T4",
+                "text": "A caregiver’s view should not silently replace a child’s view."
+              },
+              {
+                "id": "SWP-066-M1-T5",
+                "text": "A classroom participation task must remain fictional."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Communication access and voluntary contribution",
+            "outcome": "Identify communication barriers and propose bounded, child-centred adjustments in an invented process.",
+            "teaching_points": [
+              {
+                "id": "SWP-066-M2-T1",
+                "text": "Access adjustments should respond to a specific barrier."
+              },
+              {
+                "id": "SWP-066-M2-T2",
+                "text": "A digital channel may create privacy barriers."
+              },
+              {
+                "id": "SWP-066-M2-T3",
+                "text": "Confidentiality explanations must be truthful."
+              },
+              {
+                "id": "SWP-066-M2-T4",
+                "text": "Optional participation should not require personal disclosures."
+              },
+              {
+                "id": "SWP-066-M2-T5",
+                "text": "Specialist communication support needs appropriate competence."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Feedback representation and accountable review",
+            "outcome": "Draft an original fictional feedback record that preserves views, reasons and unresolved participation gaps.",
+            "teaching_points": [
+              {
+                "id": "SWP-066-M3-T1",
+                "text": "Feedback should explain how a view was considered."
+              },
+              {
+                "id": "SWP-066-M3-T2",
+                "text": "A group summary must not imply universal agreement."
+              },
+              {
+                "id": "SWP-066-M3-T3",
+                "text": "Proposed safeguarding actions need accurate status."
+              },
+              {
+                "id": "SWP-066-M3-T4",
+                "text": "A policy is not proof that participation works."
+              },
+              {
+                "id": "SWP-066-M3-T5",
+                "text": "Correction must preserve privacy and boundaries."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-066-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-066-M1-T1",
+            "question": "In the invented poster-colour meeting, which description best represents the child’s actual influence?",
+            "options": [
+              {
+                "text": "The child independently approved the whole protection plan.",
+                "correct": false
+              },
+              {
+                "text": "Any invitation establishes shared control of all decisions.",
+                "correct": false
+              },
+              {
+                "text": "The child commented on a limited presentation choice, while service decisions remained fixed.",
+                "correct": true
+              },
+              {
+                "text": "The poster choice removes the need for a decision owner.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation claims should reflect the choices that were actually open."
+          },
+          {
+            "id": "SWP-066-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-066-M1-T2",
+            "question": "An invented child requests one arrangement, but an authorised review chooses another. What should a learner seek?",
+            "options": [
+              {
+                "text": "A record stating that the child agreed when they did not.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of the child’s preference after the decision.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that the child alone must decide every safety matter.",
+                "correct": false
+              },
+              {
+                "text": "A clear record of the view, decision, reasons and suitable explanation to the child.",
+                "correct": true
+              }
+            ],
+            "rationale": "Difference requires reasons and feedback rather than erasure or false agreement."
+          },
+          {
+            "id": "SWP-066-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-066-M1-T3",
+            "question": "A fictional participation audit counts eight children present and no other information. What remains unknown?",
+            "options": [
+              {
+                "text": "Whether they understood the purpose, could contribute safely and received a response.",
+                "correct": true
+              },
+              {
+                "text": "Whether eight is an even number.",
+                "correct": false
+              },
+              {
+                "text": "Whether the count automatically proves all children were represented.",
+                "correct": false
+              },
+              {
+                "text": "Whether attendance establishes a causal reduction in harm.",
+                "correct": false
+              }
+            ],
+            "rationale": "A count does not describe the quality or influence of participation."
+          },
+          {
+            "id": "SWP-066-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-066-M1-T4",
+            "question": "A fictional summary attributes a caregiver’s preferred timetable to the child. What correction is needed?",
+            "options": [
+              {
+                "text": "Treat the caregiver’s account as a direct quotation from the child.",
+                "correct": false
+              },
+              {
+                "text": "Distinguish the two views and identify what the child actually expressed or what is unknown.",
+                "correct": true
+              },
+              {
+                "text": "Remove both views to avoid disagreement.",
+                "correct": false
+              },
+              {
+                "text": "Invent a child statement that agrees with the summary.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accurate attribution preserves differing perspectives and uncertainty."
+          },
+          {
+            "id": "SWP-066-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-066-M1-T5",
+            "question": "A learner proposes interviewing a neighbour’s child about an actual protection case for this worksheet. What should happen?",
+            "options": [
+              {
+                "text": "Collect the account if identifying names are omitted later.",
+                "correct": false
+              },
+              {
+                "text": "Ask a classmate to obtain the disclosure on the learner’s behalf.",
+                "correct": false
+              },
+              {
+                "text": "Use the supplied fictional case or an alternative invented exercise instead.",
+                "correct": true
+              },
+              {
+                "text": "Promise that course enrolment authorises case interviewing.",
+                "correct": false
+              }
+            ],
+            "rationale": "The exercise does not authorise recruitment or collection of real child disclosures."
+          },
+          {
+            "id": "SWP-066-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-066-M2-T1",
+            "question": "A fictional child cannot use the club’s written form. What is the strongest planning response?",
+            "options": [
+              {
+                "text": "Assume non-response means no safeguarding concern exists.",
+                "correct": false
+              },
+              {
+                "text": "Send the same form repeatedly without changing support.",
+                "correct": false
+              },
+              {
+                "text": "Require another child to disclose the concern publicly.",
+                "correct": false
+              },
+              {
+                "text": "Identify the communication barrier and arrange a suitable supported alternative through the responsible role.",
+                "correct": true
+              }
+            ],
+            "rationale": "The adjustment should match the barrier and preserve appropriate responsibility."
+          },
+          {
+            "id": "SWP-066-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-066-M2-T2",
+            "question": "An invented child shares the only household phone. Which assumption should be challenged?",
+            "options": [
+              {
+                "text": "That a phone-based response can always be made privately and safely.",
+                "correct": true
+              },
+              {
+                "text": "That an alternative response route may be needed.",
+                "correct": false
+              },
+              {
+                "text": "That communication preferences deserve checking.",
+                "correct": false
+              },
+              {
+                "text": "That adults should consider privacy before collecting information.",
+                "correct": false
+              }
+            ],
+            "rationale": "Device access does not establish private or suitable communication access."
+          },
+          {
+            "id": "SWP-066-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-066-M2-T3",
+            "question": "A fictional facilitator offers absolute secrecy about all safeguarding information. What is more appropriate?",
+            "options": [
+              {
+                "text": "Repeat the promise because it encourages more detailed disclosures.",
+                "correct": false
+              },
+              {
+                "text": "Explain the relevant limits and designated qualified response arrangements in understandable terms.",
+                "correct": true
+              },
+              {
+                "text": "Publish all contributions so secrecy cannot be breached.",
+                "correct": false
+              },
+              {
+                "text": "Let a classroom vote determine which allegations remain secret.",
+                "correct": false
+              }
+            ],
+            "rationale": "A promise must reflect actual authorised safeguards and limits."
+          },
+          {
+            "id": "SWP-066-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-066-M2-T4",
+            "question": "An invented activity requires each child to describe a harmful family experience before offering suggestions. What should change?",
+            "options": [
+              {
+                "text": "Reward the most detailed disclosure.",
+                "correct": false
+              },
+              {
+                "text": "Make disclosure a condition of receiving ordinary information.",
+                "correct": false
+              },
+              {
+                "text": "Allow safe, non-personal ways to contribute without requiring a disclosure.",
+                "correct": true
+              },
+              {
+                "text": "Ask children to supply names of others who experienced harm.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation can be meaningful without collecting sensitive personal histories."
+          },
+          {
+            "id": "SWP-066-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-066-M2-T5",
+            "question": "A fictional access plan requires expertise that the learner does not have. What should the learner record?",
+            "options": [
+              {
+                "text": "A claim that passing this course confers specialist competence.",
+                "correct": false
+              },
+              {
+                "text": "A fabricated assessment saying support has been provided.",
+                "correct": false
+              },
+              {
+                "text": "A decision to exclude the child without considering alternatives.",
+                "correct": false
+              },
+              {
+                "text": "The unmet support need, qualified role and conditional next step.",
+                "correct": true
+              }
+            ],
+            "rationale": "Recognising a dependency is more accurate than inventing competence or completion."
+          },
+          {
+            "id": "SWP-066-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-066-M3-T1",
+            "question": "A fictional team sends only a thank-you message after a participation exercise. What key information is missing?",
+            "options": [
+              {
+                "text": "The decision status, how contributions were considered and a suitable response owner.",
+                "correct": true
+              },
+              {
+                "text": "An invented promise that every proposal was implemented.",
+                "correct": false
+              },
+              {
+                "text": "The private identities of children who disagreed.",
+                "correct": false
+              },
+              {
+                "text": "A certificate stating that the process prevented abuse.",
+                "correct": false
+              }
+            ],
+            "rationale": "Acknowledgement alone does not explain consideration or follow-through."
+          },
+          {
+            "id": "SWP-066-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-066-M3-T2",
+            "question": "One invented child suggests a timetable change. Which summary is defensible?",
+            "options": [
+              {
+                "text": "All children unanimously authorised the change.",
+                "correct": false
+              },
+              {
+                "text": "One contribution favoured a change; other views and the decision remain to be checked.",
+                "correct": true
+              },
+              {
+                "text": "Every absent child agreed by default.",
+                "correct": false
+              },
+              {
+                "text": "The suggestion proves a causal improvement in safety.",
+                "correct": false
+              }
+            ],
+            "rationale": "The summary must preserve scope, attribution and uncertainty."
+          },
+          {
+            "id": "SWP-066-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-066-M3-T3",
+            "question": "The fictional team has requested a new venue but lacks approval. How should the record describe it?",
+            "options": [
+              {
+                "text": "Implemented and independently audited.",
+                "correct": false
+              },
+              {
+                "text": "Guaranteed safe because someone requested it.",
+                "correct": false
+              },
+              {
+                "text": "Proposed, with a responsible owner and approval dependency.",
+                "correct": true
+              },
+              {
+                "text": "Completed professional casework.",
+                "correct": false
+              }
+            ],
+            "rationale": "A request is not evidence of approval, implementation or safety."
+          },
+          {
+            "id": "SWP-066-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-066-M3-T4",
+            "question": "An invented organisation presents its policy as the only evidence that children can raise concerns. What should a review examine?",
+            "options": [
+              {
+                "text": "Only the policy’s page count.",
+                "correct": false
+              },
+              {
+                "text": "Whether no reports automatically proves there is no harm.",
+                "correct": false
+              },
+              {
+                "text": "Whether every child can be required to disclose personal experiences.",
+                "correct": false
+              },
+              {
+                "text": "Whether accessible routes, staff responsibilities and responses operate in practice.",
+                "correct": true
+              }
+            ],
+            "rationale": "Implementation evidence matters alongside written commitments."
+          },
+          {
+            "id": "SWP-066-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-066-M3-T5",
+            "question": "A fictional summary misattributes a view to a child. What is an appropriate classroom correction?",
+            "options": [
+              {
+                "text": "Correct the invented attribution and explain a proportionate review route without collecting real records.",
+                "correct": true
+              },
+              {
+                "text": "Publish an actual child’s case file to demonstrate accuracy.",
+                "correct": false
+              },
+              {
+                "text": "Invent a professional finding to close the disagreement.",
+                "correct": false
+              },
+              {
+                "text": "Declare that the corrected worksheet satisfies certification requirements.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accuracy does not require exposure of real child information or false authority."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-067",
+      "title": "Child Protection Case Management and Information Practice",
+      "slug": "child-protection-case-management-and-information-practice",
+      "cover_title": "Child Protection\nCase Management\nand Information Practice",
+      "school_code": "CPS",
+      "school_name": "School of Child Protection and Safeguarding",
+      "school_display": "Child Protection\nand Safeguarding",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and safeguarding learners preparing to recognise boundaries, analyse fictional plans and work under appropriate supervision. No statutory, investigation or clinical authority is conferred.",
+      "study_guidance": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns. Work through each case before reading feedback. Study time is a proposal for piloting.",
+      "practice_safety_note": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns.",
+      "outcome": "Review fictional case-information and referral records for accuracy, necessary sharing, continuity and qualified responsibility without handling real child case files.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Purpose roles and case-information boundaries",
+          "outcome": "Distinguish introductory case-process reasoning from authorised child-protection case management.",
+          "paragraphs": [
+            "Child-protection case management concerns coordinated support for an individual child and family through an authorised process. It is more than maintaining a spreadsheet or forwarding a message. The CPMS summary describes individualised, coordinated support involving direct help and links to services. In this course, learners examine invented process records rather than conduct a real assessment or manage a caseload. Start by asking what the proposed record is for, who is responsible for the case and which decisions require professional or statutory authority in the actual setting. [S42]",
+            "An appropriate information record supports a defined action. A referral outline might identify the type of support sought, the responsible role, the status of a response and a review point. It should not become an unrestricted narrative about a child’s life. The CPMS information-management guidance connects necessary collection and sharing to contextualised safeguards. Distinguish a learning worksheet from an operational system: the worksheet contains only supplied fictional facts, while real systems need approved governance, access controls, retention arrangements and competent staff. A useful-looking template does not establish those conditions. [S42]",
+            "The Alliance published a second edition of its inter-agency case-management guidelines in December 2024. This identifies an updated resource for qualified teams to consult alongside local procedures. The present appraisal accessed the official resource page and selected indexed publisher excerpts, not the full operational manual. Consequently, this course does not present a copied sequence, global form or universal deadline as an academy protocol. A learner should identify the need for current authoritative guidance and supervision rather than infer that a short course replaces those resources. [S43]",
+            "Clarity about roles prevents false completion claims. Receiving a concern, reviewing it, accepting a referral, providing a service and authorising closure are different events. An organisation should identify who can do each task and how unresolved responsibilities are escalated through suitable arrangements. In the invented case, record what is known and what remains unconfirmed. Do not appoint yourself as a statutory decision-maker, investigate an allegation or promise that another agency has accepted responsibility merely because an email was sent. The learning outcome is a bounded analysis of information and coordination. [S41, S42]"
+          ],
+          "example": "Fictional case: A fictional team calls a shared spreadsheet a complete case-management service. A learner is assigned authority to investigate, approve a placement and close referrals after sending emails.",
+          "activity": "Draft a role-and-purpose note separating administrative information tasks, qualified case responsibilities, unconfirmed service arrangements and activities outside the learner’s authority.",
+          "feedback": "A spreadsheet is a support tool, not proof of a complete service. Separate recording from assessment, statutory decisions, referral acceptance and closure; retain qualified responsibility and uncertainty.",
+          "sources": [
+            "S42",
+            "S43",
+            "S41"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Accurate records necessary sharing and confidentiality",
+          "outcome": "Analyse fictional records for attribution, relevance, access and information-sharing dependencies.",
+          "paragraphs": [
+            "Accurate records distinguish observation, reported information, interpretation and an agreed action. If an invented adult reports that a child was absent, that is not automatically proof of why the child was absent. Record the source and uncertainty without adding an unsupported conclusion. A short factual note can be more useful than a detailed but speculative account. Information-management principles in the CPMS support necessary and appropriately protected records; they do not authorise learners to gather evidence from real children or turn their coursework into an operational case file. [S42]",
+            "Necessary sharing asks what a particular recipient needs for an authorised purpose, rather than whether an entire file can be forwarded. Consider the recipient’s role, the relevant basis for sharing, the child’s appropriate involvement and the approved safeguards for the actual setting. A label such as confidential does not establish secure handling. Do not promise absolute confidentiality or invent a legal exception. When a real situation is uncertain, a designated qualified role must apply the applicable procedures. The fictional exercise should identify that dependency instead of resolving a real disclosure decision. [S42, S41]",
+            "Access arrangements need attention to ordinary practices as well as technology. An unrestricted group chat, shared device or personal inbox may expose information beyond those who need it. Removing a name may not be enough where a small group can recognise a child from contextual details. For coursework, use only invented identifiers and circumstances. In an actual service, information storage, retention, access review and safe disposal would need appropriate organisational and legal governance. This course does not prescribe a particular product, retention period or security architecture as universally compliant. [S41, S42]",
+            "Children’s participation in information use should be understandable and proportionate. Explain the purpose and limits of the process through suitable communication support, without demanding that a child produce a personal story to participate. The participation review highlights how context and relationships shape whether a child is heard. In the invented record, separate a child’s stated view from an adult’s summary and provide a suitable way to question an inaccurate account. An accurate record may still be incomplete; acknowledging that limit is preferable to filling gaps with assumptions or fabricated consent. [R51, S42]"
+          ],
+          "example": "Fictional case: A fictional note turns an unverified report into a finding of neglect. The full narrative is copied to an open group chat, with a child’s name removed but recognisable details retained.",
+          "activity": "Rewrite the note using invented information: distinguish report from inference, state the necessary sharing purpose, identify a qualified decision owner and describe a proportionate access correction.",
+          "feedback": "Retain attribution and uncertainty, share only through authorised arrangements and avoid assuming that removing a name makes information anonymous. Do not invent consent or legal findings.",
+          "sources": [
+            "S42",
+            "S41",
+            "R51"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Referral continuity review and responsible closure",
+          "outcome": "Produce an original fictional follow-up record that distinguishes referral, service delivery and closure decisions.",
+          "paragraphs": [
+            "Continuity depends on knowing who is responsible for the next action. A referral record should distinguish the request, the receiving service’s response, any agreed arrangement and the next review point. When acceptance remains unconfirmed, keep that uncertainty visible and identify a suitable escalation route. The CPMS case-management summary describes coordinated support rather than isolated transactions. A completed email or form is therefore an activity record, not evidence that support reached the child or that the relevant concern has been resolved. [S42]",
+            "Service availability can change because of capacity, access, displacement or other local conditions. Do not promise a service merely because it appears in a directory. An invented plan can state that availability needs confirmation, describe a conditional alternative and name the responsible qualified role. Organisational safeguarding guidance supports clear local procedures and responsibilities. This course does not authorise the learner to improvise emergency arrangements, transfer a child, mediate allegations or make a statutory decision when a service is unavailable. Recognising a boundary and unresolved dependency is an important analytical skill. [S41, S42]",
+            "Review should consider whether the plan still fits the stated purpose and whether the child and family have an appropriate opportunity to be heard. Their views may reveal a practical barrier that an administrative completion count misses. Record the actual status and the reasons for a proposed change through the authorised process. The participation evidence supports attention to relationships and context; it does not establish that collecting more feedback always improves safety. Use a fictional scenario to practise a proportionate review without creating a real child-contact exercise or collecting personal case material. [R51, S42]",
+            "Closure is a decision under applicable professional and organisational arrangements, not a way to tidy a spreadsheet. A learner may identify that evidence, consultation or follow-up is missing without determining a real case outcome. Keep a traceable history of invented status changes, reasons, responsible roles and review points. If an earlier entry was inaccurate, correct it in a way that preserves the history rather than pretending that the error never occurred. The final worksheet demonstrates introductory reasoning about continuity and accountability; it is not completed placement, verified professional practice or a substitute for the school’s separate assessment requirements. [S41, S42]"
+          ],
+          "example": "Fictional case: An invented service has not accepted a referral, transport remains uncertain and the child’s stated access concern is omitted. The team closes the spreadsheet entry to meet a reporting target.",
+          "activity": "Draft a follow-up record with the actual referral status, child-view gap, responsible qualified role, conditional next action and reason that closure cannot be assumed from the reporting target.",
+          "feedback": "Keep acceptance and access uncertainties visible. Assign a responsible review route and distinguish administrative completion from service delivery and a properly authorised closure decision.",
+          "sources": [
+            "S42",
+            "S41",
+            "R51"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-067",
+        "course_slug": "child-protection-case-management-and-information-practice",
+        "title": "Child Protection Case Management and Information Practice",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "bca6930ad70f56f83f0aaa611cf99932a4d07cb578616743f98635260b9c5f51",
+        "catalogue_sha256": "bc7ce3738363f5130acd1524f6be739ad7ff8a5b14e3c626352992b28284bac3",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Purpose roles and case-information boundaries",
+            "outcome": "Distinguish introductory case-process reasoning from authorised child-protection case management.",
+            "teaching_points": [
+              {
+                "id": "SWP-067-M1-T1",
+                "text": "A record system is not a complete case-management service."
+              },
+              {
+                "id": "SWP-067-M1-T2",
+                "text": "Information tasks need a defined purpose."
+              },
+              {
+                "id": "SWP-067-M1-T3",
+                "text": "Updated guidance must not be replaced by an invented protocol."
+              },
+              {
+                "id": "SWP-067-M1-T4",
+                "text": "Sending a referral does not establish acceptance."
+              },
+              {
+                "id": "SWP-067-M1-T5",
+                "text": "A learner cannot create statutory authority by recording it."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Accurate records necessary sharing and confidentiality",
+            "outcome": "Analyse fictional records for attribution, relevance, access and information-sharing dependencies.",
+            "teaching_points": [
+              {
+                "id": "SWP-067-M2-T1",
+                "text": "Reported information must not become an unsupported finding."
+              },
+              {
+                "id": "SWP-067-M2-T2",
+                "text": "Necessary sharing is purpose-specific."
+              },
+              {
+                "id": "SWP-067-M2-T3",
+                "text": "Removing a name may not prevent recognition."
+              },
+              {
+                "id": "SWP-067-M2-T4",
+                "text": "A confidentiality label is not an access control."
+              },
+              {
+                "id": "SWP-067-M2-T5",
+                "text": "Unknown consent or sharing authority must remain unknown."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Referral continuity review and responsible closure",
+            "outcome": "Produce an original fictional follow-up record that distinguishes referral, service delivery and closure decisions.",
+            "teaching_points": [
+              {
+                "id": "SWP-067-M3-T1",
+                "text": "A referral request is not evidence that support arrived."
+              },
+              {
+                "id": "SWP-067-M3-T2",
+                "text": "A service directory does not guarantee current availability."
+              },
+              {
+                "id": "SWP-067-M3-T3",
+                "text": "Review should consider the child’s relevant access concern."
+              },
+              {
+                "id": "SWP-067-M3-T4",
+                "text": "A reporting target does not authorise closure."
+              },
+              {
+                "id": "SWP-067-M3-T5",
+                "text": "Corrections should preserve an accountable history."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-067-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-067-M1-T1",
+            "question": "The fictional team has a spreadsheet but no caseworker or service arrangements. What is justified?",
+            "options": [
+              {
+                "text": "It already provides complete case management.",
+                "correct": false
+              },
+              {
+                "text": "The spreadsheet author can approve placements.",
+                "correct": false
+              },
+              {
+                "text": "It has an information tool; responsibility and support arrangements still need to be established.",
+                "correct": true
+              },
+              {
+                "text": "Every listed case can be marked safely closed.",
+                "correct": false
+              }
+            ],
+            "rationale": "An information tool cannot substitute for authorised, coordinated support."
+          },
+          {
+            "id": "SWP-067-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-067-M1-T2",
+            "question": "An invented referral form collects extensive family details without stating how they will be used. What should be clarified first?",
+            "options": [
+              {
+                "text": "How to collect additional details before any purpose is set.",
+                "correct": false
+              },
+              {
+                "text": "Which classmates should receive the full narrative.",
+                "correct": false
+              },
+              {
+                "text": "How to imply that a form is an official statutory assessment.",
+                "correct": false
+              },
+              {
+                "text": "The legitimate action, responsible role and necessary information for that action.",
+                "correct": true
+              }
+            ],
+            "rationale": "Purpose and responsibility guide proportionate information handling."
+          },
+          {
+            "id": "SWP-067-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-067-M1-T3",
+            "question": "A learner has read only the landing page for the 2024 case-management update. What can they accurately say?",
+            "options": [
+              {
+                "text": "An updated resource exists; operational application requires the actual guidance and suitable local supervision.",
+                "correct": true
+              },
+              {
+                "text": "They have appraised every form in the full manual.",
+                "correct": false
+              },
+              {
+                "text": "The landing page establishes a universal reporting deadline.",
+                "correct": false
+              },
+              {
+                "text": "The course grants authority to use any global case form independently.",
+                "correct": false
+              }
+            ],
+            "rationale": "A resource identification is distinct from whole-manual appraisal or implementation authority."
+          },
+          {
+            "id": "SWP-067-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-067-M1-T4",
+            "question": "A fictional email requests help from a service but receives no reply. Which status is accurate?",
+            "options": [
+              {
+                "text": "Service completed.",
+                "correct": false
+              },
+              {
+                "text": "Sent; acceptance and follow-up responsibility remain unconfirmed.",
+                "correct": true
+              },
+              {
+                "text": "Referral accepted and case closed.",
+                "correct": false
+              },
+              {
+                "text": "The child’s needs have been met.",
+                "correct": false
+              }
+            ],
+            "rationale": "Status should reflect actual evidence of the receiving service’s response."
+          },
+          {
+            "id": "SWP-067-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-067-M1-T5",
+            "question": "An invented worksheet assigns the learner power to approve a child’s placement. What should be corrected?",
+            "options": [
+              {
+                "text": "Keep the assignment because it appears on a form.",
+                "correct": false
+              },
+              {
+                "text": "Ask classmates to vote on a real placement.",
+                "correct": false
+              },
+              {
+                "text": "Identify the relevant authorised decision role and retain the learner’s introductory analytical boundary.",
+                "correct": true
+              },
+              {
+                "text": "Treat a course badge as a statutory appointment.",
+                "correct": false
+              }
+            ],
+            "rationale": "A classroom record does not confer professional or statutory decision authority."
+          },
+          {
+            "id": "SWP-067-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-067-M2-T1",
+            "question": "An invented adult reports a child’s absence but gives no explanation. Which note is defensible?",
+            "options": [
+              {
+                "text": "State that neglect was confirmed.",
+                "correct": false
+              },
+              {
+                "text": "Invent an explanation that makes the file complete.",
+                "correct": false
+              },
+              {
+                "text": "Remove the source so the note appears independently verified.",
+                "correct": false
+              },
+              {
+                "text": "Record the attributed report and the unknown reason, without declaring a finding of neglect.",
+                "correct": true
+              }
+            ],
+            "rationale": "Attribution and uncertainty distinguish a report from a professional finding."
+          },
+          {
+            "id": "SWP-067-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-067-M2-T2",
+            "question": "A fictional recipient needs an appointment detail, but a worker proposes sending the entire case narrative. What should be reviewed?",
+            "options": [
+              {
+                "text": "What that authorised recipient needs for the defined task and the relevant sharing safeguards.",
+                "correct": true
+              },
+              {
+                "text": "Whether more information is always better.",
+                "correct": false
+              },
+              {
+                "text": "Whether a group chat can replace approved governance.",
+                "correct": false
+              },
+              {
+                "text": "Whether all case details should become training examples.",
+                "correct": false
+              }
+            ],
+            "rationale": "A particular action does not automatically justify unrestricted sharing."
+          },
+          {
+            "id": "SWP-067-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-067-M2-T3",
+            "question": "An invented village summary removes a child’s name but retains a unique family description. What risk remains?",
+            "options": [
+              {
+                "text": "The information is automatically anonymous.",
+                "correct": false
+              },
+              {
+                "text": "People may identify the child from the contextual details.",
+                "correct": true
+              },
+              {
+                "text": "A name is the only possible identifier.",
+                "correct": false
+              },
+              {
+                "text": "A confidentiality label prevents all disclosure.",
+                "correct": false
+              }
+            ],
+            "rationale": "Indirect identification can remain possible, especially in small groups."
+          },
+          {
+            "id": "SWP-067-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-067-M2-T4",
+            "question": "A fictional case note is marked confidential and placed in an unrestricted folder. What is missing?",
+            "options": [
+              {
+                "text": "A larger confidential stamp.",
+                "correct": false
+              },
+              {
+                "text": "An assurance that no review is needed.",
+                "correct": false
+              },
+              {
+                "text": "An approved access arrangement suited to the purpose and sensitivity of the information.",
+                "correct": true
+              },
+              {
+                "text": "A statement that the course has certified the folder.",
+                "correct": false
+              }
+            ],
+            "rationale": "Actual handling arrangements matter beyond labels."
+          },
+          {
+            "id": "SWP-067-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-067-M2-T5",
+            "question": "A fictional record has no evidence that the relevant sharing arrangements were explained. What should a learner do?",
+            "options": [
+              {
+                "text": "Insert a fabricated consent statement.",
+                "correct": false
+              },
+              {
+                "text": "Treat silence as proof of informed agreement.",
+                "correct": false
+              },
+              {
+                "text": "Declare a universal legal exemption without checking the setting.",
+                "correct": false
+              },
+              {
+                "text": "Record the gap and refer the actual decision to the designated qualified role and local procedure.",
+                "correct": true
+              }
+            ],
+            "rationale": "The worksheet must not manufacture consent or legal authority."
+          },
+          {
+            "id": "SWP-067-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-067-M3-T1",
+            "question": "A fictional report counts every referral email as a completed service. What should be distinguished?",
+            "options": [
+              {
+                "text": "Requests sent, responses received, agreed arrangements and evidence of actual support.",
+                "correct": true
+              },
+              {
+                "text": "Only the number of emails sent.",
+                "correct": false
+              },
+              {
+                "text": "A reporting target and a verified protection outcome as the same thing.",
+                "correct": false
+              },
+              {
+                "text": "Unconfirmed services as automatically delivered.",
+                "correct": false
+              }
+            ],
+            "rationale": "Continuity requires an evidence-based account of the different stages."
+          },
+          {
+            "id": "SWP-067-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-067-M3-T2",
+            "question": "A fictional directory lists a service whose capacity has not been checked. What should the plan state?",
+            "options": [
+              {
+                "text": "A guaranteed appointment and outcome.",
+                "correct": false
+              },
+              {
+                "text": "Availability is unconfirmed, with a responsible role and conditional next step.",
+                "correct": true
+              },
+              {
+                "text": "That no qualified follow-up is needed.",
+                "correct": false
+              },
+              {
+                "text": "That the learner can independently transfer a child to the service.",
+                "correct": false
+              }
+            ],
+            "rationale": "An entry in a directory is not confirmation of capacity or authority."
+          },
+          {
+            "id": "SWP-067-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-067-M3-T3",
+            "question": "An invented child’s transport concern is absent from a follow-up summary. What is appropriate?",
+            "options": [
+              {
+                "text": "Declare that all access barriers are resolved.",
+                "correct": false
+              },
+              {
+                "text": "Replace the concern with an adult’s assumption.",
+                "correct": false
+              },
+              {
+                "text": "Record the omitted concern and seek its consideration through the authorised review process.",
+                "correct": true
+              },
+              {
+                "text": "Publish a real family’s travel details as a teaching example.",
+                "correct": false
+              }
+            ],
+            "rationale": "A review can identify practical gaps without exposing real information."
+          },
+          {
+            "id": "SWP-067-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-067-M3-T4",
+            "question": "An invented team marks an unresolved referral closed to improve its monthly statistics. What is the strongest critique?",
+            "options": [
+              {
+                "text": "Any target permits changing case status.",
+                "correct": false
+              },
+              {
+                "text": "A blank spreadsheet is proof of improved child safety.",
+                "correct": false
+              },
+              {
+                "text": "A course learner may close every case independently.",
+                "correct": false
+              },
+              {
+                "text": "Closure must follow the applicable authorised decision process and actual evidence, not a numerical target.",
+                "correct": true
+              }
+            ],
+            "rationale": "Administrative convenience is not a defensible case decision."
+          },
+          {
+            "id": "SWP-067-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-067-M3-T5",
+            "question": "A fictional referral was mistakenly recorded as accepted. How should the invented record be corrected?",
+            "options": [
+              {
+                "text": "Retain a traceable correction with the actual status, reason and responsible review role.",
+                "correct": true
+              },
+              {
+                "text": "Erase every earlier entry without explanation.",
+                "correct": false
+              },
+              {
+                "text": "Keep the false status to avoid a lower completion count.",
+                "correct": false
+              },
+              {
+                "text": "Add a fabricated provider signature.",
+                "correct": false
+              }
+            ],
+            "rationale": "Traceable correction supports accountability without inventing evidence."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-068",
+      "title": "Safeguarding Organisations and Safer Programmes",
+      "slug": "safeguarding-organisations-and-safer-programmes",
+      "cover_title": "Safeguarding\nOrganisations and\nSafer Programmes",
+      "school_code": "CPS",
+      "school_name": "School of Child Protection and Safeguarding",
+      "school_display": "Child Protection\nand Safeguarding",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and safeguarding learners preparing to recognise boundaries, analyse fictional plans and work under appropriate supervision. No statutory, investigation or clinical authority is conferred.",
+      "study_guidance": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns. Work through each case before reading feedback. Study time is a proposal for piloting.",
+      "practice_safety_note": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns.",
+      "outcome": "Review a fictional organisation’s safeguarding arrangements for responsibilities, safer operations, reporting access and accountable improvement without investigating real allegations.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Organisational responsibility and safer roles",
+          "outcome": "Identify how a fictional organisation’s responsibilities extend beyond possessing a safeguarding policy.",
+          "paragraphs": [
+            "Organisations can affect children through staff conduct, activities, operations and partners, including work that does not involve a dedicated children’s service. Safeguarding therefore belongs in ordinary planning and management rather than being treated as a single specialist’s private concern. The KCS standards describe organisational responsibilities across policy, people, procedures and accountability. These are practice comparators, not evidence that a particular organisation is accredited or that harm has been prevented. In this course, use them to ask original questions about responsibility and implementation in a fictional organisation. [S41]",
+            "A written commitment needs a clear scope and an authorised owner. Consider who is covered, how people learn about their responsibilities and who can act when a concern involves a person with authority. A policy kept in an office may be unavailable to a volunteer, partner or child affected by the organisation’s work. The learner should identify these practical gaps without copying a source policy or representing the worksheet as a complete compliance assessment. Local law, organisational structure and qualified safeguarding advice determine how actual arrangements should operate. [S41]",
+            "Safer roles also require appropriate recruitment, induction, supervision and expectations about conduct. A completed check is one part of a broader process; it cannot guarantee that someone will never cause harm. Likewise, a training attendance list does not establish that staff understand or apply the relevant arrangements. In the invented scenario, ask what the organisation would need to verify before assigning responsibilities and how concerns can be raised about unsuitable conduct. Avoid prescribing a particular national screening process as universally available or sufficient. [S41, S42]",
+            "Clear role boundaries protect both children and those working with them. A learner may identify a missing responsibility, but should not appoint themselves as an investigator, statutory decision-maker or clinical provider. The CPMS emphasise staff competence and appropriate support in humanitarian child-protection work. A fictional role description should distinguish routine activity supervision, designated safeguarding responsibilities and matters that need qualified external arrangements. An introductory course or badge cannot substitute for a suitable appointment, verified competence or an organisation’s responsibility to provide support and oversight. [S42, S41]"
+          ],
+          "example": "Fictional case: A fictional organisation has a policy signed by its founder but gives volunteers no induction, treats one background check as a guarantee of safety and assigns a new learner to investigate staff allegations.",
+          "activity": "Write an original responsibility review identifying four implementation gaps, the appropriate owner for each and the boundary on the learner’s role.",
+          "feedback": "Separate a written commitment from implementation. Include induction, ongoing supervision, suitable conduct expectations and qualified allegation-response arrangements; do not describe a screening check or course as a guarantee.",
+          "sources": [
+            "S41",
+            "S42"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Safer programme design partnerships and communication",
+          "outcome": "Analyse a fictional activity for foreseeable safeguarding risks, responsibilities and conditional controls.",
+          "paragraphs": [
+            "Programme design can create safeguarding risks even when staff intend to help. Consider the setting, transport, supervision, accessibility, communications and how children may seek help. The task is to identify a plausible pathway to harm and a feasible prevention or response measure, not to produce a claim that risk has disappeared. KCS guidance connects safeguarding with ordinary organisational systems and risk review. An original fictional analysis should name the activity, the concern, the responsible owner and the evidence needed before a proposed control can be treated as operating. [S41]",
+            "Partnership does not remove an organisation’s responsibility to consider how its work affects children. Clarify what each partner will do, which standards and local procedures apply, how concerns move between the organisations and what happens if an arrangement fails. A signed agreement may record expectations but does not prove that a partner has the capacity to fulfil them. In the invented scenario, retain uncertainty about an unverified service or untrained supervisor. Do not describe the academy as certifying a partner or supplying a complete contract through a course worksheet. [S41]",
+            "Communications require attention to children’s dignity, privacy and safety as well as visibility for a programme. An identifiable photograph, story or location may reveal more than organisers intend. Consent and permission questions require the appropriate local process, child involvement and qualified review; an informal classroom assumption is insufficient. The CPMS communications standard treats risk assessment as relevant before advocacy and publicity. For the learner’s exercise, use invented scenarios and avoid reproducing actual child images, personal stories or case details. A compelling campaign is not automatically a safe campaign. [S42, S41]",
+            "Controls need review when circumstances change. An activity may become unsuitable if a venue loses an accessible entrance, supervision is unavailable or the proposed transport arrangement has not been confirmed. An appropriate decision may be to change, postpone or stop the activity through the responsible authority. Record the reason and the unresolved conditions without blaming a child for being unable to participate. This is introductory planning practice, not authorisation to organise real field activities with children. Actual delivery requires suitable local procedures, competence, resources and oversight. [S41, S42]"
+          ],
+          "example": "Fictional case: An invented programme advertises a children’s event before confirming supervisors or accessible transport. Its partner promises support without a named owner, and a campaign plan includes identifiable child stories.",
+          "activity": "Prepare a conditional activity note linking each concern to a feasible control, responsible role, verification need and stop-or-change condition. Use no real child information.",
+          "feedback": "Keep delivery conditional on suitable supervision, access and partner arrangements. Treat publicity and identifiable stories as safeguarding questions requiring an appropriate authorised process, not as automatic marketing assets.",
+          "sources": [
+            "S41",
+            "S42"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Reporting access accountability and learning",
+          "outcome": "Review fictional reporting and improvement arrangements without conducting an investigation.",
+          "paragraphs": [
+            "A reporting route should be understandable, accessible and connected to an appropriate response. A complaint box, phone number or policy paragraph alone does not establish that a child knows how to use it, can do so safely or receives suitable follow-up. KCS guidance treats reporting and responding as locally appropriate organisational arrangements. In the fictional review, ask how people learn about the route, who receives a concern and what happens when the usual contact is implicated or unavailable. Do not invent a universal reporting deadline or an unverified local helpline. [S41]",
+            "Receiving a concern is distinct from investigating an allegation or deciding its truth. A designated organisation must use appropriate qualified procedures, including safeguards against conflicts of interest. The learner should recognise when the activity has reached that boundary and identify the relevant responsibility. Avoid public questioning, classroom determinations of guilt or promises that the organisation can resolve every concern internally. An appropriate fictional record can acknowledge that a response is needed without collecting a real child’s account or disclosing identifying information to the class. [S41, S42]",
+            "Accountability includes examining whether measures work and correcting gaps. A low number of reports might reflect fewer incidents, but it might also reflect inaccessible channels, fear, poor awareness or incomplete recording. Do not interpret the count alone as proof of improved safety. KCS guidance supports monitoring and review of implementation rather than reliance on policy ownership. An original fictional improvement entry should identify the gap, a responsible owner, the proposed action and the evidence that would support a later review. No source assessment checklist or certification claim is needed. [S41]",
+            "Learning from problems should preserve both privacy and an accurate history. An organisation can review an aggregate process failure without circulating a detailed personal account. Changes to a reporting route may need communication, staff support and a check that the revised arrangement is usable. The participation review reminds learners that relationships and context affect whether children are heard. Keep unresolved issues visible and distinguish a recommendation from an implemented change. The worksheet is evidence of reasoning, not an independent audit, a guarantee of safety or completion of a professional safeguarding appointment. [R51, S41]"
+          ],
+          "example": "Fictional case: An invented organisation reports zero concerns after moving its only channel to an app. A complaint about the usual contact has no alternative route, but the annual report declares the system fully safe.",
+          "activity": "Draft an original accountability note addressing alternative access, conflict of interest, interpretation of report counts, responsible action and a proportionate review measure.",
+          "feedback": "Zero reports do not establish zero harm. Identify usable alternatives and qualified independent responsibility where needed, then propose review evidence without collecting or publishing real allegations.",
+          "sources": [
+            "S41",
+            "S42",
+            "R51"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-068",
+        "course_slug": "safeguarding-organisations-and-safer-programmes",
+        "title": "Safeguarding Organisations and Safer Programmes",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "d5f3cfe168fe021088130e10ea1e325cf226b727f2f21913d8511ff717f94272",
+        "catalogue_sha256": "b2e46aaf23f0037a6807ad52d484d58d4f251a9dcf470cd96aaf8f9cb135f2fc",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Organisational responsibility and safer roles",
+            "outcome": "Identify how a fictional organisation’s responsibilities extend beyond possessing a safeguarding policy.",
+            "teaching_points": [
+              {
+                "id": "SWP-068-M1-T1",
+                "text": "Safeguarding responsibilities extend across organisational operations."
+              },
+              {
+                "id": "SWP-068-M1-T2",
+                "text": "A signed policy needs practical implementation."
+              },
+              {
+                "id": "SWP-068-M1-T3",
+                "text": "Recruitment checks cannot guarantee future safety."
+              },
+              {
+                "id": "SWP-068-M1-T4",
+                "text": "Training attendance is distinct from demonstrated practice."
+              },
+              {
+                "id": "SWP-068-M1-T5",
+                "text": "A learner’s safeguarding role must remain bounded."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Safer programme design partnerships and communication",
+            "outcome": "Analyse a fictional activity for foreseeable safeguarding risks, responsibilities and conditional controls.",
+            "teaching_points": [
+              {
+                "id": "SWP-068-M2-T1",
+                "text": "Programme risk review should connect concerns to feasible controls."
+              },
+              {
+                "id": "SWP-068-M2-T2",
+                "text": "Partner promises require appropriate verification."
+              },
+              {
+                "id": "SWP-068-M2-T3",
+                "text": "Publicity can create safeguarding risks."
+              },
+              {
+                "id": "SWP-068-M2-T4",
+                "text": "Changing conditions may require changing or stopping an activity."
+              },
+              {
+                "id": "SWP-068-M2-T5",
+                "text": "Access barriers should be addressed through organisational planning."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Reporting access accountability and learning",
+            "outcome": "Review fictional reporting and improvement arrangements without conducting an investigation.",
+            "teaching_points": [
+              {
+                "id": "SWP-068-M3-T1",
+                "text": "A reporting channel needs a suitable response arrangement."
+              },
+              {
+                "id": "SWP-068-M3-T2",
+                "text": "An implicated contact requires an appropriate alternative route."
+              },
+              {
+                "id": "SWP-068-M3-T3",
+                "text": "Receiving a concern does not authorise investigation by any worker."
+              },
+              {
+                "id": "SWP-068-M3-T4",
+                "text": "Zero reports cannot alone prove zero harm."
+              },
+              {
+                "id": "SWP-068-M3-T5",
+                "text": "Improvement recommendations need observable follow-through."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-068-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-068-M1-T1",
+            "question": "A fictional organisation says safeguarding matters only in its children’s club. What should its review also consider?",
+            "options": [
+              {
+                "text": "Only the club’s opening hours.",
+                "correct": false
+              },
+              {
+                "text": "Whether children appear in the organisation’s name.",
+                "correct": false
+              },
+              {
+                "text": "How staff, operations, communications and partners elsewhere may affect children.",
+                "correct": true
+              },
+              {
+                "text": "Whether indirect contact automatically removes safeguarding responsibility.",
+                "correct": false
+              }
+            ],
+            "rationale": "Organisational activities can affect children beyond a dedicated service."
+          },
+          {
+            "id": "SWP-068-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-068-M1-T2",
+            "question": "The fictional policy is signed but inaccessible to volunteers. What is missing?",
+            "options": [
+              {
+                "text": "A claim that the signature alone proves safe practice.",
+                "correct": false
+              },
+              {
+                "text": "A rule that volunteers need no information.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that the policy has been independently certified.",
+                "correct": false
+              },
+              {
+                "text": "Suitable communication, understanding and implementation of responsibilities.",
+                "correct": true
+              }
+            ],
+            "rationale": "A commitment must be usable by those expected to act on it."
+          },
+          {
+            "id": "SWP-068-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-068-M1-T3",
+            "question": "A fictional manager describes one screening check as proof that a worker cannot cause harm. What is more accurate?",
+            "options": [
+              {
+                "text": "It is one safeguard within suitable recruitment, conduct, supervision and response arrangements.",
+                "correct": true
+              },
+              {
+                "text": "It removes the need for supervision.",
+                "correct": false
+              },
+              {
+                "text": "It guarantees that no concern will ever arise.",
+                "correct": false
+              },
+              {
+                "text": "It transfers every safeguarding duty to the screening provider.",
+                "correct": false
+              }
+            ],
+            "rationale": "No single check establishes complete or permanent safety."
+          },
+          {
+            "id": "SWP-068-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-068-M1-T4",
+            "question": "An invented team records attendance at an induction but checks nothing else. What remains unknown?",
+            "options": [
+              {
+                "text": "Whether any attendance record exists.",
+                "correct": false
+              },
+              {
+                "text": "Whether staff understand and can apply the relevant responsibilities and procedures.",
+                "correct": true
+              },
+              {
+                "text": "Whether attendance automatically demonstrates every professional skill.",
+                "correct": false
+              },
+              {
+                "text": "Whether policy review is now permanently unnecessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation in training does not itself establish competent implementation."
+          },
+          {
+            "id": "SWP-068-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-068-M1-T5",
+            "question": "A fictional role description appoints a new course learner to investigate an actual allegation independently. What should change?",
+            "options": [
+              {
+                "text": "Retain the appointment because the learner has read a policy.",
+                "correct": false
+              },
+              {
+                "text": "Ask the learner to obtain public witness accounts for coursework.",
+                "correct": false
+              },
+              {
+                "text": "Identify the authorised qualified response arrangements and keep the learner within an appropriate supervised role.",
+                "correct": true
+              },
+              {
+                "text": "Treat a badge as an investigation licence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Learning does not confer investigation or statutory authority."
+          },
+          {
+            "id": "SWP-068-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-068-M2-T1",
+            "question": "A fictional event plan says only keep children safe. What makes its planning more useful?",
+            "options": [
+              {
+                "text": "A guarantee that no risk exists.",
+                "correct": false
+              },
+              {
+                "text": "A longer slogan without practical responsibilities.",
+                "correct": false
+              },
+              {
+                "text": "A statement that good intentions replace supervision.",
+                "correct": false
+              },
+              {
+                "text": "Specific concerns, suitable controls, responsible roles and verification needs.",
+                "correct": true
+              }
+            ],
+            "rationale": "A usable review explains what needs to happen and who is responsible."
+          },
+          {
+            "id": "SWP-068-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-068-M2-T2",
+            "question": "A fictional partner offers transport without confirming a responsible person or capacity. What status should the plan retain?",
+            "options": [
+              {
+                "text": "Unconfirmed, with a named verification owner and conditional alternative.",
+                "correct": true
+              },
+              {
+                "text": "Guaranteed and fully implemented.",
+                "correct": false
+              },
+              {
+                "text": "Independently accredited by the classroom exercise.",
+                "correct": false
+              },
+              {
+                "text": "Safe because the partner signed a general letter.",
+                "correct": false
+              }
+            ],
+            "rationale": "An agreement or promise is not evidence of operational capacity."
+          },
+          {
+            "id": "SWP-068-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-068-M2-T3",
+            "question": "An invented campaign proposes publishing a child’s identifiable protection story. What should be considered?",
+            "options": [
+              {
+                "text": "Only whether the story attracts attention.",
+                "correct": false
+              },
+              {
+                "text": "Dignity, privacy, safety and the appropriate authorised consent and communication process.",
+                "correct": true
+              },
+              {
+                "text": "Whether removing the child’s first name guarantees safety.",
+                "correct": false
+              },
+              {
+                "text": "Whether every campaign automatically serves the child’s best interests.",
+                "correct": false
+              }
+            ],
+            "rationale": "Communication decisions require safeguarding attention beyond publicity value."
+          },
+          {
+            "id": "SWP-068-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-068-M2-T4",
+            "question": "An invented event loses its planned supervision shortly before opening. What is appropriate?",
+            "options": [
+              {
+                "text": "Proceed because the event was advertised.",
+                "correct": false
+              },
+              {
+                "text": "Assign unprepared children to supervise each other.",
+                "correct": false
+              },
+              {
+                "text": "Use the responsible authority to review, change or postpone delivery until suitable arrangements exist.",
+                "correct": true
+              },
+              {
+                "text": "Record the missing supervision as already provided.",
+                "correct": false
+              }
+            ],
+            "rationale": "A public promise does not justify delivery under unmet safeguarding conditions."
+          },
+          {
+            "id": "SWP-068-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-068-M2-T5",
+            "question": "A fictional venue becomes inaccessible to one child. What is a sound planning response?",
+            "options": [
+              {
+                "text": "Exclude the child without examining the arrangement.",
+                "correct": false
+              },
+              {
+                "text": "Declare that attendance at any venue proves inclusion.",
+                "correct": false
+              },
+              {
+                "text": "Require the child to supply a personal trauma account before an adjustment is considered.",
+                "correct": false
+              },
+              {
+                "text": "Review suitable alternatives and responsibility without blaming the child for the barrier.",
+                "correct": true
+              }
+            ],
+            "rationale": "Access is a planning responsibility, not a test of whether a child deserves participation."
+          },
+          {
+            "id": "SWP-068-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-068-M3-T1",
+            "question": "A fictional organisation installs a complaint box without naming anyone to review it. What is the central gap?",
+            "options": [
+              {
+                "text": "A responsible, suitable process for receiving and responding to concerns.",
+                "correct": true
+              },
+              {
+                "text": "The colour of the box alone.",
+                "correct": false
+              },
+              {
+                "text": "A declaration that the box guarantees confidentiality.",
+                "correct": false
+              },
+              {
+                "text": "A claim that installing a box proves compliance.",
+                "correct": false
+              }
+            ],
+            "rationale": "A channel without responsibility does not establish a functioning response."
+          },
+          {
+            "id": "SWP-068-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-068-M3-T2",
+            "question": "An invented concern involves the only named safeguarding contact. What should the organisation have considered?",
+            "options": [
+              {
+                "text": "A rule that concerns about the contact cannot be raised.",
+                "correct": false
+              },
+              {
+                "text": "A suitable alternative qualified route and safeguards against conflict of interest.",
+                "correct": true
+              },
+              {
+                "text": "A classroom vote on whether the allegation is true.",
+                "correct": false
+              },
+              {
+                "text": "Automatic publication of the full complaint.",
+                "correct": false
+              }
+            ],
+            "rationale": "An effective process needs arrangements for conflicts and unavailable contacts."
+          },
+          {
+            "id": "SWP-068-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-068-M3-T3",
+            "question": "A fictional volunteer receives an allegation and proposes interviewing witnesses publicly. What is appropriate?",
+            "options": [
+              {
+                "text": "Proceed because a concern has been reported.",
+                "correct": false
+              },
+              {
+                "text": "Require children to resolve the allegation in a group discussion.",
+                "correct": false
+              },
+              {
+                "text": "Follow the designated qualified response arrangements and avoid independent public investigation.",
+                "correct": true
+              },
+              {
+                "text": "Treat the volunteer’s interpretation as a final finding.",
+                "correct": false
+              }
+            ],
+            "rationale": "Receipt, investigation and adjudication are distinct responsibilities."
+          },
+          {
+            "id": "SWP-068-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-068-M3-T4",
+            "question": "The invented app-only channel receives no reports. Which interpretation is defensible?",
+            "options": [
+              {
+                "text": "Every child is safe because the count is zero.",
+                "correct": false
+              },
+              {
+                "text": "The organisation no longer needs reporting arrangements.",
+                "correct": false
+              },
+              {
+                "text": "Any future report must be false because the previous count was zero.",
+                "correct": false
+              },
+              {
+                "text": "The count is insufficient; access, awareness, trust and recording need review.",
+                "correct": true
+              }
+            ],
+            "rationale": "Reporting numbers have multiple possible explanations."
+          },
+          {
+            "id": "SWP-068-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-068-M3-T5",
+            "question": "A fictional review proposes an alternative reporting route. What should accompany it?",
+            "options": [
+              {
+                "text": "A responsible owner, implementation conditions and proportionate evidence for a later review.",
+                "correct": true
+              },
+              {
+                "text": "A claim that making the proposal completed the improvement.",
+                "correct": false
+              },
+              {
+                "text": "An invented audit signature.",
+                "correct": false
+              },
+              {
+                "text": "A request for real case files from children in the class.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accountability distinguishes a recommendation from implementation and review."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-069",
+      "title": "Preventing Violence and Supporting Caregivers",
+      "slug": "preventing-violence-and-supporting-caregivers",
+      "cover_title": "Preventing Violence\nand Supporting\nCaregivers",
+      "school_code": "CPS",
+      "school_name": "School of Child Protection and Safeguarding",
+      "school_display": "Child Protection\nand Safeguarding",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and safeguarding learners preparing to recognise boundaries, analyse fictional plans and work under appropriate supervision. No statutory, investigation or clinical authority is conferred.",
+      "study_guidance": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns. Work through each case before reading feedback. Study time is a proposal for piloting.",
+      "practice_safety_note": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns.",
+      "outcome": "Develop a bounded fictional prevention proposal that considers caregiving, structural barriers, suitable support and outcome-specific evidence without delivering a clinical or parenting programme.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Prevention across family community and service settings",
+          "outcome": "Identify complementary prevention responsibilities without blaming children or caregivers for structural barriers.",
+          "paragraphs": [
+            "Prevention includes reducing opportunities for harm, strengthening supportive relationships and addressing barriers around families. A narrow plan that asks a caregiver to change while ignoring inaccessible services or unsafe programme conditions may miss important responsibilities. The CPMS socio-ecological approach considers children, families, communities and wider systems together. Use this as a way to organise questions in a fictional proposal, not as a causal scoring instrument. Describe the concern, the relevant level of action and the authority or resources needed before claiming that an intervention can be delivered. [S42]",
+            "Caregiver support and child protection can be complementary, but support must not be confused with a finding about an individual family. Poverty, disability, distress or displacement does not by itself establish maltreatment or justify removing a child. An invented case may identify a practical service barrier without diagnosing a caregiver or predicting abuse. Keep the focus on suitable access, respectful engagement and qualified responsibility. The existing CPS courses address family preservation and permanency; this addition examines prevention planning and evidence rather than repeating placement decisions or granting a new statutory role. [S42, S41]",
+            "A review of parenting interventions in humanitarian settings found promising evidence for some outcomes, with substantial variation across interventions and settings. Its search was updated in 2022, despite the paper appearing in a 2025 journal issue. This distinction matters when a proposal describes evidence as current. The research supports considering suitable parenting support within a wider response; it does not show that any generic workshop will prevent every form of violence. A learner should ask about the population, outcome, delivery capacity and limits of the evidence rather than attach a broad effectiveness label to a new activity. [R52]",
+            "Prevention messages should avoid implying that children are responsible for stopping adult harm or that a caregiver must disclose distress to deserve ordinary support. Offer clear, accessible information about suitable qualified arrangements within the actual setting. The course uses invented examples only and does not recruit families, teach a programme manual or provide individual clinical advice. A strong fictional proposal can identify a support need, an appropriate responsible service and an unresolved access condition. It should remain honest about what the learner knows, what requires confirmation and what is outside their role. [S41, S42]"
+          ],
+          "example": "Fictional case: A fictional prevention proposal blames missed appointments entirely on caregivers, although the service is inaccessible and transport is uncertain. It promises that a single generic workshop will prevent all violence.",
+          "activity": "Rewrite the proposal’s rationale to identify family, organisational and structural responsibilities, a suitable support objective and the evidence limits of the promised effect.",
+          "feedback": "Address service and access conditions alongside caregiver support. Replace the universal promise with a specific conditional objective and identify the responsible qualified arrangements.",
+          "sources": [
+            "S42",
+            "S41",
+            "R52"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Support options access and qualified delivery",
+          "outcome": "Review an invented caregiver-support option for suitability, access and competence dependencies.",
+          "paragraphs": [
+            "A support option needs a clear purpose and a suitable delivery arrangement. Describe the intended population, the specific concern and the type of support that a responsible qualified service can provide. An introductory learner should not infer competence to deliver a structured intervention from reading about its research. The CPMS caregiving and workforce guidance supports suitable help and competent staff, while KCS guidance keeps organisational responsibility visible. In a fictional plan, identify who would need to confirm suitability, what training or supervision is required and which elements remain outside the learner’s role. [S42, S41]",
+            "Recent research can inform these questions without becoming a treatment manual. A 2026 pragmatic trial with displaced and migrant caregivers on the Thailand-Myanmar border reported benefits in some caregiver and parenting outcomes after an integrated intervention. Its findings did not show improvement in every child outcome. The setting, participant selection, trained delivery and follow-up conditions matter. The course therefore uses the study to ask about contextual fit and outcome distinctions; it does not reproduce its sessions, therapeutic techniques, questionnaires or training requirements, or predict a similar effect in a Nigerian programme. [R54]",
+            "Access should be considered alongside content. Timing, transport, language, disability, caring responsibilities, cost and fear may affect participation. Avoid interpreting non-attendance as proof that a family does not care. An appropriate organisation may need to offer alternatives or link people to suitable support, subject to actual service availability and local safeguards. In the invented scenario, distinguish a confirmed resource from one assumed for planning. A respectful plan should not force a caregiver to disclose violence publicly, promise absolute confidentiality or offer specialist treatment through an unqualified worker. [S41, S42]",
+            "Support arrangements also need boundaries when concerns exceed the programme’s scope. A caregiver education activity is not a substitute for a qualified response to an actual protection concern or emergency. Identify the relevant designated route and local decision responsibility rather than invent a universal referral rule. Keep the child’s safety, views and appropriate communication in the analysis without asking a real child to supply evidence for coursework. The learner’s output is a conditional fictional support plan, not a completed intervention, clinical judgement or proof of professional competence. [S42, S41]"
+          ],
+          "example": "Fictional case: An invented project copies the title of a published intervention, assigns delivery to an untrained learner and calls non-attendance a lack of care. It assumes specialist support is available without checking.",
+          "activity": "Prepare a suitability-and-access note identifying the actual objective, qualified delivery dependencies, two access barriers and a conditional support route.",
+          "feedback": "Research does not transfer a programme’s competence requirements to the learner. Confirm suitability, delivery support and service availability, address access barriers and preserve a qualified response for concerns outside scope.",
+          "sources": [
+            "S42",
+            "S41",
+            "R54"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Review outcomes and avoid causal overclaim",
+          "outcome": "Distinguish activities, self-reported change and defensible outcome conclusions in an invented prevention review.",
+          "paragraphs": [
+            "A prevention review should distinguish what was delivered from what changed. Attendance, completed sessions and distributed handouts describe activities or outputs; they do not by themselves demonstrate a reduction in violence. Define the intended outcome, the period and the evidence needed to assess it through an appropriately governed evaluation. In this introductory course, use invented aggregate data only. The task is to interpret a fictional report accurately rather than design an advanced causal study, collect real family histories or administer a source research instrument. [S42, R52]",
+            "Associations observed at one time do not establish the sequence or mechanism of change. A 2025 study of Eastern European mothers found cross-sectional associations relevant to family violence, but its proposed pathways did not replicate in the longitudinal analysis. Intervention exposure, attrition and pandemic timing complicate interpretation. This is a reason to avoid a deterministic explanation or blame directed at caregivers or children. Use the example to distinguish a plausible question from an established causal finding; it does not supply a diagnosis or a local risk prediction for an individual family. [R53]",
+            "Outcome measures and context also shape what a programme can claim. The 2026 border-setting trial relied on self-reported outcomes and included relatively few male caregivers. Its caregiver and parenting findings cannot establish that all children’s emotional or behavioural difficulties improved, or that the effect will persist indefinitely. The humanitarian meta-analysis also found heterogeneous effects and little longer-term evidence. A responsible fictional review should describe the relevant findings, uncertainty and transfer limits rather than combine unlike outcomes into a universal success statement. Do not use a journal’s rank as a substitute for this appraisal. [R54, R52]",
+            "Learning from a review can include revising access arrangements, clarifying delivery responsibility or acknowledging that evidence is insufficient. Name the proposed change, responsible owner and review point. Preserve the distinction between a recommendation and an implemented action, and avoid presenting an attractive portfolio as completed field practice. Reading or passing an offline exercise cannot award a course badge or school certificate. Those require the academy’s approved assessment arrangements, verified ParaLearn results and the relevant human review and signatures. The prevention worksheet provides evidence of bounded reasoning, not proof of intervention effectiveness or independent professional competence. [S41, S42]"
+          ],
+          "example": "Fictional case: An invented project reports forty attendances, improved caregiver confidence and fewer reports to one channel as proof that violence ended and every child’s mental health improved.",
+          "activity": "Write an evidence review separating activity, self-report, reporting-channel change and child outcomes. Add two limitations and one feasible improvement with a responsible owner.",
+          "feedback": "Attendance and confidence are not proof that violence ended. Examine the measures and reporting access, keep child outcomes distinct and state limitations without inventing causal effects or professional authority.",
+          "sources": [
+            "S42",
+            "R52",
+            "R53",
+            "R54",
+            "S41"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-069",
+        "course_slug": "preventing-violence-and-supporting-caregivers",
+        "title": "Preventing Violence and Supporting Caregivers",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "bfae5d043107e708301e3c39f0ab9323933f219d35809d7236561c6be0a5eff8",
+        "catalogue_sha256": "55eb021629bbb027a6dcbf1062a3f8cf80921153d42c1e320bf0d294db7cc59c",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Prevention across family community and service settings",
+            "outcome": "Identify complementary prevention responsibilities without blaming children or caregivers for structural barriers.",
+            "teaching_points": [
+              {
+                "id": "SWP-069-M1-T1",
+                "text": "Prevention planning should consider more than individual behaviour."
+              },
+              {
+                "id": "SWP-069-M1-T2",
+                "text": "Adversity alone does not establish an individual maltreatment finding."
+              },
+              {
+                "id": "SWP-069-M1-T3",
+                "text": "Evidence claims must identify the relevant intervention and outcome."
+              },
+              {
+                "id": "SWP-069-M1-T4",
+                "text": "Publication year differs from a review’s search date."
+              },
+              {
+                "id": "SWP-069-M1-T5",
+                "text": "Support should not require unnecessary personal disclosure."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Support options access and qualified delivery",
+            "outcome": "Review an invented caregiver-support option for suitability, access and competence dependencies.",
+            "teaching_points": [
+              {
+                "id": "SWP-069-M2-T1",
+                "text": "Reading a trial does not confer intervention-delivery competence."
+              },
+              {
+                "id": "SWP-069-M2-T2",
+                "text": "A study’s setting and outcome distinctions matter."
+              },
+              {
+                "id": "SWP-069-M2-T3",
+                "text": "Non-attendance may reflect practical barriers."
+              },
+              {
+                "id": "SWP-069-M2-T4",
+                "text": "Unverified support must remain conditional."
+              },
+              {
+                "id": "SWP-069-M2-T5",
+                "text": "Routine support cannot replace a qualified protection response."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Review outcomes and avoid causal overclaim",
+            "outcome": "Distinguish activities, self-reported change and defensible outcome conclusions in an invented prevention review.",
+            "teaching_points": [
+              {
+                "id": "SWP-069-M3-T1",
+                "text": "Activity counts are not outcome proof."
+              },
+              {
+                "id": "SWP-069-M3-T2",
+                "text": "Cross-sectional associations do not establish causal pathways."
+              },
+              {
+                "id": "SWP-069-M3-T3",
+                "text": "Caregiver and child outcomes should remain distinct."
+              },
+              {
+                "id": "SWP-069-M3-T4",
+                "text": "Fewer reports can reflect a changed channel."
+              },
+              {
+                "id": "SWP-069-M3-T5",
+                "text": "A review recommendation needs a responsible next step."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-069-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-069-M1-T1",
+            "question": "A fictional programme ignores an inaccessible service and attributes missed visits only to caregiver motivation. What should its review add?",
+            "options": [
+              {
+                "text": "A finding of maltreatment from missed visits alone.",
+                "correct": false
+              },
+              {
+                "text": "A rule that access barriers are irrelevant.",
+                "correct": false
+              },
+              {
+                "text": "The service barrier, organisational responsibilities and feasible access support.",
+                "correct": true
+              },
+              {
+                "text": "A guarantee that one workshop resolves every cause of harm.",
+                "correct": false
+              }
+            ],
+            "rationale": "A wider prevention analysis considers the conditions around families."
+          },
+          {
+            "id": "SWP-069-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-069-M1-T2",
+            "question": "An invented family experiences poverty and displacement. Which conclusion is justified from that information alone?",
+            "options": [
+              {
+                "text": "The caregiver necessarily harms the child.",
+                "correct": false
+              },
+              {
+                "text": "A learner should independently order separation.",
+                "correct": false
+              },
+              {
+                "text": "No further contextual understanding is needed.",
+                "correct": false
+              },
+              {
+                "text": "Support and access needs may deserve attention, but an individual maltreatment finding is not established.",
+                "correct": true
+              }
+            ],
+            "rationale": "A risk context is not a diagnosis, legal finding or inevitable outcome."
+          },
+          {
+            "id": "SWP-069-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-069-M1-T3",
+            "question": "A fictional grant note says any parenting workshop prevents all forms of violence. What is the main correction?",
+            "options": [
+              {
+                "text": "Use outcome-specific evidence and examine population, delivery conditions and uncertainty.",
+                "correct": true
+              },
+              {
+                "text": "Keep the universal claim because parenting is important.",
+                "correct": false
+              },
+              {
+                "text": "Replace evidence with the workshop title.",
+                "correct": false
+              },
+              {
+                "text": "Assume every prevention activity has identical effects.",
+                "correct": false
+              }
+            ],
+            "rationale": "Evidence for some programmes and outcomes cannot validate every activity."
+          },
+          {
+            "id": "SWP-069-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-069-M1-T4",
+            "question": "An invented evidence note calls the Backhaus review a search of all studies through 2025. What needs correction?",
+            "options": [
+              {
+                "text": "Every article’s search necessarily ends in its issue year.",
+                "correct": false
+              },
+              {
+                "text": "Its journal issue is 2025, but the reported search update was August 2022.",
+                "correct": true
+              },
+              {
+                "text": "The review was a Nigerian field experiment in 2025.",
+                "correct": false
+              },
+              {
+                "text": "A later website upload changes the underlying search period.",
+                "correct": false
+              }
+            ],
+            "rationale": "The appraisal must distinguish publication, search and fieldwork dates."
+          },
+          {
+            "id": "SWP-069-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-069-M1-T5",
+            "question": "A fictional information session makes caregiver access conditional on describing family trauma in class. What should change?",
+            "options": [
+              {
+                "text": "Reward the most detailed personal history.",
+                "correct": false
+              },
+              {
+                "text": "Require children to validate caregivers’ accounts.",
+                "correct": false
+              },
+              {
+                "text": "Provide a suitable non-disclosive way to learn and access information.",
+                "correct": true
+              },
+              {
+                "text": "Collect private case records to prove eligibility for ordinary course information.",
+                "correct": false
+              }
+            ],
+            "rationale": "Introductory learning does not require sensitive family disclosures."
+          },
+          {
+            "id": "SWP-069-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-069-M2-T1",
+            "question": "A fictional learner is asked to run a specialist programme after reading its abstract. What is appropriate?",
+            "options": [
+              {
+                "text": "Treat the article title as a provider qualification.",
+                "correct": false
+              },
+              {
+                "text": "Reproduce a questionnaire and begin independent treatment.",
+                "correct": false
+              },
+              {
+                "text": "Promise that a course badge establishes clinical competence.",
+                "correct": false
+              },
+              {
+                "text": "Identify the relevant training, supervision and authorised delivery requirements before any real implementation.",
+                "correct": true
+              }
+            ],
+            "rationale": "Evidence appraisal and competent delivery are different responsibilities."
+          },
+          {
+            "id": "SWP-069-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-069-M2-T2",
+            "question": "A fictional proposal cites the 2026 border-setting trial as proof that every child outcome will improve locally. What should be corrected?",
+            "options": [
+              {
+                "text": "The transfer and outcome claims; benefits were not shown for every child outcome or every setting.",
+                "correct": true
+              },
+              {
+                "text": "Only the citation’s font size.",
+                "correct": false
+              },
+              {
+                "text": "The need to consider training and local suitability.",
+                "correct": false
+              },
+              {
+                "text": "The fact that it was a randomised study.",
+                "correct": false
+              }
+            ],
+            "rationale": "A trial supports bounded conclusions about its actual setting and outcomes."
+          },
+          {
+            "id": "SWP-069-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-069-M2-T3",
+            "question": "An invented caregiver misses a session because transport was not available. What should be examined?",
+            "options": [
+              {
+                "text": "Automatic proof of poor motivation.",
+                "correct": false
+              },
+              {
+                "text": "Access conditions and feasible alternatives rather than a conclusion that the caregiver does not care.",
+                "correct": true
+              },
+              {
+                "text": "A requirement for public trauma disclosure before assistance.",
+                "correct": false
+              },
+              {
+                "text": "An invented diagnosis explaining the absence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation depends on circumstances as well as individual intentions."
+          },
+          {
+            "id": "SWP-069-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-069-M2-T4",
+            "question": "A fictional plan lists a specialist service but no one has confirmed capacity. Which wording is accurate?",
+            "options": [
+              {
+                "text": "Guaranteed treatment already delivered.",
+                "correct": false
+              },
+              {
+                "text": "A completed referral and verified recovery.",
+                "correct": false
+              },
+              {
+                "text": "Potential support, subject to confirmation by the responsible role.",
+                "correct": true
+              },
+              {
+                "text": "A promise that the learner can replace the unavailable specialist.",
+                "correct": false
+              }
+            ],
+            "rationale": "A proposed resource is distinct from confirmed access and actual service delivery."
+          },
+          {
+            "id": "SWP-069-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-069-M2-T5",
+            "question": "An invented education session encounters a concern outside its agreed scope. What boundary applies?",
+            "options": [
+              {
+                "text": "Continue the ordinary lesson as the only response.",
+                "correct": false
+              },
+              {
+                "text": "Ask the class to investigate the concern.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee resolution through a generic parenting message.",
+                "correct": false
+              },
+              {
+                "text": "Use the designated qualified arrangements for the actual setting rather than improvising independent casework.",
+                "correct": true
+              }
+            ],
+            "rationale": "Programme scope must not obscure a need for appropriate qualified action."
+          },
+          {
+            "id": "SWP-069-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-069-M3-T1",
+            "question": "A fictional prevention report counts forty attendances and declares that violence was eliminated. What is justified?",
+            "options": [
+              {
+                "text": "The attendance count describes participation, while the claimed protection outcome needs appropriate evidence.",
+                "correct": true
+              },
+              {
+                "text": "Attendance proves that all violence stopped.",
+                "correct": false
+              },
+              {
+                "text": "Every participant necessarily changed behaviour.",
+                "correct": false
+              },
+              {
+                "text": "A larger handout count establishes the same outcome.",
+                "correct": false
+              }
+            ],
+            "rationale": "Outputs and outcomes answer different questions."
+          },
+          {
+            "id": "SWP-069-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-069-M3-T2",
+            "question": "An invented report uses the Bruehl study to claim an inevitable mechanism of harm in every family. What should be corrected?",
+            "options": [
+              {
+                "text": "Only the article’s publication year.",
+                "correct": false
+              },
+              {
+                "text": "The deterministic causal claim, especially given the non-replicated longitudinal pathways and study limitations.",
+                "correct": true
+              },
+              {
+                "text": "The need to avoid blaming caregivers.",
+                "correct": false
+              },
+              {
+                "text": "The distinction between a selected sample and every family.",
+                "correct": false
+              }
+            ],
+            "rationale": "The study does not establish an inevitable or universally causal pathway."
+          },
+          {
+            "id": "SWP-069-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-069-M3-T3",
+            "question": "A fictional programme improves caregiver confidence and assumes every child’s emotional difficulties improved. What is missing?",
+            "options": [
+              {
+                "text": "A stronger success slogan.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that all measures are interchangeable.",
+                "correct": false
+              },
+              {
+                "text": "Relevant child-outcome evidence rather than substitution of a different outcome.",
+                "correct": true
+              },
+              {
+                "text": "A statement that no child measure could ever matter.",
+                "correct": false
+              }
+            ],
+            "rationale": "Improvement in one domain does not establish improvement in every other domain."
+          },
+          {
+            "id": "SWP-069-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-069-M3-T4",
+            "question": "An invented project receives fewer concerns after making its channel harder to access. What cannot be inferred from the count alone?",
+            "options": [
+              {
+                "text": "That the recorded number was lower.",
+                "correct": false
+              },
+              {
+                "text": "That access conditions merit review.",
+                "correct": false
+              },
+              {
+                "text": "That changes in recording can affect apparent trends.",
+                "correct": false
+              },
+              {
+                "text": "That the underlying incidence of harm decreased.",
+                "correct": true
+              }
+            ],
+            "rationale": "A reporting count is not a direct measure of the true incidence of harm."
+          },
+          {
+            "id": "SWP-069-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-069-M3-T5",
+            "question": "A fictional review identifies transport barriers but lists no follow-up. What improves its usefulness?",
+            "options": [
+              {
+                "text": "A feasible proposed adjustment, named responsible role and review point.",
+                "correct": true
+              },
+              {
+                "text": "A claim that identifying the barrier resolved it.",
+                "correct": false
+              },
+              {
+                "text": "An invented clinical outcome.",
+                "correct": false
+              },
+              {
+                "text": "A promise that the worksheet qualifies the learner for independent practice.",
+                "correct": false
+              }
+            ],
+            "rationale": "An actionable review connects a finding to bounded responsibility and follow-through."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-070",
+      "title": "Child Protection in Emergencies and Displacement",
+      "slug": "child-protection-in-emergencies-and-displacement",
+      "cover_title": "Child Protection\nin Emergencies\nand Displacement",
+      "school_code": "CPS",
+      "school_name": "School of Child Protection and Safeguarding",
+      "school_display": "Child Protection\nand Safeguarding",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and safeguarding learners preparing to recognise boundaries, analyse fictional plans and work under appropriate supervision. No statutory, investigation or clinical authority is conferred.",
+      "study_guidance": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns. Work through each case before reading feedback. Study time is a proposal for piloting.",
+      "practice_safety_note": "Use only the supplied fictional cases and invented aggregate information. Do not contact children or families, collect personal histories, submit real case files, investigate allegations or recruit people for fieldwork. You may pause or choose an alternative fictional exercise. This introductory course does not authorise independent child-protection casework, clinical treatment, statutory decisions or emergency deployment. Use designated qualified safeguarding arrangements for actual concerns.",
+      "outcome": "Analyse a fictional emergency plan for child-specific risks, separation prevention, coordinated support and accountable information without undertaking field deployment or independent tracing.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Child-specific preparedness and coordinated response",
+          "outcome": "Identify child-protection responsibilities within a fictional multisector emergency plan.",
+          "paragraphs": [
+            "Emergencies can change the risks children face and disrupt the relationships and services that support them. A general relief plan may provide essential supplies while overlooking how children reach them, who supervises activities or how a concern is addressed. The CPMS summary provides child-specific standards across protection and other sectors. Use it to identify questions for a fictional plan rather than assume that this short course replaces operational humanitarian training. The focus is child-protection coordination and boundaries, complementing the academy’s wider humanitarian and disaster-response curriculum. [S42]",
+            "Preparedness includes understanding existing local capacities, responsibilities and access barriers before an activity begins. Identify who has relevant child-protection competence, how different services coordinate and which arrangements need confirmation. The same coordination structure will not suit every crisis or locality. The CPMS explicitly require contextualisation; a standard’s presence in a handbook does not demonstrate local implementation. In the invented exercise, distinguish confirmed roles from assumptions, identify a responsible review point and avoid promising that every service is available or that the academy has approved a local response system. [S42]",
+            "Organisations also need to consider the safeguarding effects of their own operations. Registration, distribution, transport, communications and volunteer management may affect children even when the main activity is relief delivery. KCS guidance supports organisational responsibility for foreseeable risks and suitable response arrangements. A fictional review can identify an inaccessible queue, an unconfirmed supervisor or a risky publicity plan without collecting real child identities. The learner should connect each issue to a suitable owner and an unresolved implementation condition rather than design an unsupervised activity with actual children. [S41]",
+            "Roles and competence remain essential under pressure. Completing an introductory course does not authorise emergency deployment, rescue, independent case management or clinical care. A learner can recognise that a plan needs a qualified child-protection role and appropriate local coordination. If a fictional condition exceeds the learner’s scope, record the boundary and the responsible qualified arrangement that would need to exist. Do not invent emergency contacts, legal powers or universal procedures. The purpose is to practise a defensible reading of a plan, including what should remain conditional or paused. [S42, S41]"
+          ],
+          "example": "Fictional case: An invented flood-response plan lists supplies and volunteers but no child-protection role, accessible distribution arrangement or confirmed route for concerns. A learner is described as ready for independent deployment.",
+          "activity": "Write a child-protection coordination note identifying three missing arrangements, the relevant responsible roles and the learner’s boundary. Keep all information fictional.",
+          "feedback": "Identify child-specific access, safeguarding and coordination gaps alongside relief provision. Keep deployment and specialist responsibilities with appropriately authorised competent teams.",
+          "sources": [
+            "S42",
+            "S41"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Separation prevention and safe continuity",
+          "outcome": "Review a fictional plan for avoiding unnecessary separation and preserving qualified continuity of care.",
+          "paragraphs": [
+            "Family separation is a distinct protection concern during displacement. The CPMS summary prioritises preventing separation and providing appropriate care and support for unaccompanied or separated children. This does not mean that any adult claiming a relationship should receive a child, or that a learner can independently conduct tracing or reunification. The existing CPS permanency course provides foundational decision domains; this addition examines the child-specific planning gaps that a crisis can create. Keep identity, relationship and care decisions within suitable authorised arrangements for the actual context. [S42]",
+            "Ordinary relief practices may unintentionally separate children from caregivers. Queues, transport, registration or activity arrangements should be reviewed for how children and caregivers stay appropriately connected and obtain qualified help if separation occurs. A fictional plan can identify the issue, the responsible role and the need for a suitable local procedure without prescribing a universal tracing method. Avoid publishing a child’s personal details, photographs or location as a classroom solution. A well-intended public appeal may create additional risks if identity, access and sharing safeguards have not been considered. [S42, S41]",
+            "Interim care and ongoing support require qualified decisions, appropriate oversight and continuity. A directory entry or informal promise does not demonstrate that a safe arrangement is available. Record what has been confirmed, what remains uncertain and who is responsible for the next review. The CPMS describe alternative care in relation to rights, needs, wishes and best interests, with family-based and stable arrangements prioritised where appropriate. The course does not turn those principles into an individual placement decision, a local legal rule or authority to transport or place a child. [S42]",
+            "Information continuity must protect the child as well as support coordination. A referral or handover should use only the information needed for an authorised purpose through appropriate arrangements. Do not equate a sent message with accepted responsibility. In the fictional scenario, distinguish the concern, the qualified receiving role, response status and next check. A learner may identify that a plan is incomplete without filling the gap with real child data or an invented finding. This task is introductory analysis of continuity, not a simulation that authorises actual tracing, reunification or emergency care. [S42, S41]"
+          ],
+          "example": "Fictional case: An invented evacuation plan uses separate transport queues for children and caregivers. A volunteer proposes posting identifiable photographs online and handing an unaccompanied child to any adult who claims familiarity.",
+          "activity": "Review the plan for separation risks, information exposure, unverified relationship claims and missing qualified responsibility. Propose conditional corrections without a tracing protocol or real child details.",
+          "feedback": "Prevent avoidable separation through appropriate planning, keep identifying information protected and refer identity/care decisions to suitable authorised teams. Familiarity claims and sent messages are not sufficient evidence of a safe handover.",
+          "sources": [
+            "S42",
+            "S41"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Caregiver support cross-sector access and learning",
+          "outcome": "Develop a bounded fictional review of child-protection access and evidence in a displacement setting.",
+          "paragraphs": [
+            "Children’s protection needs connect with education, health, food, shelter and other services. A plan should examine how these sectors interact rather than assume that a single activity addresses every concern. The CPMS cross-sector guidance supports appropriate coordination and attention to access, capacity and existing systems. In an invented review, identify one practical barrier and the responsible sector or qualified role that would need to address it. Keep the action conditional on actual resources and authority. Do not present a classroom plan as an operational service map for a real crisis. [S42]",
+            "Caregiver support may be one useful part of a wider response. The humanitarian parenting review found promising but heterogeneous evidence, with most studies conducted in protracted or post-crisis settings rather than the earliest acute emergency phase. This limits claims about what will work immediately after a sudden crisis. The 2026 trial on the Thailand-Myanmar border adds recent evidence from a particular displacement setting, but it does not validate every local programme or establish benefits for every child outcome. Consider competent delivery, contextual fit and access rather than copy intervention sessions or promise a universal effect. [R52, R54]",
+            "Participation and accountability remain relevant under disruption. Children and caregivers need appropriate information, suitable ways to raise concerns and a response from responsible roles. An inaccessible channel can hide unmet need rather than demonstrate that no concerns exist. The child-participation review supports attention to relationships and context, while organisational safeguarding guidance keeps implementation responsibility visible. For coursework, use invented aggregate information and an alternative fictional task if preferred. Do not seek testimony from displaced children or recruit families to demonstrate the relevance of an emergency topic. [R51, S41]",
+            "A review should distinguish delivery, access and outcomes. Counting sessions, materials or referrals does not establish that all children were reached safely or that protection risks decreased. Describe what the invented figures show, what remains unknown and what qualified follow-up would be needed. A reasonable next step may be a revised access arrangement, a confirmed responsibility or an honest statement that evidence is insufficient. The learner’s proposal does not confer emergency, clinical or statutory competence, and a perfect offline exercise cannot replace verified assessment results, human school-exam review or authorised certificate signatures. [S42, R52]"
+          ],
+          "example": "Fictional case: An invented displacement programme counts six caregiver sessions and declares all child-protection risks resolved. It offers one inaccessible feedback channel and assumes a study from a protracted crisis proves immediate effects after any disaster.",
+          "activity": "Write a brief learning review separating delivery, access and protection outcomes. Include the setting limits of the evidence, a qualified owner and one feasible conditional improvement.",
+          "feedback": "The session count is an output. Review who could access support and feedback, keep acute-crisis transfer uncertain and identify a responsible next step without claiming universal effects or independent field competence.",
+          "sources": [
+            "S42",
+            "R52",
+            "R54",
+            "R51",
+            "S41"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-070",
+        "course_slug": "child-protection-in-emergencies-and-displacement",
+        "title": "Child Protection in Emergencies and Displacement",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "13083584d76dafa4c479ad08d6e4f1362c7b72d85d2dcb05d328490d4bb06a75",
+        "catalogue_sha256": "72e7cb40c18f76a35d59c6768ae259e2c626909235962060aeeef812816defcc",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Child-specific preparedness and coordinated response",
+            "outcome": "Identify child-protection responsibilities within a fictional multisector emergency plan.",
+            "teaching_points": [
+              {
+                "id": "SWP-070-M1-T1",
+                "text": "A general relief plan may omit child-specific risks."
+              },
+              {
+                "id": "SWP-070-M1-T2",
+                "text": "Humanitarian standards require contextualisation."
+              },
+              {
+                "id": "SWP-070-M1-T3",
+                "text": "Operational assumptions must remain distinguishable from confirmations."
+              },
+              {
+                "id": "SWP-070-M1-T4",
+                "text": "An organisation’s own relief operations can create risks."
+              },
+              {
+                "id": "SWP-070-M1-T5",
+                "text": "Introductory learning does not authorise emergency deployment."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Separation prevention and safe continuity",
+            "outcome": "Review a fictional plan for avoiding unnecessary separation and preserving qualified continuity of care.",
+            "teaching_points": [
+              {
+                "id": "SWP-070-M2-T1",
+                "text": "Separation prevention belongs in ordinary relief planning."
+              },
+              {
+                "id": "SWP-070-M2-T2",
+                "text": "A relationship claim is not sufficient proof for a handover."
+              },
+              {
+                "id": "SWP-070-M2-T3",
+                "text": "Public identification can create additional risks."
+              },
+              {
+                "id": "SWP-070-M2-T4",
+                "text": "Interim care decisions require appropriate authority and oversight."
+              },
+              {
+                "id": "SWP-070-M2-T5",
+                "text": "Continuity needs confirmation of responsibility."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Caregiver support cross-sector access and learning",
+            "outcome": "Develop a bounded fictional review of child-protection access and evidence in a displacement setting.",
+            "teaching_points": [
+              {
+                "id": "SWP-070-M3-T1",
+                "text": "Child protection requires appropriate cross-sector coordination."
+              },
+              {
+                "id": "SWP-070-M3-T2",
+                "text": "Evidence from protracted settings may not transfer to an acute emergency."
+              },
+              {
+                "id": "SWP-070-M3-T3",
+                "text": "An inaccessible channel can conceal unmet need."
+              },
+              {
+                "id": "SWP-070-M3-T4",
+                "text": "Session delivery does not establish complete protection coverage."
+              },
+              {
+                "id": "SWP-070-M3-T5",
+                "text": "A learning review must preserve competence and recognition boundaries."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-070-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-070-M1-T1",
+            "question": "A fictional distribution plan lists supplies but ignores supervision and child access. What should a review add?",
+            "options": [
+              {
+                "text": "A claim that supplies alone establish complete protection.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that children’s needs are identical in every crisis.",
+                "correct": false
+              },
+              {
+                "text": "Child-specific access, safeguarding and qualified coordination questions.",
+                "correct": true
+              },
+              {
+                "text": "Independent deployment authority for every learner.",
+                "correct": false
+              }
+            ],
+            "rationale": "Essential relief provision does not remove child-protection planning responsibilities."
+          },
+          {
+            "id": "SWP-070-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-070-M1-T2",
+            "question": "An invented team copies a coordination diagram and declares it universally suitable. What is missing?",
+            "options": [
+              {
+                "text": "A larger copy of the same diagram.",
+                "correct": false
+              },
+              {
+                "text": "An assertion that local systems are irrelevant.",
+                "correct": false
+              },
+              {
+                "text": "A claim that the course has accredited the response.",
+                "correct": false
+              },
+              {
+                "text": "Assessment of the actual setting, existing capacities and appropriate responsibilities.",
+                "correct": true
+              }
+            ],
+            "rationale": "Standards are comparators that need suitable local implementation."
+          },
+          {
+            "id": "SWP-070-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-070-M1-T3",
+            "question": "A fictional plan lists a qualified protection service without confirmation. What should its status be?",
+            "options": [
+              {
+                "text": "Unconfirmed, with a responsible verification role and conditional planning.",
+                "correct": true
+              },
+              {
+                "text": "Guaranteed available at every time and location.",
+                "correct": false
+              },
+              {
+                "text": "Already delivered.",
+                "correct": false
+              },
+              {
+                "text": "Replaced automatically by the course learner.",
+                "correct": false
+              }
+            ],
+            "rationale": "A planning assumption is not evidence of actual capacity or acceptance."
+          },
+          {
+            "id": "SWP-070-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-070-M1-T4",
+            "question": "A fictional registration activity publicly displays children’s identities. What should the organisation consider?",
+            "options": [
+              {
+                "text": "Only how quickly the list can be photographed.",
+                "correct": false
+              },
+              {
+                "text": "The privacy and safeguarding implications of its operational design.",
+                "correct": true
+              },
+              {
+                "text": "Whether public display automatically improves coordination safely.",
+                "correct": false
+              },
+              {
+                "text": "Whether good intentions remove the need for safeguards.",
+                "correct": false
+              }
+            ],
+            "rationale": "Relief activities need attention to the risks they may create themselves."
+          },
+          {
+            "id": "SWP-070-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-070-M1-T5",
+            "question": "A fictional coordinator treats this course completion as independent field-deployment competence. What is appropriate?",
+            "options": [
+              {
+                "text": "Proceed with independent rescue and casework.",
+                "correct": false
+              },
+              {
+                "text": "Assume the badge grants statutory powers.",
+                "correct": false
+              },
+              {
+                "text": "Retain the learner’s introductory boundary and require the relevant authorised competence and supervision.",
+                "correct": true
+              },
+              {
+                "text": "Invite children to participate in an unapproved field exercise.",
+                "correct": false
+              }
+            ],
+            "rationale": "A course is not an operational appointment or proof of specialist competence."
+          },
+          {
+            "id": "SWP-070-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-070-M2-T1",
+            "question": "A fictional transport arrangement separates children from caregivers by queue design. What should be reviewed?",
+            "options": [
+              {
+                "text": "Whether separate queues automatically improve child protection.",
+                "correct": false
+              },
+              {
+                "text": "Only the vehicle count.",
+                "correct": false
+              },
+              {
+                "text": "Whether a learner can approve all transfers independently.",
+                "correct": false
+              },
+              {
+                "text": "How the arrangement can avoid unnecessary separation and connect concerns to qualified responsibility.",
+                "correct": true
+              }
+            ],
+            "rationale": "Operational choices can create protection risks that need appropriate planning."
+          },
+          {
+            "id": "SWP-070-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-070-M2-T2",
+            "question": "An invented adult claims familiarity with an unaccompanied child. What boundary should a learner recognise?",
+            "options": [
+              {
+                "text": "Identity and care decisions need suitable authorised verification and child-protection arrangements.",
+                "correct": true
+              },
+              {
+                "text": "Any familiarity claim establishes a safe relationship.",
+                "correct": false
+              },
+              {
+                "text": "The first claimant should automatically receive the child.",
+                "correct": false
+              },
+              {
+                "text": "A classroom exercise can certify the adult’s authority.",
+                "correct": false
+              }
+            ],
+            "rationale": "A claim alone does not establish an appropriate care or handover decision."
+          },
+          {
+            "id": "SWP-070-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-070-M2-T3",
+            "question": "A fictional volunteer proposes posting a separated child’s photo and location online. What is the central concern?",
+            "options": [
+              {
+                "text": "That every public post is automatically safe and necessary.",
+                "correct": false
+              },
+              {
+                "text": "Potential exposure and misuse of identifying information outside suitable authorised safeguards.",
+                "correct": true
+              },
+              {
+                "text": "Only the image resolution.",
+                "correct": false
+              },
+              {
+                "text": "That the learner should collect more real child images for practice.",
+                "correct": false
+              }
+            ],
+            "rationale": "Good intentions do not remove privacy and protection risks."
+          },
+          {
+            "id": "SWP-070-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-070-M2-T4",
+            "question": "A fictional plan treats an informal offer of accommodation as a verified care arrangement. What is missing?",
+            "options": [
+              {
+                "text": "A more confident description of the same unverified offer.",
+                "correct": false
+              },
+              {
+                "text": "A declaration that all available accommodation is safe.",
+                "correct": false
+              },
+              {
+                "text": "Suitable qualified decision-making, confirmation and oversight for the actual setting.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that a course enrolment grants placement authority.",
+                "correct": false
+              }
+            ],
+            "rationale": "Availability and suitability cannot be inferred from an informal promise."
+          },
+          {
+            "id": "SWP-070-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-070-M2-T5",
+            "question": "A fictional handover email receives no response. What should the record state?",
+            "options": [
+              {
+                "text": "All care responsibilities transferred and completed.",
+                "correct": false
+              },
+              {
+                "text": "The child’s needs were necessarily met.",
+                "correct": false
+              },
+              {
+                "text": "The case is ready for automatic closure.",
+                "correct": false
+              },
+              {
+                "text": "Handover requested; acceptance and next responsibility remain unconfirmed.",
+                "correct": true
+              }
+            ],
+            "rationale": "Coordination records must distinguish a request from an accepted arrangement."
+          },
+          {
+            "id": "SWP-070-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-070-M3-T1",
+            "question": "A fictional shelter plan ignores children’s access to education and qualified support. What should a review consider?",
+            "options": [
+              {
+                "text": "Relevant service connections, access barriers and responsible roles across sectors.",
+                "correct": true
+              },
+              {
+                "text": "A claim that shelter provision alone resolves every concern.",
+                "correct": false
+              },
+              {
+                "text": "A rule that other sectors have no protection implications.",
+                "correct": false
+              },
+              {
+                "text": "Independent clinical tasks for any volunteer.",
+                "correct": false
+              }
+            ],
+            "rationale": "Children’s needs and protection risks can span several services."
+          },
+          {
+            "id": "SWP-070-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-070-M3-T2",
+            "question": "An invented proposal applies the humanitarian parenting review as a guaranteed immediate effect after a sudden disaster. What needs correction?",
+            "options": [
+              {
+                "text": "Only the colour of the proposal cover.",
+                "correct": false
+              },
+              {
+                "text": "The transfer claim, given the review’s setting differences, heterogeneity and limited acute-crisis evidence.",
+                "correct": true
+              },
+              {
+                "text": "The need for contextual planning.",
+                "correct": false
+              },
+              {
+                "text": "The distinction between an evidence review and a field appointment.",
+                "correct": false
+              }
+            ],
+            "rationale": "Setting and delivery conditions constrain what can be inferred from the evidence."
+          },
+          {
+            "id": "SWP-070-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-070-M3-T3",
+            "question": "An invented programme receives no feedback through a channel many families cannot use. What is justified?",
+            "options": [
+              {
+                "text": "Every family is satisfied.",
+                "correct": false
+              },
+              {
+                "text": "All child-protection risks have ended.",
+                "correct": false
+              },
+              {
+                "text": "The count does not establish absence of concerns; access and response arrangements need review.",
+                "correct": true
+              },
+              {
+                "text": "There is no reason to review the channel.",
+                "correct": false
+              }
+            ],
+            "rationale": "Non-response has multiple possible explanations, including exclusion."
+          },
+          {
+            "id": "SWP-070-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-070-M3-T4",
+            "question": "A fictional report counts six caregiver sessions and declares all children protected. What should be distinguished?",
+            "options": [
+              {
+                "text": "The session count and all outcomes as identical measures.",
+                "correct": false
+              },
+              {
+                "text": "Attendance and statutory care decisions as the same event.",
+                "correct": false
+              },
+              {
+                "text": "An output figure as automatic proof of safety.",
+                "correct": false
+              },
+              {
+                "text": "Sessions delivered, access to support and evidence about the intended child-protection outcomes.",
+                "correct": true
+              }
+            ],
+            "rationale": "Delivery, reach and outcomes require separate evidence."
+          },
+          {
+            "id": "SWP-070-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-070-M3-T5",
+            "question": "A fictional emergency portfolio requests a school certificate after an offline quiz and no verified provider result. What is appropriate?",
+            "options": [
+              {
+                "text": "Keep provider verification, human school-exam review and authorised signatures unresolved until actually completed.",
+                "correct": true
+              },
+              {
+                "text": "Issue the certificate because the portfolio looks professional.",
+                "correct": false
+              },
+              {
+                "text": "Treat the offline score as deployment authority.",
+                "correct": false
+              },
+              {
+                "text": "Invent the missing Head of Learning signature.",
+                "correct": false
+              }
+            ],
+            "rationale": "An offline exercise cannot establish assessment verification, professional authority or certificate authorisation."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence appraised 24 November 2026. Standards, publication dates, search periods and fieldwork dates are distinguished. Research supports bounded learning, not proof of local programme effects or professional competence. Some full downloads were unavailable; access limitations are recorded per source. Original fictional cases and factual commentary only: no source manuals, instruments or raw papers reproduced. Owner authorises learning-material release after a verified build; ParaLearn assessment verification, field competence, local operating protocols and certificate signatures remain separate."
+}

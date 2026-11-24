@@ -1,4 +1,4 @@
-"""Publish the owner's approved 31-course material release without changing CBTs."""
+"""Publish a scoped owner-approved material release without changing CBTs."""
 import json
 from pathlib import Path
 
@@ -7,7 +7,7 @@ from django.utils import timezone
 
 from courses.material_publication import (
     load_entries, preflight, protected_snapshot, lifecycle_state,
-    verify_remote_resources, publish_atomically,
+    verify_remote_resources, publish_atomically, RELEASE_PLANS,
 )
 
 
@@ -15,13 +15,15 @@ class Command(BaseCommand):
     help = __doc__
 
     def add_arguments(self, parser):
+        parser.add_argument('--release', choices=sorted(RELEASE_PLANS), default='2026-11-19')
         parser.add_argument('--approval', type=Path, required=True)
         parser.add_argument('--receipt', type=Path, required=True)
         parser.add_argument('--commit', action='store_true')
 
     def handle(self, *args, **options):
         approval = json.loads(options['approval'].read_text(encoding='utf-8'))
-        if (approval.get('scope') != 'SWP-035-SWP-065 materials and individual course access'
+        release = options['release']
+        if (approval.get('scope') != RELEASE_PLANS[release]['scope']
                 or not approval.get('owner_statement', '').strip()
                 or not approval.get('approved_on', '').strip()):
             raise CommandError('Explicit owner approval and release scope are required')
@@ -29,7 +31,7 @@ class Command(BaseCommand):
         if receipt.exists() or receipt.with_suffix('.applied.json').exists():
             raise CommandError('Publication journal exists; inspect outcomes instead of replaying')
         root = Path(__file__).resolve().parents[3]/'production_courseware'
-        entries = load_entries(root)
+        entries = load_entries(root, release)
         course_ids, asset_ids, resources = preflight(entries)
         before = lifecycle_state(course_ids, asset_ids)
         protected = protected_snapshot(course_ids, asset_ids)

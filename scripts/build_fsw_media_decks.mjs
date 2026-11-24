@@ -8,6 +8,7 @@ const root=process.cwd();
 const output=path.resolve(process.argv[2] || 'production_courseware/phase_three/fsw_media_01');
 const sourcePath=process.argv[4] || 'production_courseware/phase_two/fsw_batch_01/review_package.json';
 const source=JSON.parse(await fs.readFile(sourcePath,'utf8'));
+const approved=process.env.SWEEP_MATERIAL_RELEASE==='approved';
 const skill=process.env.CODEX_PRESENTATIONS_SKILL_DIR;
 process.env.RUNTIME_NODE_MODULES ||= process.env.CODEX_RUNTIME_NODE_MODULES;
 const require=createRequire(path.join(process.env.CODEX_RUNTIME_NODE_MODULES,'package.json'));
@@ -34,7 +35,7 @@ for(const c of source.courses){
     const s=presentation.slides.add();s.background.fill='#FFFFFF';
     text(s,label,64,34,1150,32,18,true,'#35634B');
     text(s,title,64,89,1150,104,43,true,'#0B2C7A');
-    text(s,`${c.code}   SWEEP Academy   Draft 0.1.0`,64,674,1050,24,15,false,'#52617D');
+    text(s,`${c.code}   SWEEP Academy   ${approved?'Learning edition':'Draft'} 0.1.0`,64,674,1050,24,15,false,'#52617D');
     text(s,String(presentation.slides.items.length),1170,674,50,24,15,false,'#52617D');
     s.speakerNotes.textFrame.setText(notes);
     return s;
@@ -44,9 +45,9 @@ for(const c of source.courses){
   const coverTitle=c.cover_title || (c.code==='SWP-035'?'Social Work Values\nand Ethical\nDecision Making':'Generalist Assessment\nand Case Management');
   text(cover,coverTitle,68,145,620,245,52,true,'#FFFFFF');
   text(cover,c.school_display || 'Foundational Social Work\nPractice and Ethics',70,438,480,88,26,false,'#FFFFFF');
-  text(cover,`${c.code}   Draft for academic review\nVersion 0.1.0`,70,558,550,68,22,false,'#FFFFFF');
+  text(cover,`${c.code}   ${approved?'Approved learning materials':'Draft for academic review'}\nVersion 0.1.0`,70,558,550,68,22,false,'#FFFFFF');
   text(cover,'SWEEP Academy',70,659,350,28,18,true,'#FFFFFF');
-  cover.speakerNotes.textFrame.setText(`${c.title}\n${c.outcome}\nCover image: existing SWEEP Academy generated courseware background, static/img/courseware-deck-background.png. Original teaching source: ${sourcePath}. This is a teaching draft, not a published course or a recorded video.`);
+  cover.speakerNotes.textFrame.setText(`${c.title}\n${c.outcome}\nCover image: existing SWEEP Academy generated courseware background, static/img/courseware-deck-background.png. Original teaching source: ${sourcePath}. ${approved?'Owner-authorised learning materials. Assessment configuration and certification remain separate. No recorded video.':'This is a teaching draft, not a published course or a recorded video.'}`);
   let s=slide('Learning outcome and study route','COURSE OVERVIEW',c.outcome);
   text(s,c.outcome,64,212,1135,112,30);
   c.modules.forEach((m,i)=>text(s,`${m.order}. ${m.title}`,64,366+i*76,1140,62,28));
@@ -70,7 +71,7 @@ for(const c of source.courses){
   s=slide('Assessment and recognition','LEARNING PATHWAY');
   text(s,'The proposed course CBT contains 15 MCQs. A 70 percent pass mark requires at least 11 correct answers.',64,215,1135,104,30);
   text(s,'Course badges require an approved course and a verified ParaLearn CBT pass.',64,362,1135,85,29);
-  text(s,'School certification also requires all curriculum courses and a final ParaLearn exam with MCQs, short answers and essays.',64,496,1135,117,29);
+  text(s,approved?'School certification requires all curriculum courses, a final mixed ParaLearn exam, human written marking, independent moderation and authorised signatures.':'School certification also requires all curriculum courses and a final ParaLearn exam with MCQs, short answers and essays.',64,496,1135,117,29);
   for(let i=0;i<refs.length;i+=2){
     const page=refs.slice(i,i+2);
     s=slide('References and evidence limits','COURSE SOURCES',page.map(r=>`[${r.id}] ${r.author} (${r.year}). ${r.title}. ${r.url}\n${r.appraisal}\n${r.licence}\n${r.quartile || ''}`).join('\n\n'));

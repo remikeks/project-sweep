@@ -1,0 +1,94 @@
+{
+  "school_code": "CPS",
+  "target_courses": 8,
+  "programme_scope": "Introductory child-protection and safeguarding learning pathway, not a qualifying professional degree or deployment licence",
+  "retained_teaching_and_cbts": "SWP-001 through SWP-003 unchanged",
+  "curriculum_reason": "Retain foundational recognition, family support and permanency. Add distinct participation, information, organisational, prevention and humanitarian domains to broaden coverage using appraised practice comparators and outcome-specific research. Eight titles fit the owner-requested five-to-ten range. Standards do not prescribe an academy course count or confer accreditation.",
+  "courses": [
+    {
+      "code": "SWP-001",
+      "alignment": "Retained: foundations, concern recognition, safe response and referral",
+      "benchmark_sources": [
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-002",
+      "alignment": "Retained: family preservation, strengths and risks, kinship support",
+      "benchmark_sources": [
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-003",
+      "alignment": "Retained: readiness, reunification and alternative permanency",
+      "benchmark_sources": [
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-066",
+      "alignment": "New: accessible child voice, honest influence and feedback",
+      "benchmark_sources": [
+        "R51",
+        "S41",
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-067",
+      "alignment": "New: information purpose, minimum necessary sharing and accountable referral",
+      "benchmark_sources": [
+        "S42",
+        "S43",
+        "S41"
+      ]
+    },
+    {
+      "code": "SWP-068",
+      "alignment": "New: organisational policy, people, procedures and accountability",
+      "benchmark_sources": [
+        "S41",
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-069",
+      "alignment": "New: prevention and caregiver-support evidence, outcome and delivery limits",
+      "benchmark_sources": [
+        "R52",
+        "R53",
+        "R54",
+        "S41",
+        "S42"
+      ]
+    },
+    {
+      "code": "SWP-070",
+      "alignment": "New: coordinated inclusive emergencies, separation and displacement",
+      "benchmark_sources": [
+        "S42",
+        "S41",
+        "R52",
+        "R54"
+      ]
+    }
+  ],
+  "boundaries": [
+    "Learning materials released under owner standing approval after a verified build",
+    "New MCQ banks and mixed school exam remain internal unbound drafts pending actual ParaLearn configuration and verification",
+    "Local operating protocols and qualified supervision are required for real professional practice",
+    "School enrolment and certificates remain closed pending readiness and authorised signatures"
+  ],
+  "research_search_notes": [
+    "IJSDS homepage and published-articles page checked 24 November 2026. Search did not identify a sufficiently appraisable CPS-specific paper; article listing returned no readable text. No unrelated IJSDS study was forced into child-protection teaching. Homepage now states CC BY 4.0, but article-specific rights still require checking; no IJSDS Q1/Q2 claim.",
+    "November 2026 participation scoping review DOI 10.1016/j.chiabu.2026.108258 identified as open access in publisher indexing; direct full-text access returned 403. Logged as a current research lead, not a fully appraised teaching source.",
+    "WHO parenting guideline identified as 2022 copyright / later dissemination. Full WHO PDF returned 403 and NCBI reader showed a browser check. No bypass and no whole-source appraisal claimed; not used to reproduce protocols.",
+    "Lin et al. 2025 DOI 10.1186/s12889-025-23527-0 publisher full HTML inspected. Cross-sectional MICS data 2017-20, with 34-country/32-country reporting inconsistency. No causal or prevalence claims used; not needed for the selected course evidence map."
+  ],
+  "metric_sources": [
+    "https://www.scimagojr.com/journalrank.php?category=3323",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=19621&tip=sid",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=15402&tip=sid"
+  ]
+}

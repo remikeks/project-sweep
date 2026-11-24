@@ -1,0 +1,805 @@
+{
+  "status": "draft_for_review",
+  "school_code": "CPS",
+  "curriculum_version": "CPS-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-001",
+    "SWP-002",
+    "SWP-003",
+    "SWP-066",
+    "SWP-067",
+    "SWP-068",
+    "SWP-069",
+    "SWP-070"
+  ],
+  "programme_target_course_count": 8,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {
+    "SWP-001": {
+      "title": "Foundations of Child Protection",
+      "outcome": "Recognise protection concerns, respond safely, and follow the local reporting pathway.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Child protection foundations",
+          "focus": "child rights, safeguarding principles, roles, and the distinction between concern, risk, and harm"
+        },
+        {
+          "order": 2,
+          "title": "Recognising and responding",
+          "focus": "indicators of abuse/neglect, trauma-informed communication, documentation, immediate safety, and boundaries"
+        },
+        {
+          "order": 3,
+          "title": "Reporting and case coordination",
+          "focus": "mandated reporting, referral pathways, confidentiality limits, multi-agency coordination, and reflective case scenario"
+        }
+      ],
+      "cbt_focus": [
+        "recognition",
+        "first response",
+        "documentation",
+        "referral",
+        "ethics"
+      ]
+    },
+    "SWP-002": {
+      "title": "Family Preservation & Kinship Care",
+      "outcome": "Plan safe, strengths-based support that preserves family relationships whenever appropriate.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Family-centred assessment",
+          "focus": "strengths, risks, culture, family networks, and child voice"
+        },
+        {
+          "order": 2,
+          "title": "Preservation and safety planning",
+          "focus": "in-home services, measurable safety plans, crisis support, and review points"
+        },
+        {
+          "order": 3,
+          "title": "Kinship care practice",
+          "focus": "identifying kin, caregiver assessment, support needs, contact planning, and permanency review"
+        }
+      ],
+      "cbt_focus": [
+        "assessment",
+        "safe preservation decisions",
+        "kinship support",
+        "review criteria"
+      ]
+    },
+    "SWP-003": {
+      "title": "Permanency Planning & Reunification",
+      "outcome": "Develop timely, child-centred permanency plans and assess reunification readiness.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Permanency principles",
+          "focus": "stability, attachment, timelines, child participation, and concurrent planning"
+        },
+        {
+          "order": 2,
+          "title": "Reunification practice",
+          "focus": "readiness indicators, parent support, supervised contact, risk reassessment, and transition planning"
+        },
+        {
+          "order": 3,
+          "title": "Alternative permanency",
+          "focus": "guardianship, adoption, long-term care, cultural continuity, and case review"
+        }
+      ],
+      "cbt_focus": [
+        "child-centred decision making",
+        "concurrent planning",
+        "readiness evidence"
+      ]
+    }
+  },
+  "scope_note": "Eight-title internal assessment map. Original 001-003 teaching and CBTs remain unchanged. Learning materials may be owner-approved separately; local protocols, competence, provider configuration, human marking and certification remain separate gates.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed; accessibility review and learner piloting pending",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Human criterion-level scores and reasons; independent identified human moderator checks written marks and amendments. Retain response, rubric version, marker, moderator and amendment/appeal history. Accept equivalent defensible reasoning; no automatic professional-competence decision.",
+    "appeals": "Authorised review retains response, criterion scores, reasons, moderation, dated amendments and outcome."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Course badge: approved course plus verified ParaLearn course CBT pass",
+      "Certificate: all approved school courses plus final mixed ParaLearn exam with human written marking and independent moderation",
+      "Head of Learning name/signature pending; Founder Prof. Mina Ogbanga; authorised signatures required"
+    ]
+  },
+  "items": [
+    {
+      "id": "CPS8-SWP-001-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-001"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-001-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-001"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-001-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-001"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-001-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-001"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-001-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-001"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-002-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-002"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-002-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-002"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-002-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-002"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-002-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-002"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-002-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-002"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-003-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-003"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-003-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-003"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-003-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-003"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-003-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-003"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-003-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-003"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-066-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-066-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-066-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-066-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-066-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-067-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-067-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-067-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-067-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-067-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-068-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-068-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-068-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-068-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-068-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-069-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-069-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-069-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-069-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-069-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-070-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-070-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-070-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-070-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SWP-070-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "CPS8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-001",
+        "SWP-002",
+        "SWP-003"
+      ],
+      "prompt": "A fictional family plan treats poverty alone as proof that a child must leave home. A possible kinship caregiver has not been assessed; reunification is promised after one meeting. Give five corrections within an introductory learner role.",
+      "model_answer": "Distinguish concerns, risks and actual safety needs; consider family strengths, support and a reviewed safety plan; assess kinship suitability and support; consider child views, contact and context; and treat reunification/permanency as reviewed decisions for authorised practitioners, not promises or learner determinations.",
+      "rubric": [
+        {
+          "criterion": "Concern and immediate safety reasoning (001)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Family strengths support and safety review (002)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Kinship suitability and support (002)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Child voice contact and context (002/003)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Readiness reviewed permanency and qualified authority (003)",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-066"
+      ],
+      "prompt": "In a fictional planning meeting an adult answers for a child who communicates differently. A vote is described as consent and no one explains what can change. Give five improvements.",
+      "model_answer": "Clarify decision influence; offer appropriate communication support and alternatives without assuming inability; support a voluntary view without forced disclosure; explain realistic information boundaries without inferring consent from a vote or silence; and record how views were considered with an accessible response and review route. Voice alone does not prove safety or transfer adult responsibility.",
+      "rubric": [
+        {
+          "criterion": "Honest influence",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accessible communication",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Voluntary voice",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Information limits and no inferred consent",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Response review and adult responsibility",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-067"
+      ],
+      "prompt": "A fictional case spreadsheet is shared with every partner, includes names in a classroom example, has no update owner and marks a referral successful once an email is sent. Give five corrections.",
+      "model_answer": "Keep coursework entirely invented; define purpose, minimum necessary information and authorised access; verify applicable consent/assent, lawful grounds and confidentiality limits through qualified local procedures; maintain accountable accurate records and controlled handover; and verify referral follow-up without assuming transmission proves access, benefit or completed casework.",
+      "rubric": [
+        {
+          "criterion": "Fictional coursework only",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Purpose proportionality and authorised access",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Contextual authority consent and limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accuracy ownership and handover",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Referral follow-up and no assumed benefit",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-068"
+      ],
+      "prompt": "A fictional organisation relies on a policy poster and one screening certificate. A volunteer handles a complaint about their own conduct; partners have no reporting arrangements. Give five corrections.",
+      "model_answer": "Connect policy to assigned operational responsibilities; use contextual safer recruitment, conduct, induction and supervision without treating one check as a guarantee; provide accessible bounded reporting and qualified safeguarding routes; address conflicts through an authorised impartial response rather than learner investigation; and review partner responsibilities, implementation and follow-up. Low report counts do not prove safety.",
+      "rubric": [
+        {
+          "criterion": "Operational responsibilities",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Safer people arrangements",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accessible qualified reporting",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Conflict and authorised scope",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Partner accountability and cautious counts",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-069"
+      ],
+      "prompt": "A fictional facilitator proposes unlicensed therapy based on a research abstract, claims caregiver improvement proves child mental-health benefit, and blames a caregiver for a cross-sectional association. Give five corrections.",
+      "model_answer": "Keep learning fictional and within role; distinguish supportive referral from clinical or specialist delivery requiring competence and authority; interpret association without causal or blame claims; distinguish caregiver, violence and child outcomes; and assess setting, design, reporting, follow-up and implementation limits. The 2026 displacement trial did not establish child emotional/behavioural benefit.",
+      "rubric": [
+        {
+          "criterion": "Fictional bounded learning",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Qualified delivery authority",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Association is not causation or blame",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Outcome-specific interpretation",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Context methods and implementation limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-070"
+      ],
+      "prompt": "A fictional emergency desk publishes names of separated children, offers reunification without verification and asks untrained learners to deploy. Give five corrections.",
+      "model_answer": "Prioritise safe inclusive access through designated competent arrangements; restrict identifying information by authorised purpose and controls; refer separation concerns to qualified coordinated services without arranging unverified reunification; examine cross-sector access, communication and unintended risks; and keep coursework a conditional simulation with responsibilities and review, not deployment authority.",
+      "rubric": [
+        {
+          "criterion": "Inclusive safety and competent arrangements",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Controlled necessary information",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Qualified separation response",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Cross-sector access and risks",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Simulation responsibilities and review",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the fictional case. Accept equivalent defensible reasoning."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "CPS8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-001",
+        "SWP-002",
+        "SWP-003",
+        "SWP-066",
+        "SWP-067",
+        "SWP-068",
+        "SWP-069",
+        "SWP-070"
+      ],
+      "prompt": "Develop a conditional review plan across all eight CPS courses for a fictional family-support programme in a displacement setting. Material hardship is treated as grounds for separation; kinship support is unassessed; reunification is promised; communication needs are overlooked; partner data are shared openly; volunteer supervision and reporting routes are unclear; and a caregiver-support abstract is treated as a delivery manual. Explain priorities, responsibilities, evidence, review and introductory-learning limits.",
+      "model_answer": "Integrate concern recognition and immediate safety boundaries; family strengths, support and reviewed safety planning; assessed kinship and evidence-informed permanency; supported voluntary child voice with honest influence and feedback; necessary controlled information and accountable referral; safer organisational people, reporting, partners and supervision; outcome-specific research interpretation without blame or unauthorised treatment; and coordinated inclusive emergency services with separation safeguards. Set conditional owners, unresolved approvals and review points. Do not recruit children, investigate, disclose real records, promise placement or claim deployment competence.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Concern recognition family preservation kinship and reviewed permanency (001/002/003)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accessible voluntary child voice influence and response (066)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Necessary controlled information accountable referral and scope (067)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Organisational safeguarding and prevention evidence (068/069)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Inclusive coordinated emergency response authority and coherent review (070)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "CPS8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-001",
+        "SWP-002",
+        "SWP-003",
+        "SWP-066",
+        "SWP-067",
+        "SWP-068",
+        "SWP-069",
+        "SWP-070"
+      ],
+      "prompt": "Critique a fictional claim of proven child safety based on a policy poster, fewer complaints, attendance, caregiver self-reports and a participation vote. The programme offers instant reunification, calls a public case spreadsheet transparent, and promises certification after reading slides. Use all eight CPS domains to propose corrections and identify missing evidence and authority.",
+      "model_answer": "Separate concern recognition from proof of safety, family support from automatic separation, and assessed permanency from promises. Explain accessible child influence without inferred consent; necessary sharing and accountable case-information practice; operational safeguarding beyond posters and counts; association, self-report, outcome and transfer limits in parenting evidence; and qualified coordinated emergency decisions. Require contextual evidence, competent responsibilities, feedback, supervision and review. Reading alone confers no badge or certificate: verified course passes, a configured mixed ParaLearn exam, criterion-level human marking, independent moderation, completion and authorised signatures remain required.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Concern recognition family preservation kinship and reviewed permanency (001/002/003)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accessible voluntary child voice influence and response (066)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Necessary controlled information accountable referral and scope (067)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Organisational safeguarding and prevention evidence (068/069)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Inclusive coordinated emergency response authority and coherent review (070)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    }
+  ]
+}

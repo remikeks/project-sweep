@@ -30,11 +30,18 @@ RELEASES = [
 ]
 COURSE_FIELDS = {'is_active', 'updated_at'}
 ASSET_FIELDS = {'status', 'reviewed_at', 'published_at', 'updated_at'}
+RELEASE_PLANS = {
+    '2026-11-19': dict(batches=RELEASES, codes=range(35, 66), scope='SWP-035-SWP-065 materials and individual course access'),
+    'cps-2026-11-24': dict(batches=[('phase_eleven/cps_batch_01', 'phase_eleven/cps_media_01')], codes=range(66, 71), scope='SWP-066-SWP-070 materials and individual course access'),
+}
 
 
-def load_entries(root):
+def load_entries(root, release='2026-11-19'):
+    if release not in RELEASE_PLANS:
+        raise CommandError('Unknown owner material release')
+    plan = RELEASE_PLANS[release]
     entries = []
-    for batch, media in RELEASES:
+    for batch, media in plan['batches']:
         package = json.loads((root/batch/'review_package.json').read_text(encoding='utf-8'))
         validate_package(package)
         release = root/media
@@ -45,8 +52,8 @@ def load_entries(root):
             if len(rows) != 4:
                 raise CommandError('Expected four designed resources per course')
             entries.append(dict(course=course, references=package['references'], assets=rows))
-    if len(entries) != 31 or {e['course']['code'] for e in entries} != {f'SWP-{n:03}' for n in range(35, 66)}:
-        raise CommandError('This release must contain exactly SWP-035 through SWP-065')
+    if len(entries) != len(plan['codes']) or {e['course']['code'] for e in entries} != {f'SWP-{n:03}' for n in plan['codes']}:
+        raise CommandError('Course scope differs from the selected owner release')
     return entries
 
 
