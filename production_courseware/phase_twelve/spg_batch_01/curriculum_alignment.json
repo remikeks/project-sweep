@@ -1,0 +1,179 @@
+{
+  "school_code": "SPG",
+  "target_courses": 8,
+  "programme_scope": "Introductory public-policy and institutional-governance learning pathway, not a qualifying degree or professional audit mandate",
+  "retained_teaching_and_cbts": "SWP-028 unchanged",
+  "curriculum_reason": "Retain policy-analysis foundations. Add social protection, public finance, implementation and evaluation, decentralised inclusive administration, political economy, participation and an integrated policy practicum. The comparative guidance supports these domains, not an accredited course count. Eight titles fit the owner five-to-ten range; scope is introductory, not equivalent to a full professional degree.",
+  "courses": [
+    {
+      "code": "SWP-028",
+      "alignment": "Retained: policy cycle actors evidence equity feasibility and ethical recommendations",
+      "benchmark_sources": [
+        "S51",
+        "S53",
+        "S54"
+      ],
+      "academic_domain_comparison": [
+        "C1 policy analysis",
+        "C2 policy foundations",
+        "C3 analysis"
+      ]
+    },
+    {
+      "code": "SWP-071",
+      "alignment": "New: Analyse a fictional social-protection arrangement for entitlement, effective access, adequate support and accountable delivery without determining real eligibility.",
+      "benchmark_sources": [
+        "R61",
+        "R62",
+        "S51",
+        "S53",
+        "S54",
+        "S55"
+      ],
+      "academic_domain_comparison": [
+        "C1 welfare administration",
+        "C2 social security"
+      ]
+    },
+    {
+      "code": "SWP-072",
+      "alignment": "New: Read a fictional public-service budget, distinguish allocation from delivery and propose a proportionate accountability enquiry without authorising expenditure or an audit.",
+      "benchmark_sources": [
+        "R64",
+        "S52",
+        "S54",
+        "S55"
+      ],
+      "academic_domain_comparison": [
+        "C1 public finance",
+        "C3 public finance"
+      ]
+    },
+    {
+      "code": "SWP-073",
+      "alignment": "New: Develop a bounded fictional policy logic, implementation plan and evaluation question that distinguishes activities, access and outcomes.",
+      "benchmark_sources": [
+        "R61",
+        "R62",
+        "S51",
+        "S53",
+        "S54",
+        "S55"
+      ],
+      "academic_domain_comparison": [
+        "C1 implementation and evaluation",
+        "C3 delivery"
+      ]
+    },
+    {
+      "code": "SWP-074",
+      "alignment": "New: Analyse a fictional distribution of public-service authority, resources and accountability, and identify inclusive delivery improvements within verified mandates.",
+      "benchmark_sources": [
+        "R63",
+        "S53",
+        "S54",
+        "S55"
+      ],
+      "academic_domain_comparison": [
+        "C1 local government and intergovernmental relations",
+        "C3 delivery"
+      ]
+    },
+    {
+      "code": "SWP-075",
+      "alignment": "New: Analyse a fictional policy choice through distribution, institutional incentives and evidence limits, distinguishing explanation from unsupported allegations.",
+      "benchmark_sources": [
+        "R61",
+        "R62",
+        "R64",
+        "S51",
+        "S53"
+      ],
+      "academic_domain_comparison": [
+        "C1 welfare and exclusion",
+        "C2 economics politics and inequality"
+      ]
+    },
+    {
+      "code": "SWP-076",
+      "alignment": "New: Design and review a bounded fictional public consultation with meaningful influence, accessible methods and an accountable feedback record.",
+      "benchmark_sources": [
+        "R64",
+        "R65",
+        "S53"
+      ],
+      "academic_domain_comparison": [
+        "S53 participation guidance adds an applied inclusive-consultation domain",
+        "R65 qualitative participation evidence"
+      ]
+    },
+    {
+      "code": "SWP-077",
+      "alignment": "New: Produce a concise fictional policy brief and staged reform proposal with traceable claims, feasible delivery and a reasoned evaluation plan.",
+      "benchmark_sources": [
+        "R61",
+        "R64",
+        "S51",
+        "S53",
+        "S54",
+        "S55"
+      ],
+      "academic_domain_comparison": [
+        "C1 workshop output",
+        "C3 policy report; introductory brief only"
+      ]
+    }
+  ],
+  "boundaries": [
+    "AHR houses legislative campaigning; RDS houses policy-data methods; LMI houses organisational management; PCEI houses community facilitation. SPG applies these interfaces to public policy and institutions.",
+    "Owner-approved learning-material release follows verified source build visual and private remote checks.",
+    "New banks and mixed school exam remain internal unbound drafts until genuine ParaLearn configuration and verification.",
+    "Real practice requires verified authority and competence; school enrolment and certification require their separate gates."
+  ],
+  "research_search_notes": [
+    "IJSDS homepage and targeted public governance/social-policy searches checked 25 November 2026. No sufficiently appraisable SPG-specific full research paper was identified in the returned material; no unrelated paper forced into the map, and no IJSDS Q1/Q2 claim.",
+    "Right-sizing incentives, DOI 10.1016/j.jdeveco.2026.103834, identified as a current Nigerian cluster trial. Publisher full retrieval returned 403; replication-data landing page is not the paper. Not used for effectiveness teaching or a claimed full appraisal.",
+    "Honduras decentralisation DOI 10.1016/j.socscimed.2025.118750 and Asian participatory-budget review DOI 10.1080/01900692.2025.2485247 were identified but full retrieval unavailable. No detailed methodology or causal teaching claim inferred from abstracts.",
+    "A 2026 MENA cash-transfer implementation paper contained an unresolved OSF PROJECT-ID placeholder in indexed material. Not selected as a fully validated evidence source.",
+    "No human-verification challenge bypassed. Direct-source access limits and indexed-section reading distinguished. No raw papers or research instruments redistributed."
+  ],
+  "metric_sources": [
+    "https://www.scimagojr.com/journalrank.php?area=1000",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=144840&tip=sid",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=21100872366&tip=sid"
+  ],
+  "academic_comparators_checked_on": "2026-11-25",
+  "academic_comparators": [
+    {
+      "id": "C1",
+      "institution": "National Universities Commission Nigeria",
+      "title": "Administration and Management CCMAS, public-administration section",
+      "url": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Administration-and-Management.pdf",
+      "access": "Current official download reached through the NUC CCMAS index; selected public-administration outcomes and contents read, including policy analysis, finance, local government, welfare and workshop sections. Not a whole 614-page appraisal. March 2026 URL is not asserted as edition year.",
+      "use": "Domain-level comparison only: policy and implementation; welfare; financial accountability; local institutions; a supervised applied output.",
+      "limit": "A university first-degree comparator. This academy introductory pathway does not satisfy its credit, legal, specialist finance, institutional or supervised project requirements. No NUC approval or equivalence is claimed.",
+      "rights": "Official PDF states CC BY-SA 3.0 IGO for its text; no source text, syllabus, table or instrument adapted or redistributed."
+    },
+    {
+      "id": "C2",
+      "institution": "London School of Economics",
+      "title": "2026/27 BSc International Social and Public Policy regulations",
+      "url": "https://www.lse.ac.uk/resources/calendar2026-2027/programmeRegulations/undergraduate/2026/BScInternationalSocialAndPublicPolicy.htm?formatForPrint=true",
+      "access": "Actual official HTML core requirements and selected option lists read.",
+      "use": "Broad coverage of social policy, economics, politics, comparative institutions, inequality, social security, research and an applied final output.",
+      "limit": "Multi-year degree, optional availability and prerequisites differ. Research-methods depth remains in RDS; the academy brief is not a dissertation and no affiliation or credit equivalence is claimed.",
+      "rights": "Institutional copyright; links and original factual domain comparison only."
+    },
+    {
+      "id": "C3",
+      "institution": "University of York",
+      "title": "MPA Public Administration",
+      "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-public-administration/",
+      "access": "Official publisher-indexed course-content summary read; direct HTML returned 403. No full module-handbook appraisal claimed.",
+      "use": "Checks presence of policy analysis, public finance, delivery, change and an independent policy output.",
+      "limit": "Postgraduate credit, independent report and advanced depth are not replicated. Curriculum comparison only, not endorsement.",
+      "rights": "Institutional copyright; links and original factual comparison only."
+    }
+  ],
+  "depth_and_follow_on": "This is an introductory continuing-learning pathway. A full university/professional curriculum additionally requires substantially greater study, independently supervised research, verified Nigerian legal and fiscal instruction, advanced methods and specialist finance. These are not claimed completed by eight short courses. RDS and LMI interfaces and future advanced provision require separate curriculum review. Field practice requires qualified supervision and authority."
+}

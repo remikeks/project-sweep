@@ -66,10 +66,11 @@ for c in data["courses"]:
            p("This learner guide develops practical reasoning through three modules, fictional cases, exercises and feedback. " + ("The academy owner has authorised release of these learning materials. Assessment configuration, supervised competence and school certification remain separate requirements." if args.approved_materials else "It is a draft for academic review and has not been approved for learner release.")),
            p("Learning outcome","h1"),p(c["outcome"]),p("Who this course is for","h1"),p(c["audience"]),
            p("How to study","h1"),p(c.get("study_guidance","Read each module and work through its case. Write your activity response before checking the feedback. Use fictional or fully de-identified situations. The slide deck provides a concise recap; this guide contains the fuller teaching and evidence notes.")),
-           p("Assessment and recognition","h1"),p("The draft course assessment contains 15 MCQs. Its proposed pass mark is 70 percent, requiring at least 11 correct answers. An approved course and a verified ParaLearn CBT pass are required for a course badge. A school certificate additionally requires every course in the approved school curriculum and a finalised school exam with MCQs, short answers and essays. Reading this draft does not award a credential."),
+           p("Assessment and recognition","h1"),p("The draft course assessment contains 15 MCQs. Its proposed pass mark is 70 percent, requiring at least 11 correct answers. An approved course and a verified ParaLearn CBT pass are required for a course badge. A school certificate additionally requires every course in the approved school curriculum and a finalised school exam with MCQs, short answers and essays. " + ("Reading these materials does not award a credential." if args.approved_materials else "Reading this draft does not award a credential.")),
            p("Course structure","h1"),*[p(f"Module {m['order']}  {m['title']}") for m in c["modules"]],Spacer(1,12) if args.approved_materials else PageBreak()]
     if args.approved_materials:
         story.insert(-5, p("Written exam responses require human marking and independent moderation; authorised certificate signatures are required. Reading these materials does not award a credential."))
+        story[-5:] = [KeepTogether(story[-5:])]
     for m in c["modules"]:
         story.extend([p(f"Module {m['order']} {m['title']}","h1"),p("Learning outcome: "+m["outcome"])])
         story.extend(p(t) for t in m["paragraphs"])

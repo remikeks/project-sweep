@@ -1,0 +1,152 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "b69cea3e71438b0ae8396d4e841e2a2888b21414267669d90db6cab40c6c6de3",
+  "summary": {
+    "assets": 28,
+    "asset_courses": 7
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-071-social-protection-systems-and-welfare-governance-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "84e35cd137e50ac2637316500791fa6e6893760772e7e4f154e2bd501f4f3c38"
+    },
+    {
+      "path": "pdf/SWP-071-social-protection-systems-and-welfare-governance-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "03b82dc70396317462bdf111249c20ba2302494e6dd6d475f5f4ec022af5e977"
+    },
+    {
+      "path": "pptx/SWP-071-social-protection-systems-and-welfare-governance-course-slides.pptx",
+      "pages": null,
+      "sha256": "9b34941a65906ec72ccfe27e035802caf6333dfa0eb54624cf8a3a1ac1fc57e6"
+    },
+    {
+      "path": "pdf/SWP-071-social-protection-systems-and-welfare-governance-course-slides.pdf",
+      "pages": 16,
+      "sha256": "a24e189a9bb9ebd629f7143ea6bc2e0e715b2949ab25402405240827ce8c663e"
+    },
+    {
+      "path": "pdf/SWP-072-public-finance-budget-analysis-and-accountability-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "860131034d721807e67e06a41feaab5d8a093f31c775d06cd8f1cee8b0dd9319"
+    },
+    {
+      "path": "pdf/SWP-072-public-finance-budget-analysis-and-accountability-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "f092550590678d2e9c2b1a22e7fd40a609d765f021b89583fcd9ddbb60c8efda"
+    },
+    {
+      "path": "pptx/SWP-072-public-finance-budget-analysis-and-accountability-course-slides.pptx",
+      "pages": null,
+      "sha256": "1ed0c1efcaa0efb1c583c33a21664d4154bb364489116d8d6c948cb79eb5dfa0"
+    },
+    {
+      "path": "pdf/SWP-072-public-finance-budget-analysis-and-accountability-course-slides.pdf",
+      "pages": 15,
+      "sha256": "00af82d30c5094ef817e7bf4a06ca1ff288d5e6f12899c44dc11bec1e4901b2b"
+    },
+    {
+      "path": "pdf/SWP-073-policy-design-implementation-and-evaluation-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "0961270c46ce8236ff9f5cafa062d673c1546ac2f96c2aa16ca3c1c5008a11a3"
+    },
+    {
+      "path": "pdf/SWP-073-policy-design-implementation-and-evaluation-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "5cac71e2de85236a6b5899bdaf40a160f03ada504898a80e812b8a5908529cf5"
+    },
+    {
+      "path": "pptx/SWP-073-policy-design-implementation-and-evaluation-course-slides.pptx",
+      "pages": null,
+      "sha256": "9f0cb48f7f45ea3236ebb45aae530de25d82d6574bd8c33d9972136e1cd8da5c"
+    },
+    {
+      "path": "pdf/SWP-073-policy-design-implementation-and-evaluation-course-slides.pdf",
+      "pages": 16,
+      "sha256": "a5aca1ae68042eaa4460bc8ecc0459a8a64d6d1525eff552887ddfd65e01937f"
+    },
+    {
+      "path": "pdf/SWP-074-decentralization-and-inclusive-public-administration-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "cd2e68511ee7353db81a76e5a217de84c3d4e929e4fd7e43d56dfa15765abcfc"
+    },
+    {
+      "path": "pdf/SWP-074-decentralization-and-inclusive-public-administration-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "d1f64bede9591d2bfa64d6b250068233392479e599914f5c897cbd07d1583f9f"
+    },
+    {
+      "path": "pptx/SWP-074-decentralization-and-inclusive-public-administration-course-slides.pptx",
+      "pages": null,
+      "sha256": "6a238f19b290507537aadc6a626a1993e0c1837c9666fe920f4f4663e76bfb3a"
+    },
+    {
+      "path": "pdf/SWP-074-decentralization-and-inclusive-public-administration-course-slides.pdf",
+      "pages": 15,
+      "sha256": "95fa3fc481a3526049abf3d5def0cb155fd934e9f84de2944780066344ef4ab9"
+    },
+    {
+      "path": "pdf/SWP-075-social-policy-political-economy-and-inequality-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "92a35099809ff6044df11604b49c8f6c5b0d7a12166c050c80bbf3691b0bab6f"
+    },
+    {
+      "path": "pdf/SWP-075-social-policy-political-economy-and-inequality-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "49a55d14ebee271359e3316e9397fde7a77f4a3a14ca6bcd4219109ef2dcd6a4"
+    },
+    {
+      "path": "pptx/SWP-075-social-policy-political-economy-and-inequality-course-slides.pptx",
+      "pages": null,
+      "sha256": "e68b38f89967110d01742dd66b8ea7fadae3f93ab126041bc07077f0487996dd"
+    },
+    {
+      "path": "pdf/SWP-075-social-policy-political-economy-and-inequality-course-slides.pdf",
+      "pages": 16,
+      "sha256": "e6527947c9486e1fa681e2839762c64a3080e5a75ed43ff1aa9cbb4e71e4268b"
+    },
+    {
+      "path": "pdf/SWP-076-participatory-governance-and-public-consultation-learner-guide.pdf",
+      "pages": 6,
+      "sha256": "5c6fa6f8c9a2387df5605c0c5a788a7ee33c11388470caa4479b4d9bb851ef5d"
+    },
+    {
+      "path": "pdf/SWP-076-participatory-governance-and-public-consultation-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "3ca0ec35f1a20abbd5f4d35170f09a1c48b0f795b39fcdca5e0a903cb7d2b77f"
+    },
+    {
+      "path": "pptx/SWP-076-participatory-governance-and-public-consultation-course-slides.pptx",
+      "pages": null,
+      "sha256": "940c85def35dd452cb87d6ee7ce470e30ab753c334c479e3a7f886c0209edfba"
+    },
+    {
+      "path": "pdf/SWP-076-participatory-governance-and-public-consultation-course-slides.pdf",
+      "pages": 15,
+      "sha256": "588c3bc1b8882f8373f957fd2518c62410ec6ac16f2c84df8d646664d748a34b"
+    },
+    {
+      "path": "pdf/SWP-077-policy-briefing-and-reform-practicum-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "188e7611a00ae6253505d10b1b1c6821793142f92478c085a54a5150def14afb"
+    },
+    {
+      "path": "pdf/SWP-077-policy-briefing-and-reform-practicum-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "921d0960bf1025ecfe95daada4c1216350da8c915cc6a90c071a8922dc637b87"
+    },
+    {
+      "path": "pptx/SWP-077-policy-briefing-and-reform-practicum-course-slides.pptx",
+      "pages": null,
+      "sha256": "ec33c1e9e6c8bbb4fb466eafae7a93b0023a3531936387cfc1a1c9694473cf0b"
+    },
+    {
+      "path": "pdf/SWP-077-policy-briefing-and-reform-practicum-course-slides.pdf",
+      "pages": 16,
+      "sha256": "ae7664956903affcb44601127dab3786ee2aa087bfbe64138982b31365adffad"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

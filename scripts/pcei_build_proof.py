@@ -31,7 +31,7 @@ def validate_live_proof(live,manifest):
     assert live['verification_provenance'].strip() and live['verified_on'].strip()
     return True
 
-def media_summary(release):
+def media_summary(release, expected_assets=20):
     from pypdf import PdfReader
     manifest=json.loads((release/'upload_manifest.json').read_text())
     pages=slides=0
@@ -40,5 +40,5 @@ def media_summary(release):
         if path.suffix=='.pdf':
             n=len(PdfReader(path).pages);pages+=n
             if 'course-slides' in path.name:slides+=n
-    assert len(manifest)==20
+    assert len(manifest)==expected_assets
     return manifest,pages,slides

@@ -1,0 +1,33 @@
+{
+  "phase": 13,
+  "school_code": "SEE",
+  "school_name": "School of Social Entrepreneurship and Enterprise Development",
+  "retained_codes": [],
+  "proposed_additions": [
+    "Social Enterprise Models and Social Innovation",
+    "Community Market Research and Value Propositions",
+    "Business Models Costing and Cash Flow",
+    "Social Finance Cooperative Models and Inclusion",
+    "Impact Measurement and Mission Accountability",
+    "Social Enterprise Launch Practicum"
+  ],
+  "target_courses": 6,
+  "scope": "Enterprise design and viability alongside social purpose. It is distinct from donor fundraising in FGR and occupational skills in VTS.",
+  "first_step": "Verify the actual live school mapping and any existing scope; appraise accessible primary curriculum comparators and current open-access evidence before authoring.",
+  "planned_output": {
+    "new_courses": 6,
+    "modules": 18,
+    "course_mcqs": 90,
+    "designed_resources": 24
+  },
+  "gates": [
+    "Preserve all earlier teaching and CBT mappings; no source replacement",
+    "Appraise accessible primary practice guidance and current open-access studies, recording methods, dates, rights and limits",
+    "Create aligned guide and worksheet PDFs, editable PPTX and rendered slide PDFs with legible text",
+    "Validate the full-school mixed exam map and criterion-level human marking; keep unverified provider IDs blank",
+    "Run isolated SQLite checks, visually inspect final pages, protect existing file/record fingerprints",
+    "Under standing owner authority: privately upload, verify exact hashes, publish validated learning materials, verify access, commit and push main",
+    "School certification requires actual ParaLearn readiness, completion, human moderation and authorised signatures",
+    "The repository is public: disclosed review items are not confidential live questions. Prepare unpublished production banks before graded ParaLearn launch."
+  ]
+}
