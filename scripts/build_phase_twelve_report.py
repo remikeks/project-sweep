@@ -68,8 +68,8 @@ def main():
         'SPG: School of Social Policy and Governance now has eight courses. SWP-028 Policy Analysis Fundamentals retains its teaching, modules, resources and CBT mapping.',
         'Seven additions are live: SWP-071 Social Protection Systems and Welfare Governance; SWP-072 Public Finance Budget Analysis and Accountability; SWP-073 Policy Design Implementation and Evaluation; SWP-074 Decentralization and Inclusive Public Administration; SWP-075 Social Policy Political Economy and Inequality; SWP-076 Participatory Governance and Public Consultation; SWP-077 Policy Briefing and Reform Practicum.',
         f'The additions contain 21 modules and 105 original MCQs checked against 540 earlier questions. Twenty-eight designed resources comprise seven guides, seven worksheets, seven editable slide decks and seven matching slide PDFs. All {pages} final PDF pages, including {slides} slides, were visually inspected. Guides use embedded 12-point body text; videos are pending.',
-        'Evidence checked 25 November includes ILO, PEFA, OECD and UN public-sector guidance plus open-access studies published in 2025-26. Methods, data periods, rights and access limits are recorded. Fictional budgets and cases avoid personal records. Coursework does not authorise public expenditure, eligibility decisions, legal advice or statutory audits.',
-        f'Validation: {local["tests"]} isolated tests passed; {local["protected_source_files"]} existing courseware files preserved. Live checks verified 28 private file hashes, 78 public pages, 28 guest download guards and prior-record parity. The academy has 77 active courses and 444 published resources. Downloads require appropriate authentication and course enrolment. Production and hosted-CI observations are recorded separately in the build summary.',
+        'Evidence checked 25 November includes ILO, PEFA, OECD and UN public-sector guidance plus open-access studies published in 2025-26. Methods, data periods, rights and access limits are recorded. Curriculum domains were compared with NUC and LSE; this introductory pathway has no degree equivalence. Fictional budgets and cases avoid personal records. Coursework does not authorise public expenditure, eligibility decisions, legal advice or statutory audits.',
+        f'Validation: {local["tests"]} isolated tests passed; {local["protected_source_files"]} existing courseware files preserved. Live checks verified 28 private file hashes, 78 public pages, 28 guest download guards and prior-record parity. The academy has 77 active courses and 444 published resources. Downloads require appropriate authentication and course enrolment. Vercel production is READY. Hosted CI could not start because of account billing.',
         'The eight-course school exam map has 40 MCQ slots, six short answers and two integrative essays: 100 marks. Proposed duration is 210 minutes and pass mark 70%, pending piloting. Public source questions are review exemplars; unpublished production banks and verified ParaLearn configuration are required. Written answers require criterion-level human marking and independent moderation.',
         'Materials are released under your standing approval. Course badges await verified ParaLearn course passes. School certificates require all approved courses, the moderated final exam and authorised signatures from the Head of Learning and Founder Prof. Mina Ogbanga. Head of Learning details/signature are pending; all 25 school enrolments remain closed.',
         'Programme progress: 43 of 150 planned additions authored; 107 remain. Next: SEE, six proposed social-enterprise courses. Research its curriculum gaps before authoring, preserve existing teaching and CBTs, then build, verify, publish and push the next accurate phase.'
@@ -82,6 +82,25 @@ def main():
     assert len(PdfReader(report).pages) == 1, 'Edit copy to fit; retain 12-point body text'
     summary = {k: v for k, v in live.items() if k not in {'public_page_checks', 'unauthenticated_download_checks'}}
     summary.update(tests=local['tests'], test_seconds=local['test_seconds'], protected_courseware_files=local['protected_source_files'], protected_courseware_unchanged=True, pdf_pages_reviewed=pages, slide_pages_reviewed=slides, public_pages_verified=78, guest_download_guards_verified=28, spg_course_count=8, original_cbts_unchanged=True, bundle_entries=29)
+    deployment = json.loads((private / 'verified-deployment.json').read_text())
+    post = json.loads((private / 'post-deployment-verification.json').read_text())
+    ci = json.loads((private / 'ci-verification.json').read_text())
+    assert deployment['status'] == 'READY' and deployment['server_metadata_source_verified']
+    assert re.fullmatch(r'[0-9a-f]{40}', deployment['source_commit'])
+    assert set(deployment['production_domains']) == {'sweepacademy.org', 'www.sweepacademy.org'}
+    assert post['status'] == 'post_deployment_http_verified' and post['catalogue_active_count'] == 77
+    assert len(post['spg_course_pages']) == 8 and all(r['passed'] for r in post['spg_course_pages'])
+    assert len(post['guest_download_guards']) == 28 and all(r['authentication_required'] for r in post['guest_download_guards'])
+    assert ci['source_commit'] == deployment['source_commit'] and ci['status'] == 'not_started_account_billing'
+    summary.update(source_package_sha256=json.loads((output / 'spg_batch_01/validation.json').read_text())['package_sha256'],
+        material_approval='Standing owner authorisation recorded 25 November 2026', report_pages=1, report_body_points=12,
+        report_visually_reviewed=False, learner_bundle_sha256=hashlib.sha256(bundle.read_bytes()).hexdigest(),
+        repository_visibility='PUBLIC', assessment_source_status='Disclosed unbound review exemplars; unpublished production banks required before graded ParaLearn launch',
+        academic_comparator_check='NUC selected public-administration sections and LSE 2026/27 regulations; York publisher-indexed summary with direct access limitation',
+        deployment_status=deployment['status'], deployment_id=deployment['id'], deployment_url=deployment['url'],
+        deployment_source_commit=deployment['source_commit'], production_domains=deployment['production_domains'], deployment_source_verified=True,
+        post_deployment_verified_on=post['verified_on'], post_deployment_spg_pages_verified=8, post_deployment_guest_guards_verified=28,
+        github_ci_status=ci['status'], github_ci_run=ci['run_url'], github_ci_annotation=ci['annotation'])
     (output / 'build_summary.json').write_text(json.dumps(summary, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(dict(report=str(report), bundle=str(bundle), pages=pages, slides=slides), indent=2))
 

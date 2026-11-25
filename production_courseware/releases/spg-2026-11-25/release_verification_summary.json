@@ -29,9 +29,23 @@
   "report_pages": 1,
   "report_body_points": 12,
   "report_visually_reviewed": true,
-  "learner_bundle_sha256": "999d91623ea8572994bee1a01a432f12c804d03c1b747d614365d4b3b4cd928d",
+  "learner_bundle_sha256": "f1f7e3fab228acbfb8bfd64bdedcf62699f1d3c71d560b182ce30bfa3a52f55d",
   "repository_visibility": "PUBLIC",
   "assessment_source_status": "Disclosed unbound review exemplars; unpublished production banks required before graded ParaLearn launch",
   "academic_comparator_check": "NUC selected public-administration sections and LSE 2026/27 regulations; York publisher-indexed summary with direct access limitation",
-  "deployment_status": "pending_verification"
+  "deployment_status": "READY",
+  "deployment_id": "dpl_9jz6xw8Vsep3vQgdcP95QH5SASsA",
+  "deployment_url": "https://sweep-academy-qd7wzgfpn-evanders-projects-83d1e543.vercel.app",
+  "deployment_source_commit": "443cc30020413743c7ebb76de1fa8f39efb5f47b",
+  "production_domains": [
+    "sweepacademy.org",
+    "www.sweepacademy.org"
+  ],
+  "deployment_source_verified": true,
+  "post_deployment_verified_on": "2026-11-25T07:31:12.149844+00:00",
+  "post_deployment_spg_pages_verified": 8,
+  "post_deployment_guest_guards_verified": 28,
+  "github_ci_status": "not_started_account_billing",
+  "github_ci_run": "https://github.com/remikeks/project-sweep/actions/runs/45567899096",
+  "github_ci_annotation": "The job was not started because your account is locked due to a billing issue."
 }
