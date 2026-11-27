@@ -34,6 +34,7 @@ RELEASE_PLANS = {
     '2026-11-19': dict(batches=RELEASES, codes=range(35, 66), scope='SWP-035-SWP-065 materials and individual course access'),
     'cps-2026-11-24': dict(batches=[('phase_eleven/cps_batch_01', 'phase_eleven/cps_media_01')], codes=range(66, 71), scope='SWP-066-SWP-070 materials and individual course access'),
     'spg-2026-11-25': dict(batches=[('phase_twelve/spg_batch_01', 'phase_twelve/spg_media_01')], codes=range(71, 78), scope='SWP-071-SWP-077 materials and individual course access'),
+    'see-2026-11-27': dict(batches=[('phase_thirteen/see_batch_01', 'phase_thirteen/see_media_01')], codes=range(78, 84), scope='SWP-078-SWP-083 materials and individual course access'),
 }
 
 

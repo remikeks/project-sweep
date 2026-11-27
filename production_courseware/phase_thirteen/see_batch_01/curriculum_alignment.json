@@ -1,0 +1,143 @@
+{
+  "school_code": "SEE",
+  "target_courses": 6,
+  "retained_teaching_and_cbts": "No current SEE courses in verified live baseline; all earlier academy teaching resources and CBTs unchanged",
+  "programme_scope": "Introductory continuing-learning pathway, not a degree, professional qualification or authority to trade or provide finance",
+  "curriculum_reason": "Six integrated domains connect mission, market, financial literacy, member governance, impact and a supported launch proposal. They fit the owner five-to-ten range and foundation-level competence; no academic comparator prescribes this exact course count.",
+  "academic_comparators": [
+    {
+      "id": "C1",
+      "title": "NUC Administration and Management CCMAS selected entrepreneurship sections",
+      "url": "https://www.nuc.edu.ng/wp-content/uploads/2026/03/Administration-and-Management.pdf",
+      "checked_on": "2026-11-27",
+      "access": "Official 614-page PDF accessed; selected ENT211 entrepreneurship, ENT315 opportunity, ENT332 feasibility/planning and ENT416 social-enterprise sections inspected, not the whole volume. URL upload date is not assumed edition year.",
+      "use": "Domain-level comparison: opportunity, feasibility, social-purpose ventures and an applied plan. Foundation academy depth does not replicate university credit, advanced methods, supervised fieldwork or specialist legal/finance instruction.",
+      "rights": "PDF states CC BY-SA 3.0 IGO for text; no syllabus, table, template or source text adapted."
+    },
+    {
+      "id": "C2",
+      "title": "EntreComp official competence and progression page",
+      "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/entrecomp-entrepreneurship-competence-framework/competence-areas-and-learning-progress_en",
+      "checked_on": "2026-11-27",
+      "access": "Actual official HTML; original framework 2016, current listing date 2026 is not a new edition.",
+      "use": "Foundation-level supported value creation across opportunity, resources and action. Not an affiliation or accreditation claim."
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-078",
+      "alignment": "Explain a fictional enterprise mission, trading arrangement and innovation hypothesis while distinguishing proposed value from demonstrated outcomes.",
+      "benchmark_sources": [
+        "R71",
+        "R72",
+        "R74",
+        "S61",
+        "S62",
+        "S63",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    },
+    {
+      "code": "SWP-079",
+      "alignment": "Analyse fictional demand evidence and develop a bounded value proposition that distinguishes user need, payer demand and access conditions.",
+      "benchmark_sources": [
+        "R72",
+        "R73",
+        "R74",
+        "S61",
+        "S62",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    },
+    {
+      "code": "SWP-080",
+      "alignment": "Calculate elementary costs, contribution and cash movements for a fictional enterprise, stating assumptions and limits without providing investment or tax advice.",
+      "benchmark_sources": [
+        "R72",
+        "R73",
+        "S61",
+        "S62",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    },
+    {
+      "code": "SWP-081",
+      "alignment": "Compare fictional finance and member-governance arrangements for obligations, control, access and mission, without soliciting funds or advising investments.",
+      "benchmark_sources": [
+        "R73",
+        "R74",
+        "S61",
+        "S63",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    },
+    {
+      "code": "SWP-082",
+      "alignment": "Develop a proportionate fictional impact enquiry and accountable mission review, distinguishing activity, outcome, contribution and unsupported causal claims.",
+      "benchmark_sources": [
+        "R71",
+        "R72",
+        "R73",
+        "R74",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    },
+    {
+      "code": "SWP-083",
+      "alignment": "Integrate mission, market, operations, finance, governance and impact into a conditional fictional launch proposal with explicit review and authority gates.",
+      "benchmark_sources": [
+        "R71",
+        "R72",
+        "R73",
+        "R74",
+        "S61",
+        "S62",
+        "S63",
+        "S64"
+      ],
+      "academic_comparison": [
+        "C1 entrepreneurship/feasibility/social purpose",
+        "C2 foundation progression"
+      ]
+    }
+  ],
+  "boundaries": [
+    "FGR houses donor fundraising and grants; VTS houses occupational skills; RDS houses advanced research methods; LMI houses organisational management. SEE integrates enterprise viability with mission.",
+    "All exercises and transactions fictional; real financial, employment, tax and legal decisions require qualified advice and authority.",
+    "Learning materials may be owner-released after accurate build and private verification. New CBT and school exam IDs remain blank until genuinely configured.",
+    "Public source assessment examples are disclosed review material; unpublished production banks required before graded ParaLearn launch.",
+    "Full-school enrolment and certification require separate readiness, moderated exam and authorised signatures."
+  ],
+  "depth_and_follow_on": "Not equivalent to a university entrepreneurship degree or regulated finance competence. Further provision must cover supervised real-world work, advanced research and finance, and verified current Nigerian legal/tax requirements. Course duration is proposed pending piloting.",
+  "research_search_notes": [
+    "IJSDS homepage and targeted entrepreneurship/cooperative queries checked 27 November 2026. No sufficiently appraisable SEE-specific full paper identified in returned results; no unrelated paper forced into teaching and no IJSDS quartile claimed.",
+    "Current 2026 mission-drift supporting tables identified on Mendeley, but a dataset is not an independently appraised review article or a validated diagnostic instrument; not adopted as an assessment tool.",
+    "The 2026 staged-impact-assessment paper DOI 10.1080/19420676.2026.2720900 identified as a lead; not needed for teaching claims without fuller appraisal.",
+    "No source questionnaire, financial calculator, canvas, scoring instrument or research figure reproduced. Original cases and arithmetic only. No browser challenge bypassed."
+  ],
+  "metric_sources": [
+    "https://www.scimagojr.com/journalsearch.php?q=29104&tip=sid",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=19621&tip=sid",
+    "https://www.tandfonline.com/action/journalInformation?journalCode=rjse20"
+  ]
+}

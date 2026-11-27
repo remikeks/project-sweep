@@ -1,0 +1,132 @@
+{
+  "profile": "pdf_slides",
+  "source_package_sha256": "831f5b4e501d9d84b8fedc95d6e80cbabe7839b5e40ca8502bbf90ceffa59ca8",
+  "summary": {
+    "assets": 24,
+    "asset_courses": 6
+  },
+  "files": [
+    {
+      "path": "pdf/SWP-078-social-enterprise-models-and-social-innovation-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "663ce3c5e8e3fb7c52209e0b88449d5b8bb37249ea0da036bfb917740721a106"
+    },
+    {
+      "path": "pdf/SWP-078-social-enterprise-models-and-social-innovation-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "0f8e40f0aa2ee18a6beb5c93e91c664609c049503aae2524f2dd525310a1ced7"
+    },
+    {
+      "path": "pptx/SWP-078-social-enterprise-models-and-social-innovation-course-slides.pptx",
+      "pages": null,
+      "sha256": "de7223be5a3c60487cf19bcfb0e1215ea5d7e5be08577ccd1a9e9839d5c91b47"
+    },
+    {
+      "path": "pdf/SWP-078-social-enterprise-models-and-social-innovation-course-slides.pdf",
+      "pages": 17,
+      "sha256": "ca9d9bda1c769459d55ec17f5634c66f7308ac75c36d1a975c995c39395687c7"
+    },
+    {
+      "path": "pdf/SWP-079-community-market-research-and-value-propositions-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "17fa760d34cd53cfab256636aa7ef4660338994c7cb6be048dff956b8aa5ee7a"
+    },
+    {
+      "path": "pdf/SWP-079-community-market-research-and-value-propositions-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "44f782d565396ea214fd7043d8d03effbaa32dcd2ab6726447425afb6210abdd"
+    },
+    {
+      "path": "pptx/SWP-079-community-market-research-and-value-propositions-course-slides.pptx",
+      "pages": null,
+      "sha256": "9e5a3fdf73cf8cb9a939b2546764b5954a2b2ba1e2d139e679219398be1b34f1"
+    },
+    {
+      "path": "pdf/SWP-079-community-market-research-and-value-propositions-course-slides.pdf",
+      "pages": 16,
+      "sha256": "d2d10d9952016d5f04301801f300208815b39eb82097db9c4321a6b81b066ce0"
+    },
+    {
+      "path": "pdf/SWP-080-business-models-costing-and-cash-flow-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "bb7cdb6e17e8ee8544ebba62b762c9997bc9b83c604d5748b25658f59c2b5fce"
+    },
+    {
+      "path": "pdf/SWP-080-business-models-costing-and-cash-flow-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "33c088a65a7e6a6bbdcc7d083f590a687aeb0af595b9898335f753cc0a7d1eba"
+    },
+    {
+      "path": "pptx/SWP-080-business-models-costing-and-cash-flow-course-slides.pptx",
+      "pages": null,
+      "sha256": "789f60168a7d1160782aaab8526a8552e1edf0f7b85138a4d623ce0ec822d557"
+    },
+    {
+      "path": "pdf/SWP-080-business-models-costing-and-cash-flow-course-slides.pdf",
+      "pages": 16,
+      "sha256": "c1ce28f306bb291cee3539c641a1ad20e3e32b8dac97caedf7d434b943534e25"
+    },
+    {
+      "path": "pdf/SWP-081-social-finance-cooperative-models-and-inclusion-learner-guide.pdf",
+      "pages": 7,
+      "sha256": "326859ecbff0a1e8673d1c0385a4060118b113bd7449d16f71d281036c42388d"
+    },
+    {
+      "path": "pdf/SWP-081-social-finance-cooperative-models-and-inclusion-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "8347ad3a6eda20fbb1833c8edce7ca73cb51db92dd82fa0fb8572c51aea97649"
+    },
+    {
+      "path": "pptx/SWP-081-social-finance-cooperative-models-and-inclusion-course-slides.pptx",
+      "pages": null,
+      "sha256": "d9390d0041709605fd1d7949ef4cc08647d759af4a28c658d4895f50890268f3"
+    },
+    {
+      "path": "pdf/SWP-081-social-finance-cooperative-models-and-inclusion-course-slides.pdf",
+      "pages": 16,
+      "sha256": "51641aa504e9c56b7e937d9ed18beb787476cbc00423817bb70c3caed3a837d7"
+    },
+    {
+      "path": "pdf/SWP-082-impact-measurement-and-mission-accountability-learner-guide.pdf",
+      "pages": 8,
+      "sha256": "8b074084f671cf40d240ee2b2fb7274b074f8524e53efc2aa66b9f626d497599"
+    },
+    {
+      "path": "pdf/SWP-082-impact-measurement-and-mission-accountability-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "50da7cf4f11e5191678b7f3681054b238a93162acbfd89c006a0a6a5e3d9ce84"
+    },
+    {
+      "path": "pptx/SWP-082-impact-measurement-and-mission-accountability-course-slides.pptx",
+      "pages": null,
+      "sha256": "644c7254c4453123f817264d726aab7e12a6dd392805942117398bb38dc76c75"
+    },
+    {
+      "path": "pdf/SWP-082-impact-measurement-and-mission-accountability-course-slides.pdf",
+      "pages": 16,
+      "sha256": "a169c5a9370b664658e5974530ca4178b1ce0bc077f2dac3c3c00943bee2b81f"
+    },
+    {
+      "path": "pdf/SWP-083-social-enterprise-launch-practicum-learner-guide.pdf",
+      "pages": 9,
+      "sha256": "1d8f169a4265d35f1d117ce8f2f492cdee3b5a9658bcfe837360f43d55ca48bc"
+    },
+    {
+      "path": "pdf/SWP-083-social-enterprise-launch-practicum-practice-worksheet.pdf",
+      "pages": 3,
+      "sha256": "2c37beec7b04816733ad0716875962636737370aa64a7c5d8586e09e0ea660fd"
+    },
+    {
+      "path": "pptx/SWP-083-social-enterprise-launch-practicum-course-slides.pptx",
+      "pages": null,
+      "sha256": "d74a9521f62c8d40b422dba88561eca59ee2781f72dd5e3d40013308d344c256"
+    },
+    {
+      "path": "pdf/SWP-083-social-enterprise-launch-practicum-course-slides.pdf",
+      "pages": 17,
+      "sha256": "131fe6b513f9cbe2259af3398794f4bf84038f11dc15aff088f29a313eff9142"
+    }
+  ],
+  "video_status": "not_produced",
+  "academic_review": "pending"
+}

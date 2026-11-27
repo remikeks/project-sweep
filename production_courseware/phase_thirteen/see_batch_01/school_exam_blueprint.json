@@ -1,0 +1,716 @@
+{
+  "status": "draft_for_review",
+  "school_code": "SEE",
+  "curriculum_version": "SEE-proposed-six-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-078",
+    "SWP-079",
+    "SWP-080",
+    "SWP-081",
+    "SWP-082",
+    "SWP-083"
+  ],
+  "programme_target_course_count": 6,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {},
+  "scope_note": "Six-title introductory assessment map. Forty MCQ slots allocated 7/7/7/7/6/6 for near-balanced coverage; each short answer focuses one course and both essays integrate all six. Public source items are review exemplars, not confidential production questions. Preserve every pre-existing course and CBT.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed; accessibility review and learner piloting pending",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Human criterion scores and reasons; independent identified human moderator; rubric version, moderation reasons and amendment/appeal history retained. Accept equivalent defensible reasoning. No automatic professional-competence decision.",
+    "appeals": "Authorised review preserves the response, criterion marks and reasons, rubric version, moderation and dated amendment/appeal outcomes."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Course badge: approved course plus verified ParaLearn course CBT pass",
+      "Certificate: every approved school course plus final mixed ParaLearn exam with human written marking and independent moderation",
+      "Unpublished production banks and actual ParaLearn configuration required before launch",
+      "Head of Learning name/signature pending; Founder Prof. Mina Ogbanga; authorised signatures required"
+    ]
+  },
+  "items": [
+    {
+      "id": "SEE6-SWP-078-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-078-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-079-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-080-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-081-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-082-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SWP-083-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "SEE6-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-078"
+      ],
+      "prompt": "An invented repair-and-learning venture calls sales proof of secure employment, treats user, payer and beneficiary as identical, labels itself cooperative without member arrangements and plans expansion after prototype clicks. Give five corrections.",
+      "model_answer": "Separate mission from trading and evidenced outcomes; distinguish user, payer and beneficiary promises; describe actual operating and ownership arrangements; identify capacity and mission tensions; and frame a bounded innovation test with a disconfirming observation and review condition. No label or prototype authorises real trading.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Mission trading and outcome distinction",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "User payer beneficiary roles",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Operating ownership and governance arrangements",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Capacity and mission tension",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Bounded innovation test and authority",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-079"
+      ],
+      "prompt": "Ten invented favourable comments are multiplied into district sales. Price and timing were not discussed, alternative providers are ignored and a leading questionnaire asks why everyone loves the offer. Give five corrections.",
+      "model_answer": "Distinguish need, interest and purchases; state selection, source and date limits; compare actual alternatives and practical access conditions; write a specific user/payer offer with neutral enquiry prompts; and report supplied findings with denominator, contrary evidence and a bounded next decision. Do not collect real personal records.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Need interest and transaction evidence",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Selection source and date limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Alternatives and access",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Specific offer and neutral prompts",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Bounded findings and next enquiry",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-080"
+      ],
+      "prompt": "An invented service charges 50 per job, variable cost is 30 and fixed costs are 120. Ten jobs occur. Opening cash is 100, receipts are 80 and payments are 230. A later invoice is counted early; safe capacity is five jobs. Give five financial corrections, showing calculations.",
+      "model_answer": "Contribution is 20 per job; ten jobs yield revenue 500, variable cost 300, contribution 200 and simplified surplus 80 before omissions. Current cash is minus 50, excluding later receipts. Break-even is six jobs under base assumptions, above five-job capacity; a cost rise to 35 would make it eight. State omitted mission costs and separate viability, cash and impact. No real borrowing or investment advice.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Unit contribution and supplied cost assumptions",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Revenue contribution and simplified surplus arithmetic",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Cash timing and minus-50 balance",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Break-even capacity and sensitivity",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Omissions mission and real-finance boundaries",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-081"
+      ],
+      "prompt": "An invented equipment grant is treated as money for all wages; a loan repayment precedes receipts; a funder can replace elected members; unreadable terms are voted on; and students are asked to collect real deposits. Give five corrections.",
+      "model_answer": "Respect restricted purpose and identify unfunded operations; examine repayment and cash obligations; scrutinise external control against member autonomy; provide understandable decision information and accountable roles with minority concerns retained; and keep transactions fictional, requiring verified legal/regulated-service authority for real activity. Cooperative identity is not a deposit-taking permission.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Finance restrictions and unfunded needs",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Repayment timing and obligations",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Member autonomy and external control",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Meaningful information roles and accountability",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Fictional exercise and regulated-service boundary",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-082"
+      ],
+      "prompt": "An invented impact score is revenue renamed. Completions move from eight of ten to twelve of twenty while entry rules change; missing outcomes are deleted and reporting adoption is called proof of mission fidelity. Give five corrections.",
+      "model_answer": "Separate resources, activities, outputs and outcomes; define measures, denominator, period and missing records; calculate the proportional fall from 80 to 60 percent; consider changed selection and other influences without causal overclaim; and distinguish measurement adoption from impact while reviewing mission tensions and communicating incomplete results honestly.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Evidence chain and proxy identity",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Measure definitions and missing outcomes",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Counts and proportion arithmetic",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Comparability and attribution limits",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Reporting versus mission and honest communication",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-083"
+      ],
+      "prompt": "An invented launch proposal promises same-day service without staff, treats a 2026 paper using 2021 records as current local evidence, ignores a cash shortfall, expands after slides are complete and awards certificates from attendance. Give five corrections.",
+      "model_answer": "Create a coherent problem, offer and dated claim record; compare options with capacity, cash and mission conditions; verify authority, resources, supply and governance before a limited fictional test; propose continue, modify or pause with an observation that could change the decision; and separate learning resources from verified course passes, the mixed ParaLearn school exam, human marking, independent moderation and authorised signatures.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Coherent proposal and honest dated evidence",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Comparable options and feasibility",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Readiness authority and bounded test",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Conditional decision and learning review",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Badge and school-certification gates",
+          "marks": 1,
+          "scoring": "0 absent/unsafe/unsupported; 1 accurate relevant reasoning applied to the invented case. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-078",
+        "SWP-079",
+        "SWP-080",
+        "SWP-081",
+        "SWP-082",
+        "SWP-083"
+      ],
+      "prompt": "Develop a conditional enterprise-launch decision across all six SEE courses for an invented repair-and-learning venture. Sales are treated as employment impact; ten comments become guaranteed demand; price and cost assumptions conceal a cash gap; an outside funder controls members; a target reduces learning hours; and expansion is promised before staffing or authority is checked. Compare options, show financial reasoning, preserve mission and specify a bounded review. Use invented records only.",
+      "model_answer": "Integrate mission, payer/user/beneficiary roles and model tensions (078); bounded market evidence, alternatives and a credible accessible offer (079); explicit unit contribution, simplified costs, cash timing, break-even and capacity sensitivity (080); finance obligations, member control, inclusion and regulated-service limits (081); relevant measures, missing outcomes, attribution limits and mission review (082); and coherent options, authority/resource gates, a limited fictional test and continue/modify/pause decision (083). State responsible roles, assumptions and disconfirming evidence. No fundraising, real debts, registration, deposit-taking or service launch through coursework.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Mission model tensions and differentiated market evidence (078/079)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accurate cost cash break-even and capacity reasoning (080)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Finance obligations cooperative control inclusion and authority (081)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Impact evidence design limits and accountable mission review (082)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Coherent staged proposal readiness and conditional review (083)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    },
+    {
+      "id": "SEE6-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-078",
+        "SWP-079",
+        "SWP-080",
+        "SWP-081",
+        "SWP-082",
+        "SWP-083"
+      ],
+      "prompt": "Critique an invented claim that a new portal, a cooperative name, positive revenue and a large impact dashboard prove a viable and inclusive enterprise. The claim relies on a sector scoping review as a survival guarantee, a tool usability study as an outcome trial and a 2026 measurement-adoption paper as current local causal evidence. Public review questions are proposed unchanged for a graded exam and certificates are promised after viewing slides. Use all six SEE domains to correct the claims and propose the next authorised step.",
+      "model_answer": "Separate novelty and trading from an evidenced mission mechanism (078); demand from selected interest and a label from a credible offer (079); revenue, contribution, profit, cash and capacity from a complete feasibility conclusion (080); identity, actual member control, financing obligations and access from regulated permission (081); proxies and reporting adoption from beneficiary outcomes, with design/date/context limits and missing results retained (082); and a bounded staged proposal from actual launch or professional authority (083). Public assessment exemplars require unpublished production banks before graded deployment. Badges need verified course passes; certification needs all six approved courses, configured mixed ParaLearn assessment, human written marking, independent moderation and authorised Head of Learning/Founder signatures.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Mission model tensions and differentiated market evidence (078/079)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Accurate cost cash break-even and capacity reasoning (080)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Finance obligations cooperative control inclusion and authority (081)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Impact evidence design limits and accountable mission review (082)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        },
+        {
+          "criterion": "Coherent staged proposal readiness and conditional review (083)",
+          "marks": 3,
+          "scoring": "0 absent/unsafe; 1 relevant limited point; 2 defensible applied reasoning with a gap; 3 coherent contextual reasoning with feasible action, authority and evidence limits. Accept equivalent defensible reasoning."
+        }
+      ]
+    }
+  ]
+}

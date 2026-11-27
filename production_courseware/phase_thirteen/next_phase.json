@@ -1,0 +1,36 @@
+{
+  "phase": 14,
+  "school_code": "DAI",
+  "school_name": "School of Digital Innovation and Artificial Intelligence in Social Work",
+  "retained_codes": [
+    "SWP-031"
+  ],
+  "proposed_additions": [
+    "Digital Inclusion Accessibility and Service Design",
+    "Data Protection Consent and Cyber Hygiene",
+    "AI Literacy Limits Bias and Human Oversight",
+    "Responsible AI for Casework Documentation",
+    "Digital Case Management and Workflow Design",
+    "Evaluating Digital and AI Enabled Services",
+    "Digital Innovation Design Practicum"
+  ],
+  "target_courses": 8,
+  "scope": "Digital practice and critical AI literacy with explicit limits, privacy, bias evaluation and accountable human judgement.",
+  "first_step": "Verify the actual live school mapping and any existing scope; appraise accessible primary curriculum comparators and current open-access evidence before authoring.",
+  "planned_output": {
+    "new_courses": 7,
+    "modules": 21,
+    "course_mcqs": 105,
+    "designed_resources": 28
+  },
+  "gates": [
+    "Preserve all earlier teaching and CBT mappings; no source replacement",
+    "Appraise accessible primary practice guidance and current open-access studies, recording methods, dates, rights and limits",
+    "Create aligned guide and worksheet PDFs, editable PPTX and rendered slide PDFs with legible text",
+    "Validate the full-school mixed exam map and criterion-level human marking; keep unverified provider IDs blank",
+    "Run isolated SQLite checks, visually inspect final pages, protect existing file/record fingerprints",
+    "Under standing owner authority: privately upload, verify exact hashes, publish validated learning materials, verify access, commit and push main",
+    "School certification requires actual ParaLearn readiness, completion, human moderation and authorised signatures",
+    "The repository is public: disclosed review items are not confidential live questions. Prepare unpublished production banks before graded ParaLearn launch."
+  ]
+}

@@ -1,0 +1,3610 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-27",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "owner_material_release_authorised": true,
+    "local_legal_tax_finance": "requires_qualified_verification",
+    "professional_or_investment_authority": "not_conferred",
+    "paralearn_mixed_exam": "unverified"
+  },
+  "references": [
+    {
+      "id": "S61",
+      "author": "U.S. Small Business Administration",
+      "year": "accessed 2026",
+      "title": "Plan your business: market research, planning, startup costs and break-even",
+      "url": "https://www.sba.gov/counseling/plan-your-business/",
+      "kind": "practice_guidance",
+      "use": "Support elementary market, cost and financial-planning questions using original invented numbers.",
+      "appraisal": "Actual current official HTML sections read. Earlier market-research and startup-cost URLs redirect to this combined page. General enterprise guidance, not Nigerian tax, credit, registration or financial advice; forecasts are assumptions, not evidence of future sales.",
+      "licence": "Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Enterprise planning: market and cost questions",
+      "slide_limit": "US guidance; invented arithmetic, no local tax or credit rule.",
+      "link_label": "sba.gov Plan your business"
+    },
+    {
+      "id": "S62",
+      "author": "European Commission Joint Research Centre",
+      "year": 2016,
+      "title": "EntreComp: competence areas and learning progress",
+      "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/entrecomp-entrepreneurship-competence-framework/competence-areas-and-learning-progress_en",
+      "kind": "practice_guidance",
+      "use": "Compare foundation-level opportunity, resources and action domains; value may be social as well as financial.",
+      "appraisal": "Actual official competence/progression HTML read; original framework is 2016, while a current download listing carries an August 2026 date. Foundation learning involves external support; a short course does not establish expert autonomy or degree equivalence.",
+      "licence": "Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Entrepreneurship: opportunity resources action",
+      "slide_limit": "2016 framework; current webpage is not a new framework edition.",
+      "link_label": "ec.europa.eu EntreComp"
+    },
+    {
+      "id": "S63",
+      "author": "International Cooperative Alliance",
+      "year": 1995,
+      "title": "Cooperative identity, values and principles",
+      "url": "https://www.ica.coop/en/cooperatives/cooperative-identity",
+      "kind": "practice_guidance",
+      "use": "Examine voluntary membership, democratic control and the relationship between external capital and member autonomy.",
+      "appraisal": "Actual official identity page read, including the 1995 statement and its description of guidance notes. Current consultation pages discuss possible revisions; a discussion draft is not treated as an adopted replacement. Identity principles do not establish Nigerian registration, deposit-taking permission or investment protection.",
+      "licence": "Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Cooperative identity and member control",
+      "slide_limit": "1995 statement on current official page; not local registration law.",
+      "link_label": "ica.coop Cooperative identity"
+    },
+    {
+      "id": "S64",
+      "author": "OECD and European Union",
+      "year": 2024,
+      "title": "Measure, Manage and Maximise Your Impact: A Guide for the Social Economy",
+      "url": "https://www.oecd.org/en/publications/measure-manage-and-maximise-your-impact_2238c1f1-en.html",
+      "kind": "practice_guidance",
+      "use": "Use proportionate evidence, stakeholder relevance and learning rather than equating a metric with impact.",
+      "appraisal": "Actual official abstract/executive-summary HTML and full-report contents inspected. Published 15 April 2024; 114-page guide not read in full. Practice guidance and consultation-based principles are not a controlled effectiveness evaluation or proof that one indicator set suits every enterprise.",
+      "licence": "OECD rights apply. Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Impact evidence for mission and learning",
+      "slide_limit": "2024 guidance; proportionate evidence, not automatic causal proof.",
+      "doi": "10.1787/2238c1f1-en",
+      "link_label": "doi.org/10.1787/2238c1f1-en"
+    },
+    {
+      "id": "R71",
+      "author": "Eckerle C and Terzidis O",
+      "year": 2025,
+      "title": "From ambition to evidence: a practical tool for startup impact assessment",
+      "url": "https://doi.org/10.1007/s11187-025-01101-7",
+      "kind": "peer_reviewed_research",
+      "use": "Distinguish a useful planning tool and output proxy from measured beneficiary change.",
+      "appraisal": "Actual publisher HTML design cycles, limitations and rights read. Online 4 August 2025; issue January 2026. Design-science interviews and few user tests in artificial settings, not a trial of social outcomes. Methods and later summary give differing interview/startup counts; no exact count is relied on. Revenue-linked tool requires an operating revenue history; it is not validated for every pre-revenue venture.",
+      "licence": "Publisher states CC BY 4.0. Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Startup assessment: design and proxy limits",
+      "slide_limit": "2025 online / 2026 issue; artificial tests do not prove social outcomes.",
+      "slide_author": "Eckerle and Terzidis",
+      "doi": "10.1007/s11187-025-01101-7",
+      "quartile": "SCImago primary 2025 Small Business Economics record: Q1 Economics and Econometrics. Checked 27 November 2026; no JCR or article-validity claim."
+    },
+    {
+      "id": "R72",
+      "author": "Fathi LI and colleagues",
+      "year": 2025,
+      "title": "Mission and money: a scoping review of social enterprise business models as a solution to sustaining health-promoting food and nutrition-based initiatives",
+      "url": "https://doi.org/10.1186/s12889-025-24891-7",
+      "kind": "peer_reviewed_research",
+      "use": "Question how income arrangements, operating conditions and mission interact without guaranteeing longevity.",
+      "appraisal": "Actual publisher HTML methods, results, limitations and rights inspected. Published 31 October 2025; search November 2023 and web checks July 2024. Narrative synthesis of heterogeneous mostly case-based reports, no formal quality appraisal. Counts of studies, enterprises and verified operating status do not reconcile simply; no survival rate or comparative model superiority is inferred. Sector and publication-selection limits prevent a universal business prescription.",
+      "licence": "Publisher states CC BY 4.0. Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Mission and money: a sector scoping review",
+      "slide_limit": "2023 search / 2024 checks; case-rich synthesis, no guaranteed survival.",
+      "slide_author": "Fathi and colleagues",
+      "doi": "10.1186/s12889-025-24891-7",
+      "quartile": "SCImago primary 2025 BMC Public Health record: Q1 Public Health, Environmental and Occupational Health. Checked 27 November 2026; no JCR or individual-study validation claim."
+    },
+    {
+      "id": "R73",
+      "author": "Crnigoj M and Slavec Gomezel A",
+      "year": 2026,
+      "title": "Organisational and Entrepreneurial Drivers of Social Impact Measurement Adoption in Social Enterprises",
+      "url": "https://doi.org/10.1080/19420676.2026.2669929",
+      "kind": "peer_reviewed_research",
+      "use": "Examine financing and learning incentives while separating measurement adoption from actual impact.",
+      "appraisal": "Publisher-indexed methods, results and rights read; direct reader returned 403. Online 13 May 2026. Slovenian December 2021 survey: 61 responses from 269 registered organisations, linked 2018-21 accounts; logistic models of measurement adoption. Non-response, small contextual sample and observational design limit causal transfer. Measuring more does not establish delivering more impact; reported associations are not financing recommendations.",
+      "licence": "Publisher indexed PDF states CC BY-NC-ND 4.0. No article or adapted tool used; factual commentary and links only. Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Measurement adoption: observational evidence",
+      "slide_limit": "2026 paper / 2021 survey; adoption is not effectiveness.",
+      "slide_author": "Crnigoj and Slavec Gomezel",
+      "doi": "10.1080/19420676.2026.2669929",
+      "quartile": "Official publisher metrics report 2025 SJR best quartile Q1 for Journal of Social Entrepreneurship; checked 27 November 2026. Best quartile is not every category or a JCR claim."
+    },
+    {
+      "id": "R74",
+      "author": "Wang R",
+      "year": 2025,
+      "title": "Building Cross-Sector Collaboration and Managing Institutional Tensions in Social Enterprise Organizations",
+      "url": "https://doi.org/10.1007/s11266-025-00744-0",
+      "kind": "peer_reviewed_research",
+      "use": "Ask how partnership roles and mission tensions interact in an invented enterprise.",
+      "appraisal": "Actual publisher HTML abstract, analytical discussion and limitations inspected; no claim of complete interview-protocol appraisal. Online 30 May 2025. Interviews with 15 enterprises in one southeastern US state: qualitative contextual accounts, not a representative national estimate or causal test of partnership success. Collaboration can introduce dependencies as well as resources.",
+      "licence": "Publisher states CC BY 4.0. Links and original factual commentary only; no source instrument, questionnaire, framework graphic, table, template or raw paper redistributed or adapted.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Partnerships and competing enterprise goals",
+      "slide_limit": "Fifteen US enterprises; qualitative context, no universal effect.",
+      "slide_author": "Wang",
+      "doi": "10.1007/s11266-025-00744-0"
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-078",
+      "title": "Social Enterprise Models and Social Innovation",
+      "slug": "social-enterprise-models-and-social-innovation",
+      "cover_title": "Social Enterprise Models\nand Social\nInnovation",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Explain a fictional enterprise mission, trading arrangement and innovation hypothesis while distinguishing proposed value from demonstrated outcomes.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Connect mission trading and public benefit",
+          "outcome": "Distinguish a social purpose from a business activity and an evidenced benefit.",
+          "paragraphs": [
+            "Begin with a concrete social concern and a proposed change for an identified group. A venture might sell repair services while creating supported work opportunities, but the sales and the work outcomes are different parts of its purpose. Entrepreneurship can create social as well as financial value; the foundation stage requires support rather than presumed expert independence. Write what the invented enterprise intends to change, what activity it offers and how it expects that activity to contribute. A socially appealing name does not establish that the proposed connection works. [S62]",
+            "Separate the user, the person who pays and the person expected to benefit. They may be the same person, or they may have different needs and influence. In an invented repair venture, a shop might pay for maintenance while trainees seek safe learning and reliable work. Identify which promise is made to each party and what resources are needed to honour it. Do not treat a paying customer as the only stakeholder, or assume that someone receiving support has no relevant preferences. These are design questions for the fictional case, not permission to recruit real participants. [S64]",
+            "An income arrangement describes how resources enter the enterprise, while an operating arrangement describes how a useful service is produced. A scoping review of food and nutrition enterprises reports varied arrangements and contexts. That diversity motivates asking whether an invented model fits its purpose; it does not establish a model that guarantees survival in every sector. Consider who can access the offer, how staff are supported and which costs recur. If the service depends on unpaid time, record that dependency rather than describing it as free unlimited capacity. [R72]",
+            "A defensible mission note keeps intention, activity and observed change separate. State the intended group, the offer, the payer and one observation that would help examine benefit. Include a potential unintended consequence, such as work targets displacing learning time. A partnership study describes competing institutional goals in a limited qualitative setting; it suggests useful questions about tensions, not proof of a universal remedy. Keep the exercise analytical, and identify the qualified role needed before any real employment, safeguarding or contractual arrangement could proceed. [R74]"
+          ],
+          "example": "Fictional case: An invented repair venture reports that strong sales prove every trainee has gained secure employment. Its shop customers pay promptly, but learning support and trainee experience have not been examined.",
+          "activity": "Write four entries for mission, user, payer and intended beneficiary. Separate sales evidence from the outcome claim and identify one possible tension.",
+          "feedback": "Sales show trading activity. Secure employment needs different evidence; customers and trainees may require distinct promises, support and review.",
+          "sources": [
+            "S62",
+            "S64",
+            "R72",
+            "R74"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Compare trading and ownership arrangements",
+          "outcome": "Compare alternative enterprise arrangements against mission, resources and accountability.",
+          "paragraphs": [
+            "Describe an arrangement in ordinary language before choosing a label. An invented venture may sell directly to users, sell to another organisation that purchases access, or combine paid work with a clearly specified support arrangement. Compare who pays, who receives the service and who carries the main costs. Elementary business planning asks for a coherent account of the offer and resources. A classroom model description is not a legal form, a registration decision or a financial forecast; those questions need separate evidence and appropriate qualified advice. [S61]",
+            "Ownership and governance concern who can decide and how those decisions are explained. A cooperative identity involves voluntary association and member control, but an enterprise is not made a functioning cooperative merely by adding the word to its name. In the invented comparison, distinguish membership, voting, management and external financing. Record the information a member would need to understand a decision and a possible conflict between an investor preference and the stated social purpose. Do not invent local registration rules or promise that cooperative status protects every participant from loss. [S63]",
+            "Use the same comparison headings for each option. Assess the proposed benefit, accessibility, income source, cost, capacity, decision owner and main uncertainty. A sector review can reveal that different arrangements operate in different settings, while leaving the causal explanation of longevity unresolved. Therefore ask whether the case actually supplies the conditions an option depends on. If a buyer must cross-subsidise access for others, identify the assumed surplus and its timing. A generous intention cannot fund an unspecified gap or substitute for evidence of willingness to pay. [R72]",
+            "Finish with a conditional choice rather than a slogan. Explain why an option appears suitable under the supplied assumptions, what could make it unsuitable and what verification must precede action. Qualitative partnership evidence highlights the possibility of competing organisational demands, so include how a disagreement about mission would reach a responsible decision role. Preserve the distinction between a proposed structure and an operating arrangement with demonstrated results. The learner output is a reasoned comparison using invented facts; it does not authorise contracts, investment or the creation of a real cooperative. [R74]"
+          ],
+          "example": "Fictional case: An invented venture compares direct sales with a contract-funded service. The contract would increase income but remove supported learning time; a cooperative label is proposed without member decision arrangements.",
+          "activity": "Compare both options under six common headings. Recommend a conditional option and name a governance question that must be resolved.",
+          "feedback": "Income, mission, capacity and control must be considered together. A label does not settle ownership or remove the conflict about supported learning.",
+          "sources": [
+            "S61",
+            "S63",
+            "R72",
+            "R74"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Develop and test an innovation hypothesis",
+          "outcome": "Frame a small fictional learning test with a relevant observation and stopping condition.",
+          "paragraphs": [
+            "An innovation is a proposed change in how value is created, delivered or supported; novelty alone does not make it useful. Start with the obstacle in the invented service and explain how a change might address it. An accessible booking route could reduce one task barrier without fixing insufficient repair capacity. The entrepreneurship progression emphasises opportunity, resources and action together. Keep the learning hypothesis narrow enough to examine, including the condition that must hold between the change and the intended result. A new application or a distinctive brand is not itself evidence of social benefit. [S62]",
+            "Design a low-risk classroom test using invented records or role descriptions. State the question, the proposed change, the observation and the decision it could inform. For example, compare two fictional service descriptions for clarity about price, access and response ownership. Do not recruit actual service users or ask learners to expose personal circumstances. A practical assessment tool may help structure reasoning, but design-science usability work does not prove that a proposed venture improves lives. An output proxy should be labelled for what it measures, especially when the venture has not begun operating. [R71]",
+            "Include an observation that could challenge the preferred idea. If the invented booking change increases requests but leaves more people without a response, the team must reconsider capacity rather than declare success from traffic alone. Record the denominator, time period and missing information. Proportionate impact guidance encourages learning and stakeholder relevance; it does not require collecting every possible variable. Explain what the fictional observation can support and what remains unknown about longer-term outcomes or people who never reached the service. The quality of the test depends on an honest decision connection. [S64]",
+            "Write the next step as continue, modify or pause under stated conditions. Assign a responsible review role and preserve the original hypothesis so changes remain visible. A pilot does not justify expansion before operating requirements are checked, and a classroom exercise does not authorise a real service launch. Consider whether the adjustment protects the mission as well as the trading arrangement. The final learning note should describe an observation and a justified decision, without presenting an untested idea, an attractive prototype or an isolated positive comment as established enterprise effectiveness. [S62]"
+          ],
+          "example": "Fictional case: An invented booking prototype doubles requests but has no extra processing capacity. The team calls clicks proof of inclusion and plans immediate expansion without a review point.",
+          "activity": "Write a hypothesis, a defined observation, a possible disconfirming result and a conditional continue/modify/pause decision.",
+          "feedback": "More requests do not establish usable access. Include completed responses and unmet demand, then connect the observation to capacity and a bounded decision.",
+          "sources": [
+            "S62",
+            "R71",
+            "S64"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-078",
+        "course_slug": "social-enterprise-models-and-social-innovation",
+        "title": "Social Enterprise Models and Social Innovation",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "22bbc3743ab896088004ebd55b9794a4e99e7ce21f0b2de10ce70bb6ea26496c",
+        "catalogue_sha256": "047f5a17b8a91671be07491e7988146f2e9ba55871a79312e802af951b55c9bb",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Connect mission trading and public benefit",
+            "outcome": "Distinguish a social purpose from a business activity and an evidenced benefit.",
+            "teaching_points": [
+              {
+                "id": "SWP-078-M1-T1",
+                "text": "Mission and sales describe different things."
+              },
+              {
+                "id": "SWP-078-M1-T2",
+                "text": "User payer and beneficiary can differ."
+              },
+              {
+                "id": "SWP-078-M1-T3",
+                "text": "Foundation learning requires appropriate support."
+              },
+              {
+                "id": "SWP-078-M1-T4",
+                "text": "Resource dependencies must remain visible."
+              },
+              {
+                "id": "SWP-078-M1-T5",
+                "text": "A model label is not a survival guarantee."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Compare trading and ownership arrangements",
+            "outcome": "Compare alternative enterprise arrangements against mission, resources and accountability.",
+            "teaching_points": [
+              {
+                "id": "SWP-078-M2-T1",
+                "text": "Descriptions should precede legal labels."
+              },
+              {
+                "id": "SWP-078-M2-T2",
+                "text": "Governance requires actual decision arrangements."
+              },
+              {
+                "id": "SWP-078-M2-T3",
+                "text": "Options need common criteria."
+              },
+              {
+                "id": "SWP-078-M2-T4",
+                "text": "Cross-subsidy depends on an actual surplus."
+              },
+              {
+                "id": "SWP-078-M2-T5",
+                "text": "Conditional recommendations identify limits."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Develop and test an innovation hypothesis",
+            "outcome": "Frame a small fictional learning test with a relevant observation and stopping condition.",
+            "teaching_points": [
+              {
+                "id": "SWP-078-M3-T1",
+                "text": "Novelty is not demonstrated usefulness."
+              },
+              {
+                "id": "SWP-078-M3-T2",
+                "text": "A learning test needs a decision connection."
+              },
+              {
+                "id": "SWP-078-M3-T3",
+                "text": "Traffic and completed access differ."
+              },
+              {
+                "id": "SWP-078-M3-T4",
+                "text": "Tool usability does not prove social outcomes."
+              },
+              {
+                "id": "SWP-078-M3-T5",
+                "text": "Stopping conditions support responsible learning."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-078-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-078-M1-T1",
+            "question": "The invented repair venture records sales. What has not thereby been established?",
+            "options": [
+              {
+                "text": "That a transaction occurred.",
+                "correct": false
+              },
+              {
+                "text": "That income may help fund operations.",
+                "correct": false
+              },
+              {
+                "text": "Secure employment outcomes for every trainee.",
+                "correct": true
+              },
+              {
+                "text": "That the venture has an offer to examine.",
+                "correct": false
+              }
+            ],
+            "rationale": "Trading evidence does not by itself demonstrate the intended social change."
+          },
+          {
+            "id": "SWP-078-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-078-M1-T2",
+            "question": "A shop pays for repairs while trainees seek supported work. What should the model distinguish?",
+            "options": [
+              {
+                "text": "Only the payer matters.",
+                "correct": false
+              },
+              {
+                "text": "Every stakeholder must have identical needs.",
+                "correct": false
+              },
+              {
+                "text": "Trainees cannot have preferences.",
+                "correct": false
+              },
+              {
+                "text": "The different roles and promises made to each party.",
+                "correct": true
+              }
+            ],
+            "rationale": "A useful model represents who pays, uses and benefits without collapsing their roles."
+          },
+          {
+            "id": "SWP-078-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-078-M1-T3",
+            "question": "What does the introductory enterprise course confer?",
+            "options": [
+              {
+                "text": "Supported analytical learning, subject to separate real-world authority.",
+                "correct": true
+              },
+              {
+                "text": "Expert independent trading competence automatically.",
+                "correct": false
+              },
+              {
+                "text": "Permission to employ people without checks.",
+                "correct": false
+              },
+              {
+                "text": "A registered legal enterprise.",
+                "correct": false
+              }
+            ],
+            "rationale": "A learning pathway does not establish legal or professional readiness."
+          },
+          {
+            "id": "SWP-078-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-078-M1-T4",
+            "question": "An invented plan treats volunteer hours as unlimited free capacity. What correction is needed?",
+            "options": [
+              {
+                "text": "Assume volunteers can work indefinitely.",
+                "correct": false
+              },
+              {
+                "text": "Record availability, support and replacement dependencies.",
+                "correct": true
+              },
+              {
+                "text": "Delete labour from the operating model.",
+                "correct": false
+              },
+              {
+                "text": "Count goodwill as guaranteed staffing.",
+                "correct": false
+              }
+            ],
+            "rationale": "Unpaid time still has limits and operating requirements."
+          },
+          {
+            "id": "SWP-078-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-078-M1-T5",
+            "question": "How should a sector scoping review inform the fictional model?",
+            "options": [
+              {
+                "text": "Select a universally superior label.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee survival from the review headline.",
+                "correct": false
+              },
+              {
+                "text": "Use contextual questions about fit and limitations.",
+                "correct": true
+              },
+              {
+                "text": "Treat every case as a controlled effectiveness trial.",
+                "correct": false
+              }
+            ],
+            "rationale": "Heterogeneous case-rich evidence does not establish universal superiority."
+          },
+          {
+            "id": "SWP-078-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-078-M2-T1",
+            "question": "What is a useful first description of the invented venture option?",
+            "options": [
+              {
+                "text": "A claim of registration without records.",
+                "correct": false
+              },
+              {
+                "text": "A fashionable label alone.",
+                "correct": false
+              },
+              {
+                "text": "An assumed tax exemption.",
+                "correct": false
+              },
+              {
+                "text": "Who pays for what service and with which resources.",
+                "correct": true
+              }
+            ],
+            "rationale": "A model needs an operating explanation before legal status can be considered."
+          },
+          {
+            "id": "SWP-078-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-078-M2-T2",
+            "question": "What is missing from the fictional cooperative label?",
+            "options": [
+              {
+                "text": "Defined membership and accountable decision arrangements.",
+                "correct": true
+              },
+              {
+                "text": "A guaranteed return to all investors.",
+                "correct": false
+              },
+              {
+                "text": "An exemption from all local rules.",
+                "correct": false
+              },
+              {
+                "text": "Proof that no conflict can occur.",
+                "correct": false
+              }
+            ],
+            "rationale": "A name does not establish member control or a functioning process."
+          },
+          {
+            "id": "SWP-078-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-078-M2-T3",
+            "question": "Which comparison supports a reviewable fictional decision?",
+            "options": [
+              {
+                "text": "Income for one option and slogans for the other.",
+                "correct": false
+              },
+              {
+                "text": "Mission, access, income, costs, capacity and control for each option.",
+                "correct": true
+              },
+              {
+                "text": "Only the biggest projected revenue.",
+                "correct": false
+              },
+              {
+                "text": "A ranking with all uncertainties hidden.",
+                "correct": false
+              }
+            ],
+            "rationale": "Consistent criteria expose trade-offs rather than concealing them."
+          },
+          {
+            "id": "SWP-078-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-078-M2-T4",
+            "question": "An invented plan promises free access funded by sales. What must be examined?",
+            "options": [
+              {
+                "text": "Good intentions guarantee enough cash.",
+                "correct": false
+              },
+              {
+                "text": "All revenue can be spent twice.",
+                "correct": false
+              },
+              {
+                "text": "The assumed surplus, timing and reliability of sales.",
+                "correct": true
+              },
+              {
+                "text": "No service costs need recording.",
+                "correct": false
+              }
+            ],
+            "rationale": "Revenue after relevant costs and its availability matter for a subsidy promise."
+          },
+          {
+            "id": "SWP-078-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-078-M2-T5",
+            "question": "Which fictional recommendation is strongest?",
+            "options": [
+              {
+                "text": "Sign a real contract through coursework.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee success because an article was cited.",
+                "correct": false
+              },
+              {
+                "text": "Ignore the mission conflict.",
+                "correct": false
+              },
+              {
+                "text": "Prefer an option under stated conditions with a defined verification step.",
+                "correct": true
+              }
+            ],
+            "rationale": "A bounded choice explains both its rationale and conditions."
+          },
+          {
+            "id": "SWP-078-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-078-M3-T1",
+            "question": "What must accompany the invented new booking application?",
+            "options": [
+              {
+                "text": "A plausible access mechanism and evidence question.",
+                "correct": true
+              },
+              {
+                "text": "A claim that new technology always creates benefit.",
+                "correct": false
+              },
+              {
+                "text": "A promise that branding eliminates barriers.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that requests are completed services.",
+                "correct": false
+              }
+            ],
+            "rationale": "The change needs a reasoned connection to an intended result."
+          },
+          {
+            "id": "SWP-078-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-078-M3-T2",
+            "question": "Which fictional test is reviewable?",
+            "options": [
+              {
+                "text": "A prototype celebrated without a question.",
+                "correct": false
+              },
+              {
+                "text": "A specified question, observation and decision condition.",
+                "correct": true
+              },
+              {
+                "text": "A real launch without checks.",
+                "correct": false
+              },
+              {
+                "text": "A collection of unrelated metrics.",
+                "correct": false
+              }
+            ],
+            "rationale": "A clear test explains what learning would change."
+          },
+          {
+            "id": "SWP-078-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-078-M3-T3",
+            "question": "Requests double while processing capacity stays fixed. What remains unresolved?",
+            "options": [
+              {
+                "text": "That inclusion is universally achieved.",
+                "correct": false
+              },
+              {
+                "text": "That all requests are automatically completed.",
+                "correct": false
+              },
+              {
+                "text": "Whether people obtain a usable response.",
+                "correct": true
+              },
+              {
+                "text": "That staffing is no longer relevant.",
+                "correct": false
+              }
+            ],
+            "rationale": "An increase at the front door can coexist with unmet demand."
+          },
+          {
+            "id": "SWP-078-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-078-M3-T4",
+            "question": "What would overstate the startup assessment study?",
+            "options": [
+              {
+                "text": "Recording its design-science approach.",
+                "correct": false
+              },
+              {
+                "text": "Acknowledging its limited user testing.",
+                "correct": false
+              },
+              {
+                "text": "Labelling an output proxy honestly.",
+                "correct": false
+              },
+              {
+                "text": "Calling its artificial usability tests proof of beneficiary improvement.",
+                "correct": true
+              }
+            ],
+            "rationale": "Testing an instrument is different from testing an enterprise effect."
+          },
+          {
+            "id": "SWP-078-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-078-M3-T5",
+            "question": "What should the fictional expansion proposal include?",
+            "options": [
+              {
+                "text": "A review point and conditions for modifying or pausing.",
+                "correct": true
+              },
+              {
+                "text": "Expansion regardless of unresolved capacity.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of adverse observations.",
+                "correct": false
+              },
+              {
+                "text": "Automatic launch authority from coursework.",
+                "correct": false
+              }
+            ],
+            "rationale": "A bounded test should inform a further authorised decision."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-079",
+      "title": "Community Market Research and Value Propositions",
+      "slug": "community-market-research-and-value-propositions",
+      "cover_title": "Community Market Research\nand Value\nPropositions",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Analyse fictional demand evidence and develop a bounded value proposition that distinguishes user need, payer demand and access conditions.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Define a market question and examine evidence",
+          "outcome": "Distinguish a social need, an expressed preference and evidence of a feasible exchange.",
+          "paragraphs": [
+            "A social need can justify attention without demonstrating a market for a particular offer. Define the invented service, the intended user, the payer and the decision the enquiry should inform. Someone may value a repair service but be unable to pay its price, while an organisation may purchase access on another basis. General market guidance distinguishes demand, alternatives and reach. Use those questions to organise supplied fictional evidence rather than assume that a large population, a moving story or a visible social problem establishes sales at the proposed price. [S61]",
+            "Classify each record by what it actually shows. An invented interview comment may explain a concern; a simulated order record may illustrate a transaction; an aggregate population estimate may describe potential scale. These are different evidence types. Identify source, date, scope and the way the fictional record was selected. Do not treat expressions of interest as confirmed purchases or a convenience group as representative of everyone. The exercise requires interpretation of supplied material only, without contacting real people, collecting confidential business information or asking for personal stories to make a proposal persuasive. [S61]",
+            "Keep the venture purpose visible while examining demand. A sector scoping review describes varied relationships between revenue and social purpose, with substantial limits on effectiveness comparisons. That encourages a useful distinction: evidence that an offer attracts a payer does not settle whether it reaches the intended beneficiary or supports the mission. Record any group omitted by the proposed channel and a plausible operational explanation. The result should identify what information is missing, rather than convert the existence of a market segment into proof of universal access or social improvement. [R72]",
+            "Write a short evidence note separating observation, interpretation and a next question. For the invented repair venture, favourable comments about convenience may support exploring a collection point, while leaving price, staffing and actual repeat demand unresolved. State what result would make the team reconsider its assumption. Supported entrepreneurship learning should make uncertainty manageable without hiding it. A good note helps a responsible team decide what to check next; it does not declare the fictional market validated, guarantee income or confer authority to undertake real commercial research without appropriate arrangements. [S62]"
+          ],
+          "example": "Fictional case: Ten invented comments praise a proposed repair collection point. Nobody was asked about price or timing, and the draft multiplies ten comments into a guaranteed monthly sales forecast for the whole district.",
+          "activity": "Classify the evidence, identify three missing conditions and write one observation that would challenge the sales assumption.",
+          "feedback": "Comments indicate expressed views within a selected fictional group. Price, timing, capacity and the selection limit remain unresolved; no district sales guarantee follows.",
+          "sources": [
+            "S61",
+            "R72",
+            "S62"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Compare alternatives and create a credible offer",
+          "outcome": "Explain a value proposition with a specific user task, benefit and delivery condition.",
+          "paragraphs": [
+            "A value proposition explains why a defined user or payer might choose an offer for a particular task. Describe the problem in the user's terms, the proposed service and the benefit expected under stated conditions. Avoid vague promises such as transforming every life. In the invented repair example, collection during a suitable period could reduce travel effort, provided items can be handled safely and returned reliably. Business planning connects the offer to its market and resources. A credible statement is specific enough to question and narrow enough to avoid promising outcomes the service cannot control. [S61]",
+            "Compare the offer with actual alternatives supplied in the case, including doing nothing, using another provider or repairing an item independently. Explain total effort, cost, timing and reliability rather than assuming the absence of an identical enterprise means there is no competition. A competing arrangement may meet the same need in a different way. Do not invent a market share, dismiss another provider without evidence or claim that a social mission makes price and quality irrelevant. Record the difference the proposed offer would need to demonstrate through an appropriate fictional comparison. [S61]",
+            "An enterprise can face tension between the payer's preferences and the beneficiary promise. Qualitative partnership research illustrates that organisations manage different demands within specific relationships; it does not prove that one arrangement resolves every conflict. In the classroom offer, identify a contract term that could undermine access or supported work, and describe who should review it. A value proposition should remain connected to delivery capacity and mission instead of shifting silently whenever a more attractive payer appears. Real contract decisions remain outside the exercise and require appropriate authority and advice. [R74]",
+            "Draft separate versions for the intended user and the payer when their decisions differ. State the benefit, the relevant condition and what is not yet verified. If a subsidy is assumed, show where its resources would come from rather than promising an unlimited discount. The purpose is to develop a coherent hypothesis about value, not a marketing claim that conceals uncertainty. Supported enterprise learning includes ethical judgement as well as initiative. Invite a critical reading of the invented offer and record a practical revision that improves clarity without exaggerating evidence or disclosing personal circumstances. [S62]"
+          ],
+          "example": "Fictional case: An invented repair offer promises free instant service for everyone. Its proposed buyer requires a narrow customer group and payment arrives after delivery; the draft ignores alternative providers and staff limits.",
+          "activity": "Write a user offer and a payer offer. Compare two supplied alternatives and identify a mission or delivery condition that changes the promise.",
+          "feedback": "State the actual scope, timing and resource assumptions. An attractive payer does not remove the need to protect the user promise and examine alternatives.",
+          "sources": [
+            "S61",
+            "R74",
+            "S62"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Design a proportionate fictional enquiry",
+          "outcome": "Plan an ethical simulated enquiry and interpret findings within its limits.",
+          "paragraphs": [
+            "Begin the enquiry plan with a decision question and use the least information needed to answer it. In this course all responses and records are invented. Compare a supplied service description, price scenario or access route instead of asking learners to recruit customers. Explain the purpose and scope of the simulation, the assumptions behind each record and what cannot be inferred. General market guidance offers several enquiry methods, but choosing a method does not make a selected group representative. The important skill is matching evidence to a question while keeping its limitations visible. [S61]",
+            "Write neutral prompts that do not imply the preferred answer. Instead of asking why everyone loves the proposed service, ask which part of the fictional offer is unclear or which condition could prevent use. Distinguish an understandable description from a purchase commitment. Include an alternative route and a reason a person might decline. An accessible exercise allows different ways to examine the same invented problem without requiring personal disclosure. Stakeholder relevance matters to impact learning, but it does not justify collecting sensitive information or presenting one vocal perspective as the entire community. [S64]",
+            "Summarise findings as observations with a denominator and context. If six of ten invented records prefer a collection point, say that rather than claiming sixty percent of the district will buy. Record contrary reasons and missing perspectives alongside the majority pattern. The measurement-adoption study concerns organisational practice in a particular setting, not the truth of every measured claim. Its relevance here is a reminder that producing a formal record and generating trustworthy decision evidence are different achievements. A neat dashboard does not correct a biased or incomplete input. [R73]",
+            "Connect the result to a limited next decision. The simulated evidence might justify revising wording, checking an operating assumption or postponing an offer until a capacity issue is resolved. State what further information would be needed before a real market or launch decision and which qualified role should approve that work. Keep the original question and revisions in a dated record. Do not convert classroom responses into actual customer leads, funding claims or a public demand estimate. The final note demonstrates careful enterprise enquiry, with explicit uncertainty and a proportionate learning action. [S62]"
+          ],
+          "example": "Fictional case: Six of ten invented response cards prefer a collection point, but two describe timing barriers and two lack a usable price assumption. A dashboard labels the result district-wide market validation.",
+          "activity": "Write two neutral prompts, a bounded findings statement and a next decision. Include contrary evidence and a limit on representation.",
+          "feedback": "Report six of ten supplied records, preserve the barriers and price gaps, and avoid a population claim. A revised offer or further authorised enquiry may be appropriate.",
+          "sources": [
+            "S61",
+            "S64",
+            "R73",
+            "S62"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-079",
+        "course_slug": "community-market-research-and-value-propositions",
+        "title": "Community Market Research and Value Propositions",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "5218d2150fa5f706b68e0a285f342ec4b4bd4d421b70a798eb5e0958009a94bf",
+        "catalogue_sha256": "3d4a0e9d541580f808e3b9c761cfd54070fa59b60b93b8006aaabc1ddabf0d02",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Define a market question and examine evidence",
+            "outcome": "Distinguish a social need, an expressed preference and evidence of a feasible exchange.",
+            "teaching_points": [
+              {
+                "id": "SWP-079-M1-T1",
+                "text": "Need and paying demand are distinct."
+              },
+              {
+                "id": "SWP-079-M1-T2",
+                "text": "Interest is not a confirmed transaction."
+              },
+              {
+                "id": "SWP-079-M1-T3",
+                "text": "Evidence scope and selection matter."
+              },
+              {
+                "id": "SWP-079-M1-T4",
+                "text": "Payer demand and mission access need separate checks."
+              },
+              {
+                "id": "SWP-079-M1-T5",
+                "text": "A useful enquiry can challenge the preferred assumption."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Compare alternatives and create a credible offer",
+            "outcome": "Explain a value proposition with a specific user task, benefit and delivery condition.",
+            "teaching_points": [
+              {
+                "id": "SWP-079-M2-T1",
+                "text": "An offer should specify a task and bounded benefit."
+              },
+              {
+                "id": "SWP-079-M2-T2",
+                "text": "Alternatives can meet the same need differently."
+              },
+              {
+                "id": "SWP-079-M2-T3",
+                "text": "A payer contract may create a mission tension."
+              },
+              {
+                "id": "SWP-079-M2-T4",
+                "text": "Subsidy promises need a resource basis."
+              },
+              {
+                "id": "SWP-079-M2-T5",
+                "text": "User and payer offers may need different explanations."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Design a proportionate fictional enquiry",
+            "outcome": "Plan an ethical simulated enquiry and interpret findings within its limits.",
+            "teaching_points": [
+              {
+                "id": "SWP-079-M3-T1",
+                "text": "Enquiry questions should avoid leading the answer."
+              },
+              {
+                "id": "SWP-079-M3-T2",
+                "text": "Simulated records remain simulated evidence."
+              },
+              {
+                "id": "SWP-079-M3-T3",
+                "text": "A denominator does not remove selection limits."
+              },
+              {
+                "id": "SWP-079-M3-T4",
+                "text": "Formal measurement is not automatic validity."
+              },
+              {
+                "id": "SWP-079-M3-T5",
+                "text": "Findings should inform a bounded next action."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-079-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-079-M1-T1",
+            "question": "A fictional district has a repair-access problem. What does that alone not prove?",
+            "options": [
+              {
+                "text": "A reason to examine the problem.",
+                "correct": false
+              },
+              {
+                "text": "A possible purpose for an enquiry.",
+                "correct": false
+              },
+              {
+                "text": "Purchases at the proposed price and terms.",
+                "correct": true
+              },
+              {
+                "text": "A need to understand access conditions.",
+                "correct": false
+              }
+            ],
+            "rationale": "A social concern is not evidence of a particular feasible exchange."
+          },
+          {
+            "id": "SWP-079-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-079-M1-T2",
+            "question": "Ten invented favourable comments establish what directly?",
+            "options": [
+              {
+                "text": "Guaranteed district-wide sales.",
+                "correct": false
+              },
+              {
+                "text": "Confirmed monthly repeat orders.",
+                "correct": false
+              },
+              {
+                "text": "Universal willingness and ability to pay.",
+                "correct": false
+              },
+              {
+                "text": "Expressed views in the supplied selected group.",
+                "correct": true
+              }
+            ],
+            "rationale": "The record supports a bounded statement about comments, not purchases."
+          },
+          {
+            "id": "SWP-079-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-079-M1-T3",
+            "question": "What should accompany the fictional comments summary?",
+            "options": [
+              {
+                "text": "How the group was selected and which perspectives may be missing.",
+                "correct": true
+              },
+              {
+                "text": "A claim of representativeness without evidence.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of inconvenient comments.",
+                "correct": false
+              },
+              {
+                "text": "A requirement to collect real personal stories.",
+                "correct": false
+              }
+            ],
+            "rationale": "Selection limits affect what a summary can support."
+          },
+          {
+            "id": "SWP-079-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-079-M1-T4",
+            "question": "An organisation wants to buy the invented service. What remains a mission question?",
+            "options": [
+              {
+                "text": "That a payer automatically guarantees inclusion.",
+                "correct": false
+              },
+              {
+                "text": "Whether intended users can obtain a useful accessible service.",
+                "correct": true
+              },
+              {
+                "text": "That revenue proves every social outcome.",
+                "correct": false
+              },
+              {
+                "text": "That beneficiary preferences no longer matter.",
+                "correct": false
+              }
+            ],
+            "rationale": "A purchase arrangement and access for intended users are different issues."
+          },
+          {
+            "id": "SWP-079-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-079-M1-T5",
+            "question": "Which next question improves the fictional sales note?",
+            "options": [
+              {
+                "text": "How can uncertainty be hidden?",
+                "correct": false
+              },
+              {
+                "text": "Which slogan guarantees demand?",
+                "correct": false
+              },
+              {
+                "text": "What supplied evidence would show that price or timing prevents uptake?",
+                "correct": true
+              },
+              {
+                "text": "How can comments be counted as completed orders?",
+                "correct": false
+              }
+            ],
+            "rationale": "A disconfirming question supports disciplined learning."
+          },
+          {
+            "id": "SWP-079-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-079-M2-T1",
+            "question": "Which fictional value proposition is most credible?",
+            "options": [
+              {
+                "text": "Free instant service for everyone regardless of resources.",
+                "correct": false
+              },
+              {
+                "text": "Guaranteed life transformation.",
+                "correct": false
+              },
+              {
+                "text": "No conditions because the mission is social.",
+                "correct": false
+              },
+              {
+                "text": "A defined collection service subject to verified timing and capacity.",
+                "correct": true
+              }
+            ],
+            "rationale": "A specific offer links benefit to a deliverable arrangement."
+          },
+          {
+            "id": "SWP-079-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-079-M2-T2",
+            "question": "Which belongs in the fictional comparison?",
+            "options": [
+              {
+                "text": "Another repair route and the option of postponing repair.",
+                "correct": true
+              },
+              {
+                "text": "Only enterprises with an identical name.",
+                "correct": false
+              },
+              {
+                "text": "No alternatives because the venture has a mission.",
+                "correct": false
+              },
+              {
+                "text": "An invented competitor accusation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Users compare ways of meeting a need, not only identical organisations."
+          },
+          {
+            "id": "SWP-079-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-079-M2-T3",
+            "question": "The invented buyer restricts access away from the intended group. What is needed?",
+            "options": [
+              {
+                "text": "Silent removal of the original promise.",
+                "correct": false
+              },
+              {
+                "text": "An explicit mission and authority review of the proposed term.",
+                "correct": true
+              },
+              {
+                "text": "Assumption that more revenue proves more inclusion.",
+                "correct": false
+              },
+              {
+                "text": "A learner signing the real contract.",
+                "correct": false
+              }
+            ],
+            "rationale": "The condition can change whom the service reaches."
+          },
+          {
+            "id": "SWP-079-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-079-M2-T4",
+            "question": "What must support a fictional free-access promise?",
+            "options": [
+              {
+                "text": "A belief that goodwill pays every cost.",
+                "correct": false
+              },
+              {
+                "text": "Counting the same revenue twice.",
+                "correct": false
+              },
+              {
+                "text": "A specified feasible funding arrangement and its limits.",
+                "correct": true
+              },
+              {
+                "text": "No explanation of payment timing.",
+                "correct": false
+              }
+            ],
+            "rationale": "A price promise depends on resources and delivery conditions."
+          },
+          {
+            "id": "SWP-079-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-079-M2-T5",
+            "question": "Why write two fictional offer statements?",
+            "options": [
+              {
+                "text": "They must always be entirely unrelated.",
+                "correct": false
+              },
+              {
+                "text": "The beneficiary can be ignored.",
+                "correct": false
+              },
+              {
+                "text": "Different statements allow misleading promises.",
+                "correct": false
+              },
+              {
+                "text": "Their decisions and relevant benefits may differ.",
+                "correct": true
+              }
+            ],
+            "rationale": "Distinct roles need coherent and truthful explanations."
+          },
+          {
+            "id": "SWP-079-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-079-M3-T1",
+            "question": "Which prompt is neutral for the fictional offer?",
+            "options": [
+              {
+                "text": "Which condition might prevent use of this collection route?",
+                "correct": true
+              },
+              {
+                "text": "Why does everyone love our perfect service?",
+                "correct": false
+              },
+              {
+                "text": "How much success should we announce?",
+                "correct": false
+              },
+              {
+                "text": "Why are all alternatives inferior?",
+                "correct": false
+              }
+            ],
+            "rationale": "A neutral prompt permits disagreement and uncertainty."
+          },
+          {
+            "id": "SWP-079-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-079-M3-T2",
+            "question": "What should the learner do with the invented response cards?",
+            "options": [
+              {
+                "text": "Publish them as actual customer testimony.",
+                "correct": false
+              },
+              {
+                "text": "Use them to practise reasoning without creating real customer leads.",
+                "correct": true
+              },
+              {
+                "text": "Solicit real funds based on them.",
+                "correct": false
+              },
+              {
+                "text": "Call them a representative field survey.",
+                "correct": false
+              }
+            ],
+            "rationale": "The educational records are fictional and cannot establish real demand."
+          },
+          {
+            "id": "SWP-079-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-079-M3-T3",
+            "question": "Six of ten invented cards prefer a route. Which statement is justified?",
+            "options": [
+              {
+                "text": "Sixty percent of the district will buy.",
+                "correct": false
+              },
+              {
+                "text": "Every intended user was represented.",
+                "correct": false
+              },
+              {
+                "text": "Six of the ten supplied records express that preference.",
+                "correct": true
+              },
+              {
+                "text": "The result proves commercial viability.",
+                "correct": false
+              }
+            ],
+            "rationale": "The denominator describes the supplied set, not an unsupported population."
+          },
+          {
+            "id": "SWP-079-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-079-M3-T4",
+            "question": "What does a polished fictional dashboard fail to fix?",
+            "options": [
+              {
+                "text": "The need for a clear question.",
+                "correct": false
+              },
+              {
+                "text": "The importance of contrary evidence.",
+                "correct": false
+              },
+              {
+                "text": "The value of stating uncertainty.",
+                "correct": false
+              },
+              {
+                "text": "Biased or incomplete underlying records.",
+                "correct": true
+              }
+            ],
+            "rationale": "Presentation quality does not establish the quality of input evidence."
+          },
+          {
+            "id": "SWP-079-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-079-M3-T5",
+            "question": "Which conclusion fits the fictional timing and price gaps?",
+            "options": [
+              {
+                "text": "Revise the offer and specify what needs authorised verification.",
+                "correct": true
+              },
+              {
+                "text": "Launch immediately because a majority preferred it.",
+                "correct": false
+              },
+              {
+                "text": "Delete dissenting cards.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee repeat sales.",
+                "correct": false
+              }
+            ],
+            "rationale": "A proportionate decision addresses the actual unresolved conditions."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-080",
+      "title": "Business Models Costing and Cash Flow",
+      "slug": "business-models-costing-and-cash-flow",
+      "cover_title": "Business Models\nCosting and\nCash Flow",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Calculate elementary costs, contribution and cash movements for a fictional enterprise, stating assumptions and limits without providing investment or tax advice.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Separate costs revenue and contribution",
+          "outcome": "Calculate an elementary unit contribution and explain what it does not cover.",
+          "paragraphs": [
+            "A financial model describes assumptions about how an enterprise earns and uses resources. Start by identifying the period, unit of service and costs included. Fixed costs remain unchanged within the stated operating range, while variable costs change with the number of units delivered. The distinction depends on the case assumptions; real costs can be mixed or change in steps. General business guidance supports separating startup and recurring costs. This exercise uses invented units of money and does not apply Nigerian tax, employment or accounting rules, which require separate qualified verification. [S61]",
+            "Suppose the invented repair service charges 50 units for each completed job and incurs 30 units of variable cost per job. Its contribution is 20 units per job before fixed costs. At ten jobs, revenue is 500, variable cost is 300 and total contribution is 200. Contribution is not the same as net profit, available cash or social benefit. If fixed operating costs for the period are 120, the simplified surplus is 80, before any omitted items. Show the arithmetic and assumptions instead of attaching an unexplained profitability label to the sales total. [S61]",
+            "A mission-related activity still needs resources. If supported learning takes staff time or accessible collection requires transport, record its expected cost rather than treating it as a charitable extra that can never affect viability. A sector scoping review describes the coexistence of income and purpose in varied enterprises, but does not establish a universal cost structure. Use that context to ask whether the fictional model funds the service it promises. Do not infer that one study supplies the price, margin or staffing standard for a new local venture. [R72]",
+            "Prepare a short cost note identifying included items, omissions and the operating range. Record where an estimate came from in the supplied case and what would need checking before a real decision. A positive simplified surplus can coexist with unpaid obligations, delayed receipts or an unaffordable offer. Foundation enterprise learning requires recognising those boundaries as well as performing arithmetic. The learner should explain the calculation in ordinary language, identify at least one sensitivity and avoid presenting a classroom estimate as audited accounts, a financing recommendation or proof of an enterprise's future success. [S62]"
+          ],
+          "example": "Fictional case: An invented service charges 50 per job, has variable costs of 30 and period fixed costs of 120. Ten jobs are completed. A draft calls the 500 revenue profit and ignores supported-learning costs.",
+          "activity": "Calculate revenue, variable cost, contribution and simplified surplus. State an omission and explain why cash and social benefit remain separate questions.",
+          "feedback": "Revenue 500 less variable cost 300 gives contribution 200; less fixed costs 120 gives a simplified surplus of 80 before omissions. Revenue is not profit or cash.",
+          "sources": [
+            "S61",
+            "R72",
+            "S62"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Distinguish cash timing from apparent profit",
+          "outcome": "Calculate a simple closing cash balance and identify an operating shortfall.",
+          "paragraphs": [
+            "Cash flow records when money is actually received and paid, rather than merely when a sale is described. An enterprise can show an expected surplus but lack cash when a bill falls due. Record the opening balance, receipts expected within the period and payments due within the same period. General planning guidance includes cash projections, but a forecast remains an assumption. For this invented case, keep promised receipts separate from money available now, and do not assume a late-paying customer has already financed the work that must be completed first. [S61]",
+            "Suppose opening cash is 100 units, confirmed receipts in the period are 80 and payments due are 230. Closing cash is 100 plus 80 minus 230, giving a shortfall of 50. An invoice expected next period cannot be added to this period merely to remove the gap. The shortfall identifies a timing problem that needs a bounded response, such as checking a staged delivery or a different payment schedule in the fictional proposal. It does not authorise the learner to borrow, delay lawful wages or obtain personal funds from classmates. [S61]",
+            "Distinguish financing from trading income. A loan creates an obligation, while an equity contribution may affect ownership and a restricted grant may have conditions. The measurement-adoption study reports associations between financing and organisational practices in one observational setting. Those associations do not establish which funding source a particular venture should choose or what return it will earn. In this course, compare the invented terms and their implications for cash, control and mission. Real credit, investment and legal decisions require qualified advice and verified authority beyond a classroom model. [R73]",
+            "Build a short dated cash schedule and explain which assumptions would make the position better or worse. Include a delayed-receipt scenario and keep a record of unpaid commitments so the schedule does not create a false impression of available resources. State the action owner and the condition that must be resolved before a proposed activity proceeds. A credible learning output can recommend pausing an invented launch when timing is unresolved. It should not conceal a gap inside optimistic sales, describe borrowed money as profit or promise that financial confidence replaces evidence of actual receipts. [S62]"
+          ],
+          "example": "Fictional case: An invented venture opens with 100, receives 80 and owes 230 this period. A 200-unit invoice falls due next period. The team reports 150 closing cash by counting the future invoice early.",
+          "activity": "Calculate the correct period balance, distinguish the future invoice and propose two bounded ways to examine the timing gap without taking real financial action.",
+          "feedback": "The current period has a 50-unit shortfall. The future invoice belongs to its expected receipt period; examine timing or scale before any authorised real commitment.",
+          "sources": [
+            "S61",
+            "R73",
+            "S62"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Use break-even and sensitivity honestly",
+          "outcome": "Calculate a simplified break-even point and examine changes in assumptions.",
+          "paragraphs": [
+            "A break-even calculation asks how many units cover the supplied fixed and variable costs under a particular set of assumptions. With a positive contribution, divide period fixed costs by contribution per unit. The result is a simplified operating threshold, not a prediction that customers will buy that quantity. General planning guidance uses this calculation to examine feasibility. State the unit, period and costs included, and explain that capacity, quality, access and cash timing can still make a plan unworkable even when the arithmetic produces a neat number. [S61]",
+            "For the invented repair service, fixed costs of 120 and contribution of 20 imply six jobs to break even in the period. If variable cost rises from 30 to 35 while price remains 50, contribution falls to 15 and break-even rises to eight jobs. If price is no higher than variable cost, each extra job fails to provide a positive contribution toward fixed costs; the simple positive-contribution formula no longer gives a feasible threshold. These examples use invented money units and omit tax and financing details. Show each change rather than hiding it inside a single optimistic scenario. [S61]",
+            "Compare the threshold with a realistic supplied capacity and a bounded demand assumption. A case that can safely deliver five jobs cannot satisfy an eight-job threshold merely by changing the spreadsheet. Raising price may exclude intended users, while cutting support time may weaken the mission. Sector research describes contextual arrangements rather than a guaranteed formula for balancing those pressures. Record which trade-off the fictional team would need to examine and whose perspective is missing. Do not assume that financial break-even automatically establishes fairness, decent work or a positive social outcome. [R72]",
+            "Finish with a small scenario table in words or numbers: base assumptions, one adverse change and a condition for reconsideration. Separate the calculated threshold from the observation needed to assess demand, and check the cash schedule independently. Proportionate impact guidance supports keeping the purpose visible when using evidence for decisions. The learner recommendation should explain whether the invented plan needs a changed design, more information or a pause. It must not promise returns, advise a personal investment or label a classroom break-even calculation as a complete business valuation. [S64]"
+          ],
+          "example": "Fictional case: An invented service has fixed costs 120, price 50 and variable cost 30. Variable cost may rise to 35, while safe capacity is five jobs per period. The team claims six jobs guarantees both profit and social impact.",
+          "activity": "Calculate both thresholds, compare them with capacity and explain one mission trade-off and one cash question that remain.",
+          "feedback": "Break-even is six jobs in the base case and eight after the cost rise; both exceed the supplied five-job capacity. Neither threshold proves demand, cash sufficiency or impact.",
+          "sources": [
+            "S61",
+            "R72",
+            "S64"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-080",
+        "course_slug": "business-models-costing-and-cash-flow",
+        "title": "Business Models Costing and Cash Flow",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "4b759571fc49d865b390c563462217c8f52108a084a493df5abba574f52a1f84",
+        "catalogue_sha256": "2e83817278ad7c7a5e5852585db7c242b55cc351576fd06e1b64603fbbfb672a",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Separate costs revenue and contribution",
+            "outcome": "Calculate an elementary unit contribution and explain what it does not cover.",
+            "teaching_points": [
+              {
+                "id": "SWP-080-M1-T1",
+                "text": "A cost model needs a period and unit."
+              },
+              {
+                "id": "SWP-080-M1-T2",
+                "text": "Unit contribution excludes fixed costs."
+              },
+              {
+                "id": "SWP-080-M1-T3",
+                "text": "Revenue is not simplified surplus."
+              },
+              {
+                "id": "SWP-080-M1-T4",
+                "text": "Mission costs belong in feasibility."
+              },
+              {
+                "id": "SWP-080-M1-T5",
+                "text": "Elementary calculations do not confer professional assurance."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Distinguish cash timing from apparent profit",
+            "outcome": "Calculate a simple closing cash balance and identify an operating shortfall.",
+            "teaching_points": [
+              {
+                "id": "SWP-080-M2-T1",
+                "text": "Cash flow concerns receipt and payment timing."
+              },
+              {
+                "id": "SWP-080-M2-T2",
+                "text": "A future receipt cannot remove a present gap automatically."
+              },
+              {
+                "id": "SWP-080-M2-T3",
+                "text": "Borrowing is not trading profit."
+              },
+              {
+                "id": "SWP-080-M2-T4",
+                "text": "Observed financing associations are not personal recommendations."
+              },
+              {
+                "id": "SWP-080-M2-T5",
+                "text": "An unresolved shortfall can justify a pause."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Use break-even and sensitivity honestly",
+            "outcome": "Calculate a simplified break-even point and examine changes in assumptions.",
+            "teaching_points": [
+              {
+                "id": "SWP-080-M3-T1",
+                "text": "Break-even is conditional arithmetic rather than a sales forecast."
+              },
+              {
+                "id": "SWP-080-M3-T2",
+                "text": "Higher variable cost lowers contribution."
+              },
+              {
+                "id": "SWP-080-M3-T3",
+                "text": "Non-positive contribution changes the feasibility question."
+              },
+              {
+                "id": "SWP-080-M3-T4",
+                "text": "Capacity is separate from a calculated threshold."
+              },
+              {
+                "id": "SWP-080-M3-T5",
+                "text": "Financial viability and mission outcomes need distinct evidence."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-080-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-080-M1-T1",
+            "question": "What should the fictional repair calculation define first?",
+            "options": [
+              {
+                "text": "A guaranteed future profit.",
+                "correct": false
+              },
+              {
+                "text": "An assumed tax exemption.",
+                "correct": false
+              },
+              {
+                "text": "The period, service unit and included costs.",
+                "correct": true
+              },
+              {
+                "text": "Only the venture name.",
+                "correct": false
+              }
+            ],
+            "rationale": "Scope and units make the arithmetic interpretable."
+          },
+          {
+            "id": "SWP-080-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-080-M1-T2",
+            "question": "Price is 50 and variable cost is 30 per invented job. What is contribution per job?",
+            "options": [
+              {
+                "text": "50 units of net profit.",
+                "correct": false
+              },
+              {
+                "text": "30 units of cash automatically received.",
+                "correct": false
+              },
+              {
+                "text": "80 units per job.",
+                "correct": false
+              },
+              {
+                "text": "20 units before fixed costs.",
+                "correct": true
+              }
+            ],
+            "rationale": "Subtract variable cost from price; fixed costs remain to be covered."
+          },
+          {
+            "id": "SWP-080-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-080-M1-T3",
+            "question": "Ten invented jobs yield revenue 500, variable cost 300 and fixed costs 120. What is the simplified surplus?",
+            "options": [
+              {
+                "text": "80 units before omitted items.",
+                "correct": true
+              },
+              {
+                "text": "500 units.",
+                "correct": false
+              },
+              {
+                "text": "200 units after all possible costs.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed cash balance of 80.",
+                "correct": false
+              }
+            ],
+            "rationale": "Subtract the supplied costs while keeping omissions and cash timing explicit."
+          },
+          {
+            "id": "SWP-080-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-080-M1-T4",
+            "question": "An invented supported-learning activity uses staff time. How should it be treated?",
+            "options": [
+              {
+                "text": "Assume it is always free.",
+                "correct": false
+              },
+              {
+                "text": "Include or explicitly estimate its resource cost.",
+                "correct": true
+              },
+              {
+                "text": "Hide it to improve the margin.",
+                "correct": false
+              },
+              {
+                "text": "Count it only after promising expansion.",
+                "correct": false
+              }
+            ],
+            "rationale": "A mission promise must be supported by operating resources."
+          },
+          {
+            "id": "SWP-080-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-080-M1-T5",
+            "question": "How should the fictional cost note describe its result?",
+            "options": [
+              {
+                "text": "Audited accounts.",
+                "correct": false
+              },
+              {
+                "text": "Personal investment advice.",
+                "correct": false
+              },
+              {
+                "text": "An assumption-based classroom calculation with stated omissions.",
+                "correct": true
+              },
+              {
+                "text": "Proof of future enterprise success.",
+                "correct": false
+              }
+            ],
+            "rationale": "The exercise teaches reasoning without professional or predictive assurance."
+          },
+          {
+            "id": "SWP-080-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-080-M2-T1",
+            "question": "Which belongs in the fictional current-period receipts?",
+            "options": [
+              {
+                "text": "Every invoice regardless of due date.",
+                "correct": false
+              },
+              {
+                "text": "An unapproved loan treated as received.",
+                "correct": false
+              },
+              {
+                "text": "An optimistic annual sales total.",
+                "correct": false
+              },
+              {
+                "text": "Money expected to arrive within that period under the stated assumptions.",
+                "correct": true
+              }
+            ],
+            "rationale": "The schedule must match cash movements to the chosen period."
+          },
+          {
+            "id": "SWP-080-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-080-M2-T2",
+            "question": "Opening cash 100 plus receipts 80 less payments 230 gives what balance?",
+            "options": [
+              {
+                "text": "A shortfall of 50 units.",
+                "correct": true
+              },
+              {
+                "text": "A surplus of 150 by adding next period's invoice.",
+                "correct": false
+              },
+              {
+                "text": "A profit of 230.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed zero balance.",
+                "correct": false
+              }
+            ],
+            "rationale": "The supplied current-period arithmetic is 100 + 80 - 230."
+          },
+          {
+            "id": "SWP-080-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-080-M2-T3",
+            "question": "What does a fictional loan receipt also create?",
+            "options": [
+              {
+                "text": "Guaranteed net profit.",
+                "correct": false
+              },
+              {
+                "text": "A repayment obligation under its terms.",
+                "correct": true
+              },
+              {
+                "text": "No future cash implications.",
+                "correct": false
+              },
+              {
+                "text": "An automatic mission benefit.",
+                "correct": false
+              }
+            ],
+            "rationale": "Financing inflow and earned surplus are different categories."
+          },
+          {
+            "id": "SWP-080-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-080-M2-T4",
+            "question": "How should the Slovenian measurement study inform a finance discussion?",
+            "options": [
+              {
+                "text": "As proof that all enterprises should choose one source.",
+                "correct": false
+              },
+              {
+                "text": "As an investment return guarantee.",
+                "correct": false
+              },
+              {
+                "text": "As contextual observational evidence with limits, not a funding prescription.",
+                "correct": true
+              },
+              {
+                "text": "As a Nigerian lending rule.",
+                "correct": false
+              }
+            ],
+            "rationale": "Its design and outcome do not establish a universally best financing decision."
+          },
+          {
+            "id": "SWP-080-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-080-M2-T5",
+            "question": "Which fictional launch decision is proportionate?",
+            "options": [
+              {
+                "text": "Borrow real money through coursework.",
+                "correct": false
+              },
+              {
+                "text": "Conceal unpaid commitments.",
+                "correct": false
+              },
+              {
+                "text": "Count unreceived money as cash.",
+                "correct": false
+              },
+              {
+                "text": "Pause or modify the plan pending an authorised solution to timing.",
+                "correct": true
+              }
+            ],
+            "rationale": "A bounded response recognises the gap without unauthorised financial action."
+          },
+          {
+            "id": "SWP-080-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-080-M3-T1",
+            "question": "What does the fictional six-job threshold mean?",
+            "options": [
+              {
+                "text": "Six jobs cover supplied costs under the base assumptions.",
+                "correct": true
+              },
+              {
+                "text": "Six customers are guaranteed to buy.",
+                "correct": false
+              },
+              {
+                "text": "Cash timing can be ignored.",
+                "correct": false
+              },
+              {
+                "text": "Every social outcome is achieved.",
+                "correct": false
+              }
+            ],
+            "rationale": "The threshold depends on assumptions and does not demonstrate demand."
+          },
+          {
+            "id": "SWP-080-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-080-M3-T2",
+            "question": "Variable cost rises to 35 with price 50 and fixed costs 120. What is the new threshold?",
+            "options": [
+              {
+                "text": "Six jobs unchanged.",
+                "correct": false
+              },
+              {
+                "text": "Eight jobs.",
+                "correct": true
+              },
+              {
+                "text": "Three jobs.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed profit at every volume.",
+                "correct": false
+              }
+            ],
+            "rationale": "Contribution is 15, and 120 divided by 15 is eight."
+          },
+          {
+            "id": "SWP-080-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-080-M3-T3",
+            "question": "What if the invented price is no higher than variable cost?",
+            "options": [
+              {
+                "text": "The usual formula guarantees an attainable threshold.",
+                "correct": false
+              },
+              {
+                "text": "Every sale necessarily increases surplus.",
+                "correct": false
+              },
+              {
+                "text": "Additional jobs do not provide positive contribution toward fixed costs.",
+                "correct": true
+              },
+              {
+                "text": "Fixed costs cease to exist.",
+                "correct": false
+              }
+            ],
+            "rationale": "A positive-contribution threshold cannot be assumed in that case."
+          },
+          {
+            "id": "SWP-080-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-080-M3-T4",
+            "question": "Safe fictional capacity is five jobs while break-even is eight. What follows?",
+            "options": [
+              {
+                "text": "Change the reported capacity without evidence.",
+                "correct": false
+              },
+              {
+                "text": "Guarantee success from the calculation.",
+                "correct": false
+              },
+              {
+                "text": "Ignore service quality.",
+                "correct": false
+              },
+              {
+                "text": "The supplied operating design cannot meet that threshold as stated.",
+                "correct": true
+              }
+            ],
+            "rationale": "A spreadsheet threshold does not create operating capacity."
+          },
+          {
+            "id": "SWP-080-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-080-M3-T5",
+            "question": "What remains after the invented venture reaches break-even?",
+            "options": [
+              {
+                "text": "Questions about access, cash, work conditions and social outcomes.",
+                "correct": true
+              },
+              {
+                "text": "Automatic proof of equitable impact.",
+                "correct": false
+              },
+              {
+                "text": "No further mission review.",
+                "correct": false
+              },
+              {
+                "text": "A complete business valuation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Covering supplied costs does not settle the venture's wider purpose."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-081",
+      "title": "Social Finance Cooperative Models and Inclusion",
+      "slug": "social-finance-cooperative-models-and-inclusion",
+      "cover_title": "Social Finance\nCooperative Models\nand Inclusion",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Compare fictional finance and member-governance arrangements for obligations, control, access and mission, without soliciting funds or advising investments.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Compare finance terms and mission implications",
+          "outcome": "Distinguish trading receipts, grants, debt and ownership contributions in an invented proposal.",
+          "paragraphs": [
+            "Finance provides resources with different obligations and decision consequences. A trading receipt pays for an agreed offer; a grant may restrict use; debt normally creates repayment duties; an ownership contribution can affect control and expectations. These broad distinctions help read the invented term sheets, but they are not a description of every legal arrangement. General enterprise planning asks a team to connect funding needs to a coherent operating plan. Record the purpose, amount, timing, conditions and responsible decision role before treating a resource as available to support the mission. [S61]",
+            "Read conditions as part of the proposal rather than a footnote. An invented grant might fund equipment but not recurring support, while a loan repayment may fall due before customers pay. An investor might seek a change in the intended market. Explain what each condition would mean for service access, cash and authority. Do not compare sources solely by the amount offered or assume a generous label means no obligations. Real agreements need qualified legal and financial review; coursework does not authorise borrowing, an investment recommendation or a request for funds from classmates. [S61]",
+            "Research about financing can inform a question without selecting a source for an individual venture. A Slovenian observational study links organisational characteristics and financing to the adoption of impact measurement. Its outcome is a reporting practice, not measured beneficiary benefit or a return on investment. Therefore it cannot show that debt is always harmful or that a grant guarantees a mission outcome. In the fictional comparison, use the actual supplied terms and identify what remains uncertain. An association in a contextual sample does not replace analysis of repayment, control, restrictions and implementation. [R73]",
+            "Write a finance comparison using common headings and a conditional conclusion. Identify which commitments must be met, which costs remain unfunded and which role can approve any real arrangement. A partnership can bring resources while adding dependence or competing demands, as qualitative evidence illustrates in a limited setting. State a concern that would require modification or a pause, and retain a record of assumptions. The learner output should improve scrutiny of a fictional proposal, rather than promote a financial product or promise that social purpose makes money risk-free. [R74]"
+          ],
+          "example": "Fictional case: An invented venture receives an equipment-only grant offer and a loan with payments due before customer receipts. Its preferred investor also wants to remove the supported-work objective. The draft ranks offers only by headline amount.",
+          "activity": "Compare all three offers under purpose, timing, obligations, control and mission. Identify a condition requiring qualified review and one unfunded operating need.",
+          "feedback": "More money does not automatically mean a better fit. Restrictions, repayment timing, authority and mission consequences must remain visible.",
+          "sources": [
+            "S61",
+            "R73",
+            "R74"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Examine member ownership and accountability",
+          "outcome": "Explain how a fictional cooperative proposal could protect meaningful member control.",
+          "paragraphs": [
+            "A cooperative identity concerns voluntary association, shared ownership and democratic control, rather than merely a community-oriented brand. The ICA statement provides a comparator for examining membership and decisions. In the invented venture, ask who can join, what membership entails, how representatives are held accountable and how members understand financial information. Do not infer a registered legal form from the name. A discussion about cooperative values is distinct from verifying Nigerian registration, tax, employment or regulated financial-service requirements, which the course does not determine or replace. [S63]",
+            "Separate the roles of member, elected representative and paid manager. Each may have different responsibilities, and a functioning arrangement needs a clear way to explain decisions and address conflicts. A member vote is difficult to interpret if the relevant terms were inaccessible or alternatives were hidden. Describe an understandable fictional decision note showing the issue, options, proposed consequence and route for questions. Do not assume attendance means informed agreement, or that a majority preference removes the need to consider people affected by an exclusionary arrangement. These questions help examine governance quality within the supplied case. [S63]",
+            "External resources can create a tension with member autonomy. If an invented funder claims the right to replace elected decision makers or redirect the service, examine that term instead of assuming capital and control can never conflict. Qualitative partnership research suggests useful questions about competing institutional goals, while remaining contextual and non-causal. Identify which decision belongs to members, which requires qualified review and what commitment would be inconsistent with the stated identity. The learner should not draft real bylaws or claim that a classroom vote binds a registered body. [R74]",
+            "Prepare an original accountability note with decision owner, information required, explanation route and review point. Include a way for a relevant minority concern to remain visible after a decision. Record whether the supplied case demonstrates the arrangement operating or only proposes it. A cooperative label cannot guarantee fairness, profitability or protection against loss. The educational task is to reason about meaningful participation and control using invented facts, while leaving real constitutional documents, registration and financial obligations to appropriately qualified and authorised processes. [S63]"
+          ],
+          "example": "Fictional case: An invented cooperative holds a vote on unreadable terms. A funder may replace the elected group, and minority concerns about access disappear from the minutes. The team treats attendance as informed approval.",
+          "activity": "Separate member, representative and manager roles. Propose four corrections to the decision information and accountability record without drafting legal bylaws.",
+          "feedback": "Usable information and actual member control matter. Record concerns and scrutinise the external-control term; a meeting count does not establish informed agreement.",
+          "sources": [
+            "S63",
+            "R74"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Assess inclusion and financial-service boundaries",
+          "outcome": "Identify who may be excluded by a fictional arrangement and recognise regulated-service limits.",
+          "paragraphs": [
+            "Inclusion asks who can use an arrangement on workable terms, not merely who is named as eligible. In the invented member enterprise, a joining payment, meeting time, inaccessible information or irregular income may create practical barriers. Describe the task and supplied circumstance rather than stereotype a group. Cooperative values offer a reason to examine participation and benefit alongside member responsibilities. An accessible option still needs resources and a functioning response; lowering a fee without funding the service could create another barrier later. State the trade-off rather than promise that one change solves every exclusion. [S63]",
+            "Financial inclusion should not be equated with taking on more debt. A person may need understandable terms, a reliable payment route or protection from an unsuitable obligation. This course uses fictional transactions and does not recommend a product or determine suitability. General planning questions can identify a repayment dependency or an unfunded service cost, while actual decisions require qualified advice. Do not invite learners to pool real savings, lend to classmates or collect deposits for an imagined cooperative. A social mission and a course certificate do not provide authority to offer regulated financial services. [S61]",
+            "Compare an access adjustment against the stated mission and available resources. An invented instalment option could lower an entry barrier but change cash timing; a supported information session could help understanding but require staffing. Record who decides, what the option costs and how an affected perspective would be heard without personal disclosure. Impact guidance encourages stakeholder relevance and proportionate evidence. Use a small invented access record to examine the option, while acknowledging the people missing from the record and the limits on what the exercise can tell us about actual outcomes. [S64]",
+            "Conclude with an inclusion review and a boundary check. Identify the barrier, a feasible conditional response, a responsible role and an observation for reconsideration. Contextual partnership evidence reminds us that outside support can add obligations as well as capacity. Ask whether the invented partner changes who controls the offer or who bears its cost. The final note should preserve mission, practical feasibility and authority limits together. It must not guarantee investment protection, authorise deposit-taking or treat an attendance list, a loan count or a member label as proof of equitable benefit. [R74]"
+          ],
+          "example": "Fictional case: An invented membership payment excludes a low-cash-income route. The team proposes instalments without checking timing, then asks learners to collect real deposits to demonstrate financial inclusion.",
+          "activity": "Identify the barrier and an assumption behind instalments. Propose a fictional review measure and explain why collecting deposits is outside the course.",
+          "feedback": "Consider access and cash timing together using invented records. Real deposits, lending and financial-service permissions require separate verified authority and qualified processes.",
+          "sources": [
+            "S63",
+            "S61",
+            "S64",
+            "R74"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-081",
+        "course_slug": "social-finance-cooperative-models-and-inclusion",
+        "title": "Social Finance Cooperative Models and Inclusion",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "288a08eeb4aa6060eef7b52cf013676a6aab742de24a425bad45b83fd8dd238c",
+        "catalogue_sha256": "e8ba9400a11a31b8e9e44f41a31c445b999aec207e98dcd42dd8621571065991",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Compare finance terms and mission implications",
+            "outcome": "Distinguish trading receipts, grants, debt and ownership contributions in an invented proposal.",
+            "teaching_points": [
+              {
+                "id": "SWP-081-M1-T1",
+                "text": "Finance sources create different conditions."
+              },
+              {
+                "id": "SWP-081-M1-T2",
+                "text": "Restricted funds cannot be assumed available for every cost."
+              },
+              {
+                "id": "SWP-081-M1-T3",
+                "text": "Repayment timing matters independently of expected sales."
+              },
+              {
+                "id": "SWP-081-M1-T4",
+                "text": "Measurement adoption is not investment performance."
+              },
+              {
+                "id": "SWP-081-M1-T5",
+                "text": "Mission-changing terms need explicit scrutiny."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Examine member ownership and accountability",
+            "outcome": "Explain how a fictional cooperative proposal could protect meaningful member control.",
+            "teaching_points": [
+              {
+                "id": "SWP-081-M2-T1",
+                "text": "A name does not establish cooperative status."
+              },
+              {
+                "id": "SWP-081-M2-T2",
+                "text": "Governance roles should be distinguishable."
+              },
+              {
+                "id": "SWP-081-M2-T3",
+                "text": "Attendance is not informed agreement."
+              },
+              {
+                "id": "SWP-081-M2-T4",
+                "text": "External capital can affect autonomy."
+              },
+              {
+                "id": "SWP-081-M2-T5",
+                "text": "Minority concerns should remain accurately recorded."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Assess inclusion and financial-service boundaries",
+            "outcome": "Identify who may be excluded by a fictional arrangement and recognise regulated-service limits.",
+            "teaching_points": [
+              {
+                "id": "SWP-081-M3-T1",
+                "text": "Formal eligibility differs from practical access."
+              },
+              {
+                "id": "SWP-081-M3-T2",
+                "text": "More debt is not automatic financial inclusion."
+              },
+              {
+                "id": "SWP-081-M3-T3",
+                "text": "An access adjustment can affect cash timing."
+              },
+              {
+                "id": "SWP-081-M3-T4",
+                "text": "Coursework does not authorise regulated financial activity."
+              },
+              {
+                "id": "SWP-081-M3-T5",
+                "text": "Inclusion review needs an observation and boundary."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-081-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-081-M1-T1",
+            "question": "What must the fictional finance note record beyond amount?",
+            "options": [
+              {
+                "text": "Only the largest headline.",
+                "correct": false
+              },
+              {
+                "text": "A guaranteed return.",
+                "correct": false
+              },
+              {
+                "text": "Purpose, timing, obligations and control implications.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that social funding has no conditions.",
+                "correct": false
+              }
+            ],
+            "rationale": "The terms determine how resources can support the operating plan."
+          },
+          {
+            "id": "SWP-081-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-081-M1-T2",
+            "question": "An invented grant covers equipment only. What remains unresolved?",
+            "options": [
+              {
+                "text": "All future wages are automatically funded.",
+                "correct": false
+              },
+              {
+                "text": "The restriction may be ignored.",
+                "correct": false
+              },
+              {
+                "text": "Equipment pays every bill.",
+                "correct": false
+              },
+              {
+                "text": "Funding for recurring costs outside that restriction.",
+                "correct": true
+              }
+            ],
+            "rationale": "A restricted resource does not cover unspecified operating needs."
+          },
+          {
+            "id": "SWP-081-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-081-M1-T3",
+            "question": "A fictional loan payment precedes customer receipts. What should be examined?",
+            "options": [
+              {
+                "text": "The cash timing gap and a feasible authorised response.",
+                "correct": true
+              },
+              {
+                "text": "Future revenue counted as cash today.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that borrowing solves all gaps.",
+                "correct": false
+              },
+              {
+                "text": "No repayment schedule.",
+                "correct": false
+              }
+            ],
+            "rationale": "Expected income does not remove a present obligation."
+          },
+          {
+            "id": "SWP-081-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-081-M1-T4",
+            "question": "What does the Slovenian study not establish for this learner?",
+            "options": [
+              {
+                "text": "A contextual association about reporting adoption.",
+                "correct": false
+              },
+              {
+                "text": "Which financing source guarantees the best social and financial return.",
+                "correct": true
+              },
+              {
+                "text": "A reason to inspect methods and dates.",
+                "correct": false
+              },
+              {
+                "text": "The need for bounded interpretation.",
+                "correct": false
+              }
+            ],
+            "rationale": "The design and measured outcome cannot support a universal financing prescription."
+          },
+          {
+            "id": "SWP-081-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-081-M1-T5",
+            "question": "An invented investor wants to remove supported work. What should happen?",
+            "options": [
+              {
+                "text": "Accept silently because the amount is large.",
+                "correct": false
+              },
+              {
+                "text": "Erase the original mission record.",
+                "correct": false
+              },
+              {
+                "text": "Review the condition against mission and authorised decision arrangements.",
+                "correct": true
+              },
+              {
+                "text": "Let coursework approve a real investment.",
+                "correct": false
+              }
+            ],
+            "rationale": "The proposed condition changes the venture purpose and requires accountable review."
+          },
+          {
+            "id": "SWP-081-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-081-M2-T1",
+            "question": "What does calling the fictional venture a cooperative fail to demonstrate?",
+            "options": [
+              {
+                "text": "A stated identity to examine.",
+                "correct": false
+              },
+              {
+                "text": "A possible governance question.",
+                "correct": false
+              },
+              {
+                "text": "A reason to clarify membership.",
+                "correct": false
+              },
+              {
+                "text": "Registered status and functioning member control.",
+                "correct": true
+              }
+            ],
+            "rationale": "Labels do not establish legal or operating arrangements."
+          },
+          {
+            "id": "SWP-081-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-081-M2-T2",
+            "question": "Why separate members, representatives and managers in the invented note?",
+            "options": [
+              {
+                "text": "Their decision and accountability responsibilities may differ.",
+                "correct": true
+              },
+              {
+                "text": "They always have identical powers.",
+                "correct": false
+              },
+              {
+                "text": "Managers automatically own every member vote.",
+                "correct": false
+              },
+              {
+                "text": "Members need no information.",
+                "correct": false
+              }
+            ],
+            "rationale": "Clear roles help identify who decides and who explains."
+          },
+          {
+            "id": "SWP-081-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-081-M2-T3",
+            "question": "An invented vote uses unreadable terms. What is missing?",
+            "options": [
+              {
+                "text": "Proof that every attendee consented.",
+                "correct": false
+              },
+              {
+                "text": "Understandable information about options and consequences.",
+                "correct": true
+              },
+              {
+                "text": "A reason to erase questions.",
+                "correct": false
+              },
+              {
+                "text": "An automatic guarantee of fairness.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participation counts do not establish understanding."
+          },
+          {
+            "id": "SWP-081-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-081-M2-T4",
+            "question": "A fictional funder can replace elected decision makers. What needs scrutiny?",
+            "options": [
+              {
+                "text": "Only the publicity value of the offer.",
+                "correct": false
+              },
+              {
+                "text": "An assumption that all capital is neutral.",
+                "correct": false
+              },
+              {
+                "text": "Its compatibility with member control and authorised arrangements.",
+                "correct": true
+              },
+              {
+                "text": "A claim that qualified review is unnecessary.",
+                "correct": false
+              }
+            ],
+            "rationale": "A control term may change the cooperative identity in practice."
+          },
+          {
+            "id": "SWP-081-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-081-M2-T5",
+            "question": "What improves the fictional decision minutes?",
+            "options": [
+              {
+                "text": "Only the winning slogan.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of dissent as proof of unity.",
+                "correct": false
+              },
+              {
+                "text": "Private real-world member files.",
+                "correct": false
+              },
+              {
+                "text": "The decision, reasons and relevant unresolved access concerns.",
+                "correct": true
+              }
+            ],
+            "rationale": "An accountable record does not manufacture unanimous agreement."
+          },
+          {
+            "id": "SWP-081-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-081-M3-T1",
+            "question": "A fictional joining payment is unaffordable under the supplied circumstances. What is demonstrated?",
+            "options": [
+              {
+                "text": "A practical entry barrier to examine.",
+                "correct": true
+              },
+              {
+                "text": "That every eligible person can join.",
+                "correct": false
+              },
+              {
+                "text": "That exclusion is necessarily intentional.",
+                "correct": false
+              },
+              {
+                "text": "That no resources are needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "A rule can appear open while its terms obstruct actual participation."
+          },
+          {
+            "id": "SWP-081-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-081-M3-T2",
+            "question": "Which fictional conclusion is sound?",
+            "options": [
+              {
+                "text": "Every additional loan guarantees benefit.",
+                "correct": false
+              },
+              {
+                "text": "Understandable suitable arrangements matter beyond a loan count.",
+                "correct": true
+              },
+              {
+                "text": "Debt removes every access barrier.",
+                "correct": false
+              },
+              {
+                "text": "No terms need explanation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Access to an obligation and a useful inclusive outcome are distinct."
+          },
+          {
+            "id": "SWP-081-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-081-M3-T3",
+            "question": "What must accompany the invented instalment proposal?",
+            "options": [
+              {
+                "text": "An assumption that timing stays identical.",
+                "correct": false
+              },
+              {
+                "text": "A promise of guaranteed returns.",
+                "correct": false
+              },
+              {
+                "text": "A check of receipts, service costs and decision responsibility.",
+                "correct": true
+              },
+              {
+                "text": "Removal of the cash schedule.",
+                "correct": false
+              }
+            ],
+            "rationale": "Changing payment timing can change operating feasibility."
+          },
+          {
+            "id": "SWP-081-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-081-M3-T4",
+            "question": "How should learners handle the proposed collection of real deposits?",
+            "options": [
+              {
+                "text": "Collect money to prove commitment.",
+                "correct": false
+              },
+              {
+                "text": "Treat a cooperative label as permission.",
+                "correct": false
+              },
+              {
+                "text": "Promise deposit protection.",
+                "correct": false
+              },
+              {
+                "text": "Keep the exercise fictional and require separate verified authority for real services.",
+                "correct": true
+              }
+            ],
+            "rationale": "Educational completion does not confer financial-service powers."
+          },
+          {
+            "id": "SWP-081-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-081-M3-T5",
+            "question": "Which fictional review note is strongest?",
+            "options": [
+              {
+                "text": "Barrier, feasible response, responsible role, evidence and authority limits.",
+                "correct": true
+              },
+              {
+                "text": "A member count labelled universal equity.",
+                "correct": false
+              },
+              {
+                "text": "A fundraising appeal to classmates.",
+                "correct": false
+              },
+              {
+                "text": "An unqualified investment guarantee.",
+                "correct": false
+              }
+            ],
+            "rationale": "A bounded review connects the intended benefit to practical and authorised conditions."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-082",
+      "title": "Impact Measurement and Mission Accountability",
+      "slug": "impact-measurement-and-mission-accountability",
+      "cover_title": "Impact Measurement\nand Mission\nAccountability",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Develop a proportionate fictional impact enquiry and accountable mission review, distinguishing activity, outcome, contribution and unsupported causal claims.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Define a mission question and evidence chain",
+          "outcome": "Distinguish resources, activity, output and intended outcome in an invented enterprise.",
+          "paragraphs": [
+            "Start with the change the enterprise intends to support, for whom and over what period. Then distinguish the resources used, the work undertaken, the immediate product of that work and the change people may experience. In an invented repair-and-learning venture, staff time is a resource, supervised repair is an activity, completed jobs are an output and sustained suitable employment is a different outcome. Proportionate impact guidance emphasises mission and learning. A chain written on paper describes a hypothesis; it does not demonstrate that each link occurs or that the enterprise caused the final change. [S64]",
+            "Choose an observation because it addresses the question, not because it is easy to count. A revenue measure can describe trading, while a supported-work question needs evidence about the intended experience and result. A startup assessment study develops a practical tool with design and testing limitations. It is useful for questioning proxies, but artificial usability testing does not establish beneficiary outcomes. In a fictional pre-revenue venture, do not invent a revenue history to make a tool appear applicable. Describe the proposed mechanism and the information still missing rather than borrowing a score that exceeds the evidence. [R71]",
+            "Define each proposed measure in plain language with its source, denominator, period and limits. If an invented programme reports eight completed placements out of ten starts, identify what completion means and whether the count includes everyone who began. A person missing from follow-up should not silently become a success. Use aggregate fictional records only, avoiding real personal histories and unsupported claims about motives. A small number may help illustrate a process but cannot represent every potential beneficiary or prove a long-term effect. Record what a responsible evaluator would need to check. [S64]",
+            "Include a possible unintended consequence and a missing perspective. A target for completed repairs could reduce time for supported learning, while a measure chosen only by a funder could overlook what participants value. The Slovenian measurement-adoption study concerns organisational reporting behaviour rather than demonstrated social effectiveness. That distinction matters: having a formal measurement process is not equivalent to delivering the mission. The learner output should show a relevant question and an honest evidence chain, with clear limits on interpretation and a decision the enquiry could inform. [R73]"
+          ],
+          "example": "Fictional case: An invented repair-and-learning venture calls revenue its employment-impact score. Eight of ten starts complete a placement, two have missing follow-up, and pressure for more repairs reduces learning time.",
+          "activity": "Map resources, activity, output and outcome. Define one measure with denominator and period, retain the missing follow-up and identify an unintended consequence.",
+          "feedback": "Revenue measures trading. Placement completion needs a definition and full denominator; missing follow-up and reduced learning time must stay visible.",
+          "sources": [
+            "S64",
+            "R71",
+            "R73"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Interpret change comparison and uncertainty",
+          "outcome": "Explain what an invented result supports without overstating attribution.",
+          "paragraphs": [
+            "An observed change raises several questions: what changed, for whom, compared with what and under which conditions? A before-and-after record can show a pattern while leaving its causes unresolved. For an invented supported-work venture, a change in completion may coincide with new selection rules, staffing or outside opportunities. Proportionate measurement guidance supports using evidence for learning rather than claiming certainty from every number. Separate the observation from an explanation and state which alternative influences remain plausible. A useful review can recommend a practical correction without pretending to estimate a causal impact. [S64]",
+            "Compare like definitions and denominators. If an invented venture completes eight of ten placements in one period and twelve of twenty in another, the count rises while the proportion falls from eighty to sixty percent. Ask whether the same definition and period length were used, whether entry conditions changed and how missing records were handled. These invented calculations illustrate reasoning, not an actual research result. An attractive total should not hide an access gap, and a declining proportion should not become an accusation before its scope and recording conditions are examined. [S64]",
+            "Read external research according to its design. A sector scoping review maps heterogeneous reports and business arrangements rather than establishing a universal effect of an enterprise model. The startup-tool study tests an assessment approach in limited artificial settings rather than measuring long-term participant change. Neither supplies a ready-made outcome estimate for the fictional venture. Explain the narrow question a source helps frame and the information needed locally. Publication dates, issue dates and the period of underlying records can differ, so newer publication alone does not establish more recent field evidence or stronger causal identification. [R72] [R71]",
+            "Write a learning conclusion with three separate statements: the observed result, the limits on interpretation and the next proportionate action. If the fictional record shows poorer access through one route, propose a bounded review of that route, including responsibility and a check of whether the correction works. Do not make affected people responsible for an unexplained result or collect real personal records to close a classroom evidence gap. The purpose is disciplined reasoning about contribution and uncertainty, with a clear boundary between useful observations and claims that require a more robust independently governed evaluation. [S64]"
+          ],
+          "example": "Fictional case: An invented enterprise completes eight of ten placements, then twelve of twenty. Entry rules and staffing also change. A publicity note calls the larger count proof that its model caused better outcomes for everyone.",
+          "activity": "Calculate both proportions. Identify two comparability or attribution issues and write a three-part learning conclusion.",
+          "feedback": "The proportions are 80 and 60 percent. Larger counts do not prove improved proportional completion, and concurrent changes limit causal attribution.",
+          "sources": [
+            "S64",
+            "R72",
+            "R71"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Review mission drift and communicate responsibly",
+          "outcome": "Identify a mission tension and propose accountable review with honest reporting.",
+          "paragraphs": [
+            "Mission drift is a useful concern when activities, incentives or decisions move away from the purpose the enterprise claims to serve. It should not become an automatic diagnosis whenever income changes. In the invented case, compare the stated beneficiary promise with actual targets, access conditions and resource decisions. A contract that rewards speed may reduce supported learning; an impact report that rewards easy counts may overlook people requiring more support. Identify the specific tension and the evidence needed to examine it, rather than infer private motives or label every commercial choice a betrayal. [R74]",
+            "Ask who decides what matters in the review and who can challenge the explanation. A formal reporting requirement may increase attention to measurement while still leaving a gap between reporting and mission achievement. The Slovenian observational study concerns adoption, not proof that a particular funding or management arrangement prevents drift. Use that limitation to keep the fictional review open to alternative explanations. Record whose perspective is missing, how the decision owner would hear it through an appropriate process and what action the institution could actually authorise. Do not claim that one committee or one metric guarantees fidelity. [R73]",
+            "Communicate what is verified, what is intended and what remains uncertain. An invented enterprise may accurately report completed jobs and a documented change in support hours while withholding a claim about sustained employment that has not been evaluated. Explain any adverse or incomplete result alongside progress. Impact guidance prioritises learning and relevant stakeholder evidence; it does not justify a publicity score that hides burdens or missing outcomes. Avoid identifiable stories, copied research instruments or unsupported monetary valuations of wellbeing. A transparent statement should be understandable without creating confidence beyond the underlying record. [S64]",
+            "Propose a reviewable correction with a decision role, resource implication and reconsideration condition. If the fictional contract undermines the mission, the team might seek revised terms or pause a proposed expansion pending authorised review. Preserve the original purpose and a dated change record so an outside reader can see what was altered and why. A practical tool can organise that conversation, but it cannot certify actual impact or replace governance. The learner output should connect mission, feasibility and evidence, while recognising that real decisions require competence and authority beyond the coursework. [R71]"
+          ],
+          "example": "Fictional case: An invented buyer rewards faster repairs, cutting supported learning hours. The enterprise hides the change behind a larger impact score and removes incomplete employment results from its report.",
+          "activity": "Identify the evidenced tension without alleging motives. Draft an honest report sentence and a conditional correction with an owner, resource implication and review point.",
+          "feedback": "Report the changed support hours and unknown employment outcomes. Review the incentive and terms transparently; a bigger score cannot establish mission fidelity.",
+          "sources": [
+            "R74",
+            "R73",
+            "S64",
+            "R71"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-082",
+        "course_slug": "impact-measurement-and-mission-accountability",
+        "title": "Impact Measurement and Mission Accountability",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "8ace36d1a2b68c6d0f4f8d499542142f99d5aa9207a1c1cbb42876843ed19fd3",
+        "catalogue_sha256": "2b3da14091a38ba67f903eeab59b505b823b5fe8b258b0f6c3ea80fa6cb24c94",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Define a mission question and evidence chain",
+            "outcome": "Distinguish resources, activity, output and intended outcome in an invented enterprise.",
+            "teaching_points": [
+              {
+                "id": "SWP-082-M1-T1",
+                "text": "An evidence chain is a hypothesis rather than proof."
+              },
+              {
+                "id": "SWP-082-M1-T2",
+                "text": "A proxy should be labelled by what it measures."
+              },
+              {
+                "id": "SWP-082-M1-T3",
+                "text": "Missing follow-up must remain in the record."
+              },
+              {
+                "id": "SWP-082-M1-T4",
+                "text": "Pre-revenue ventures cannot supply a genuine revenue history."
+              },
+              {
+                "id": "SWP-082-M1-T5",
+                "text": "Measurement adoption differs from mission achievement."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Interpret change comparison and uncertainty",
+            "outcome": "Explain what an invented result supports without overstating attribution.",
+            "teaching_points": [
+              {
+                "id": "SWP-082-M2-T1",
+                "text": "Observed change and causal attribution differ."
+              },
+              {
+                "id": "SWP-082-M2-T2",
+                "text": "Counts and proportions can move in different directions."
+              },
+              {
+                "id": "SWP-082-M2-T3",
+                "text": "Comparisons need consistent definitions."
+              },
+              {
+                "id": "SWP-082-M2-T4",
+                "text": "External designs support bounded uses."
+              },
+              {
+                "id": "SWP-082-M2-T5",
+                "text": "Learning conclusions should separate result and interpretation."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Review mission drift and communicate responsibly",
+            "outcome": "Identify a mission tension and propose accountable review with honest reporting.",
+            "teaching_points": [
+              {
+                "id": "SWP-082-M3-T1",
+                "text": "A mission concern should identify an evidenced tension."
+              },
+              {
+                "id": "SWP-082-M3-T2",
+                "text": "A reporting requirement is not a drift-prevention guarantee."
+              },
+              {
+                "id": "SWP-082-M3-T3",
+                "text": "Public claims should retain incomplete outcomes."
+              },
+              {
+                "id": "SWP-082-M3-T4",
+                "text": "Corrections need authority and resources."
+              },
+              {
+                "id": "SWP-082-M3-T5",
+                "text": "Tools cannot certify actual impact."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-082-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-082-M1-T1",
+            "question": "What does a fictional chain from repairs to employment establish?",
+            "options": [
+              {
+                "text": "Guaranteed employment for everyone.",
+                "correct": false
+              },
+              {
+                "text": "A completed independent evaluation.",
+                "correct": false
+              },
+              {
+                "text": "A proposed route to examine, not a demonstrated causal effect.",
+                "correct": true
+              },
+              {
+                "text": "A substitute for observations.",
+                "correct": false
+              }
+            ],
+            "rationale": "Writing a plausible link does not establish that it occurred."
+          },
+          {
+            "id": "SWP-082-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-082-M1-T2",
+            "question": "What does the invented revenue figure directly describe?",
+            "options": [
+              {
+                "text": "Sustained employment outcomes automatically.",
+                "correct": false
+              },
+              {
+                "text": "Universal participant wellbeing.",
+                "correct": false
+              },
+              {
+                "text": "Causal social impact.",
+                "correct": false
+              },
+              {
+                "text": "Trading income under the stated definition.",
+                "correct": true
+              }
+            ],
+            "rationale": "A trading measure cannot simply be renamed as beneficiary change."
+          },
+          {
+            "id": "SWP-082-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-082-M1-T3",
+            "question": "Two of ten invented placement starts lack follow-up. What is accurate?",
+            "options": [
+              {
+                "text": "Eight completions are recorded and two outcomes remain unknown.",
+                "correct": true
+              },
+              {
+                "text": "All ten are successful.",
+                "correct": false
+              },
+              {
+                "text": "The missing two can be deleted from every denominator.",
+                "correct": false
+              },
+              {
+                "text": "Missing records prove refusal.",
+                "correct": false
+              }
+            ],
+            "rationale": "Unknown outcomes should not be silently classified as success."
+          },
+          {
+            "id": "SWP-082-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-082-M1-T4",
+            "question": "An assessment tool needs operating revenue history. What should a fictional pre-revenue plan do?",
+            "options": [
+              {
+                "text": "Invent historical accounts.",
+                "correct": false
+              },
+              {
+                "text": "State inapplicability and use a bounded mechanism enquiry instead.",
+                "correct": true
+              },
+              {
+                "text": "Claim full validation for every startup.",
+                "correct": false
+              },
+              {
+                "text": "Treat tool testing as a beneficiary trial.",
+                "correct": false
+              }
+            ],
+            "rationale": "A tool should not be applied beyond its evidence and input conditions."
+          },
+          {
+            "id": "SWP-082-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-082-M1-T5",
+            "question": "What cannot be concluded from a formal fictional reporting process alone?",
+            "options": [
+              {
+                "text": "That a process exists to examine.",
+                "correct": false
+              },
+              {
+                "text": "That measures can be scrutinised.",
+                "correct": false
+              },
+              {
+                "text": "That the enterprise delivered greater social benefit.",
+                "correct": true
+              },
+              {
+                "text": "That reporting incentives may matter.",
+                "correct": false
+              }
+            ],
+            "rationale": "A reporting behaviour is a different outcome from beneficiary benefit."
+          },
+          {
+            "id": "SWP-082-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-082-M2-T1",
+            "question": "What must the fictional review consider when staffing and entry rules change?",
+            "options": [
+              {
+                "text": "Only the preferred enterprise explanation.",
+                "correct": false
+              },
+              {
+                "text": "That timing proves causation.",
+                "correct": false
+              },
+              {
+                "text": "That a larger total settles every question.",
+                "correct": false
+              },
+              {
+                "text": "Alternative influences on the observed result.",
+                "correct": true
+              }
+            ],
+            "rationale": "Concurrent changes can affect both the population and results."
+          },
+          {
+            "id": "SWP-082-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-082-M2-T2",
+            "question": "Completions move from eight of ten to twelve of twenty. What happens to the proportion?",
+            "options": [
+              {
+                "text": "It falls from 80 percent to 60 percent.",
+                "correct": true
+              },
+              {
+                "text": "It rises from 8 percent to 12 percent.",
+                "correct": false
+              },
+              {
+                "text": "It stays at 80 percent.",
+                "correct": false
+              },
+              {
+                "text": "It proves every participant improved.",
+                "correct": false
+              }
+            ],
+            "rationale": "The denominator changes the interpretation of the higher count."
+          },
+          {
+            "id": "SWP-082-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-082-M2-T3",
+            "question": "Which check is necessary before comparing the invented periods?",
+            "options": [
+              {
+                "text": "Only whether publicity increased.",
+                "correct": false
+              },
+              {
+                "text": "Whether completion and period length were defined consistently.",
+                "correct": true
+              },
+              {
+                "text": "Whether the preferred conclusion sounds convincing.",
+                "correct": false
+              },
+              {
+                "text": "Whether missing records can be ignored.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different definitions can create a misleading trend."
+          },
+          {
+            "id": "SWP-082-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-082-M2-T4",
+            "question": "What would overstate the sector scoping review?",
+            "options": [
+              {
+                "text": "Using it to frame contextual questions.",
+                "correct": false
+              },
+              {
+                "text": "Recording its search period.",
+                "correct": false
+              },
+              {
+                "text": "Treating heterogeneous case reports as a universal causal effect estimate.",
+                "correct": true
+              },
+              {
+                "text": "Acknowledging its appraisal limits.",
+                "correct": false
+              }
+            ],
+            "rationale": "Mapping cases is different from establishing an attributable effect."
+          },
+          {
+            "id": "SWP-082-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-082-M2-T5",
+            "question": "Which structure fits the fictional review?",
+            "options": [
+              {
+                "text": "A universal success slogan.",
+                "correct": false
+              },
+              {
+                "text": "An accusation without records.",
+                "correct": false
+              },
+              {
+                "text": "A copied effect estimate from an unrelated setting.",
+                "correct": false
+              },
+              {
+                "text": "Observation, limits and a specific next action.",
+                "correct": true
+              }
+            ],
+            "rationale": "Separate statements make the conclusion examinable."
+          },
+          {
+            "id": "SWP-082-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-082-M3-T1",
+            "question": "What is demonstrated by the fictional speed target reducing learning hours?",
+            "options": [
+              {
+                "text": "A potential conflict between the trading incentive and supported-learning purpose.",
+                "correct": true
+              },
+              {
+                "text": "Every staff member has bad motives.",
+                "correct": false
+              },
+              {
+                "text": "All commercial activity is mission drift.",
+                "correct": false
+              },
+              {
+                "text": "The report proves improved employment.",
+                "correct": false
+              }
+            ],
+            "rationale": "The supplied change supports a specific tension, not a universal motive claim."
+          },
+          {
+            "id": "SWP-082-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-082-M3-T2",
+            "question": "What cannot be inferred from formal fictional measurement alone?",
+            "options": [
+              {
+                "text": "That measures can be reviewed.",
+                "correct": false
+              },
+              {
+                "text": "That the enterprise has protected its mission successfully.",
+                "correct": true
+              },
+              {
+                "text": "That reporting incentives may affect attention.",
+                "correct": false
+              },
+              {
+                "text": "That governance questions remain relevant.",
+                "correct": false
+              }
+            ],
+            "rationale": "Adoption and mission achievement are different outcomes."
+          },
+          {
+            "id": "SWP-082-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-082-M3-T3",
+            "question": "Which fictional report is honest?",
+            "options": [
+              {
+                "text": "The impact score proves universal employment gains.",
+                "correct": false
+              },
+              {
+                "text": "All missing outcomes are successes.",
+                "correct": false
+              },
+              {
+                "text": "Repairs increased, support hours changed and employment outcomes remain incomplete.",
+                "correct": true
+              },
+              {
+                "text": "Adverse changes need no disclosure.",
+                "correct": false
+              }
+            ],
+            "rationale": "The statement distinguishes observed activity, change and uncertainty."
+          },
+          {
+            "id": "SWP-082-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-082-M3-T4",
+            "question": "Which response to the fictional contract tension is proportionate?",
+            "options": [
+              {
+                "text": "Let a learner cancel a real contract.",
+                "correct": false
+              },
+              {
+                "text": "Hide the original mission.",
+                "correct": false
+              },
+              {
+                "text": "Expand regardless of the unresolved conflict.",
+                "correct": false
+              },
+              {
+                "text": "Seek an authorised terms review with resource and follow-up requirements.",
+                "correct": true
+              }
+            ],
+            "rationale": "A bounded proposal connects the correction to a responsible decision."
+          },
+          {
+            "id": "SWP-082-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-082-M3-T5",
+            "question": "What role can a fictional review tool serve?",
+            "options": [
+              {
+                "text": "Organise reasoning while leaving evidence and governance checks necessary.",
+                "correct": true
+              },
+              {
+                "text": "Guarantee mission fidelity.",
+                "correct": false
+              },
+              {
+                "text": "Replace independent evaluation.",
+                "correct": false
+              },
+              {
+                "text": "Automatically award a school certificate.",
+                "correct": false
+              }
+            ],
+            "rationale": "An instrument supports a process without proving its substantive result."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-083",
+      "title": "Social Enterprise Launch Practicum",
+      "slug": "social-enterprise-launch-practicum",
+      "cover_title": "Social Enterprise\nLaunch\nPracticum",
+      "school_code": "SEE",
+      "school_name": "School of Social Entrepreneurship and Enterprise Development",
+      "school_display": "Social Entrepreneurship\nand Enterprise Development",
+      "estimated_minutes": 180,
+      "audience": "Introductory social-work and community-enterprise learners developing enterprise reasoning under appropriate support.",
+      "study_guidance": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority. Complete each exercise before checking feedback. Study time is proposed for piloting.",
+      "practice_safety_note": "Use supplied fictional enterprises, invented transactions and aggregate cases only. Do not collect personal or business-confidential records, solicit funds, make investments, incur debts or launch a real service through coursework. You may pause or choose another fictional exercise. Real trading, employment, finance, tax and legal decisions require appropriate qualified advice and verified authority.",
+      "outcome": "Integrate mission, market, operations, finance, governance and impact into a conditional fictional launch proposal with explicit review and authority gates.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Build a coherent fictional enterprise proposal",
+          "outcome": "Connect an invented problem and offer to evidence, resources and a bounded decision.",
+          "paragraphs": [
+            "A launch proposal should explain a decision, not merely assemble attractive sections. Begin with the invented social concern, the intended group, the offer and the proposed change. Identify who uses, pays and benefits, then show how resources and activities connect those roles. Foundation enterprise learning brings opportunity, resources and action together under support. Keep the proposal conditional: a classroom submission is a plan for reasoning, not an operating enterprise or a demonstration of professional competence. Do not register a venture, solicit money or recruit participants through this exercise. [S62]",
+            "Use a short claim record for the most important statements. Mark each as a supplied fictional observation, a calculation, an external contextual finding or an assumption. Include source and relevant date so a publication year is not confused with fieldwork. A sector review of food and nutrition enterprises can inform questions about models and mission, while its selection and appraisal limits prevent a guaranteed survival claim for the invented venture. State the particular question the evidence helps frame, rather than adding a citation to make an unsupported forecast look certain. [R72]",
+            "Make the offer and operating requirements agree. If the fictional market note promises same-day repair, the capacity, staffing and supply sequence must support that promise. Separate an expression of interest from a confirmed order and a revenue forecast from actual receipts. General business planning helps structure those questions, but does not validate local legal or tax assumptions. Identify any service-quality or access condition the proposal has not resolved and name the qualified role that would need to verify it before a real commitment could occur. [S61]",
+            "Compare at least two feasible options under common headings rather than selecting the most exciting presentation. Include mission, practical access, demand evidence, delivery capacity, cost, cash timing, control and uncertainty. State what would change the preferred choice. Impact guidance supports using evidence for decisions and learning, so the proposal should make its assumptions examinable. The final output is an original fictional enterprise note, with a clear next decision and bounded claims. It should not imply that a neat plan proves trading demand, beneficiary improvement or readiness to launch a real service. [S64]"
+          ],
+          "example": "Fictional case: An invented repair-and-learning proposal promises same-day service, forecasts sales from favourable comments and cites a sector review as proof of survival. Staffing and the source of subsidy are unspecified.",
+          "activity": "Write a one-paragraph proposal and four claim-record entries. Compare two options and identify an assumption that could reverse the preferred choice.",
+          "feedback": "Connect the promise to evidence and resources. Comments, contextual studies and forecasts are different claim types; unverified capacity and subsidy remain decision limits.",
+          "sources": [
+            "S62",
+            "R72",
+            "S61",
+            "S64"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Plan readiness responsibilities and a limited test",
+          "outcome": "Identify dependencies and authority gates before a fictional pilot or expansion.",
+          "paragraphs": [
+            "Readiness means that the requirements for a particular next step have been checked, rather than that enthusiasm is high. For the invented venture, map a sequence from an enquiry to an agreed service, delivery, payment and a response to a concern. Identify the responsible role, capacity and information needed at each step. General business planning supports attention to operations and resources. A task completed on paper does not prove that a real institution has authority, staff or permits. Keep legal, employment, safeguarding and finance requirements explicitly subject to qualified local verification. [S61]",
+            "Include finance and governance in the same readiness review. A positive contribution can coexist with an early cash shortfall, while external finance may change member control or the mission promise. The cooperative identity provides questions about democratic accountability and autonomy, not a licence to accept deposits or an assurance of returns. In the fictional plan, record who can approve a commitment and what information must be available before that approval. Do not let a simulated member vote stand in for registered legal arrangements or appropriate advice about real obligations. [S63]",
+            "A limited learning test should use invented records and a defined question. Specify what would be observed, the resources needed and a condition for modifying or pausing. A startup assessment study may help question the relationship between a tool and its evidence, but its artificial tests do not establish the impact of a new venture. Therefore do not treat the existence of a prototype or a completed scoring sheet as permission to expand. Record whether the fictional test examines clarity, process, capacity or a proposed outcome, and preserve the original question. [R71]",
+            "Partnership dependencies also need owners and a response if an assumption fails. If an invented supplier cannot meet a delivery schedule, the team may need to change the offer rather than hide the delay. Qualitative partnership evidence illustrates contextual tensions, not a universal contract recipe. The practicum should identify the dependency, a responsible review role and the effect on mission and feasibility. A useful readiness note can recommend a pause pending evidence. It must not expose real confidential records, sign an agreement or move a fictional pilot into actual public service without verified authority. [R74]"
+          ],
+          "example": "Fictional case: An invented launch checklist marks every requirement ready because slides are complete. The buyer pays late, a supplier is unconfirmed and an external funder controls member decisions. The team plans immediate expansion.",
+          "activity": "Map four readiness gates with owners and evidence. Define a limited fictional test and a condition for pausing or modifying the plan.",
+          "feedback": "Teaching completion is not operating readiness. Cash timing, supply, control and authority need explicit evidence; a bounded simulation can inform a further decision.",
+          "sources": [
+            "S61",
+            "S63",
+            "R71",
+            "R74"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Present a launch decision and learning review",
+          "outcome": "Recommend continue, modify or pause with honest results and recognition boundaries.",
+          "paragraphs": [
+            "The final practicum should state a clear conditional decision: continue the fictional design, modify a specified part or pause until a requirement is resolved. Explain the reason using mission, evidence and feasibility together. Identify the responsible role and the observation that would justify a later decision. Supported entrepreneurship learning includes reflection on experience as well as initiative. Do not reward an unrealistic launch promise merely because it sounds decisive. A reasoned pause can demonstrate good judgement when capacity, access, cash or authority remains unresolved in the supplied case. [S62]",
+            "Use a small review plan with a question, measure, denominator, period and source. Separate process completion from the outcome the venture intends to support, and include missing or adverse observations. Proportionate impact guidance encourages learning rather than a collection of favourable counts. If the fictional test changes, retain the original version, reason and decision owner. A report should distinguish a planned action, an accepted recommendation, a completed change and a result that has actually been examined. Downloads, attendance and sales are not interchangeable with mission achievement. [S64]",
+            "Keep research transfer honest in the presentation. The Slovenian study concerns measurement adoption using a 2021 survey and historical accounts, although it was published in 2026. Its associations do not establish which financing source will deliver the best social outcome in another setting. A practical tool or an attractive dashboard can structure discussion without validating the underlying claim. State the evidence limit in plain language and identify what would still need checking before a real decision. Do not manufacture confidence by substituting a journal quartile for the actual study design and outcome. [R73]",
+            "Submit the fictional proposal, claim record, options comparison, cost and cash notes, readiness gates and learning review together. Explain any unresolved mission tension and how a relevant affected perspective would be heard through an appropriate process. Completion is educational evidence, not permission to trade or provide finance. Recognition also has separate conditions: a course badge requires a verified course CBT pass, while a school certificate requires every approved course, the final mixed ParaLearn exam, human written marking, independent moderation and authorised signatures. Reading or presenting the materials alone satisfies neither credential condition. [S62]"
+          ],
+          "example": "Fictional case: An invented team calls downloads proof of impact and a 2026 survey publication proof of current local financing effects. It hides a cash shortfall and promises school certificates after the presentation.",
+          "activity": "Present a conditional decision with three reasons and a review measure. Correct the date, impact and credential claims, and identify a finding that would change the decision.",
+          "feedback": "State the shortfall and limits; downloads do not establish impact, publication is not fieldwork and the presentation cannot replace verified course passes or the moderated school exam.",
+          "sources": [
+            "S62",
+            "S64",
+            "R73"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-083",
+        "course_slug": "social-enterprise-launch-practicum",
+        "title": "Social Enterprise Launch Practicum",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "a1ce9bee6e92547dd9ada974f3fb9d682a1613a2a84027c01f2ddb200040da1c",
+        "catalogue_sha256": "ff67af13d6fef8fd7bf1da064b60524944891d3e04ea1abb6022e75d187c45af",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Build a coherent fictional enterprise proposal",
+            "outcome": "Connect an invented problem and offer to evidence, resources and a bounded decision.",
+            "teaching_points": [
+              {
+                "id": "SWP-083-M1-T1",
+                "text": "A proposal should connect its parts to a decision."
+              },
+              {
+                "id": "SWP-083-M1-T2",
+                "text": "Claim types should remain distinguishable."
+              },
+              {
+                "id": "SWP-083-M1-T3",
+                "text": "Contextual research does not guarantee survival."
+              },
+              {
+                "id": "SWP-083-M1-T4",
+                "text": "Promises must match operating capacity."
+              },
+              {
+                "id": "SWP-083-M1-T5",
+                "text": "Options should identify what could change the choice."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Plan readiness responsibilities and a limited test",
+            "outcome": "Identify dependencies and authority gates before a fictional pilot or expansion.",
+            "teaching_points": [
+              {
+                "id": "SWP-083-M2-T1",
+                "text": "Readiness is specific to an evidenced next step."
+              },
+              {
+                "id": "SWP-083-M2-T2",
+                "text": "Cash and control belong in readiness."
+              },
+              {
+                "id": "SWP-083-M2-T3",
+                "text": "A test should state its question and limit."
+              },
+              {
+                "id": "SWP-083-M2-T4",
+                "text": "Partner dependencies need a response."
+              },
+              {
+                "id": "SWP-083-M2-T5",
+                "text": "Cooperative identity is not a regulated-service permission."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Present a launch decision and learning review",
+            "outcome": "Recommend continue, modify or pause with honest results and recognition boundaries.",
+            "teaching_points": [
+              {
+                "id": "SWP-083-M3-T1",
+                "text": "A reasoned pause can demonstrate sound judgement."
+              },
+              {
+                "id": "SWP-083-M3-T2",
+                "text": "Review measures should match the question."
+              },
+              {
+                "id": "SWP-083-M3-T3",
+                "text": "Publication date differs from data period."
+              },
+              {
+                "id": "SWP-083-M3-T4",
+                "text": "Recognition requires verified assessment conditions."
+              },
+              {
+                "id": "SWP-083-M3-T5",
+                "text": "School certification has a separate integrated assessment gate."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-083-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-083-M1-T1",
+            "question": "Which fictional proposal is coherent?",
+            "options": [
+              {
+                "text": "A set of slogans with no delivery requirements.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee of survival from a citation.",
+                "correct": false
+              },
+              {
+                "text": "Mission, offer, evidence and resources leading to a bounded next decision.",
+                "correct": true
+              },
+              {
+                "text": "A real launch instruction issued by coursework.",
+                "correct": false
+              }
+            ],
+            "rationale": "The sections should support an examinable decision."
+          },
+          {
+            "id": "SWP-083-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-083-M1-T2",
+            "question": "How should the invented claim record classify a sales forecast?",
+            "options": [
+              {
+                "text": "A verified historical transaction.",
+                "correct": false
+              },
+              {
+                "text": "A controlled social-outcome result.",
+                "correct": false
+              },
+              {
+                "text": "An automatic funding commitment.",
+                "correct": false
+              },
+              {
+                "text": "An assumption-based projection, distinct from actual receipts.",
+                "correct": true
+              }
+            ],
+            "rationale": "A projection describes expectations under assumptions."
+          },
+          {
+            "id": "SWP-083-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-083-M1-T3",
+            "question": "What is wrong with the fictional sector-review claim?",
+            "options": [
+              {
+                "text": "The review does not establish universal survival for this venture.",
+                "correct": true
+              },
+              {
+                "text": "Research can never inform a question.",
+                "correct": false
+              },
+              {
+                "text": "Only publication date matters.",
+                "correct": false
+              },
+              {
+                "text": "Every case report is a randomised trial.",
+                "correct": false
+              }
+            ],
+            "rationale": "The design and sector limits must accompany transfer to a new proposal."
+          },
+          {
+            "id": "SWP-083-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-083-M1-T4",
+            "question": "What must support the fictional same-day offer?",
+            "options": [
+              {
+                "text": "Only an attractive cover page.",
+                "correct": false
+              },
+              {
+                "text": "A feasible staffing and supply sequence with stated limits.",
+                "correct": true
+              },
+              {
+                "text": "An assumption that goodwill creates capacity.",
+                "correct": false
+              },
+              {
+                "text": "No review of quality.",
+                "correct": false
+              }
+            ],
+            "rationale": "The promise depends on resources and an operating process."
+          },
+          {
+            "id": "SWP-083-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-083-M1-T5",
+            "question": "Which addition strengthens the fictional recommendation?",
+            "options": [
+              {
+                "text": "A claim of certainty regardless of evidence.",
+                "correct": false
+              },
+              {
+                "text": "Removal of contrary records.",
+                "correct": false
+              },
+              {
+                "text": "A condition that would justify reconsidering the preferred option.",
+                "correct": true
+              },
+              {
+                "text": "An invented empirical success rate.",
+                "correct": false
+              }
+            ],
+            "rationale": "A conditional choice remains open to evidence."
+          },
+          {
+            "id": "SWP-083-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-083-M2-T1",
+            "question": "What does a completed fictional slide deck fail to prove?",
+            "options": [
+              {
+                "text": "That a learning artifact exists.",
+                "correct": false
+              },
+              {
+                "text": "That a proposal can be reviewed.",
+                "correct": false
+              },
+              {
+                "text": "That further checks can be named.",
+                "correct": false
+              },
+              {
+                "text": "Operational authority, resources and service readiness.",
+                "correct": true
+              }
+            ],
+            "rationale": "A teaching artifact and an operating arrangement are different things."
+          },
+          {
+            "id": "SWP-083-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-083-M2-T2",
+            "question": "Which fictional issues must be reviewed before a commitment?",
+            "options": [
+              {
+                "text": "Late receipts and external control of member decisions.",
+                "correct": true
+              },
+              {
+                "text": "Only whether the logo looks professional.",
+                "correct": false
+              },
+              {
+                "text": "Only projected annual sales.",
+                "correct": false
+              },
+              {
+                "text": "Neither because the mission is social.",
+                "correct": false
+              }
+            ],
+            "rationale": "Timing and governance can change feasibility and mission."
+          },
+          {
+            "id": "SWP-083-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-083-M2-T3",
+            "question": "Which fictional pilot description is adequate?",
+            "options": [
+              {
+                "text": "Expansion guaranteed before observing anything.",
+                "correct": false
+              },
+              {
+                "text": "A defined observation, required resources and a modify/pause condition.",
+                "correct": true
+              },
+              {
+                "text": "No record of the original question.",
+                "correct": false
+              },
+              {
+                "text": "A score labelled automatic impact proof.",
+                "correct": false
+              }
+            ],
+            "rationale": "A learning test needs a clear decision boundary."
+          },
+          {
+            "id": "SWP-083-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-083-M2-T4",
+            "question": "An invented supplier is unconfirmed. What should the plan show?",
+            "options": [
+              {
+                "text": "A guarantee of delivery anyway.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of the dependency.",
+                "correct": false
+              },
+              {
+                "text": "A responsible verification role and effect on the service promise.",
+                "correct": true
+              },
+              {
+                "text": "A learner signing a real agreement.",
+                "correct": false
+              }
+            ],
+            "rationale": "A dependency should remain visible until verified."
+          },
+          {
+            "id": "SWP-083-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-083-M2-T5",
+            "question": "What does the fictional cooperative note not authorise?",
+            "options": [
+              {
+                "text": "Discussion of member control.",
+                "correct": false
+              },
+              {
+                "text": "A question about accountability.",
+                "correct": false
+              },
+              {
+                "text": "An invented comparison of terms.",
+                "correct": false
+              },
+              {
+                "text": "Taking real deposits or guaranteeing investor returns.",
+                "correct": true
+              }
+            ],
+            "rationale": "Identity principles do not confer financial-service authority."
+          },
+          {
+            "id": "SWP-083-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-083-M3-T1",
+            "question": "Which fictional launch recommendation is defensible with unresolved cash and capacity?",
+            "options": [
+              {
+                "text": "Pause or modify pending specified authorised checks.",
+                "correct": true
+              },
+              {
+                "text": "Launch regardless because confidence is important.",
+                "correct": false
+              },
+              {
+                "text": "Hide the shortfall.",
+                "correct": false
+              },
+              {
+                "text": "Claim every requirement is already met.",
+                "correct": false
+              }
+            ],
+            "rationale": "The decision should reflect the actual evidence and dependencies."
+          },
+          {
+            "id": "SWP-083-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-083-M3-T2",
+            "question": "What should accompany a fictional completion count?",
+            "options": [
+              {
+                "text": "Only a success headline.",
+                "correct": false
+              },
+              {
+                "text": "Definition, denominator, period, source and missing outcomes.",
+                "correct": true
+              },
+              {
+                "text": "An assumed causal effect.",
+                "correct": false
+              },
+              {
+                "text": "Deletion of incomplete cases.",
+                "correct": false
+              }
+            ],
+            "rationale": "A count needs context before it can inform learning."
+          },
+          {
+            "id": "SWP-083-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-083-M3-T3",
+            "question": "The measurement study was published in 2026 using a 2021 survey. What is accurate?",
+            "options": [
+              {
+                "text": "Call it current local 2026 fieldwork.",
+                "correct": false
+              },
+              {
+                "text": "Ignore the survey period.",
+                "correct": false
+              },
+              {
+                "text": "State both dates and the contextual limits.",
+                "correct": true
+              },
+              {
+                "text": "Treat the date as proof of causal strength.",
+                "correct": false
+              }
+            ],
+            "rationale": "Publication timing does not change when or where observations were made."
+          },
+          {
+            "id": "SWP-083-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-083-M3-T4",
+            "question": "What is required beyond reading the fictional practicum materials for a course badge?",
+            "options": [
+              {
+                "text": "Only downloads.",
+                "correct": false
+              },
+              {
+                "text": "Only a presentation attendance mark.",
+                "correct": false
+              },
+              {
+                "text": "A self-declared completion statement.",
+                "correct": false
+              },
+              {
+                "text": "An approved course and a verified ParaLearn course CBT pass.",
+                "correct": true
+              }
+            ],
+            "rationale": "Learning-resource access does not itself satisfy the badge condition."
+          },
+          {
+            "id": "SWP-083-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-083-M3-T5",
+            "question": "Which statement fits the proposed SEE certificate pathway?",
+            "options": [
+              {
+                "text": "All approved courses plus the moderated mixed ParaLearn exam and authorised signatures.",
+                "correct": true
+              },
+              {
+                "text": "A certificate after viewing slides alone.",
+                "correct": false
+              },
+              {
+                "text": "Automatic certification from an offline review fixture.",
+                "correct": false
+              },
+              {
+                "text": "No human review of essays is needed.",
+                "correct": false
+              }
+            ],
+            "rationale": "School certification requires completion, verified assessment and authorised signatories."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence checked 27 November 2026. Publication, issue and data dates differ. Frameworks are curriculum comparators, not Nigerian law, registration or accreditation. Research methods, rights and access limits are recorded. All cases, calculations and exercises are original and fictional. Public assessment drafts are review examples; unpublished production banks and verified ParaLearn configuration are separate launch requirements."
+}
