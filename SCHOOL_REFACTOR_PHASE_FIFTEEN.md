@@ -11,3 +11,11 @@ The ParaLearn school exam blueprint covers all six courses. Its draft contains 4
 Build with `scripts/build_blu_source.py`, `scripts/build_blu_six_course_exam.py` and `scripts/build_blu_media.py`. Use an isolated SQLite database when testing because the default application connection is live. The 229-test suite passed in 237.901 seconds and the migration check found no changes. All 870 earlier courseware files at `7b23151cf62719540a4b995040c93af5375b8c61` passed source parity. The scoped publication workflow verifies the production baseline, staged resource hashes and prior records. The academy applies its download controls to LMS copies. The committed learner files and review examples are public.
 
 Phase 15 brings the programme to 62 of the 150 planned course additions. Phase 16 is EIL. Verify the live inventory and SW-EMHEC scope before finalising the eight-course curriculum map.
+
+## Production verification
+
+Staging added six inactive courses and 18 modules. The 24 private uploads matched the source file hashes, and their metadata was registered for review. The scoped release then activated SWP-091 through SWP-096 and published all 24 resources. Live verification passed for 96 active courses, 520 published resources, 97 public pages and 24 guest download guards. The 24 published files passed a fresh remote hash check. Earlier course, CBT, learner and credential records passed production parity checks. All 25 school enrolments remain closed pending verified school exams and certification readiness.
+
+Vercel built commit `67baac72055451121d4e2d688d5ebbee267b422c` in deployment `dpl_AqKWFRci7ZJnnzFmoy9ssnAM3WBM` and assigned both academy domains. The catalogue, six BLU pages and 24 download guards passed after deployment. GitHub Actions run 46080873727 never started its job because of an account billing lock. [GitHub Actions run](https://github.com/remikeks/project-sweep/actions/runs/46080873727)
+
+The [one-page report for Prof. Mina](production_courseware/phase_fifteen/SWEEP_Phase_15_Report_Prof_Mina.pdf) was visually verified at 130 DPI. The learner archive passed a ZIP integrity check and matched all 24 approved file hashes.
