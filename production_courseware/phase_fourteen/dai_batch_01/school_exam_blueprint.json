@@ -1,0 +1,732 @@
+{
+  "status": "draft_for_review",
+  "school_code": "DAI",
+  "curriculum_version": "DAI-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-031",
+    "SWP-084",
+    "SWP-085",
+    "SWP-086",
+    "SWP-087",
+    "SWP-088",
+    "SWP-089",
+    "SWP-090"
+  ],
+  "programme_target_course_count": 8,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {
+    "SWP-031": {
+      "title": "Digital Social Work Practice",
+      "modules": [
+        "Digital inclusion and service design",
+        "Information governance and secure practice",
+        "Telepractice, AI, and professional accountability"
+      ]
+    }
+  },
+  "scope_note": "Five MCQ slots per course, six short answers covering all eight courses and two integrated essays.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed duration for learner and accessibility piloting.",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Record human criterion scores and reasons, rubric version and independent named moderator.",
+    "appeals": "Retain the response, criteria, reasons, moderation and dated appeal and amendment outcomes."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Complete every approved course and pass the final verified mixed ParaLearn exam.",
+      "Human marking and independent moderation for written responses.",
+      "Authorised signatures from the Head of Learning and Founder Prof. Mina Ogbanga."
+    ]
+  },
+  "items": [
+    {
+      "id": "DAI8-SWP-031-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-031"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-031-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-031"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-031-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-031"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-031-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-031"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-031-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-031"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-084-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-084"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-084-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-084"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-084-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-084"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-084-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-084"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-084-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-084"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-085-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-085-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-085-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-085-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-085-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-086-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-086-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-086-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-086-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-086-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-087-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-087-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-087-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-087-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-087-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-088-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-088-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-088-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-088-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-088-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-089-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-089"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-089-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-089"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-089-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-089"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-089-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-089"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-089-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-089"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-090-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-090"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-090-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-090"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-090-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-090"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-090-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-090"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SWP-090-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-090"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "DAI8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-031",
+        "SWP-084"
+      ],
+      "prompt": "A fictional referral portal loses applications after a connection drop. Keyboard focus disappears behind a banner. The helpline is unstaffed. Shared phones receive revealing messages. Give five improvements.",
+      "model_answer": "Map the point of abandonment and offer recovery. Test focus through completion. Resource a comparable staffed option. Confirm the safe contact channel and use limited wording. Compare attempts, completion and response by channel.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Journey and access barrier",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Observable keyboard test",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Staffed alternative",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Safe contact",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Comparable measures",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-085"
+      ],
+      "prompt": "A fictional appointment form requests full case records, requires optional recording and accepts silence. Staff share an account. A case attachment reaches an unintended inbox. Design five corrections.",
+      "model_answer": "Minimise fields and define purpose. Offer an accessible distinct recording choice and ordinary service. Record an active decision and withdrawal route. Use individual approved accounts with multifactor authentication. Report minimum incident facts promptly to responsible staff.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Purpose and necessity",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Separate accessible choice",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Active choice and withdrawal",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Protective account practice",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Incident escalation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-086"
+      ],
+      "prompt": "A fictional model supplies a fluent but unsupported date and treats a spelling variation as a risk flag. Reviewers cannot see source evidence or reject outputs. Propose five review controls.",
+      "model_answer": "Reconcile dates to authoritative source records. Hold relevant facts constant in a paired comparison. Record scope and severity. Give reviewers evidence and time. Allow rejection, escalation and review of significant decisions.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Source verification",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Matched comparison",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Scope and severity",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Review resources",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Authority and escalation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-087"
+      ],
+      "prompt": "A fictional source says the person asked for a private callback and declined recording. The draft calls this refusal of all help, adds a meeting date and is signed. Explain five corrections.",
+      "model_answer": "Preserve attributed account. Restore the actual choice. Remove unsupported date. Track the authorised amendment and responsible reviewer. Review downstream effects and explain the correction route.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Source attribution",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Actual recording and call choice",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Unsupported fact handling",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Traceable amendment",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Downstream review",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-088"
+      ],
+      "prompt": "An invented desk closes referrals when sent. An outage leaves two unacknowledged cases. Intake workers can edit signed assessments. Design five workflow improvements.",
+      "model_answer": "Define received, accepted and closed states. Assign acknowledgement ownership and deadline. Use a minimum temporary record. Reconcile restored queue and escalate unmatched records. Scope edits to authorised roles with a correction history.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Case states",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Handoff owner",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Continuity route",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Reconciliation and exception",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Role and correction history",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-089",
+        "SWP-090"
+      ],
+      "prompt": "A fictional launch proposal counts 30 timely responses from 40 attempts, then 48 from 80 with changed staffing. A serious draft error reached a person. Write five elements of a decision.",
+      "model_answer": "Report 75 and 60 percent with denominators. Identify concurrent staffing change. Assess the consequential error and approved incident route. Compare revision and staffed alternative using common criteria. Give the decision, owner, stop and retest criteria.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Correct rates",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Causal limitation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Consequence response",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Comparable alternatives",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Reviewable decision",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "DAI8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-031",
+        "SWP-084",
+        "SWP-085",
+        "SWP-086",
+        "SWP-087",
+        "SWP-088",
+        "SWP-089",
+        "SWP-090"
+      ],
+      "prompt": "Design an inclusive paper-based rehearsal of a new referral and documentation workflow. A person uses a borrowed phone, the keyboard route fails, recording is optional, a draft changes a callback into refusal, an outage interrupts a referral and an adoption rate is presented as service evidence. Cover all eight courses and explain who can pause the design.",
+      "model_answer": "Apply ethical technology choice and suitable contact from SWP-031. Specify end-to-end keyboard and staffed routes. Define purpose, minimal fields and optional recording. Test unsupported claims and unequal errors with review authority. Reconcile the draft to the source. Assign states, acknowledgement and outage reconciliation. Propose defined rates and monitoring. Give a bounded decision and retest plan.",
+      "rubric": [
+        {
+          "criterion": "Ethical digital practice and accessible service routes (031 and 084)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Processing purpose, consent and accountable AI review (085 and 086)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Faithful documentation and traceable workflow (087 and 088)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Comparable measures and evidence limits (089)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Feasible decision, ownership and retest (090)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "DAI8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-031",
+        "SWP-084",
+        "SWP-085",
+        "SWP-086",
+        "SWP-087",
+        "SWP-088",
+        "SWP-089",
+        "SWP-090"
+      ],
+      "prompt": "Assess two designs for fictional Northbank: a staffed workflow and a structured queue with optional assisted drafting. Only ordinary cases ran successfully. One example omitted a preference, a reviewer could not amend it, participation was measured in logins, and people who never connected were omitted. Recommend a next step using all eight domains.",
+      "model_answer": "Apply digital practice ethics and continuity. Measure entry barriers and test access. Explain data purposes, safe contact and consent. Give reviewers source access, time and power to reject. Preserve voice and trace correction. Assign referral ownership and recovery. Compare rates, errors and burden using defined denominators. Select a justified limited next step with disconfirming tests.",
+      "rubric": [
+        {
+          "criterion": "Ethical digital practice and accessible service routes (031 and 084)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Processing purpose, consent and accountable AI review (085 and 086)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Faithful documentation and traceable workflow (087 and 088)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Comparable measures and evidence limits (089)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Feasible decision, ownership and retest (090)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "school_code": "DAI",
+  "checked_on": "2026-11-27",
+  "target": 8,
+  "retained": {
+    "code": "SWP-031",
+    "title": "Digital Social Work Practice",
+    "verified_modules": [
+      "Digital inclusion and service design",
+      "Information governance and secure practice",
+      "Telepractice, AI, and professional accountability"
+    ],
+    "verified_cbt_configured": true
+  },
+  "benchmarks": [
+    {
+      "name": "CSWE 2022 EPAS",
+      "url": "https://www.cswe.org/sites/default/files/2026-07/2022_EPAS.pdf",
+      "scope": "Competencies 1, 3, 4, 6–9. Ethical technology and supervision, inclusion, research-informed practice and engagement through evaluation. US degree accreditation comparator for supported scenarios."
+    },
+    {
+      "name": "CSWE 2029 EPAS Draft 1",
+      "url": "https://www.cswe.org/2029-epas",
+      "scope": "Emerging competency 10 frames ethical technology and AI selection. Draft consultation only, with a second draft expected in 2027."
+    },
+    {
+      "name": "DigComp 3.0",
+      "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digital-competence-framework-digcomp/digcomp-30_en",
+      "scope": "Information judgement, communication, content creation, safety and problem solving. AI competence appears throughout."
+    },
+    {
+      "name": "Nigeria Data Protection Act and GAID",
+      "sources": [
+        "S73",
+        "S74"
+      ],
+      "scope": "Nigerian primary legal instruments for purpose, necessity, lawful basis, rights and accountable processing. Exercises invite review of applicability in real practice."
+    }
+  ],
+  "progression": [
+    [
+      "SWP-031",
+      "Foundation",
+      "Digital practice principles, information governance and telepractice accountability."
+    ],
+    [
+      "SWP-084",
+      "Access",
+      "Journey mapping, selected WCAG 2.2 task checks and a staffed fallback."
+    ],
+    [
+      "SWP-085",
+      "Information governance",
+      "Field-level necessity, meaningful recording choice, protective account habits and incident reporting."
+    ],
+    [
+      "SWP-086",
+      "AI literacy",
+      "Rule, prediction and generation. Matched checks, evidence scope and reviewer authority."
+    ],
+    [
+      "SWP-087",
+      "Documentation",
+      "Source reconciliation, professional reflection, correction and downstream responsibility."
+    ],
+    [
+      "SWP-088",
+      "Operations",
+      "Case states, access matrix, timed handoffs and record reconciliation after an outage."
+    ],
+    [
+      "SWP-089",
+      "Evaluation",
+      "Measures with denominators, comparable tasks, adoption limits and monitoring."
+    ],
+    [
+      "SWP-090",
+      "Practicum",
+      "Options, tabletop exercise, disconfirming tests and a conditional decision."
+    ]
+  ],
+  "evidence_checks": {
+    "metric_sources": [
+      "https://www.scimagojr.com/journalsearch.php?q=21101018925&tip=sid",
+      "https://www.scimagojr.com/journalsearch.php?clean=0&q=5700166357&tip=sid",
+      "https://www.scimagojr.com/journalsearch.php?clean=0&q=5600153659&tip=sid"
+    ],
+    "metrics": "Journal quartiles are 2025 SJR by named category. Judge each study by method, context and results.",
+    "local_ijsds": "Issue PDF and IJSDS index inspected. Use Olawumi's situated discussion to frame cultural and language questions. Omit unverified statistics and bibliography assertions.",
+    "depth": "Seven guided short courses add applied work to the retained foundation. Field education, supervised practice and full degree or professional accreditation are separate."
+  }
+}
