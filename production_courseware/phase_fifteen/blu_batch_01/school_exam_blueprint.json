@@ -1,0 +1,715 @@
+{
+  "status": "draft_for_review",
+  "school_code": "BLU",
+  "curriculum_version": "BLU-proposed-six-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-091",
+    "SWP-092",
+    "SWP-093",
+    "SWP-094",
+    "SWP-095",
+    "SWP-096"
+  ],
+  "programme_target_course_count": 6,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {},
+  "scope_note": "Forty MCQ slots distributed 7, 7, 7, 7, 6 and 6. Each short answer covers one course and both essays integrate all six.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed duration for learner and accessibility piloting.",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Record human criterion scores and reasons, rubric version and independent named moderator.",
+    "appeals": "Retain the response, criteria, reasons, moderation and dated appeal and amendment outcomes."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Complete every approved course and pass the final verified mixed ParaLearn exam.",
+      "Human marking and independent moderation for written responses.",
+      "Authorised signatures from the Head of Learning and Founder Prof. Mina Ogbanga."
+    ]
+  },
+  "items": [
+    {
+      "id": "BLU6-SWP-091-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-091-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-092-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-093-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-094-MCQ-07",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-095-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SWP-096-MCQ-06",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "BLU6-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-091"
+      ],
+      "prompt": "A seawall and walkway proposal counts boat sales only and closes the morning walking route. A group claims it owns the shore. Give five corrections before recommending an option.",
+      "model_answer": "Map owners, crew, processors and household uses. Trace closure effects on work and food. Identify ecological dependencies. Compare feasible access options. Record reported rights and refer unresolved authority questions.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Livelihood map",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Access effects",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Ecological dependence",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Options comparison",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Authority and evidence",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-092"
+      ],
+      "prompt": "A fictional grant serves 12 of 18 applicants from 30 eligible workers. A named crew member reports delayed payment. Explain how to measure protection and handle the concern.",
+      "model_answer": "Calculate 40 percent of eligible workers and about 67 percent of applicants. Explore barriers before application. Record a safe support request. Use authorised labour referral. Track receipt and the outcome.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Rates and denominator",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Missing applicants",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Confidential response",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Appropriate referral",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Service follow-up",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-093"
+      ],
+      "prompt": "Flooding closes the route and power fails. An SMS reaches ten workers and only six of 20 can act. A drainage proposal pushes water toward homes. Give five review steps.",
+      "model_answer": "Identify hazard and exposed work. Explain a cascade through preservation and sales. Add an accessible alert and assisted route. Compare delivery, understanding and action. Seek qualified assessment of displaced risk and set a review trigger.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Risk components",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Cascade",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Accessible response",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Staged drill measures",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Transferred risk and review",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-094"
+      ],
+      "prompt": "A proposed marine zone omits seasonal shore use. Its meeting is inaccessible and a proposed replacement path has been counted as a completed remedy. Give five corrections.",
+      "model_answer": "Recognise the omitted use and verify claims. State open choices and responsible authority. Provide accessible participation. Record responses and an impartial review route. Verify practical remedy delivery at the relevant time.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Recognised uses",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Scope and authority",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Procedural access",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Feedback and grievance",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Delivered remedy",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-095"
+      ],
+      "prompt": "A grant covers a cold room but leaves eight running-cost units unfunded. The promoter calls every available slot a community benefit and claims net environmental gain without energy or nearby-site evidence. Give five corrections.",
+      "model_answer": "Separate capital and recurring commitments. Verify the operating owner and timing. Distinguish offered, booked and used slots. Check access and distribution. Require baseline, energy and displaced-activity evidence.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Funding gap",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Owner and timing",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Benefits pathway",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Distribution",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Environmental evidence",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-096"
+      ],
+      "prompt": "An Oru Reach pilot serves eight of ten ordinary cases and misses every low-cost user who was tested. A sponsor asks for expansion. Write five parts of the decision memo.",
+      "model_answer": "State a bounded revision or pause. Identify the group and denominator. Preserve access failure and compare the fallback. Set an owner and retest condition. Keep decisions, scope and next review date traceable.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Decision",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Comparable measures",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Adverse result and alternative",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Owner and retest",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Evidence record",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "BLU6-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-091",
+        "SWP-092",
+        "SWP-093",
+        "SWP-094",
+        "SWP-095",
+        "SWP-096"
+      ],
+      "prompt": "Design a phased fictional coastal livelihoods response. Flooding closes a landing route, workers outside the owner register miss support and a cold-room plan charges unaffordable fees. A nearby conservation zone affects shore harvesters. Use all six courses to compare alternatives and identify who can make the next decision.",
+      "model_answer": "Map activities and dependencies. Track labour and protection access with defined denominators. Connect coastal risk and continuity and test displaced burdens. Recognise shore rights and accessible participation and remedy. Verify recurring costs and effective benefits. Present a conditional choice, staffed fallback, evidence tests and accountable review.",
+      "rubric": [
+        {
+          "criterion": "Coastal livelihoods, work and effective protection (091 and 092)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Compound risk, warning access and displaced burden (093)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Equity, participation and grievance follow-up (094)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Finance feasibility and actual community benefit (095)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Justified option, accountability and review conditions (096)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "BLU6-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-091",
+        "SWP-092",
+        "SWP-093",
+        "SWP-094",
+        "SWP-095",
+        "SWP-096"
+      ],
+      "prompt": "Critique a claim that new shoreline investments prove sustainable and equitable development. Boat sales rose, warnings were sent, a site was designated, money was committed and ten ordinary demonstrations worked. Use all six BLU domains to explain what to measure and when to revise or pause.",
+      "model_answer": "Distinguish earnings, food, work and which groups benefit. Compare effective labour and protection access. Follow alerts to achievable action and examine transferred risk. Test conservation outcomes and fair governance. Separate commitment, recurring funding and delivered benefits. Identify exceptions, decision roles and retest conditions.",
+      "rubric": [
+        {
+          "criterion": "Coastal livelihoods, work and effective protection (091 and 092)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Compound risk, warning access and displaced burden (093)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Equity, participation and grievance follow-up (094)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Finance feasibility and actual community benefit (095)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        },
+        {
+          "criterion": "Justified option, accountability and review conditions (096)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with responsible action."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

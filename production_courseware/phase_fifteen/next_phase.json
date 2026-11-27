@@ -1,0 +1,19 @@
+{
+  "phase": 16,
+  "school_code": "EIL",
+  "school_name": "School of Extractive Industries, Livelihoods and SW-EMHEC",
+  "target_courses": 8,
+  "planned_retained_codes": [],
+  "first_step": "Verify the live course baseline, confirm the scope and meaning of SW-EMHEC and check existing curriculum evidence. Preserve all current courses and CBTs.",
+  "proposed_additions": [
+    "Extractive Sector Social Work and Community Relations",
+    "Social and Environmental Impact Assessment Literacy",
+    "Livelihood Restoration and Just Transition",
+    "Community Health Risks and Referral Coordination",
+    "Land Displacement and Community Benefit Negotiation",
+    "Grievance Conflict and Stakeholder Engagement",
+    "Corporate Accountability and Community Monitoring",
+    "Extractives Community Intervention Practicum"
+  ],
+  "boundaries": "Use the existing roadmap and research to separate cross-sector extractive practice from the related SNC and SPIA statutory courses."
+}

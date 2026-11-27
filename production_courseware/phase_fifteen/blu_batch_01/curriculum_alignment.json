@@ -1,0 +1,67 @@
+{
+  "school_code": "BLU",
+  "verified_live_baseline": 0,
+  "target": 6,
+  "evidence_checked_on": "2026-11-27",
+  "depth": "Guided short-course practice using fictional cases. The comparisons inform breadth and applied outcomes. Formal academic accreditation, field practice and specialist environmental assessment require their own evidence.",
+  "comparators": [
+    {
+      "name": "Duke Ocean and Environmental Justice ENVIRON303SA",
+      "url": "https://undergraduate.bulletins.duke.edu/courses/0303942",
+      "use": "The 2026–27 bulletin covers fisheries, blue economy, sea level, protected areas and justice case analysis."
+    },
+    {
+      "name": "Council on Social Work Education 2022 EPAS",
+      "url": "https://www.cswe.org/sites/default/files/2026-07/2022_EPAS.pdf",
+      "use": "Selected competencies on ethics, justice, inclusive practice, research and evaluation informed the client and community decision exercises."
+    },
+    {
+      "name": "FAO Small-Scale Fisheries Guidelines",
+      "sources": [
+        "S81"
+      ],
+      "use": "Tenure, responsible management, labour, protection, value chains, gender equality and climate response."
+    },
+    {
+      "name": "IPCC Africa assessment, Global Biodiversity Framework and UNEP FI",
+      "sources": [
+        "S82",
+        "S83",
+        "S84"
+      ],
+      "use": "Compare risks, trade-offs, equitable marine decisions and finance screening."
+    }
+  ],
+  "mapped_outputs": [
+    [
+      "SWP-091",
+      "Coastal activity, ecosystem dependence and access map"
+    ],
+    [
+      "SWP-092",
+      "Value chain worker profile, protection pathway and referral follow-up"
+    ],
+    [
+      "SWP-093",
+      "Compound risk chain, accessible warning drill and comparative adaptation appraisal"
+    ],
+    [
+      "SWP-094",
+      "Equity review, participation log and grievance remedy check"
+    ],
+    [
+      "SWP-095",
+      "Commitment and running-cost map, distribution review and benefit verification"
+    ],
+    [
+      "SWP-096",
+      "Coastal options memo, exception test and monitoring decision"
+    ]
+  ],
+  "distinctions": "ERT covers broad ecosocial resilience. BLU examines work and community access in coastal and marine settings. SUS covers organisational environmental sustainability. EIL, SNC and SPIA handle extractive impacts and statutory applications in greater depth.",
+  "metrics": [
+    "https://www.scimagojr.com/journalsearch.php?q=21206&tip=sid",
+    "https://www.scimagojr.com/journalsearch.php?q=27851&tip=sid",
+    "https://www.scimagojr.com/journalsearch.php?clean=0&q=73771&tip=sid"
+  ]
+}

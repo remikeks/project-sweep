@@ -1,0 +1,3592 @@
+{
+  "version": "0.1.0",
+  "status": "draft_for_review",
+  "evidence_checked_on": "2026-11-27",
+  "review": {
+    "subject_matter": "pending",
+    "Nigerian_practice_and_legal": "pending",
+    "accessibility_and_pilot": "pending",
+    "publication": "not_approved",
+    "owner_material_release_authorised": true,
+    "paralearn_mixed_exam": "unverified"
+  },
+  "references": [
+    {
+      "id": "S81",
+      "author": "FAO",
+      "year": 2015,
+      "title": "Voluntary Guidelines for Securing Sustainable Small-Scale Fisheries",
+      "url": "https://www.fao.org/fi/static-media/MeetingDocuments/COFI_FT/files/a-i4356e.pdf",
+      "use": "Recognise tenure, social protection, decent work, gender equity and the full fisheries value chain.",
+      "kind": "practice_guidance",
+      "appraisal": "Official publication sections 5–9 inspected. Voluntary guidance. Scope centres on capture fisheries and includes land-based workers across its chain.",
+      "licence": "Official document linked. Original teaching examples and commentary.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Rights and livelihoods in fisheries",
+      "slide_limit": "Voluntary guidance. Confirm duties and local authority.",
+      "link_label": "www.fao.org"
+    },
+    {
+      "id": "S82",
+      "author": "IPCC",
+      "year": 2022,
+      "title": "AR6 Working Group II Chapter 9: Africa",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter09.pdf",
+      "use": "Frame interacting coastal risks, adaptation limits and risks displaced across sectors.",
+      "kind": "practice_guidance",
+      "appraisal": "Selected executive summary and risk and adaptation sections of the approved assessment inspected. Regional synthesis. Local decisions require site evidence and relevant authority.",
+      "licence": "IPCC assessment linked. Original commentary.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Climate risks and adaptation across Africa",
+      "slide_limit": "Regional evidence informs questions for local appraisal.",
+      "link_label": "www.ipcc.ch"
+    },
+    {
+      "id": "S83",
+      "author": "Convention on Biological Diversity",
+      "year": 2022,
+      "title": "Kunming–Montreal Global Biodiversity Framework, Target 3",
+      "url": "https://www.cbd.int/financial/t3.shtml",
+      "use": "Distinguish conservation area from conservation outcomes, rights and equitable governance.",
+      "kind": "practice_guidance",
+      "appraisal": "Official adopted target wording and guidance inspected. Global 2030 target. Local restrictions and rights require a separate authorised process.",
+      "licence": "Official target linked. Original commentary.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Equitable conservation governance",
+      "slide_limit": "Global target. Verify applicable local decisions.",
+      "link_label": "www.cbd.int"
+    },
+    {
+      "id": "S84",
+      "author": "UNEP Finance Initiative",
+      "year": 2018,
+      "title": "Sustainable Blue Economy Finance Principles",
+      "url": "https://www.unepfi.org/blue-finance/the-principles/",
+      "use": "Screen proposed finance for marine impacts, cumulative effects, inclusion, uncertainty and transparency.",
+      "kind": "practice_guidance",
+      "appraisal": "Official fourteen-principle page inspected. Voluntary principles for financial institutions, with evidence and governance questions for simulated project review.",
+      "licence": "Official principles linked. Original analysis.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Screening blue finance proposals",
+      "slide_limit": "Voluntary principles inform appraisal questions.",
+      "link_label": "www.unepfi.org"
+    },
+    {
+      "id": "R91",
+      "author": "Basurto X and colleagues",
+      "year": 2025,
+      "title": "Illuminating the multidimensional contributions of small-scale fisheries",
+      "url": "https://doi.org/10.1038/s41586-024-08448-z",
+      "use": "Distinguish catch, landed value, work, nutrition, subsistence and governance.",
+      "kind": "peer_reviewed_research",
+      "appraisal": "Version of record accessed through PMC. Fifty-eight country case studies plus varied secondary data and extrapolation. Estimates of catch refer chiefly to 2013–17. Sources and denominators differ by measure. Use domains and evidence limits in local enquiry.",
+      "licence": "CC BY-NC-ND 4.0. SJR 2025 Q1 Multidisciplinary (Nature). Link and original factual commentary.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Measuring fisheries contributions",
+      "slide_limit": "Global estimates combine case data and extrapolation.",
+      "link_label": "doi.org/10.1038/s41586-024-08448-z"
+    },
+    {
+      "id": "R92",
+      "author": "Abikoye O and Abikoye A",
+      "year": 2025,
+      "title": "Marine policy and community engagement on Lagos’ Atlantic coast",
+      "url": "https://doi.org/10.1016/j.marpol.2025.106850",
+      "use": "Identify questions about access to alerts, preservation, representation and local ecological observations.",
+      "kind": "peer_reviewed_research",
+      "appraisal": "Publisher-indexed abstract and methods excerpts describe surveys, interviews and focus groups in 2022 and 2024 with purposive selection of women and women with disabilities. Direct publisher access returned 403. Use only supported contextual findings and avoid causal or prevalence claims.",
+      "licence": "Open access per publisher index. Author-shared copy lists CC BY-NC-ND 4.0. SJR 2025 Q1 Management, Monitoring, Policy and Law. Link and factual commentary only.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Coastal inclusion and adaptation in Lagos",
+      "slide_limit": "Contextual mixed methods. Ask who is missing.",
+      "link_label": "doi.org/10.1016/j.marpol.2025.106850"
+    },
+    {
+      "id": "R93",
+      "author": "Oparinde LO and Hess S",
+      "year": 2026,
+      "title": "Cooperatives and climate change adaptation in Nigerian artisanal fisheries",
+      "url": "https://doi.org/10.1111/agec.70135",
+      "use": "Examine how cooperative membership and adaptation choices relate to reported conflict and access to support.",
+      "kind": "peer_reviewed_research",
+      "appraisal": "Publisher HTML methods and limitations inspected. Cross-sectional survey of 1,000 fisherfolk across five coastal states. Model-based estimates depend on identification assumptions. Authors recommend longitudinal research. Use institutional questions rather than policy effect estimates.",
+      "licence": "Publisher marks Open Access. Link and original factual commentary. SJR 2025 Q1 Economics and Econometrics.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Cooperatives and adaptation",
+      "slide_limit": "Cross-sectional evidence. Examine access and selection.",
+      "link_label": "doi.org/10.1111/agec.70135"
+    },
+    {
+      "id": "S85",
+      "author": "Mezewo O and Emeodu EN",
+      "year": 2025,
+      "title": "Oil resource crisis and social work intervention in Emohua, Rivers State",
+      "url": "https://njournals.org/index.php/IJSDS/article/view/3351",
+      "use": "Discuss links between cumulative environmental pressures and the work of social service and accountability teams.",
+      "kind": "practice_guidance",
+      "appraisal": "IJSDS records issue 1(1) in 2025 and mirror posted November 2026. Publisher abstract reports thematic analysis of secondary material. Full paper was unavailable on the mirror. Use contextual questions only, without intervention effect or prevalence claims.",
+      "licence": "Link and original commentary. No journal quartile or reuse licence claimed.",
+      "checked_on": "2026-11-27",
+      "slide_title": "Local social work in Emohua",
+      "slide_limit": "Secondary thematic discussion. Scope conclusions locally.",
+      "link_label": "njournals.org"
+    }
+  ],
+  "courses": [
+    {
+      "code": "SWP-091",
+      "title": "Coastal Communities and Blue Economy Foundations",
+      "slug": "coastal-communities-and-blue-economy-foundations",
+      "cover_title": "Coastal Communities\nand Blue Economy\nFoundations",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Map how coastal activities, ecosystems and public decisions affect livelihoods, access and social wellbeing.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Map coastal livelihoods and ecosystems",
+          "outcome": "Trace a coastal resource through work, household use and ecological dependencies.",
+          "paragraphs": [
+            "A coastal economy includes work on water and on land. Follow a catch from preparation to landing, processing, transport, retail and household consumption. Other coastal activities may use the same beach, harbour or mangrove edge. One organisation can benefit from a new dock while people carrying fish through a landing area lose an established route. [S81]",
+            "People use coastal resources for food, earnings, care and cultural ties. Income recorded at first sale leaves out some home consumption and unpaid work. Basurto and colleagues distinguish several measures of fisheries contribution, using country case data and extrapolation to estimate different dimensions. The global estimates suggest domains to investigate. A village profile requires evidence from its own population and period. [R91]",
+            "Identify the ecological function that supports each specific activity. A sheltered creek may enable access to a landing site. A mangrove belt can support habitat and reduce some wave exposure under suitable conditions. Name what is observed and what requires environmental expertise. An asset can have several functions and those functions can operate over different seasons and locations. [S82]",
+            "Make a table with columns for activity, people, site, dependence, evidence and an uncertainty. Include one activity that lacks an official trade record. Suppose a new gate allows trucks in but blocks the walking route. Trace the likely change through processing time, local food access and earnings. Mark these effects as hypotheses and name the people whose experiences could help verify them. [S81] Consider how time spent queuing, carrying fish or finding another route changes a worker’s available hours and a household’s ability to obtain food."
+          ],
+          "example": "Fictional case: A coastal redevelopment proposal records boat sales but leaves out processors, local buyers and households that consume part of the catch.",
+          "activity": "Draw the value chain and identify a dependence, an excluded group and a missing measure at three points.",
+          "feedback": "Record household use and land-based work separately. Specify the habitat or route that sustains each activity and who can verify it.",
+          "sources": [
+            "R91",
+            "S81",
+            "S82"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Compare competing shoreline uses",
+          "outcome": "Compare shoreline options using the same access, ecological and social criteria.",
+          "paragraphs": [
+            "Start comparison with the purpose of each use. A sheltered landing supports fish handling, a tourism walkway supports public visits, and a restoration zone supports habitat recovery. Map when and where each requires space. A conflict may come from a bottleneck during particular hours. Describe who needs continuous access and who can change the time or location affordably. [S81]",
+            "Treat formal permission, practical access and a claim about rights as distinct evidence. A map may omit seasonal paths or customary use. A person may value a route that they do not formally own. Document claims and their sources without deciding title in the classroom. Identify when a verified decision maker, consultation or specialist advice would be required before narrowing access. [S83]",
+            "Compare the options under common criteria. Include marine habitat, food availability, work and income, access for people with disabilities, distribution of costs and agency capacity to maintain a route. Check cumulative pressure from nearby development as well as the proposed project. A small additional change may matter at an already congested location. Flag the conditions on which your comparison depends. [S82] [S84]",
+            "If an alternative landing is available, ask whether it works at the right time and whether equipment, fees, safe access and transport are practical. Interview attendance in a proposed project would describe who attended. It could miss others with a similar claim and different information needs. Consider who bears the extra time if the route changes and how people can influence a revision. [R92] Use a time map covering ordinary work and peak landing periods. Explain where differences in timing matter most."
+          ],
+          "example": "Fictional case: A promenade would cross the only morning unloading route. An alternative site is open later, charges an entry fee and has no covered unloading area.",
+          "activity": "Compare a shared-time route and relocation using the same five criteria. Flag one claim requiring formal review.",
+          "feedback": "The later route transfers costs to workers. Check practical access at the relevant time and document which decision requires authority.",
+          "sources": [
+            "R92",
+            "S81",
+            "S82",
+            "S83",
+            "S84"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Define a social work response",
+          "outcome": "Specify a proportionate response with service, advocacy and specialist referral roles.",
+          "paragraphs": [
+            "A practitioner can help people describe a change in daily life, organise safe access to services and bring unresolved concerns to an appropriate decision forum. Begin with the practical effect on someone such as a processor losing a sheltered place to work. Ask what help is wanted and whether others face similar barriers. Protect confidentiality when combining individual accounts into a shared issue. [S81]",
+            "Environmental pressures can overlap. An IJSDS article on Emohua uses existing sources to discuss degradation, livelihood loss and advocacy in an oil-producing area. It offers reasons to ask about environmental and social service responsibilities. The paper's locality and descriptive design limit inference about which source caused a specific incident or whether a particular intervention improved outcomes. [S85]",
+            "Distinguish immediate service needs from longer-term rights and policy questions. Practical support may include connecting a household to an authorised service or arranging an accessible meeting. A technical environmental claim may require a qualified assessment. A dispute about land or compensation should reach a role with recognised authority. Explain which evidence you hold and record questions that remain open. [S82]",
+            "Draft an action record that names a stated concern, its evidence, the person or group affected, an immediate service step and a responsible role. Include a date to review what actually happened. A referral sent does not guarantee a service received. Track receipt and acknowledge delays. When discussing a shared issue, name the source category and avoid identifying details that could expose individuals. [S81] Record which actions the practitioner can take within the agency and which depend on a separate decision."
+          ],
+          "example": "Fictional case: A processor asks for service support after access to the beach changes. A village notice attributes the change to an unverified environmental event.",
+          "activity": "Separate the support request from attribution. Name the immediate referral, authorised technical route and a review date.",
+          "feedback": "Address the stated need first. Record attribution as unresolved and refer the evidence question to a competent role.",
+          "sources": [
+            "S81",
+            "S82",
+            "S85"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-091",
+        "course_slug": "coastal-communities-and-blue-economy-foundations",
+        "title": "Coastal Communities and Blue Economy Foundations",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "3df89462d4a455222bd8fab4900ad8c451cfa1cd6a2ccb575c9cf8377a14cbc5",
+        "catalogue_sha256": "32ec4e8f7029b1c4b7cfa1dfedfdd50d1d12f9651121de7b645f56882463763f",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Map coastal livelihoods and ecosystems",
+            "outcome": "Trace a coastal resource through work, household use and ecological dependencies.",
+            "teaching_points": [
+              {
+                "id": "SWP-091-M1-T1",
+                "text": "Map work along the chain."
+              },
+              {
+                "id": "SWP-091-M1-T2",
+                "text": "Capture household use."
+              },
+              {
+                "id": "SWP-091-M1-T3",
+                "text": "Identify ecosystem dependence."
+              },
+              {
+                "id": "SWP-091-M1-T4",
+                "text": "Use estimates at the right scale."
+              },
+              {
+                "id": "SWP-091-M1-T5",
+                "text": "Trace access effects."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Compare competing shoreline uses",
+            "outcome": "Compare shoreline options using the same access, ecological and social criteria.",
+            "teaching_points": [
+              {
+                "id": "SWP-091-M2-T1",
+                "text": "Map space and time together."
+              },
+              {
+                "id": "SWP-091-M2-T2",
+                "text": "Distinguish claims and authority."
+              },
+              {
+                "id": "SWP-091-M2-T3",
+                "text": "Use consistent criteria."
+              },
+              {
+                "id": "SWP-091-M2-T4",
+                "text": "Check cumulative effects."
+              },
+              {
+                "id": "SWP-091-M2-T5",
+                "text": "Test a practical alternative."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Define a social work response",
+            "outcome": "Specify a proportionate response with service, advocacy and specialist referral roles.",
+            "teaching_points": [
+              {
+                "id": "SWP-091-M3-T1",
+                "text": "Start with the person's stated concern."
+              },
+              {
+                "id": "SWP-091-M3-T2",
+                "text": "Use IJSDS within its method."
+              },
+              {
+                "id": "SWP-091-M3-T3",
+                "text": "Refer specialist decisions."
+              },
+              {
+                "id": "SWP-091-M3-T4",
+                "text": "Protect identifying details."
+              },
+              {
+                "id": "SWP-091-M3-T5",
+                "text": "Track service receipt."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-091-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-091-M1-T1",
+            "question": "Where should gear repair appear in the map?",
+            "options": [
+              {
+                "text": "Only under household consumption.",
+                "correct": false
+              },
+              {
+                "text": "Only under recorded exports.",
+                "correct": false
+              },
+              {
+                "text": "Before harvest, as an activity supporting production.",
+                "correct": true
+              },
+              {
+                "text": "Under coastal hazard assessment.",
+                "correct": false
+              }
+            ],
+            "rationale": "Preparation is part of the value chain."
+          },
+          {
+            "id": "SWP-091-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-091-M1-T2",
+            "question": "Which value is directly missed by a first-sale ledger?",
+            "options": [
+              {
+                "text": "The price of a recorded auction sale.",
+                "correct": false
+              },
+              {
+                "text": "The volume sold at auction.",
+                "correct": false
+              },
+              {
+                "text": "The date of the recorded transaction.",
+                "correct": false
+              },
+              {
+                "text": "Fish retained for household consumption.",
+                "correct": true
+              }
+            ],
+            "rationale": "Household use can occur without a sale."
+          },
+          {
+            "id": "SWP-091-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-091-M1-T3",
+            "question": "Which entry links a coastal activity to a feature?",
+            "options": [
+              {
+                "text": "The sheltered creek provides access to the landing point.",
+                "correct": true
+              },
+              {
+                "text": "The pier has a new sign.",
+                "correct": false
+              },
+              {
+                "text": "The workers share a surname.",
+                "correct": false
+              },
+              {
+                "text": "The report uses a colour scale.",
+                "correct": false
+              }
+            ],
+            "rationale": "A dependency explains how conditions make a task possible."
+          },
+          {
+            "id": "SWP-091-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-091-M1-T4",
+            "question": "How should the global fisheries study inform a village assessment?",
+            "options": [
+              {
+                "text": "Copy its global ratios as village counts.",
+                "correct": false
+              },
+              {
+                "text": "Suggest dimensions to measure and verify them locally.",
+                "correct": true
+              },
+              {
+                "text": "Treat global totals as this season's observations.",
+                "correct": false
+              },
+              {
+                "text": "Allocate the village share by population alone.",
+                "correct": false
+              }
+            ],
+            "rationale": "Data collection and extrapolation have a defined scale."
+          },
+          {
+            "id": "SWP-091-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-091-M1-T5",
+            "question": "What is the first plausible effect of closing the walking gate?",
+            "options": [
+              {
+                "text": "Boat ownership automatically changes.",
+                "correct": false
+              },
+              {
+                "text": "The mangrove belt disappears that day.",
+                "correct": false
+              },
+              {
+                "text": "Porters and buyers may lose their established passage.",
+                "correct": true
+              },
+              {
+                "text": "Every price rises by a known amount.",
+                "correct": false
+              }
+            ],
+            "rationale": "Start with the changed route and test downstream effects."
+          },
+          {
+            "id": "SWP-091-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-091-M2-T1",
+            "question": "Which detail helps locate the real conflict?",
+            "options": [
+              {
+                "text": "Only the official name of the promenade.",
+                "correct": false
+              },
+              {
+                "text": "The number of images in the proposal.",
+                "correct": false
+              },
+              {
+                "text": "The height of the information board.",
+                "correct": false
+              },
+              {
+                "text": "The hours when unloading overlaps pedestrian demand.",
+                "correct": true
+              }
+            ],
+            "rationale": "Time and location reveal specific overlap."
+          },
+          {
+            "id": "SWP-091-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-091-M2-T2",
+            "question": "How should a seasonal access claim enter the classroom map?",
+            "options": [
+              {
+                "text": "Record the reported use and identify the authority that can assess it.",
+                "correct": true
+              },
+              {
+                "text": "Declare immediate legal title from the claim.",
+                "correct": false
+              },
+              {
+                "text": "Erase the route because it is seasonal.",
+                "correct": false
+              },
+              {
+                "text": "Attribute it to all workers without checking.",
+                "correct": false
+              }
+            ],
+            "rationale": "A reported claim and an authorised determination have different status."
+          },
+          {
+            "id": "SWP-091-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-091-M2-T3",
+            "question": "Which comparison treats alternatives fairly?",
+            "options": [
+              {
+                "text": "Count fees for only the shared option.",
+                "correct": false
+              },
+              {
+                "text": "Apply the same criteria for access, workload and ecological effects.",
+                "correct": true
+              },
+              {
+                "text": "Consider connectivity in only one season for all options.",
+                "correct": false
+              },
+              {
+                "text": "Compare revenue for one route and attendance for the other.",
+                "correct": false
+              }
+            ],
+            "rationale": "Common criteria make trade-offs interpretable."
+          },
+          {
+            "id": "SWP-091-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-091-M2-T4",
+            "question": "What should a team consider beyond the promenade footprint?",
+            "options": [
+              {
+                "text": "Only its colour plan.",
+                "correct": false
+              },
+              {
+                "text": "Only work inside the boundary.",
+                "correct": false
+              },
+              {
+                "text": "Whether other changes already narrow usable access nearby.",
+                "correct": true
+              },
+              {
+                "text": "Only the new operator's balance sheet.",
+                "correct": false
+              }
+            ],
+            "rationale": "Multiple changes can combine at a shared bottleneck."
+          },
+          {
+            "id": "SWP-091-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-091-M2-T5",
+            "question": "Which fact most directly challenges the replacement site?",
+            "options": [
+              {
+                "text": "It has a newer logo.",
+                "correct": false
+              },
+              {
+                "text": "Its new sign has a different title.",
+                "correct": false
+              },
+              {
+                "text": "It lies within the same district.",
+                "correct": false
+              },
+              {
+                "text": "Its gates open after the regular unloading window.",
+                "correct": true
+              }
+            ],
+            "rationale": "A replacement route must function when people need it."
+          },
+          {
+            "id": "SWP-091-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-091-M3-T1",
+            "question": "Which first step respects the processor's priorities?",
+            "options": [
+              {
+                "text": "Ask what access or service support they need now.",
+                "correct": true
+              },
+              {
+                "text": "Announce the cause before listening.",
+                "correct": false
+              },
+              {
+                "text": "Promise payment on behalf of a regulator.",
+                "correct": false
+              },
+              {
+                "text": "Collect public signatures naming the processor.",
+                "correct": false
+              }
+            ],
+            "rationale": "A proportionate response follows the expressed need."
+          },
+          {
+            "id": "SWP-091-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-091-M3-T2",
+            "question": "What can the Emohua discussion contribute to the scenario?",
+            "options": [
+              {
+                "text": "Proof of what caused this beach change.",
+                "correct": false
+              },
+              {
+                "text": "Questions about linked livelihood and service pressures.",
+                "correct": true
+              },
+              {
+                "text": "A measured impact of a new service.",
+                "correct": false
+              },
+              {
+                "text": "A universal ranking of remedies.",
+                "correct": false
+              }
+            ],
+            "rationale": "A secondary thematic account frames local inquiry."
+          },
+          {
+            "id": "SWP-091-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-091-M3-T3",
+            "question": "Who assesses competing technical explanations of a real environmental incident?",
+            "options": [
+              {
+                "text": "A learner acting alone.",
+                "correct": false
+              },
+              {
+                "text": "The first person to post a notice.",
+                "correct": false
+              },
+              {
+                "text": "The competent environmental authority or specialist.",
+                "correct": true
+              },
+              {
+                "text": "The finance sponsor without evidence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Technical attribution requires evidence and appropriate competence."
+          },
+          {
+            "id": "SWP-091-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-091-M3-T4",
+            "question": "What can be shared in an authorised summary?",
+            "options": [
+              {
+                "text": "A client list for unrestricted circulation.",
+                "correct": false
+              },
+              {
+                "text": "The address of the first complainant by default.",
+                "correct": false
+              },
+              {
+                "text": "All case notes copied verbatim.",
+                "correct": false
+              },
+              {
+                "text": "An aggregate pattern with details limited to the decision's need.",
+                "correct": true
+              }
+            ],
+            "rationale": "Purpose and privacy guide aggregation."
+          },
+          {
+            "id": "SWP-091-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-091-M3-T5",
+            "question": "Which marker shows a useful follow-up step?",
+            "options": [
+              {
+                "text": "The receiving role acknowledges the referral and reports the next action.",
+                "correct": true
+              },
+              {
+                "text": "The sender adds a tick without checking.",
+                "correct": false
+              },
+              {
+                "text": "The forum takes a group photo.",
+                "correct": false
+              },
+              {
+                "text": "The concern is marked resolved after posting.",
+                "correct": false
+              }
+            ],
+            "rationale": "Acknowledgement and delivery are distinct events."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-092",
+      "title": "Fisheries Livelihoods, Labour and Social Protection",
+      "slug": "fisheries-livelihoods-labour-and-social-protection",
+      "cover_title": "Fisheries Livelihoods,\nLabour and\nSocial Protection",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Assess work and protection gaps across a fictional small-scale fishery and design a traceable service referral.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Recognise visible and hidden fish work",
+          "outcome": "Map fisheries work, earnings and gaps in worker representation.",
+          "paragraphs": [
+            "Map who prepares equipment and supplies, catches, transports, processes and sells fish. Work may be occasional, informal, seasonal or unpaid. An owner register may be useful for licensing questions, while a labour enquiry needs information about tasks, hours and control of income. Include arrangements in which someone receives a catch share or receives fish for household use. [S81]",
+            "Describe access to inputs and the ability to refuse unfair terms. A processor may have a regular buyer yet lack cold storage and have little time to negotiate after landing. A boat crew member may face income gaps when weather prevents trips. Ask who sets the terms, whether workers understand them and which authorised route can address a concern. [S81]",
+            "The global fisheries study estimates catch, nutrition, landed value, employment and livelihoods from different data sources and methods. The researchers examine roles across value-chain stages, which helps make work visible beyond harvesting. Use that insight to design a local set of questions about tasks and pay. Record the source and period for any measure used in a fictional profile. [R91]",
+            "When an association represents owners, add routes for crew, shore workers and self-employed traders to raise their priorities. Pay attention to meeting times, language and accessibility. Ask which decision participants could influence, and document disputes or missing voices. Imagine two people sharing the same stall but paying different fees under different business arrangements. A single average may hide an important difference. [R92] Consider changes between a profitable landing period and a lean season. The same person may shift roles or combine work with unpaid care."
+          ],
+          "example": "Fictional case: The only livelihood register lists boat owners. A proposed stall charge affects informal traders and processors who did not receive meeting notices.",
+          "activity": "Create a worker map and propose a way to capture terms, work contributions and concerns across the chain.",
+          "feedback": "Record actual tasks and payment arrangements. Consult shore workers through an accessible route and identify the decision owner.",
+          "sources": [
+            "R91",
+            "R92",
+            "S81"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Connect decent work to practical support",
+          "outcome": "Identify a worker concern and the service or competent role that can address it.",
+          "paragraphs": [
+            "Decent work concerns the circumstances under which people earn a livelihood. In a fishery, distinct concerns can include uncertain pay, long hours, occupational exposures, limited representation or inadequate access to protection. Begin by separating what the worker reports from the issue a responsible service can assess. For example, a report of repeated payment delays calls for fact collection and an authorised advice route. [S81]",
+            "A worker using a communal processing area may have concerns about air quality, burns or the burden of handling materials. The social work role includes understanding the effect on daily life, connecting people to appropriate support and raising shared concerns with authorised teams. Use published agency channels for real emergencies and qualified safety and health assessment for technical conclusions. [S81]",
+            "Analyse effects on workers with different power and opportunities. Missing pay records can affect a claim. A neutral conversation may still be hard if the employer is present or housing depends on maintaining the job. Give workers a private, accessible means to ask for support. Identify a trusted authorised referral role, practical language needs and what can be shared with consent and appropriate authority. [S81]",
+            "Make a classroom referral note with the concern, source, immediate need, just enough supporting information and the date follow-up is due. Name the origin and destination of the referral. An agreed next contact can be more valuable than a long list of agencies. Keep unresolved issues open until someone confirms receipt and an accessible response. Where protection barriers affect multiple workers, record that pattern. [S81] Check whether the receiving service has a safe appointment route before telling the worker when to expect a response."
+          ],
+          "example": "Fictional case: A processor reports two missed payments and asks for help privately. The group manager proposes discussing the case in front of every buyer.",
+          "activity": "Identify a confidential first response and a referral that can check payment records and applicable rights.",
+          "feedback": "Record the concern and safe contact option. Refer through an authorised advice or labour route and track a response.",
+          "sources": [
+            "S81"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Track access to social protection",
+          "outcome": "Compare effective protection before and after a fictional fishing interruption.",
+          "paragraphs": [
+            "Social protection can help people manage risks that interrupt livelihood, such as injury or loss of earnings. Examine the protections applicable to the case and the actions people must take to reach them. The FAO guidance asks states to consider the needs of small-scale fisheries workers across the chain. A real eligibility decision depends on programme rules and the competent service. [S81]",
+            "Use an access pathway with stages for awareness, application, decision, timely receipt and a correction or review route. People can be excluded at each stage. A document requirement can be particularly difficult for workers whose earnings are irregular or informal. Track who could understand the notice, submit acceptable evidence and receive help within a useful period. Record where data are missing. [S81]",
+            "Consider fictional counts of thirty eligible workers and eighteen recorded applications. If twelve people receive timely support, that is twelve of thirty among eligible workers and twelve of eighteen among applicants. Both measures are useful when labelled. The latter figure omits gaps before application. Do not assume that those who did not apply had adequate income or chose to stay outside. [S81]",
+            "Cooperatives can offer information or mutual support, and membership terms can exclude workers. The Nigerian study of cooperative membership and adaptation uses survey observations and models that depend on assumptions. Compare access among members and nonmembers in the exercise, and ask whether prior influence or resources help explain any difference. Propose one practical improvement with an owner, timing and testable measure. [R93] If someone receives assistance late, record their experience separately. A delayed payment can still matter without meeting a timeliness measure."
+          ],
+          "example": "Fictional case: After a fictional interruption, 30 workers meet supplied eligibility rules, 18 applied and 12 received timely support. The agency reports success using only applicants.",
+          "activity": "Compute both rates and identify a possible barrier at application. Propose a support step and an accountable follow-up measure.",
+          "feedback": "Timely receipt is 40 percent among the eligible group and about 67 percent among applicants. Find out why eligible workers did not apply.",
+          "sources": [
+            "R93",
+            "S81"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-092",
+        "course_slug": "fisheries-livelihoods-labour-and-social-protection",
+        "title": "Fisheries Livelihoods, Labour and Social Protection",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "b610b8ee8ca74ed4ff4bfcbdb7df0f69d5ebb01fc58c7680928be892be7d087d",
+        "catalogue_sha256": "dde88fb071f2aab68d5c47594797621f163706a256a364e387720e5020262e99",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Recognise visible and hidden fish work",
+            "outcome": "Map fisheries work, earnings and gaps in worker representation.",
+            "teaching_points": [
+              {
+                "id": "SWP-092-M1-T1",
+                "text": "Describe tasks across the chain."
+              },
+              {
+                "id": "SWP-092-M1-T2",
+                "text": "Record forms of payment."
+              },
+              {
+                "id": "SWP-092-M1-T3",
+                "text": "Distinguish source measures."
+              },
+              {
+                "id": "SWP-092-M1-T4",
+                "text": "Identify bargaining constraints."
+              },
+              {
+                "id": "SWP-092-M1-T5",
+                "text": "Represent excluded workers."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Connect decent work to practical support",
+            "outcome": "Identify a worker concern and the service or competent role that can address it.",
+            "teaching_points": [
+              {
+                "id": "SWP-092-M2-T1",
+                "text": "Classify the work concern."
+              },
+              {
+                "id": "SWP-092-M2-T2",
+                "text": "Route technical assessment."
+              },
+              {
+                "id": "SWP-092-M2-T3",
+                "text": "Protect the discussion."
+              },
+              {
+                "id": "SWP-092-M2-T4",
+                "text": "Assign responsibility."
+              },
+              {
+                "id": "SWP-092-M2-T5",
+                "text": "Check progression."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Track access to social protection",
+            "outcome": "Compare effective protection before and after a fictional fishing interruption.",
+            "teaching_points": [
+              {
+                "id": "SWP-092-M3-T1",
+                "text": "Separate entitlement from receipt."
+              },
+              {
+                "id": "SWP-092-M3-T2",
+                "text": "Keep eligible people in view."
+              },
+              {
+                "id": "SWP-092-M3-T3",
+                "text": "Use the right denominator."
+              },
+              {
+                "id": "SWP-092-M3-T4",
+                "text": "Examine cooperative membership."
+              },
+              {
+                "id": "SWP-092-M3-T5",
+                "text": "Give a measurable correction."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-092-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-092-M1-T1",
+            "question": "Who is directly missed by a register restricted to owners?",
+            "options": [
+              {
+                "text": "Every registered owner.",
+                "correct": false
+              },
+              {
+                "text": "A licensor using the owner list.",
+                "correct": false
+              },
+              {
+                "text": "A shore processor without a boat.",
+                "correct": true
+              },
+              {
+                "text": "A registered owner who attends meetings.",
+                "correct": false
+              }
+            ],
+            "rationale": "Ownership data can omit work in other roles."
+          },
+          {
+            "id": "SWP-092-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-092-M1-T2",
+            "question": "How should regular payment in fish enter an earnings inquiry?",
+            "options": [
+              {
+                "text": "Count it automatically as a boat asset.",
+                "correct": false
+              },
+              {
+                "text": "Discard it from any livelihood inquiry.",
+                "correct": false
+              },
+              {
+                "text": "Record it as an unpaid tax.",
+                "correct": false
+              },
+              {
+                "text": "Record the arrangement and its role in income or consumption.",
+                "correct": true
+              }
+            ],
+            "rationale": "Payment in kind can matter to household livelihoods."
+          },
+          {
+            "id": "SWP-092-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-092-M1-T3",
+            "question": "Which source measure is closest to first-sale value?",
+            "options": [
+              {
+                "text": "Catch multiplied by first-sale prices using stated scope.",
+                "correct": true
+              },
+              {
+                "text": "Number of people using an appeals desk.",
+                "correct": false
+              },
+              {
+                "text": "Number of unpaid duties.",
+                "correct": false
+              },
+              {
+                "text": "Meals consumed by each household.",
+                "correct": false
+              }
+            ],
+            "rationale": "Landed value describes transactions at a defined stage."
+          },
+          {
+            "id": "SWP-092-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-092-M1-T4",
+            "question": "Which situation can weaken a trader's bargaining position?",
+            "options": [
+              {
+                "text": "Two equally accessible buyers offer stable terms.",
+                "correct": false
+              },
+              {
+                "text": "Spoilage risk limits the time available to compare buyers.",
+                "correct": true
+              },
+              {
+                "text": "The trader can safely store every lot.",
+                "correct": false
+              },
+              {
+                "text": "Terms are written and reviewable.",
+                "correct": false
+              }
+            ],
+            "rationale": "Time pressure and limited options affect negotiation."
+          },
+          {
+            "id": "SWP-092-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-092-M1-T5",
+            "question": "Which step helps include people affected by the stall charge?",
+            "options": [
+              {
+                "text": "Invite only registered owners after fees are final.",
+                "correct": false
+              },
+              {
+                "text": "Ask the project manager to speak for all traders.",
+                "correct": false
+              },
+              {
+                "text": "Consult informal users before the decision and explain how comments will be considered.",
+                "correct": true
+              },
+              {
+                "text": "Count every social media view as consultation.",
+                "correct": false
+              }
+            ],
+            "rationale": "Representation requires a practical opportunity to influence decisions."
+          },
+          {
+            "id": "SWP-092-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-092-M2-T1",
+            "question": "Which evidence helps assess the reported wage delay?",
+            "options": [
+              {
+                "text": "Only regional catch projections.",
+                "correct": false
+              },
+              {
+                "text": "The latest auction price alone.",
+                "correct": false
+              },
+              {
+                "text": "The typeface in the worker register.",
+                "correct": false
+              },
+              {
+                "text": "The applicable terms and records showing due dates and payments.",
+                "correct": true
+              }
+            ],
+            "rationale": "Verification needs the relevant terms and events."
+          },
+          {
+            "id": "SWP-092-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-092-M2-T2",
+            "question": "What should a practitioner do about a reported processing exposure that affects work?",
+            "options": [
+              {
+                "text": "Connect the worker to appropriate health or safety assessment and record the concern.",
+                "correct": true
+              },
+              {
+                "text": "Determine the exposure level from a distance.",
+                "correct": false
+              },
+              {
+                "text": "Certify the facility as safe.",
+                "correct": false
+              },
+              {
+                "text": "Prescribe a treatment based on the report.",
+                "correct": false
+              }
+            ],
+            "rationale": "Technical health and safety judgements need qualified assessment."
+          },
+          {
+            "id": "SWP-092-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-092-M2-T3",
+            "question": "Which meeting arrangement best supports this worker's stated preference?",
+            "options": [
+              {
+                "text": "A public discussion with the buyers.",
+                "correct": false
+              },
+              {
+                "text": "A private accessible conversation with a safe follow-up option.",
+                "correct": true
+              },
+              {
+                "text": "A social media post naming the concern.",
+                "correct": false
+              },
+              {
+                "text": "An anonymous poll that publishes every comment.",
+                "correct": false
+              }
+            ],
+            "rationale": "Privacy makes it easier to seek support safely."
+          },
+          {
+            "id": "SWP-092-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-092-M2-T4",
+            "question": "What helps an authorised labour referral move forward?",
+            "options": [
+              {
+                "text": "Publishing the whole account in an open group.",
+                "correct": false
+              },
+              {
+                "text": "A general instruction to ask elsewhere.",
+                "correct": false
+              },
+              {
+                "text": "A responsible receiving role with limited relevant information.",
+                "correct": true
+              },
+              {
+                "text": "Treating the note itself as payment.",
+                "correct": false
+              }
+            ],
+            "rationale": "The receiving role needs a clear purpose and relevant facts."
+          },
+          {
+            "id": "SWP-092-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-092-M2-T5",
+            "question": "What should the practitioner record at review?",
+            "options": [
+              {
+                "text": "Only the count of outgoing messages.",
+                "correct": false
+              },
+              {
+                "text": "The worker's assumed satisfaction.",
+                "correct": false
+              },
+              {
+                "text": "A definitive ruling without evidence.",
+                "correct": false
+              },
+              {
+                "text": "Receipt, response and any outstanding service barrier.",
+                "correct": true
+              }
+            ],
+            "rationale": "Follow-up tests whether the person reached appropriate assistance."
+          },
+          {
+            "id": "SWP-092-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-092-M3-T1",
+            "question": "Which record shows effective timely access in the classroom case?",
+            "options": [
+              {
+                "text": "Support actually reached a worker in the useful period.",
+                "correct": true
+              },
+              {
+                "text": "An eligibility rule was announced.",
+                "correct": false
+              },
+              {
+                "text": "A worker opened the application form.",
+                "correct": false
+              },
+              {
+                "text": "A committee planned to publish a notice.",
+                "correct": false
+              }
+            ],
+            "rationale": "Receipt requires actual delivery within the relevant time."
+          },
+          {
+            "id": "SWP-092-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-092-M3-T2",
+            "question": "What proportion of all eligible workers received timely support?",
+            "options": [
+              {
+                "text": "60 percent.",
+                "correct": false
+              },
+              {
+                "text": "40 percent.",
+                "correct": true
+              },
+              {
+                "text": "About 67 percent.",
+                "correct": false
+              },
+              {
+                "text": "12 percent.",
+                "correct": false
+              }
+            ],
+            "rationale": "Twelve divided by thirty gives 0.4."
+          },
+          {
+            "id": "SWP-092-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-092-M3-T3",
+            "question": "What does 12 out of 18 describe?",
+            "options": [
+              {
+                "text": "The timely receipt rate among all eligible workers.",
+                "correct": false
+              },
+              {
+                "text": "The share of all fisheries households in the district.",
+                "correct": false
+              },
+              {
+                "text": "The timely receipt rate among applicants.",
+                "correct": true
+              },
+              {
+                "text": "The application rate among eligible workers.",
+                "correct": false
+              }
+            ],
+            "rationale": "The denominator is the application stage."
+          },
+          {
+            "id": "SWP-092-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-092-M3-T4",
+            "question": "Which concern belongs in a cooperative-based offer?",
+            "options": [
+              {
+                "text": "Whether a cooperative label establishes universal access.",
+                "correct": false
+              },
+              {
+                "text": "Whether the meeting can replace all formal checks.",
+                "correct": false
+              },
+              {
+                "text": "Whether each reported effect applies identically across states.",
+                "correct": false
+              },
+              {
+                "text": "Whether nonmembers have a practical service route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Membership rules affect who can benefit."
+          },
+          {
+            "id": "SWP-092-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-092-M3-T5",
+            "question": "Which improvement supports a fair trial?",
+            "options": [
+              {
+                "text": "Offer staffed documentation help and check timely receipt by route.",
+                "correct": true
+              },
+              {
+                "text": "Switch to online-only entry and report page views.",
+                "correct": false
+              },
+              {
+                "text": "Count new flyers as payments.",
+                "correct": false
+              },
+              {
+                "text": "Use a meeting photo as full coverage evidence.",
+                "correct": false
+              }
+            ],
+            "rationale": "An improvement should address a barrier and track the resulting service outcome."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-093",
+      "title": "Coastal Climate Risk and Inclusive Adaptation",
+      "slug": "coastal-climate-risk-and-inclusive-adaptation",
+      "cover_title": "Coastal Climate Risk\nand Inclusive\nAdaptation",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Explain a coastal risk pathway and assess adaptation options for service continuity, unequal impacts and feasibility.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Trace compound coastal risk",
+          "outcome": "Separate hazard, exposure, vulnerability and capacity in a coastal case.",
+          "paragraphs": [
+            "A hazard is a potential physical event or trend, such as recurrent inundation. Exposure concerns the people, infrastructure and activities in its path. Vulnerability concerns the conditions that make harm more likely or more serious, such as insecure access or limited ways to replace lost income. Capacity includes resources people can use, such as a staffed alternate route. The same event can have different consequences. [S82]",
+            "Make a time sequence that links the physical event with changes in work and services. In a fictional village, flooding blocks the footpath to a market, power failure interrupts ice production and a missed selling window reduces earnings. The risks can compound. Ask which link is supported by an observation and where the explanation needs further evidence. [S82]",
+            "Take local observations seriously and record their date, location and conditions. If traders report floodwater arriving earlier, ask what period they mean and what else has changed. A claim about a particular storm's causes needs separate evidence. Findings from purposively selected Lagos respondents can motivate questions about warnings and preservation. Check the barriers and resources in the fictional setting itself. [R92]",
+            "Draw a simple risk chain with a marked point for potential intervention. A second contact route may reduce exposure to service disruption while leaving the flood hazard unchanged. An accessible relocation option may reduce travel difficulties for some and create costs for others. Identify one change that could weaken a proposed intervention and who can monitor it after a test. [S82] Check the path at more than one time of day in the fictional record so a one-off observation does not drive the whole decision."
+          ],
+          "example": "Fictional case: Floodwater closes the footpath to the landing market. Power fails during the same period, and fish handlers miss the buying window.",
+          "activity": "Label the hazard, exposure, two vulnerability factors and one capacity. Trace a cascade into income or service access.",
+          "feedback": "Map flooding and power loss, who relies on the route, and the ways delays translate into spoilage or lost earnings.",
+          "sources": [
+            "R92",
+            "S82"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Design warnings people can act on",
+          "outcome": "Specify an accessible alert, an action route and a drill check.",
+          "paragraphs": [
+            "A warning system needs a trusted source, an understandable message and a feasible action. A message reaching every registered handset proves little if many workers share devices, use different languages or lack a safe route. A learner exercise can use the responsible authority's supplied example alert without issuing or editing a real public warning. [S82]",
+            "Map who is likely to be at home, at the landing, at a market or travelling. Consider language, hearing, vision, literacy, connection and access to a trusted messenger. Pair communication channels such as voice and written information where feasible. Check if the message arrives with enough time to act and gives a contact route people can use. [R92]",
+            "Test the response with a fictional household that needs assistance to reach an agreed service point. Identify who provides support, who receives them and when the case is escalated. Include a privacy boundary for any contact list. An effective drill can check comprehension and responsibilities without broadcasting private details about someone needing help. Use official instructions and local emergency arrangements in real incidents. [S82]",
+            "Judge success using more than a send count. In twenty fictional cases, ten receive the alert, eight understand the instruction and six can complete the expected action. Keep the stages visible and identify why each group falls away. A trial might show a route needs repair or an action needs different timing. Assign a role and date to verify the corrected step. [R92] Try the drill with someone who missed the first message and someone who received it but could not complete the proposed action."
+          ],
+          "example": "Fictional case: An alert is sent by text to 20 workers. Ten receive it, eight understand it and six can act. Some people need help moving to an agreed point.",
+          "activity": "Design a second channel and an assistance handoff. Draft three stage-specific drill measures.",
+          "feedback": "Separate delivery, comprehension and successful action. Verify the alternative route and confirm who provides assistance.",
+          "sources": [
+            "R92",
+            "S82"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Compare adaptations and displaced risk",
+          "outcome": "Appraise how an adaptation option distributes benefits, burdens and residual risk.",
+          "paragraphs": [
+            "Define whose risk a proposed measure is meant to reduce. A drainage change may help a market but send water toward a settlement. A move to a higher site may reduce direct exposure while increasing transport costs, reducing access to customers or separating workers from care responsibilities. These consequences affect whether the option is feasible and equitable. [S82]",
+            "Distinguish short-term coping from sustained changes in risk. Borrowing to replace stock may cover one interruption and increase debt exposure when outages recur. Investing in a functioning alternative access route may reduce repeated disruption if maintenance and staffing are supported. Examine the conditions that must hold over time and their costs for different people. [S82]",
+            "A study of Nigerian fishing communities reports different adaptation choices and associations with cooperative participation. Study design and model assumptions matter. Use the finding to ask which local groups could access cooperative help, what terms apply and whether alternatives remain available. Avoid treating a count of adaptations as proof that risk decreased or participation was fair. [R93]",
+            "Compare an immediate low-cost response, an option requiring investment and the current route against shared criteria. Include access, maintenance, uncertainty, habitat impact and risk transferred to others. Identify a signal that should lead to a pause, such as observed obstruction of an established route. Decide who can review the signal and when. If physical works are proposed, identify the competent authority and assessment needed. [S82] Make the comparison explicit about duration. A one-season gain may require a different choice if operation adds costs each year or narrows future options."
+          ],
+          "example": "Fictional case: An elevated stall area reduces flood exposure but adds a fare and a long walk. A drainage proposal could increase water near homes.",
+          "activity": "Compare both options and the current route. List one evidence gap, a displaced risk and a trigger to revisit the recommendation.",
+          "feedback": "Balance safety gains with travel and distribution effects. The drainage claim needs qualified site review.",
+          "sources": [
+            "R93",
+            "S82"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-093",
+        "course_slug": "coastal-climate-risk-and-inclusive-adaptation",
+        "title": "Coastal Climate Risk and Inclusive Adaptation",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "c3e4855137187ac8151c2c7e913f8f0311fe9357c2716e0ad062a45e532151b3",
+        "catalogue_sha256": "ae37afcc056baed04f819a61008e91ba0179fb62061fab4f27c8b8fd21e8c41d",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Trace compound coastal risk",
+            "outcome": "Separate hazard, exposure, vulnerability and capacity in a coastal case.",
+            "teaching_points": [
+              {
+                "id": "SWP-093-M1-T1",
+                "text": "Define the hazard."
+              },
+              {
+                "id": "SWP-093-M1-T2",
+                "text": "Identify exposure."
+              },
+              {
+                "id": "SWP-093-M1-T3",
+                "text": "Separate vulnerability from capacity."
+              },
+              {
+                "id": "SWP-093-M1-T4",
+                "text": "Map the cascade."
+              },
+              {
+                "id": "SWP-093-M1-T5",
+                "text": "Bound the local claim."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Design warnings people can act on",
+            "outcome": "Specify an accessible alert, an action route and a drill check.",
+            "teaching_points": [
+              {
+                "id": "SWP-093-M2-T1",
+                "text": "Connect alert and action."
+              },
+              {
+                "id": "SWP-093-M2-T2",
+                "text": "Design for different channels."
+              },
+              {
+                "id": "SWP-093-M2-T3",
+                "text": "Check assistance ownership."
+              },
+              {
+                "id": "SWP-093-M2-T4",
+                "text": "Measure ability to act."
+              },
+              {
+                "id": "SWP-093-M2-T5",
+                "text": "Protect contact details."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Compare adaptations and displaced risk",
+            "outcome": "Appraise how an adaptation option distributes benefits, burdens and residual risk.",
+            "teaching_points": [
+              {
+                "id": "SWP-093-M3-T1",
+                "text": "Identify whose risk changes."
+              },
+              {
+                "id": "SWP-093-M3-T2",
+                "text": "Distinguish coping and adaptation."
+              },
+              {
+                "id": "SWP-093-M3-T3",
+                "text": "Examine displaced risk."
+              },
+              {
+                "id": "SWP-093-M3-T4",
+                "text": "Use membership evidence carefully."
+              },
+              {
+                "id": "SWP-093-M3-T5",
+                "text": "Define an observable review trigger."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-093-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-093-M1-T1",
+            "question": "What is the physical hazard in the supplied market case?",
+            "options": [
+              {
+                "text": "The lack of alternative earnings.",
+                "correct": false
+              },
+              {
+                "text": "The need for a private interview.",
+                "correct": false
+              },
+              {
+                "text": "Floodwater reaching the market path.",
+                "correct": true
+              },
+              {
+                "text": "The dependence on one buyer.",
+                "correct": false
+              }
+            ],
+            "rationale": "Hazard describes the potentially damaging event."
+          },
+          {
+            "id": "SWP-093-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-093-M1-T2",
+            "question": "Which entry identifies exposure?",
+            "options": [
+              {
+                "text": "A household has little savings.",
+                "correct": false
+              },
+              {
+                "text": "A staff member has an alternate route.",
+                "correct": false
+              },
+              {
+                "text": "A person understands warnings.",
+                "correct": false
+              },
+              {
+                "text": "A market and access path located in the inundation area.",
+                "correct": true
+              }
+            ],
+            "rationale": "Exposure follows presence in the hazard area."
+          },
+          {
+            "id": "SWP-093-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-093-M1-T3",
+            "question": "What is a vulnerability factor during a market closure?",
+            "options": [
+              {
+                "text": "Few feasible alternative ways to earn or sell.",
+                "correct": true
+              },
+              {
+                "text": "A staffed fallback service exists.",
+                "correct": false
+              },
+              {
+                "text": "A routine review is scheduled.",
+                "correct": false
+              },
+              {
+                "text": "A functioning second landing has capacity.",
+                "correct": false
+              }
+            ],
+            "rationale": "Vulnerability increases the consequences of disruption."
+          },
+          {
+            "id": "SWP-093-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-093-M1-T4",
+            "question": "Which sequence explains a connected risk?",
+            "options": [
+              {
+                "text": "Income falls, therefore a flood must occur.",
+                "correct": false
+              },
+              {
+                "text": "Power fails, ice is unavailable, and saleable stock can decline.",
+                "correct": true
+              },
+              {
+                "text": "A notice is printed, therefore all losses stop.",
+                "correct": false
+              },
+              {
+                "text": "One case report establishes the regional cause.",
+                "correct": false
+              }
+            ],
+            "rationale": "A cascade connects an event to successive practical impacts."
+          },
+          {
+            "id": "SWP-093-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-093-M1-T5",
+            "question": "What does a dated account about a blocked path establish most directly?",
+            "options": [
+              {
+                "text": "Global attribution for the event.",
+                "correct": false
+              },
+              {
+                "text": "A permanent forecast for every nearby shore.",
+                "correct": false
+              },
+              {
+                "text": "A reported local observation requiring context and verification.",
+                "correct": true
+              },
+              {
+                "text": "A verified technical cause without other evidence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Local observations have a defined place and scope."
+          },
+          {
+            "id": "SWP-093-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-093-M2-T1",
+            "question": "What must a usable warning convey in addition to the stated hazard?",
+            "options": [
+              {
+                "text": "Only the date of the previous meeting.",
+                "correct": false
+              },
+              {
+                "text": "Only a registration number.",
+                "correct": false
+              },
+              {
+                "text": "Only a sponsor slogan.",
+                "correct": false
+              },
+              {
+                "text": "What to do and how to access help within the available time.",
+                "correct": true
+              }
+            ],
+            "rationale": "Information supports safety when people know an achievable action."
+          },
+          {
+            "id": "SWP-093-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-093-M2-T2",
+            "question": "What helps people with unreliable mobile data receive a warning?",
+            "options": [
+              {
+                "text": "A complementary authorised channel that works in their context.",
+                "correct": true
+              },
+              {
+                "text": "A larger photo attachment sent online only.",
+                "correct": false
+              },
+              {
+                "text": "A test limited to the newest device.",
+                "correct": false
+              },
+              {
+                "text": "A URL shared after the event.",
+                "correct": false
+              }
+            ],
+            "rationale": "Channel choice should reflect practical access."
+          },
+          {
+            "id": "SWP-093-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-093-M2-T3",
+            "question": "Which drill result demonstrates a handoff?",
+            "options": [
+              {
+                "text": "The organiser adds a new contact field.",
+                "correct": false
+              },
+              {
+                "text": "A named helper and receiving role confirm coordinated support.",
+                "correct": true
+              },
+              {
+                "text": "The message is forwarded repeatedly.",
+                "correct": false
+              },
+              {
+                "text": "A worker guesses that help is available.",
+                "correct": false
+              }
+            ],
+            "rationale": "An accountable handoff confirms responsibility."
+          },
+          {
+            "id": "SWP-093-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-093-M2-T4",
+            "question": "What fraction of the 20 exercise cases completed the expected action?",
+            "options": [
+              {
+                "text": "8 of 20.",
+                "correct": false
+              },
+              {
+                "text": "10 of 20.",
+                "correct": false
+              },
+              {
+                "text": "6 of 20.",
+                "correct": true
+              },
+              {
+                "text": "20 of 20.",
+                "correct": false
+              }
+            ],
+            "rationale": "Six were able to act, a separate stage from understanding."
+          },
+          {
+            "id": "SWP-093-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-093-M2-T5",
+            "question": "Which approach fits the assistance exercise?",
+            "options": [
+              {
+                "text": "Publish each household's needs to an open list.",
+                "correct": false
+              },
+              {
+                "text": "Send all identifiers through every channel.",
+                "correct": false
+              },
+              {
+                "text": "Maintain an unrestricted register indefinitely.",
+                "correct": false
+              },
+              {
+                "text": "Use minimal fictional details and confirm the authorised privately held route.",
+                "correct": true
+              }
+            ],
+            "rationale": "Support details need a bounded operational purpose."
+          },
+          {
+            "id": "SWP-093-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-093-M3-T1",
+            "question": "Which drawback can arise from moving a market uphill?",
+            "options": [
+              {
+                "text": "Higher travel cost or reduced access for some users.",
+                "correct": true
+              },
+              {
+                "text": "All users automatically gain identical safety.",
+                "correct": false
+              },
+              {
+                "text": "Training costs necessarily disappear.",
+                "correct": false
+              },
+              {
+                "text": "Protection from every hazard is assured.",
+                "correct": false
+              }
+            ],
+            "rationale": "A change can reduce one risk while creating another."
+          },
+          {
+            "id": "SWP-093-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-093-M3-T2",
+            "question": "Which example is mainly short-term coping?",
+            "options": [
+              {
+                "text": "Maintaining a verified alternate route over many seasons.",
+                "correct": false
+              },
+              {
+                "text": "Borrowing to replace a single load after disruption.",
+                "correct": true
+              },
+              {
+                "text": "Revising a standing continuity procedure.",
+                "correct": false
+              },
+              {
+                "text": "Providing a durable staffed fallback.",
+                "correct": false
+              }
+            ],
+            "rationale": "Coping addresses the immediate shock."
+          },
+          {
+            "id": "SWP-093-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-093-M3-T3",
+            "question": "What finding should trigger reassessment of the drainage option?",
+            "options": [
+              {
+                "text": "The plan is printed in colour.",
+                "correct": false
+              },
+              {
+                "text": "The promoter attends a meeting.",
+                "correct": false
+              },
+              {
+                "text": "Water may be redirected toward occupied homes.",
+                "correct": true
+              },
+              {
+                "text": "The map has a new title.",
+                "correct": false
+              }
+            ],
+            "rationale": "Adaptation can worsen risk elsewhere."
+          },
+          {
+            "id": "SWP-093-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-093-M3-T4",
+            "question": "What question follows from the cooperative study?",
+            "options": [
+              {
+                "text": "Can every association guarantee lower risk?",
+                "correct": false
+              },
+              {
+                "text": "Should all nonmembers be excluded?",
+                "correct": false
+              },
+              {
+                "text": "Can cross-sectional models prove every local outcome?",
+                "correct": false
+              },
+              {
+                "text": "Which groups can meet membership conditions and access help locally?",
+                "correct": true
+              }
+            ],
+            "rationale": "The evidence informs mechanisms and assumptions."
+          },
+          {
+            "id": "SWP-093-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-093-M3-T5",
+            "question": "Which trigger is usable for a fictional pathway decision?",
+            "options": [
+              {
+                "text": "Observe persistent loss of foot access at the agreed unloading window.",
+                "correct": true
+              },
+              {
+                "text": "Wait until someone feels dissatisfied in general.",
+                "correct": false
+              },
+              {
+                "text": "Let a sponsor change the test after approval.",
+                "correct": false
+              },
+              {
+                "text": "Count all changes as improvements.",
+                "correct": false
+              }
+            ],
+            "rationale": "A trigger specifies a condition and supports an accountable response."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-094",
+      "title": "Marine Conservation, Justice and Participation",
+      "slug": "marine-conservation-justice-and-participation",
+      "cover_title": "Marine Conservation,\nJustice and\nParticipation",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Appraise the fairness of a fictional marine conservation decision and design meaningful participation and redress.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Assess recognition, voice and distribution",
+          "outcome": "Use three equity questions to examine a proposed conservation measure.",
+          "paragraphs": [
+            "Equitable conservation asks who and what is recognised, how decisions are made and who gains or bears costs. A plan may recognise boat owners while omitting a traditional shore harvest or a seasonal walking route. Record where groups use the area, what they depend on and how they describe it. Seek appropriate permission before sharing sensitive information about a real location. [S83]",
+            "Procedural equity concerns meaningful access to information, influence, accountable decision roles and ways to question a decision. Distribution concerns where restrictions, fees, benefits or opportunities land. A consultation site may be physically inaccessible while a benefit programme unintentionally favours people with a formal membership. These are distinct problems with different practical remedies. [S83] [R92]",
+            "The global biodiversity target concerns effective conservation and equitable governance, with rights and sustainable use conditions. Reading a global coverage goal into a fictional map does not tell learners which activities are legally allowed at a site. Examine the proposed governance and ecological evidence, and refer unresolved tenure, conservation and access decisions to the competent bodies. [S83]",
+            "Create an equity record for a zone proposal. Include a use or group that is unrecognised, a specific influence barrier and an example of an uneven cost. Name the authorised role and the question each gap raises. Discuss how the proposal could be changed before it is finalised. If a decision is closed, represent that honestly and identify the available review route. [S81] Check whether transition support is available to workers with limited evidence of former earnings. A payment route needs both appropriate eligibility and practical access."
+          ],
+          "example": "Fictional case: A conservation plan records boats but omits shore harvesters. Notices are online only. A transition benefit is reserved for formal association members.",
+          "activity": "Classify one issue under recognition, procedure and distribution, then propose a response for each.",
+          "feedback": "Record shore use, improve access to decision participation and review benefit criteria against actual dependence.",
+          "sources": [
+            "R92",
+            "S81",
+            "S83"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Support participatory coastal planning",
+          "outcome": "Design a participation process with access, representation and a feedback record.",
+          "paragraphs": [
+            "Begin with what decision is open, whose authority applies and which groups have rights, needs or knowledge relevant to it. A worker who gathers shoreline knowledge should ask what can be shared, with whom and for what purpose. Some information may expose a sensitive harvesting site or a person in conflict. Agree how to record the contribution and any limits. [S83]",
+            "Provide understandable materials in time for people to respond. Use accessible meeting locations, alternative channels and arrangements for people who cannot attend at the advertised hour. In the Lagos research, inclusion and warning access were recurring concerns among selected coastal participants. Use these concerns to ask what local engagement might miss and avoid assuming one resident speaks for everyone. [R92]",
+            "Build a response log that links each substantive concern to a proposed action, decision or reason it cannot be addressed. Mark where there is disagreement and where further input is necessary. Participation does not require complete agreement. It requires accurate representation, traceable reasons and a way for affected people to see how their participation was handled. [S81]",
+            "In the exercise, compare a draft map with a revision after a meeting. A changed loading time may address one group while adding a burden for another. Record the reason for revision and retest it with the affected groups. Maintain a route for late, confidential or dissenting responses, with an appropriately authorised decision role and a clear review date. [S83] Share the updated map in a format people can understand and check whether they can locate the places where their work could change."
+          ],
+          "example": "Fictional case: A meeting maps fishing routes while many shore workers are trading. The promoter publishes the raw map with confidential details and records no response to objections.",
+          "activity": "Design accessible participation and a versioned feedback record. Specify what spatial information can be shared.",
+          "feedback": "State scope and information permissions. Offer another participation route and show how each concern led to a decision or follow-up.",
+          "sources": [
+            "R92",
+            "S81",
+            "S83"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Design grievance and remedy follow-up",
+          "outcome": "Build a safe concern route and verify whether the agreed response reached people.",
+          "paragraphs": [
+            "A grievance route starts with a way to raise concerns safely and receive an understandable response. Identify who can submit, what channels are available and who can review a concern independently of the original decision. Give a clear acknowledgement and expected next step, including a private option when public discussion would expose someone. [S83]",
+            "For a fictional conservation restriction, record whether the concern is about information, barriers to access, an eligibility decision or implementation. A correction to an inaccurate map may be possible within the project. A dispute about legal authority or tenure should go through the relevant formal process. Show how the initial route connects to competent review without promising a particular result. [S81]",
+            "A remedy needs an owner, timeframe and evidence of delivery. If a project agrees to restore working access at a jetty, check whether the new route is safely usable at the relevant time. If a transition grant is agreed, track the responsible service and actual receipt under its rules. An agreement on paper shows a commitment at a stage of the process. [S84]",
+            "Report aggregated information about concerns received, time to response and unresolved issues. A low number of complaints may reflect successful implementation, poor access to the route or fear of adverse consequences. Keep a review window and use multiple safe ways to understand the experience of affected people. Monitor both agreed remedy and the practical effect on the livelihood or access question. [S83] Include a route to correct the record if someone says the summary misrepresents their concern. A count alone cannot show whether a response was fair."
+          ],
+          "example": "Fictional case: The same person who approved a closure dismisses access complaints. The dashboard counts a proposed replacement path as a resolved remedy.",
+          "activity": "Specify an accessible complaint route, responsible review, escalation and two outcome checks.",
+          "feedback": "Assign an independent review route and check whether the replacement path is usable when workers need it.",
+          "sources": [
+            "S81",
+            "S83",
+            "S84"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-094",
+        "course_slug": "marine-conservation-justice-and-participation",
+        "title": "Marine Conservation, Justice and Participation",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "21b888608e821f7724b21f20202e22ff52bf45877f08fe50462af5e0ef68f5ec",
+        "catalogue_sha256": "9986de9a76a034893dca65cb0097eba0a1596aec633aab3e7ab17bd0c265c9f5",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Assess recognition, voice and distribution",
+            "outcome": "Use three equity questions to examine a proposed conservation measure.",
+            "teaching_points": [
+              {
+                "id": "SWP-094-M1-T1",
+                "text": "Recognise forms of use."
+              },
+              {
+                "id": "SWP-094-M1-T2",
+                "text": "Make decisions accessible."
+              },
+              {
+                "id": "SWP-094-M1-T3",
+                "text": "Trace distribution."
+              },
+              {
+                "id": "SWP-094-M1-T4",
+                "text": "Connect coverage to outcomes."
+              },
+              {
+                "id": "SWP-094-M1-T5",
+                "text": "Check decision status."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Support participatory coastal planning",
+            "outcome": "Design a participation process with access, representation and a feedback record.",
+            "teaching_points": [
+              {
+                "id": "SWP-094-M2-T1",
+                "text": "Describe what can change."
+              },
+              {
+                "id": "SWP-094-M2-T2",
+                "text": "Respect information limits."
+              },
+              {
+                "id": "SWP-094-M2-T3",
+                "text": "Address attendance barriers."
+              },
+              {
+                "id": "SWP-094-M2-T4",
+                "text": "Show reasons and responses."
+              },
+              {
+                "id": "SWP-094-M2-T5",
+                "text": "Retest effects of revisions."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Design grievance and remedy follow-up",
+            "outcome": "Build a safe concern route and verify whether the agreed response reached people.",
+            "teaching_points": [
+              {
+                "id": "SWP-094-M3-T1",
+                "text": "Make the route safe and usable."
+              },
+              {
+                "id": "SWP-094-M3-T2",
+                "text": "Separate types of complaint."
+              },
+              {
+                "id": "SWP-094-M3-T3",
+                "text": "Check independence."
+              },
+              {
+                "id": "SWP-094-M3-T4",
+                "text": "Verify remedy delivery."
+              },
+              {
+                "id": "SWP-094-M3-T5",
+                "text": "Interpret complaint volume carefully."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-094-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-094-M1-T1",
+            "question": "Which example shows a recognition gap?",
+            "options": [
+              {
+                "text": "A review date appears on the notice.",
+                "correct": false
+              },
+              {
+                "text": "A map identifies a known access path.",
+                "correct": false
+              },
+              {
+                "text": "The resource map leaves out seasonal shore harvesters.",
+                "correct": true
+              },
+              {
+                "text": "The minutes record divergent views.",
+                "correct": false
+              }
+            ],
+            "rationale": "Recognition concerns whose uses and identities are visible."
+          },
+          {
+            "id": "SWP-094-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-094-M1-T2",
+            "question": "Which scenario points first to a procedural barrier?",
+            "options": [
+              {
+                "text": "One group receives a larger transition grant.",
+                "correct": false
+              },
+              {
+                "text": "Storm exposure differs by location.",
+                "correct": false
+              },
+              {
+                "text": "The designation extends across two maps.",
+                "correct": false
+              },
+              {
+                "text": "Online-only notices fail to reach workers who can use a staffed venue.",
+                "correct": true
+              }
+            ],
+            "rationale": "Procedural equity concerns information and influence."
+          },
+          {
+            "id": "SWP-094-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-094-M1-T3",
+            "question": "Which question addresses distribution of transition costs?",
+            "options": [
+              {
+                "text": "Who pays or loses earnings when the restriction begins?",
+                "correct": true
+              },
+              {
+                "text": "Was the meeting invitation readable?",
+                "correct": false
+              },
+              {
+                "text": "Who can request the minutes?",
+                "correct": false
+              },
+              {
+                "text": "Was the map properly dated?",
+                "correct": false
+              }
+            ],
+            "rationale": "Distribution asks who receives benefits and bears burdens."
+          },
+          {
+            "id": "SWP-094-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-094-M1-T4",
+            "question": "What else must a zone reviewer consider beyond its area?",
+            "options": [
+              {
+                "text": "Only the area on the promotional map.",
+                "correct": false
+              },
+              {
+                "text": "Conservation performance, governance and rights.",
+                "correct": true
+              },
+              {
+                "text": "The campaign logo.",
+                "correct": false
+              },
+              {
+                "text": "The number of sponsors alone.",
+                "correct": false
+              }
+            ],
+            "rationale": "Area does not describe effectiveness or governance."
+          },
+          {
+            "id": "SWP-094-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-094-M1-T5",
+            "question": "How should a closed legal decision be described in a meeting?",
+            "options": [
+              {
+                "text": "Promise a vote can reopen everything.",
+                "correct": false
+              },
+              {
+                "text": "Say that attendance grants approval.",
+                "correct": false
+              },
+              {
+                "text": "Explain the status and any genuine review or implementation choices.",
+                "correct": true
+              },
+              {
+                "text": "Offer choices the team cannot change.",
+                "correct": false
+              }
+            ],
+            "rationale": "Participants should understand what they can influence."
+          },
+          {
+            "id": "SWP-094-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-094-M2-T1",
+            "question": "Which fact should a participation notice explain first?",
+            "options": [
+              {
+                "text": "The number of tea breaks.",
+                "correct": false
+              },
+              {
+                "text": "A guarantee that every view will be accepted.",
+                "correct": false
+              },
+              {
+                "text": "The font planned for the final map.",
+                "correct": false
+              },
+              {
+                "text": "The decision open to input and who will make it.",
+                "correct": true
+              }
+            ],
+            "rationale": "Participants need a clear scope for influence."
+          },
+          {
+            "id": "SWP-094-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-094-M2-T2",
+            "question": "How should sensitive knowledge enter the planning exercise?",
+            "options": [
+              {
+                "text": "Agree purpose and sharing limits before using an appropriately generalised account.",
+                "correct": true
+              },
+              {
+                "text": "Publish exact details by default.",
+                "correct": false
+              },
+              {
+                "text": "Record confidential detail in publicity.",
+                "correct": false
+              },
+              {
+                "text": "Share personal identifiers with every participant.",
+                "correct": false
+              }
+            ],
+            "rationale": "Information use should respect the contribution and avoid unnecessary exposure."
+          },
+          {
+            "id": "SWP-094-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-094-M2-T3",
+            "question": "Which change helps traders unable to attend during sales?",
+            "options": [
+              {
+                "text": "Assume absence means agreement.",
+                "correct": false
+              },
+              {
+                "text": "Offer another practical time or accessible route for comments.",
+                "correct": true
+              },
+              {
+                "text": "Move the meeting to the busiest hour.",
+                "correct": false
+              },
+              {
+                "text": "Exclude written or oral alternatives.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different routes improve opportunities to participate."
+          },
+          {
+            "id": "SWP-094-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-094-M2-T4",
+            "question": "Which output makes participation traceable?",
+            "options": [
+              {
+                "text": "A photograph of the meeting only.",
+                "correct": false
+              },
+              {
+                "text": "A count that merges support and objections.",
+                "correct": false
+              },
+              {
+                "text": "A concern-to-response log with reason and decision owner.",
+                "correct": true
+              },
+              {
+                "text": "Minutes hiding recorded disagreement.",
+                "correct": false
+              }
+            ],
+            "rationale": "Feedback should show how input affected the decision."
+          },
+          {
+            "id": "SWP-094-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-094-M2-T5",
+            "question": "What should the team do after changing the loading window?",
+            "options": [
+              {
+                "text": "Treat the first revision as sufficient proof.",
+                "correct": false
+              },
+              {
+                "text": "Erase the earlier draft and its rationale.",
+                "correct": false
+              },
+              {
+                "text": "Ask only the project sponsor.",
+                "correct": false
+              },
+              {
+                "text": "Check consequences for traders, crew and other affected groups.",
+                "correct": true
+              }
+            ],
+            "rationale": "Revisions can transfer constraints and need review."
+          },
+          {
+            "id": "SWP-094-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-094-M3-T1",
+            "question": "What supports a worker with a sensitive access complaint?",
+            "options": [
+              {
+                "text": "An accessible private channel with acknowledgement and clear next steps.",
+                "correct": true
+              },
+              {
+                "text": "A public form that broadcasts the account.",
+                "correct": false
+              },
+              {
+                "text": "A requirement to confront the decision maker alone.",
+                "correct": false
+              },
+              {
+                "text": "A social media post with names.",
+                "correct": false
+              }
+            ],
+            "rationale": "A practical route supports confidential participation."
+          },
+          {
+            "id": "SWP-094-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-094-M3-T2",
+            "question": "Who should decide a real unresolved legal tenure question?",
+            "options": [
+              {
+                "text": "The learner preparing the map.",
+                "correct": false
+              },
+              {
+                "text": "The competent authorised forum.",
+                "correct": true
+              },
+              {
+                "text": "An informal promoter without authority.",
+                "correct": false
+              },
+              {
+                "text": "A meeting attendee selected at random.",
+                "correct": false
+              }
+            ],
+            "rationale": "Different grievance subjects require different authority."
+          },
+          {
+            "id": "SWP-094-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-094-M3-T3",
+            "question": "Which feature improves review of a contested original decision?",
+            "options": [
+              {
+                "text": "The same officer automatically closes every case.",
+                "correct": false
+              },
+              {
+                "text": "The sponsor is the only appeal route.",
+                "correct": false
+              },
+              {
+                "text": "A defined reviewer separate from the decision under challenge where appropriate.",
+                "correct": true
+              },
+              {
+                "text": "A system assigns no review responsibility.",
+                "correct": false
+              }
+            ],
+            "rationale": "Independence can support an impartial response."
+          },
+          {
+            "id": "SWP-094-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-094-M3-T4",
+            "question": "Which result best demonstrates restored access?",
+            "options": [
+              {
+                "text": "A contractor promised to draw it.",
+                "correct": false
+              },
+              {
+                "text": "A report uses the word resolved.",
+                "correct": false
+              },
+              {
+                "text": "The route was discussed at a meeting.",
+                "correct": false
+              },
+              {
+                "text": "Workers can use the verified replacement path during the needed hours.",
+                "correct": true
+              }
+            ],
+            "rationale": "A delivered remedy is observable in the agreed conditions."
+          },
+          {
+            "id": "SWP-094-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-094-M3-T5",
+            "question": "Why might few grievances coexist with serious barriers?",
+            "options": [
+              {
+                "text": "People may lack a safe or accessible complaint route.",
+                "correct": true
+              },
+              {
+                "text": "Every person must agree with the decision.",
+                "correct": false
+              },
+              {
+                "text": "An empty register certifies full fairness.",
+                "correct": false
+              },
+              {
+                "text": "Complaint counts show all livelihood outcomes.",
+                "correct": false
+              }
+            ],
+            "rationale": "The route itself influences recorded complaints."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-095",
+      "title": "Blue Finance and Community Benefit Assessment",
+      "slug": "blue-finance-and-community-benefit-assessment",
+      "cover_title": "Blue Finance and\nCommunity Benefit\nAssessment",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Screen a fictional coastal proposal for distribution, affordability and the evidence behind its environmental and social claims.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Define the project and its finance terms",
+          "outcome": "Create a basic financing and dependency map for a fictional coastal proposal.",
+          "paragraphs": [
+            "A blue finance proposal needs a clear activity, a defined place and evidence of how the activity affects people and marine ecosystems. A descriptive label can indicate an intended sector. Ask what is funded, when resources are available, who controls decisions and which costs are excluded. Identify anyone expected to provide labour, space or services without a stated budget. [S84]",
+            "Distinguish funding for an asset from funding to operate it. A grant might buy a cold room while the users pay for electricity, maintenance and access. A loan could require repayment before seasonal sales recover. An investor may ask for control or a revenue share. For each source, write down the purpose restrictions, timing, responsibility and conditions in the supplied fictional terms. [S84]",
+            "Check what the proposal assumes about power supply, use, affordability and maintenance. Reducing post-harvest loss can benefit households and reduce pressure to replace spoiled stock. The outcome depends on effective use and conditions at the site. Compare the intended benefit with the practical ability to reach and afford the service. Ask whether small lots and informal workers can participate. [S81]",
+            "Use invented amounts and identify whether each represents a commitment or an assumption. Suppose the equipment cost is covered but operating costs of eight units a period are unassigned. That creates a recurring financing gap. Identify who can verify the terms and which small test could examine demand and access without committing real resources. State anomalies for the responsible team to resolve. [S84] List which responsibilities are agreed and which remain assumptions before asking anyone to judge the proposal."
+          ],
+          "example": "Fictional case: A grant buys a cold room. The proposal calls it fully funded, although eight units of ongoing costs have no owner or confirmed revenue.",
+          "activity": "Prepare a purpose, timing and obligation table. State the recurring gap and the feasibility questions to resolve.",
+          "feedback": "Separate acquisition and recurring costs. Name who would operate the facility and verify access, fees and continuity.",
+          "sources": [
+            "S81",
+            "S84"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Screen environmental and distributional claims",
+          "outcome": "Distinguish an environmental claim from its evidence and specify who gains or pays.",
+          "paragraphs": [
+            "Start with the claimed environmental gain and the path that might produce it. A cold room can reduce spoilage if it works reliably and people can use it. Its electricity source, backup arrangements and equipment maintenance may also affect environmental performance. A short observation needs careful interpretation. State the baseline, period, expected change and evidence required. [S84]",
+            "Ask which groups use the resource and who could lose access or incur costs. Fees, operating hours and admission terms can shape benefit as much as equipment capacity. A capture fisheries study uses different measures for landed value, household nutrition and work. These distinctions help a learner avoid equating gross receipts with wellbeing across coastal households. [R91]",
+            "Look beyond the project's own site. Nearby developments may constrain alternative landings or access routes. A proposal may report better conditions inside a managed zone while transferring effort or congestion outside it. Describe the possible mechanism and the site evidence needed. An indicator showing less activity within the project boundary can coexist with an increase elsewhere. [S82] [S84]",
+            "Write an appraisal note with headings for claim, evidence, uncertainty and decision. Include one affected group with limited influence and one possible adverse consequence. Identify who can verify habitat or safety claims and which evidence a funder could make a condition of consideration. In the classroom use only supplied evidence and compare the project with a practical alternative serving the same need. [S84] If the evidence uses a short period with favourable weather, report that timing and check whether a comparable period leads to a different result."
+          ],
+          "example": "Fictional case: The operator uses lower spoilage to claim an overall environmental gain. Diesel use grew, some workers cannot pay and another landing is congested.",
+          "activity": "Separate supported and unsupported claims. Identify evidence for net effects, distribution and nearby impacts.",
+          "feedback": "Lower spoilage matters. Check energy and displaced activity independently and explain which workers can afford access.",
+          "sources": [
+            "R91",
+            "S82",
+            "S84"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Verify benefit commitments over time",
+          "outcome": "Write an accountable community-benefit record with measures, grievance route and revision triggers.",
+          "paragraphs": [
+            "Specify a benefit commitment in terms an affected worker can understand. Describe who qualifies, what the delivery is, the time window, the owner and how a person can ask for review. A broad promise of community jobs leaves unanswered whether work is accessible, paid, sustained and suited to people bearing project costs. Use measures that address those questions. [S84]",
+            "Consider a fictional agreement for twenty weekly discounted storage slots. Available slots, booked slots and successful use are different observations. If twelve of twenty eligible workers book and nine complete a use, report both stages. Identify whether the benefit reached processors who needed it at the intended hours. Track cost, wait and missed opportunities. [S81]",
+            "Include a transparent decision and review route. The terms may need revision if small users consistently cannot book, or if upkeep grows beyond available funding. Record an owner able to act, the evidence required and the timeframe. Keep accounting for adverse effects separately from benefit delivery so gains for one group do not conceal losses or rights concerns elsewhere. [S84]",
+            "Plan a simple follow-up with a dated register, aggregate measures and a safe way to report problems. Write both a public summary and a more detailed responsible-team entry using fictional information. Show what is still outstanding and identify the authority needed for any change to terms. A monitoring plan is useful when it tells someone what action follows a result. [S84] Include a route for people who applied unsuccessfully to explain access difficulties. Track whether the response changes the capacity, eligibility or timing of the offer."
+          ],
+          "example": "Fictional case: A benefit agreement promises 20 discounted opportunities. Twelve eligible workers book and nine make a successful use. The dashboard records all 20 as served.",
+          "activity": "Write a separate offer, booking and receipt measure and a response if small processors are excluded.",
+          "feedback": "Report the 20 offers, 12 bookings and nine uses with their denominators. Follow up on barriers through an accessible review route.",
+          "sources": [
+            "S81",
+            "S84"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-095",
+        "course_slug": "blue-finance-and-community-benefit-assessment",
+        "title": "Blue Finance and Community Benefit Assessment",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "704977a8f3435ef7f1022e99a0b140ae77938b1faa08409edb6610b37bf6357c",
+        "catalogue_sha256": "dfe275ac98d921d3290003a5349b1dbdf77274245c250c05f68afda0162252f1",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Define the project and its finance terms",
+            "outcome": "Create a basic financing and dependency map for a fictional coastal proposal.",
+            "teaching_points": [
+              {
+                "id": "SWP-095-M1-T1",
+                "text": "Identify the financed activity."
+              },
+              {
+                "id": "SWP-095-M1-T2",
+                "text": "Separate capital and operations."
+              },
+              {
+                "id": "SWP-095-M1-T3",
+                "text": "Map obligations in time."
+              },
+              {
+                "id": "SWP-095-M1-T4",
+                "text": "Examine actual access."
+              },
+              {
+                "id": "SWP-095-M1-T5",
+                "text": "Quantify the uncovered commitment."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Screen environmental and distributional claims",
+            "outcome": "Distinguish an environmental claim from its evidence and specify who gains or pays.",
+            "teaching_points": [
+              {
+                "id": "SWP-095-M2-T1",
+                "text": "Specify a mechanism."
+              },
+              {
+                "id": "SWP-095-M2-T2",
+                "text": "Check additional environmental pressures."
+              },
+              {
+                "id": "SWP-095-M2-T3",
+                "text": "Distinguish receipts and benefits."
+              },
+              {
+                "id": "SWP-095-M2-T4",
+                "text": "Look at neighbouring sites."
+              },
+              {
+                "id": "SWP-095-M2-T5",
+                "text": "Set a condition for appraisal."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Verify benefit commitments over time",
+            "outcome": "Write an accountable community-benefit record with measures, grievance route and revision triggers.",
+            "teaching_points": [
+              {
+                "id": "SWP-095-M3-T1",
+                "text": "Specify a measurable commitment."
+              },
+              {
+                "id": "SWP-095-M3-T2",
+                "text": "Keep stages visible."
+              },
+              {
+                "id": "SWP-095-M3-T3",
+                "text": "Identify reasons for low uptake."
+              },
+              {
+                "id": "SWP-095-M3-T4",
+                "text": "Assign an action trigger."
+              },
+              {
+                "id": "SWP-095-M3-T5",
+                "text": "Report adverse effects independently."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-095-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-095-M1-T1",
+            "question": "Which first question clarifies a coastal finance proposal?",
+            "options": [
+              {
+                "text": "What colour is used on its logo?",
+                "correct": false
+              },
+              {
+                "text": "How many headings are in the proposal?",
+                "correct": false
+              },
+              {
+                "text": "What activity and costs will the money cover?",
+                "correct": true
+              },
+              {
+                "text": "Which award has the longest name?",
+                "correct": false
+              }
+            ],
+            "rationale": "Finance appraisal begins with scope and purpose."
+          },
+          {
+            "id": "SWP-095-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-095-M1-T2",
+            "question": "What remains unfunded if equipment is covered and no operating source is assigned?",
+            "options": [
+              {
+                "text": "The equipment's recorded purchase cost.",
+                "correct": false
+              },
+              {
+                "text": "The already paid capital invoice.",
+                "correct": false
+              },
+              {
+                "text": "Only the meeting attendance list.",
+                "correct": false
+              },
+              {
+                "text": "Electricity, maintenance and other recurring costs.",
+                "correct": true
+              }
+            ],
+            "rationale": "A purchase award does not necessarily meet operating costs."
+          },
+          {
+            "id": "SWP-095-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-095-M1-T3",
+            "question": "Why compare repayment dates with seasonal cash receipts?",
+            "options": [
+              {
+                "text": "A payment can fall due before earnings arrive.",
+                "correct": true
+              },
+              {
+                "text": "Seasonal earnings guarantee repayment.",
+                "correct": false
+              },
+              {
+                "text": "Initial capital equals available cash forever.",
+                "correct": false
+              },
+              {
+                "text": "The timetable can replace all income evidence.",
+                "correct": false
+              }
+            ],
+            "rationale": "Cash timing affects feasibility."
+          },
+          {
+            "id": "SWP-095-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-095-M1-T4",
+            "question": "Which test checks whether the cold room helps small processors?",
+            "options": [
+              {
+                "text": "Count investors who joined the announcement.",
+                "correct": false
+              },
+              {
+                "text": "Check small-lot fees, opening hours and capacity against their work pattern.",
+                "correct": true
+              },
+              {
+                "text": "Assume identical uptake among all workers.",
+                "correct": false
+              },
+              {
+                "text": "Measure the ribbon length at launch.",
+                "correct": false
+              }
+            ],
+            "rationale": "Benefit depends on practical affordability and use."
+          },
+          {
+            "id": "SWP-095-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-095-M1-T5",
+            "question": "What is the gap per period in the supplied capital-only case?",
+            "options": [
+              {
+                "text": "Zero units.",
+                "correct": false
+              },
+              {
+                "text": "All historical sales.",
+                "correct": false
+              },
+              {
+                "text": "Eight units.",
+                "correct": true
+              },
+              {
+                "text": "A national budget estimate.",
+                "correct": false
+              }
+            ],
+            "rationale": "The recurring funds assigned are zero while recurring cost is eight."
+          },
+          {
+            "id": "SWP-095-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-095-M2-T1",
+            "question": "Which evidence relates directly to a spoilage-reduction claim?",
+            "options": [
+              {
+                "text": "A branding announcement.",
+                "correct": false
+              },
+              {
+                "text": "The number of investors at launch.",
+                "correct": false
+              },
+              {
+                "text": "The size of the storage building alone.",
+                "correct": false
+              },
+              {
+                "text": "Comparable spoiled quantities relative to handled stock over a stated period.",
+                "correct": true
+              }
+            ],
+            "rationale": "Evidence needs a baseline, unit and consistent denominator."
+          },
+          {
+            "id": "SWP-095-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-095-M2-T2",
+            "question": "Which concern can qualify the claimed improvement?",
+            "options": [
+              {
+                "text": "Fuel use and other environmental costs of operating the facility.",
+                "correct": true
+              },
+              {
+                "text": "The logo has fewer colours.",
+                "correct": false
+              },
+              {
+                "text": "The new equipment has a shorter name.",
+                "correct": false
+              },
+              {
+                "text": "Total staff attendance at launch.",
+                "correct": false
+              }
+            ],
+            "rationale": "Operational environmental effects need evidence."
+          },
+          {
+            "id": "SWP-095-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-095-M2-T3",
+            "question": "Why can't project sales alone establish household wellbeing?",
+            "options": [
+              {
+                "text": "Sales prove that every household eats more fish.",
+                "correct": false
+              },
+              {
+                "text": "Sales omit distribution, expenses and several livelihood dimensions.",
+                "correct": true
+              },
+              {
+                "text": "Turnover measures every unpaid contribution.",
+                "correct": false
+              },
+              {
+                "text": "Costs always fall when revenue rises.",
+                "correct": false
+              }
+            ],
+            "rationale": "Revenue measures only one part of the effect."
+          },
+          {
+            "id": "SWP-095-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-095-M2-T4",
+            "question": "Which comparison tests displaced activity?",
+            "options": [
+              {
+                "text": "Measure one managed site only.",
+                "correct": false
+              },
+              {
+                "text": "Ignore new congestion outside the boundary.",
+                "correct": false
+              },
+              {
+                "text": "Track changes at the original and alternative landings under comparable conditions.",
+                "correct": true
+              },
+              {
+                "text": "Count planned sites as operating.",
+                "correct": false
+              }
+            ],
+            "rationale": "A boundary can hide risks moved elsewhere."
+          },
+          {
+            "id": "SWP-095-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-095-M2-T5",
+            "question": "Which action fits an unsupported habitat claim?",
+            "options": [
+              {
+                "text": "Approve it because the proposal uses blue finance language.",
+                "correct": false
+              },
+              {
+                "text": "Replace the claim with an unrelated turnover figure.",
+                "correct": false
+              },
+              {
+                "text": "Treat all environmental concerns as resolved.",
+                "correct": false
+              },
+              {
+                "text": "Seek qualified evidence and keep the claim provisional.",
+                "correct": true
+              }
+            ],
+            "rationale": "A responsible reviewer asks for evidence before relying on the claim."
+          },
+          {
+            "id": "SWP-095-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-095-M3-T1",
+            "question": "What does an actionable benefit promise include?",
+            "options": [
+              {
+                "text": "Recipient rules, delivery, timeframe, responsible role and review.",
+                "correct": true
+              },
+              {
+                "text": "A general hope that everyone gains.",
+                "correct": false
+              },
+              {
+                "text": "An untracked pledge number.",
+                "correct": false
+              },
+              {
+                "text": "A project name without terms.",
+                "correct": false
+              }
+            ],
+            "rationale": "Clear commitments make follow-up possible."
+          },
+          {
+            "id": "SWP-095-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-095-M3-T2",
+            "question": "Which count represents completed use in the supplied case?",
+            "options": [
+              {
+                "text": "Twenty available slots.",
+                "correct": false
+              },
+              {
+                "text": "Nine successful uses.",
+                "correct": true
+              },
+              {
+                "text": "Twelve bookings.",
+                "correct": false
+              },
+              {
+                "text": "Twenty registered online page views.",
+                "correct": false
+              }
+            ],
+            "rationale": "Availability and booking are earlier stages."
+          },
+          {
+            "id": "SWP-095-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-095-M3-T3",
+            "question": "What should the reviewer check when eligible small processors rarely book?",
+            "options": [
+              {
+                "text": "Only the colour of the advert.",
+                "correct": false
+              },
+              {
+                "text": "Whether staff enjoyed training.",
+                "correct": false
+              },
+              {
+                "text": "Hours, fees, booking requirements and usable capacity.",
+                "correct": true
+              },
+              {
+                "text": "Whether the grant name is memorable.",
+                "correct": false
+              }
+            ],
+            "rationale": "Patterns of uptake need practical explanation."
+          },
+          {
+            "id": "SWP-095-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-095-M3-T4",
+            "question": "Which trigger enables a decision?",
+            "options": [
+              {
+                "text": "Decide whenever convenient.",
+                "correct": false
+              },
+              {
+                "text": "Count every booking as permanently successful.",
+                "correct": false
+              },
+              {
+                "text": "Stop measuring once plans are printed.",
+                "correct": false
+              },
+              {
+                "text": "Review if the next comparable period again shows few completed uses for small processors.",
+                "correct": true
+              }
+            ],
+            "rationale": "A trigger connects a defined result to follow-up."
+          },
+          {
+            "id": "SWP-095-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-095-M3-T5",
+            "question": "Why should access losses continue to be tracked when benefits reach some users?",
+            "options": [
+              {
+                "text": "Improvements for some can coexist with unresolved costs for others.",
+                "correct": true
+              },
+              {
+                "text": "A positive total removes all costs.",
+                "correct": false
+              },
+              {
+                "text": "Each benefit automatically compensates everyone.",
+                "correct": false
+              },
+              {
+                "text": "Complaints count as completed benefits.",
+                "correct": false
+              }
+            ],
+            "rationale": "Distribution and accountability require seeing both gains and losses."
+          }
+        ]
+      }
+    },
+    {
+      "code": "SWP-096",
+      "title": "Coastal Livelihoods Planning Practicum",
+      "slug": "coastal-livelihoods-planning-practicum",
+      "cover_title": "Coastal Livelihoods\nPlanning Practicum",
+      "school_code": "BLU",
+      "school_name": "School of Climate Change and Blue Economy Social Work",
+      "school_display": "Climate Change and\nBlue Economy Social Work",
+      "estimated_minutes": 180,
+      "audience": "Social work learners and practitioners developing coastal practice skills through guided simulation.",
+      "study_guidance": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials. Try each activity before reading the feedback.",
+      "practice_safety_note": "Use the supplied fictional coastal cases and invented figures. Route real safety, legal, environmental and funding decisions through the responsible qualified teams. Work from the classroom materials.",
+      "outcome": "Prepare a reviewable coastal livelihood plan with a bounded choice, accountable delivery and evidence of benefits and risks.",
+      "modules": [
+        {
+          "order": 1,
+          "title": "Build an options brief for a coastal site",
+          "outcome": "Compare two feasible options against shared criteria and an evidence baseline.",
+          "paragraphs": [
+            "The fictional Oru Reach team has a disrupted fish landing and an expensive cold-room proposal. Define the immediate service problem before choosing a project. Some workers need dependable unloading and an affordable way to preserve stock. Others report that warnings arrive after access paths close. Record these as distinct issues and examine the links between them. [S81] [S82]",
+            "Set out the status quo, a staffed alternate route and a larger facility proposal. Compare all three across livelihood access, cost, continuity, marine impacts and who can decide. The same criterion should be applied using comparable observations. A new facility's planned capacity and an existing landing's observed use should carry different evidence labels. [S84]",
+            "Use an original role map for boat crew, processors, households, markets, association leaders, social services and authorities. Add the people absent from official records and explain how you would invite input in a real authorised process. Findings about coastal participation in Lagos reveal questions about timing and accessibility. The supplied fiction defines the group and constraints for this exercise. [R92]",
+            "Describe an evidence baseline and an unresolved claim before making a recommendation. For example, record how many people can reach the market during the tested opening window, and whether the alternative would transfer costs. Label a group count by period and eligibility. Note who can confirm the physical or rights questions, and give a decision milestone tied to the evidence. [S83] Describe resources needed for each option and how it will operate in the same rough season. Include a clear uncertainty that could reverse the recommendation."
+          ],
+          "example": "Fictional case: Oru Reach has repeat landing closures. A sponsor proposes a cold room, but affordable access, reliable power and an alternative unloading route are unresolved.",
+          "activity": "Compare the current route and two options. Include access, work, safety dependencies, marine impacts, operating costs and review authority.",
+          "feedback": "Show evidence and assumptions for each option. Identify a feasible small test and the decisions needing formal review.",
+          "sources": [
+            "R92",
+            "S81",
+            "S82",
+            "S83",
+            "S84"
+          ]
+        },
+        {
+          "order": 2,
+          "title": "Rehearse safeguards and contingencies",
+          "outcome": "Test participation, interruption response and proposed community benefits before a simulated decision.",
+          "paragraphs": [
+            "Turn the important assumptions into simple test cards. One card can check whether a worker without an owner registration obtains an appointment. Another can check whether a missed warning has a usable fallback. A third can test whether a seasonal route appears correctly in a draft proposal. Specify the starting condition, response, role and evidence of completion. [S81] [S82]",
+            "In a representative exercise, enter concerns through two channels and assign each to someone with a response deadline. Ask the learner to explain the process to a person who speaks another language or cannot attend a public meeting. Capture what the person is able to influence and how they would learn the decision. Record changes and reasons clearly. [S83]",
+            "A benefit test can trace a worker from eligibility to actual usable receipt. If a trial offers six morning slots and late arrivals miss them, review why. Slot capacity alone may hide constraints from transport or the timing of catches. Consider who bears new costs and how the project can use the limited data proportionately. [S84]",
+            "Use a written record with the date, scenario, observation, status and next responsible action. Raise failures that are consequential even if another part of the rehearsal passes. A blocked route can require immediate reconsideration of the exercise proposal. A suspected technical danger or real conflict belongs with the appropriate qualified or authorised team. Revise a failed step and rerun the same case. [S82] Check who is responsible for reopening a failed step. The review should distinguish steps the team can revise from questions that need an external decision."
+          ],
+          "example": "Fictional case: The rehearsal succeeds for registered owners. A processor misses the warning, and another worker cannot use the facility during the available hours.",
+          "activity": "Write three exception cards and assign an owner, expected result and retest for each.",
+          "feedback": "Test actual access for workers outside the easiest route. Track the failed cases and retest the corrected steps.",
+          "sources": [
+            "S81",
+            "S82",
+            "S83",
+            "S84"
+          ]
+        },
+        {
+          "order": 3,
+          "title": "Present a decision and monitoring plan",
+          "outcome": "Deliver an accountable decision memo with measures, ownership and a review date.",
+          "paragraphs": [
+            "Write the immediate decision first. A classroom decision might proceed with a staffed rehearsal, revise a proposal or pause pending a formal assessment. State the main evidence and the need it addresses. If the known barrier is physical access at landing time, a cold room alone may leave the practical problem unresolved. [S81]",
+            "Show baseline, measure, time window, outcome and one important limit. Use a denominator that names the group. Record both people who received a service and people excluded before application. Keep outcomes distinct from meetings, offers or completed works. Include a way to track impacts on nearby areas, especially where development or adaptation could transfer burdens. [S82] [S84]",
+            "Decide when a review should change course. For example, two failed exception tests can require a redesign before another round. Identify which role can pause, what evidence would permit a retest and how participants keep access to essential routes. Distinguish a decision to test a fictional design from approval for a real activity, expenditure or restriction. [S83]",
+            "Write the final brief so someone who did not attend the exercise can evaluate it. Include a stated need, options considered, affected groups and environment, supporting and adverse findings, decision, responsible roles and review date. Explain one thing that would change your recommendation and who would verify it. Record outstanding concerns in a confidential or aggregate form appropriate to the audience. [S84] State how the team would compare the next trial with the one just completed. Use the same inclusion rules and record any design or staffing changes that affect interpretation."
+          ],
+          "example": "Fictional case: Eight of ten ordinary cases used the route, but none of the tested low-cost users could book a suitable time. The sponsor proposes expansion.",
+          "activity": "Draft a decision memo with the observed results, an access improvement, a stop condition and a dated recheck.",
+          "feedback": "Retain the successful ordinary cases and the failed low-cost cases. Link any next trial to a verified change in access.",
+          "sources": [
+            "S81",
+            "S82",
+            "S83",
+            "S84"
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "draft_for_review",
+        "assessment_id": null,
+        "version": "0.1.0",
+        "course_code": "SWP-096",
+        "course_slug": "coastal-livelihoods-planning-practicum",
+        "title": "Coastal Livelihoods Planning Practicum",
+        "proposed_pass_percent": 70,
+        "minimum_correct": 11,
+        "source_hash_encoding": "canonical-json-sorted-keys-utf8",
+        "authoring_source_sha256": "12e729a46660de834448ef7841be14a4947c7eed42e96ef5d8c5c33f461b084a",
+        "catalogue_sha256": "a91e7ff29b28bd323944da2cc2276c227316dc2ebd2d47a4781e0b3cb8f4a22d",
+        "modules": [
+          {
+            "order": 1,
+            "title": "Build an options brief for a coastal site",
+            "outcome": "Compare two feasible options against shared criteria and an evidence baseline.",
+            "teaching_points": [
+              {
+                "id": "SWP-096-M1-T1",
+                "text": "Start from the service need."
+              },
+              {
+                "id": "SWP-096-M1-T2",
+                "text": "Compare plausible alternatives."
+              },
+              {
+                "id": "SWP-096-M1-T3",
+                "text": "Map affected groups."
+              },
+              {
+                "id": "SWP-096-M1-T4",
+                "text": "Label evidence status."
+              },
+              {
+                "id": "SWP-096-M1-T5",
+                "text": "Clarify decision authority."
+              }
+            ]
+          },
+          {
+            "order": 2,
+            "title": "Rehearse safeguards and contingencies",
+            "outcome": "Test participation, interruption response and proposed community benefits before a simulated decision.",
+            "teaching_points": [
+              {
+                "id": "SWP-096-M2-T1",
+                "text": "Define reproducible test cards."
+              },
+              {
+                "id": "SWP-096-M2-T2",
+                "text": "Include people outside the register."
+              },
+              {
+                "id": "SWP-096-M2-T3",
+                "text": "Follow up on concerns."
+              },
+              {
+                "id": "SWP-096-M2-T4",
+                "text": "Measure benefit at the last stage."
+              },
+              {
+                "id": "SWP-096-M2-T5",
+                "text": "Retest a failed assumption."
+              }
+            ]
+          },
+          {
+            "order": 3,
+            "title": "Present a decision and monitoring plan",
+            "outcome": "Deliver an accountable decision memo with measures, ownership and a review date.",
+            "teaching_points": [
+              {
+                "id": "SWP-096-M3-T1",
+                "text": "State a decision and its grounds."
+              },
+              {
+                "id": "SWP-096-M3-T2",
+                "text": "Measure comparable access."
+              },
+              {
+                "id": "SWP-096-M3-T3",
+                "text": "Monitor adverse findings."
+              },
+              {
+                "id": "SWP-096-M3-T4",
+                "text": "Define when to review."
+              },
+              {
+                "id": "SWP-096-M3-T5",
+                "text": "Brief an independent reader."
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "SWP-096-Q01",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-096-M1-T1",
+            "question": "What problem should the brief describe first?",
+            "options": [
+              {
+                "text": "The sponsor needs a bigger project name.",
+                "correct": false
+              },
+              {
+                "text": "All workers need the same intervention.",
+                "correct": false
+              },
+              {
+                "text": "Workers lack dependable unloading and preservation access.",
+                "correct": true
+              },
+              {
+                "text": "A funding offer is automatically the problem definition.",
+                "correct": false
+              }
+            ],
+            "rationale": "A proposal should answer an evidenced problem."
+          },
+          {
+            "id": "SWP-096-Q02",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-096-M1-T2",
+            "question": "What makes the options appraisal useful?",
+            "options": [
+              {
+                "text": "Present planned data as observed only for the preferred route.",
+                "correct": false
+              },
+              {
+                "text": "Omit current access from every comparison.",
+                "correct": false
+              },
+              {
+                "text": "Compare the sponsor's reputation against unrelated worker concerns.",
+                "correct": false
+              },
+              {
+                "text": "Use shared criteria and comparable observations across feasible routes.",
+                "correct": true
+              }
+            ],
+            "rationale": "Common criteria help a reviewer judge the trade-offs."
+          },
+          {
+            "id": "SWP-096-Q03",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-096-M1-T3",
+            "question": "Who may need an explicit voice in a plan drafted from boat owner reports?",
+            "options": [
+              {
+                "text": "Processors, crew and households relying on the catch.",
+                "correct": true
+              },
+              {
+                "text": "Only the promoter's board.",
+                "correct": false
+              },
+              {
+                "text": "Only people already served by the facility.",
+                "correct": false
+              },
+              {
+                "text": "Only the author of the options memo.",
+                "correct": false
+              }
+            ],
+            "rationale": "Direct effects can extend beyond the group listed in a register."
+          },
+          {
+            "id": "SWP-096-Q04",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-096-M1-T4",
+            "question": "What should planned cold-room capacity be called at this stage?",
+            "options": [
+              {
+                "text": "Observed service use.",
+                "correct": false
+              },
+              {
+                "text": "A design assumption or specification requiring verification.",
+                "correct": true
+              },
+              {
+                "text": "Guaranteed household access.",
+                "correct": false
+              },
+              {
+                "text": "Proof of better incomes.",
+                "correct": false
+              }
+            ],
+            "rationale": "A specification describes what the design anticipates."
+          },
+          {
+            "id": "SWP-096-Q05",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 1,
+            "teaching_point_id": "SWP-096-M1-T5",
+            "question": "How should the brief treat an unresolved real shore access right?",
+            "options": [
+              {
+                "text": "Declare the right settled from classroom work.",
+                "correct": false
+              },
+              {
+                "text": "Give the sponsor sole control by default.",
+                "correct": false
+              },
+              {
+                "text": "Identify evidence and refer it to the competent decision route.",
+                "correct": true
+              },
+              {
+                "text": "Delete it from the brief.",
+                "correct": false
+              }
+            ],
+            "rationale": "Authority and evidence are both necessary for a real decision."
+          },
+          {
+            "id": "SWP-096-Q06",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-096-M2-T1",
+            "question": "What goes into an interruption card?",
+            "options": [
+              {
+                "text": "Only an assertion that the service works.",
+                "correct": false
+              },
+              {
+                "text": "A future date without a scenario.",
+                "correct": false
+              },
+              {
+                "text": "The author's preference alone.",
+                "correct": false
+              },
+              {
+                "text": "Initial condition, expected action, responsible role and observed result.",
+                "correct": true
+              }
+            ],
+            "rationale": "A repeatable test can assess a defined response."
+          },
+          {
+            "id": "SWP-096-Q07",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-096-M2-T2",
+            "question": "Which case most directly tests a registration barrier?",
+            "options": [
+              {
+                "text": "A processor without an owner record requests the proposed service.",
+                "correct": true
+              },
+              {
+                "text": "A registered owner follows the usual route.",
+                "correct": false
+              },
+              {
+                "text": "The sponsor downloads a publicity page.",
+                "correct": false
+              },
+              {
+                "text": "The organiser prints additional invitations.",
+                "correct": false
+              }
+            ],
+            "rationale": "An exception case tests who a standard route might omit."
+          },
+          {
+            "id": "SWP-096-Q08",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-096-M2-T3",
+            "question": "What demonstrates that a submission received responsible attention?",
+            "options": [
+              {
+                "text": "A page view is recorded.",
+                "correct": false
+              },
+              {
+                "text": "A named role records the response and tells the contributor what happens next.",
+                "correct": true
+              },
+              {
+                "text": "The meeting is closed before response.",
+                "correct": false
+              },
+              {
+                "text": "The concern is discarded after typing.",
+                "correct": false
+              }
+            ],
+            "rationale": "Accountability includes feedback and action."
+          },
+          {
+            "id": "SWP-096-Q09",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-096-M2-T4",
+            "question": "Which evidence shows that a worker could use a benefit in practice?",
+            "options": [
+              {
+                "text": "The facility advertised six slots.",
+                "correct": false
+              },
+              {
+                "text": "A person clicked the offer once.",
+                "correct": false
+              },
+              {
+                "text": "An eligible worker received and used a suitable available slot.",
+                "correct": true
+              },
+              {
+                "text": "The plan includes projected bookings.",
+                "correct": false
+              }
+            ],
+            "rationale": "Effective benefit requires a usable service."
+          },
+          {
+            "id": "SWP-096-Q10",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 2,
+            "teaching_point_id": "SWP-096-M2-T5",
+            "question": "After correcting a missed warning route, what should the team do?",
+            "options": [
+              {
+                "text": "Count the wording revision as success.",
+                "correct": false
+              },
+              {
+                "text": "Replace the case with an easy example.",
+                "correct": false
+              },
+              {
+                "text": "Omit the finding from the record.",
+                "correct": false
+              },
+              {
+                "text": "Rerun the relevant scenario and record whether the person can act.",
+                "correct": true
+              }
+            ],
+            "rationale": "Retesting connects changes to the original failure."
+          },
+          {
+            "id": "SWP-096-Q11",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-096-M3-T1",
+            "question": "Which first sentence fits this evidence?",
+            "options": [
+              {
+                "text": "Revise booking before expansion because the tested low-cost route failed.",
+                "correct": true
+              },
+              {
+                "text": "Expand because some ordinary cases passed.",
+                "correct": false
+              },
+              {
+                "text": "Declare the whole village served.",
+                "correct": false
+              },
+              {
+                "text": "Count the proposal as completed work.",
+                "correct": false
+              }
+            ],
+            "rationale": "The decision should reflect the practical failure as well as the successes."
+          },
+          {
+            "id": "SWP-096-Q12",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-096-M3-T2",
+            "question": "What does eight of ten describe?",
+            "options": [
+              {
+                "text": "The percentage of all coastal residents protected.",
+                "correct": false
+              },
+              {
+                "text": "The proportion using the route among ordinary cases in the exercise.",
+                "correct": true
+              },
+              {
+                "text": "An effect on fish stocks.",
+                "correct": false
+              },
+              {
+                "text": "A national enrolment rate.",
+                "correct": false
+              }
+            ],
+            "rationale": "The group and scope define the measure."
+          },
+          {
+            "id": "SWP-096-Q13",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-096-M3-T3",
+            "question": "Which observation should stay visible in the memo?",
+            "options": [
+              {
+                "text": "Only that the proposal has a title.",
+                "correct": false
+              },
+              {
+                "text": "Only support from the sponsor.",
+                "correct": false
+              },
+              {
+                "text": "No tested low-cost user could book a usable slot.",
+                "correct": true
+              },
+              {
+                "text": "Only the average with failures omitted.",
+                "correct": false
+              }
+            ],
+            "rationale": "Unequal access can be obscured by a combined total."
+          },
+          {
+            "id": "SWP-096-Q14",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-096-M3-T4",
+            "question": "Which recheck condition supports a defensible next step?",
+            "options": [
+              {
+                "text": "Restart after printing the policy.",
+                "correct": false
+              },
+              {
+                "text": "Assume more demand will solve the barrier.",
+                "correct": false
+              },
+              {
+                "text": "Close the concern if time passes.",
+                "correct": false
+              },
+              {
+                "text": "A named role verifies a revised low-cost slot route against the failed cases by an agreed date.",
+                "correct": true
+              }
+            ],
+            "rationale": "Review needs ownership, a clear observation and timing."
+          },
+          {
+            "id": "SWP-096-Q15",
+            "type": "MCQ",
+            "marks": 1,
+            "module_order": 3,
+            "teaching_point_id": "SWP-096-M3-T5",
+            "question": "What should a reader be able to trace?",
+            "options": [
+              {
+                "text": "How the evidence and affected groups led to a justified, conditional decision.",
+                "correct": true
+              },
+              {
+                "text": "Only the names of the report writers.",
+                "correct": false
+              },
+              {
+                "text": "Only the headlines without underlying facts.",
+                "correct": false
+              },
+              {
+                "text": "Only the proposed marketing benefits.",
+                "correct": false
+              }
+            ],
+            "rationale": "Traceability lets another reader examine the decision."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_note": "Evidence checked 27 November 2026. Practice guidance and research each answer different questions. The source notes record context, dates, access and reuse terms. Exercises use supplied fictional cases and invented figures. Graded ParaLearn assessments require configured delivery and unpublished items."
+}
