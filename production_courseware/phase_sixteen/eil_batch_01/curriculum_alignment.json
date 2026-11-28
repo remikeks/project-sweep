@@ -1,0 +1,120 @@
+{
+  "school_code": "EIL",
+  "verified_live_baseline": 0,
+  "target": 8,
+  "evidence_checked_on": "2026-11-28",
+  "scope": "Cross-sector practice on community and livelihood impacts. The school name retains SW-EMHEC as recorded. No verified expansion or independent competency standard was supplied for it.",
+  "depth": "Three-hour short courses with simulated casework and review questions. Comparators inform topic coverage and applied outcomes. The University of Queensland SIA comparator is a longer 26.5-hour course and this package makes no claim of hours, credential equivalence or field competence.",
+  "comparators": [
+    {
+      "name": "University of Queensland, Social Impact Assessment in Resources",
+      "url": "https://study.uq.edu.au/short-courses/social-impact-assessment-mining",
+      "alignment": "Baseline, theory of change, community control, ethical participation and ongoing monitoring. The EIL classroom assessment adds matched baseline review, decision evidence and defined follow-up."
+    },
+    {
+      "name": "University of Toronto, Environment, Social & Governance",
+      "url": "https://mimp.civmin.utoronto.ca/courses/environment-social-governance/",
+      "alignment": "Mining social and environmental assessment, human rights, community relations, conflict and ESG reporting. The EIL lessons apply these questions in cross-sector African social work simulations."
+    },
+    {
+      "name": "IFC Performance Standards, OECD extractives guidance, UN Guiding Principles, ILO and EITI",
+      "source_ids": [
+        "S85",
+        "S86",
+        "S87",
+        "S88",
+        "S89"
+      ],
+      "alignment": "Structured protective referral, risk-based engagement, mitigation, labour transition, remedy, and traceable disclosure and monitoring."
+    }
+  ],
+  "course_map": [
+    {
+      "course_code": "SWP-097",
+      "competency": "Lifecycle, affected-user mapping and safe meaningful participation",
+      "source_ids": [
+        "S85",
+        "S86",
+        "S89",
+        "R95",
+        "R97"
+      ]
+    },
+    {
+      "course_code": "SWP-098",
+      "competency": "Baseline, impact pathways, significance and mitigation evidence",
+      "source_ids": [
+        "S85",
+        "S88",
+        "S89",
+        "S90",
+        "R99"
+      ]
+    },
+    {
+      "course_code": "SWP-099",
+      "competency": "Livelihood baseline, decent work transition and recovery indicators",
+      "source_ids": [
+        "S85",
+        "S87",
+        "R96",
+        "R98"
+      ]
+    },
+    {
+      "course_code": "SWP-100",
+      "competency": "Scope of health evidence, qualified referrals and equitable continuity",
+      "source_ids": [
+        "S85",
+        "S90",
+        "R94",
+        "R97"
+      ]
+    },
+    {
+      "course_code": "SWP-101",
+      "competency": "Affected uses, displacement, benefit terms and verified restoration",
+      "source_ids": [
+        "S85",
+        "S86",
+        "S89",
+        "R95",
+        "R99"
+      ]
+    },
+    {
+      "course_code": "SWP-102",
+      "competency": "Grievance access, conflict safeguards, review and effective remedy",
+      "source_ids": [
+        "S86",
+        "S89",
+        "R95"
+      ]
+    },
+    {
+      "course_code": "SWP-103",
+      "competency": "Disclosures, independent monitoring and corrective action",
+      "source_ids": [
+        "S86",
+        "S88",
+        "S89",
+        "S91",
+        "R99"
+      ]
+    },
+    {
+      "course_code": "SWP-104",
+      "competency": "Phased case intervention, options rehearsal and decision review",
+      "source_ids": [
+        "S85",
+        "S86",
+        "S87",
+        "S88",
+        "S89",
+        "R96"
+      ]
+    }
+  ],
+  "boundaries": "EIL compares practice across extractive projects. The Nigerian Content (SNC) and Petroleum Industry Act (SPIA) schools handle their own statutory applications. The health course guides referral coordination and evidence literacy. Licensed clinical, technical, legal and statutory decisions stay with their authorised professionals.",
+  "school_exam": "Forty unbound MCQ slots, six short answers and two integrated essays. Written moderation, unpublished item creation, ParaLearn provider verification and authorised signatures precede credential issue."
+}

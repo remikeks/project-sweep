@@ -1,0 +1,723 @@
+{
+  "status": "draft_for_review",
+  "school_code": "EIL",
+  "curriculum_version": "EIL-proposed-eight-course-0.1.0",
+  "provider": "ParaLearn CBT",
+  "provider_assessment_id": null,
+  "provider_contract_verified": false,
+  "required_courses": [
+    "SWP-097",
+    "SWP-098",
+    "SWP-099",
+    "SWP-100",
+    "SWP-101",
+    "SWP-102",
+    "SWP-103",
+    "SWP-104"
+  ],
+  "programme_target_course_count": 8,
+  "draft_catalogue_complete": true,
+  "curriculum_complete": false,
+  "remaining_curriculum_titles": [],
+  "retained_course_domains": {},
+  "scope_note": "Five MCQ slots per course. Six short answers collectively cover all eight courses. Both essays integrate all eight.",
+  "proposed_duration_minutes": 210,
+  "duration_status": "Proposed timing for learner and accessibility piloting.",
+  "marking_policy": {
+    "proposed_pass_percent": 70,
+    "moderation_required": true,
+    "ai_only_finalisation": false,
+    "rubric_rule": "Record human criterion scores, reasons, rubric version and the independent moderator.",
+    "appeals": "Retain responses, criteria, reasons, moderation and dated appeal and amendment outcomes."
+  },
+  "certification": {
+    "authorised": false,
+    "requirements": [
+      "Complete every approved course and pass the final verified mixed ParaLearn exam.",
+      "Human marking and independent moderation for written responses.",
+      "Authorised signatures from the Head of Learning and Founder Prof. Mina Ogbanga."
+    ]
+  },
+  "items": [
+    {
+      "id": "EIL8-SWP-097-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-097"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-097-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-097"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-097-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-097"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-097-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-097"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-097-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-097"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-098-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-098"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-098-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-098"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-098-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-098"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-098-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-098"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-098-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-098"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-099-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-099-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-099-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-099-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-099-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-100-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-100-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-100-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-100-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-100-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-101-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-101-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-101-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-101-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-101-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-102-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-102-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-102-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-102-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-102-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-103-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-103"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-103-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-103"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-103-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-103"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-103-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-103"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-103-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-103"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-104-MCQ-01",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-104"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-104-MCQ-02",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-104"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-104-MCQ-03",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-104"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-104-MCQ-04",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-104"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SWP-104-MCQ-05",
+      "type": "MCQ",
+      "marks": 1,
+      "course_codes": [
+        "SWP-104"
+      ],
+      "question_binding": null
+    },
+    {
+      "id": "EIL8-SA-01",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-097",
+        "SWP-098"
+      ],
+      "prompt": "Afirin Ridge moves a road during early works. A gate count covers dry weekdays and excludes vendors travelling on wet-season market days. Give five corrections before the route decision.",
+      "model_answer": "Map affected users outside the project boundary. Set a comparable seasonal baseline. Trace the access and earnings pathway. Offer safe participation and show how input will influence the decision. Assign the assessment review and date.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Affected users",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Comparable baseline",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Pathway",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Practical participation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Review authority",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-SA-02",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-099"
+      ],
+      "prompt": "The closure plan offers training to 30 people and forecasts ten jobs. Food sellers are absent from the eligibility list. Give five changes to the transition plan.",
+      "model_answer": "Map indirect work and seasonality. Verify demand and timing. Compare alternative support and employment conditions. Check access and practical affordability. Monitor net livelihoods and sustained work against baseline.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Group and baseline",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Work feasibility",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Support comparison",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Access",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Sustained recovery",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-SA-03",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-100"
+      ],
+      "prompt": "Residents report a smell and seek health support. Of 20 referrals, 16 are accepted and 12 attend. Give five parts of a safe follow-up.",
+      "model_answer": "Separate reported hazard from assessment. Refer timely clinical support and site evidence separately. Explain consent and necessary sharing. Report 80 percent accepted and 60 percent attended among all referred. Verify barriers and a safe follow-up.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Evidence status",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Qualified routes",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Protected information",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Rates and denominator",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Continuity check",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-SA-04",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-101"
+      ],
+      "prompt": "A planned fence restricts seasonal use and an operator offers a communal hall. Give five requirements for reviewing the displacement and benefits proposal.",
+      "model_answer": "Recognise economic displacement and omitted users. Compare an avoidance option. Separate remedy for eligible harm from the hall benefit. Enable independent support and clarify the decision process. Verify access restoration and actual benefit use.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Displacement scope",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Avoidance",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Separate obligations",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Fair participation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Verified outcomes",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-SA-05",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-102"
+      ],
+      "prompt": "The official desk uses one daytime channel and sends complaints to the manager named in them. A reply says the file is closed because a contractor approved an alternative route. Give five improvements.",
+      "model_answer": "Provide equivalent safe routes and confidentiality information. Refer retaliation concerns appropriately and preserve alternatives. Disclose conflicts and provide independent review. Separate approval and implementation. Verify use before closure.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Safe entry",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Safeguarding",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Fair review",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Process distinctions",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Remedy verification",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-SA-06",
+      "type": "SHORT_ANSWER",
+      "marks": 5,
+      "course_codes": [
+        "SWP-103",
+        "SWP-104"
+      ],
+      "prompt": "An operator announces a committed budget as full service delivery. An Afirin Ridge trial serves eight of ten typical users and zero of two low-access users. Give five entries in a decision memo.",
+      "model_answer": "Reconcile commitments against current receipt, service and user evidence. Show both rates and denominators. Keep the failed route visible. Compare revision or pause to the earlier proposal. Set an owner, verification criterion and review date.",
+      "human_marking_required": true,
+      "rubric": [
+        {
+          "criterion": "Reconciliation",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Group denominator",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Failure evidence",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Bounded decision",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        },
+        {
+          "criterion": "Corrective review",
+          "marks": 1,
+          "scoring": "0 missing or unsound. 1 accurate reasoning applied to the case."
+        }
+      ]
+    },
+    {
+      "id": "EIL8-ESSAY-01",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-097",
+        "SWP-098",
+        "SWP-099",
+        "SWP-100",
+        "SWP-101",
+        "SWP-102",
+        "SWP-103",
+        "SWP-104"
+      ],
+      "prompt": "Prepare a phased response to a fictional project winding down at Afirin Ridge. A fence may remove access to seasonal land and a clinic route, informal vendors are excluded from the transition plan, and a complainant fears retaliation. The operator promises a district training hall and cites its well-attended meeting. Use all eight EIL courses and specify what evidence could change the decision.",
+      "model_answer": "Map affected groups and project stage. Compare matched access baselines, impact pathways and alternatives. Address paid and informal livelihoods and transition quality. Set protected referral and authorised environmental review. Compare avoidance, restoration and benefits separately. Give a safe grievance route and independent review. Reconcile commitments with delivery. Recommend bounded steps, owners, trigger and retest.",
+      "rubric": [
+        {
+          "criterion": "Affected people, project stage, meaningful participation and impact evidence (097 and 098)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Livelihood feasibility, protection and sustained recovery (099)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Bounded health evidence and protected coordination (100)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Displacement, independent review and verified remedy (101 and 102)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Disclosure, actual delivery and a justified decision with review triggers (103 and 104)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        }
+      ],
+      "human_marking_required": true
+    },
+    {
+      "id": "EIL8-ESSAY-02",
+      "type": "ESSAY",
+      "marks": 15,
+      "course_codes": [
+        "SWP-097",
+        "SWP-098",
+        "SWP-099",
+        "SWP-100",
+        "SWP-101",
+        "SWP-102",
+        "SWP-103",
+        "SWP-104"
+      ],
+      "prompt": "Review Afirin Ridge\u2019s statement that the closure transition is fair and complete. It cites a gate traffic count, training certificates, an environmental report from another location, compensation forms, a closed-complaint count and promised funds. A simulated transport trial failed low-access users. Use all eight EIL courses to explain the limits, propose better evidence and defend the next action.",
+      "model_answer": "Describe whose participation and stage are visible. Compare route boundaries and outcome evidence. Verify seasonal and sustained livelihoods and reasons for missing coverage. Separate historical or site evidence and clinical support. Review eligible loss, access and benefits. Examine remedy outcomes and protected review. Trace promised funds and actual use. Keep failed trial cases visible and attach a justified corrective decision.",
+      "rubric": [
+        {
+          "criterion": "Affected people, project stage, meaningful participation and impact evidence (097 and 098)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Livelihood feasibility, protection and sustained recovery (099)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Bounded health evidence and protected coordination (100)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Displacement, independent review and verified remedy (101 and 102)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        },
+        {
+          "criterion": "Disclosure, actual delivery and a justified decision with review triggers (103 and 104)",
+          "marks": 3,
+          "scoring": "0 missing or unsafe. 1 limited relevant point. 2 sound reasoning with a gap. 3 coherent applied reasoning with accountable next action."
+        }
+      ],
+      "human_marking_required": true
+    }
+  ]
+}

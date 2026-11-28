@@ -1,0 +1,19 @@
+{
+  "phase": 17,
+  "school_code": "HDR",
+  "school_name": "School of Humanitarian Action and Disaster Response",
+  "target_courses": 8,
+  "planned_retained_codes": [
+    "SWP-025",
+    "SWP-026",
+    "SWP-027"
+  ],
+  "first_step": "Check the live inventory and verify the retained content and CBT bindings before developing five additions.",
+  "proposed_additions": [
+    "Humanitarian Principles and Quality Standards",
+    "Rapid Needs Assessment and Inclusive Response",
+    "Protection Accountability and Prevention of Exploitation",
+    "Humanitarian Coordination and Referral Systems",
+    "Humanitarian Response Simulation"
+  ]
+}
