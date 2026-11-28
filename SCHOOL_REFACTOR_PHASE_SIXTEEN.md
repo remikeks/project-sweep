@@ -11,3 +11,13 @@ The draft ParaLearn school exam totals 100 marks. It contains 40 unbound multipl
 Build with `scripts/build_eil_source.py`, `scripts/build_eil_eight_course_exam.py` and `scripts/build_eil_media.py`. The default Django database connection is live. Run local tests against isolated SQLite. Use the scoped owner approval after verifying rendered PDFs, hashes and the prior records. The academy applies private storage and signed downloads to LMS copies. The repository contains the public learning files and review examples.
 
 The next planned school is HDR, with three retained courses to verify and five proposed additions. See the [Phase 17 checkpoint](production_courseware/phase_sixteen/next_phase.json).
+
+## Verified build and publication
+
+The 230-test isolated SQLite suite passed in 224.948 seconds. The migration check found no changes. Source parity covered 914 earlier courseware files. The visual review covered all 194 final PDF pages, including 125 slides. The learner guides use 12-point body text. The editable decks passed package and layout checks, and their PDFs were rendered through LibreOffice. Native PowerPoint review and learner piloting are pending.
+
+The release staged eight inactive courses and 24 modules, then uploaded and checked 32 private files. After the scoped owner approval, production checks confirmed 104 active courses, 552 published resources, 32 exact new file hashes, 105 public pages and 32 guest download controls. Prior courses, CBT bindings, learners and credential records passed parity checks. All 25 school-level enrolments remain closed pending exam and certification readiness.
+
+Both academy domains originally served an unrelated deployment. The Vercel dashboard showed a different repository connected to the academy project. The known-good Phase 15 deployment at commit `67baac72055451121d4e2d688d5ebbee267b422c` was promoted to restore the academy. Both domains then passed live Phase 16 catalogue checks using that runtime. The Phase 16 source was pushed to SWEEP main at `e97d7b6a53ff262f738bef8838da2a9c4f403705`. The Vercel management API timed out and the Git connection requires separate correction. GitHub hosted CI could not start because of an account billing lock. [GitHub Actions run](https://github.com/remikeks/project-sweep/actions/runs/46166961430)
+
+The [one-page report for Prof. Mina](production_courseware/phase_sixteen/SWEEP_Phase_16_Report_Prof_Mina.pdf) uses a 12-point body and passed a visual check at 130 DPI. The learner archive passed integrity checks and matched all 32 approved file hashes. The programme has authored 70 of 150 planned additions.

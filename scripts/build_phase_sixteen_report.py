@@ -66,7 +66,8 @@ def main():
     findings = [
         'The eight additions contain 24 modules and 120 review MCQs. The 32 learner files include eight 12-point guides, eight three-page worksheets, eight editable PowerPoint decks and their matching slide PDFs. Videos are planned for a later phase.',
         'The curriculum uses fictional cases to apply international practice guidance, open Q1 research and Nigerian IJSDS contextual reading. University of Queensland and University of Toronto course outlines helped benchmark topic coverage.',
-        f"All {summary['isolated_tests']} isolated tests passed. Live checks verified 104 active courses, 552 resources, 32 file hashes and preserved earlier CBTs. Both academy domains serve the build. {ci}",
+        f"All {summary['isolated_tests']} isolated tests passed. Live checks verified 104 active courses, 552 resources, 32 file hashes and preserved earlier CBTs. Both academy domains serve the published materials. {ci}",
+        'Both domains were restored to the last verified academy deployment after they began serving an unrelated project. Phase 16 was pushed to SWEEP main and released through the live catalogue.',
         'The ParaLearn school exam draft covers all eight courses with 40 MCQ slots, six short answers and two essays. Student badges require verified course CBT passes. Certification also requires final mixed-exam verification, human marking and independent moderation, and the authorised signatures of the Head of Learning and Founder.',
         'Phase 16 brings the programme to 70 of 150 planned additions. Phase 17 covers Humanitarian Action and Disaster Response (HDR), with three courses to retain and five additions to develop.',
     ]
